@@ -2057,6 +2057,32 @@ html,body{height:100%;font-family:'IBM Plex Sans',sans-serif;background:var(--bg
   margin-left: 6px; flex-shrink: 0;
 }
 
+/* ═══════════════════════════════════════════════════════════════════
+   ROUGH WORK CANVAS
+═══════════════════════════════════════════════════════════════════ */
+.fab-rough {
+  position: fixed; bottom: 80px; right: 20px; z-index: 900;
+  background: #2563eb; color: white; border: none; border-radius: 50px;
+  padding: 12px 20px; font-size: 15px; font-weight: 600; cursor: pointer;
+  box-shadow: 0 4px 12px rgba(37,99,235,0.4); display: flex; align-items: center; gap: 8px;
+}
+#rough-canvas-container {
+  position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+  background: #1e1e1e; z-index: 9999; display: none;
+  flex-direction: column; align-items: center;
+}
+#rough-canvas { width: 100%; height: 100%; cursor: crosshair; touch-action: none; }
+.canvas-tools {
+  position: absolute; bottom: 30px; display: flex; gap: 10px;
+  background: rgba(0,0,0,0.6); padding: 12px; border-radius: 12px;
+  backdrop-filter: blur(5px);
+}
+.canvas-btn { padding: 10px 15px; border: none; border-radius: 8px; font-weight: 600; cursor: pointer; font-size: 14px; }
+.btn-pen { background: #10b981; color: white; }
+.btn-eraser { background: #ef4444; color: white; }
+.btn-clear { background: #f59e0b; color: white; }
+.btn-close { background: #374151; color: white; }
+
 </style>
 </head>
 <body>
@@ -5573,7 +5599,88 @@ function initWorkspace(){
 showScreen('homepage-screen');
 updateDashboardStats();
 document.body.style.background='#060d1f';
+<button class="fab-rough" onclick="toggleCanvas()">✍️ Rough Work</button>
 
-</script>
+<div id="rough-canvas-container">
+  <canvas id="rough-canvas"></canvas>
+  <div class="canvas-tools">
+    <button class="canvas-btn btn-pen" onclick="setTool('pen')">✏️ Pen</button>
+    <button class="canvas-btn btn-eraser" onclick="setTool('eraser')">🧽 Eraser</button>
+    <button class="canvas-btn btn-clear" onclick="clearCanvas()">🗑️ Clear</button>
+    <button class="canvas-btn btn-close" onclick="toggleCanvas()">❌ Close</button>
+  </div>
+</div>
+   
+/* ═══════════════════════════════════════════════════════════════════
+   ROUGH WORK CANVAS LOGIC
+═══════════════════════════════════════════════════════════════════ */
+const canvasContainer = document.getElementById('rough-canvas-container');
+const canvas = document.getElementById('rough-canvas');
+const ctx = canvas.getContext('2d');
+let isDrawing = false;
+let currentTool = 'pen';
+
+function toggleCanvas() {
+  if (canvasContainer.style.display === 'flex') {
+    canvasContainer.style.display = 'none';
+  } else {
+    canvasContainer.style.display = 'flex';
+    resizeCanvas();
+  }
+}
+
+function resizeCanvas() {
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+  ctx.lineCap = 'round';
+  ctx.lineJoin = 'round';
+}
+
+function setTool(tool) { currentTool = tool; }
+
+function clearCanvas() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+}
+
+function startPosition(e) {
+  isDrawing = true;
+  draw(e);
+}
+
+function endPosition() {
+  isDrawing = false;
+  ctx.beginPath();
+}
+
+function draw(e) {
+  if (!isDrawing) return;
+  e.preventDefault();
+  let x, y;
+  if (e.type.includes('touch')) {
+    x = e.touches[0].clientX;
+    y = e.touches[0].clientY;
+  } else {
+    x = e.clientX;
+    y = e.clientY;
+  }
+  ctx.lineWidth = currentTool === 'eraser' ? 25 : 3;
+  ctx.strokeStyle = currentTool === 'eraser' ? '#1e1e1e' : '#00e5ff';
+  ctx.lineTo(x, y);
+  ctx.stroke();
+  ctx.beginPath();
+  ctx.moveTo(x, y);
+}
+
+canvas.addEventListener('mousedown', startPosition);
+canvas.addEventListener('mouseup', endPosition);
+canvas.addEventListener('mousemove', draw);
+canvas.addEventListener('touchstart', startPosition, {passive: false});
+canvas.addEventListener('touchend', endPosition);
+canvas.addEventListener('touchmove', draw, {passive: false});
+window.addEventListener('resize', () => {
+  if (canvasContainer.style.display === 'flex') resizeCanvas();
+});
+
+</script>   
 </body>
 </html>
