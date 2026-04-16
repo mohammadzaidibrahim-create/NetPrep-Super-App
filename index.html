@@ -2983,7 +2983,18 @@ html,body{height:100%;font-family:'IBM Plex Sans',sans-serif;background:var(--bg
 <!-- ═══════════════════════════════════════════════════════════════════
      JAVASCRIPT
 ═══════════════════════════════════════════════════════════════════ -->
-<script src="data.js"></script>
+<button class="fab-rough" onclick="toggleCanvas()">✍️ Rough Work</button>
+
+<div id="rough-canvas-container">
+  <canvas id="rough-canvas"></canvas>
+  <div class="canvas-tools">
+    <button class="canvas-btn btn-pen" onclick="setTool('pen')">✏️ Pen</button>
+    <button class="canvas-btn btn-eraser" onclick="setTool('eraser')">🧽 Eraser</button>
+    <button class="canvas-btn btn-clear" onclick="clearCanvas()">🗑️ Clear</button>
+    <button class="canvas-btn btn-close" onclick="toggleCanvas()">❌ Close</button>
+  </div>
+</div> 
+  <script src="data.js"></script>
 <script>
 /* ══════════════════════════════════════════════════════════════════════
    PHASE 1: THE VAULT ENGINE (SAVE PYQ - ROBUST BUG FIX)
@@ -5599,18 +5610,7 @@ function initWorkspace(){
 showScreen('homepage-screen');
 updateDashboardStats();
 document.body.style.background='#060d1f';
-<button class="fab-rough" onclick="toggleCanvas()">✍️ Rough Work</button>
-
-<div id="rough-canvas-container">
-  <canvas id="rough-canvas"></canvas>
-  <div class="canvas-tools">
-    <button class="canvas-btn btn-pen" onclick="setTool('pen')">✏️ Pen</button>
-    <button class="canvas-btn btn-eraser" onclick="setTool('eraser')">🧽 Eraser</button>
-    <button class="canvas-btn btn-clear" onclick="clearCanvas()">🗑️ Clear</button>
-    <button class="canvas-btn btn-close" onclick="toggleCanvas()">❌ Close</button>
-  </div>
-</div>
-   
+  
 /* ═══════════════════════════════════════════════════════════════════
    ROUGH WORK CANVAS LOGIC
 ═══════════════════════════════════════════════════════════════════ */
