@@ -4601,6 +4601,34 @@ let PAPER2=wsLoad(LS_P2,defaultPaper2);
 function savePaper2(){wsSave(LS_P2,PAPER2);}
 
 /* ══════════════════════════════════════════════════════════════════════
+   BILINGUAL SMART ENGINE PATCH (CRASH FIX)
+══════════════════════════════════════════════════════════════════════ */
+function applySmartLanguagePatch(paperArray) {
+  paperArray.forEach(unit => {
+    // Purana data secure karna
+    if (!unit.titleEN && unit.title) {
+      unit.titleEN = unit.title;
+      unit.topicsEN = unit.topics || [];
+    }
+    // Smart Translator (Jab bhi app 'title' ya 'topics' maange, sahi language dena)
+    Object.defineProperty(unit, 'title', {
+      get: function() { return (typeof appLang !== 'undefined' && appLang === 'HI' && this.titleHI) ? this.titleHI : (this.titleEN || 'Untitled'); },
+      set: function(val) { if (typeof appLang !== 'undefined' && appLang === 'HI') this.titleHI = val; else this.titleEN = val; },
+      configurable: true, enumerable: true
+    });
+    Object.defineProperty(unit, 'topics', {
+      get: function() { return (typeof appLang !== 'undefined' && appLang === 'HI' && this.topicsHI) ? this.topicsHI : (this.topicsEN || []); },
+      set: function(val) { if (typeof appLang !== 'undefined' && appLang === 'HI') this.topicsHI = val; else this.topicsEN = val; },
+      configurable: true, enumerable: true
+    });
+  });
+}
+
+applySmartLanguagePatch(PAPER1);
+applySmartLanguagePatch(PAPER2);
+
+
+/* ══════════════════════════════════════════════════════════════════════
    WORKSPACE: TOPIC ID LOOKUP TABLE
 ══════════════════════════════════════════════════════════════════════ */
 const ID_META={};
