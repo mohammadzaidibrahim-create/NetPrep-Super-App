@@ -4707,18 +4707,20 @@ function _buildUnitItem(paperData,paperKey,unit,uIdx){
     toggleAcc(item);
   };
 
-  // Static title display
+  // Static title display & SMART LANGUAGE LOGIC
   const titleDisplay=document.createElement('div');
   titleDisplay.className='utw';
-  const _displayTitle = (appLang === 'HI' && unit.titleHI) ? unit.titleHI : (unit.titleEN || unit.title);
-  const _displayTopics = (appLang === 'HI' && unit.topicsHI) ? unit.topicsHI : (unit.topicsEN || unit.topics);
-
+  
+  // Ghost-Free Variables (Crash Proof)
+  const _displayTitle = (typeof appLang !== 'undefined' && appLang === 'HI' && unit.titleHI) ? unit.titleHI : (unit.titleEN || unit.title || "Untitled");
+  const _displayTopics = (typeof appLang !== 'undefined' && appLang === 'HI' && unit.topicsHI) ? unit.topicsHI : (unit.topicsEN || unit.topics || []);
 
   titleDisplay.innerHTML=`<div class="utitle" id="utitle_${uk}">Unit ${uIdx+1}: ${_displayTitle}</div><div class="ump"><div class="ump-track"><div class="ump-fill" id="uf_${uk}" style="width:0%"></div></div><span class="ump-count" id="uc_${uk}">0/${_displayTopics.length}</span></div>`;
-  // Inline edit wrap (P2 only — P1 titles are fixed)
+
+  // Inline edit wrap (P2 only) - THE GHOST IS REMOVED FROM HERE!
   const editWrap=document.createElement('div');
   editWrap.className='unit-title-edit-wrap';editWrap.id=`ute_${uk}`;
-    if(isP2){
+  if(isP2){
     editWrap.innerHTML=`<input class="unit-title-inp" id="utinp_${uk}" value="${_displayTitle.replace(/"/g,'&quot;')}" maxlength="80" onkeydown="if(event.key==='Enter')commitUnitEdit('${uk}',${uIdx});if(event.key==='Escape')_cancelUnitEdit(document.getElementById('acc_${uk}'))"/><button class="sub-add-btn" onclick="commitUnitEdit('${uk}',${uIdx})">Save</button><button class="sub-cancel-btn" onclick="_cancelUnitEdit(document.getElementById('acc_${uk}'))">✕</button>`;
   }
 
@@ -4728,41 +4730,35 @@ function _buildUnitItem(paperData,paperKey,unit,uIdx){
   head.appendChild(titleDisplay);
   head.appendChild(editWrap);
 
-  // ── Rename / Delete buttons: P2 ONLY (P1 unit structure is fixed) ──
   if(isP2){
-    const editBtn=document.createElement('button');
-    editBtn.className='edit-unit-btn';editBtn.textContent='✏️ Rename';
-    editBtn.title='Rename this unit';
-    editBtn.onclick=(e)=>{e.stopPropagation();_showUnitEdit(item,uk,uIdx);};
-    const delBtn=document.createElement('button');
-    delBtn.className='del-unit-btn';delBtn.textContent='🗑️';
-    delBtn.title='Delete this unit';
-    delBtn.onclick=(e)=>{e.stopPropagation();deleteUnit(uIdx);};
-    head.appendChild(editBtn);
-    head.appendChild(delBtn);
+    const actions=document.createElement('div');
+    actions.className='unit-actions';
+    actions.innerHTML=`<button class="edit-unit-btn" onclick="_openUnitEdit(document.getElementById('acc_${uk}'))">✎</button><button class="del-unit-btn" onclick="deleteUnit(${uIdx})">🗑</button>`;
+    head.appendChild(actions);
   }
-
-  const doneBadge=document.createElement('div');doneBadge.className='done-badge';doneBadge.id=`db_${uk}`;doneBadge.textContent='✓ Done';
-  const chev=document.createElement('span');chev.className='acc-chev';chev.textContent='▾';
-  head.appendChild(doneBadge);head.appendChild(chev);
+  item.appendChild(head);
 
   // ── Body ──
-  const body=document.createElement('div');body.className='acc-body';
-  const grid=document.createElement('div');grid.className='topics-grid';
-    // 🟢 TOPICS KO LOOP KARNA
-  _displayTopics.forEach((topic, tIdx) => {
-    const id = `${uk}_t${tIdx}`;
-    grid.appendChild(buildTopicItem(id, topic, paperKey, paperData, uIdx));
+  const body=document.createElement('div');
+  body.className='acc-body';
+  const grid=document.createElement('div');
+  grid.className='t-grid';
+
+  // SAFELY LOOPING TOPICS
+  _displayTopics.forEach((topic,tIdx)=>{
+    const id=`${uk}_t${tIdx}`;
+    grid.appendChild(buildTopicItem(id,topic,paperKey,paperData,uIdx));
   });
+
+  if(isP2){
+    const addWrap=document.createElement('div');
+    addWrap.className='add-topic-wrap';
+    addWrap.innerHTML=`<input type="text" id="nt_${uk}" class="new-topic-inp" placeholder="New topic..." onkeydown="if(event.key==='Enter')addTopic(${uIdx})"/><button class="sub-add-btn" onclick="addTopic(${uIdx})">Add</button>`;
+    grid.appendChild(addWrap);
+  }
+
   body.appendChild(grid);
-
-  // ── Add-topic row: available for BOTH P1 and P2 (shown when edit mode active) ──
-  const addTopicWrap=document.createElement('div');
-  addTopicWrap.className='add-topic-wrap';addTopicWrap.id=`atr_${uk}`;
-  addTopicWrap.innerHTML=`<input class="add-topic-inp" id="atinp_${uk}" placeholder="New topic name…" maxlength="80" onkeydown="if(event.key==='Enter')commitNewTopic('${uk}',${uIdx},'${paperKey}')"/><button class="add-topic-btn" onclick="commitNewTopic('${uk}',${uIdx},'${paperKey}')">➕ Add Topic</button>`;
-  body.appendChild(addTopicWrap);
-
-  item.appendChild(head);item.appendChild(body);
+  item.appendChild(body);
   return item;
 }
 
