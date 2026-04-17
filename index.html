@@ -4603,7 +4603,10 @@ function savePaper2(){wsSave(LS_P2,PAPER2);}
 /* ══════════════════════════════════════════════════════════════════════
    BILINGUAL SMART ENGINE PATCH (BULLETPROOF FIX)
 ══════════════════════════════════════════════════════════════════════ */
+var appLang = 'EN'; // 🟢 FIX: Engine crash rokne ke liye isko top par rakha hai
+
 function applySmartLanguagePatch(paperArray) {
+
   if (!paperArray || !Array.isArray(paperArray)) return;
   
   paperArray.forEach(unit => {
@@ -5711,7 +5714,6 @@ let wsInitialized=false;
 /* ═══════════════════════════════════════════════════════════════════
    CLEAN LANGUAGE TOGGLE ENGINE (PRO)
 ═══════════════════════════════════════════════════════════════════ */
-let appLang = 'EN';
 
 function toggleLanguage() {
   appLang = appLang === 'EN' ? 'HI' : 'EN';
