@@ -1266,6 +1266,46 @@ html,body{height:100%;font-family:'IBM Plex Sans',sans-serif;background:var(--bg
   margin-left:6px;white-space:nowrap;
 }
 
+/* ═══════════════════════════════════════════════════════════════════
+   LANGUAGE TOGGLE BUTTON
+═══════════════════════════════════════════════════════════════════ */
+.lang-toggle-wrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: auto;
+}
+.lang-btn {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: 1.5px solid rgba(255,255,255,.15);
+  background: rgba(255,255,255,.07);
+  color: rgba(255,255,255,.7);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all .2s;
+  letter-spacing: .3px;
+  white-space: nowrap;
+}
+.lang-btn:hover {
+  background: rgba(255,255,255,.12);
+  border-color: rgba(255,255,255,.28);
+  color: #fff;
+}
+.lang-btn.lang-hi {
+  background: rgba(16,185,129,.15);
+  border-color: rgba(16,185,129,.4);
+  color: #34d399;
+}
+.lang-btn.lang-hi:hover {
+  background: rgba(16,185,129,.25);
+}
+   
 /* 🟢 FIX: PRESERVE LINE BREAKS IN REVIEW & MISTAKE BOOK SCREEN 🟢 */
 .rev-question-text, 
 .rev-ans-expl, 
@@ -2797,6 +2837,9 @@ html,body{height:100%;font-family:'IBM Plex Sans',sans-serif;background:var(--bg
       <button class="ttb p1" onclick="switchTab('p1')">📘 Paper 1 <span class="tpct" id="tpct-p1">0%</span></button>
       <button class="ttb p2" id="tab-p2-btn" onclick="switchTab('p2')">🧬 Paper 2 <span class="tpct" id="tpct-p2">0%</span></button>
       <button class="ttb planner" onclick="switchTab('planner')">📅 Planner</button>
+      <div class="lang-toggle-wrap">
+        <button class="lang-btn" id="lang-toggle-btn" onclick="toggleLanguage()" title="Switch Language">🌐 EN</button>
+      </div>
     </div>
 
     <!-- DASHBOARD PANEL -->
@@ -4638,13 +4681,14 @@ function _buildUnitItem(paperData,paperKey,unit,uIdx){
   // Static title display
   const titleDisplay=document.createElement('div');
   titleDisplay.className='utw';
-  titleDisplay.innerHTML=`<div class="utitle" id="utitle_${uk}">Unit ${uIdx+1}: ${unit.title}</div><div class="ump"><div class="ump-track"><div class="ump-fill" id="uf_${uk}" style="width:0%"></div></div><span class="ump-count" id="uc_${uk}">0/${unit.topics.length}</span></div>`;
-
+  const _displayTitle = _getLangTitle(unit);
+  const _displayTopics = _getLangTopics(unit);
+  titleDisplay.innerHTML=`<div class="utitle" id="utitle_${uk}">Unit ${uIdx+1}: ${_displayTitle}</div><div class="ump"><div class="ump-track"><div class="ump-fill" id="uf_${uk}" style="width:0%"></div></div><span class="ump-count" id="uc_${uk}">0/${_displayTopics.length}</span></div>`;
   // Inline edit wrap (P2 only — P1 titles are fixed)
   const editWrap=document.createElement('div');
   editWrap.className='unit-title-edit-wrap';editWrap.id=`ute_${uk}`;
   if(isP2){
-    editWrap.innerHTML=`<input class="unit-title-inp" id="utinp_${uk}" value="${unit.title.replace(/"/g,'&quot;')}" maxlength="80" onkeydown="if(event.key==='Enter')commitUnitEdit('${uk}',${uIdx});if(event.key==='Escape')_cancelUnitEdit(document.getElementById('acc_${uk}'))"/><button class="sub-add-btn" onclick="commitUnitEdit('${uk}',${uIdx})">Save</button><button class="sub-cancel-btn" onclick="_cancelUnitEdit(document.getElementById('acc_${uk}'))">✕</button>`;
+  editWrap.innerHTML=`<input class="unit-title-inp" id="utinp_${uk}" value="${_getLangTitle(unit).replace(/"/g,'&quot;')}" maxlength="80" onkeydown="if(event.key==='Enter')commitUnitEdit('${uk}',${uIdx});if(event.key==='Escape')_cancelUnitEdit(document.getElementById('acc_${uk}'))"/><button class="sub-add-btn" onclick="commitUnitEdit('${uk}',${uIdx})">Save</button><button class="sub-cancel-btn" onclick="_cancelUnitEdit(document.getElementById('acc_${uk}'))">✕</button>`;
   }
 
   head.innerHTML='';
@@ -4674,7 +4718,8 @@ function _buildUnitItem(paperData,paperKey,unit,uIdx){
   // ── Body ──
   const body=document.createElement('div');body.className='acc-body';
   const grid=document.createElement('div');grid.className='topics-grid';
-  unit.topics.forEach((topic,tIdx)=>{
+  const _topicsToRender = _getLangTopics(unit);
+  _topicsToRender.forEach((topic,tIdx)=>{
     const id=`${uk}_t${tIdx}`;
     grid.appendChild(buildTopicItem(id,topic,paperKey,paperData,uIdx));
   });
@@ -5612,6 +5657,51 @@ function resetAll(){
    WORKSPACE: LAZY INIT
 ══════════════════════════════════════════════════════════════════════ */
 let wsInitialized=false;
+   
+/* ═══════════════════════════════════════════════════════════════════
+   LANGUAGE TOGGLE ENGINE
+═══════════════════════════════════════════════════════════════════ */
+let appLang = 'EN';
+
+function toggleLanguage() {
+  appLang = appLang === 'EN' ? 'HI' : 'EN';
+  const btn = document.getElementById('lang-toggle-btn');
+  if (btn) {
+    if (appLang === 'HI') {
+      btn.textContent = '🌐 हिं';
+      btn.classList.add('lang-hi');
+      btn.title = 'Switch to English';
+    } else {
+      btn.textContent = '🌐 EN';
+      btn.classList.remove('lang-hi');
+      btn.title = 'Switch to Hindi';
+    }
+  }
+  // Rebuild accordions with new language
+  _rebuildAccordionsForLang();
+}
+
+function _getLangTitle(unit) {
+  // Use Hindi title if available AND Hindi mode is active, else English/default
+  if (appLang === 'HI' && unit.titleHI) return unit.titleHI;
+  if (unit.titleEN) return unit.titleEN;
+  return unit.title || 'Untitled Unit'; // fallback for old data
+}
+
+function _getLangTopics(unit) {
+  // Use Hindi topics array if available AND Hindi mode is active
+  if (appLang === 'HI' && unit.topicsHI && unit.topicsHI.length > 0) return unit.topicsHI;
+  if (unit.topicsEN && unit.topicsEN.length > 0) return unit.topicsEN;
+  return unit.topics || []; // fallback for old data
+}
+
+function _rebuildAccordionsForLang() {
+  buildAccordion(PAPER1, 'p1', 'acc-p1');
+  buildAccordion(PAPER2, 'p2', 'acc-p2');
+  rebuildDash();
+  updateMaster();
+}
+
 function initWorkspace(){
   wsInitialized=true;
   document.getElementById('today-date').textContent=new Date().toLocaleDateString('en-IN',{weekday:'short',day:'numeric',month:'short'});
@@ -5622,6 +5712,7 @@ function initWorkspace(){
   renderTasks();
   updatePlannerAnalytics();
   renderStreakBanner();
+  renderLists();
 }
 
 /* ══════════════════════════════════════════════════════════════════════
