@@ -4601,29 +4601,52 @@ let PAPER2=wsLoad(LS_P2,defaultPaper2);
 function savePaper2(){wsSave(LS_P2,PAPER2);}
 
 /* ══════════════════════════════════════════════════════════════════════
-   BILINGUAL SMART ENGINE PATCH (CRASH FIX)
+   BILINGUAL SMART ENGINE PATCH (BULLETPROOF FIX)
 ══════════════════════════════════════════════════════════════════════ */
 function applySmartLanguagePatch(paperArray) {
+  if (!paperArray || !Array.isArray(paperArray)) return;
+  
   paperArray.forEach(unit => {
-    // Purana data secure karna
-    if (!unit.titleEN && unit.title) {
+    // 1. If it's old data, manually migrate it to the new EN fields
+    // We use a hidden backup property (_oldTitle) to prevent infinite loops
+    if (unit.title && !unit.titleEN) {
+      unit._oldTitle = unit.title;
       unit.titleEN = unit.title;
-      unit.topicsEN = unit.topics || [];
     }
-    // Smart Translator (Jab bhi app 'title' ya 'topics' maange, sahi language dena)
+    if (unit.topics && !unit.topicsEN) {
+      unit._oldTopics = [...unit.topics];
+      unit.topicsEN = [...unit.topics];
+    }
+
+    // 2. Define the smart getters. 
+    // CRITICAL: We MUST fallback to _oldTitle/unit.title if EN is missing
     Object.defineProperty(unit, 'title', {
-      get: function() { return (typeof appLang !== 'undefined' && appLang === 'HI' && this.titleHI) ? this.titleHI : (this.titleEN || 'Untitled'); },
-      set: function(val) { if (typeof appLang !== 'undefined' && appLang === 'HI') this.titleHI = val; else this.titleEN = val; },
+      get: function() { 
+        if (typeof appLang !== 'undefined' && appLang === 'HI' && this.titleHI) return this.titleHI;
+        return this.titleEN || this._oldTitle || 'Untitled Unit'; 
+      },
+      set: function(val) { 
+        if (typeof appLang !== 'undefined' && appLang === 'HI') this.titleHI = val; 
+        else { this.titleEN = val; this._oldTitle = val; }
+      },
       configurable: true, enumerable: true
     });
+
     Object.defineProperty(unit, 'topics', {
-      get: function() { return (typeof appLang !== 'undefined' && appLang === 'HI' && this.topicsHI) ? this.topicsHI : (this.topicsEN || []); },
-      set: function(val) { if (typeof appLang !== 'undefined' && appLang === 'HI') this.topicsHI = val; else this.topicsEN = val; },
+      get: function() { 
+        if (typeof appLang !== 'undefined' && appLang === 'HI' && this.titleHI) return this.topicsHI || [];
+        return this.topicsEN || this._oldTopics || []; 
+      },
+      set: function(val) { 
+        if (typeof appLang !== 'undefined' && appLang === 'HI') this.topicsHI = val; 
+        else { this.topicsEN = val; this._oldTopics = val; }
+      },
       configurable: true, enumerable: true
     });
   });
 }
 
+// Apply patch safely
 applySmartLanguagePatch(PAPER1);
 applySmartLanguagePatch(PAPER2);
 
