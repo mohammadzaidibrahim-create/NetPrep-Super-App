@@ -4770,10 +4770,14 @@ function _buildUnitItem(paperData,paperKey,unit,uIdx){
   const grid=document.createElement('div');
   grid.className='t-grid';
 
-  // SAFELY LOOPING TOPICS
-  _displayTopics.forEach((topic,tIdx)=>{
-    const id=`${uk}_t${tIdx}`;
-    grid.appendChild(buildTopicItem(id,topic,paperKey,paperData,uIdx));
+    // 🟢 SMART BILINGUAL LOOP (Saves in English, Displays in Hindi/EN)
+  _displayTopics.forEach((displayTopic, tIdx) => {
+    const id = `${uk}_t${tIdx}`;
+    
+    // Safety check: Make sure we get the English key for storage
+    const internalKey = (unit.topicsEN && unit.topicsEN[tIdx]) ? unit.topicsEN[tIdx] : displayTopic;
+    
+    grid.appendChild(buildTopicItem(id, displayTopic, paperKey, paperData, uIdx, internalKey));
   });
 
   if(isP2){
@@ -4788,69 +4792,128 @@ function _buildUnitItem(paperData,paperKey,unit,uIdx){
   return item;
 }
 
-function buildTopicItem(id,topic,paperKey,paperData,uIdx){
-  const e=getE(id);
-  const el=document.createElement('div');
-  el.className='topic-item'+(e.checked?' checked':'')+(e.prof?` prof-${e.prof}`:'')+(e.starred?' starred-item':'');
-  el.dataset.id=id;
+function buildTopicItem(id, displayTopic, paperKey, paperData, uIdx, internalKey) {
+  // Agar internalKey pass nahi hui, toh backup ke liye displayTopic hi use karo
+  const storageKey = internalKey || displayTopic; 
+  
+  // Ab localStorage mein hamesha storageKey dhoondha jayega!
+  const e = getE(storageKey); 
+  
+  const el = document.createElement('div');
+  el.className = 'topic-item' + (e.checked ? ' checked' : '') + (e.prof ? ` prof-${e.prof}` : '') + (e.starred ? ' starred-item' : '');
+  
+  // DOM element ko DUAL memory di hai: id (UI ke liye) aur dataset.skey (Data save karne ke liye)
+  el.dataset.id = id;
+  el.dataset.skey = storageKey; 
 
-  // ── Edit/Delete buttons: now available for BOTH P1 and P2 when edit mode is active ──
-  const editDelHtml=`<button class="topic-edit-btn" data-tedit="${id}" title="Edit topic name">✏️</button><button class="topic-del-btn" data-tdel="${id}" title="Delete topic">🗑️</button>`;
+  // ── Edit/Delete buttons ──
+  const editDelHtml = `<button class="topic-edit-btn" data-tedit="${id}" title="Edit topic name">✏️</button><button class="topic-del-btn" data-tdel="${id}" title="Delete topic">🗑️</button>`;
 
-  el.innerHTML=`<div class="chkbox" data-chk="${id}"><div class="chk-icon"><svg viewBox="0 0 10 8" fill="none"><polyline points="1,4 4,7 9,1" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div></div><div class="topic-right"><div class="t-row1"><span class="topic-label" id="tlbl_${id}">${topic}</span><input class="topic-label-edit" id="tedit_${id}" value="${topic.replace(/"/g,'&quot;')}" maxlength="80"/>${editDelHtml}<button class="star-btn${e.starred?' active':''}" data-star="${id}" title="Star this topic">⭐</button></div><div class="prof-row"><button class="pb${e.prof==='weak'?' aw':''}" data-pb="${id}" data-p="weak">W</button><button class="pb${e.prof==='moderate'?' am':''}" data-pb="${id}" data-p="moderate">M</button><button class="pb${e.prof==='strong'?' as':''}" data-pb="${id}" data-p="strong">S</button></div><div class="add-sub-wrap"><button class="add-sub-btn" data-addsub="${id}">＋ Add Specific Topic</button><div class="sub-input-row" id="subrow_${id}" style="display:none"><input class="sub-input" id="subinp_${id}" placeholder="Specific topic name…" maxlength="80" onkeydown="if(event.key==='Enter')commitSub('${id}')"/><button class="sub-add-btn" onclick="commitSub('${id}')">Add</button><button class="sub-cancel-btn" onclick="cancelSub('${id}')">✕</button></div><div class="subtopics-list" id="sublist_${id}"></div></div></div>`;
+  // Yahan UI par hamesha "displayTopic" dikhega (Hindi ya English)
+  el.innerHTML = `
+    <div class="chkbox" data-chk="${id}">
+      <div class="chk-icon">
+        <svg viewBox="0 0 10 8" fill="none"><polyline points="1,4 4,7 9,1" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+    </div>
+    <div class="topic-right">
+      <div class="t-row1">
+        <span class="topic-label" id="tlbl_${id}">${displayTopic}</span>
+        <input class="topic-label-edit" id="tedit_${id}" value="${displayTopic.replace(/"/g, '&quot;')}" maxlength="80"/>
+        ${editDelHtml}
+        <button class="star-btn${e.starred ? ' active' : ''}" data-star="${id}" title="Star this topic">⭐</button>
+      </div>
+      <div class="prof-row">
+        <button class="pb${e.prof === 'weak' ? ' aw' : ''}" data-pb="${id}" data-p="weak">W</button>
+        <button class="pb${e.prof === 'moderate' ? ' am' : ''}" data-pb="${id}" data-p="moderate">M</button>
+        <button class="pb${e.prof === 'strong' ? ' as' : ''}" data-pb="${id}" data-p="strong">S</button>
+      </div>
+      <div class="add-sub-wrap">
+        <button class="add-sub-btn" data-addsub="${id}">＋ Add Specific Topic</button>
+        <div class="sub-input-row" id="subrow_${id}" style="display:none">
+          <input class="sub-input" id="subinp_${id}" placeholder="Specific topic name…" maxlength="80" onkeydown="if(event.key==='Enter')commitSub('${id}', '${storageKey}')"/>
+          <button class="sub-add-btn" onclick="commitSub('${id}', '${storageKey}')">Add</button>
+          <button class="sub-cancel-btn" onclick="cancelSub('${id}')">✕</button>
+        </div>
+        <div class="subtopics-list" id="sublist_${id}"></div>
+      </div>
+    </div>`;
 
   // ── Checkbox ──
-  el.querySelector(`[data-chk="${id}"]`).addEventListener('click',ev=>{
-    ev.stopPropagation();const ne=getE(id);ne.checked=!ne.checked;saveS();
-    el.classList.toggle('checked',ne.checked);if(ne.checked)spawnCf(ev);
-    recalcUnit(paperData,paperKey,uIdx);updateMaster();rebuildDash();
+  el.querySelector(`[data-chk="${id}"]`).addEventListener('click', ev => {
+    ev.stopPropagation(); 
+    const ne = getE(storageKey); 
+    ne.checked = !ne.checked; 
+    saveS();
+    el.classList.toggle('checked', ne.checked); 
+    if (ne.checked) spawnCf(ev);
+    recalcUnit(paperData, paperKey, uIdx); updateMaster(); rebuildDash();
   });
+
   // ── Star ──
-  el.querySelector(`[data-star="${id}"]`).addEventListener('click',ev=>{
-    ev.stopPropagation();const ne=getE(id);ne.starred=!ne.starred;saveS();
-    ev.currentTarget.classList.toggle('active',ne.starred);el.classList.toggle('starred-item',ne.starred);
-    updateMaster();rebuildDash();
+  el.querySelector(`[data-star="${id}"]`).addEventListener('click', ev => {
+    ev.stopPropagation(); 
+    const ne = getE(storageKey); 
+    ne.starred = !ne.starred; 
+    saveS();
+    ev.currentTarget.classList.toggle('active', ne.starred); 
+    el.classList.toggle('starred-item', ne.starred);
+    updateMaster(); rebuildDash();
   });
+
   // ── Proficiency ──
-  el.querySelectorAll(`[data-pb="${id}"]`).forEach(btn=>{
-    btn.addEventListener('click',ev=>{
-      ev.stopPropagation();const p=btn.dataset.p;const ne=getE(id);const cur=ne.prof;
-      ne.prof=cur===p?null:p;saveS();
-      el.querySelectorAll(`[data-pb="${id}"]`).forEach(b=>b.classList.remove('aw','am','as'));
-      if(ne.prof){const map={weak:'aw',moderate:'am',strong:'as'};btn.classList.add(map[ne.prof]);}
-      el.classList.remove('prof-weak','prof-moderate','prof-strong');
-      if(ne.prof)el.classList.add(`prof-${ne.prof}`);
-      updateMaster();rebuildDash();
+  el.querySelectorAll(`[data-pb="${id}"]`).forEach(btn => {
+    btn.addEventListener('click', ev => {
+      ev.stopPropagation(); 
+      const p = btn.dataset.p; 
+      const ne = getE(storageKey); 
+      const cur = ne.prof;
+      ne.prof = cur === p ? null : p; 
+      saveS();
+      
+      el.querySelectorAll(`[data-pb="${id}"]`).forEach(b => b.classList.remove('aw', 'am', 'as'));
+      if (ne.prof) { 
+        const map = { weak: 'aw', moderate: 'am', strong: 'as' }; 
+        btn.classList.add(map[ne.prof]); 
+      }
+      el.classList.remove('prof-weak', 'prof-moderate', 'prof-strong');
+      if (ne.prof) el.classList.add(`prof-${ne.prof}`);
+      
+      updateMaster(); rebuildDash();
     });
   });
+
   // ── Add sub-topic ──
-  el.querySelector(`[data-addsub="${id}"]`).addEventListener('click',ev=>{
-    ev.stopPropagation();const row=document.getElementById(`subrow_${id}`);
-    row.style.display=row.style.display==='none'?'flex':'none';
-    if(row.style.display==='flex')document.getElementById(`subinp_${id}`).focus();
-  });
-  (getE(id).customChildren||[]).forEach(child=>{
-    document.getElementById(`sublist_${id}`).appendChild(buildSubItem(id,child,paperKey,paperData,uIdx));
+  el.querySelector(`[data-addsub="${id}"]`).addEventListener('click', ev => {
+    ev.stopPropagation(); 
+    const row = document.getElementById(`subrow_${id}`);
+    row.style.display = row.style.display === 'none' ? 'flex' : 'none';
+    if (row.style.display === 'flex') document.getElementById(`subinp_${id}`).focus();
   });
 
-  // ── Inline topic rename & delete (universal — P1 and P2) ──
-  const editInp=el.querySelector(`#tedit_${id}`);
-  editInp.addEventListener('keydown',ev=>{
-    if(ev.key==='Enter'){ev.stopPropagation();commitTopicEdit(id,uIdx,el,paperKey);}
-    if(ev.key==='Escape'){ev.stopPropagation();_cancelTopicEdit(el);}
+  // Render Subtopics using Storage Key
+  (getE(storageKey).customChildren || []).forEach(child => {
+    document.getElementById(`sublist_${id}`).appendChild(buildSubItem(storageKey, child, paperKey, paperData, uIdx));
   });
-  editInp.addEventListener('click',ev=>ev.stopPropagation());
 
-  const editBtn=el.querySelector(`[data-tedit="${id}"]`);
-  if(editBtn) editBtn.addEventListener('click',ev=>{
+  // ── Inline topic rename & delete ──
+  const editInp = el.querySelector(`#tedit_${id}`);
+  editInp.addEventListener('keydown', ev => {
+    if (ev.key === 'Enter') { ev.stopPropagation(); commitTopicEdit(id, uIdx, el, paperKey); }
+    if (ev.key === 'Escape') { ev.stopPropagation(); _cancelTopicEdit(el); }
+  });
+  editInp.addEventListener('click', ev => ev.stopPropagation());
+
+  const editBtn = el.querySelector(`[data-tedit="${id}"]`);
+  if (editBtn) editBtn.addEventListener('click', ev => {
     ev.stopPropagation();
-    el.querySelector(`#tlbl_${id}`).style.display='none';
-    editInp.classList.add('vis');editInp.focus();editInp.select();
+    el.querySelector(`#tlbl_${id}`).style.display = 'none';
+    editInp.classList.add('vis'); editInp.focus(); editInp.select();
   });
 
-  const delBtn=el.querySelector(`[data-tdel="${id}"]`);
-  if(delBtn) delBtn.addEventListener('click',ev=>{
-    ev.stopPropagation();deleteTopic(uIdx,id,el,paperKey);
+  const delBtn = el.querySelector(`[data-tdel="${id}"]`);
+  if (delBtn) delBtn.addEventListener('click', ev => {
+    ev.stopPropagation(); deleteTopic(uIdx, id, el, paperKey);
   });
 
   return el;
@@ -5130,13 +5193,22 @@ function rebuildDash(){
   let wkP2=[], strP2=[], starP2=[];
 
   Object.entries(ID_META).forEach(([id, meta]) => {
-    const e     = getE(id);
-    const isP1  = meta.paperKey === 'p1'; // BUG 1 FIX: use meta.paperKey not id.includes()
+    // meta.text mein Display text hota hai. Storage ke liye internalKey dhoondho.
+    let paperData = meta.paperKey === 'p1' ? PAPER1 : PAPER2;
+    let unit = paperData[meta.unitIdx];
+    let topicIdx = parseInt(id.split('_t').pop());
+    
+    // Internal Key is ALWAYS English. If missing, fallback to display text.
+    let internalKey = (unit && unit.topicsEN && unit.topicsEN[topicIdx]) ? unit.topicsEN[topicIdx] : meta.text;
+    
+    // Get stored data using the stable English Internal Key
+    const e     = getE(internalKey);
+    const isP1  = meta.paperKey === 'p1';
 
     // ── Parent topic ──────────────────────────────────
     const parentItem = {
-      id,
-      text:      meta.text,
+      id:        internalKey, // ID ab internal key hai data sync ke liye
+      text:      meta.text,   // Text hamesha wahi rahega jo Hindi/Eng button ne set kiya hai
       label:     meta.paperLabel,
       unit:      meta.unitTitle,
       checked:   e.checked,
@@ -5147,13 +5219,9 @@ function rebuildDash(){
     if (e.prof === 'weak')   { isP1 ? wkP1.push(parentItem)  : wkP2.push(parentItem);  }
     if (e.prof === 'strong') { isP1 ? strP1.push(parentItem) : strP2.push(parentItem); }
     if (e.starred)           { isP1 ? starP1.push(parentItem): starP2.push(parentItem);}
-    // BUG 1 FIX: was `e.star` — correct property is `e.starred`
 
     // ── Sub-topics ────────────────────────────────────
-    // BUG 3 FIX: sub-topics live in `e.customChildren` inside S object,
-    // NOT in `meta.children` (ID_META entries have no children property)
     (e.customChildren || []).forEach(child => {
-      // child objects are: { id, text, checked, prof, starred }
       const childItem = {
         id:       child.id,
         text:     child.text,
@@ -5161,29 +5229,25 @@ function rebuildDash(){
         unit:     meta.unitTitle,
         checked:  child.checked,
         isChild:  true,
-        parentId: id
+        parentId: internalKey
       };
 
       if (child.prof === 'weak')   { isP1 ? wkP1.push(childItem)  : wkP2.push(childItem);  }
       if (child.prof === 'strong') { isP1 ? strP1.push(childItem) : strP2.push(childItem); }
       if (child.starred)           { isP1 ? starP1.push(childItem): starP2.push(childItem);}
-      // BUG 1 FIX repeated: was `ce.star` — correct property is `child.starred`
     });
   });
 
-  // ── 3. Render Paper 1 lists ───────────────────────────────────────
-  // BUG 2 FIX: pass the full array to renderDashList (not per-item forEach)
+  // ── 3. Render Lists ───────────────────────────────────────
   if(w1)  renderDashList(w1,  wkP1,  'weak');
   if(s1)  renderDashList(s1,  strP1, 'strong');
   if(st1) renderDashList(st1, starP1,'starred');
-
-  // ── 4. Render Paper 2 lists ───────────────────────────────────────
   if(w2)  renderDashList(w2,  wkP2,  'weak');
   if(s2)  renderDashList(s2,  strP2, 'strong');
   if(st2) renderDashList(st2, starP2,'starred');
 
-  // ── 5. Update the card counter pills ─────────────────────────────
-  const set = (id, val) => { const el=document.getElementById(id); if(el) el.textContent=val; };
+  // ── 4. Update the card counter pills ─────────────────────────────
+  const set = (elmId, val) => { const el=document.getElementById(elmId); if(el) el.textContent=val; };
   set('cnt-weak-p1',   wkP1.length);
   set('cnt-strong-p1', strP1.length);
   set('cnt-star-p1',   starP1.length);
@@ -5191,14 +5255,9 @@ function rebuildDash(){
   set('cnt-strong-p2', strP2.length);
   set('cnt-star-p2',   starP2.length);
 
-  // ── 6. Update global top-bar stats ───────────────────────────────
-  // BUG 4 FIX: do NOT recount here — updateMaster() uses countAllProfs()
-  // which correctly reads all of S including subtopics. Just sync the
-  // three summary numbers that rebuildDash uniquely owns.
   set('s-wk',   wkP1.length  + wkP2.length);
   set('s-st',   strP1.length + strP2.length);
   set('s-star', starP1.length + starP2.length);
-  // NOTE: s-cov is owned by updateMaster() → do not overwrite here
 }
 
 function renderDashList(container,items,kind){
