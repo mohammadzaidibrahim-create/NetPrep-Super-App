@@ -5179,21 +5179,29 @@ function rebuildDash(){
   let wkP1=[], strP1=[], starP1=[], wkP2=[], strP2=[], starP2=[];
 
   Object.entries(ID_META).forEach(([id, meta]) => {
-    const e = getE(id);
-    const isP1 = meta.paperKey === 'p1';
+    // 1. ID (jaise p1_u0_t0) se Address nikalo
+    const parts = id.split('_'); 
+    const pKey = parts[0]; 
+    const uIdx = parseInt(parts[1].replace('u', '')); 
+    const tIdx = parseInt(parts[2].replace('t', '')); 
     
-    // 🟢 DYNAMIC LOOKUP: Har baar Smart Patch se current language (Hindi/EN) uthao!
+    const isP1 = pKey === 'p1';
     const paper = isP1 ? PAPER1 : PAPER2;
-    const unit = paper[meta.unitIdx];
-    const topicIdx = parseInt(id.split('_t').pop());
+    const unit = paper[uIdx];
     
-    // Yahan jadoo hai: 'unit.topics' hamesha wahi bhasha dega jo button se select hui hai!
-    const liveText = (unit && unit.topics && unit.topics[topicIdx]) ? unit.topics[topicIdx] : meta.text;
+    // 🟢 BUG FIX: Data Godown mein English naam se save hua hai, wahi dhoondho!
+    const internalKey = (unit && unit.topicsEN && unit.topicsEN[tIdx]) ? unit.topicsEN[tIdx] : meta.text;
+    
+    // 🟢 Sahi dibbe se Data uthao (id ki jagah internalKey use kiya)
+    const e = getE(internalKey);
+    
+    // 🟢 Display Text: Button ke hisaab se Hindi ya English uthao
+    const liveText = (unit && unit.topics && unit.topics[tIdx]) ? unit.topics[tIdx] : meta.text;
     const liveUnitTitle = (unit && unit.title) ? unit.title : meta.unitTitle;
 
     const item = {
-      id,
-      text: liveText, // Current language wala text!
+      id: id,
+      text: liveText, // Current Language Text!
       label: meta.paperLabel,
       unit: liveUnitTitle,
       checked: e.checked,
