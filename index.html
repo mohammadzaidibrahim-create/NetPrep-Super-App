@@ -2629,6 +2629,7 @@ html,body{height:100%;font-family:'IBM Plex Sans',sans-serif;background:var(--bg
         </div>
       </div>
       <div id="timer-wrap">
+        <button class="lang-btn" id="test-lang-toggle" onclick="toggleTestLanguage()" title="Switch Language" style="margin-right: 15px; font-size: 11px; padding: 4px 12px;">🌐 EN</button>
         <span class="timer-label">Time Left</span>
         <div id="timer">02:00:00</div>
         <button id="btn-pause">⏸ Pause</button>
@@ -3933,6 +3934,26 @@ const qAnswer   = Array(TOTAL_MAX).fill(null);
 const visited   = Array(TOTAL_MAX).fill(false);
 let currentQ    = 0;
 let timerSecs   = 2 * 60 * 60;
+let testLang    = 'EN'; // 🟢 NEW: Tracks test language state
+
+// 🟢 NEW: Function to toggle language during the live test
+function toggleTestLanguage() {
+  testLang = testLang === 'EN' ? 'HI' : 'EN';
+  const btn = document.getElementById('test-lang-toggle');
+  if (btn) {
+    if (testLang === 'HI') {
+      btn.innerHTML = '🌐 हिं';
+      btn.classList.add('lang-hi');
+    } else {
+      btn.innerHTML = '🌐 EN';
+      btn.classList.remove('lang-hi');
+    }
+  }
+  // Re-render the current question dynamically without losing answer state
+  if (document.getElementById('test-screen').classList.contains('active')) {
+    renderQuestion(currentQ);
+  }
+}
 let timerHandle=null;
 let isPaused=false;
 
@@ -4022,8 +4043,8 @@ function renderQuestion(idx){
   const diff = q.difficulty ? q.difficulty.charAt(0).toUpperCase() + q.difficulty.slice(1) : 'Medium';
     // Inject ID, Difficulty AND Save Button
   document.querySelector('.q-section-tag').innerHTML = `ID: ${qId} &nbsp;·&nbsp; Level: ${diff} <button class="save-pyq-btn" onclick="savePYQ(${idx}, this)">⭐ Save PYQ</button>`;
-  // Support both Bilingual schema (q.content.en) and legacy schema
-  const _qData    = (q.content && q.content.en) ? q.content.en : q;
+  // 🟢 SMART FETCH: Pull data based on current testLang!
+  const _qData = (q.content && testLang === 'HI' && q.content.hi) ? q.content.hi : ((q.content && q.content.en) ? q.content.en : q);
   const _qText    = (_qData.question    || '').replace(/\n/g, '<br>');
   const _qOptions = _qData.options      || [];
 
@@ -4151,9 +4172,8 @@ TOTAL = mockQuestions.length; // sync live count
     const headerCls=isSkipped?'h-skipped':(isCorrect?'h-correct':'h-incorrect');
     const verdictIcon=isCorrect?'✅ Correct':(isSkipped?'⏭ Skipped':'❌ Incorrect');
     
-// Support both Bilingual schema (q.content.en) and legacy schema
-    const _src = (q.content && q.content.en) ? q.content.en : q;
-
+// 🟢 SMART BILINGUAL SUPPORT FOR REVIEW & MISTAKE BOOK
+    const _src = (q.content && testLang === 'HI' && q.content.hi) ? q.content.hi : ((q.content && q.content.en) ? q.content.en : q);
     // 🟢 BUG FIXED: Preserving line breaks with <br> 🟢
     const qText = (_src.question || '').replace(/\n/g, '<br>');
     
@@ -4199,7 +4219,10 @@ TOTAL = mockQuestions.length; // sync live count
     mbContainer.innerHTML=`<div class="mb-empty"><div class="me-icon">🎉</div><h3>Perfect — No Mistakes!</h3><p>You answered every attempted question correctly. Outstanding work!</p></div>`;
   } else {
     const today=new Date().toLocaleDateString('en-IN',{day:'2-digit',month:'short',year:'numeric'});
-    let html=`<div class="mb-header-pdf"><div><h3>📕 My Mistake Book</h3><p>UGC NET Anthropology — June 2025 PYQ · Generated: ${today}</p></div><div style="text-align:right;"><div style="font-size:28px;font-weight:700;font-family:'IBM Plex Mono',monospace;">${incorrect}</div><div style="font-size:11px;opacity:.75;">Incorrect Answers</div></div></div>`;
+    // 🟢 DYNAMIC MISTAKE BOOK HEADERS
+    let mbTitle = testLang === 'HI' ? '📕 मेरी मिस्टेक बुक (My Mistake Book)' : '📕 My Mistake Book';
+    let mbSub = testLang === 'HI' ? 'गलत उत्तर (Incorrect Answers)' : 'Incorrect Answers';
+    let html=`<div class="mb-header-pdf"><div><h3>${mbTitle}</h3><p>UGC NET PYQ · Generated: ${today}</p></div><div style="text-align:right;"><div style="font-size:28px;font-weight:700;font-family:'IBM Plex Mono',monospace;">${incorrect}</div><div style="font-size:11px;opacity:.75;">${mbSub}</div></div></div>`;
     mockQuestions.forEach((q,i)=>{const card=buildReviewCard(q,i,false);if(card)html+=card;});
     mbContainer.innerHTML=html;
   }
@@ -4217,10 +4240,10 @@ TOTAL = mockQuestions.length; // sync live count
       if (qAnswer[i] === null) return; // Only analyze attempted questions
       attemptedCount++;
 
-     // For P1 questions: topic IS the unit (e.g. "Unit 8: ICT")
-      // For P2 questions: unit and topic are separate fields
-      let u = q.unit || q.topic || 'General';
-      let t = (q.unit && q.topic && q.topic !== q.unit) ? q.topic : null;
+     // 🟢 AI ANALYTICS: Read dynamic metadata based on language
+      let u = (testLang === 'HI' && q.unitHI) ? q.unitHI : (q.unitEN || q.unit || q.topic || 'General');
+      let t = (testLang === 'HI' && q.topicHI) ? q.topicHI : (q.topicEN || q.topic || null);
+      if (t && t === u) t = null;
 
       if(!analysis[u]) analysis[u] = { total: 0, correct: 0, topics: {} };
       analysis[u].total++;
@@ -4276,36 +4299,45 @@ TOTAL = mockQuestions.length; // sync live count
       } 
     });
 
-    // Step 3: Build the Premium HTML Report
+    // Step 3: Build the Premium HTML Report (BILINGUAL)
+    let insightsText = testLang === 'HI' ? "आपके मॉक टेस्ट सबमिशन के आधार पर, आपके वर्कस्पेस ट्रैकर से सीधे मैप किया गया माइक्रो-टॉपिक विश्लेषण यहां दिया गया है:" : "Based on your mock test submission, here is your micro-topic analysis mapped directly to your Workspace Tracker:";
+    let weakTitle = testLang === 'HI' ? "उच्च प्राथमिकता वाले कमजोर क्षेत्र (ट्रैकर में 'W' चिह्नित करें)" : "High-Priority Weak Areas (Mark 'W' in Tracker)";
+    let weakSub = testLang === 'HI' ? "विशिष्ट विषय जिन्हें दोहराने की आवश्यकता है:" : "Specific Topics to Revise:";
+    let weakFallback = testLang === 'HI' ? "पूरी इकाई को दोहराने की आवश्यकता है" : "Need to revise the entire unit";
+    let strongTitle = testLang === 'HI' ? "मजबूत क्षेत्र (ट्रैकर में 'S' चिह्नित करें)" : "Strong Areas (Mark 'S' in Tracker)";
+    let strongSub = testLang === 'HI' ? "महारत हासिल विषय:" : "Mastered Topics:";
+    let strongFallback = testLang === 'HI' ? "✅ इस इकाई पर समग्र पकड़ मजबूत है" : "✅ Strong overall grasp of this unit";
+    let mentorPlan = testLang === 'HI' ? "<strong>💡 मेंटर की कार्य योजना:</strong> अभी अपने वर्कस्पेस पर जाएं। ऊपर दिए गए 🔴 लाल अनुभाग में उल्लिखित सटीक विषयों को ढूंढें और उन्हें 'W' (कमजोर) के रूप में चिह्नित करें। उन्हें कल के लिए अपने दैनिक योजनाकार में जोड़ें!" : "<strong>💡 Mentor's Action Plan:</strong> Go to your Workspace right now. Find the exact topics mentioned in the 🔴 Red section above and mark them as 'W' (Weak). Add them to your Daily Planner for tomorrow!";
+
     let html = `<div style="font-family:'IBM Plex Sans',sans-serif; line-height:1.6; color:#1a1f36;">`;
-    html += `<div style="margin-bottom:16px; font-size:13px; color:#4b5563;">Based on your mock test submission, here is your micro-topic analysis mapped directly to your Workspace Tracker:</div>`;
+    html += `<div style="margin-bottom:16px; font-size:13px; color:#4b5563;">${insightsText}</div>`;
 
     if(weakList.length > 0) {
-      html += `<h4 style="color:#dc2626; font-size:14px; margin-bottom:8px; display:flex; align-items:center; gap:6px;"><span>🔴</span> High-Priority Weak Areas (Mark 'W' in Tracker)</h4>`;
+      html += `<h4 style="color:#dc2626; font-size:14px; margin-bottom:8px; display:flex; align-items:center; gap:6px;"><span>🔴</span> ${weakTitle}</h4>`;
       html += `<div style="background:rgba(239,68,68,0.05); border:1px solid rgba(239,68,68,0.2); border-radius:8px; padding:12px; margin-bottom:20px;">`;
       weakList.forEach(w => {
          html += `<div style="margin-bottom:10px; border-bottom:1px solid rgba(239,68,68,0.1); padding-bottom:8px;">
             <strong style="font-size:13px; color:#991b1b; display:block; margin-bottom:4px;">${w.unit} (${Math.round(w.pct)}% Correct)</strong>
-            <span style="font-size:12px; color:#b91c1c; display:block;"><b>Specific Topics to Revise:</b> ${w.topics.length > 0 ? w.topics.join(', ') : 'Need to revise the entire unit'}</span>
+            <span style="font-size:12px; color:#b91c1c; display:block;"><b>${weakSub}</b> ${w.topics.length > 0 ? w.topics.join(', ') : weakFallback}</span>
          </div>`;
       });
       html += `</div>`;
     }
 
     if(strongList.length > 0) {
-      html += `<h4 style="color:#16a34a; font-size:14px; margin-bottom:8px; display:flex; align-items:center; gap:6px;"><span>🟢</span> Strong Areas (Mark 'S' in Tracker)</h4>`;
+      html += `<h4 style="color:#16a34a; font-size:14px; margin-bottom:8px; display:flex; align-items:center; gap:6px;"><span>🟢</span> ${strongTitle}</h4>`;
       html += `<div style="background:rgba(22,163,74,0.05); border:1px solid rgba(22,163,74,0.2); border-radius:8px; padding:12px; margin-bottom:16px;">`;
       strongList.forEach(s => {
          html += `<div style="margin-bottom:10px; border-bottom:1px solid rgba(22,163,74,0.1); padding-bottom:8px;">
             <strong style="font-size:13px; color:#166534; display:block; margin-bottom:4px;">${s.unit} (${Math.round(s.pct)}% Correct)</strong>
-            <span style="font-size:12px; color:#15803d; display:block;"><b>Mastered Topics:</b> ${s.topics.length > 0 ? s.topics.join(', ') : '✅ Strong overall grasp of this unit'}</span>
+            <span style="font-size:12px; color:#15803d; display:block;"><b>${strongSub}</b> ${s.topics.length > 0 ? s.topics.join(', ') : strongFallback}</span>
          </div>`;
       });
       html += `</div>`;
     }
 
     html += `<div style="background:linear-gradient(135deg, var(--p2), var(--p2d)); color:#fff; padding:12px; border-radius:8px; font-size:12.5px; box-shadow:0 4px 12px rgba(124,77,255,0.2);">
-      <strong>💡 Mentor's Action Plan:</strong> Go to your Workspace right now. Find the exact topics mentioned in the 🔴 Red section above and mark them as 'W' (Weak). Add them to your Daily Planner for tomorrow!
+      ${mentorPlan}
     </div>`;
 
     html += `</div>`;
@@ -4313,7 +4345,32 @@ TOTAL = mockQuestions.length; // sync live count
     document.getElementById('insights-body').innerHTML = html;
     document.getElementById('insights-section').style.display = 'block';
   })();
-
+  
+  // 🟢 DYNAMIC RESULT SCREEN TABS 
+  if(testLang === 'HI') {
+     const hd = document.querySelector('.rs-section-hd h2');
+     if(hd) hd.innerHTML = "उत्तर समीक्षा और मिस्टेक बुक (Review & Mistakes)";
+     document.getElementById('tab-all').innerHTML = `📖 सभी उत्तरों की समीक्षा <span class="tab-count" id="tc-all">${TOTAL}</span>`;
+     document.getElementById('tab-mistakes').innerHTML = `📕 मिस्टेक बुक <span class="tab-count" id="tc-mistakes">${incorrect}</span>`;
+     const dlBtn = document.querySelector('#panel-mistakes .rs-btn-pdf');
+     if(dlBtn) dlBtn.innerHTML = '⬇ मिस्टेक बुक पीडीएफ डाउनलोड करें';
+     const pInsightBtn = document.getElementById('btn-insights-pdf');
+     if(pInsightBtn) pInsightBtn.innerHTML = '⬇ इनसाइट्स (Insights) पीडीएफ डाउनलोड करें';
+     const insightH2 = document.querySelector('.insights-title');
+     if(insightH2) insightH2.innerHTML = `<div style="display:flex;align-items:center;gap:10px;"><span class="insights-title-bar"></span>🧠 AI प्रदर्शन अंतर्दृष्टि और रणनीति</div>` + insightH2.innerHTML.substring(insightH2.innerHTML.indexOf('<button'));
+  } else {
+     const hd = document.querySelector('.rs-section-hd h2');
+     if(hd) hd.innerHTML = "Answer Review & Mistake Book";
+     document.getElementById('tab-all').innerHTML = `📖 Review All Answers <span class="tab-count" id="tc-all">${TOTAL}</span>`;
+     document.getElementById('tab-mistakes').innerHTML = `📕 Mistake Book <span class="tab-count" id="tc-mistakes">${incorrect}</span>`;
+     const dlBtn = document.querySelector('#panel-mistakes .rs-btn-pdf');
+     if(dlBtn) dlBtn.innerHTML = '⬇ Download Mistakes as PDF';
+     const pInsightBtn = document.getElementById('btn-insights-pdf');
+     if(pInsightBtn) pInsightBtn.innerHTML = '⬇ Download Insights PDF';
+     const insightH2 = document.querySelector('.insights-title');
+     if(insightH2) insightH2.innerHTML = `<div style="display:flex;align-items:center;gap:10px;"><span class="insights-title-bar"></span>🧠 AI Performance Insights &amp; Strategy</div>` + insightH2.innerHTML.substring(insightH2.innerHTML.indexOf('<button'));
+  }
+ }
 }
 
 /* ══════════════════════════════════════════════════════════════════════
