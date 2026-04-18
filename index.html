@@ -5172,92 +5172,53 @@ function updateMaster(){
    WORKSPACE: DASHBOARD REBUILD
 ══════════════════════════════════════════════════════════════════════ */
 function rebuildDash(){
-  // ── 1. Get the 6 list containers ──────────────────────────────────
-  const w1  = document.getElementById('dash-weak-p1');
-  const s1  = document.getElementById('dash-strong-p1');
-  const st1 = document.getElementById('dash-star-p1');
-  const w2  = document.getElementById('dash-weak-p2');
-  const s2  = document.getElementById('dash-strong-p2');
-  const st2 = document.getElementById('dash-star-p2');
+  const w1=document.getElementById('dash-weak-p1'), s1=document.getElementById('dash-strong-p1'), st1=document.getElementById('dash-star-p1');
+  const w2=document.getElementById('dash-weak-p2'), s2=document.getElementById('dash-strong-p2'), st2=document.getElementById('dash-star-p2');
+  [w1,s1,st1,w2,s2,st2].forEach(el => { if(el) el.innerHTML=''; });
 
-  // Clear all 6 lists safely
-  if(w1)  w1.innerHTML  = '';
-  if(s1)  s1.innerHTML  = '';
-  if(st1) st1.innerHTML = '';
-  if(w2)  w2.innerHTML  = '';
-  if(s2)  s2.innerHTML  = '';
-  if(st2) st2.innerHTML = '';
-
-  // ── 2. Build the 6 item arrays ────────────────────────────────────
-  let wkP1=[], strP1=[], starP1=[];
-  let wkP2=[], strP2=[], starP2=[];
+  let wkP1=[], strP1=[], starP1=[], wkP2=[], strP2=[], starP2=[];
 
   Object.entries(ID_META).forEach(([id, meta]) => {
-    // meta.text mein Display text hota hai. Storage ke liye internalKey dhoondho.
-    let paperData = meta.paperKey === 'p1' ? PAPER1 : PAPER2;
-    let unit = paperData[meta.unitIdx];
-    let topicIdx = parseInt(id.split('_t').pop());
+    const e = getE(id);
+    const isP1 = meta.paperKey === 'p1';
     
-    // Internal Key is ALWAYS English. If missing, fallback to display text.
-    let internalKey = (unit && unit.topicsEN && unit.topicsEN[topicIdx]) ? unit.topicsEN[topicIdx] : meta.text;
+    // 🟢 DYNAMIC LOOKUP: Har baar Smart Patch se current language (Hindi/EN) uthao!
+    const paper = isP1 ? PAPER1 : PAPER2;
+    const unit = paper[meta.unitIdx];
+    const topicIdx = parseInt(id.split('_t').pop());
     
-    // Get stored data using the stable English Internal Key
-    const e     = getE(internalKey);
-    const isP1  = meta.paperKey === 'p1';
+    // Yahan jadoo hai: 'unit.topics' hamesha wahi bhasha dega jo button se select hui hai!
+    const liveText = (unit && unit.topics && unit.topics[topicIdx]) ? unit.topics[topicIdx] : meta.text;
+    const liveUnitTitle = (unit && unit.title) ? unit.title : meta.unitTitle;
 
-    // ── Parent topic ──────────────────────────────────
-    const parentItem = {
-      id:        internalKey, // ID ab internal key hai data sync ke liye
-      text:      meta.text,   // Text hamesha wahi rahega jo Hindi/Eng button ne set kiya hai
-      label:     meta.paperLabel,
-      unit:      meta.unitTitle,
-      checked:   e.checked,
-      isChild:   false,
-      parentId:  ''
+    const item = {
+      id,
+      text: liveText, // Current language wala text!
+      label: meta.paperLabel,
+      unit: liveUnitTitle,
+      checked: e.checked,
+      isChild: false, parentId: ''
     };
 
-    if (e.prof === 'weak')   { isP1 ? wkP1.push(parentItem)  : wkP2.push(parentItem);  }
-    if (e.prof === 'strong') { isP1 ? strP1.push(parentItem) : strP2.push(parentItem); }
-    if (e.starred)           { isP1 ? starP1.push(parentItem): starP2.push(parentItem);}
-
-    // ── Sub-topics ────────────────────────────────────
+    if (e.prof === 'weak')   { isP1 ? wkP1.push(item) : wkP2.push(item); }
+    if (e.prof === 'strong') { isP1 ? strP1.push(item) : strP2.push(item); }
+    if (e.starred)           { isP1 ? starP1.push(item) : starP2.push(item); }
+    
     (e.customChildren || []).forEach(child => {
-      const childItem = {
-        id:       child.id,
-        text:     child.text,
-        label:    meta.paperLabel,
-        unit:     meta.unitTitle,
-        checked:  child.checked,
-        isChild:  true,
-        parentId: internalKey
-      };
-
-      if (child.prof === 'weak')   { isP1 ? wkP1.push(childItem)  : wkP2.push(childItem);  }
-      if (child.prof === 'strong') { isP1 ? strP1.push(childItem) : strP2.push(childItem); }
-      if (child.starred)           { isP1 ? starP1.push(childItem): starP2.push(childItem);}
+      const cItem = {...item, id: child.id, text: child.text, isChild: true, parentId: id, checked: child.checked};
+      if (child.prof === 'weak')   { isP1 ? wkP1.push(cItem) : wkP2.push(cItem); }
+      if (child.prof === 'strong') { isP1 ? strP1.push(cItem) : strP2.push(cItem); }
+      if (child.starred)           { isP1 ? starP1.push(cItem) : starP2.push(cItem); }
     });
   });
 
-  // ── 3. Render Lists ───────────────────────────────────────
-  if(w1)  renderDashList(w1,  wkP1,  'weak');
-  if(s1)  renderDashList(s1,  strP1, 'strong');
-  if(st1) renderDashList(st1, starP1,'starred');
-  if(w2)  renderDashList(w2,  wkP2,  'weak');
-  if(s2)  renderDashList(s2,  strP2, 'strong');
-  if(st2) renderDashList(st2, starP2,'starred');
-
-  // ── 4. Update the card counter pills ─────────────────────────────
-  const set = (elmId, val) => { const el=document.getElementById(elmId); if(el) el.textContent=val; };
-  set('cnt-weak-p1',   wkP1.length);
-  set('cnt-strong-p1', strP1.length);
-  set('cnt-star-p1',   starP1.length);
-  set('cnt-weak-p2',   wkP2.length);
-  set('cnt-strong-p2', strP2.length);
-  set('cnt-star-p2',   starP2.length);
-
-  set('s-wk',   wkP1.length  + wkP2.length);
-  set('s-st',   strP1.length + strP2.length);
-  set('s-star', starP1.length + starP2.length);
+  renderDashList(w1, wkP1, 'weak'); renderDashList(s1, strP1, 'strong'); renderDashList(st1, starP1, 'starred');
+  renderDashList(w2, wkP2, 'weak'); renderDashList(s2, strP2, 'strong'); renderDashList(st2, starP2, 'starred');
+  
+  const set = (eid, val) => { const el=document.getElementById(eid); if(el) el.textContent=val; };
+  set('cnt-weak-p1', wkP1.length); set('cnt-strong-p1', strP1.length); set('cnt-star-p1', starP1.length);
+  set('cnt-weak-p2', wkP2.length); set('cnt-strong-p2', strP2.length); set('cnt-star-p2', starP2.length);
+  set('s-wk', wkP1.length + wkP2.length); set('s-st', strP1.length + strP2.length); set('s-star', starP1.length + starP2.length);
 }
 
 function renderDashList(container,items,kind){
@@ -5776,20 +5737,22 @@ let wsInitialized=false;
 
 function toggleLanguage() {
   appLang = appLang === 'EN' ? 'HI' : 'EN';
+  
   const btn = document.getElementById('lang-toggle-btn');
   if (btn) {
     if (appLang === 'HI') {
-      btn.textContent = '🌐 हिं';
+      btn.innerHTML = '🌐 हिं';
       btn.classList.add('lang-hi');
-      btn.title = 'Switch to English';
     } else {
-      btn.textContent = '🌐 EN';
+      btn.innerHTML = '🌐 EN';
       btn.classList.remove('lang-hi');
-      btn.title = 'Switch to Hindi';
     }
   }
+  
   buildAccordion(PAPER1, 'p1', 'acc-p1');
   buildAccordion(PAPER2, 'p2', 'acc-p2');
+  
+  // 🟢 DASHBOARD KO REFRESH KARO!
   rebuildDash();
   updateMaster();
 }
