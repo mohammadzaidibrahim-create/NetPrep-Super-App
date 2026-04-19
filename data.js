@@ -1082,7 +1082,7 @@ const TEST_JAN_2026_P1 = [
   }
 ];        
                
-const TEST_JUNE_2025_P2 = [
+const TEST_JUNE_2025 = [
   {
     "id": "JUNE2025_Q01",
     "difficulty": "medium",
@@ -3200,7 +3200,7 @@ const ALL_TESTS = [
     minutes: 120,
     difficulty: "Hard",
     live: true,
-    data: TEST_JUNE_2025_P2
+    data: TEST_JUNE_2025
   }, 
   {
   id: "jan2026-p1",
