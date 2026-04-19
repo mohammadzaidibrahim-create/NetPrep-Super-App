@@ -3138,7 +3138,10 @@ let mockQuestions = [];
 
 // Re-assign IDs and clean up (runs on the active test after load)
 function prepareQuestions(arr) {
-  arr.forEach((q, i) => { q.id = i + 1; });
+  arr.forEach((q, i) => { 
+      // 🟢 FIX: Preserve original ID if it exists, otherwise assign a fallback ID
+      if (!q.id) q.id = 'Q' + (i + 1); 
+  });
   arr.forEach(q => {
     // Bilingual schema: normalise to top-level fields for the engine
     if (q.content && q.content.en) {
@@ -3151,7 +3154,7 @@ function prepareQuestions(arr) {
     if (q.question) q.question = q.question.replace(/Q\.\d+:\s*/gi, '');
   });
   return arr;
-}
+   }
 
 /* ══════════════════════════════════════════════════════════════════════
    MOCK TEST: SPA SCREEN NAVIGATION
