@@ -3085,14 +3085,24 @@ function savePYQ(qIndex, btnElement) {
        if (activeTest) currentPaper = activeTest.category || 'p2';
      }
      q.paper = currentPaper;
+
+     // ── Bilingual unit/topic + language tag ──
+     const _lang = (typeof testLang !== 'undefined') ? testLang : 'EN';
+     q.saveLang = _lang; // remember which language was active when saved
+
+     q.unit  = (_lang === 'HI' && q.unitHI)  ? q.unitHI
+             : (q.unitEN  || q.unit  || q.topic || 'General / Uncategorized');
+
+     q.topic = (_lang === 'HI' && q.topicHI) ? q.topicHI
+             : (q.topicEN || q.topic || q.unit || 'General Topic');
+
      // Save the test name as a label for display in flashcard
      if (typeof _activeTestId !== 'undefined' && _activeTestId) {
        const activeTest = ALL_TESTS.find(t => t.id === _activeTestId);
-       q.testLabel = activeTest ? activeTest.label : null; // e.g. "PYQ · June 2025"
+       q.testLabel = activeTest ? activeTest.label : null;
      }
 
      const isAlreadySaved = vault.find(item => item.id === q.id);
-
      if (!isAlreadySaved) {
        vault.push(q);
        localStorage.setItem('netprep_saved_pyqs', JSON.stringify(vault));
@@ -3285,18 +3295,22 @@ function renderVault2(activeTab, notesOnly) {
     return;
   }
 
-  // Grouping by Unit
+  // ── Smart Bilingual Grouping ──
   const grouped = {};
   vault.forEach(q => {
+    // Use the unit name matching the language the question was saved in
     const u = q.unit || 'General / Uncategorized';
     if (!grouped[u]) grouped[u] = [];
     grouped[u].push(q);
   });
 
-  // [UPGRADE 1] Numeric sort: "Unit 2" before "Unit 10"
+  // Numeric sort: "Unit 2" before "Unit 10"
   const sortedUnits = Object.keys(grouped).sort((a, b) =>
     a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' })
   );
+
+  // Build all unique unit names for the move dropdown
+  const allVaultUnits = [...new Set(vault.map(v => v.unit || 'General / Uncategorized'))];
 
   let html = controlPanelHTML;
 
@@ -3316,29 +3330,40 @@ function renderVault2(activeTab, notesOnly) {
     `;
 
     grouped[unit].forEach((q) => {
-      // [CRITICAL RULE 2] Bilingual schema safety
-      const _src = (q.content && q.content.en) ? q.content.en : q;
-      const qText = (_src.question || '').replace(/\n/g, '<br>');
+      // Pick content in the language it was saved in
+      const qLang    = q.saveLang || 'EN';
+      const isHindi  = (qLang === 'HI');
+      const _src     = (q.content && q.content[qLang.toLowerCase()])
+                       ? q.content[qLang.toLowerCase()]
+                       : (q.content && q.content.en) ? q.content.en : q;
+      const qText    = (_src.question || '').replace(/\n/g, '<br>');
 
-      const diff = q.difficulty ? q.difficulty.charAt(0).toUpperCase() + q.difficulty.slice(1) : 'Medium';
+      const diff        = q.difficulty ? q.difficulty.charAt(0).toUpperCase() + q.difficulty.slice(1) : 'Medium';
       const personalTag = q.source === 'personal' ? `<span class="personal-tag">✍️ Personal Note</span>` : '';
-      const noteBadge = (q.note && q.note.trim()) ? `<span class="note-badge">📝 Note</span>` : '';
+      const noteBadge   = (q.note && q.note.trim()) ? `<span class="note-badge">📝 Note</span>` : '';
+      const langBadge   = `<span style="background:${isHindi ? '#f59e0b' : '#3b82f6'};color:#fff;padding:2px 7px;border-radius:4px;font-size:10px;font-weight:700;">${qLang}</span>`;
+
+      // Topic label — use correct language
+      const topicText = isHindi && q.topicHI ? q.topicHI : (q.topicEN || q.topic || 'Topic');
 
       let answerDisplay = '';
       if (q.source === 'personal') {
-        answerDisplay = `<div style="font-size:14px; color:#10b981; font-weight:600; margin-bottom:8px;">✅ Answer: ${q.correct_text}</div>`;
+        answerDisplay = `<div style="font-size:14px;color:#10b981;font-weight:600;margin-bottom:8px;">✅ Answer: ${q.correct_text || ''}</div>`;
       } else {
-        const optText = q.options ? q.options[q.correct] : 'Option ' + (q.correct + 1);
-        answerDisplay = `<div style="font-size:14px; color:#10b981; font-weight:600; margin-bottom:8px;">✅ Correct Answer: ${optText}</div>`;
+        const optText  = _src.options ? _src.options[q.correct] : (q.options ? q.options[q.correct] : 'Option ' + (q.correct + 1));
+        const ansLabel = isHindi ? '✅ सही उत्तर:' : '✅ Correct Answer:';
+        answerDisplay  = `<div style="font-size:14px;color:#10b981;font-weight:600;margin-bottom:8px;">${ansLabel} ${optText}</div>`;
       }
 
-      const explText = q.explanation ? `<div class="expl-box">💡 <b>Explanation:</b><br>${q.explanation}</div>` : '';
+      const explLabel = isHindi ? 'व्याख्या' : 'Explanation';
+      const explText  = _src.explanation
+                        ? `<div class="expl-box">💡 <b>${explLabel}:</b><br>${_src.explanation}</div>`
+                        : (q.explanation ? `<div class="expl-box">💡 <b>${explLabel}:</b><br>${q.explanation}</div>` : '');
 
-      // Build move-unit dropdown
-      const allUnits = [...new Set(vault.map(v => v.unit || 'General / Uncategorized'))];
-      const unitOptions = allUnits
+      // Move dropdown — using pre-built allVaultUnits list
+      const unitOptions = allVaultUnits
         .filter(u => u !== (q.unit || 'General / Uncategorized'))
-        .map(u => `<option value="${u.replace(/"/g, '&quot;')}">${u}</option>`)
+        .map(u => `<option value="${u.replace(/"/g,'&quot;')}">${u}</option>`)
         .join('');
       const moveUI = `
         <div class="vault-move-wrap">
@@ -3358,14 +3383,14 @@ function renderVault2(activeTab, notesOnly) {
               onchange="updateVaultSelectionCount()">
           </div>
           <div style="flex:1;">
-            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:12px; flex-wrap:wrap; gap:8px;">
-              <div style="font-size:12px; font-weight:600; color:#8b5cf6; display:flex; align-items:center; flex-wrap:wrap; gap:4px;">
-                ${q.topic || 'Topic'} &nbsp;·&nbsp; ID: ${q.id} &nbsp;·&nbsp; Level: ${diff} ${personalTag} ${noteBadge}
+            <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:12px;flex-wrap:wrap;gap:8px;">
+              <div style="font-size:12px;font-weight:600;color:#8b5cf6;display:flex;align-items:center;flex-wrap:wrap;gap:4px;">
+                ${topicText} &nbsp;·&nbsp; ID: ${q.id} &nbsp;·&nbsp; Level: ${diff} ${langBadge} ${personalTag} ${noteBadge}
                 ${moveUI}
               </div>
               <button class="vault-del-btn" onclick="deletePYQ('${q.id}')">🗑️ Remove</button>
             </div>
-            <div class="rev-question-text" style="font-size:15px; margin-bottom:12px; color:var(--text); line-height:1.6;">${qText}</div>
+            <div class="rev-question-text" style="font-size:15px;margin-bottom:12px;color:var(--text);line-height:1.6;">${qText}</div>
             ${answerDisplay}
             ${explText}
           </div>
