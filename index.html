@@ -3507,6 +3507,7 @@ function switchModalTab(tab) {
 
 function saveManualQuestion() {
   const paper = document.getElementById('m-paper').value;
+  const lang = document.getElementById('m-lang').value; // 🟢 NEW: Language dropdown ki value
   const unit = document.getElementById('m-unit').value || 'Personal Notes';
   const topic = document.getElementById('m-topic').value || 'General';
   const question = document.getElementById('m-question').value.trim();
@@ -3518,6 +3519,7 @@ function saveManualQuestion() {
   const newQ = {
     id: 'PERS_' + Date.now(),
     paper: paper,
+    saveLang: lang, // 🟢 FIX: Ab Hindi (HI) ya English (EN) tag yahan save hoga
     source: 'personal',
     unit: unit,
     topic: topic,
@@ -3531,13 +3533,14 @@ function saveManualQuestion() {
   vault.push(newQ);
   localStorage.setItem('netprep_saved_pyqs', JSON.stringify(vault));
 
+  // Form Reset
   document.getElementById('m-question').value = '';
   document.getElementById('m-answer').value = '';
   document.getElementById('m-explanation').value = '';
   closeAddModal();
   showVaultToast('✅ Note saved to Vault!');
-  switchVaultTab(paper);
-}
+  renderVault2(); // 🟢 Vault screen ko turant refresh karne ke liye
+   }
 
 function saveBulkQuestions() {
   const paper = document.getElementById('m-paper').value;
@@ -3798,17 +3801,25 @@ function renderFC() {
    }
    document.getElementById('fc-progress').textContent = `Card ${fcIndex + 1} of ${fcArray.length}`;
 
+   // 🟢 SMART CONTENT: Vault me kis bhasha me save hua tha, wahi version dikhao!
+   const qLang = q.saveLang || 'EN';
+   const isHindi = (qLang === 'HI');
+   const _src = (q.content && q.content[qLang.toLowerCase()]) ? q.content[qLang.toLowerCase()] : ((q.content && q.content.en) ? q.content.en : q);
+
    // ── FRONT BUILD ──
-   document.getElementById('fc-front-topic').textContent = `🏷️ ${q.topic || 'General Topic'}`;
-   document.getElementById('fc-front-text').innerHTML = q.question.replace(/\n/g, '<br>');
+   const topicText = isHindi && q.topicHI ? q.topicHI : (q.topicEN || q.topic || 'General Topic');
+   document.getElementById('fc-front-topic').innerHTML = `🏷️ ${topicText} <span style="background:${isHindi ? '#f59e0b' : '#3b82f6'}; color:white; padding:1px 5px; border-radius:3px; font-size:10px; margin-left:6px; font-weight:bold; vertical-align:middle;">${qLang}</span>`;
+   
+   document.getElementById('fc-front-text').innerHTML = (_src.question || '').replace(/\n/g, '<br>');
    
    let optsHTML = '';
-   if(q.source !== 'personal' && q.options) {
-      q.options.forEach((opt, i) => {
+   if(q.source !== 'personal' && _src.options) {
+      _src.options.forEach((opt, i) => {
          optsHTML += `<div class="fc-opt-box"><b>${String.fromCharCode(65+i)}.</b> ${opt}</div>`;
       });
    } else if (q.source === 'personal') {
-      optsHTML = `<div style="padding:16px; font-style:italic; color:#64748b; background:#f8fafc; border-radius:12px; border:1px dashed #cbd5e1; text-align:center;">(Personal Note — keep answer in mind, then tap to check)</div>`;
+      const pNoteText = isHindi ? "(व्यक्तिगत नोट - उत्तर को ध्यान में रखें, फिर जांचने के लिए टैप करें)" : "(Personal Note — keep answer in mind, then tap to check)";
+      optsHTML = `<div style="padding:16px; font-style:italic; color:#64748b; background:#f8fafc; border-radius:12px; border:1px dashed #cbd5e1; text-align:center;">${pNoteText}</div>`;
    }
    document.getElementById('fc-front-options').innerHTML = optsHTML;
 
@@ -3838,12 +3849,21 @@ function renderFC() {
    document.getElementById('fc-meta-source').textContent = sourceLabel;
 
    // ── BACK BUILD ──
-   let ansText = (q.source === 'personal') ? q.correct_text : (q.options ? q.options[q.correct] : 'Option ' + (q.correct + 1));
+   let ansText = '';
+   if (q.source === 'personal') {
+       ansText = q.correct_text;
+   } else {
+       // Answer source se lena hoga (options array)
+       ansText = _src.options ? _src.options[q.correct] : 'Option ' + (q.correct + 1);
+   }
+   
    document.getElementById('fc-back-ans').innerHTML = `✅ ${ansText}`;
-   document.getElementById('fc-back-expl').innerHTML = q.explanation
-      ? `<div style="padding:18px; background:rgba(245,158,11,0.08); border-left:4px solid #f59e0b; border-radius:8px; color:#1e293b; font-size:14px;"><b>💡 Explanation:</b><br><br>${q.explanation}</div>`
+   
+   const explLabel = isHindi ? 'व्याख्या' : 'Explanation';
+   document.getElementById('fc-back-expl').innerHTML = _src.explanation
+      ? `<div style="padding:18px; background:rgba(245,158,11,0.08); border-left:4px solid #f59e0b; border-radius:8px; color:#1e293b; font-size:14px;"><b>💡 ${explLabel}:</b><br><br>${_src.explanation}</div>`
       : '';
-}
+           }
 
 function closeFlashcards() {
   document.getElementById('flashcard-screen').style.display = 'none';
