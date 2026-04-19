@@ -3281,13 +3281,14 @@ function renderVault2(activeTab, notesOnly) {
           onchange="renderVault2(currentVaultTab, this.checked)">
         📝 Revise Notes Only
       </label>
-      <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
+     <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
+        <button onclick="resetVault()" style="background:rgba(239,68,68,0.1); color:#ef4444; border:1px solid rgba(239,68,68,0.3); padding:8px 12px; border-radius:8px; font-size:13px; font-weight:600; cursor:pointer;">⚠️ Reset Vault</button>
         <span class="vault-selection-count" id="vault-sel-count">0 Questions Selected</span>
         <button class="vault-custom-fc-btn" id="vault-custom-fc-btn"
           onclick="startCustomFlashcards()" disabled>
           Start Custom Flashcards 🚀
         </button>
-      </div>
+      </div> 
     </div>`;
 
   if (vault.length === 0) {
@@ -3324,6 +3325,7 @@ function renderVault2(activeTab, notesOnly) {
           data-unitname="${unit.replace(/"/g,'&quot;')}"
           onclick="toggleVaultUnit(this)">
         <span style="flex:1;cursor:pointer;" onclick="toggleVaultUnitBody(${idx})">📁 ${unit}</span>
+        <button onclick="deleteVaultFolder('${unit.replace(/'/g,"\\'").replace(/"/g,'&quot;')}')" style="background:none; border:none; color:#ef4444; font-size:12px; cursor:pointer; margin-right:12px; text-decoration:underline;">🗑️ Delete Folder</button>
         <span style="color:#8b5cf6; font-size:13px; cursor:pointer;" onclick="toggleVaultUnitBody(${idx})">${grouped[unit].length} Items ▼</span>
       </div>
       <div class="vault-unit-body" id="v-body-${idx}">
@@ -3487,6 +3489,38 @@ function deletePYQ(id) {
    showVaultToast('🗑️ Removed from Vault!');
    renderVault2();
 }
+  // 🟢 NEW: Reset Entire Vault Function
+function resetVault() {
+  const confirmCode = prompt("⚠️ WARNING: This will permanently delete ALL questions in your Vault.\n\nType 'DELETE' to confirm:");
+  if (confirmCode === 'DELETE') {
+    localStorage.removeItem('netprep_saved_pyqs');
+    showVaultToast('🧹 Vault has been completely reset.');
+    renderVault2();
+  } else if (confirmCode !== null) {
+    alert("Reset cancelled. Type 'DELETE' exactly to confirm.");
+  }
+}
+
+// 🟢 NEW: Delete Specific Folder Function
+function deleteVaultFolder(unitName) {
+  if(!confirm(`Are you sure you want to delete the ENTIRE folder "${unitName}" and all its questions?`)) return;
+  
+  let vault = JSON.parse(localStorage.getItem('netprep_saved_pyqs')) || [];
+  
+  // Filter out questions that belong to this unit (Checking all 3 properties to be safe)
+  vault = vault.filter(q => {
+      let u = 'General / Uncategorized';
+      if (q.saveLang === 'HI' && q.unitHI) u = q.unitHI; 
+      else if (q.unitEN) u = q.unitEN; 
+      else if (q.unit) u = q.unit;
+      
+      return u !== unitName; // Keep only if it DOES NOT match the folder we are deleting
+  });
+
+  localStorage.setItem('netprep_saved_pyqs', JSON.stringify(vault));
+  showVaultToast(`🗑️ Folder "${unitName}" deleted!`);
+  renderVault2();
+} 
 
 // ── MANUAL ADD MODAL LOGIC ──
 function openAddModal() {
@@ -3507,7 +3541,8 @@ function switchModalTab(tab) {
 
 function saveManualQuestion() {
   const paper = document.getElementById('m-paper').value;
-  const lang = document.getElementById('m-lang').value; // 🟢 NEW: Language dropdown ki value
+  const langSelect = document.getElementById('m-lang');
+  const lang = langSelect ? langSelect.value : 'EN'; // 🟢 FIX: Safe extraction of language
   const unit = document.getElementById('m-unit').value || 'Personal Notes';
   const topic = document.getElementById('m-topic').value || 'General';
   const question = document.getElementById('m-question').value.trim();
@@ -3519,7 +3554,7 @@ function saveManualQuestion() {
   const newQ = {
     id: 'PERS_' + Date.now(),
     paper: paper,
-    saveLang: lang, // 🟢 FIX: Ab Hindi (HI) ya English (EN) tag yahan save hoga
+    saveLang: lang, // 🟢 Ensure language is saved
     source: 'personal',
     unit: unit,
     topic: topic,
