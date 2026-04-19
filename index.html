@@ -3296,11 +3296,25 @@ function renderVault2(activeTab, notesOnly) {
     return;
   }
 
-  // ── Smart Bilingual Grouping ──
+// 🟢 SMART BILINGUAL & PERSONAL NOTE GROUPING
   const grouped = {};
   vault.forEach(q => {
-    // Use the unit name matching the language the question was saved in
-    const u = q.unit || 'General / Uncategorized';
+    let u = 'General / Uncategorized'; // Fallback
+    
+    // 🟢 Check for PYQs (Bilingual Support)
+    if (q.saveLang === 'HI' && q.unitHI) {
+        u = q.unitHI; 
+    } else if (q.unitEN) {
+        u = q.unitEN; 
+    } else if (q.unit) {
+        u = q.unit; 
+    }
+    
+    // 🟢 Personal notes ki entered/analyzed unit ko priority do
+    if (q.source === 'personal' && q.unit && q.unit.trim() !== '') {
+        u = q.unit.trim();
+    }
+
     if (!grouped[u]) grouped[u] = [];
     grouped[u].push(q);
   });
