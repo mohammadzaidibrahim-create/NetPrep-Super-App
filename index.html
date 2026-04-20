@@ -2873,7 +2873,7 @@ html,body{height:100%;font-family:'IBM Plex Sans',sans-serif;background:var(--bg
              </div>
           </div>
 
-          <div class="lists-paper-heading p2-head" style="font-size:16px; font-weight:700; color:#fff; margin-bottom:12px; padding-left:4px;">📕 Paper 2 (Anthropology)</div>
+       <div class="lists-paper-heading p2-head" style="font-size:16px; font-weight:700; color:#fff; margin-bottom:12px; padding-left:4px;">📕 Paper 2 (Subject Specific)</div>
           <div class="dash-grid" style="margin-bottom:24px;">
              <div class="dash-card weak">
                 <div class="dc-head"><div class="dc-icon">🔴</div><div class="dc-title">Weak / Needs Revision</div><div class="dc-pill" id="cnt-weak-p2">0</div></div>
@@ -5309,38 +5309,59 @@ function _getPaperRef(paperKey){
 // addTopic: called from the inline "Add" button in buildUnitItem (receives only uIdx)
 // It reads paperKey from the DOM and delegates to commitNewTopic
 function addTopic(uIdx){
-  // Identify which accordion this unit belongs to by checking both
+  // The onclick passes only uIdx — we read paperKey from the button's parent accordion
+  // by checking which accordion contains the input, disambiguating P1 vs P2
   const p2uk = `p2_u${uIdx}`;
   const p1uk = `p1_u${uIdx}`;
   let uk = null, paperKey = null;
+  // Check P2 first (most common edit target), then P1
   if(document.getElementById(`nt_${p2uk}`)){ uk = p2uk; paperKey = 'p2'; }
   else if(document.getElementById(`nt_${p1uk}`)){ uk = p1uk; paperKey = 'p1'; }
-  if(!uk){ console.warn('addTopic: could not find input for uIdx', uIdx); return; }
+  if(!uk){ console.warn('addTopic: input not found for uIdx', uIdx); return; }
   commitNewTopic(uk, uIdx, paperKey);
 }
 
-function commitNewTopic(uk,uIdx,paperKey){
-  const inp=document.getElementById(`nt_${uk}`) || document.getElementById(`atinp_${uk}`);
-  if(!inp)return;
-  const text=inp.value.trim();if(!text)return;
-  const {arr,save,accId}=_getPaperRef(paperKey);
-  // Push to the correct language array directly to avoid getter/setter confusion
-  if(paperKey==='p1'){ arr[uIdx].topicsEN=arr[uIdx].topicsEN||[]; arr[uIdx].topicsEN.push(text); }
-  else { arr[uIdx].topicsEN=arr[uIdx].topicsEN||[]; arr[uIdx].topicsEN.push(text); }
+function commitNewTopic(uk, uIdx, paperKey){
+  const inp = document.getElementById(`nt_${uk}`) || document.getElementById(`atinp_${uk}`);
+  if(!inp) return;
+  const text = inp.value.trim();
+  if(!text) return;
+
+  const {arr, save, accId} = _getPaperRef(paperKey);
+
+  // Push directly to topicsEN to avoid smart getter/setter confusion
+  if(!arr[uIdx].topicsEN) arr[uIdx].topicsEN = [];
+  arr[uIdx].topicsEN.push(text);
   save();
-  const tIdx=arr[uIdx].topicsEN.length-1;
-  const id=`${uk}_t${tIdx}`;
-  buildMeta();
-  const grid=document.querySelector(`#acc_${uk} .t-grid`);
-  if(!grid){ console.warn('commitNewTopic: grid not found for',uk); return; }
-  // Insert before the add-topic-wrap row
-  const addWrap=grid.querySelector('.add-topic-wrap');
-  const newItem=buildTopicItem(id,text,paperKey,arr,uIdx,text);
+
+  const tIdx = arr[uIdx].topicsEN.length - 1;
+  const id = `${uk}_t${tIdx}`;
+
+  // Register in ID_META immediately so commitSub and rebuildDash can find it
+  ID_META[id] = {
+    text: text,
+    paperKey: paperKey,
+    paperLabel: paperKey === 'p1' ? 'Paper 1' : 'Paper 2',
+    unitTitle: arr[uIdx].titleEN || arr[uIdx].title || '',
+    unitIdx: uIdx
+  };
+
+  const grid = document.querySelector(`#acc_${uk} .t-grid`);
+  if(!grid){ console.warn('commitNewTopic: .t-grid not found for', uk); return; }
+
+  // Insert the new topic item before the add-topic-wrap row
+  const addWrap = grid.querySelector('.add-topic-wrap');
+  // internalKey = text (EN key used for getE lookups)
+  const newItem = buildTopicItem(id, text, paperKey, arr, uIdx, text);
   if(addWrap) grid.insertBefore(newItem, addWrap);
   else grid.appendChild(newItem);
-  if(wsEditMode)document.getElementById(accId).classList.add('edit-mode-active');
-  recalcUnit(arr,paperKey,uIdx);updateMaster();rebuildDash();
-  inp.value='';inp.focus();
+
+  if(wsEditMode) document.getElementById(accId).classList.add('edit-mode-active');
+  recalcUnit(arr, paperKey, uIdx);
+  updateMaster();
+  rebuildDash();
+  inp.value = '';
+  inp.focus();
   showToast('✅ Topic added!');
 }
 
