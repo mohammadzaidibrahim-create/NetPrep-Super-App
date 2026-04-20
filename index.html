@@ -5261,6 +5261,13 @@ function _showUnitEdit(item,uk,uIdx){
   item.querySelector(`#utinp_${uk}`).focus();
   item.querySelector(`#utinp_${uk}`).select();
 }
+function _openUnitEdit(item){
+  if(!item)return;
+  const uk=item.id.replace('acc_','');
+  item.querySelector('.utw').style.display='none';
+  const wrap=item.querySelector(`#ute_${uk}`);
+  if(wrap){ wrap.classList.add('vis'); const inp=document.getElementById(`utinp_${uk}`); if(inp){inp.focus();inp.select();} }
+}
 function _cancelUnitEdit(item){
   if(!item)return;
   const uk=item.id.replace('acc_','');
@@ -5299,17 +5306,38 @@ function _getPaperRef(paperKey){
   return {arr:PAPER2, save:savePaper2, accId:'acc-p2'};
 }
 
+// addTopic: called from the inline "Add" button in buildUnitItem (receives only uIdx)
+// It reads paperKey from the DOM and delegates to commitNewTopic
+function addTopic(uIdx){
+  // Identify which accordion this unit belongs to by checking both
+  const p2uk = `p2_u${uIdx}`;
+  const p1uk = `p1_u${uIdx}`;
+  let uk = null, paperKey = null;
+  if(document.getElementById(`nt_${p2uk}`)){ uk = p2uk; paperKey = 'p2'; }
+  else if(document.getElementById(`nt_${p1uk}`)){ uk = p1uk; paperKey = 'p1'; }
+  if(!uk){ console.warn('addTopic: could not find input for uIdx', uIdx); return; }
+  commitNewTopic(uk, uIdx, paperKey);
+}
+
 function commitNewTopic(uk,uIdx,paperKey){
-  const inp=document.getElementById(`atinp_${uk}`);
+  const inp=document.getElementById(`nt_${uk}`) || document.getElementById(`atinp_${uk}`);
+  if(!inp)return;
   const text=inp.value.trim();if(!text)return;
   const {arr,save,accId}=_getPaperRef(paperKey);
-  arr[uIdx].topics.push(text);
+  // Push to the correct language array directly to avoid getter/setter confusion
+  if(paperKey==='p1'){ arr[uIdx].topicsEN=arr[uIdx].topicsEN||[]; arr[uIdx].topicsEN.push(text); }
+  else { arr[uIdx].topicsEN=arr[uIdx].topicsEN||[]; arr[uIdx].topicsEN.push(text); }
   save();
-  const tIdx=arr[uIdx].topics.length-1;
+  const tIdx=arr[uIdx].topicsEN.length-1;
   const id=`${uk}_t${tIdx}`;
   buildMeta();
-  const grid=document.querySelector(`#acc_${uk} .topics-grid`);
-  grid.appendChild(buildTopicItem(id,text,paperKey,arr,uIdx));
+  const grid=document.querySelector(`#acc_${uk} .t-grid`);
+  if(!grid){ console.warn('commitNewTopic: grid not found for',uk); return; }
+  // Insert before the add-topic-wrap row
+  const addWrap=grid.querySelector('.add-topic-wrap');
+  const newItem=buildTopicItem(id,text,paperKey,arr,uIdx,text);
+  if(addWrap) grid.insertBefore(newItem, addWrap);
+  else grid.appendChild(newItem);
   if(wsEditMode)document.getElementById(accId).classList.add('edit-mode-active');
   recalcUnit(arr,paperKey,uIdx);updateMaster();rebuildDash();
   inp.value='';inp.focus();
@@ -5329,9 +5357,18 @@ function commitTopicEdit(id,uIdx,el,paperKey){
   const text=inp.value.trim();if(!text)return;
   const tIdx=parseInt(id.split('_t').pop());
   const {arr,save}=_getPaperRef(paperKey);
-  arr[uIdx].topics[tIdx]=text;
+  // Write directly to topicsEN/topicsHI, NOT via the getter/setter proxy
+  // because arr[uIdx].topics[tIdx]=text writes to a temporary copy
+  if(appLang==='HI'){
+    if(!arr[uIdx].topicsHI) arr[uIdx].topicsHI=[...arr[uIdx].topicsEN];
+    arr[uIdx].topicsHI[tIdx]=text;
+  } else {
+    if(!arr[uIdx].topicsEN) arr[uIdx].topicsEN=[];
+    arr[uIdx].topicsEN[tIdx]=text;
+  }
   save();buildMeta();
   el.querySelector(`#tlbl_${id}`).textContent=text;
+  el.dataset.skey = appLang==='HI' ? (arr[uIdx].topicsEN[tIdx]||text) : text;
   inp.value=text;
   _cancelTopicEdit(el);
   rebuildDash();showToast('✅ Topic renamed!');
@@ -5383,16 +5420,20 @@ function buildSubItem(parentId,child,paperKey,paperData,uIdx){
   });
   return el;
 }
-function commitSub(parentId){
+function commitSub(parentId, storageKey){
+  // storageKey = English internalKey; parentId = DOM id (p2_u3_t5)
+  // Fall back to parentId if storageKey not passed (old calls)
+  const skey = storageKey || parentId;
   const inp=document.getElementById(`subinp_${parentId}`);
   const text=inp.value.trim();if(!text)return;
-  const pe=getE(parentId);
-  const child={id:`${parentId}_c${Date.now()}`,text,checked:false,prof:null,starred:false};
+  const pe=getE(skey); // ✅ use skey — matches how proficiency is read
+  const child={id:`${skey}_c${Date.now()}`,text,checked:false,prof:null,starred:false};
   pe.customChildren.push(child);saveS();inp.value='';
   document.getElementById(`subrow_${parentId}`).style.display='none';
   const meta=ID_META[parentId];
+  if(!meta){console.warn('commitSub: no meta for',parentId);return;}
   const paperData=meta.paperKey==='p1'?PAPER1:PAPER2;
-  document.getElementById(`sublist_${parentId}`).appendChild(buildSubItem(parentId,child,meta.paperKey,paperData,meta.unitIdx));
+  document.getElementById(`sublist_${parentId}`).appendChild(buildSubItem(skey,child,meta.paperKey,paperData,meta.unitIdx));
   recalcUnit(paperData,meta.paperKey,meta.unitIdx);updateMaster();
 }
 function cancelSub(parentId){
