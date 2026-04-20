@@ -3776,35 +3776,76 @@ let fcTotalCards = 0;
 function startFlashcards() {
   let vault = JSON.parse(localStorage.getItem('netprep_saved_pyqs')) || [];
   let rawCards = vault.filter(q => (q.paper === currentVaultTab) || (!q.paper && currentVaultTab === 'p2'));
-
-  if(rawCards.length === 0) {
+  if (rawCards.length === 0) {
     alert("⚠️ No saved questions here! Save some PYQs first.");
     return;
   }
+  _initDeck(rawCards);
+}
 
-  // ── SMART SPACED REPETITION ORDERING ──────────────────────────────
-  // Load cross-session wrong-count data from localStorage
+// [UPGRADE 4] Custom Smart Deck
+function startCustomFlashcards() {
+  const selectedCheckboxes = document.querySelectorAll('.vault-q-chk:checked');
+  if (selectedCheckboxes.length === 0) {
+    showVaultToast('⚠️ Please select at least one question first.');
+    return;
+  }
+  const selectedIds = Array.from(selectedCheckboxes).map(chk => String(chk.value));
+  const allVault = JSON.parse(localStorage.getItem('netprep_saved_pyqs')) || [];
+  const rawCards = allVault.filter(q => selectedIds.includes(String(q.id)));
+  if (rawCards.length === 0) {
+    showVaultToast('⚠️ Could not match selected questions. Please try again.');
+    return;
+  }
+  _initDeck(rawCards);
+}
+
+/* ══════════════════════════════════════════════════════════════════════
+   LEGENDARY SR ENGINE — Penalty Loop & 3-Session Recovery
+══════════════════════════════════════════════════════════════════════ */
+function _normaliseSR(raw) {
+  // Migrate old {wrongCount, rightCount} format to new state machine format
+  if (!raw) return { status: 'new', wrongInitial: 0, recoveryStep: 0, consecutiveRights: 0 };
+  if (raw.status !== undefined) return raw; // already new format
+  return {
+    status: raw.wrongCount > 0 ? 'penalty' : (raw.rightCount > 0 ? 'graduated' : 'new'),
+    wrongInitial: Math.min(raw.wrongCount || 0, 3),
+    recoveryStep: 0,
+    consecutiveRights: raw.rightCount || 0
+  };
+}
+
+function _initDeck(rawCards) {
   const srData = JSON.parse(localStorage.getItem('netprep_sr_data') || '{}');
 
-  // Separate into 4 buckets:
-  const bucket1 = []; // Most-wrong (wrongCount >= 3)
-  const bucket2 = []; // Some-wrong (wrongCount 1-2)
-  const bucket3 = []; // Never seen / new (wrongCount === 0 or undefined)
-  const bucket4 = []; // Previously correct (rightCount > 0, wrongCount === 0)
+  /*
+    Bucket order (first → last):
+    P3 = penalty, wrongInitial >= 3  (3+ wrong, red pulse)
+    P2 = penalty, wrongInitial == 2  (2x wrong, red)
+    P1 = penalty, wrongInitial == 1  (1x wrong, red)
+    N  = new / never seen
+    G  = graduated / mastered (show last)
+  */
+  const bP3 = [], bP2 = [], bP1 = [], bNew = [], bGrad = [];
 
   rawCards.forEach(q => {
-    const sr = srData[q.id] || { wrongCount: 0, rightCount: 0 };
-    if (sr.wrongCount >= 3) bucket1.push(q);
-    else if (sr.wrongCount >= 1) bucket2.push(q);
-    else if (sr.rightCount > 0) bucket4.push(q);
-    else bucket3.push(q);
+    // Guarantee _sessionWrongCount is always a clean number
+    q._sessionWrongCount = 0;
+    const sr = _normaliseSR(srData[q.id]);
+    if      (sr.status === 'penalty' && sr.wrongInitial >= 3) bP3.push(q);
+    else if (sr.status === 'penalty' && sr.wrongInitial === 2) bP2.push(q);
+    else if (sr.status === 'penalty' && sr.wrongInitial === 1) bP1.push(q);
+    else if (sr.status === 'graduated')                        bGrad.push(q);
+    else                                                        bNew.push(q);
   });
 
-  // Sort within buckets: most-wrong first
-  bucket1.sort((a,b) => (srData[b.id]?.wrongCount||0) - (srData[a.id]?.wrongCount||0));
-  bucket2.sort((a,b) => (srData[b.id]?.wrongCount||0) - (srData[a.id]?.wrongCount||0));
+  // Within penalty buckets: highest wrongInitial first
+  const byWrong = (a,b) => (_normaliseSR(srData[b.id]).wrongInitial||0) - (_normaliseSR(srData[a.id]).wrongInitial||0);
+  bP3.sort(byWrong); bP2.sort(byWrong); bP1.sort(byWrong);
+  // Graduated: weakest (fewest consecutive rights) first
+  bGrad.sort((a,b) => (_normaliseSR(srData[a.id]).consecutiveRights||0) - (_normaliseSR(srData[b.id]).consecutiveRights||0));
 
-  fcArray = [...bucket1, ...bucket2, ...bucket3, ...bucket4];
+  fcArray = [...bP3, ...bP2, ...bP1, ...bNew, ...bGrad];
   fcIndex = 0; fcScore = 0; fcStreak = 0; maxStreak = 0;
   fcTotalCards = fcArray.length;
 
@@ -3875,42 +3916,68 @@ function rateCard(isCorrect, event) {
   const q = fcArray[fcIndex];
   const cardEl = document.getElementById('fc-card-inner');
 
-  // ── 1. Flash the glow colour before transitioning ──
-  const flashClass = isCorrect ? 'glow-green' : 'glow-red';
-  cardEl.classList.remove('glow-gold','glow-red','glow-green');
-  cardEl.classList.add(flashClass, 'glow-flash');
+  // ── 1. Flash feedback glow ──
+  cardEl.classList.remove('glow-gold','glow-red','glow-green','warning-pulse');
+  cardEl.classList.add(isCorrect ? 'glow-green' : 'glow-red', 'glow-flash');
 
-  // ── 2. Update cross-session SR data in localStorage ──
+  // ── 2. Update SR state machine ──
   const srData = JSON.parse(localStorage.getItem('netprep_sr_data') || '{}');
-  if (!srData[q.id]) srData[q.id] = { wrongCount: 0, rightCount: 0 };
-  if (isCorrect) {
-    srData[q.id].rightCount++;
-    srData[q.id].wrongCount = Math.max(0, srData[q.id].wrongCount - 1);
-  } else {
-    srData[q.id].wrongCount++;
-  }
-  localStorage.setItem('netprep_sr_data', JSON.stringify(srData));
+  let sr = _normaliseSR(srData[q.id]);
 
-  if(isCorrect) {
+  if (isCorrect) {
+    // Card is leaving the session — evaluate based on how it performed this session
+    if (sr.status === 'new' || sr.status === 'graduated') {
+      if ((q._sessionWrongCount || 0) > 0) {
+        // Wrong at least once this session → enters penalty
+        sr.status       = 'penalty';
+        sr.wrongInitial = Math.min(q._sessionWrongCount, 3);
+        sr.recoveryStep = 0;
+        sr.consecutiveRights = 0;
+      } else {
+        // Clean pass → stays graduated, increment consecutive rights
+        sr.status = 'graduated';
+        sr.consecutiveRights = (sr.consecutiveRights || 0) + 1;
+      }
+    } else if (sr.status === 'penalty') {
+      if ((q._sessionWrongCount || 0) > 0) {
+        // Wrong again during recovery → reset recovery, update severity
+        sr.recoveryStep  = 0;
+        sr.wrongInitial  = Math.max(sr.wrongInitial, Math.min(q._sessionWrongCount, 3));
+      } else {
+        // Clean pass in recovery session → advance recovery
+        sr.recoveryStep = (sr.recoveryStep || 0) + 1;
+        if (sr.recoveryStep >= 3) {
+          // 🎓 GRADUATED — answered right 3 sessions in a row after penalty
+          sr.status        = 'graduated';
+          sr.wrongInitial  = 0;
+          sr.recoveryStep  = 0;
+          sr.consecutiveRights = 1;
+        }
+      }
+    }
+
+    srData[q.id] = sr;
+    localStorage.setItem('netprep_sr_data', JSON.stringify(srData));
+
     fcStreak++;
     fcScore += (10 + (fcStreak * 2));
-    if(fcStreak > maxStreak) maxStreak = fcStreak;
+    if (fcStreak > maxStreak) maxStreak = fcStreak;
     fcArray.splice(fcIndex, 1);
+
   } else {
+    // ── Wrong: stays in current session, loops to end ──
+    q._sessionWrongCount = (q._sessionWrongCount || 0) + 1;
     fcStreak = 0;
-    // Mark this card as a "wrong-repeat" so renderFC knows to show red glow
     const wrongCard = fcArray.splice(fcIndex, 1)[0];
-    wrongCard._wasWrong = true; // flag for glow
     fcArray.push(wrongCard);
   }
 
   updateGamiDisplay();
 
-  if(fcArray.length === 0) {
+  if (fcArray.length === 0) {
     showFCVictory();
   } else {
-    if(fcIndex >= fcArray.length) fcIndex = 0;
-    // ── INCREASED to 600ms so user fully sees the Red/Green glow feedback ──
+    if (fcIndex >= fcArray.length) fcIndex = 0;
     setTimeout(() => {
       cardEl.classList.remove('is-flipped');
       setTimeout(() => renderFC(), 220);
@@ -3952,24 +4019,25 @@ function renderFC() {
    const card = document.getElementById('fc-card-inner');
    
    card.classList.remove('is-flipped','glow-flash');
-   // Set glow based on card's history
    card.classList.remove('glow-gold','glow-red','glow-green','warning-pulse');
 
-   // Feature 5 bug fix: check BOTH the in-session flag AND persistent SR data.
-   // A card gets red glow immediately if wrongCount >= 1 in ANY previous session,
-   // OR if it was marked wrong at least once in the CURRENT session.
+   // ── SR-aware glow: penalty = red pulse, session wrong = red, clean = gold ──
    const _srCheck = JSON.parse(localStorage.getItem('netprep_sr_data') || '{}');
-   const _srEntry = _srCheck[q.id] || { wrongCount: 0, rightCount: 0 };
-   const _shouldGlowRed = q._wasWrong || (_srEntry.wrongCount >= 1);
+   const _srNorm  = _normaliseSR(_srCheck[q.id]);
+   const _inSessionWrong = (q._sessionWrongCount || 0) > 0;
+   const _isPenalty = _srNorm.status === 'penalty';
 
-   if (_shouldGlowRed) {
-     // Wrong card (current or past session) → immediate red warning aura
-     card.classList.add('glow-red', 'warning-pulse');
+   if (_inSessionWrong || _isPenalty) {
+     // 3x wrong penalty → intense pulse; else steady red
+     if (_srNorm.wrongInitial >= 3 || (q._sessionWrongCount || 0) >= 3) {
+       card.classList.add('glow-red', 'warning-pulse');
+     } else {
+       card.classList.add('glow-red');
+     }
    } else {
-     // Clean card (never wrong) → golden default
      card.classList.add('glow-gold');
    }
-   document.getElementById('fc-progress').textContent = `Card ${fcIndex + 1} of ${fcArray.length}`;
+   document.getElementById('fc-progress').textContent = `Card ${fcIndex + 1} of ${fcTotalCards}`;
 
    // 🟢 SMART CONTENT: Vault me kis bhasha me save hua tha, wahi version dikhao!
    const qLang = q.saveLang || 'EN';
