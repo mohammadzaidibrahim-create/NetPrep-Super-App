@@ -3855,46 +3855,6 @@ function _initDeck(rawCards) {
   renderFC();
 }
 
-// [UPGRADE 4] Custom Smart Deck: launch flashcards from manually selected questions
-function startCustomFlashcards() {
-  const selectedCheckboxes = document.querySelectorAll('.vault-q-chk:checked');
-  if (selectedCheckboxes.length === 0) {
-    showVaultToast('⚠️ Please select at least one question first.');
-    return;
-  }
-
-  const selectedIds = Array.from(selectedCheckboxes).map(chk => String(chk.value));
-  const allVault = JSON.parse(localStorage.getItem('netprep_saved_pyqs')) || [];
-  const rawCards = allVault.filter(q => selectedIds.includes(String(q.id)));
-
-  if (rawCards.length === 0) {
-    showVaultToast('⚠️ Could not match selected questions. Please try again.');
-    return;
-  }
-
-  // Build deck using same SR ordering as startFlashcards
-  const srData = JSON.parse(localStorage.getItem('netprep_sr_data') || '{}');
-  const bucket1 = [], bucket2 = [], bucket3 = [], bucket4 = [];
-  rawCards.forEach(q => {
-    const sr = srData[q.id] || { wrongCount: 0, rightCount: 0 };
-    if (sr.wrongCount >= 3)      bucket1.push(q);
-    else if (sr.wrongCount >= 1) bucket2.push(q);
-    else if (sr.rightCount > 0)  bucket4.push(q);
-    else                          bucket3.push(q);
-  });
-  bucket1.sort((a,b) => (srData[b.id]?.wrongCount||0) - (srData[a.id]?.wrongCount||0));
-  bucket2.sort((a,b) => (srData[b.id]?.wrongCount||0) - (srData[a.id]?.wrongCount||0));
-
-  fcArray = [...bucket1, ...bucket2, ...bucket3, ...bucket4];
-  fcIndex = 0; fcScore = 0; fcStreak = 0; maxStreak = 0;
-  fcTotalCards = fcArray.length;
-
-  document.getElementById('vault-app-screen').classList.remove('show');
-  document.getElementById('flashcard-screen').style.display = 'flex';
-  updateGamiDisplay();
-  renderFC();
-}
-
 function updateGamiDisplay() {
   document.getElementById('fc-streak-display').textContent = `🔥 Streak: ${fcStreak}`;
   document.getElementById('fc-score-display').textContent = `⭐ Score: ${fcScore}`;
