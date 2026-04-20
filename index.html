@@ -2360,14 +2360,19 @@ html,body{height:100%;font-family:'IBM Plex Sans',sans-serif;background:var(--bg
         <div class="modal-box" style="max-height:90vh; overflow-y:auto; max-width:560px;">
           <h3 style="margin-bottom:16px; color:var(--text);">➕ Add Personal Notes</h3>
 
-          <!-- Shared fields: paper + unit + topic -->
-          <select id="m-paper" class="modal-input">
-            <option value="p1">Paper 1 (General Aptitude)</option>
-            <option value="p2">Paper 2 (Subject Specific)</option>
-          </select>
+         <!-- Shared fields: paper + language + unit + topic -->
+          <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-bottom:10px;">
+            <select id="m-paper" class="modal-input" style="margin-bottom:0;">
+              <option value="p1">Paper 1 (General Aptitude)</option>
+              <option value="p2">Paper 2 (Subject Specific)</option>
+            </select>
+            <select id="m-lang" class="modal-input" style="margin-bottom:0;">
+              <option value="EN">🇬🇧 English</option>
+              <option value="HI">🇮🇳 Hindi (हिंदी)</option>
+            </select>
+          </div>
           <input type="text" id="m-unit" class="modal-input" placeholder="Unit Name (e.g., Unit 2: Evolution)" />
           <input type="text" id="m-topic" class="modal-input" placeholder="Topic (e.g., Primatology)" />
-
           <!-- Mode tabs -->
           <div class="modal-tab-row">
             <button class="modal-tab-btn active" id="modal-tab-single" onclick="switchModalTab('single')">✏️ Single Add</button>
@@ -3593,6 +3598,8 @@ function saveManualQuestion() {
 
 function saveBulkQuestions() {
   const paper = document.getElementById('m-paper').value;
+  const langSelect = document.getElementById('m-lang');
+  const lang = langSelect ? langSelect.value : 'EN';
   const unit = document.getElementById('m-unit').value || 'Personal Notes';
   const topic = document.getElementById('m-topic').value || 'General';
   const raw = document.getElementById('m-bulk-text').value;
@@ -3626,6 +3633,7 @@ function saveBulkQuestions() {
     vault.push({
       id: 'PERS_' + (now + i),
       paper: paper,
+      saveLang: lang,
       source: 'personal',
       unit: unit,
       topic: topic,
