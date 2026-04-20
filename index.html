@@ -3561,21 +3561,24 @@ function switchModalTab(tab) {
 function saveManualQuestion() {
   const paper = document.getElementById('m-paper').value;
   const langSelect = document.getElementById('m-lang');
-  const lang = langSelect ? langSelect.value : 'EN'; // 🟢 FIX: Safe extraction of language
-  const unit = document.getElementById('m-unit').value || 'Personal Notes';
-  const topic = document.getElementById('m-topic').value || 'General';
+  const lang = langSelect ? langSelect.value : 'EN';
+  const userUnit = document.getElementById('m-unit').value.trim();
+  const topic = document.getElementById('m-topic').value.trim() || 'General';
   const question = document.getElementById('m-question').value.trim();
   const answer = document.getElementById('m-answer').value.trim();
   const explanation = document.getElementById('m-explanation').value.trim();
 
-  if(!question || !answer) { alert('Question and Answer are required!'); return; }
+  if (!question || !answer) { alert('Question and Answer are required!'); return; }
+
+  // Auto-detect unit only when user left the field blank
+  const finalUnit = userUnit || autoCategorizeUnit(question + ' ' + answer + ' ' + explanation, paper);
 
   const newQ = {
     id: 'PERS_' + Date.now(),
     paper: paper,
-    saveLang: lang, // 🟢 Ensure language is saved
+    saveLang: lang,
     source: 'personal',
-    unit: unit,
+    unit: finalUnit,
     topic: topic,
     question: question,
     correct_text: answer,
@@ -3587,69 +3590,179 @@ function saveManualQuestion() {
   vault.push(newQ);
   localStorage.setItem('netprep_saved_pyqs', JSON.stringify(vault));
 
-  // Form Reset
   document.getElementById('m-question').value = '';
   document.getElementById('m-answer').value = '';
   document.getElementById('m-explanation').value = '';
+  document.getElementById('m-unit').value = '';
   closeAddModal();
-  showVaultToast('✅ Note saved to Vault!');
-  renderVault2(); // 🟢 Vault screen ko turant refresh karne ke liye
+  showVaultToast(`✅ Note saved in "${finalUnit}"!`);
+  renderVault2();
    }
 
 function saveBulkQuestions() {
   const paper = document.getElementById('m-paper').value;
   const langSelect = document.getElementById('m-lang');
   const lang = langSelect ? langSelect.value : 'EN';
-  const unit = document.getElementById('m-unit').value || 'Personal Notes';
-  const topic = document.getElementById('m-topic').value || 'General';
+  const userUnit = document.getElementById('m-unit').value.trim(); // blank = auto-detect per entry
   const raw = document.getElementById('m-bulk-text').value;
 
   if (!raw.trim()) { alert('Please paste your Q&A pairs first.'); return; }
 
-  // Parse: split on --- or on consecutive Q: lines
   const entries = [];
   const blocks = raw.split(/\n?\s*---+\s*\n?/);
   blocks.forEach(block => {
     const lines = block.split('\n').map(l => l.trim()).filter(Boolean);
     let currentQ = '', currentA = '', currentE = '';
     lines.forEach(line => {
-      if (/^Q:/i.test(line))      currentQ += (currentQ ? '\n' : '') + line.replace(/^Q:\s*/i, '');
-      else if (/^A:/i.test(line)) currentA += (currentA ? '\n' : '') + line.replace(/^A:\s*/i, '');
-      else if (/^E:/i.test(line)) currentE += (currentE ? '\n' : '') + line.replace(/^E:\s*/i, '');
-      else if (currentA)          currentA += '\n' + line; // continuation
-      else if (currentQ)          currentQ += '\n' + line;
+      if (/^Q:/i.test(line))       currentQ += (currentQ ? '\n' : '') + line.replace(/^Q:\s*/i, '');
+      else if (/^A:/i.test(line))  currentA += (currentA ? '\n' : '') + line.replace(/^A:\s*/i, '');
+      else if (/^E:/i.test(line))  currentE += (currentE ? '\n' : '') + line.replace(/^E:\s*/i, '');
+      else if (currentA)           currentA += '\n' + line;
+      else if (currentQ)           currentQ += '\n' + line;
     });
     if (currentQ && currentA) entries.push({ q: currentQ.trim(), a: currentA.trim(), e: currentE.trim() });
   });
 
   if (entries.length === 0) {
-    alert('Could not find any valid Q: / A: pairs. Please check the format shown above.');
+    alert('No valid Q:/A: pairs found. Check the format hint above.');
     return;
   }
 
   let vault = JSON.parse(localStorage.getItem('netprep_saved_pyqs')) || [];
   const now = Date.now();
+  const unitSummary = {};
+
   entries.forEach((entry, i) => {
+    const finalUnit = userUnit || autoCategorizeUnit(entry.q + ' ' + entry.a + ' ' + entry.e, paper);
+    unitSummary[finalUnit] = (unitSummary[finalUnit] || 0) + 1;
     vault.push({
       id: 'PERS_' + (now + i),
       paper: paper,
       saveLang: lang,
       source: 'personal',
-      unit: unit,
-      topic: topic,
+      unit: finalUnit,
+      topic: 'Bulk Entry',
       question: entry.q,
       correct_text: entry.a,
       explanation: entry.e,
       difficulty: 'custom'
     });
   });
+
   localStorage.setItem('netprep_saved_pyqs', JSON.stringify(vault));
+
+  // Toast: shows exactly which folders notes landed in
+  const summaryParts = Object.entries(unitSummary)
+    .map(([u, c]) => `${u.replace(/^Unit\s*[-–]?\s*[IVXLC\d]+[:\.\s]*/i, '')} (${c})`)
+    .join(', ');
+  const toastMsg = userUnit
+    ? `✅ ${entries.length} note${entries.length > 1 ? 's' : ''} saved to "${userUnit}"!`
+    : `✅ ${entries.length} notes → ${summaryParts}`;
 
   document.getElementById('m-bulk-text').value = '';
   document.getElementById('bulk-parse-info').textContent = '';
+  document.getElementById('m-unit').value = '';
   closeAddModal();
-  showVaultToast(`✅ ${entries.length} note${entries.length > 1 ? 's' : ''} saved to Vault!`);
+  showVaultToast(toastMsg);
   switchVaultTab(paper);
+   }
+
+/* ══════════════════════════════════════════════════════════════════════
+   SMART AUTO-CATEGORIZATION ENGINE
+   Based on official UGC NET syllabus (Paper I & Anthropology Paper II)
+   Unit names MUST match defaultPaper1 / defaultPaper2 titleEN exactly
+══════════════════════════════════════════════════════════════════════ */
+function autoCategorizeUnit(text, paper) {
+  const t = (text || '').toLowerCase();
+
+  if (paper === 'p1') {
+    // Unit 1: Teaching Aptitude
+    if (/\b(teach|pedagog|learner|bloom|memory level|reflective teaching|cbcs|evaluation|instructional|swayam|mooc|offline.*method|teacher.centred|learner.centred|support system|cbt|credit|शिक्षण|शिक्षार्थी|मूल्यांकन|स्वयं)\b/.test(t))
+      return "Teaching Aptitude";
+
+    // Unit 2: Research Aptitude
+    if (/\b(research|hypothesis|positivism|post.positivis|qualitative|quantitative|experimental.*method|descriptive.*method|historical.*method|thesis|referencing|apa|mla|research ethic|plagiarism|शोध|परिकल्पना|प्रत्यक्षवाद|नैतिकता)\b/.test(t))
+      return "Research Aptitude";
+
+    // Unit 3: Comprehension
+    if (/\b(passage|comprehension|paragraph|prose|reading|गद्यांश|बोध|पठन)\b/.test(t))
+      return "Comprehension";
+
+    // Unit 4: Communication
+    if (/\b(communication|verbal|non.verbal|encoding|decoding|feedback|noise|channel|mass.media|intercultural|classroom.*communi|barrier.*communi|संप्रेषण|संचार|मीडिया|बाधा)\b/.test(t))
+      return "Communication";
+
+    // Unit 5: Mathematical Reasoning
+    if (/\b(number series|letter series|coding.*decoding|ratio|proportion|percentage|profit.*loss|simple interest|compound interest|average|fraction|time.*distance|speed|mathematical.*aptitude|श्रृंखला|अनुपात|प्रतिशत|औसत|गणित)\b/.test(t))
+      return "Mathematical Reasoning";
+
+    // Unit 6: Logical Reasoning
+    if (/\b(logic|syllogism|fallac|deductive|inductive|analogy|analogies|venn|categorical.*proposition|mood.*figure|connotation|denotation|pramana|pratyaksha|anumana|upamana|shabda|vyapti|hetvabhas|तर्क|न्याय|प्रमाण|अनुमान|हेत्वाभास)\b/.test(t))
+      return "Logical Reasoning";
+
+    // Unit 7: Data Interpretation
+    if (/\b(data|bar chart|histogram|pie chart|table chart|line chart|graph|data.*governance|quantitative.*data|qualitative.*data|classification.*data|आंकड़े|डेटा|चार्ट|तालिका)\b/.test(t))
+      return "Data Interpretation";
+
+    // Unit 8: ICT
+    if (/\b(ict|internet|intranet|email|e.mail|browser|html|url|www|wi.fi|cloud|digital.*initiative|audio.*conferenc|video.*conferenc|firewall|modem|protocol|bandwidth|कंप्यूटर|इंटरनेट|डिजिटल|ई-मेल)\b/.test(t))
+      return "ICT";
+
+    // Unit 9: People & Environment
+    if (/\b(environment|pollution|climate change|sdg|sustainable development|ecosystem|biodiversity|solar energy|wind energy|nuclear|ozone|rio summit|kyoto|paris agreement|montreal|greenhouse|carbon|hazard|disaster|पर्यावरण|प्रदूषण|जलवायु|आपदा|ऊर्जा)\b/.test(t))
+      return "People & Environment";
+
+    // Unit 10: Higher Education
+    if (/\b(higher education|university|ugc|naac|nirf|nep|deemed|autonomous|open.*university|distance education|ancient.*university|nalanda|takshashila|governance|उच्च शिक्षा|विश्वविद्यालय|नालंदा|तक्षशिला)\b/.test(t))
+      return "Higher Education";
+
+    return "Personal Notes"; // Paper 1 fallback
+
+  } else {
+    // ── PAPER 2: ANTHROPOLOGY ─────────────────────────────────────────
+
+    // Unit 1: Introduction to Anthropology (History, Research Methodology, Stats)
+    if (/\b(scope.*anthropolog|history.*anthropolog|branch.*anthropolog|linguistic.*anthropolog|epistemolog|ontolog|fieldwork|ethnograph|participant.*observ|interview.*method|case.*study|life.*histor|genealog|pra\b|rra\b|grounded.*theor|gis\b|sampling|central.*tendency|mean\b|median\b|mode\b|standard.*deviation|regression|chi.*square|anova|content.*analysis|discourse.*analysis|मानव विज्ञान.*इतिहास|क्षेत्रकार्य|नृवंशविज्ञान|सांख्यिकी)\b/.test(t))
+      return "Introduction to Anthropology";
+
+    // Unit 2: Biological Evolution & Primatology
+    if (/\b(lamarck|darwin|neo.darwin|synthetic.*theory|neutral.*theory|cladogenesis|anagenesis|punctuated.*equilibrium|natural.*selection|primate|prosimii|anthropoidea|tarsii|loris|lemur|ceboid|cercopithecoid|hominoid|chimpanzee|gorilla|orangutan|gibbon|parapithecus|gigantopithecus|aegyptopithecus|dryopithecus|ramapithecus|sivapithecus|sahelanthropus|orrorin|ardipithecus|australopithecus|homo habilis|homo erectus|turkana|java man|peking man|neandertal|neanderthal|homo sapiens|cro.magnon|out.*africa|multiregional|लैमार्क|डार्विन|प्राइमेट|ऑस्ट्रेलोपिथेकस|होमो)\b/.test(t))
+      return "Biological Evolution & Primatology";
+
+    // Unit 3: Human Genetics & Variation
+    if (/\b(blumenbach|deniker|hooton|coon\b|garn\b|birdsell|risley|guha\b|sarkar\b|racial.*classif|typological.*model|populational.*model|clinal.*model|cytogenet|karyotyp|chromosome|autosomal|sex.linked|dominant|recessive|codominan|hardy.weinberg|genetic.*drift|inbreeding|allele|mutation|dna\b|rna\b|mitochondrial|rflp|vntr|snp\b|dermatoglyph|finger.*ridge|palm.*formula|atd.*angle|आनुवंशिकी|गुणसूत्र|वंशागति|डर्माटोग्लिफिक्स)\b/.test(t))
+      return "Human Genetics & Variation";
+
+    // Unit 4: Human Growth & Demography
+    if (/\b(human.*growth|prenatal|postnatal|growth.*curve|velocity.*curve|scammon|catch.up.*growth|aging|senescence|secular.*trend|body.*composition|body.*fat|somatotyp|kretschmer|sheldon|parnol|health.carter|allen.*rule|bergmann.*rule|high.*altitude|heat.*adapt|cold.*adapt|demograph|fertility|morbidity|mortality|migration|selection.*intensity|विकास.*वक्र|सोमाटोटाइप|जनसांख्यिकी|अनुकूलन)\b/.test(t))
+      return "Human Growth & Demography";
+
+    // Unit 5: Prehistoric Archaeology (methods, tools, Europe, Near East)
+    if (/\b(ethno.archaeolog|experimental.*archaeolog|settlement.*archaeolog|cognitive.*archaeolog|geo.archaeolog|typolog|seriation|radiocarbon|carbon.14|dendrochronolog|thermoluminescence|potassium.argon|palaeomagnetic|pleistocene|holocene|quaternary|glacial|interglacial|palaeolith|lower.*palaeolith|middle.*palaeolith|upper.*palaeolith|acheulian|mousterian|levalloisian|clactonian|perigordian|aurignacian|solutrian|magdalenian|azilian|tardenoisean|natufian|jericho|jarmo|catal huyuk|shanidar|biface|handaxe|cleaver|scraper|burin|microlith|neolith.*europe|पुरापाषाण.*यूरोप|काल.निर्धारण)\b/.test(t))
+      return "Prehistoric Archaeology";
+
+    // Unit 6: Indian Prehistory
+    if (/\b(soan\b|madrasian|attirampakkam|didwana|belan.*valley|bhimbetka|chirki|hunsgi|krishna.*valley|hathnora|narmada.*valley|renigunta|billa.*surgam|patne|son.*valley|visadi|pushkar|bagor\b|tilwara|langhnaj|adamgarh|chopani|sarai.*nahar|birbhanpur|burzahom|gufkral|ahar\b|gilund|navdatoli|kayatha|daimabad|inamgaon|brahmagiri|tekkalkota|piklihal|daojali|kuchai|indus.*civili|harappa|mohenjodaro|lothal|dholavira|kalibangan|rakhigarhi|amri\b|kot.*diji|ochre.*colour|painted.*grey|northern.*black|megalith|menhir|dolmen|cist\b|sarcophag|भारतीय.*प्रागैतिहास|सिंधु.*सभ्यता|हड़प्पा|भीमबेटका|महापाषाण)\b/.test(t))
+      return "Indian Prehistory";
+
+    // Unit 7: Social & Cultural Anthropology
+    if (/\b(culture\b|acculturation|enculturation|transculturation|culture.*shock|cultural.*relativism|folk.urban|great.*tradition|little.*tradition|society\b|institution\b|status.*role|incest|endogamy|exogamy|rite.*passage|nuclear.*family|joint.*family|extended.*family|patrilocal|matrilocal|neolocal|avunculocal|monogamy|polygamy|polyandry|polygyny|hypergamy|hypogamy|levirate|sororate|bride.*price|dowry|kinship|descent|lineage|clan\b|moiety|phratry|kula\b|potlatch|jajmani|reciproc|animism|animatism|totemism|taboo\b|shaman|sorcerer|magic\b|ritual\b|संस्कृति|समाज|नातेदारी|विवाह|परिवार|धर्म|जादू|कर्मकांड)\b/.test(t))
+      return "Social & Cultural Anthropology";
+
+    // Unit 8: Anthropological Theory
+    if (/\b(tylor\b|morgan\b|frazer\b|maine\b|mclennan|evolutionism|diffusionism|austro.german|boas\b|historical.*particular|malinowski|radcliffe.brown|firth\b|fortes\b|functionalism|structural.function|levi.strauss|structuralism|mead\b|benedict\b|dubois\b|kardiner|culture.*personality|cultural.*ecology|leslie.*white|julian.*steward|marshall.*sahlins|neo.evolution|marvin.*harris|cultural.*materialism|victor.*turner|mary.*douglas|symbolic.*anthropolog|clifford.*geertz|interpretive|foucault|derrida|bourdieu|postmodern|poststructural|postcolonial|barth\b|ethnicity|leela.*dube|सिद्धांत|विकासवाद|प्रसारवाद|प्रकार्यवाद|संरचनावाद|उत्तर.आधुनिक)\b/.test(t))
+      return "Anthropological Theory";
+
+    // Unit 9: Indian Anthropology
+    if (/\b(indian.*anthropolog|ghurye|iravati.*karve|vidyarthi|srinivas\b|n\.k\..*bose|surajit.*sinha|majumdar\b|verrier.*elwin|scheduled.*caste|scheduled.*tribe|dalit\b|obc\b|pvtg|birsa\b|naga.*movement|malabar.*movement|telengana|panchayati.*raj|self.help.*group|shg\b|sanskritiz|westerniz|sacred.*complex|village.*stud|caste\b|social.*stratif|भारतीय मानव विज्ञान|जनजाति|जाति|दलित|पंचायती राज|संस्कृतिकरण)\b/.test(t))
+      return "Indian Anthropology";
+
+    // Unit 10: Applied Anthropology
+    if (/\b(applied.*anthropolog|action.*anthropolog|engaged.*anthropolog|urban.*anthropolog|public.*anthropolog|medical.*anthropolog|forensic.*anthropolog|ergonomic|kinanthropometr|business.*anthropolog|community.*development|ngo\b|women.*empowerment|lgbt|gender.*issue|social.*impact.*assessment|sia\b|land.*alienation|bonded.*labour|rehabilitation|nutrition.*anthropolog|genomic|genetic.*screening|व्यावहारिक|फोरेंसिक|सामुदायिक विकास|महिला सशक्तिकरण)\b/.test(t))
+      return "Applied Anthropology";
+
+    return "Personal Notes"; // Paper 2 fallback
+  }
 }
 
 /* ── PHASE 3: FLASHCARD ENGINE 3.0 (LEGENDARY GAMIFICATION) ───────── */
