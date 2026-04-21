@@ -3340,9 +3340,12 @@ function renderVault2(activeTab, notesOnly) {
     a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' })
   );
 
-  // Build all unique unit names for the move dropdown
-  const allVaultUnits = [...new Set(vault.map(v => v.unit || 'General / Uncategorized'))];
-
+  // Build all unique unit names for the move dropdown (covers unitEN, unitHI, and unit fields)
+  const allVaultUnits = [...new Set(vault.map(v => {
+    if (v.saveLang === 'HI' && v.unitHI) return v.unitHI;
+    if (v.unitEN) return v.unitEN;
+    return v.unit || 'General / Uncategorized';
+  }))];
   let html = controlPanelHTML;
 
   sortedUnits.forEach((unit, idx) => {
@@ -3486,10 +3489,13 @@ function movePYQUnit(id) {
   const qIdx = vault.findIndex(q => String(q.id) === String(id));
   if(qIdx === -1) { alert('Question not found in Vault.'); return; }
 
-  const oldUnit = vault[qIdx].unit || 'General / Uncategorized';
-  vault[qIdx].unit = targetUnit;
+  const q = vault[qIdx];
+  const oldUnit = (q.saveLang === 'HI' && q.unitHI) ? q.unitHI : (q.unitEN || q.unit || 'General / Uncategorized');
+  // Update all unit fields so renderVault2 grouping picks up the new folder
+  q.unit = targetUnit;
+  if (q.unitEN) q.unitEN = targetUnit;
+  if (q.unitHI) q.unitHI = targetUnit;
   localStorage.setItem('netprep_saved_pyqs', JSON.stringify(vault));
-
   // Show a brief success toast without alert
   showVaultToast(`✅ Moved from "${oldUnit}" → "${targetUnit}"`);
   renderVault2();
@@ -3683,17 +3689,32 @@ function saveBulkQuestions() {
   if (!raw.trim()) { alert('Please paste your Q&A pairs first.'); return; }
 
   const entries = [];
-  const blocks = raw.split(/\n?\s*---+\s*\n?/);
+  // Normalize line endings (handles Windows \r\n and Mac \r)
+  const normalized = raw.replace(/\r\n/g, '\n').replace(/\r/g, '\n');
+  // Split on --- separator OR on a new Q: line that appears after an A: has already started
+  const blocks = normalized.split(/\n[ \t]*---+[ \t]*\n/);
   blocks.forEach(block => {
     const lines = block.split('\n').map(l => l.trim()).filter(Boolean);
     let currentQ = '', currentA = '', currentE = '';
     lines.forEach(line => {
-      if (/^Q:/i.test(line))       currentQ += (currentQ ? '\n' : '') + line.replace(/^Q:\s*/i, '');
-      else if (/^A:/i.test(line))  currentA += (currentA ? '\n' : '') + line.replace(/^A:\s*/i, '');
-      else if (/^E:/i.test(line))  currentE += (currentE ? '\n' : '') + line.replace(/^E:\s*/i, '');
-      else if (currentA)           currentA += '\n' + line;
-      else if (currentQ)           currentQ += '\n' + line;
+      if (/^Q:/i.test(line)) {
+        // If a new Q: starts and we already have a complete Q+A, save the previous entry first
+        if (currentQ && currentA) {
+          entries.push({ q: currentQ.trim(), a: currentA.trim(), e: currentE.trim() });
+          currentQ = ''; currentA = ''; currentE = '';
+        }
+        currentQ += (currentQ ? '\n' : '') + line.replace(/^Q:\s*/i, '');
+      } else if (/^A:/i.test(line)) {
+        currentA += (currentA ? '\n' : '') + line.replace(/^A:\s*/i, '');
+      } else if (/^E:/i.test(line)) {
+        currentE += (currentE ? '\n' : '') + line.replace(/^E:\s*/i, '');
+      } else if (currentA) {
+        currentE += (currentE ? '\n' : '') + line; // extra lines after A go to explanation
+      } else if (currentQ) {
+        currentQ += '\n' + line;
+      }
     });
+    // Save the last entry in the block
     if (currentQ && currentA) entries.push({ q: currentQ.trim(), a: currentA.trim(), e: currentE.trim() });
   });
 
