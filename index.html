@@ -5391,14 +5391,15 @@ function commitTopicEdit(id,uIdx,el,paperKey){
   const inp=el.querySelector(`#tedit_${id}`);
   const text=inp.value.trim();if(!text)return;
   const tIdx=parseInt(id.split('_t').pop());
-  const {arr,save}=_getPaperRef(paperKey);
+  const {arr,save,accId}=_getPaperRef(paperKey);
 
-  // ── Get OLD storage key BEFORE overwriting ──
-  const oldStorageKey = appLang==='HI'
-    ? (arr[uIdx].topicsEN && arr[uIdx].topicsEN[tIdx]) || el.dataset.skey || text
-    : el.dataset.skey || text;
+  // ── Capture OLD EN storage key BEFORE any write ──
+  // This is always the EN text regardless of current language
+  const oldStorageKey = (arr[uIdx].topicsEN && arr[uIdx].topicsEN[tIdx])
+    ? arr[uIdx].topicsEN[tIdx]
+    : (el.dataset.skey || text);
 
-  // ── Write new text to data array ──
+  // ── Write new text to the correct language array ──
   if(appLang==='HI'){
     if(!arr[uIdx].topicsHI) arr[uIdx].topicsHI=[...arr[uIdx].topicsEN];
     arr[uIdx].topicsHI[tIdx]=text;
@@ -5407,24 +5408,36 @@ function commitTopicEdit(id,uIdx,el,paperKey){
     arr[uIdx].topicsEN[tIdx]=text;
   }
 
-  // ── NEW: Migrate S entry from old key → new EN key ──
-  // Only needed when editing in EN mode (EN key is the canonical storage key)
-  if(appLang!=='HI'){
-    const newStorageKey = text;
-    if(oldStorageKey !== newStorageKey && S[oldStorageKey]){
-      S[newStorageKey] = S[oldStorageKey]; // copy prof/checked/starred/children
-      delete S[oldStorageKey];             // remove old key
-      saveS();
+  // ── Migrate S entry: old EN key → new EN key ──
+  // EN key is ALWAYS the canonical storage key for proficiency/checked/starred
+  const newStorageKey = appLang==='HI'
+    ? oldStorageKey                        // HI edit: EN key unchanged
+    : text;                                // EN edit: EN key = new text
+
+  if(oldStorageKey !== newStorageKey){
+    if(S[oldStorageKey]){
+      S[newStorageKey] = S[oldStorageKey]; // move prof/checked/starred/children
+      delete S[oldStorageKey];
     }
+    saveS();
   }
 
-  save();buildMeta();
-  el.querySelector(`#tlbl_${id}`).textContent=text;
-  // Update DOM skey to new EN text so future proficiency clicks use correct key
-  el.dataset.skey = appLang==='HI' ? (arr[uIdx].topicsEN[tIdx]||text) : text;
-  inp.value=text;
-  _cancelTopicEdit(el);
-  rebuildDash();showToast('✅ Topic renamed!');
+  save();
+
+  // ── CRITICAL: Full accordion rebuild so DOM closures get fresh storageKey ──
+  // Simply updating el.dataset.skey is NOT enough because the proficiency button
+  // event listeners capture storageKey in a closure at build time.
+  // The only safe fix is to rebuild the accordion so all closures are recreated.
+  const accEl = document.getElementById(accId);
+  if(accEl){
+    accEl.innerHTML='';
+    buildAccordion(arr, paperKey, accId);
+    if(wsEditMode) accEl.classList.add('edit-mode-active');
+  }
+
+  buildMeta();
+  rebuildDash();
+  showToast('✅ Topic renamed!');
 }
 
 function deleteTopic(uIdx,id,el,paperKey){
