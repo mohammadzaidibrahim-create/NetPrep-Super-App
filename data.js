@@ -1082,7 +1082,7 @@ const TEST_JAN_2026_P1 = [
   }
 ];        
                
-const TEST_JUNE_2025 = [
+const TEST_JUNE_2025_P2 = [
   {
     "id": "JUNE2025_Q01",
     "difficulty": "medium",
@@ -2983,12 +2983,12 @@ const TEST_JUNE_2025 = [
     "topicHI": "हार्डी वेनबर्ग संतुलन",
     "content": {
       "en": {
-        "question": passageHTML(PASSAGE_BLOOD.en) + "<strong>Q.Who were the discoverers of the fundamental theorem of population genetics?</strong>",
+        "question": passageHTML(PASSAGE_BLOOD.en) + "<strong>Q. Who were the discoverers of the fundamental theorem of population genetics?</strong>",
         "options": ["Hardy and Weinberg", "Haldane and Penrose", "Harris and Watkins", "Pauling and Nei"],
         "explanation": "G.H. Hardy and Wilhelm Weinberg independently discovered the Hardy-Weinberg principle in 1908, which acts as the foundational theorem of population genetics, establishing the baseline for allele frequencies in a non-evolving population."
       },
       "hi": {
-        "question": passageHTML(PASSAGE_BLOOD.hi) + "<strong>प्रश्न.जनसंख्या आनुवंशिकी (population genetics) के मौलिक प्रमेय के खोजकर्ता कौन थे?</strong>",
+        "question": passageHTML(PASSAGE_BLOOD.hi) + "<strong>प्रश्न. जनसंख्या आनुवंशिकी (population genetics) के मौलिक प्रमेय के खोजकर्ता कौन थे?</strong>",
         "options": ["हार्डी और वेनबर्ग", "हल्डेन और पेनरोज़", "हैरिस और वाटकिंस", "पॉलिंग और नेई"],
         "explanation": "जी.एच. हार्डी और विल्हेम वेनबर्ग ने 1908 में स्वतंत्र रूप से हार्डी-वेनबर्ग सिद्धांत की खोज की, जो जनसंख्या आनुवंशिकी के मूलभूत प्रमेय के रूप में कार्य करता है, और एक गैर-विकसित आबादी में एलील आवृत्तियों के लिए आधार रेखा स्थापित करता है।"
       }
@@ -3004,12 +3004,12 @@ const TEST_JUNE_2025 = [
     "topicHI": "आणविक आनुवंशिकी",
     "content": {
       "en": {
-        "question": passageHTML(PASSAGE_BLOOD.en) + "<strong>Q.Blood groups were discovered by</strong>",
+        "question": passageHTML(PASSAGE_BLOOD.en) + "<strong>Q. Blood groups were discovered by</strong>",
         "options": ["Hirschfeld", "Levine", "Davenport", "Landsteiner"],
         "explanation": "The ABO blood group system was discovered in 1900 by the Austrian physician and immunologist Karl Landsteiner, a breakthrough that earned him the Nobel Prize."
       },
       "hi": {
-        "question": passageHTML(PASSAGE_BLOOD.hi) + "<strong>प्रश्न.रक्त समूहों की खोज किसके द्वारा की गई थी?</strong>",
+        "question": passageHTML(PASSAGE_BLOOD.hi) + "<strong>प्रश्न. रक्त समूहों की खोज किसके द्वारा की गई थी?</strong>",
         "options": ["हिर्शफेल्ड", "लेविन", "डेवनपोर्ट", "लैंडस्टीनर (Landsteiner)"],
         "explanation": "ABO रक्त समूह प्रणाली की खोज 1900 में ऑस्ट्रियाई चिकित्सक और प्रतिरक्षाविज्ञानी कार्ल लैंडस्टीनर ने की थी, यह एक ऐसी सफलता थी जिसने उन्हें नोबेल पुरस्कार दिलाया।"
       }
@@ -3025,12 +3025,12 @@ const TEST_JUNE_2025 = [
     "topicHI": "विरासत के तरीके (Modes of inheritance)",
     "content": {
       "en": {
-        "question": passageHTML(PASSAGE_BLOOD.en) + "<strong>Q.The proof that blood types are inherited was discovered by</strong>",
+        "question": passageHTML(PASSAGE_BLOOD.en) + "<strong>Q. The proof that blood types are inherited was discovered by</strong>",
         "options": ["Penrose and Fisher", "von Dungern and Hirschfeld", "Wiener and Levine", "Arbor and Bernstein"],
         "explanation": "In 1910, Emil von Dungern and Ludwik Hirszfeld proved through family studies that ABO blood types are inherited from parents to offspring following Mendelian laws of genetics."
       },
       "hi": {
-        "question": passageHTML(PASSAGE_BLOOD.hi) + "<strong>प्रश्न.यह प्रमाण कि रक्त के प्रकार विरासत में मिले हैं, किसके द्वारा खोजा गया था?</strong>",
+        "question": passageHTML(PASSAGE_BLOOD.hi) + "<strong>प्रश्न. यह प्रमाण कि रक्त के प्रकार विरासत में मिले हैं, किसके द्वारा खोजा गया था?</strong>",
         "options": ["पेनरोज़ और फिशर", "वॉन डंगर्न और हिर्शफेल्ड", "वीनर और लेविन", "आर्बर और बर्नस्टीन"],
         "explanation": "1910 में, एमिल वॉन डंगर्न और लुडविक हिर्सज़फेल्ड ने पारिवारिक अध्ययनों के माध्यम से साबित किया कि आनुवंशिकी के मेंडेलियन कानूनों का पालन करते हुए ABO रक्त प्रकार माता-पिता से संतानों में विरासत में मिलते हैं।"
       }
@@ -3046,12 +3046,12 @@ const TEST_JUNE_2025 = [
     "topicHI": "आणविक आनुवंशिकी",
     "content": {
       "en": {
-        "question": passageHTML(PASSAGE_BLOOD.en) + "<strong>Q.The combined efforts of which of the following researchers led to the discovery of Rh factor?</strong>",
+        "question": passageHTML(PASSAGE_BLOOD.en) + "<strong>Q. The combined efforts of which of the following researchers led to the discovery of Rh factor?</strong>",
         "options": ["Bodmer, Sforza and Nei", "Garrod, Bateson and Kemp", "Wiener, Levine, and Landsteiner", "Davenport, McKusick and Neel"],
         "explanation": "The Rhesus (Rh) blood group system was discovered in 1940 by Karl Landsteiner and Alexander S. Wiener, building directly upon the crucial clinical observations of Philip Levine and Rufus Stetson."
       },
       "hi": {
-        "question": passageHTML(PASSAGE_BLOOD.hi) + "<strong>प्रश्न.निम्नलिखित में से किस शोधकर्ता के संयुक्त प्रयासों से Rh कारक की खोज हुई?</strong>",
+        "question": passageHTML(PASSAGE_BLOOD.hi) + "<strong>प्रश्न. निम्नलिखित में से किस शोधकर्ता के संयुक्त प्रयासों से Rh कारक की खोज हुई?</strong>",
         "options": ["बोडमर, स्फोर्ज़ा और नेई", "गैरोड, बेटसन और केम्प", "वीनर, लेविन और लैंडस्टीनर", "डेवनपोर्ट, मैक्यूसिक और नील"],
         "explanation": "रीसस (Rh) रक्त समूह प्रणाली की खोज 1940 में कार्ल लैंडस्टीनर और अलेक्जेंडर एस. वीनर ने की थी, जो सीधे तौर पर फिलिप लेविन और रूफस स्टेटसन के महत्वपूर्ण नैदानिक ​​अवलोकनों पर आधारित थी।"
       }
@@ -3067,12 +3067,12 @@ const TEST_JUNE_2025 = [
     "topicHI": "विरासत के तरीके (Modes of inheritance)",
     "content": {
       "en": {
-        "question": passageHTML(PASSAGE_BLOOD.en) + "<strong>Q.Blood group characters are due to multiple alleles at one locus was proposed by</strong>",
+        "question": passageHTML(PASSAGE_BLOOD.en) + "<strong>Q. Blood group characters are due to multiple alleles at one locus was proposed by</strong>",
         "options": ["Bernstein in 1924", "Galton in 1928", "Fisher in 1935", "Haldane in 1948"],
         "explanation": "In 1924, the German mathematician Felix Bernstein correctly proved that the inheritance of the ABO blood groups is controlled by three multiple alleles (A, B, and O) at a single genetic locus."
       },
       "hi": {
-        "question": passageHTML(PASSAGE_BLOOD.hi) + "<strong>प्रश्न.रक्त समूह वर्ण (characters) एक स्थान पर एकाधिक एलील (multiple alleles) के कारण होते हैं, यह किसके द्वारा प्रस्तावित किया गया था?</strong>",
+        "question": passageHTML(PASSAGE_BLOOD.hi) + "<strong>प्रश्न. रक्त समूह वर्ण (characters) एक स्थान पर एकाधिक एलील (multiple alleles) के कारण होते हैं, यह किसके द्वारा प्रस्तावित किया गया था?</strong>",
         "options": ["1924 में बर्नस्टीन", "1928 में गैल्टन", "1935 में फिशर", "1948 में हेल्डन"],
         "explanation": "1924 में, जर्मन गणितज्ञ फेलिक्स बर्नस्टीन ने सही ढंग से साबित किया कि एबीओ रक्त समूहों की विरासत एक एकल आनुवंशिक स्थान पर तीन एकाधिक एलील (A, B, और O) द्वारा नियंत्रित होती है।"
       }
@@ -3088,12 +3088,12 @@ const TEST_JUNE_2025 = [
     "topicHI": "शोध के प्रकार",
     "content": {
       "en": {
-        "question": passageHTML(PASSAGE_NOMOTHETIC.en) + "<strong>Q.Inductive approach implies moving from:</strong>",
+        "question": passageHTML(PASSAGE_NOMOTHETIC.en) + "<strong>Q. Inductive approach implies moving from:</strong>",
         "options": ["Synchronic to Diachronic", "Particular to General", "General to Particular", "Diachronic to Synchronic"],
         "explanation": "Inductive reasoning is a 'bottom-up' approach. A researcher observes specific, particular instances (e.g., in a tribe) and then builds up to broader, general theories or laws."
       },
       "hi": {
-        "question": passageHTML(PASSAGE_NOMOTHETIC.hi) + "<strong>प्रश्न.आगमनात्मक दृष्टिकोण (Inductive approach) का तात्पर्य किससे आगे बढ़ना है:</strong>",
+        "question": passageHTML(PASSAGE_NOMOTHETIC.hi) + "<strong>प्रश्न. आगमनात्मक दृष्टिकोण (Inductive approach) का तात्पर्य किससे आगे बढ़ना है:</strong>",
         "options": ["तुल्यकालिक से कालानुक्रमिक (Synchronic to Diachronic)", "विशिष्ट से सामान्य (Particular to General)", "सामान्य से विशिष्ट (General to Particular)", "कालानुक्रमिक से तुल्यकालिक (Diachronic to Synchronic)"],
         "explanation": "आगमनात्मक तर्क एक 'नीचे-से-ऊपर' (bottom-up) दृष्टिकोण है। एक शोधकर्ता विशिष्ट, विशेष उदाहरणों (जैसे, एक जनजाति में) का अवलोकन करता है और फिर व्यापक, सामान्य सिद्धांतों या कानूनों का निर्माण करता है।"
       }
@@ -3109,12 +3109,12 @@ const TEST_JUNE_2025 = [
     "topicHI": "शोध के प्रकार",
     "content": {
       "en": {
-        "question": passageHTML(PASSAGE_NOMOTHETIC.en) + "<strong>Q.Hypothesis testing would most likely be a feature of:</strong>",
+        "question": passageHTML(PASSAGE_NOMOTHETIC.en) + "<strong>Q. Hypothesis testing would most likely be a feature of:</strong>",
         "options": ["Ideographic Research", "Nomothetic Research", "Participatory Research", "Ethnographic Research"],
         "explanation": "Nomothetic research is quantitative and deductive. It seeks to establish universal laws (nomos) and principles across large populations, making strict hypothesis testing its core feature."
       },
       "hi": {
-        "question": passageHTML(PASSAGE_NOMOTHETIC.hi) + "<strong>प्रश्न.परिकल्पना परीक्षण (Hypothesis testing) संभवतः किसकी एक विशेषता होगी:</strong>",
+        "question": passageHTML(PASSAGE_NOMOTHETIC.hi) + "<strong>प्रश्न. परिकल्पना परीक्षण (Hypothesis testing) संभवतः किसकी एक विशेषता होगी:</strong>",
         "options": ["इडियोग्राफिक (Ideographic) शोध", "नोमोथेटिक (Nomothetic) शोध", "सहभागी शोध", "नृवंशविज्ञान (Ethnographic) शोध"],
         "explanation": "नोमोथेटिक शोध मात्रात्मक और निगमनात्मक है। यह बड़ी आबादी में सार्वभौमिक कानूनों (nomos) और सिद्धांतों को स्थापित करना चाहता है, जिससे सख्त परिकल्पना परीक्षण (hypothesis testing) इसकी मुख्य विशेषता बन जाती है।"
       }
@@ -3130,12 +3130,12 @@ const TEST_JUNE_2025 = [
     "topicHI": "केस स्टडी और जीवन इतिहास",
     "content": {
       "en": {
-        "question": passageHTML(PASSAGE_NOMOTHETIC.en) + "<strong>Q.When a single example like an event and organization is studied in depth, it is called:</strong>",
+        "question": passageHTML(PASSAGE_NOMOTHETIC.en) + "<strong>Q. When a single example like an event and organization is studied in depth, it is called:</strong>",
         "options": ["Critical Ethnography", "Grounded Theory", "FGD", "Case Study"],
         "explanation": "A case study is a detailed, intensive, and in-depth idiographic investigation of a single specific unit—whether it be an individual, an event, an institution, or a single community."
       },
       "hi": {
-        "question": passageHTML(PASSAGE_NOMOTHETIC.hi) + "<strong>प्रश्न.जब घटना और संगठन जैसे एक ही उदाहरण का गहराई से अध्ययन किया जाता है, तो इसे क्या कहा जाता है?</strong>",
+        "question": passageHTML(PASSAGE_NOMOTHETIC.hi) + "<strong>प्रश्न. जब घटना और संगठन जैसे एक ही उदाहरण का गहराई से अध्ययन किया जाता है, तो इसे क्या कहा जाता है?</strong>",
         "options": ["क्रिटिकल एथ्नोग्राफी (Critical Ethnography)", "ग्राउंडेड थ्योरी (Grounded Theory)", "FGD", "केस स्टडी (Case Study)"],
         "explanation": "केस स्टडी एक एकल विशिष्ट इकाई की विस्तृत, गहन और गहन इडियोग्राफिक जांच है - चाहे वह कोई व्यक्ति हो, घटना हो, संस्था हो, या कोई एकल समुदाय हो।"
       }
@@ -3151,12 +3151,12 @@ const TEST_JUNE_2025 = [
     "topicHI": "शोध के प्रकार",
     "content": {
       "en": {
-        "question": passageHTML(PASSAGE_NOMOTHETIC.en) + "<strong>Q.Who among the following predominantly used nomothetic method in his work?</strong>",
+        "question": passageHTML(PASSAGE_NOMOTHETIC.en) + "<strong>Q. Who among the following predominantly used nomothetic method in his work?</strong>",
         "options": ["B. Malinowski", "C. Geertz", "E. Durkheim", "E. E. Evans-Pritchard"],
         "explanation": "Émile Durkheim, a founding figure of sociology, used a strict nomothetic (statistical/comparative) method in works like 'Suicide' to uncover general, universal laws of social behavior."
       },
       "hi": {
-        "question": passageHTML(PASSAGE_NOMOTHETIC.hi) + "<strong>प्रश्न.निम्नलिखित में से किसने अपने काम में मुख्य रूप से नोमोथेटिक विधि (nomothetic method) का उपयोग किया?</strong>",
+        "question": passageHTML(PASSAGE_NOMOTHETIC.hi) + "<strong>प्रश्न. निम्नलिखित में से किसने अपने काम में मुख्य रूप से नोमोथेटिक विधि (nomothetic method) का उपयोग किया?</strong>",
         "options": ["बी. मालिनोव्स्की", "सी. गीर्ट्ज़", "ई. दुर्खीम (E. Durkheim)", "ई. ई. इवांस-प्रिचर्ड"],
         "explanation": "समाजशास्त्र के संस्थापक व्यक्ति एमिल दुर्खीम (Émile Durkheim) ने सामाजिक व्यवहार के सामान्य, सार्वभौमिक कानूनों को उजागर करने के लिए 'सुसाइड' (Suicide) जैसे कार्यों में एक सख्त नोमोथेटिक (सांख्यिकीय/तुलनात्मक) पद्धति का उपयोग किया।"
       }
@@ -3172,12 +3172,12 @@ const TEST_JUNE_2025 = [
     "topicHI": "ग्राउंडेड थ्योरी",
     "content": {
       "en": {
-        "question": passageHTML(PASSAGE_NOMOTHETIC.en) + "<strong>Q.Grounded Theory is a kind of:</strong>",
+        "question": passageHTML(PASSAGE_NOMOTHETIC.en) + "<strong>Q. Grounded Theory is a kind of:</strong>",
         "options": ["Inductive Method", "Deductive Method", "Participatory Method", "Dialectic Method"],
         "explanation": "Developed by Glaser and Strauss, Grounded Theory is an inductive methodology where theories are not pre-conceived but are strictly 'grounded' in and emerge directly from the gathered data."
       },
       "hi": {
-        "question": passageHTML(PASSAGE_NOMOTHETIC.hi) + "<strong>प्रश्न.ग्राउंडेड थ्योरी (Grounded Theory) एक प्रकार की है:</strong>",
+        "question": passageHTML(PASSAGE_NOMOTHETIC.hi) + "<strong>प्रश्न. ग्राउंडेड थ्योरी (Grounded Theory) एक प्रकार की है:</strong>",
         "options": ["आगमनात्मक विधि (Inductive Method)", "निगमनात्मक विधि (Deductive Method)", "सहभागी विधि (Participatory Method)", "द्वंद्वात्मक विधि (Dialectic Method)"],
         "explanation": "ग्लेसर और स्ट्रॉस द्वारा विकसित, ग्राउंडेड थ्योरी एक आगमनात्मक (inductive) कार्यप्रणाली है जहां सिद्धांतों की पूर्व-कल्पना नहीं की जाती है, बल्कि वे कड़ाई से एकत्र किए गए डेटा में 'निहित' (grounded) होते हैं और सीधे उसी से उभरते हैं।"
       }
@@ -3200,7 +3200,7 @@ const ALL_TESTS = [
     minutes: 120,
     difficulty: "Hard",
     live: true,
-    data: TEST_JUNE_2025
+    data: TEST_JUNE_2025_P2
   }, 
   {
   id: "jan2026-p1",
