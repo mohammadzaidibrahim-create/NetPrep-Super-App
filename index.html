@@ -3560,13 +3560,19 @@ showVaultToast(`🗑️ Folder "${unitName}" deleted!`);
 }
 
 function renameVaultFolder(oldName) {
+  // Read the effective unit name the same way renderVault2 does (covers unitEN, unitHI, unit)
+  const getEffectiveUnit = v => {
+    if (v.saveLang === 'HI' && v.unitHI) return v.unitHI;
+    if (v.unitEN) return v.unitEN;
+    return v.unit || 'General / Uncategorized';
+  };
+
   const allUnits = [...new Set(
     (JSON.parse(localStorage.getItem('netprep_saved_pyqs')) || [])
-      .map(v => v.unit || 'General / Uncategorized')
+      .map(getEffectiveUnit)
       .filter(u => u !== oldName)
   )].sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' }));
 
-  // Build choice: rename freely OR move under an existing folder
   const existingList = allUnits.length
     ? '\n\nExisting folders:\n' + allUnits.map((u, i) => `${i + 1}. ${u}`).join('\n')
     : '';
@@ -3581,14 +3587,19 @@ function renameVaultFolder(oldName) {
 
   if (!newName || !newName.trim() || newName.trim() === oldName) return;
 
+  const trimmed = newName.trim();
   let vault = JSON.parse(localStorage.getItem('netprep_saved_pyqs')) || [];
   vault.forEach(q => {
-    const u = q.unit || 'General / Uncategorized';
-    if (u === oldName) q.unit = newName.trim();
+    if (getEffectiveUnit(q) === oldName) {
+      // Update all three unit fields so every code path picks up the new name
+      q.unit = trimmed;
+      if (q.unitEN) q.unitEN = trimmed;
+      if (q.unitHI) q.unitHI = trimmed;
+    }
   });
 
   localStorage.setItem('netprep_saved_pyqs', JSON.stringify(vault));
-  showVaultToast(`✅ Folder renamed to "${newName.trim()}"!`);
+  showVaultToast(`✅ Folder renamed to "${trimmed}"!`);
   renderVault2();
    }
 
