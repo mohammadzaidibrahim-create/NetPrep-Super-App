@@ -5392,8 +5392,13 @@ function commitTopicEdit(id,uIdx,el,paperKey){
   const text=inp.value.trim();if(!text)return;
   const tIdx=parseInt(id.split('_t').pop());
   const {arr,save}=_getPaperRef(paperKey);
-  // Write directly to topicsEN/topicsHI, NOT via the getter/setter proxy
-  // because arr[uIdx].topics[tIdx]=text writes to a temporary copy
+
+  // ── Get OLD storage key BEFORE overwriting ──
+  const oldStorageKey = appLang==='HI'
+    ? (arr[uIdx].topicsEN && arr[uIdx].topicsEN[tIdx]) || el.dataset.skey || text
+    : el.dataset.skey || text;
+
+  // ── Write new text to data array ──
   if(appLang==='HI'){
     if(!arr[uIdx].topicsHI) arr[uIdx].topicsHI=[...arr[uIdx].topicsEN];
     arr[uIdx].topicsHI[tIdx]=text;
@@ -5401,8 +5406,21 @@ function commitTopicEdit(id,uIdx,el,paperKey){
     if(!arr[uIdx].topicsEN) arr[uIdx].topicsEN=[];
     arr[uIdx].topicsEN[tIdx]=text;
   }
+
+  // ── NEW: Migrate S entry from old key → new EN key ──
+  // Only needed when editing in EN mode (EN key is the canonical storage key)
+  if(appLang!=='HI'){
+    const newStorageKey = text;
+    if(oldStorageKey !== newStorageKey && S[oldStorageKey]){
+      S[newStorageKey] = S[oldStorageKey]; // copy prof/checked/starred/children
+      delete S[oldStorageKey];             // remove old key
+      saveS();
+    }
+  }
+
   save();buildMeta();
   el.querySelector(`#tlbl_${id}`).textContent=text;
+  // Update DOM skey to new EN text so future proficiency clicks use correct key
   el.dataset.skey = appLang==='HI' ? (arr[uIdx].topicsEN[tIdx]||text) : text;
   inp.value=text;
   _cancelTopicEdit(el);
