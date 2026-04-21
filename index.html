@@ -945,6 +945,17 @@ html,body{height:100%;font-family:'IBM Plex Sans',sans-serif;background:var(--bg
 /* Topic inline edit */
 .topic-label-edit{display:none;flex:1;font-size:11.5px;padding:3px 7px;border-radius:5px;border:1.5px solid var(--p2);background:#fff;font-family:'IBM Plex Sans',sans-serif;color:#1a1f36;outline:none;min-width:0}
 .topic-label-edit.vis{display:block}
+.topic-edit-save-btn{display:none;font-size:10px;padding:2px 8px;border-radius:5px;border:none;background:linear-gradient(135deg,var(--p2),var(--p2d));color:#fff;cursor:pointer;font-family:'IBM Plex Sans',sans-serif;font-weight:700;white-space:nowrap;flex-shrink:0}
+.topic-edit-cancel-btn{display:none;font-size:10px;padding:2px 7px;border-radius:5px;border:1px solid rgba(200,210,240,.5);background:rgba(255,255,255,.7);color:#9ba8c4;cursor:pointer;font-family:'IBM Plex Sans',sans-serif;flex-shrink:0}
+.topic-label-edit.vis~.topic-edit-save-btn,.topic-label-edit.vis~.topic-edit-cancel-btn{display:inline-flex;align-items:center}
+.sub-label-edit{display:none;flex:1;font-size:11px;padding:2px 6px;border-radius:5px;border:1.5px solid var(--p1);background:#fff;font-family:'IBM Plex Sans',sans-serif;color:#1a1f36;outline:none;min-width:0}
+.sub-label-edit.vis{display:block}
+.sub-edit-btn{font-size:9px;padding:1px 6px;border-radius:4px;border:1px solid rgba(79,126,248,.3);background:rgba(79,126,248,.07);color:var(--p1d);cursor:pointer;font-family:'IBM Plex Mono',monospace;font-weight:700;display:none;flex-shrink:0;white-space:nowrap;transition:var(--ease)}
+.sub-edit-btn:hover{background:rgba(79,126,248,.18)}
+.edit-mode-active .sub-item .sub-edit-btn{display:inline-flex;align-items:center}
+.sub-save-btn{display:none;font-size:9px;padding:2px 7px;border-radius:4px;border:none;background:linear-gradient(135deg,var(--p1),#6b9bff);color:#fff;cursor:pointer;font-family:'IBM Plex Sans',sans-serif;font-weight:700;white-space:nowrap;flex-shrink:0}
+.sub-cancel-edit-btn{display:none;font-size:9px;padding:2px 6px;border-radius:4px;border:1px solid rgba(200,210,240,.5);background:rgba(255,255,255,.7);color:#9ba8c4;cursor:pointer;font-family:'IBM Plex Sans',sans-serif;flex-shrink:0}
+.sub-label-edit.vis~.sub-save-btn,.sub-label-edit.vis~.sub-cancel-edit-btn{display:inline-flex;align-items:center}
 /* Add topic row per unit */
 .add-topic-wrap{padding:0 18px 14px;display:none}
 .edit-mode-active .add-topic-wrap{display:flex;gap:6px}
@@ -5121,6 +5132,8 @@ function buildTopicItem(id, displayTopic, paperKey, paperData, uIdx, internalKey
       <div class="t-row1">
         <span class="topic-label" id="tlbl_${id}">${displayTopic}</span>
         <input class="topic-label-edit" id="tedit_${id}" value="${displayTopic.replace(/"/g, '&quot;')}" maxlength="80"/>
+        <button class="topic-edit-save-btn" id="tsave_${id}">✔ Save</button>
+        <button class="topic-edit-cancel-btn" id="tcancel_${id}">✕</button>
         ${editDelHtml}
         <button class="star-btn${e.starred ? ' active' : ''}" data-star="${id}" title="Star this topic">⭐</button>
       </div>
@@ -5210,6 +5223,16 @@ function buildTopicItem(id, displayTopic, paperKey, paperData, uIdx, internalKey
     ev.stopPropagation();
     el.querySelector(`#tlbl_${id}`).style.display = 'none';
     editInp.classList.add('vis'); editInp.focus(); editInp.select();
+  });
+
+  const saveBtn = el.querySelector(`#tsave_${id}`);
+  if (saveBtn) saveBtn.addEventListener('click', ev => {
+    ev.stopPropagation(); commitTopicEdit(id, uIdx, el, paperKey);
+  });
+
+  const cancelEditBtn = el.querySelector(`#tcancel_${id}`);
+  if (cancelEditBtn) cancelEditBtn.addEventListener('click', ev => {
+    ev.stopPropagation(); _cancelTopicEdit(el);
   });
 
   const delBtn = el.querySelector(`[data-tdel="${id}"]`);
@@ -5407,15 +5430,41 @@ function buildSubItem(parentId,child,paperKey,paperData,uIdx){
   const el=document.createElement('div');
   el.className='sub-item'+(child.checked?' checked':'');
   el.dataset.childId=child.id;
-  el.innerHTML=`<div class="sub-chkbox" data-subchk="${child.id}"><div class="sub-chk-icon"><svg viewBox="0 0 10 8" fill="none"><polyline points="1,4 4,7 9,1" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div></div><div class="sub-right"><div class="sub-row1"><span class="sub-label">${child.text}</span><button class="sub-star${child.starred?' active':''}" data-substar="${child.id}" title="Star">⭐</button></div><div class="sub-prof-row"><button class="pb${child.prof==='weak'?' aw':''}" data-subpb="${child.id}" data-p="weak">W</button><button class="pb${child.prof==='moderate'?' am':''}" data-subpb="${child.id}" data-p="moderate">M</button><button class="pb${child.prof==='strong'?' as':''}" data-subpb="${child.id}" data-p="strong">S</button></div></div><button class="sub-del" data-subdel="${child.id}" title="Delete">✕</button>`;
+  const sid=child.id.replace(/[^a-zA-Z0-9_]/g,'_'); // safe DOM id
+  el.innerHTML=`
+    <div class="sub-chkbox" data-subchk="${child.id}">
+      <div class="sub-chk-icon"><svg viewBox="0 0 10 8" fill="none"><polyline points="1,4 4,7 9,1" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    </div>
+    <div class="sub-right">
+      <div class="sub-row1">
+        <span class="sub-label" id="slbl_${sid}">${child.text}</span>
+        <input class="sub-label-edit" id="sedit_${sid}" value="${child.text.replace(/"/g,'&quot;')}" maxlength="80"/>
+        <button class="sub-save-btn" id="ssave_${sid}">✔</button>
+        <button class="sub-cancel-edit-btn" id="scancel_${sid}">✕</button>
+        <button class="sub-edit-btn" id="seditbtn_${sid}" title="Edit">✏️</button>
+        <button class="sub-star${child.starred?' active':''}" data-substar="${child.id}" title="Star">⭐</button>
+      </div>
+      <div class="sub-prof-row">
+        <button class="pb${child.prof==='weak'?' aw':''}" data-subpb="${child.id}" data-p="weak">W</button>
+        <button class="pb${child.prof==='moderate'?' am':''}" data-subpb="${child.id}" data-p="moderate">M</button>
+        <button class="pb${child.prof==='strong'?' as':''}" data-subpb="${child.id}" data-p="strong">S</button>
+      </div>
+    </div>
+    <button class="sub-del" data-subdel="${child.id}" title="Delete">✕</button>`;
+
+  // ── Checkbox ──
   el.querySelector(`[data-subchk="${child.id}"]`).addEventListener('click',ev=>{
     ev.stopPropagation();child.checked=!child.checked;saveS();
     el.classList.toggle('checked',child.checked);recalcUnit(paperData,paperKey,uIdx);updateMaster();rebuildDash();
   });
+
+  // ── Star ──
   el.querySelector(`[data-substar="${child.id}"]`).addEventListener('click',ev=>{
     ev.stopPropagation();child.starred=!child.starred;saveS();
     ev.currentTarget.classList.toggle('active',child.starred);updateMaster();rebuildDash();
   });
+
+  // ── Proficiency ──
   el.querySelectorAll(`[data-subpb="${child.id}"]`).forEach(btn=>{
     btn.addEventListener('click',ev=>{
       ev.stopPropagation();const p=btn.dataset.p;const cur=child.prof;
@@ -5425,11 +5474,50 @@ function buildSubItem(parentId,child,paperKey,paperData,uIdx){
       updateMaster();rebuildDash();
     });
   });
+
+  // ── Delete ──
   el.querySelector(`[data-subdel="${child.id}"]`).addEventListener('click',ev=>{
     ev.stopPropagation();const pe=getE(parentId);
     pe.customChildren=pe.customChildren.filter(c=>c.id!==child.id);saveS();el.remove();
     recalcUnit(paperData,paperKey,uIdx);updateMaster();rebuildDash();
   });
+
+  // ── Inline rename ──
+  const subEditInp = el.querySelector(`#sedit_${sid}`);
+  const subLbl = el.querySelector(`#slbl_${sid}`);
+
+  const _openSubEdit = () => {
+    subLbl.style.display='none';
+    subEditInp.classList.add('vis');
+    el.querySelector(`#ssave_${sid}`).style.display='inline-flex';
+    el.querySelector(`#scancel_${sid}`).style.display='inline-flex';
+    subEditInp.focus(); subEditInp.select();
+  };
+  const _closeSubEdit = () => {
+    subLbl.style.display='';
+    subEditInp.classList.remove('vis');
+    subEditInp.value=child.text;
+    el.querySelector(`#ssave_${sid}`).style.display='none';
+    el.querySelector(`#scancel_${sid}`).style.display='none';
+  };
+  const _commitSubEdit = () => {
+    const newText=subEditInp.value.trim();
+    if(!newText){_closeSubEdit();return;}
+    child.text=newText;saveS();
+    subLbl.textContent=newText;
+    _closeSubEdit();
+    showToast('✅ Specific topic renamed!');
+  };
+
+  el.querySelector(`#seditbtn_${sid}`).addEventListener('click',ev=>{ev.stopPropagation();_openSubEdit();});
+  el.querySelector(`#ssave_${sid}`).addEventListener('click',ev=>{ev.stopPropagation();_commitSubEdit();});
+  el.querySelector(`#scancel_${sid}`).addEventListener('click',ev=>{ev.stopPropagation();_closeSubEdit();});
+  subEditInp.addEventListener('keydown',ev=>{
+    if(ev.key==='Enter'){ev.stopPropagation();_commitSubEdit();}
+    if(ev.key==='Escape'){ev.stopPropagation();_closeSubEdit();}
+  });
+  subEditInp.addEventListener('click',ev=>ev.stopPropagation());
+
   return el;
 }
 function commitSub(parentId, storageKey){
