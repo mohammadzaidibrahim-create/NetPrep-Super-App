@@ -2382,7 +2382,7 @@ html,body{height:100%;font-family:'IBM Plex Sans',sans-serif;background:var(--bg
               <option value="HI">🇮🇳 Hindi (हिंदी)</option>
             </select>
           </div>
-          <input type="text" id="m-unit" class="modal-input" placeholder="Unit Name (e.g., Unit 2: Evolution)" />
+          <select id="m-unit" class="modal-input" style="margin-bottom:8px;"></select>
           <input type="text" id="m-topic" class="modal-input" placeholder="Topic (e.g., Primatology)" />
           <!-- Mode tabs -->
           <div class="modal-tab-row">
@@ -3355,6 +3355,7 @@ function renderVault2(activeTab, notesOnly) {
           data-unitname="${unit.replace(/"/g,'&quot;')}"
           onclick="toggleVaultUnit(this)">
         <span style="flex:1;cursor:pointer;" onclick="toggleVaultUnitBody(${idx})">📁 ${unit}</span>
+        <button onclick="renameVaultFolder('${unit.replace(/'/g,"\\'").replace(/"/g,'&quot;')}')" style="background:none; border:none; color:#3b82f6; font-size:12px; cursor:pointer; margin-right:12px; text-decoration:underline;">✏️ Rename / Move</button>
         <button onclick="deleteVaultFolder('${unit.replace(/'/g,"\\'").replace(/"/g,'&quot;')}')" style="background:none; border:none; color:#ef4444; font-size:12px; cursor:pointer; margin-right:12px; text-decoration:underline;">🗑️ Delete Folder</button>
         <span style="color:#8b5cf6; font-size:13px; cursor:pointer;" onclick="toggleVaultUnitBody(${idx})">${grouped[unit].length} Items ▼</span>
       </div>
@@ -3548,16 +3549,68 @@ function deleteVaultFolder(unitName) {
   });
 
   localStorage.setItem('netprep_saved_pyqs', JSON.stringify(vault));
-  showVaultToast(`🗑️ Folder "${unitName}" deleted!`);
+showVaultToast(`🗑️ Folder "${unitName}" deleted!`);
   renderVault2();
-} 
+}
+
+function renameVaultFolder(oldName) {
+  const allUnits = [...new Set(
+    (JSON.parse(localStorage.getItem('netprep_saved_pyqs')) || [])
+      .map(v => v.unit || 'General / Uncategorized')
+      .filter(u => u !== oldName)
+  )].sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' }));
+
+  // Build choice: rename freely OR move under an existing folder
+  const existingList = allUnits.length
+    ? '\n\nExisting folders:\n' + allUnits.map((u, i) => `${i + 1}. ${u}`).join('\n')
+    : '';
+
+  const newName = prompt(
+    `Rename / Move Folder: "${oldName}"\n` +
+    `Enter a new name.\n` +
+    `💡 To create a sub-folder effect, use: "Parent Folder ➔ ${oldName}"` +
+    existingList,
+    oldName
+  );
+
+  if (!newName || !newName.trim() || newName.trim() === oldName) return;
+
+  let vault = JSON.parse(localStorage.getItem('netprep_saved_pyqs')) || [];
+  vault.forEach(q => {
+    const u = q.unit || 'General / Uncategorized';
+    if (u === oldName) q.unit = newName.trim();
+  });
+
+  localStorage.setItem('netprep_saved_pyqs', JSON.stringify(vault));
+  showVaultToast(`✅ Folder renamed to "${newName.trim()}"!`);
+  renderVault2();
+   }
 
 // ── MANUAL ADD MODAL LOGIC ──
-function openAddModal() {
-  // Always reset to Single tab when opening
-  switchModalTab('single');
-  document.getElementById('add-modal').style.display = 'flex';
+function populateModalUnitDropdowns() {
+  const vault = JSON.parse(localStorage.getItem('netprep_saved_pyqs')) || [];
+  const allUnits = [...new Set(
+    vault.map(v => {
+      if (v.source === 'personal' && v.unit) return v.unit;
+      if (v.saveLang === 'HI' && v.unitHI) return v.unitHI;
+      if (v.unitEN) return v.unitEN;
+      return v.unit || 'General / Uncategorized';
+    })
+  )].sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' }));
+
+  const opts = `<option value="">📂 Select a Folder…</option>` +
+    allUnits.map(u => `<option value="${u.replace(/"/g, '&quot;')}">${u}</option>`).join('') +
+    `<option value="__new__">✏️ Create New Folder…</option>`;
+
+  const el = document.getElementById('m-unit');
+  if (el) el.innerHTML = opts;
 }
+
+function openAddModal() {
+  switchModalTab('single');
+  populateModalUnitDropdowns();
+  document.getElementById('add-modal').style.display = 'flex';
+     }
 function closeAddModal() {
   document.getElementById('add-modal').style.display = 'none';
 }
@@ -3573,7 +3626,6 @@ function saveManualQuestion() {
   const paper = document.getElementById('m-paper').value;
   const langSelect = document.getElementById('m-lang');
   const lang = langSelect ? langSelect.value : 'EN';
-  const userUnit = document.getElementById('m-unit').value.trim();
   const topic = document.getElementById('m-topic').value.trim() || 'General';
   const question = document.getElementById('m-question').value.trim();
   const answer = document.getElementById('m-answer').value.trim();
@@ -3581,9 +3633,13 @@ function saveManualQuestion() {
 
   if (!question || !answer) { alert('Question and Answer are required!'); return; }
 
-  // Auto-detect unit only when user left the field blank
-  const finalUnit = userUnit || autoCategorizeUnit(question + ' ' + answer + ' ' + explanation, paper);
-
+  let finalUnit = document.getElementById('m-unit').value;
+  if (finalUnit === '__new__') {
+    const newName = prompt('Enter name for the new folder:');
+    if (!newName || !newName.trim()) return;
+    finalUnit = newName.trim();
+  }
+  if (!finalUnit) finalUnit = 'General / Uncategorized';
   const newQ = {
     id: 'PERS_' + Date.now(),
     paper: paper,
@@ -3614,8 +3670,15 @@ function saveBulkQuestions() {
   const paper = document.getElementById('m-paper').value;
   const langSelect = document.getElementById('m-lang');
   const lang = langSelect ? langSelect.value : 'EN';
-  const userUnit = document.getElementById('m-unit').value.trim(); // blank = auto-detect per entry
   const raw = document.getElementById('m-bulk-text').value;
+
+  let userUnit = document.getElementById('m-unit').value;
+  if (userUnit === '__new__') {
+    const newName = prompt('Enter name for the new folder:');
+    if (!newName || !newName.trim()) return;
+    userUnit = newName.trim();
+  }
+  if (!userUnit) userUnit = 'General / Uncategorized';
 
   if (!raw.trim()) { alert('Please paste your Q&A pairs first.'); return; }
 
@@ -3644,7 +3707,7 @@ function saveBulkQuestions() {
   const unitSummary = {};
 
   entries.forEach((entry, i) => {
-    const finalUnit = userUnit || autoCategorizeUnit(entry.q + ' ' + entry.a + ' ' + entry.e, paper);
+    const finalUnit = userUnit;
     unitSummary[finalUnit] = (unitSummary[finalUnit] || 0) + 1;
     vault.push({
       id: 'PERS_' + (now + i),
