@@ -5082,12 +5082,11 @@ function _buildUnitItem(paperData,paperKey,unit,uIdx){
     grid.appendChild(buildTopicItem(id, displayTopic, paperKey, paperData, uIdx, internalKey));
   });
 
-  if(isP2){
-    const addWrap=document.createElement('div');
-    addWrap.className='add-topic-wrap';
-    addWrap.innerHTML=`<input type="text" id="nt_${uk}" class="new-topic-inp" placeholder="New topic..." onkeydown="if(event.key==='Enter')addTopic(${uIdx})"/><button class="sub-add-btn" onclick="addTopic(${uIdx})">Add</button>`;
-    grid.appendChild(addWrap);
-  }
+  // Add topic input available for BOTH P1 and P2 in edit mode
+  const addWrap=document.createElement('div');
+  addWrap.className='add-topic-wrap';
+  addWrap.innerHTML=`<input type="text" id="nt_${uk}" class="new-topic-inp" placeholder="New topic..." onkeydown="if(event.key==='Enter')addTopic('${uk}','${paperKey}',${uIdx})"/><button class="sub-add-btn" onclick="addTopic('${uk}','${paperKey}',${uIdx})">Add</button>`;
+  grid.appendChild(addWrap);
 
   body.appendChild(grid);
   item.appendChild(body);
@@ -5308,16 +5307,8 @@ function _getPaperRef(paperKey){
 
 // addTopic: called from the inline "Add" button in buildUnitItem (receives only uIdx)
 // It reads paperKey from the DOM and delegates to commitNewTopic
-function addTopic(uIdx){
-  // The onclick passes only uIdx — we read paperKey from the button's parent accordion
-  // by checking which accordion contains the input, disambiguating P1 vs P2
-  const p2uk = `p2_u${uIdx}`;
-  const p1uk = `p1_u${uIdx}`;
-  let uk = null, paperKey = null;
-  // Check P2 first (most common edit target), then P1
-  if(document.getElementById(`nt_${p2uk}`)){ uk = p2uk; paperKey = 'p2'; }
-  else if(document.getElementById(`nt_${p1uk}`)){ uk = p1uk; paperKey = 'p1'; }
-  if(!uk){ console.warn('addTopic: input not found for uIdx', uIdx); return; }
+// addTopic now receives uk and paperKey directly from the onclick — no ambiguity
+function addTopic(uk, paperKey, uIdx){
   commitNewTopic(uk, uIdx, paperKey);
 }
 
@@ -5543,7 +5534,6 @@ function rebuildDash(){
   let wkP1=[], strP1=[], starP1=[], wkP2=[], strP2=[], starP2=[];
 
   Object.entries(ID_META).forEach(([id, meta]) => {
-    // 1. ID (jaise p1_u0_t0) se Address nikalo
     const parts = id.split('_'); 
     const pKey = parts[0]; 
     const uIdx = parseInt(parts[1].replace('u', '')); 
@@ -5553,23 +5543,22 @@ function rebuildDash(){
     const paper = isP1 ? PAPER1 : PAPER2;
     const unit = paper[uIdx];
     
-    // 🟢 BUG FIX: Data Godown mein English naam se save hua hai, wahi dhoondho!
+    // internalKey = EN topic text — this is the key used by getE() for proficiency storage
     const internalKey = (unit && unit.topicsEN && unit.topicsEN[tIdx]) ? unit.topicsEN[tIdx] : meta.text;
-    
-    // 🟢 Sahi dibbe se Data uthao (id ki jagah internalKey use kiya)
     const e = getE(internalKey);
     
-    // 🟢 Display Text: Button ke hisaab se Hindi ya English uthao
     const liveText = (unit && unit.topics && unit.topics[tIdx]) ? unit.topics[tIdx] : meta.text;
     const liveUnitTitle = (unit && unit.title) ? unit.title : meta.unitTitle;
 
     const item = {
       id: id,
-      text: liveText, // Current Language Text!
+      text: liveText,
       label: meta.paperLabel,
       unit: liveUnitTitle,
       checked: e.checked,
-      isChild: false, parentId: ''
+      isChild: false,
+      parentId: '',
+      storageKey: internalKey  // ✅ carry the EN storage key through for child lookups
     };
 
     if (e.prof === 'weak')   { isP1 ? wkP1.push(item) : wkP2.push(item); }
@@ -5577,7 +5566,16 @@ function rebuildDash(){
     if (e.starred)           { isP1 ? starP1.push(item) : starP2.push(item); }
     
     (e.customChildren || []).forEach(child => {
-      const cItem = {...item, id: child.id, text: child.text, isChild: true, parentId: id, checked: child.checked};
+      // parentId for children = internalKey (EN text), NOT the DOM id
+      // This ensures the dashboard checkbox handler calls getE(internalKey) to find the child
+      const cItem = {
+        ...item,
+        id: child.id,
+        text: child.text,
+        isChild: true,
+        parentId: internalKey,  // ✅ KEY FIX: was `id` (DOM id), now `internalKey` (EN text)
+        checked: child.checked
+      };
       if (child.prof === 'weak')   { isP1 ? wkP1.push(cItem) : wkP2.push(cItem); }
       if (child.prof === 'strong') { isP1 ? strP1.push(cItem) : strP2.push(cItem); }
       if (child.starred)           { isP1 ? starP1.push(cItem) : starP2.push(cItem); }
@@ -5605,18 +5603,39 @@ function renderDashList(container,items,kind){
     li.innerHTML=`<div class="di-cb${item.checked?' checked':''}" data-did="${item.id}" data-child="${item.isChild?'1':'0'}" data-parent="${item.parentId||''}"></div><div class="di-text">${item.text}<span class="di-paper">${item.label} · ${item.unit}${item.isChild?' · custom':''}</span></div>`;
     
     li.querySelector('.di-cb').addEventListener('click',ev=>{
-      const cb=ev.currentTarget;const id=cb.dataset.did;const isChild=cb.dataset.child==='1';const parentId=cb.dataset.parent;
+      const cb=ev.currentTarget;
+      const id=cb.dataset.did;
+      const isChild=cb.dataset.child==='1';
+      const parentStorageKey=cb.dataset.parent; // now = EN topic text (internalKey)
       if(isChild){
-        const pe=getE(parentId);const child=pe.customChildren.find(c=>c.id===id);
+        // getE with EN text key — matches how commitSub stores children
+        const pe=getE(parentStorageKey);
+        const child=pe.customChildren.find(c=>c.id===id);
         if(child){
-          child.checked=!child.checked;saveS();cb.classList.toggle('checked',child.checked);
-          const subEl=document.querySelector(`[data-child-id="${id}"]`);if(subEl)subEl.classList.toggle('checked',child.checked);
-          const meta=ID_META[parentId];if(meta)recalcUnit(meta.paperKey==='p1'?PAPER1:PAPER2,meta.paperKey,meta.unitIdx);
+          child.checked=!child.checked;saveS();
+          cb.classList.toggle('checked',child.checked);
+          // Also sync the visible sub-item in the accordion
+          const subEl=document.querySelector(`[data-child-id="${id}"]`);
+          if(subEl)subEl.classList.toggle('checked',child.checked);
+          // recalcUnit needs the DOM parentId — find it from child.id prefix
+          // child.id format: "EnglishTopicText_cTIMESTAMP"
+          // Find the DOM id by searching ID_META for matching internalKey
+          const domId=Object.keys(ID_META).find(k=>{
+            const m=ID_META[k];const u=m.paperKey==='p1'?PAPER1:PAPER2;
+            const tIdx=parseInt(k.split('_t').pop());
+            const uIdx=m.unitIdx;
+            const enKey=(u[uIdx]&&u[uIdx].topicsEN&&u[uIdx].topicsEN[tIdx])||m.text;
+            return enKey===parentStorageKey;
+          });
+          if(domId){const meta=ID_META[domId];if(meta)recalcUnit(meta.paperKey==='p1'?PAPER1:PAPER2,meta.paperKey,meta.unitIdx);}
         }
       } else {
-        const e=getE(id);e.checked=!e.checked;saveS();cb.classList.toggle('checked',e.checked);
-        const accEl=document.querySelector(`.topic-item[data-id="${id}"]`);if(accEl)accEl.classList.toggle('checked',e.checked);
-        const meta=ID_META[id];if(meta)recalcUnit(meta.paperKey==='p1'?PAPER1:PAPER2,meta.paperKey,meta.unitIdx);
+        const e=getE(id);e.checked=!e.checked;saveS();
+        cb.classList.toggle('checked',e.checked);
+        const accEl=document.querySelector(`.topic-item[data-id="${id}"]`);
+        if(accEl)accEl.classList.toggle('checked',e.checked);
+        const meta=ID_META[id];
+        if(meta)recalcUnit(meta.paperKey==='p1'?PAPER1:PAPER2,meta.paperKey,meta.unitIdx);
       }
       updateMaster();
     });
