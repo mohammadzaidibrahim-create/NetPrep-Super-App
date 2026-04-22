@@ -2597,28 +2597,29 @@ const TEST_JAN_2026_P1 = [
 ];
 
 /* ══════════════════════════════════════════════════════════════════════
-   🚀 DATA REPAIR PATCH: JUNE 2025 (INDEXING & DI SPACING FIX)
-   Syllabus Indexing: 0=Opt1, 1=Opt2, 2=Opt3, 3=Opt4
+   🚀 MASTER REPAIR PATCH: JUNE 2025 (OPTIONS FIX + DI SPACING FIX)
 ══════════════════════════════════════════════════════════════════════ */
 if (typeof TEST_JUNE25_S1_P1 !== 'undefined') {
   TEST_JUNE25_S1_P1.forEach(q => {
-    // 1. Fixing the 1-based indexing to 0-based indexing (Corrects Undefined Errors)
-    // Hum sirf tabhi ghataenge agar value 0 se badi ho, taaki baar-baar reload par minus na hota rahe
-    if (q.correct > 0) {
+    
+    // 1. OPTIONS FIX: 1-based indexing ko 0-based indexing me badalna
+    // (Taaki Option 4 wale undefined na ho)
+    if (q.correct === 1 || q.correct === 2 || q.correct === 3 || q.correct === 4) {
       q.correct = q.correct - 1;
     }
     
-    // 2. Fixing DI Layout Gap (Q1 to Q5)
-    // Tables block elements hote hain isliye unke baad extra <br> ki zaroorat nahi hoti
+    // 2. DI SPACING FIX: Q1 se Q5 me chhuphe hue 'Enter' (\n) ko mitana
+    // (Taaki index.html unhe <br> banakar faaltu gap na de)
     const qNum = parseInt(q.id.split('-q')[1]);
     if (qNum <= 5) {
       if (q.content.en && q.content.en.question) {
-        q.content.en.question = q.content.en.question.replace("<br><br><strong>Question:</strong>", "<strong>Question:</strong>");
+        q.content.en.question = q.content.en.question.replace(/\n/g, '');
       }
       if (q.content.hi && q.content.hi.question) {
-        q.content.hi.question = q.content.hi.question.replace("<br><br><strong>प्रश्न:</strong>", "<strong>प्रश्न:</strong>");
+        q.content.hi.question = q.content.hi.question.replace(/\n/g, '');
       }
     }
+   
   });
 }
 
