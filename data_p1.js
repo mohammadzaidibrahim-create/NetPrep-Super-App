@@ -1134,12 +1134,12 @@ const TEST_JAN_2026_P1 = [
     "topicHI": "तालिका चार्ट",
     "content": {
       "en": {
-        "question": passageHTML(TABLE_JUNE2025_P1.en) + "<br><br><strong>Question:</strong><br>What is the average marks scored in the subject S5 by all the students together?",
+       "question": TABLE_JUNE2025_P1.en + "<br><br><strong>Question:</strong><br>What is the average marks scored in the subject S5 by all the students together?",
         "options": ["142", "144", "146", "148"],
         "explanation": "<strong>Step-by-step Calculation:</strong><br>1. Marks scored in subject S5 by all students (A to F) are: 154, 136, 144, 104, 174, and 164.<br>2. Total marks = 154 + 136 + 144 + 104 + 174 + 164 = 876<br>3. Total number of students = 6<br>4. Average = Total Marks / Number of Students = 876 / 6 = 146.<br>Therefore, the average marks scored in S5 is 146."
       },
       "hi": {
-        "question": passageHTML(TABLE_JUNE2025_P1.hi) + "<br><br><strong>प्रश्न:</strong><br>सभी छात्रों द्वारा मिलाकर विषय S5 में प्राप्त औसत अंक क्या हैं?",
+        "question": TABLE_JUNE2025_P1.hi + "<br><br><strong>प्रश्न:</strong><br>सभी छात्रों द्वारा मिलाकर विषय S5 में प्राप्त औसत अंक क्या हैं?",
         "options": ["142", "144", "146", "148"],
         "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. सभी छात्रों (A से F) द्वारा विषय S5 में प्राप्त अंक हैं: 154, 136, 144, 104, 174, और 164।<br>2. कुल अंक = 154 + 136 + 144 + 104 + 174 + 164 = 876<br>3. छात्रों की कुल संख्या = 6<br>4. औसत = कुल अंक / छात्रों की संख्या = 876 / 6 = 146।<br>अतः विषय S5 में प्राप्त औसत अंक 146 है।"
       }
@@ -1155,12 +1155,12 @@ const TEST_JAN_2026_P1 = [
     "topicHI": "तालिका चार्ट",
     "content": {
       "en": {
-        "question": passageHTML(TABLE_JUNE2025_P1.en) + "<br><br><strong>Question:</strong><br>What is the ratio of the total marks scored by student B to the total marks scored by student D?",
+        "question": TABLE_JUNE2025_P1.en + "<br><br><strong>Question:</strong><br>What is the ratio of the total marks scored by student B to the total marks scored by student D?",
         "options": ["26 : 27", "36 : 37", "16 : 17", "46 : 47"],
         "explanation": "<strong>Step-by-step Calculation:</strong><br>1. Total marks of Student B = 120 + 100 + 84 + 76 + 136 + 132 = 648<br>2. Total marks of Student D = 84 + 130 + 96 + 84 + 104 + 168 = 666<br>3. Ratio (B : D) = 648 : 666<br>4. Simplifying the ratio by dividing both sides by 18:<br>   648 / 18 = 36<br>   666 / 18 = 37<br>Ratio = 36 : 37."
       },
       "hi": {
-        "question": passageHTML(TABLE_JUNE2025_P1.hi) + "<br><br><strong>प्रश्न:</strong><br>छात्र B द्वारा प्राप्त कुल अंकों का छात्र D द्वारा प्राप्त कुल अंकों से अनुपात क्या है?",
+        "question": TABLE_JUNE2025_P1.hi + "<br><br><strong>प्रश्न:</strong><br>छात्र B द्वारा प्राप्त कुल अंकों का छात्र D द्वारा प्राप्त कुल अंकों से अनुपात क्या है?",
         "options": ["26 : 27", "36 : 37", "16 : 17", "46 : 47"],
         "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. छात्र B के कुल अंक = 120 + 100 + 84 + 76 + 136 + 132 = 648<br>2. छात्र D के कुल अंक = 84 + 130 + 96 + 84 + 104 + 168 = 666<br>3. अनुपात (B : D) = 648 : 666<br>4. दोनों पक्षों को 18 से विभाजित करके सरल करने पर:<br>   648 / 18 = 36<br>   666 / 18 = 37<br>अनुपात = 36 : 37।"
       }
@@ -1176,12 +1176,12 @@ const TEST_JAN_2026_P1 = [
     "topicHI": "तालिका चार्ट",
     "content": {
       "en": {
-        "question": passageHTML(TABLE_JUNE2025_P1.en) + "<br><br><strong>Question:</strong><br>The marks scored by student B and student C together in subject S1 is ______ % more than the marks scored by student A and student D together in the same subject.",
+        "question": TABLE_JUNE2025_P1.en + "<br><br><strong>Question:</strong><br>The marks scored by student B and student C together in subject S1 is ______ % more than the marks scored by student A and student D together in the same subject.",
         "options": ["55", "45", "120", "155"],
         "explanation": "<strong>Step-by-step Calculation:</strong><br>1. Marks of B and C in S1 = 120 + 128 = 248<br>2. Marks of A and D in S1 = 76 + 84 = 160<br>3. Difference = 248 - 160 = 88<br>4. Percentage more = (Difference / Reference Value) × 100<br>   = (88 / 160) × 100<br>   = 0.55 × 100 = 55%."
       },
       "hi": {
-        "question": passageHTML(TABLE_JUNE2025_P1.hi) + "<br><br><strong>प्रश्न:</strong><br>विषय S1 में छात्र B और छात्र C द्वारा मिलाकर प्राप्त अंक, उसी विषय में छात्र A और छात्र D द्वारा मिलाकर प्राप्त अंकों से ______ % अधिक हैं।",
+        "question": TABLE_JUNE2025_P1.hi + "<br><br><strong>प्रश्न:</strong><br>विषय S1 में छात्र B और छात्र C द्वारा मिलाकर प्राप्त अंक, उसी विषय में छात्र A और छात्र D द्वारा मिलाकर प्राप्त अंकों से ______ % अधिक हैं।",
         "options": ["55", "45", "120", "155"],
         "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. विषय S1 में B और C के अंक = 120 + 128 = 248<br>2. विषय S1 में A और D के अंक = 76 + 84 = 160<br>3. अंतर = 248 - 160 = 88<br>4. अधिक प्रतिशत = (अंतर / संदर्भ मूल्य) × 100<br>   = (88 / 160) × 100<br>   = 0.55 × 100 = 55%।"
       }
@@ -1197,12 +1197,12 @@ const TEST_JAN_2026_P1 = [
     "topicHI": "तालिका चार्ट",
     "content": {
       "en": {
-        "question": passageHTML(TABLE_JUNE2025_P1.en) + "<br><br><strong>Question:</strong><br>If for getting first division, a student needs to score minimum 60% marks in aggregate, then the number of students getting first division is:",
+       "question": TABLE_JUNE2025_P1.en + "<br><br><strong>Question:</strong><br>If for getting first division, a student needs to score minimum 60% marks in aggregate, then the number of students getting first division is:",
         "options": ["5", "3", "2", "4"],
         "explanation": "<strong>Step-by-step Calculation:</strong><br>1. Total maximum marks = 160 + 160 + 120 + 120 + 200 + 240 = 1000.<br>2. 60% of aggregate marks = 60% of 1000 = 600. (A student needs 600 or more to get first division).<br>3. Let's calculate total marks of each student:<br>   A = 76+84+66+56+154+144 = 580 (Failed to get 1st div)<br>   B = 120+100+84+76+136+132 = 648 (1st Div)<br>   C = 128+72+64+70+144+160 = 638 (1st Div)<br>   D = 84+130+96+84+104+168 = 666 (1st Div)<br>   E = 64+128+90+92+174+70 = 618 (1st Div)<br>   F = 70+96+60+56+164+96 = 542 (Failed to get 1st div)<br>4. Students scoring 600 or above are B, C, D, and E (Total 4 students)."
       },
       "hi": {
-        "question": passageHTML(TABLE_JUNE2025_P1.hi) + "<br><br><strong>प्रश्न:</strong><br>यदि प्रथम श्रेणी प्राप्त करने के लिए, एक छात्र को कुल मिलाकर न्यूनतम 60% अंक प्राप्त करने की आवश्यकता है, तो प्रथम श्रेणी प्राप्त करने वाले छात्रों की संख्या कितनी है?",
+        "question": TABLE_JUNE2025_P1.hi + "<br><br><strong>प्रश्न:</strong><br>यदि प्रथम श्रेणी प्राप्त करने के लिए, एक छात्र को कुल मिलाकर न्यूनतम 60% अंक प्राप्त करने की आवश्यकता है, तो प्रथम श्रेणी प्राप्त करने वाले छात्रों की संख्या कितनी है?",
         "options": ["5", "3", "2", "4"],
         "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. कुल अधिकतम अंक = 160 + 160 + 120 + 120 + 200 + 240 = 1000.<br>2. कुल अंकों का 60% = 1000 का 60% = 600. (प्रथम श्रेणी के लिए छात्र को 600 या उससे अधिक अंकों की आवश्यकता है)।<br>3. आइए प्रत्येक छात्र के कुल अंकों की गणना करें:<br>   A = 76+84+66+56+154+144 = 580 (प्रथम श्रेणी नहीं)<br>   B = 120+100+84+76+136+132 = 648 (प्रथम श्रेणी)<br>   C = 128+72+64+70+144+160 = 638 (प्रथम श्रेणी)<br>   D = 84+130+96+84+104+168 = 666 (प्रथम श्रेणी)<br>   E = 64+128+90+92+174+70 = 618 (प्रथम श्रेणी)<br>   F = 70+96+60+56+164+96 = 542 (प्रथम श्रेणी नहीं)<br>4. 600 या उससे अधिक अंक प्राप्त करने वाले छात्र B, C, D और E (कुल 4 छात्र) हैं।"
       }
@@ -1218,12 +1218,12 @@ const TEST_JAN_2026_P1 = [
     "topicHI": "तालिका चार्ट",
     "content": {
       "en": {
-        "question": passageHTML(TABLE_JUNE2025_P1.en) + "<br><br><strong>Question:</strong><br>What is overall percentage of marks scored by student A in all the subjects together?",
+       "question": TABLE_JUNE2025_P1.en + "<br><br><strong>Question:</strong><br>What is overall percentage of marks scored by student A in all the subjects together?",
         "options": ["55%", "56%", "57%", "58%"],
         "explanation": "<strong>Step-by-step Calculation:</strong><br>1. Total maximum marks = 160 + 160 + 120 + 120 + 200 + 240 = 1000.<br>2. Total marks scored by Student A = 76 + 84 + 66 + 56 + 154 + 144 = 580.<br>3. Overall percentage = (Marks Obtained / Maximum Marks) × 100<br>   = (580 / 1000) × 100 = 58%."
       },
       "hi": {
-        "question": passageHTML(TABLE_JUNE2025_P1.hi) + "<br><br><strong>प्रश्न:</strong><br>सभी विषयों में मिलाकर छात्र A द्वारा प्राप्त अंकों का समग्र प्रतिशत क्या है?",
+        "question": TABLE_JUNE2025_P1.hi + "<br><br><strong>प्रश्न:</strong><br>सभी विषयों में मिलाकर छात्र A द्वारा प्राप्त अंकों का समग्र प्रतिशत क्या है?",
         "options": ["55%", "56%", "57%", "58%"],
         "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. कुल अधिकतम अंक = 160 + 160 + 120 + 120 + 200 + 240 = 1000.<br>2. छात्र A द्वारा प्राप्त कुल अंक = 76 + 84 + 66 + 56 + 154 + 144 = 580.<br>3. समग्र प्रतिशत = (प्राप्त अंक / अधिकतम अंक) × 100<br>   = (580 / 1000) × 100 = 58%।"
       }
