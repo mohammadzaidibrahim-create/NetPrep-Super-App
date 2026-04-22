@@ -5046,9 +5046,10 @@ function applySmartLanguagePatch(paperArray) {
       configurable: true, enumerable: true
     });
 
-    Object.defineProperty(unit, 'topics', {
+        Object.defineProperty(unit, 'topics', {
       get: function() { 
-        if (typeof appLang !== 'undefined' && appLang === 'HI' && this.titleHI) return this.topicsHI || [];
+        // 🟢 CLAUDE'S FIX: Check for topicsHI length instead of titleHI
+        if (typeof appLang !== 'undefined' && appLang === 'HI' && this.topicsHI && this.topicsHI.length > 0) return this.topicsHI;
         return this.topicsEN || this._oldTopics || []; 
       },
       set: function(val) { 
@@ -5059,6 +5060,33 @@ function applySmartLanguagePatch(paperArray) {
     });
   });
 }
+
+// ── Merge missing Hindi fields from defaults & Sync Custom Topics ──
+function mergeHindiFromDefaults(loaded, defaults) {
+  if (!loaded || !defaults) return;
+  loaded.forEach((unit, i) => {
+    const def = defaults[i];
+    if (!def) return;
+    
+    // 1. Restore Official Hindi Titles & Topics
+    if (!unit.titleHI && def.titleHI) unit.titleHI = def.titleHI;
+    if (!unit.topicsHI && def.topicsHI) unit.topicsHI = [...def.topicsHI];
+    if (!unit.topicsEN && def.topicsEN) unit.topicsEN = [...def.topicsEN];
+    if (!unit.titleEN && def.titleEN) unit.titleEN = def.titleEN;
+
+    // 2. 🟢 AKHI'S SHIELD: Sync Custom User Topics!
+    // Agar user ne English me extra topics add kiye hain, to unhe Hindi array me bhi push karo
+    // Varna Hindi mode me custom topics gayab ho jayenge.
+    if (unit.topicsEN && unit.topicsHI && unit.topicsEN.length > unit.topicsHI.length) {
+        for (let k = unit.topicsHI.length; k < unit.topicsEN.length; k++) {
+            unit.topicsHI.push(unit.topicsEN[k]);
+        }
+    }
+  });
+}
+
+mergeHindiFromDefaults(PAPER1, defaultPaper1);
+mergeHindiFromDefaults(PAPER2, defaultPaper2);
 
 // Apply patch safely
 applySmartLanguagePatch(PAPER1);
@@ -5441,9 +5469,14 @@ function commitNewTopic(uk, uIdx, paperKey){
 
   const {arr, save, accId} = _getPaperRef(paperKey);
 
-  // Push directly to topicsEN to avoid smart getter/setter confusion
+    // Push directly to topicsEN to avoid smart getter/setter confusion
   if(!arr[uIdx].topicsEN) arr[uIdx].topicsEN = [];
   arr[uIdx].topicsEN.push(text);
+  
+  // 🟢 CLAUDE'S EDGE-CASE FIX: Push to Hindi array immediately so it shows instantly!
+  if(!arr[uIdx].topicsHI) arr[uIdx].topicsHI = [...arr[uIdx].topicsEN];
+  else arr[uIdx].topicsHI.push(text);
+  
   save();
 
   const tIdx = arr[uIdx].topicsEN.length - 1;
