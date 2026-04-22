@@ -28,5 +28,18 @@ const ALL_TESTS = [
   difficulty: "Medium",
   live: true,
   data: TEST_JAN_2026_P1
-}
+}, 
+  {
+    id: "june25-s1-p1",
+    category: "p1",
+    name: "UGC NET Paper 1 (27 June 2025 - Morning)",
+    label: "PYQ · 27 Jun '25 (Morning)",
+    subject: "General Paper 1",
+    totalQs: 50,
+    marks: 100,
+    minutes: 60,
+    difficulty: "Medium",
+    live: true, 
+    data: TEST_JUNE25_S1_P1 
+  }
 ];
