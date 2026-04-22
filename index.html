@@ -5065,29 +5065,40 @@ function applySmartLanguagePatch(paperArray) {
 function mergeHindiFromDefaults(loaded, defaults) {
   if (!loaded || !defaults) return;
   loaded.forEach((unit, i) => {
-    const def = defaults[i];
+    // Match by titleEN to be index-shift safe
+    const def = defaults.find(d => d.titleEN === unit.titleEN) || defaults[i];
     if (!def) return;
-    
-    // 1. Restore Official Hindi Titles & Topics
-    if (!unit.titleHI && def.titleHI) unit.titleHI = def.titleHI;
-    if (!unit.topicsHI && def.topicsHI) unit.topicsHI = [...def.topicsHI];
-    if (!unit.topicsEN && def.topicsEN) unit.topicsEN = [...def.topicsEN];
+
+    // Always overwrite titleHI from defaults — catches empty string and missing both
+    if (def.titleHI) unit.titleHI = def.titleHI;
     if (!unit.titleEN && def.titleEN) unit.titleEN = def.titleEN;
 
-    // 2. 🟢 AKHI'S SHIELD: Sync Custom User Topics!
-    // Agar user ne English me extra topics add kiye hain, to unhe Hindi array me bhi push karo
-    // Varna Hindi mode me custom topics gayab ho jayenge.
-    if (unit.topicsEN && unit.topicsHI && unit.topicsEN.length > unit.topicsHI.length) {
-        for (let k = unit.topicsHI.length; k < unit.topicsEN.length; k++) {
-            unit.topicsHI.push(unit.topicsEN[k]);
+    // Rebuild topicsHI from defaults for official topics, even if topicsHI exists but is empty
+    if (def.topicsHI && def.topicsHI.length > 0) {
+      if (!unit.topicsHI || unit.topicsHI.length === 0) {
+        // No Hindi topics at all — copy all from default
+        unit.topicsHI = [...def.topicsHI];
+      } else if (unit.topicsHI.length < def.topicsHI.length) {
+        // Partial Hindi topics — fill in missing ones from default
+        for (let k = unit.topicsHI.length; k < def.topicsHI.length; k++) {
+          unit.topicsHI.push(def.topicsHI[k]);
         }
+      }
+    }
+
+    if (!unit.topicsEN && def.topicsEN) unit.topicsEN = [...def.topicsEN];
+
+    // Sync any custom EN topics that don't have a Hindi counterpart yet
+    if (unit.topicsEN && unit.topicsHI && unit.topicsEN.length > unit.topicsHI.length) {
+      for (let k = unit.topicsHI.length; k < unit.topicsEN.length; k++) {
+        unit.topicsHI.push(unit.topicsEN[k]);
+      }
     }
   });
 }
 
 mergeHindiFromDefaults(PAPER1, defaultPaper1);
 mergeHindiFromDefaults(PAPER2, defaultPaper2);
-
 // Apply patch safely
 applySmartLanguagePatch(PAPER1);
 applySmartLanguagePatch(PAPER2);
