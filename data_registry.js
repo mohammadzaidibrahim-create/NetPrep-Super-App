@@ -41,7 +41,7 @@ const ALL_TESTS = [
     difficulty: "Medium",
     live: true, 
     data: TEST_JUNE25_S1_P1 
-  }
+  }, 
   {
     id: "jan25-27-s2-p1",
     category: "p1",
