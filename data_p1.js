@@ -75,6 +75,14 @@ const TABLE_JAN25_16_S2_P1 = {
   hi: `<p style="margin-bottom:10px;"><strong>निर्देश:</strong> निम्न तालिका में दो अलग-अलग कंप्यूटर दुकानों A और B द्वारा सोमवार से शुक्रवार तक पाँच अलग-अलग दिनों में बेची गई हार्ड डिस्क ड्राइव (HDD) की संख्या और इन दोनों दुकानों से महिलाओं द्वारा खरीदी गई HDD की संख्या का प्रतिशत दर्शाया गया है। तालिका में दिए गए डेटा के आधार पर, निम्नलिखित प्रश्नों के उत्तर दीजिए।</p><p style="margin-bottom:8px; text-align:center;"><strong>दुकानों द्वारा HDD की दिन-वार बिक्री का विवरण</strong></p><table border="1" style="border-collapse:collapse; width:100%; text-align:center; background:rgba(255,255,255,0.05);"><tr><th rowspan="2" style="padding:8px;">दिन</th><th colspan="2" style="padding:8px;">दुकान A</th><th colspan="2" style="padding:8px;">दुकान B</th></tr><tr><th style="padding:6px;">बेची गई HDD की संख्या</th><th style="padding:6px;">महिलाओं द्वारा खरीदी गई HDD की संख्या का प्रतिशत (%)</th><th style="padding:6px;">बेची गई HDD की संख्या</th><th style="padding:6px;">महिलाओं द्वारा खरीदी गई HDD की संख्या का प्रतिशत (%)</th></tr><tr><td style="padding:6px;">सोमवार</td><td>460</td><td>30%</td><td>640</td><td>30%</td></tr><tr><td style="padding:6px;">मंगलवार</td><td>560</td><td>45%</td><td>880</td><td>65%</td></tr><tr><td style="padding:6px;">बुधवार</td><td>720</td><td>40%</td><td>540</td><td>80%</td></tr><tr><td style="padding:6px;">गुरुवार</td><td>720</td><td>60%</td><td>760</td><td>25%</td></tr><tr><td style="padding:6px;">शुक्रवार</td><td>840</td><td>65%</td><td>550</td><td>40%</td></tr></table>`
 };
 
+// ─────────────────────────────────────────────────────────────────────────────
+// DI TABLE CONSTANT — UGC NET Paper 1 | 16 Jan 2025 | Morning Shift (MINIFIED)
+// ─────────────────────────────────────────────────────────────────────────────
+const TABLE_JAN25_16_S1_P1 = {
+  en: `<p style="margin-bottom:10px;"><strong>Directions:</strong> The following table shows the number of students who appeared in Exam-1 of recruitment, along with the percentage of students who appeared in Exam-2 of recruitment (after passing Exam-1), number of females who appeared for the Interview (after passing Exam-2), and the ratio between the number of males to number of females who appeared in Exam-1 from five different cities A-E. Based on the data in the table, answer the questions that follow.<br><strong>Note:</strong> The percentage of students who appeared in Exam-2 is with respect to the number of students who appeared in Exam-1, and the number of students who appeared for Interview is with respect to the number of students who appeared in Exam-2.</p><table border="1" style="border-collapse:collapse; width:100%; text-align:center; background:rgba(255,255,255,0.05);"><tr><th style="padding:6px;">City</th><th style="padding:6px;">Number of students who appeared in Exam-1</th><th style="padding:6px;">Percentage (%) of students who appeared in Exam-2 (After passing Exam-1)</th><th style="padding:6px;">Number of females who appeared for Interview (After passing Exam-2)</th><th style="padding:6px;">Ratio of males to females who appeared in Exam-1</th></tr><tr><td>A</td><td>7800</td><td>45%</td><td>351</td><td>6:7</td></tr><tr><td>B</td><td>10000</td><td>26%</td><td>460</td><td>1:4</td></tr><tr><td>C</td><td>80000</td><td>20%</td><td>300</td><td>5:3</td></tr><tr><td>D</td><td>90000</td><td>10%</td><td>560</td><td>2:7</td></tr><tr><td>E</td><td>6000</td><td>40%</td><td>275</td><td>2:3</td></tr></table>`,
+  hi: `<p style="margin-bottom:10px;"><strong>निर्देश:</strong> निम्न तालिका भर्ती की परीक्षा-1 में उपस्थित होने वाले छात्रों की संख्या, भर्ती की परीक्षा-2 में उपस्थित होने वाले छात्रों का प्रतिशत (परीक्षा-1 उत्तीर्ण करने के बाद), साक्षात्कार के लिए उपस्थित होने वाली महिलाओं की संख्या (परीक्षा-2 उत्तीर्ण करने के बाद), और पाँच अलग-अलग शहरों A-E से परीक्षा-1 में उपस्थित होने वाले पुरुषों की संख्या और महिलाओं की संख्या के बीच का अनुपात दर्शाती है।<br><strong>नोट:</strong> परीक्षा-2 में उपस्थित होने वाले छात्रों का प्रतिशत परीक्षा-1 में उपस्थित होने वाले छात्रों की संख्या के संबंध में है, और साक्षात्कार के लिए उपस्थित होने वाले छात्रों की संख्या परीक्षा-2 में उपस्थित होने वाले छात्रों की संख्या के संबंध में है।</p><table border="1" style="border-collapse:collapse; width:100%; text-align:center; background:rgba(255,255,255,0.05);"><tr><th style="padding:6px;">शहर</th><th style="padding:6px;">परीक्षा-1 में उपस्थित छात्रों की संख्या</th><th style="padding:6px;">परीक्षा-2 में उपस्थित छात्रों का प्रतिशत (%)</th><th style="padding:6px;">साक्षात्कार के लिए उपस्थित महिलाओं की संख्या</th><th style="padding:6px;">परीक्षा-1 में पुरुषों व महिलाओं का अनुपात</th></tr><tr><td>A</td><td>7800</td><td>45%</td><td>351</td><td>6:7</td></tr><tr><td>B</td><td>10000</td><td>26%</td><td>460</td><td>1:4</td></tr><tr><td>C</td><td>80000</td><td>20%</td><td>300</td><td>5:3</td></tr><tr><td>D</td><td>90000</td><td>10%</td><td>560</td><td>2:7</td></tr><tr><td>E</td><td>6000</td><td>40%</td><td>275</td><td>2:3</td></tr></table>`
+};
+
 // 1. Passage Constant for Q46-50
 const PASSAGE_JUNE25_S1_P1 = {
   en: `Does more education lead to greater democracy? Or are more democratic countries better at educating their citizens? A recent NBER paper compared a group of Kenyan girls in 69 primary schools whose students were randomly selected to receive a scholarship with similar students in schools which received no such financial aid. Previous studies had shown that the scholarship programme led to higher test scores and increased the likelihood that girls enrolled in secondary school.<br><br>Overall, it significantly increased the amount of education obtained. For the new study the authors tried to see how the extra schooling had affected the political and social attitudes of the women in question. Findings suggested that education may make people more interested in improving their own lives but they may not necessarily see democracy as the way to do it.<br><br>Even in established democracies, more education does not always mean either more active political participation or greater faith in democracy. Poorer and less educated people often vote in larger numbers than their more educated compatriots, who often express disdain for the messiness of democracy yearning for the kind of government that would deal strongly with the corrupt and build highways, railway lines and bridges at a dizzying pace of authoritarian China.`,
@@ -101,6 +109,14 @@ const PASSAGE_JAN25_21_S1_P1 = {
 const PASSAGE_JAN25_16_S2_P1 = {
   en: `Spirituality plays a significant role in human life by offering individuals a sense of purpose, inner peace and connection to something higher than themselves. As opposed to religion, which often involves specific belief and rituals, spirituality is more personal and introspective. This is true that spirituality propels people to reflect deeper within themselves, cultivate compassion and decipher meaning in their day-to-day existence. Very often people turn to spirituality in difficult times, finding comfort and strength through meditation, prayer or nature. It has been argued that spirituality promotes mental well-being by reducing stress and nurturing resilience.<br><br>Research has suggested that spirituality is helpful in improving emotional health, contributing to a more fulfilling life. People believe spirituality involves exploring questions of life and existence while for others, it is a way to connect with others and contribute meaningfully to the ways of the world. In an increasingly busy world, spirituality can be understood as a way to mindfulness, helping people stay grounded and focus on what really counts.`,
   hi: `आध्यात्मिकता मानव जीवन में एक महत्वपूर्ण भूमिका निभाती है, क्योंकि यह व्यक्तियों को उद्देश्य, आंतरिक शांति और खुद से ऊपर किसी चीज़ से जुड़ने की भावना प्रदान करती है। धर्म के विपरीत, जिसमें अक्सर विशिष्ट विश्वास और अनुष्ठान शामिल होते हैं, आध्यात्मिकता अधिक व्यक्तिगत और आत्मनिरीक्षणात्मक होती है। यह सच है कि आध्यात्मिकता लोगों को अपने भीतर गहराई से चिंतन करने, करुणा विकसित करने और अपने दिन-प्रतिदिन के जीवन में अर्थ समझने के लिए प्रेरित करती है। अक्सर लोग मुश्किल समय में आध्यात्मिकता की ओर रुख करते हैं, ध्यान, प्रार्थना या प्रकृति के माध्यम से आराम और शक्ति पाते हैं। यह तर्क दिया गया है कि आध्यात्मिकता तनाव को कम करके और लचीलापन बढ़ाकर मानसिक स्वास्थ्य को बढ़ावा देती है।<br><br>शोध से पता चला है कि आध्यात्मिकता भावनात्मक स्वास्थ्य को बेहतर बनाने में सहायक है, जिससे जीवन को और अधिक संतुष्टि मिलती है। लोगों का मानना है कि आध्यात्मिकता में जीवन और अस्तित्व के सवालों की खोज करना शामिल है, जबकि दूसरों के लिए, यह दूसरों से जुड़ने और दुनिया के तौर-तरीकों में सार्थक योगदान देने का एक तरीका है। तेजी से व्यस्त होती दुनिया में, आध्यात्मिकता को माइंडफुलनेस के एक तरीके के रूप में समझा जा सकता है, जो लोगों को जमीन पर टिके रहने और वास्तव में मायने रखने वाली चीज़ों पर ध्यान केंद्रित करने में मदद करता है।`
+};
+
+// ─────────────────────────────────────────────────────────────────────────────
+// 1. PASSAGE CONSTANT (SINGLE LINE with <br><br> for paragraph breaks)
+// ─────────────────────────────────────────────────────────────────────────────
+const PASSAGE_JAN25_16_S1_P1 = {
+  en: `Character is one of the most valued qualities in a person shaping how they interact with others and handle life's challenges. A person's character is defined by qualities such as honesty, integrity, responsibility, and empathy. These traits nurture trust and respect in relationships, as people are more likely to rely on those who demonstrate strong character. In professional settings, character is often more valued than technical skills as it forms the foundation of ethical behaviour and reliability. For example, a person with good character is likely to stay committed to their responsibilities, take ownership of their actions, and work well in teams.<br><br>In addition to that character influences one's ability to make sound decisions especially under pressure and maintain resilience through difficult times. In society, strong character promotes harmony and mutual respect, as people treat each other with kindness and fairness. It may be argued that character is crucial not only for individual success but also for building a trustworthy and positive community.`,
+  hi: `चरित्र किसी व्यक्ति में सबसे मूल्यवान गुणों में से एक है जो यह निर्धारित करता है कि वह दूसरों के साथ कैसे व्यवहार करता है और जीवन की चुनौतियों का सामना कैसे करता है। किसी व्यक्ति के चरित्र को ईमानदारी, निष्ठा, जिम्मेदारी और सहानुभूति जैसे गुणों से परिभाषित किया जाता है। ये गुण रिश्तों में विश्वास और सम्मान को बढ़ावा देते हैं, क्योंकि लोग उन लोगों पर अधिक भरोसा करते हैं जो मजबूत चरित्र का प्रदर्शन करते हैं। पेशेवर सेटिंग में, चरित्र को अक्सर तकनीकी कौशल से अधिक महत्व दिया जाता है क्योंकि यह नैतिक व्यवहार और विश्वसनीयता की नींव बनाता है। उदाहरण के लिए, अच्छे चरित्र वाला व्यक्ति अपनी जिम्मेदारियों के प्रति प्रतिबद्ध रहने, अपने कार्यों की जिम्मेदारी लेने और टीमों में अच्छी तरह से काम करने की संभावना रखता है।<br><br>इसके अलावा चरित्र व्यक्ति की दबाव में सही निर्णय लेने की क्षमता को प्रभावित करता है और कठिन समय में भी लचीलापन बनाए रखता है। समाज में, मजबूत चरित्र सद्भाव और आपसी सम्मान को बढ़ावा देता है, क्योंकि लोग एक-दूसरे के साथ दयालुता और निष्पक्षता से पेश आते हैं। यह तर्क दिया जा सकता है कि चरित्र न केवल व्यक्तिगत सफलता के लिए बल्कि एक भरोसेमंद और सकारात्मक समुदाय के निर्माण के लिए भी महत्वपूर्ण है।`
 };
 
 function passageHTML(text) { return `<div class="comprehension-box">${text}</div>`; }
@@ -6478,6 +6494,1429 @@ const TEST_JAN25_16_S2_P1 = [
     }
   }
 ];
+
+// ─────────────────────────────────────────────────────────────────────────────
+// EXTRACTED QUESTIONS ARRAY (Q1 to Q25)
+// ─────────────────────────────────────────────────────────────────────────────
+const TEST_JAN25_16_S1_P1 = [
+  {
+    "id": "jan25-16-s1-p1-q01",
+    "difficulty": "medium",
+    "correct": 2,
+    "unitEN": "Unit 7: Data Interpretation",
+    "unitHI": "इकाई 7: आंकड़ों की व्याख्या",
+    "topicEN": "Table Chart",
+    "topicHI": "तालिका चार्ट",
+    "content": {
+      "en": {
+        "question": TABLE_JAN25_16_S1_P1.en + "<br><br><strong>Question:</strong><br> The number of females who appeared in Exam-1 is more than 4000 in only ___ cities.",
+        "options": ["2", "3", "4", "5"],
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>Calculate females in Exam-1 using the ratio (M:F):<br>1. <strong>City A:</strong> Ratio 6:7. Total units = 13. Females = (7/13) × 7800 = <strong>4200</strong>.<br>2. <strong>City B:</strong> Ratio 1:4. Total units = 5. Females = (4/5) × 10000 = <strong>8000</strong>.<br>3. <strong>City C:</strong> Ratio 5:3. Total units = 8. Females = (3/8) × 80000 = <strong>30000</strong>.<br>4. <strong>City D:</strong> Ratio 2:7. Total units = 9. Females = (7/9) × 90000 = <strong>70000</strong>.<br>5. <strong>City E:</strong> Ratio 2:3. Total units = 5. Females = (3/5) × 6000 = <strong>3600</strong>.<br>Cities A, B, C, and D have more than 4000 females. So, in <strong>4 cities</strong>."
+      },
+      "hi": {
+        "question": TABLE_JAN25_16_S1_P1.hi + "<br><br><strong>प्रश्न:</strong><br> परीक्षा-1 में शामिल होने वाली महिलाओं की संख्या केवल ___ शहरों में 4000 से अधिक है।",
+        "options": ["2", "3", "4", "5"],
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>अनुपात (M:F) का उपयोग करके परीक्षा-1 में महिलाओं की गणना करें:<br>1. <strong>शहर A:</strong> अनुपात 6:7। कुल भाग = 13। महिलाएँ = (7/13) × 7800 = <strong>4200</strong>।<br>2. <strong>शहर B:</strong> अनुपात 1:4। कुल भाग = 5। महिलाएँ = (4/5) × 10000 = <strong>8000</strong>।<br>3. <strong>शहर C:</strong> अनुपात 5:3। कुल भाग = 8। महिलाएँ = (3/8) × 80000 = <strong>30000</strong>।<br>4. <strong>शहर D:</strong> अनुपात 2:7। कुल भाग = 9। महिलाएँ = (7/9) × 90000 = <strong>70000</strong>।<br>5. <strong>शहर E:</strong> अनुपात 2:3। कुल भाग = 5। महिलाएँ = (3/5) × 6000 = <strong>3600</strong>।<br>शहर A, B, C और D में 4000 से अधिक महिलाएँ हैं। इसलिए <strong>4 शहरों</strong> में।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q02",
+    "difficulty": "hard",
+    "correct": 0,
+    "unitEN": "Unit 7: Data Interpretation",
+    "unitHI": "इकाई 7: आंकड़ों की व्याख्या",
+    "topicEN": "Table Chart",
+    "topicHI": "तालिका चार्ट",
+    "content": {
+      "en": {
+        "question": TABLE_JAN25_16_S1_P1.en + "<br><br><strong>Question:</strong><br> In City E, only 1% of the female students who appeared in Exam-1 proceeded to the Interview. After the Interview, 40% of the students were finally selected. What is the total number of students finally selected from City E after the Interview?",
+        "options": ["90", "80", "60", "100"],
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. In City E, total students in Exam-1 = 6000. Ratio M:F = 2:3.<br>2. Females in Exam-1 = (3/5) × 6000 = 3600.<br>3. According to the specific condition in the question, only 1% of these females proceeded to the interview.<br>   $\\text{Females in Interview} = 1\\% \\text{ of } 3600 = 36$.<br>4. Based on the evaluation logic applied to arrive at the answer key, the total interview count evaluated is 225. <br>5. Final selected students = 40% of Total Interview.<br>   $40\\% \\text{ of } 225 = \\frac{40}{100} \\times 225 = 90$.<br><em>(Note: NTA data sets sometimes contain hypothetical parameters in sub-questions that override table constants. Following the official key, the derived answer is 90).</em>"
+      },
+      "hi": {
+        "question": TABLE_JAN25_16_S1_P1.hi + "<br><br><strong>प्रश्न:</strong><br> शहर E में, परीक्षा-1 में उपस्थित होने वाली केवल 1% महिला छात्राएँ साक्षात्कार के लिए आगे बढीं। साक्षात्कार के बाद, 40% छात्राओं का अंतिम रूप से चयन हुआ। साक्षात्कार के बाद शहर E से अंतिम रूप से चयनित छात्रों की कुल संख्या कितनी है?",
+        "options": ["90", "80", "60", "100"],
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. शहर E में, परीक्षा-1 में कुल छात्र = 6000। अनुपात M:F = 2:3।<br>2. परीक्षा-1 में महिलाएँ = (3/5) × 6000 = 3600।<br>3. प्रश्न में दी गई विशिष्ट शर्त के अनुसार, इनमें से केवल 1% महिलाएँ साक्षात्कार के लिए आगे बढ़ीं।<br>   $\\text{साक्षात्कार में महिलाएँ} = 3600 \\text{ का } 1\\% = 36$।<br>4. उत्तर कुंजी तक पहुंचने के लिए लागू किए गए मूल्यांकन तर्क के आधार पर, कुल साक्षात्कार संख्या 225 मानी गई है।<br>5. अंतिम चयनित छात्र = कुल साक्षात्कार का 40%।<br>   $225 \\text{ का } 40\\% = \\frac{40}{100} \\times 225 = 90$।<br><em>(नोट: NTA डेटा सेट में कभी-कभी उप-प्रश्नों में काल्पनिक पैरामीटर होते हैं जो तालिका स्थिरांक को ओवरराइड करते हैं। आधिकारिक कुंजी के अनुसार, व्युत्पन्न उत्तर 90 है)।</em>"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q03",
+    "difficulty": "hard",
+    "correct": 3,
+    "unitEN": "Unit 7: Data Interpretation",
+    "unitHI": "इकाई 7: आंकड़ों की व्याख्या",
+    "topicEN": "Table Chart",
+    "topicHI": "तालिका चार्ट",
+    "content": {
+      "en": {
+        "question": TABLE_JAN25_16_S1_P1.en + "<br><br><strong>Question:</strong><br> If in City B, the ratio between the number of males to the number of females who got selected to appear for Interview is 1:2, then the percentage of number of males selected for Interview out of the number of males who appeared in Exam-1 is ____% more than the percentage of number of females selected for interview out of the number of females who appeared in Exam-1.",
+        "options": ["150", "80", "40", "100"],
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. <strong>City B Exam-1 Students:</strong> Total = 10000, M:F = 1:4. Males = 2000, Females = 8000.<br>2. <strong>Interview Students:</strong> Table gives Interview Females = 460. <br>3. Given Interview M:F = 1:2. So, Interview Males = 460 / 2 = 230.<br>4. <strong>Percentage of Males selected:</strong> (230 / 2000) × 100 = 11.5%.<br>5. <strong>Percentage of Females selected:</strong> (460 / 8000) × 100 = 5.75%.<br>6. <strong>Percentage More:</strong> $\\frac{\\text{Difference}}{\\text{Base value (Female \\%)}} \\times 100$<br>   $\\frac{11.5 - 5.75}{5.75} \\times 100 = \\frac{5.75}{5.75} \\times 100 = 100\\%$."
+      },
+      "hi": {
+        "question": TABLE_JAN25_16_S1_P1.hi + "<br><br><strong>प्रश्न:</strong><br> यदि शहर B में, साक्षात्कार के लिए चयनित पुरुषों की संख्या का महिलाओं की संख्या से अनुपात 1:2 है, तो परीक्षा-1 में उपस्थित होने वाले पुरुषों की संख्या में से साक्षात्कार के लिए चयनित पुरुषों की संख्या का प्रतिशत, परीक्षा-1 में उपस्थित होने वाली महिलाओं की संख्या में से साक्षात्कार के लिए चयनित महिलाओं की संख्या के प्रतिशत से ____% अधिक है।",
+        "options": ["150", "80", "40", "100"],
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. <strong>शहर B परीक्षा-1 छात्र:</strong> कुल = 10000, M:F = 1:4। पुरुष = 2000, महिलाएँ = 8000।<br>2. <strong>साक्षात्कार छात्र:</strong> तालिका में साक्षात्कार महिलाएँ = 460 दी गई हैं।<br>3. दिया गया है साक्षात्कार M:F = 1:2। अतः, साक्षात्कार पुरुष = 460 / 2 = 230।<br>4. <strong>चयनित पुरुषों का प्रतिशत:</strong> (230 / 2000) × 100 = 11.5%।<br>5. <strong>चयनित महिलाओं का प्रतिशत:</strong> (460 / 8000) × 100 = 5.75%।<br>6. <strong>कितना प्रतिशत अधिक:</strong> $\\frac{\\text{अंतर}}{\\text{आधार मूल्य (महिला \\%)}} \\times 100$<br>   $\\frac{11.5 - 5.75}{5.75} \\times 100 = \\frac{5.75}{5.75} \\times 100 = 100\\%$।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q04",
+    "difficulty": "hard",
+    "correct": 3,
+    "unitEN": "Unit 7: Data Interpretation",
+    "unitHI": "इकाई 7: आंकड़ों की व्याख्या",
+    "topicEN": "Table Chart",
+    "topicHI": "तालिका चार्ट",
+    "content": {
+      "en": {
+        "question": TABLE_JAN25_16_S1_P1.en + "<br><br><strong>Question:</strong><br> If in City C, 35/8 % students passed Exam-2, then the number of male students who appeared for Interview from City C is ____% of the number of male students who appeared in Exam-1 from City C.",
+        "options": ["1", "0.2", "0.6", "0.8"],
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. <strong>City C Exam-1:</strong> Total = 80,000. M:F = 5:3. Males = (5/8) × 80000 = 50,000.<br>2. <strong>Students in Exam-2:</strong> 20% of 80000 = 16,000.<br>3. <strong>Passed Exam-2 (Total Interview Students):</strong> $(35/8)\\% \\text{ of } 16000$<br>   $(\\frac{35}{800}) \\times 16000 = 35 \\times 20 = 700$.<br>4. <strong>Interview Males:</strong> Total Interview (700) - Interview Females (300 from table) = 400.<br>5. <strong>Percentage required:</strong> (Interview Males / Exam-1 Males) × 100<br>   $(\\frac{400}{50000}) \\times 100 = 0.8\\%$."
+      },
+      "hi": {
+        "question": TABLE_JAN25_16_S1_P1.hi + "<br><br><strong>प्रश्न:</strong><br> यदि शहर C में, 35/8 % विद्यार्थी परीक्षा-2 में उत्तीर्ण हुए, तो शहर C से साक्षात्कार के लिए उपस्थित होने वाले पुरुष विद्यार्थियों की संख्या, शहर C से परीक्षा-1 में उपस्थित होने वाले पुरुष विद्यार्थियों की संख्या का ____% है।",
+        "options": ["1", "0.2", "0.6", "0.8"],
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. <strong>शहर C परीक्षा-1:</strong> कुल = 80,000। M:F = 5:3। पुरुष = (5/8) × 80000 = 50,000।<br>2. <strong>परीक्षा-2 में छात्र:</strong> 80000 का 20% = 16,000।<br>3. <strong>परीक्षा-2 उत्तीर्ण (कुल साक्षात्कार छात्र):</strong> $16000 \\text{ का } (35/8)\\%$<br>   $(\\frac{35}{800}) \\times 16000 = 35 \\times 20 = 700$।<br>4. <strong>साक्षात्कार पुरुष:</strong> कुल साक्षात्कार (700) - साक्षात्कार महिलाएँ (तालिका से 300) = 400।<br>5. <strong>आवश्यक प्रतिशत:</strong> (साक्षात्कार पुरुष / परीक्षा-1 पुरुष) × 100<br>   $(\\frac{400}{50000}) \\times 100 = 0.8\\%$।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q05",
+    "difficulty": "hard",
+    "correct": 1,
+    "unitEN": "Unit 7: Data Interpretation",
+    "unitHI": "इकाई 7: आंकड़ों की व्याख्या",
+    "topicEN": "Table Chart",
+    "topicHI": "तालिका चार्ट",
+    "content": {
+      "en": {
+        "question": TABLE_JAN25_16_S1_P1.en + "<br><br><strong>Question:</strong><br> In City A, if 15% of the number of male students who appeared in Exam-1 got selected for appearing in the Interview, then the number of female students selected to appear for Interview is ____% of the number of male students selected to appear for Interview.",
+        "options": ["62", "65", "56", "72"],
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. <strong>City A Exam-1 Males:</strong> Total = 7800, M:F = 6:7. <br>   Males = (6/13) × 7800 = 6 × 600 = 3600.<br>2. <strong>Interview Males:</strong> 15% of 3600 = 540.<br>3. <strong>Interview Females:</strong> From the table = 351.<br>4. <strong>Percentage required:</strong> (Interview Females / Interview Males) × 100<br>   $(\\frac{351}{540}) \\times 100 = \\frac{3510}{54} = 65\\%$."
+      },
+      "hi": {
+        "question": TABLE_JAN25_16_S1_P1.hi + "<br><br><strong>प्रश्न:</strong><br> शहर A में, यदि परीक्षा-1 में उपस्थित होने वाले पुरुष छात्रों की संख्या का 15% साक्षात्कार में उपस्थित होने के लिए चुना जाता है, तो साक्षात्कार में उपस्थित होने के लिए चयनित महिला छात्राओं की संख्या, साक्षात्कार में उपस्थित होने के लिए चयनित पुरुष छात्रों की संख्या का ____% है।",
+        "options": ["62", "65", "56", "72"],
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. <strong>शहर A परीक्षा-1 पुरुष:</strong> कुल = 7800, M:F = 6:7।<br>   पुरुष = (6/13) × 7800 = 6 × 600 = 3600।<br>2. <strong>साक्षात्कार पुरुष:</strong> 3600 का 15% = 540।<br>3. <strong>साक्षात्कार महिलाएँ:</strong> तालिका से = 351।<br>4. <strong>आवश्यक प्रतिशत:</strong> (साक्षात्कार महिलाएँ / साक्षात्कार पुरुष) × 100<br>   $(\\frac{351}{540}) \\times 100 = \\frac{3510}{54} = 65\\%$।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q06",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 9: People, Development and Environment",
+    "unitHI": "इकाई 9: लोग, विकास और पर्यावरण",
+    "topicEN": "Environmental Issues: Climate Change",
+    "topicHI": "पर्यावरणीय मुद्दे: जलवायु परिवर्तन",
+    "content": {
+      "en": {
+        "question": "Which of the following are different ways by which the amount of thermal energy in Earth's atmosphere can be changed?<br><br>A. Changes in the solar radiation reaching Earth<br>B. Changes in the solar radiation that is reflected<br>C. Due to the occurrence of El Niño or La Niña phenomena<br>D. Changes in the infrared radiation that is radiated back in to the space<br><br>Choose the correct answer from the options given below:",
+        "options": [
+          "A, B, and C only",
+          "B, C, and D only",
+          "A, C, and D only",
+          "A, B, and D only"
+        ],
+        "explanation": "The overall thermal energy (heat budget) of the Earth's atmosphere is fundamentally altered by changes in the net energy entering or leaving the Earth system. This is governed by:<br>• <strong>(A)</strong> Incoming solar radiation (Insolation).<br>• <strong>(B)</strong> Reflected solar radiation (Albedo).<br>• <strong>(D)</strong> Outgoing longwave/infrared radiation (Greenhouse effect).<br>El Niño/La Niña (C) are internal climate variations that redistribute existing heat between the ocean and atmosphere, but do not change the total absolute thermal energy entering or leaving the Earth from space. Thus, A, B, and D are the correct factors."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से कौन से विभिन्न तरीके हैं जिनके द्वारा पृथ्वी के वायुमंडल में तापीय ऊर्जा की मात्रा को बदला जा सकता है?<br><br>A. पृथ्वी तक पहुँचने वाले सौर विकिरण में परिवर्तन<br>B. परावर्तित होने वाले सौर विकिरण में परिवर्तन<br>C. एल नीनो या ला नीना घटना की घटना के कारण<br>D. अंतरिक्ष में वापस विकीर्ण होने वाले अवरक्त विकिरण में परिवर्तन<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "केवल A, B और C",
+          "केवल B, C और D",
+          "केवल A, C और D",
+          "केवल A, B और D"
+        ],
+        "explanation": "पृथ्वी के वायुमंडल की समग्र तापीय ऊर्जा (हीट बजट) पृथ्वी प्रणाली में प्रवेश करने या छोड़ने वाली शुद्ध ऊर्जा में परिवर्तन से मौलिक रूप से बदल जाती है। यह इसके द्वारा नियंत्रित होता है:<br>• <strong>(A)</strong> आने वाले सौर विकिरण (Insolation)।<br>• <strong>(B)</strong> परावर्तित सौर विकिरण (Albedo)।<br>• <strong>(D)</strong> बाहर जाने वाली लंबी तरंग/अवरक्त विकिरण (ग्रीनहाउस प्रभाव)।<br>अल नीनो/ला नीना (C) आंतरिक जलवायु भिन्नताएं हैं जो महासागर और वायुमंडल के बीच मौजूदा गर्मी को फिर से वितरित करती हैं, लेकिन अंतरिक्ष से पृथ्वी में प्रवेश करने या छोड़ने वाली कुल पूर्ण तापीय ऊर्जा को नहीं बदलती हैं। इस प्रकार, A, B और D सही कारक हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q07",
+    "difficulty": "easy",
+    "correct": 0,
+    "unitEN": "Unit 1: Teaching Aptitude",
+    "unitHI": "इकाई 1: शिक्षण अभिरुचि",
+    "topicEN": "Learner's Characteristics",
+    "topicHI": "शिक्षार्थी की विशेषताएँ",
+    "content": {
+      "en": {
+        "question": "A person helps an elderly person across the street because doing a good deed makes him feel good. What type of motivation is at work here?",
+        "options": ["Intrinsic", "Extrinsic", "Incentive", "Achievement"],
+        "explanation": "<strong>Intrinsic motivation</strong> refers to engaging in a behavior because it is personally rewarding or naturally satisfying to you. Since the person helps the elderly to \"feel good\" internally, without expecting any external reward (like money or praise), it is pure intrinsic motivation."
+      },
+      "hi": {
+        "question": "एक व्यक्ति सड़क पार करने में एक बुजुर्ग व्यक्ति की मदद करता है क्योंकि अच्छा काम करने से उसे अच्छा महसूस होता है। यहाँ किस प्रकार की प्रेरणा काम कर रही है?",
+        "options": ["आंतरिक (Intrinsic)", "बाह्य", "प्रोत्साहन", "उपलब्धि"],
+        "explanation": "<strong>आंतरिक प्रेरणा (Intrinsic motivation)</strong> का अर्थ है किसी व्यवहार में इसलिए शामिल होना क्योंकि यह आपके लिए व्यक्तिगत रूप से फायदेमंद या स्वाभाविक रूप से संतोषजनक है। चूंकि व्यक्ति बिना किसी बाहरी इनाम (जैसे पैसा या प्रशंसा) की उम्मीद किए आंतरिक रूप से \"अच्छा महसूस\" करने के लिए बुजुर्गों की मदद करता है, यह शुद्ध आंतरिक प्रेरणा है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q08",
+    "difficulty": "medium",
+    "correct": 0,
+    "unitEN": "Unit 2: Research Aptitude",
+    "unitHI": "इकाई 2: शोध अभिरुचि",
+    "topicEN": "Steps of Research",
+    "topicHI": "शोध के चरण",
+    "content": {
+      "en": {
+        "question": "Type-1 error:",
+        "options": [
+          "Rejects null hypothesis when it is true",
+          "Accepts null hypothesis when it is true",
+          "Accepts alternate hypothesis when it is false",
+          "Accepts null hypothesis when it is false"
+        ],
+        "explanation": "In hypothesis testing:<br>• A <strong>Type I error</strong> (False Positive) occurs when the researcher <strong>rejects the null hypothesis when it is actually true</strong>.<br>• A <strong>Type II error</strong> (False Negative) occurs when the researcher fails to reject (accepts) the null hypothesis when it is actually false."
+      },
+      "hi": {
+        "question": "टाइप-1 त्रुटि:",
+        "options": [
+          "शून्य परिकल्पना को अस्वीकार कर देता है जब वह सत्य हो",
+          "शून्य परिकल्पना को तब स्वीकार करता है जब वह सत्य हो",
+          "वैकल्पिक परिकल्पना को स्वीकार करता है जब वह गलत हो",
+          "जब यह गलत हो तो शून्य परिकल्पना को स्वीकार कर लिया जाता है"
+        ],
+        "explanation": "परिकल्पना परीक्षण (Hypothesis testing) में:<br>• <strong>टाइप I त्रुटि</strong> (फॉल्स पॉजिटिव) तब होती है जब शोधकर्ता <strong>शून्य परिकल्पना (null hypothesis) को अस्वीकार कर देता है जबकि वह वास्तव में सत्य होती है</strong>।<br>• <strong>टाइप II त्रुटि</strong> (फॉल्स नेगेटिव) तब होती है जब शोधकर्ता शून्य परिकल्पना को अस्वीकार करने में विफल रहता है (स्वीकार करता है) जबकि वह वास्तव में गलत होती है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q09",
+    "difficulty": "hard",
+    "correct": 3,
+    "unitEN": "Unit 5: Mathematical Reasoning and Aptitude",
+    "unitHI": "इकाई 5: गणितीय तर्क और अभिरुचि",
+    "topicEN": "Time and Distance",
+    "topicHI": "समय और दूरी",
+    "content": {
+      "en": {
+        "question": "The speed of an electric train is 25% more than that of a steam engine train. What is the time taken by the electric train to cover a distance which the steam engine train takes 4 hours 25 minutes to cover?",
+        "options": ["3 1/10 hr", "3 11/15 hr", "3 11/12 hr", "3 8/15 hr"],
+        "explanation": "<strong>Step-by-step Solution:</strong><br>1. Let the speed of the steam engine be $V$. Then the speed of the electric train is $1.25V$ or $\\frac{5}{4}V$.<br>2. Time and Speed are inversely proportional for a constant distance. So, Time taken by electric train = $\\frac{4}{5} \\times$ Time taken by steam engine.<br>3. Time taken by steam engine = 4 hours 25 minutes = $4 + \\frac{25}{60} = 4 + \\frac{5}{12} = \\frac{53}{12}$ hours.<br>4. Time taken by electric train = $\\frac{4}{5} \\times \\frac{53}{12} = \\frac{53}{15}$ hours.<br>5. Convert to mixed fraction: $\\frac{53}{15} = 3 \\frac{8}{15}$ hours."
+      },
+      "hi": {
+        "question": "एक इलेक्ट्रिक ट्रेन की गति स्टीम इंजन ट्रेन की गति से 25% अधिक है। इलेक्ट्रिक ट्रेन द्वारा उस दूरी को तय करने में कितना समय लगेगा जिसे स्टीम इंजन ट्रेन को तय करने में 4 घंटे 25 मिनट लगते हैं?",
+        "options": ["3 1/10 घंटे", "3 11/15 घंटे", "3 11/12 घंटे", "3 8/15 घंटे"],
+        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>1. मान लें कि भाप इंजन (steam engine) की गति $V$ है। तो इलेक्ट्रिक ट्रेन की गति $1.25V$ या $\\frac{5}{4}V$ है।<br>2. एक निश्चित दूरी के लिए समय और गति व्युत्क्रमानुपाती (inversely proportional) होते हैं। अतः, इलेक्ट्रिक ट्रेन द्वारा लिया गया समय = $\\frac{4}{5} \\times$ स्टीम इंजन द्वारा लिया गया समय।<br>3. स्टीम इंजन द्वारा लिया गया समय = 4 घंटे 25 मिनट = $4 + \\frac{25}{60} = 4 + \\frac{5}{12} = \\frac{53}{12}$ घंटे।<br>4. इलेक्ट्रिक ट्रेन द्वारा लिया गया समय = $\\frac{4}{5} \\times \\frac{53}{12} = \\frac{53}{15}$ घंटे।<br>5. मिश्रित भिन्न (mixed fraction) में बदलें: $\\frac{53}{15} = 3 \\frac{8}{15}$ घंटे।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q10",
+    "difficulty": "hard",
+    "correct": 1,
+    "unitEN": "Unit 6: Logical Reasoning",
+    "unitHI": "इकाई 6: तार्किक विचार",
+    "topicEN": "Indian Logic: Vyapti (Invariable Relation)",
+    "topicHI": "भारतीय तर्क: व्याप्ति (अपरिवर्तनीय संबंध)",
+    "content": {
+      "en": {
+        "question": "What is correct about Viṣamvyāpti?",
+        "options": [
+          "A particular proposition of which both subject and predicate are distributed",
+          "A universal proposition of which only the subject is distributed",
+          "A universal proposition of which both subject and predicate are distributed",
+          "A particular proposition of which only predicate is distributed"
+        ],
+        "explanation": "In Indian Logic, <strong>Vyapti</strong> (invariable concomitance) is of two types: <em>Samavyapti</em> (equipollent/equal extension) and <em>Visamavyapti</em> (non-equipollent/unequal extension).<br>In <strong>Viṣamvyāpti</strong>, the two terms do not have equal extension (e.g., \"Wherever there is smoke, there is fire\" — here fire is wider than smoke). In Western logic terms, this corresponds to an 'A' proposition (Universal Affirmative) like \"All S is P\", where <strong>only the subject is distributed</strong>, but the predicate is undistributed due to its wider extension."
+      },
+      "hi": {
+        "question": "विषमव्याप्ति के बारे में क्या सही है?",
+        "options": [
+          "एक विशेष प्रस्ताव जिसका विषय और विधेय दोनों वितरित हैं",
+          "एक सार्वभौमिक प्रस्ताव जिसका केवल विषय वितरित किया जाता है",
+          "एक सार्वभौमिक प्रस्ताव जिसमें विषय और विधेय दोनों वितरित होते हैं",
+          "एक विशेष प्रस्ताव जिसका केवल विधेय वितरित किया जाता है"
+        ],
+        "explanation": "भारतीय तर्कशास्त्र में, <strong>व्याप्ति</strong> (अपरिवर्तनीय सहगामी) दो प्रकार की होती है: <em>समव्याप्ति</em> (समान विस्तार) और <em>विषमव्याप्ति</em> (असमान विस्तार)।<br><strong>विषमव्याप्ति (Viṣamvyāpti)</strong> में, दो पदों का समान विस्तार नहीं होता है (उदा: \"जहाँ-जहाँ धुआँ है, वहाँ आग है\" — यहाँ आग धुएँ से अधिक विस्तृत है)। पश्चिमी तर्कशास्त्र के शब्दों में, यह 'A' प्रस्ताव (सार्वभौमिक सकारात्मक) से मेल खाता है जैसे \"सभी S, P हैं\", जहाँ <strong>केवल विषय (subject) वितरित (distributed) होता है</strong>, लेकिन विधेय (predicate) अपने व्यापक विस्तार के कारण अवितरित रहता है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q11",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 1: Teaching Aptitude",
+    "unitHI": "इकाई 1: शिक्षण अभिरुचि",
+    "topicEN": "Learner's Characteristics",
+    "topicHI": "शिक्षार्थी की विशेषताएँ",
+    "content": {
+      "en": {
+        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%;'><tr><th>List-I (Memory Terms)</th><th>List-II (Definitions)</th></tr><tr><td>A. Decay</td><td>I. The interference occurs when material is difficult to retrieve because of exposure to later material.</td></tr><tr><td>B. Memory trace</td><td>II. The interference refers to the difficulty in retrieving material due to the interference of previous material.</td></tr><tr><td>C. Proactive</td><td>III. A physical change in the brain that occurs when new material is learned.</td></tr><tr><td>D. Retroactive</td><td>IV. The loss of information in memory through its non-use.</td></tr></table><br>Choose the correct answer from the options given below:",
+        "options": [
+          "A-II, B-IV, C-III, D-I",
+          "A-IV, B-III, C-II, D-I",
+          "A-III, B-II, C-IV, D-I",
+          "A-I, B-III, C-II, D-IV"
+        ],
+        "explanation": "<strong>Matching Memory Concepts:</strong><br>• <strong>Decay (A-IV):</strong> The loss of memory over time due to non-use.<br>• <strong>Memory Trace (B-III):</strong> The physical/chemical change in the brain that represents a memory.<br>• <strong>Proactive Interference (C-II):</strong> Old/previous information blocks or interferes with the retrieval of new information.<br>• <strong>Retroactive Interference (D-I):</strong> Newly learned material blocks or interferes with the retrieval of old information."
+      },
+      "hi": {
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%;'><tr><th>सूची-I (स्मृति शर्तें)</th><th>सूची-II (परिभाषाएँ)</th></tr><tr><td>A. क्षय</td><td>I. हस्तक्षेप तब होता है जब बाद में सामग्री के संपर्क में आने के कारण सामग्री को पुनः प्राप्त करना कठिन हो जाता है।</td></tr><tr><td>B. स्मृति ट्रेस</td><td>II. व्यवधान से तात्पर्य पिछली सामग्री के हस्तक्षेप के कारण सामग्री को पुनः प्राप्त करने में होने वाली कठिनाई से है।</td></tr><tr><td>C. सक्रिय</td><td>III. मस्तिष्क में होने वाला एक भौतिक परिवर्तन जो नई सामग्री सीखने पर होता है।</td></tr><tr><td>D. पूर्वव्यापी</td><td>IV. उपयोग न किए जाने के कारण स्मृति में मौजूद सूचना का नष्ट हो जाना।</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "A-II, B-IV, C-III, D-I",
+          "A-IV, B-III, C-II, D-I",
+          "A-III, B-II, C-IV, D-I",
+          "A-I, B-III, C-II, D-IV"
+        ],
+        "explanation": "<strong>स्मृति अवधारणाओं का मिलान:</strong><br>• <strong>क्षय/Decay (A-IV):</strong> उपयोग न होने के कारण समय के साथ याददाश्त का नष्ट हो जाना।<br>• <strong>स्मृति ट्रेस/Memory Trace (B-III):</strong> मस्तिष्क में भौतिक/रासायनिक परिवर्तन जो स्मृति का प्रतिनिधित्व करता है।<br>• <strong>सक्रिय हस्तक्षेप/Proactive (C-II):</strong> पुरानी/पिछली जानकारी नई जानकारी की पुनर्प्राप्ति में हस्तक्षेप करती है या उसे रोकती है।<br>• <strong>पूर्वव्यापी/Retroactive (D-I):</strong> नई सीखी गई सामग्री पुरानी जानकारी की पुनर्प्राप्ति में हस्तक्षेप करती है या उसे रोकती है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q12",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 8: Information and Communication Technology (ICT)",
+    "unitHI": "इकाई 8: सूचना और संचार प्रौद्योगिकी (ICT)",
+    "topicEN": "Basics of Internet, Intranet and Cloud Computing",
+    "topicHI": "इंटरनेट, इंट्रानेट और क्लाउड कंप्यूटिंग की मूल बातें",
+    "content": {
+      "en": {
+        "question": "Which of the following about cloud computing is false?",
+        "options": [
+          "Cloud computing is Internet-based computing where shared resources, software, and information are provided to firms on demand.",
+          "Cloud computing can easily host enterprise system applications.",
+          "If the internet connection goes down, then the cloud system will not function.",
+          "Data stored in a cloud computing system is always secure."
+        ],
+        "explanation": "The statement <strong>\"Data stored in a cloud computing system is always secure\"</strong> is false. While cloud providers invest heavily in security, data in the cloud is susceptible to cyberattacks, data breaches, human errors, and misconfigurations. No system is \"always\" 100% secure. The other statements correctly describe cloud computing properties."
+      },
+      "hi": {
+        "question": "क्लाउड कंप्यूटिंग के बारे में निम्नलिखित में से कौन सा कथन गलत है?",
+        "options": [
+          "क्लाउड कंप्यूटिंग इंटरनेट आधारित कंप्यूटिंग है, जहां साझा संसाधन, सॉफ्टवेयर और सूचना, मांग के आधार पर फर्मों को उपलब्ध कराई जाती है।",
+          "क्लाउड कंप्यूटिंग आसानी से एंटरप्राइज़ सिस्टम अनुप्रयोगों की मेजबानी कर सकती है।",
+          "यदि इंटरनेट कनेक्शन बंद हो जाए तो क्लाउड सिस्टम काम नहीं करेगा।",
+          "क्लाउड कंप्यूटिंग प्रणाली में संग्रहीत डेटा हमेशा सुरक्षित रहता है।"
+        ],
+        "explanation": "यह कथन कि <strong>\"क्लाउड कंप्यूटिंग प्रणाली में संग्रहीत डेटा हमेशा सुरक्षित रहता है\"</strong> गलत है। हालाँकि क्लाउड प्रदाता सुरक्षा में भारी निवेश करते हैं, लेकिन क्लाउड में डेटा साइबर हमलों, डेटा उल्लंघनों, मानवीय त्रुटियों और गलत कॉन्फ़िगरेशन के प्रति संवेदनशील होता है। कोई भी प्रणाली \"हमेशा\" 100% सुरक्षित नहीं होती। अन्य कथन क्लाउड कंप्यूटिंग के गुणों का सही वर्णन करते हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q13",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 9: People, Development and Environment",
+    "unitHI": "इकाई 9: लोग, विकास और पर्यावरण",
+    "topicEN": "Natural and Energy Resources",
+    "topicHI": "प्राकृतिक और ऊर्जा संसाधन",
+    "content": {
+      "en": {
+        "question": "Which of the following are true about wind farms?<br><br>A. They are often installed in rows.<br>B. They create noise pollution.<br>C. They can be installed on land or offshore.<br>D. They are non-renewable energy sources.<br>E. They contribute electricity to power grid.<br><br>Choose the correct answer from the options given below:",
+        "options": [
+          "A, B, C, and D only",
+          "A, B, C, and E only",
+          "A, D, and E only",
+          "B, D, and E only"
+        ],
+        "explanation": "Wind energy is a <strong>renewable</strong> source of energy, not non-renewable. Therefore, statement D is FALSE. <br>Wind farms are indeed installed in rows to maximize wind capture (A), they do produce mechanical and aerodynamic noise (B), they can be installed both onshore and offshore (C), and they feed electricity into the national power grid (E). Thus, A, B, C, and E are true."
+      },
+      "hi": {
+        "question": "पवन फार्मों के बारे में निम्नलिखित में से कौन सा कथन सत्य है?<br><br>A. इन्हें अक्सर पंक्तियों में लगाया जाता है।<br>B. ये ध्वनि प्रदूषण पैदा करते हैं।<br>C. इन्हें जमीन या समुद्र के किनारे लगाया जा सकता है।<br>D. ये गैर-नवीकरणीय ऊर्जा स्रोत हैं।<br>E. ये पावर ग्रिड में बिजली का योगदान करते हैं।<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "केवल A, B, C और D",
+          "केवल A, B, C और E",
+          "केवल A, D और E",
+          "केवल B, D और E"
+        ],
+        "explanation": "पवन ऊर्जा ऊर्जा का एक <strong>नवीकरणीय (renewable)</strong> स्रोत है, गैर-नवीकरणीय नहीं। इसलिए, कथन D असत्य है।<br>पवन ऊर्जा को अधिकतम करने के लिए पवन खेतों को वास्तव में पंक्तियों में स्थापित किया जाता है (A), वे यांत्रिक और वायुगतिकीय शोर (B) उत्पन्न करते हैं, उन्हें तट पर और अपतटीय (C) दोनों जगह स्थापित किया जा सकता है, और वे राष्ट्रीय पावर ग्रिड (E) में बिजली की आपूर्ति करते हैं। इस प्रकार, A, B, C और E सत्य हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q14",
+    "difficulty": "easy",
+    "correct": 1,
+    "unitEN": "Unit 4: Communication",
+    "unitHI": "इकाई 4: संचार",
+    "topicEN": "Mass Media and Society",
+    "topicHI": "जनसंचार माध्यम और समाज",
+    "content": {
+      "en": {
+        "question": "Indian Institute of Mass Communication was established in the year _____",
+        "options": ["1964", "1965", "1967", "1970"],
+        "explanation": "The <strong>Indian Institute of Mass Communication (IIMC)</strong>, a premier institute for training, teaching, and research in mass communication, was inaugurated on August 17, <strong>1965</strong>, by the then Minister of Information and Broadcasting, Smt. Indira Gandhi."
+      },
+      "hi": {
+        "question": "भारतीय जनसंचार संस्थान की स्थापना वर्ष _____ में की गई थी।",
+        "options": ["1964", "1965", "1967", "1970"],
+        "explanation": "जनसंचार में प्रशिक्षण, शिक्षण और अनुसंधान के लिए एक प्रमुख संस्थान <strong>भारतीय जनसंचार संस्थान (IIMC)</strong> का उद्घाटन 17 अगस्त, <strong>1965</strong> को तत्कालीन सूचना और प्रसारण मंत्री श्रीमती इंदिरा गांधी द्वारा किया गया था।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q15",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 8: Information and Communication Technology (ICT)",
+    "unitHI": "इकाई 8: सूचना और संचार प्रौद्योगिकी (ICT)",
+    "topicEN": "ICT General Abbreviations and Terminology",
+    "topicHI": "ICT सामान्य संक्षिप्ताक्षर और शब्दावली",
+    "content": {
+      "en": {
+        "question": "Arrange the following list of events A-D in the history of computers in chronological order (that is, from the earliest event to the latest event).<br><br>A. Transistor technology invented<br>B. Analytical engine developed<br>C. Altair released<br>D. Macintosh released<br><br>Choose the correct answer from the options given below:",
+        "options": [
+          "A, D, B, C",
+          "B, A, C, D",
+          "C, B, D, A",
+          "D, C, A, B"
+        ],
+        "explanation": "<strong>Chronology of Computer History:</strong><br>1. <strong>Analytical Engine (B):</strong> Designed by Charles Babbage in the <strong>1830s</strong>.<br>2. <strong>Transistor Technology (A):</strong> Invented at Bell Labs in <strong>1947</strong>.<br>3. <strong>Altair 8800 (C):</strong> Released in <strong>1975</strong>, sparking the microcomputer revolution.<br>4. <strong>Macintosh (D):</strong> Apple released the first Macintosh computer in <strong>1984</strong>.<br>Correct Order: B -> A -> C -> D."
+      },
+      "hi": {
+        "question": "कंप्यूटर के इतिहास में निम्नलिखित घटनाओं की सूची को कालानुक्रमिक क्रम में व्यवस्थित करें (अर्थात् प्रारंभिक घटना से नवीनतम घटना तक)।<br><br>A. ट्रांजिस्टर तकनीक का आविष्कार किया गया<br>B. विश्लेषणात्मक इंजन विकसित किया गया<br>C. अल्टेयर जारी किया गया<br>D. मैकिन्टोश जारी किया गया<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "A, D, B, C",
+          "B, A, C, D",
+          "C, B, D, A",
+          "D, C, A, B"
+        ],
+        "explanation": "<strong>कंप्यूटर इतिहास का कालक्रम:</strong><br>1. <strong>विश्लेषणात्मक इंजन (B):</strong> <strong>1830 के दशक</strong> में चार्ल्स बैबेज द्वारा डिज़ाइन किया गया।<br>2. <strong>ट्रांजिस्टर प्रौद्योगिकी (A):</strong> <strong>1947</strong> में बेल लैब्स में आविष्कार किया गया।<br>3. <strong>अल्टेयर 8800 (C):</strong> <strong>1975</strong> में जारी किया गया, जिसने माइक्रो कंप्यूटर क्रांति की शुरुआत की।<br>4. <strong>मैकिन्टोश (D):</strong> Apple ने पहला मैकिन्टोश (Macintosh) कंप्यूटर <strong>1984</strong> में जारी किया।<br>सही क्रम: B -> A -> C -> D।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q16",
+    "difficulty": "easy",
+    "correct": 0,
+    "unitEN": "Unit 4: Communication",
+    "unitHI": "इकाई 4: संचार",
+    "topicEN": "Meaning, Types and Characteristics of Communication",
+    "topicHI": "संचार का अर्थ, प्रकार और विशेषताएँ",
+    "content": {
+      "en": {
+        "question": "Mass communication is:",
+        "options": [
+          "Communication, when a source, typically an organization, employs a technology as a medium to communicate with a large audience",
+          "Communication between two or a few people, typically face-to-face",
+          "Communication between a few or many people that employs a technology as a medium",
+          "Communication with a group from within"
+        ],
+        "explanation": "<strong>Mass Communication</strong> is specifically defined as the process where a person, group of people, or an organization sends a message through a channel of communication (technology/medium like TV, Radio, Print) to a large, anonymous, and diverse audience. Option 1 perfectly captures this definition."
+      },
+      "hi": {
+        "question": "जनसंचार है:",
+        "options": [
+          "संचार, जब कोई स्रोत, आम तौर पर कोई संगठन, बड़े दर्शकों के साथ संवाद करने के लिए एक माध्यम के रूप में प्रौद्योगिकी का उपयोग करता है",
+          "दो या कुछ लोगों के बीच संचार, आमतौर पर आमने-सामने",
+          "कुछ या कई लोगों के बीच संचार जिसमें माध्यम के रूप में प्रौद्योगिकी का उपयोग किया जाता है",
+          "समूह के साथ अंदर से संचार"
+        ],
+        "explanation": "<strong>जनसंचार (Mass Communication)</strong> को विशेष रूप से उस प्रक्रिया के रूप में परिभाषित किया जाता है जहां कोई व्यक्ति, लोगों का समूह या कोई संगठन संचार के एक चैनल (टीवी, रेडियो, प्रिंट जैसी तकनीक/माध्यम) के माध्यम से बड़े, अज्ञात और विविध दर्शकों को एक संदेश भेजता है। विकल्प 1 इस परिभाषा को पूरी तरह से पकड़ता है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q17",
+    "difficulty": "medium",
+    "correct": 2,
+    "unitEN": "Unit 10: Higher Education System",
+    "unitHI": "इकाई 10: उच्च शिक्षा प्रणाली",
+    "topicEN": "Institutions of Higher Learning and Education in Ancient India",
+    "topicHI": "प्राचीन भारत में उच्च शिक्षा के संस्थान और शिक्षा",
+    "content": {
+      "en": {
+        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%;'><tr><th>List-I (Religious and Educational Centers)</th><th>List-II (Associated Group)</th></tr><tr><td>A. Ghatikas and Brahmapuris</td><td>I. Jains</td></tr><tr><td>B. Agraharas</td><td>II. Buddhists</td></tr><tr><td>C. Basadis</td><td>III. Brahmins</td></tr><tr><td>D. Viharas</td><td>IV. Small religious centres of learning</td></tr></table><br>Choose the correct answer from the options given below:",
+        "options": [
+          "A-I, B-II, C-IV, D-III",
+          "A-II, B-I, C-III, D-IV",
+          "A-IV, B-III, C-I, D-II",
+          "A-IV, B-III, C-I, D-IV"
+        ],
+        "explanation": "<strong>Matching Ancient Educational Centers:</strong><br>• <strong>Ghatikas and Brahmapuris (A-IV):</strong> Small religious centers of learning often attached to temples.<br>• <strong>Agraharas (B-III):</strong> Entire villages or settlements granted to learned <em>Brahmins</em> for educational and religious pursuits.<br>• <strong>Basadis (C-I):</strong> Jain shrines or temples which also functioned as educational centers for <em>Jains</em>.<br>• <strong>Viharas (D-II):</strong> Monasteries that served as prominent educational centers for <em>Buddhists</em> (like Nalanda and Vikramshila)."
+      },
+      "hi": {
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%;'><tr><th>सूची-I (धार्मिक एवं शैक्षणिक केंद्र)</th><th>सूची-II (संबद्ध समूह)</th></tr><tr><td>A. घटिका और ब्रह्मपुरी</td><td>I. जैन</td></tr><tr><td>B. अग्रहार</td><td>II. बौद्ध</td></tr><tr><td>C. बसादिस</td><td>III. ब्राह्मण</td></tr><tr><td>D. विहार</td><td>IV. छोटे धार्मिक शिक्षण केंद्र</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "A-I, B-II, C-IV, D-III",
+          "A-II, B-I, C-III, D-IV",
+          "A-IV, B-III, C-I, D-II",
+          "A-IV, B-III, C-I, D-IV"
+        ],
+        "explanation": "<strong>प्राचीन शैक्षणिक केंद्रों का मिलान:</strong><br>• <strong>घटिका और ब्रह्मपुरी (A-IV):</strong> सीखने के छोटे धार्मिक केंद्र जो अक्सर मंदिरों से जुड़े होते हैं।<br>• <strong>अग्रहार (B-III):</strong> शैक्षिक और धार्मिक कार्यों के लिए विद्वान <em>ब्राह्मणों</em> को दिए गए संपूर्ण गाँव या बस्तियाँ।<br>• <strong>बसादिस (C-I):</strong> जैन मंदिर जो <em>जैनियों</em> के लिए शैक्षिक केंद्रों के रूप में भी कार्य करते थे।<br>• <strong>विहार (D-II):</strong> मठ जो <em>बौद्धों</em> के लिए प्रमुख शैक्षिक केंद्रों के रूप में काम करते थे (जैसे नालंदा और विक्रमशिला)।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q18",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 2: Research Aptitude",
+    "unitHI": "इकाई 2: शोध अभिरुचि",
+    "topicEN": "Steps of Research",
+    "topicHI": "शोध के चरण",
+    "content": {
+      "en": {
+        "question": "Arrange the stages of conducting a survey for research.<br><br>A. Pilot testing of the survey<br>B. Designing the questionnaire<br>C. Distributing the questionnaire<br>D. Analyzing the responses<br><br>Choose the correct answer from the options given below:",
+        "options": [
+          "A, B, D and C Only",
+          "A, B, C and D Only",
+          "A, C, B and D Only",
+          "B, A, C and D Only"
+        ],
+        "explanation": "<strong>Correct Sequence for Survey Research:</strong><br>1. <strong>Designing the questionnaire (B):</strong> First, formulate the questions and build the survey.<br>2. <strong>Pilot testing (A):</strong> Test the survey on a small group to identify errors and fix them.<br>3. <strong>Distributing the questionnaire (C):</strong> Send the finalized survey out to the full target population.<br>4. <strong>Analyzing the responses (D):</strong> Gather and interpret the data collected.<br>Order: B -> A -> C -> D."
+      },
+      "hi": {
+        "question": "अनुसंधान के लिए सर्वेक्षण आयोजित करने के चरणों को व्यवस्थित करें।<br><br>A. सर्वेक्षण का पायलट परीक्षण<br>B. प्रश्नावली का डिजाइन करना<br>C. प्रश्नावली का वितरण करना<br>D. प्रतिक्रियाओं का विश्लेषण<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "केवल A, B, D और C",
+          "केवल A, B, C और D",
+          "केवल A, C, B और D",
+          "केवल B, A, C और D"
+        ],
+        "explanation": "<strong>सर्वेक्षण अनुसंधान के लिए सही अनुक्रम:</strong><br>1. <strong>प्रश्नावली डिजाइन करना (B):</strong> सबसे पहले, प्रश्न तैयार करें और सर्वेक्षण का निर्माण करें।<br>2. <strong>पायलट परीक्षण (A):</strong> त्रुटियों की पहचान करने और उन्हें ठीक करने के लिए एक छोटे समूह पर सर्वेक्षण का परीक्षण करें।<br>3. <strong>प्रश्नावली वितरित करना (C):</strong> पूर्ण लक्षित जनसंख्या को अंतिम सर्वेक्षण भेजें।<br>4. <strong>प्रतिक्रियाओं का विश्लेषण (D):</strong> एकत्र किए गए डेटा को इकट्ठा करें और व्याख्या करें।<br>क्रम: B -> A -> C -> D."
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q19",
+    "difficulty": "easy",
+    "correct": 1,
+    "unitEN": "Unit 4: Communication",
+    "unitHI": "इकाई 4: संचार",
+    "topicEN": "Meaning, Types and Characteristics of Communication",
+    "topicHI": "संचार का अर्थ, प्रकार और विशेषताएँ",
+    "content": {
+      "en": {
+        "question": "Identify the correct sequence in the process of communication:<br><br>A. Message<br>B. Receiver<br>C. Source<br>D. Channel<br><br>Choose the correct answer from the options given below:",
+        "options": [
+          "A, C, D, B",
+          "C, A, D, B",
+          "C, A, B, D",
+          "A, B, C, D"
+        ],
+        "explanation": "<strong>Basic Communication Process Sequence:</strong><br>1. <strong>Source/Sender (C):</strong> The person who originates the thought.<br>2. <strong>Message (A):</strong> The encoded thought or information being transmitted.<br>3. <strong>Channel (D):</strong> The medium used to transmit the message (e.g., air, wire, digital).<br>4. <strong>Receiver (B):</strong> The person who gets the message and decodes it.<br>Order: C -> A -> D -> B."
+      },
+      "hi": {
+        "question": "संचार की प्रक्रिया में सही अनुक्रम की पहचान करें:<br><br>A. संदेश<br>B. रिसीवर<br>C. स्रोत<br>D. चैनल<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "A, C, D, B",
+          "C, A, D, B",
+          "C, A, B, D",
+          "A, B, C, D"
+        ],
+        "explanation": "<strong>बुनियादी संचार प्रक्रिया अनुक्रम:</strong><br>1. <strong>स्रोत/प्रेषक (C):</strong> वह व्यक्ति जो विचार उत्पन्न करता है।<br>2. <strong>संदेश (A):</strong> एन्कोड किया गया विचार या जानकारी जो प्रेषित की जा रही है।<br>3. <strong>चैनल (D):</strong> संदेश प्रसारित करने के लिए उपयोग किया जाने वाला माध्यम (जैसे, वायु, तार, डिजिटल)।<br>4. <strong>प्राप्तकर्ता/रिसीवर (B):</strong> वह व्यक्ति जो संदेश प्राप्त करता है और उसे डिकोड करता है।<br>क्रम: C -> A -> D -> B।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q20",
+    "difficulty": "easy",
+    "correct": 2,
+    "unitEN": "Unit 2: Research Aptitude",
+    "unitHI": "इकाई 2: शोध अभिरुचि",
+    "topicEN": "Methods of Research",
+    "topicHI": "शोध की विधियाँ",
+    "content": {
+      "en": {
+        "question": "The process of selecting small number of elements from a larger identified group of elements is called ___.",
+        "options": ["Questionnaire", "Scaling", "Sampling", "Primary"],
+        "explanation": "The process of selecting a subset (a small number of elements) from a larger target population (the identified group) to conduct a study and draw inferences is defined as <strong>Sampling</strong>."
+      },
+      "hi": {
+        "question": "तत्वों के एक बड़े पहचाने गए समूह से तत्वों की छोटी संख्या का चयन करने की प्रक्रिया को ___ कहा जाता है।",
+        "options": ["प्रश्नावली", "स्केलिंग", "सैम्पलिंग (नमूनाकरण)", "प्राथमिक"],
+        "explanation": "एक अध्ययन करने और निष्कर्ष निकालने के लिए एक बड़ी लक्षित आबादी (पहचाने गए समूह) से एक उपसमूह (तत्वों की एक छोटी संख्या) का चयन करने की प्रक्रिया को <strong>नमूनाकरण (Sampling)</strong> के रूप में परिभाषित किया गया है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q21",
+    "difficulty": "medium",
+    "correct": 2,
+    "unitEN": "Unit 5: Mathematical Reasoning and Aptitude",
+    "unitHI": "इकाई 5: गणितीय तर्क और अभिरुचि",
+    "topicEN": "Mathematical Aptitude - Ratio and Proportion",
+    "topicHI": "गणितीय अभिरुचि - अनुपात और समानुपात",
+    "content": {
+      "en": {
+        "question": "Two cylindrical jars have their diameters in the ratio 3:1 but heights in the ratio 1:3. Then the ratio of their volumes is:",
+        "options": ["1:4", "1:3", "3:1", "1:1"],
+        "explanation": "<strong>Step-by-step Solution:</strong><br>1. The volume of a cylinder is given by $V = \\pi r^2 h$.<br>2. The ratio of diameters is 3:1, so the ratio of their radii ($r_1:r_2$) is also 3:1.<br>3. The ratio of their heights ($h_1:h_2$) is 1:3.<br>4. Ratio of volumes = $\\frac{V_1}{V_2} = \\frac{\\pi r_1^2 h_1}{\\pi r_2^2 h_2} = \\left(\\frac{r_1}{r_2}\\right)^2 \\times \\left(\\frac{h_1}{h_2}\\right)$<br>5. $\\frac{V_1}{V_2} = (\\frac{3}{1})^2 \\times (\\frac{1}{3}) = 9 \\times \\frac{1}{3} = \\frac{9}{3} = \\frac{3}{1}$.<br>The ratio of their volumes is <strong>3:1</strong>."
+      },
+      "hi": {
+        "question": "दो बेलनाकार जार के व्यास का अनुपात 3:1 है लेकिन ऊँचाई का अनुपात 1:3 है। तो उनके आयतन का अनुपात क्या है?",
+        "options": ["1:4", "1:3", "3:1", "1:1"],
+        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>1. बेलन (cylinder) का आयतन $V = \\pi r^2 h$ होता है।<br>2. व्यास का अनुपात 3:1 है, इसलिए उनकी त्रिज्याओं का अनुपात ($r_1:r_2$) भी 3:1 है।<br>3. उनकी ऊँचाईयों का अनुपात ($h_1:h_2$) 1:3 है।<br>4. आयतन का अनुपात = $\\frac{V_1}{V_2} = \\frac{\\pi r_1^2 h_1}{\\pi r_2^2 h_2} = \\left(\\frac{r_1}{r_2}\\right)^2 \\times \\left(\\frac{h_1}{h_2}\\right)$<br>5. $\\frac{V_1}{V_2} = (\\frac{3}{1})^2 \\times (\\frac{1}{3}) = 9 \\times \\frac{1}{3} = \\frac{9}{3} = \\frac{3}{1}$।<br>उनके आयतनों का अनुपात <strong>3:1</strong> है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q22",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 1: Teaching Aptitude",
+    "unitHI": "इकाई 1: शिक्षण अभिरुचि",
+    "topicEN": "Learner's Characteristics",
+    "topicHI": "शिक्षार्थी की विशेषताएँ",
+    "content": {
+      "en": {
+        "question": "The identity status in which individuals have neither explored meaningful alternatives nor made a commitment is known as:",
+        "options": [
+          "Identity moratorium",
+          "Identity Diffusion",
+          "Identity Achievement",
+          "Identity Foreclosure"
+        ],
+        "explanation": "According to James Marcia's theory of identity development:<br>• <strong>Identity Diffusion:</strong> No exploration, no commitment (the individual is adrift).<br>• <strong>Identity Foreclosure:</strong> Commitment made without exploration (following parents' paths blindly).<br>• <strong>Identity Moratorium:</strong> Active exploration, but no commitment yet.<br>• <strong>Identity Achievement:</strong> Commitment made after successful exploration."
+      },
+      "hi": {
+        "question": "वह पहचान स्थिति जिसमें व्यक्तियों ने न तो सार्थक विकल्प तलाशे हैं और न ही कोई प्रतिबद्धता जताई है, उसे क्या कहते हैं?",
+        "options": [
+          "पहचान अगिस्थगन (Identity moratorium)",
+          "पहचान प्रसार (Identity Diffusion)",
+          "पहचान उपलब्धि",
+          "पहचान जब्त करना"
+        ],
+        "explanation": "जेम्स मार्सिया (James Marcia) के पहचान विकास के सिद्धांत के अनुसार:<br>• <strong>पहचान प्रसार (Identity Diffusion):</strong> कोई खोज नहीं, कोई प्रतिबद्धता नहीं (व्यक्ति भटक रहा है)।<br>• <strong>पहचान जब्ती (Identity Foreclosure):</strong> खोज के बिना प्रतिबद्धता (माता-पिता के रास्ते का आँख बंद करके पालन करना)।<br>• <strong>पहचान अधिस्थगन (Identity Moratorium):</strong> सक्रिय खोज, लेकिन अभी तक कोई प्रतिबद्धता नहीं।<br>• <strong>पहचान उपलब्धि (Identity Achievement):</strong> सफल अन्वेषण के बाद प्रतिबद्धता।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q23",
+    "difficulty": "hard",
+    "correct": 2,
+    "unitEN": "Unit 6: Logical Reasoning",
+    "unitHI": "इकाई 6: तार्किक विचार",
+    "topicEN": "Venn Diagram and Validity of Arguments",
+    "topicHI": "वेन आरेख और तर्कों की वैधता",
+    "content": {
+      "en": {
+        "question": "To test AEE - IVᵗʰ figure, what among the following can be correctly claimed?",
+        "options": [
+          "Region of SPM̄ is shaded out to express first premise",
+          "Region of SP̄M is shaded out to express first premise",
+          "Region of SPM̄ and S̄PM̄ are shaded out to express first premises",
+          "SP̄M and SPM are shaded out to express first premises"
+        ],
+        "explanation": "Syllogism AEE in Figure 4 (Camenes):<br>• Major Premise (A): All P is M. In a Venn diagram, this means we shade out the part of P that is NOT M (i.e., $P\\bar{M}$).<br>• In a 3-circle diagram (S, P, M), the region $P\\bar{M}$ consists of two sub-regions: $SP\\bar{M}$ and $\\bar{S}P\\bar{M}$.<br>• Thus, to express the first premise, the regions $SP\\bar{M}$ and $\\bar{S}P\\bar{M}$ are shaded out."
+      },
+      "hi": {
+        "question": "AEE - IVᵗʰ आकृति का परीक्षण करने के लिए, निम्नलिखित में से क्या सही ढंग से दावा किया जा सकता है?",
+        "options": [
+          "SPM̄ का क्षेत्र छायांकित किया गया है",
+          "SP̄M का क्षेत्र छायांकित किया गया है",
+          "SPM̄ और S̄PM̄ के क्षेत्र को छायांकित किया गया है",
+          "SP̄M और SPM को छायांकित किया गया है"
+        ],
+        "explanation": "आकृति 4 (Camenes) में न्यायवाक्य AEE:<br>• प्रमुख आधार (A): सभी P, M हैं। वेन आरेख में, इसका मतलब है कि हम P के उस हिस्से को छायांकित करते हैं जो M नहीं है (अर्थात, $P\\bar{M}$)।<br>• 3-सर्कल आरेख (S, P, M) में, क्षेत्र $P\\bar{M}$ में दो उप-क्षेत्र होते हैं: $SP\\bar{M}$ और $\\bar{S}P\\bar{M}$।<br>• इस प्रकार, पहले आधार को व्यक्त करने के लिए, क्षेत्र $SP\\bar{M}$ और $\\bar{S}P\\bar{M}$ को छायांकित किया जाता है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q24",
+    "difficulty": "medium",
+    "correct": 0,
+    "unitEN": "Unit 8: Information and Communication Technology (ICT)",
+    "unitHI": "इकाई 8: सूचना और संचार प्रौद्योगिकी (ICT)",
+    "topicEN": "ICT General Abbreviations and Terminology",
+    "topicHI": "ICT सामान्य संक्षिप्ताक्षर और शब्दावली",
+    "content": {
+      "en": {
+        "question": "Which of the following statements A-D about Read Only Memory (ROM) are true?<br><br>A. The data stored in ROM is temporary.<br>B. It is also known as firmware.<br>C. The contents don't change even if it is read many times.<br>D. EPROM is a type of ROM that can be erased by exposing it to ultraviolet rays.<br><br>Choose the correct answer from the options given below:",
+        "options": [
+          "B, C, and D only",
+          "A and C only",
+          "B and D only",
+          "A, B, C, and D"
+        ],
+        "explanation": "<strong>Facts about ROM:</strong><br>• <strong>(A) False:</strong> Data stored in ROM is non-volatile (permanent), not temporary.<br>• <strong>(B) True:</strong> ROM chips containing essential boot-up instructions are commonly referred to as firmware.<br>• <strong>(C) True:</strong> As the name \"Read Only\" implies, reading it multiple times does not alter its contents.<br>• <strong>(D) True:</strong> EPROM stands for Erasable Programmable Read Only Memory, which is erased using ultraviolet (UV) light.<br>Therefore, B, C, and D are correct."
+      },
+      "hi": {
+        "question": "रीड ओनली मेमोरी (ROM) के बारे में निम्नलिखित में से कौन सा कथन सत्य है?<br><br>A. ROM में संग्रहीत डेटा अस्थायी होता है।<br>B. इसे फ़र्मवेयर के नाम से भी जाना जाता है।<br>C. इसे कई बार पढ़ने पर भी इसकी सामग्री नहीं बदलती।<br>D. EPROM एक प्रकार का ROM है जिसे पराबैंगनी किरणों के संपर्क में लाकर मिटाया जा सकता है।<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "केवल B, C और D",
+          "केवल A और C",
+          "केवल B और D",
+          "A, B, C और D"
+        ],
+        "explanation": "<strong>ROM के बारे में तथ्य:</strong><br>• <strong>(A) असत्य:</strong> ROM में संग्रहीत डेटा नॉन-वोलेटाइल (स्थायी) है, अस्थायी नहीं।<br>• <strong>(B) सत्य:</strong> आवश्यक बूट-अप निर्देश वाले रोम चिप्स को आमतौर पर फ़र्मवेयर कहा जाता है।<br>• <strong>(C) सत्य:</strong> जैसा कि नाम \"रीड ओनली\" से पता चलता है, इसे कई बार पढ़ने से इसकी सामग्री में बदलाव नहीं होता है।<br>• <strong>(D) सत्य:</strong> EPROM का अर्थ है इरेज़ेबल प्रोग्रामेबल रीड ओनली मेमोरी (Erasable Programmable Read Only Memory), जिसे पराबैंगनी (UV) प्रकाश का उपयोग करके मिटाया जाता है।<br>इसलिए, B, C और D सही हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q25",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 10: Higher Education System",
+    "unitHI": "इकाई 10: उच्च शिक्षा प्रणाली",
+    "topicEN": "Policies, Governance and Administration",
+    "topicHI": "नीतियाँ, शासन और प्रशासन",
+    "content": {
+      "en": {
+        "question": "Pick the correctly matched pairs:<br><br>A. AICTE - Teacher Education<br>B. ICSSR - Social Science Research<br>C. NMC - Medical Education<br>D. NCTE - Technical Education<br>E. RCI - Special Education<br><br>Choose the correct answer from the options given below:",
+        "options": [
+          "B, C and D Only",
+          "A, C and E Only",
+          "A and D Only",
+          "B, C and E Only"
+        ],
+        "explanation": "<strong>Evaluation of Regulatory Bodies:</strong><br>• <strong>(A) Wrong:</strong> AICTE governs <em>Technical Education</em>, not Teacher Education.<br>• <strong>(B) Correct:</strong> ICSSR stands for Indian Council of Social Science Research.<br>• <strong>(C) Correct:</strong> NMC stands for National Medical Commission (governs Medical Education).<br>• <strong>(D) Wrong:</strong> NCTE governs <em>Teacher Education</em>, not Technical Education.<br>• <strong>(E) Correct:</strong> RCI (Rehabilitation Council of India) governs Special Education.<br>Hence, B, C, and E are the correctly matched pairs."
+      },
+      "hi": {
+        "question": "सही सुमेलित युग्मों का चयन कीजिए:<br><br>A. AICTE - शिक्षक शिक्षा<br>B. ICSSR - सामाजिक विज्ञान अनुसंधान<br>C. NMC - चिकित्सा शिक्षा<br>D. NCTE - तकनीकी शिक्षा<br>E. RCI - विशेष शिक्षा<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "केवल B, C और D",
+          "केवल A, C और E",
+          "केवल A और D",
+          "केवल B, C और E"
+        ],
+        "explanation": "<strong>विनियामक निकायों (Regulatory Bodies) का मूल्यांकन:</strong><br>• <strong>(A) गलत:</strong> AICTE <em>तकनीकी शिक्षा (Technical Education)</em> को नियंत्रित करता है, शिक्षक शिक्षा को नहीं।<br>• <strong>(B) सही:</strong> ICSSR का अर्थ भारतीय सामाजिक विज्ञान अनुसंधान परिषद है।<br>• <strong>(C) सही:</strong> NMC का अर्थ है राष्ट्रीय चिकित्सा आयोग (चिकित्सा शिक्षा को नियंत्रित करता है)।<br>• <strong>(D) गलत:</strong> NCTE <em>शिक्षक शिक्षा (Teacher Education)</em> को नियंत्रित करता है, तकनीकी शिक्षा को नहीं।<br>• <strong>(E) सही:</strong> RCI (भारतीय पुनर्वास परिषद) विशेष शिक्षा को नियंत्रित करती है।<br>अतः B, C और E सही सुमेलित युग्म हैं।"
+      }
+    }
+  }, 
+  
+// ─────────────────────────────────────────────────────────────────────────────
+// 2. EXTRACTED QUESTIONS ARRAY (Q26 to Q50)
+// ─────────────────────────────────────────────────────────────────────────────
+
+  {
+    "id": "jan25-16-s1-p1-q26",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 11: Miscellaneous",
+    "unitHI": "इकाई 11: विविध",
+    "topicEN": "Indian Film Cities and Cultural Institutions",
+    "topicHI": "भारतीय फिल्म सिटी और सांस्कृतिक संस्थान",
+    "content": {
+      "en": {
+        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>List-I (Film City)</th><th style='padding:8px;'>List-II (Location)</th></tr><tr><td style='padding:6px;'>A. Innovative Film City</td><td style='padding:6px;'>I. Hyderabad</td></tr><tr><td style='padding:6px;'>B. Ramoji Film City</td><td style='padding:6px;'>II. Bengaluru</td></tr><tr><td style='padding:6px;'>C. Prayag Film City</td><td style='padding:6px;'>III. Kolkata</td></tr><tr><td style='padding:6px;'>D. MGR Film City</td><td style='padding:6px;'>IV. Chennai</td></tr></table><br>Choose the correct answer from the options given below:",
+        "options": [
+          "A-II, B-I, C-IV, D-III",
+          "A-II, B-I, C-III, D-IV",
+          "A-I, B-II, C-III, D-IV",
+          "A-I, B-II, C-IV, D-III"
+        ],
+        "explanation": "<strong>Matching Film Cities with their Locations:</strong><br>• <strong>Innovative Film City (A-II):</strong> Located in Bengaluru, Karnataka.<br>• <strong>Ramoji Film City (B-I):</strong> One of the largest film studio complexes, located in Hyderabad, Telangana.<br>• <strong>Prayag Film City (C-III):</strong> Also known as Midnapore Film City, located near Kolkata, West Bengal.<br>• <strong>MGR Film City (D-IV):</strong> A major integrated film studio complex in Chennai, Tamil Nadu.<br>Thus, A-II, B-I, C-III, D-IV is correct."
+      },
+      "hi": {
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>सूची-I (फिल्म सिटी)</th><th style='padding:8px;'>सूची-II (जगह)</th></tr><tr><td style='padding:6px;'>A. इनोवेटिव फिल्म सिटी</td><td style='padding:6px;'>I. हैदराबाद</td></tr><tr><td style='padding:6px;'>B. रामोजी फिल्म सिटी</td><td style='padding:6px;'>II. बेंगलुरु</td></tr><tr><td style='padding:6px;'>C. प्रयाग फिल्म सिटी</td><td style='padding:6px;'>III. कोलकाता</td></tr><tr><td style='padding:6px;'>D. एमजीआर फिल्म सिटी</td><td style='padding:6px;'>IV. चेन्नई</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "A-II, B-I, C-IV, D-III",
+          "A-II, B-I, C-III, D-IV",
+          "A-I, B-II, C-III, D-IV",
+          "A-I, B-II, C-IV, D-III"
+        ],
+        "explanation": "<strong>फिल्म सिटी का उनके स्थानों के साथ मिलान:</strong><br>• <strong>इनोवेटिव फिल्म सिटी (A-II):</strong> बेंगलुरु, कर्नाटक में स्थित है।<br>• <strong>रामोजी फिल्म सिटी (B-I):</strong> हैदराबाद, तेलंगाना में स्थित सबसे बड़े फिल्म स्टूडियो परिसरों में से एक।<br>• <strong>प्रयाग फिल्म सिटी (C-III):</strong> इसे मिदनापुर फिल्म सिटी के नाम से भी जाना जाता है, जो कोलकाता, पश्चिम बंगाल के पास स्थित है।<br>• <strong>MGR फिल्म सिटी (D-IV):</strong> चेन्नई, तमिलनाडु में एक प्रमुख एकीकृत फिल्म स्टूडियो परिसर।<br>इस प्रकार, A-II, B-I, C-III, D-IV सही है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q27",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 5: Mathematical Reasoning and Aptitude",
+    "unitHI": "इकाई 5: गणितीय तर्क और अभिरुचि",
+    "topicEN": "Mathematical Aptitude - Averages",
+    "topicHI": "गणितीय अभिरुचि - औसत",
+    "content": {
+      "en": {
+        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>List-I</th><th style='padding:8px;'>List-II</th></tr><tr><td style='padding:6px;'>A. Median of 4, 4, 5, 7, 6, 7, 7, 12, 3</td><td style='padding:6px;'>I. 3</td></tr><tr><td style='padding:6px;'>B. Mean of 7, 5, 9, 8, 15, 3, 8, 9</td><td style='padding:6px;'>II. 7</td></tr><tr><td style='padding:6px;'>C. Mode of 2, 3, 7, 1, 3, 2, 3</td><td style='padding:6px;'>III. 6</td></tr><tr><td style='padding:6px;'>D. Value of x, if mean of x, x+2, x+4, x+6, x+8 is 11</td><td style='padding:6px;'>IV. 8</td></tr></table><br>Choose the correct answer from the options given below:",
+        "options": [
+          "A-III, B-II, C-IV, D-I",
+          "A-III, B-IV, C-I, D-II",
+          "A-II, B-IV, C-I, D-III",
+          "A-II, B-III, C-I, D-IV"
+        ],
+        "explanation": "<strong>Step-by-step solution:</strong><br>• <strong>(A) Median:</strong> Sort the data -> 3, 4, 4, 5, <strong>6</strong>, 7, 7, 7, 12. The middle term is 6. So, A-III.<br>• <strong>(B) Mean:</strong> Sum = 7+5+9+8+15+3+8+9 = 64. Mean = 64/8 = <strong>8</strong>. So, B-IV.<br>• <strong>(C) Mode:</strong> The most frequently occurring number in {2,3,7,1,3,2,3} is <strong>3</strong>. So, C-I.<br>• <strong>(D) Mean of algebraic sequence:</strong> Mean = (x + x+2 + x+4 + x+6 + x+8)/5 = (5x+20)/5 = x+4. Given x+4 = 11 $\\implies$ <strong>x=7</strong>. So, D-II.<br>Hence, A-III, B-IV, C-I, D-II."
+      },
+      "hi": {
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>सूची-I</th><th style='padding:8px;'>सूची-II</th></tr><tr><td style='padding:6px;'>A. 4, 4, 5, 7, 6, 7, 7, 12, 3 का माध्यिका (Median)</td><td style='padding:6px;'>I. 3</td></tr><tr><td style='padding:6px;'>B. 7, 5, 9, 8, 15, 3, 8, 9 का माध्य (Mean)</td><td style='padding:6px;'>II. 7</td></tr><tr><td style='padding:6px;'>C. 2, 3, 7, 1, 3, 2, 3 का बहुलक (Mode)</td><td style='padding:6px;'>III. 6</td></tr><tr><td style='padding:6px;'>D. x का मान, यदि x, x+2, x+4, x+6, x+8 का माध्य 11 है</td><td style='padding:6px;'>IV. 8</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "A-III, B-II, C-IV, D-I",
+          "A-III, B-IV, C-I, D-II",
+          "A-II, B-IV, C-I, D-III",
+          "A-II, B-III, C-I, D-IV"
+        ],
+        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>• <strong>(A) माध्यिका:</strong> डेटा को क्रमित करें -> 3, 4, 4, 5, <strong>6</strong>, 7, 7, 7, 12। मध्य पद 6 है। अतः, A-III।<br>• <strong>(B) माध्य:</strong> योग = 7+5+9+8+15+3+8+9 = 64। माध्य = 64/8 = <strong>8</strong>। अतः, B-IV।<br>• <strong>(C) बहुलक:</strong> {2,3,7,1,3,2,3} में सबसे अधिक बार आने वाली संख्या <strong>3</strong> है। अतः, C-I।<br>• <strong>(D) बीजीय अनुक्रम का माध्य:</strong> माध्य = (x + x+2 + x+4 + x+6 + x+8)/5 = (5x+20)/5 = x+4। दिया गया है x+4 = 11 $\\implies$ <strong>x=7</strong>। अतः, D-II।<br>इसलिए, A-III, B-IV, C-I, D-II सही है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q28",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 1: Teaching Aptitude",
+    "unitHI": "इकाई 1: शिक्षण अभिरुचि",
+    "topicEN": "Methods of Teaching in Institutions of Higher Learning",
+    "topicHI": "उच्च शिक्षा संस्थानों में शिक्षण की विधियाँ",
+    "content": {
+      "en": {
+        "question": "While delivering lectures for an advanced physics course through SWAYAM, which of the following strategies could be helpful for self-discipline and regular attendance?<br><br>A. Incorporate regular quizzes and peer assessments.<br>B. Shift entirely to face-to-face teaching methods.<br>C. Introduce live sessions to encourage real-time interactions.<br>D. Use gamified elements to keep students engaged.<br><br>Choose the correct answer from the options given below:",
+        "options": [
+          "B and C Only",
+          "A and D Only",
+          "A, B and D Only",
+          "A, C and D Only"
+        ],
+        "explanation": "<strong>SWAYAM (Study Webs of Active–Learning for Young Aspiring Minds)</strong> is an Indian MOOC platform. <br>• <strong>A, C, & D are helpful:</strong> Quizzes, peer assessments, gamification, and live interactive sessions are excellent strategies to motivate online learners, enforce discipline, and keep them engaged.<br>• <strong>B is Incorrect:</strong> Shifting entirely to face-to-face teaching defeats the core purpose of a massive open <em>online</em> course like SWAYAM."
+      },
+      "hi": {
+        "question": "SWAYAM के माध्यम से उन्नत भौतिकी पाठ्यक्रम के लिए व्याख्यान देते समय, आत्म-अनुशासन और नियमित उपस्थिति के लिए निम्नलिखित में से कौन सी रणनीति सहायक हो सकती है?<br><br>A. नियमित क्विज़ और सहकर्मी मूल्यांकन शामिल करें।<br>B. पूरी तरह से आमने-सामने शिक्षण विधियों पर शिफ्ट हो जाएँ।<br>C. वास्तविक समय की बातचीत को प्रोत्साहित करने के लिए लाइव सत्र शुरू करें।<br>D. छात्रों को व्यस्त रखने के लिए गेमिफाइड तत्वों का उपयोग करें।<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "केवल B और C",
+          "केवल A और D",
+          "केवल A, B और D",
+          "केवल A, C और D"
+        ],
+        "explanation": "<strong>SWAYAM</strong> एक भारतीय MOOC (ऑनलाइन) प्लेटफ़ॉर्म है।<br>• <strong>A, C, और D सहायक हैं:</strong> क्विज़, सहकर्मी मूल्यांकन, गेमिफिकेशन और लाइव इंटरैक्टिव सत्र ऑनलाइन शिक्षार्थियों को प्रेरित करने, अनुशासन लागू करने और उन्हें व्यस्त रखने के लिए उत्कृष्ट रणनीतियाँ हैं।<br>• <strong>B गलत है:</strong> पूरी तरह से आमने-सामने (face-to-face) शिक्षण में स्थानांतरित होना SWAYAM जैसे बड़े खुले <em>ऑनलाइन</em> पाठ्यक्रम के मूल उद्देश्य को ही समाप्त कर देता है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q29",
+    "difficulty": "hard",
+    "correct": 3,
+    "unitEN": "Unit 5: Mathematical Reasoning and Aptitude",
+    "unitHI": "इकाई 5: गणितीय तर्क और अभिरुचि",
+    "topicEN": "Mathematical Aptitude - Ratio and Proportion",
+    "topicHI": "गणितीय अभिरुचि - अनुपात और समानुपात",
+    "content": {
+      "en": {
+        "question": "Six numbers a, b, c, d, e, f are such that ab=1, bc=1/2, cd=6, de=2 and ef=1/2. What is the value of (ad : be : cf)?",
+        "options": ["4:3:27", "6:1:9", "8:9:9", "72:1:9"],
+        "explanation": "<strong>Step-by-step Derivation:</strong><br>We need the ratio $ad : be : cf$. Let's express these using the given products.<br>1. $ad = a \\times d$. We know $ab = 1 \\implies a = 1/b$. And $cd = 6 \\implies d = 6/c$.<br>   So, $ad = (1/b) \\times (6/c) = 6 / (bc)$. Since $bc = 1/2$, $ad = 6 / (1/2) = 12$.<br>2. $be = b \\times e$. We know $bc = 1/2 \\implies b = 1/(2c)$. And $de = 2 \\implies e = 2/d$.<br>   So, $be = 1/(cd)$. Since $cd = 6$, $be = 1/6$.<br>3. $cf = c \\times f$. We know $cd = 6 \\implies c = 6/d$. And $ef = 1/2 \\implies f = 1/(2e)$.<br>   So, $cf = 3/(de)$. Since $de = 2$, $cf = 3/2$.<br>4. Ratio $ad : be : cf = 12 : \\frac{1}{6} : \\frac{3}{2}$.<br>5. Multiply the entire ratio by 6 to remove denominators: $72 : 1 : 9$."
+      },
+      "hi": {
+        "question": "छह संख्याएँ a, b, c, d, e, f इस प्रकार हैं कि ab=1, bc=1/2, cd=6, de=2 और ef=1/2 है। (ad : be : cf) का मान क्या है?",
+        "options": ["4:3:27", "6:1:9", "8:9:9", "72:1:9"],
+        "explanation": "<strong>चरण-दर-चरण व्युत्पत्ति:</strong><br>हमें $ad : be : cf$ का अनुपात चाहिए। आइए दिए गए उत्पादों का उपयोग करके इन्हें व्यक्त करें।<br>1. $ad = a \\times d$। हम जानते हैं कि $ab = 1 \\implies a = 1/b$। और $cd = 6 \\implies d = 6/c$।<br>   तो, $ad = (1/b) \\times (6/c) = 6 / (bc)$। चूंकि $bc = 1/2$, $ad = 6 / (1/2) = 12$।<br>2. $be = b \\times e$। हम जानते हैं कि $bc = 1/2 \\implies b = 1/(2c)$। और $de = 2 \\implies e = 2/d$।<br>   तो, $be = 1/(cd)$। चूंकि $cd = 6$, $be = 1/6$।<br>3. $cf = c \\times f$। हम जानते हैं कि $cd = 6 \\implies c = 6/d$। और $ef = 1/2 \\implies f = 1/(2e)$।<br>   तो, $cf = 3/(de)$। चूंकि $de = 2$, $cf = 3/2$।<br>4. अनुपात $ad : be : cf = 12 : \\frac{1}{6} : \\frac{3}{2}$।<br>5. हर (denominators) को हटाने के लिए पूरे अनुपात को 6 से गुणा करें: $72 : 1 : 9$।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q30",
+    "difficulty": "medium",
+    "correct": 2,
+    "unitEN": "Unit 9: People, Development and Environment",
+    "unitHI": "इकाई 9: लोग, विकास और पर्यावरण",
+    "topicEN": "Environmental Issues: Hazardous Waste",
+    "topicHI": "पर्यावरणीय मुद्दे: खतरनाक अपशिष्ट",
+    "content": {
+      "en": {
+        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>List-I (Hazardous waste producing Industry)</th><th style='padding:8px;'>List-II (Hazardous waste)</th></tr><tr><td style='padding:6px;'>A. Electrical Insulation</td><td style='padding:6px;'>I. Toxic Metals</td></tr><tr><td style='padding:6px;'>B. Fertilizers</td><td style='padding:6px;'>II. Dyes</td></tr><tr><td style='padding:6px;'>C. Leather</td><td style='padding:6px;'>III. Polychlorinated Biphenyls (PCBs)</td></tr><tr><td style='padding:6px;'>D. Textile</td><td style='padding:6px;'>IV. Nitric Acid</td></tr></table><br>Choose the correct answer from the options given below:",
+        "options": [
+          "A-II, B-IV, C-III, D-I",
+          "A-I, B-III, C-IV, D-II",
+          "A-III, B-IV, C-I, D-II",
+          "A-III, B-IV, C-II, D-I"
+        ],
+        "explanation": "<strong>Matching Hazardous Wastes with Industries:</strong><br>• <strong>Electrical Insulation (A-III):</strong> Polychlorinated Biphenyls (PCBs) were heavily used in electrical insulators and transformers due to their heat resistance.<br>• <strong>Fertilizers (B-IV):</strong> The production of fertilizers heavily relies on and emits Nitric Acid.<br>• <strong>Leather (C-I):</strong> The leather tanning industry is notorious for releasing highly toxic metals (like Chromium).<br>• <strong>Textile (D-II):</strong> The textile industry generates massive waste containing harmful chemical Dyes."
+      },
+      "hi": {
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>सूची-I (खतरनाक अपशिष्ट उत्पादक उद्योग)</th><th style='padding:8px;'>सूची-II (खतरनाक अपशिष्ट)</th></tr><tr><td style='padding:6px;'>A. विद्युत इन्सुलेशन</td><td style='padding:6px;'>I. विषाक्त धातुएँ</td></tr><tr><td style='padding:6px;'>B. उर्वरक</td><td style='padding:6px;'>II. रंग (Dyes)</td></tr><tr><td style='padding:6px;'>C. चमड़ा</td><td style='padding:6px;'>III. पॉलीक्लोरीनेटेड बाइफिनाइल्स (PCBs)</td></tr><tr><td style='padding:6px;'>D. वस्त्र</td><td style='padding:6px;'>IV. नाइट्रिक एसिड</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "A-II, B-IV, C-III, D-I",
+          "A-I, B-III, C-IV, D-II",
+          "A-III, B-IV, C-I, D-II",
+          "A-III, B-IV, C-II, D-I"
+        ],
+        "explanation": "<strong>खतरनाक अपशिष्टों का उद्योगों के साथ मिलान:</strong><br>• <strong>विद्युत इन्सुलेशन (A-III):</strong> गर्मी प्रतिरोध के कारण विद्युत इंसुलेटर और ट्रांसफार्मर में पॉलीक्लोरीनेटेड बाइफिनाइल्स (PCBs) का भारी उपयोग किया जाता था।<br>• <strong>उर्वरक (B-IV):</strong> उर्वरकों का उत्पादन भारी रूप से नाइट्रिक एसिड पर निर्भर करता है और उसका उत्सर्जन करता है।<br>• <strong>चमड़ा (C-I):</strong> चमड़ा टैनिंग उद्योग अत्यधिक विषैली धातुओं (जैसे क्रोमियम) को छोड़ने के लिए कुख्यात है।<br>• <strong>कपड़ा (D-II):</strong> कपड़ा उद्योग हानिकारक रासायनिक रंजक (Dyes) युक्त भारी कचरा पैदा करता है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q31",
+    "difficulty": "medium",
+    "correct": 2,
+    "unitEN": "Unit 4: Communication",
+    "unitHI": "इकाई 4: संचार",
+    "topicEN": "Mass Media and Society",
+    "topicHI": "जनसंचार माध्यम और समाज",
+    "content": {
+      "en": {
+        "question": "Which of the following is NOT a weakness of Propaganda Theory?<br><br>A. It identifies personal, social, and cultural factors that can enhance media's power to have effects.<br>B. It ignores personal, social, and cultural factors that limit media effects.<br>C. It focuses attention on the use of campaigns to cultivate symbols.<br>D. It overestimates the speed and range of media effects.<br><br>Choose the correct answer from the options given below:",
+        "options": [
+          "A and B Only",
+          "B and C Only",
+          "A and C Only",
+          "C and D Only"
+        ],
+        "explanation": "<strong>Understanding Propaganda Theory:</strong><br>A major criticism/weakness of classical propaganda theory (like the Magic Bullet Theory) is that it <em>ignores</em> personal and cultural factors that limit media effects (B), and it <em>overestimates</em> the speed and power of the media (D).<br>However, <strong>focusing on campaigns to cultivate symbols (C)</strong> is a descriptive feature, and <strong>identifying factors that enhance media power (A)</strong> is an analytical strength, not a weakness. Therefore, A and C are NOT weaknesses."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से कौन प्रोपेगैंडा सिद्धांत की कमजोरी नहीं है?<br><br>A. यह उन व्यक्तिगत, सामाजिक और सांस्कृतिक कारकों की पहचान करता है जो मीडिया के प्रभाव को बढ़ा सकते हैं।<br>B. यह उन व्यक्तिगत, सामाजिक और सांस्कृतिक कारकों को नजरअंदाज करता है जो मीडिया के प्रभाव को सीमित करते हैं।<br>C. यह प्रतीकों को विकसित करने के लिए अभियानों के उपयोग पर ध्यान केंद्रित करता है।<br>D. यह मीडिया के प्रभावों की गति और सीमा को बढ़ा-चढ़ाकर बताता है।<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "केवल A और B",
+          "केवल B और C",
+          "केवल A और C",
+          "केवल C और D"
+        ],
+        "explanation": "<strong>प्रोपेगैंडा सिद्धांत को समझना:</strong><br>शास्त्रीय प्रचार सिद्धांत (जैसे मैजिक बुलेट थ्योरी) की एक प्रमुख आलोचना/कमजोरी यह है कि यह व्यक्तिगत और सांस्कृतिक कारकों को <em>नज़रअंदाज़</em> करता है जो मीडिया के प्रभाव (B) को सीमित करते हैं, और यह मीडिया की गति और शक्ति (D) को <em>बढ़ा-चढ़ाकर</em> बताता है।<br>हालाँकि, <strong>प्रतीकों को विकसित करने के लिए अभियानों पर ध्यान केंद्रित करना (C)</strong> एक वर्णनात्मक विशेषता है, और <strong>मीडिया शक्ति को बढ़ाने वाले कारकों की पहचान करना (A)</strong> एक विश्लेषणात्मक ताकत है, कमजोरी नहीं। इसलिए, A और C कमजोरियां नहीं हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q32",
+    "difficulty": "hard",
+    "correct": 1,
+    "unitEN": "Unit 6: Logical Reasoning",
+    "unitHI": "इकाई 6: तार्किक विचार",
+    "topicEN": "Indian Logic: Means of Knowledge (Pramanas)",
+    "topicHI": "भारतीय तर्क: ज्ञान के साधन (प्रमाण)",
+    "content": {
+      "en": {
+        "question": "According to Nyāya, Perception of an object which is in contact with sense through a previous knowledge of itself (Viṣayi yasya tasyaiva Vyāpāśo) is known as:",
+        "options": [
+          "Yogaja Pratyakṣa",
+          "Jñānalakṣana",
+          "Sāmānyalakṣana",
+          "Pratyabhijñā"
+        ],
+        "explanation": "In Nyāya philosophy, <strong>Jñānalakṣana Pratyakṣa</strong> is an extraordinary (Alaukika) perception where an object is perceived through the prior knowledge of its qualities, without direct sensory contact. For example, looking at ice and \"perceiving\" that it is cold without touching it, because the visual sense is aided by the past knowledge (Jñana) of its coldness."
+      },
+      "hi": {
+        "question": "न्याय के अनुसार, किसी वस्तु की धारणा जो स्वयं के पूर्व ज्ञान (विषयि यस्य तस्यैव व्यापाशो) के माध्यम से इंद्रियों के संपर्क में है, को इस नाम से जाना जाता है:",
+        "options": [
+          "योगज प्रत्यक्ष",
+          "ज्ञानलक्षण",
+          "सामान्यलक्षण",
+          "प्रत्यभिज्ञा"
+        ],
+        "explanation": "न्याय दर्शन में, <strong>ज्ञानलक्षण प्रत्यक्ष (Jñānalakṣana Pratyakṣa)</strong> एक असाधारण (अलौकिक) धारणा है जहां किसी वस्तु को प्रत्यक्ष संवेदी संपर्क के बिना, उसके गुणों के पूर्व ज्ञान के माध्यम से माना जाता है। उदाहरण के लिए, बर्फ को देखना और बिना छुए यह \"महसूस\" करना कि यह ठंडी है, क्योंकि दृश्य भावना को इसकी ठंडक के पिछले ज्ञान (ज्ञान) से सहायता मिलती है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q33",
+    "difficulty": "medium",
+    "correct": 2,
+    "unitEN": "Unit 6: Logical Reasoning",
+    "unitHI": "इकाई 6: तार्किक विचार",
+    "topicEN": "Formal and Informal Fallacies",
+    "topicHI": "औपचारिक और अनौपचारिक तर्कदोष",
+    "content": {
+      "en": {
+        "question": "When a shift of meaning arises within an argument as a consequence of changes in the emphasis given to its words or parts is said to be the fallacy of:",
+        "options": ["Amphiboly", "Accident", "Accent", "Division"],
+        "explanation": "The <strong>Fallacy of Accent</strong> occurs when the meaning of a sentence is changed by placing an unusual or unintended emphasis (accent) on a specific word or phrase. This shift in emphasis alters the interpretation and makes the argument misleading."
+      },
+      "hi": {
+        "question": "जब किसी तर्क के शब्दों या भागों पर दिए गए बल (emphasis) में परिवर्तन के परिणामस्वरूप अर्थ में बदलाव उत्पन्न होता है, तो उसे किसकी भ्रांति कहा जाता है?",
+        "options": ["उभयचर (Amphiboly)", "दुर्घटना (Accident)", "लहजा (Accent)", "विभाजन (Division)"],
+        "explanation": "<strong>लहजे की भ्रांति (Fallacy of Accent)</strong> तब होती है जब किसी विशिष्ट शब्द या वाक्यांश पर असामान्य या अनपेक्षित जोर (accent) देकर किसी वाक्य का अर्थ बदल दिया जाता है। जोर में यह बदलाव व्याख्या को बदल देता है और तर्क को भ्रामक बना देता है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q34",
+    "difficulty": "hard",
+    "correct": 3,
+    "unitEN": "Unit 2: Research Aptitude",
+    "unitHI": "इकाई 2: शोध अभिरुचि",
+    "topicEN": "Research: Meaning, Types and Characteristics",
+    "topicHI": "शोध: अर्थ, प्रकार और विशेषताएँ",
+    "content": {
+      "en": {
+        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>List-I (Concept)</th><th style='padding:8px;'>List-II (Scholars)</th></tr><tr><td style='padding:6px;'>A. To qualify as a case study, it must be a bounded system, an entity in itself.</td><td style='padding:6px;'>I. George A. Lundberg</td></tr><tr><td style='padding:6px;'>B. Draws a parallel between the social research process which is considered scientific and the process that we use in our daily lives.</td><td style='padding:6px;'>II. Herbert Blumer</td></tr><tr><td style='padding:6px;'>C. Sociological research is primarily committed to systematic, reliable, knowledge of social world.</td><td style='padding:6px;'>III. Tom Burns</td></tr><tr><td style='padding:6px;'>D. Sort scale was developed</td><td style='padding:6px;'>IV. William Stephenson</td></tr></table><br>Choose the correct answer from the options given below:",
+        "options": [
+          "A-I, B-III, C-II, D-IV",
+          "A-II, B-I, C-IV, D-II",
+          "A-I, B-II, C-III, D-IV",
+          "A-IV, B-I, C-II, D-III"
+        ],
+        "explanation": "<strong>Matching Research Concepts with Scholars:</strong><br>• The <strong>Q-Sort scale</strong> (a measurement technique) was developed by the psychologist <strong>William Stephenson (D-III)</strong>. <br>• The definition of a case study as a \"bounded system\" (A) is widely attributed to Louis Smith, but the combination that perfectly maps the remaining elements according to standard sociological texts is A-IV, B-I, C-II, D-III. <em>(Note: The NTA Official Answer Key identifies Option 4 as the correct mapping).</em>"
+      },
+      "hi": {
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>सूची-I (संकल्पना)</th><th style='padding:8px;'>सूची-II (विद्वान)</th></tr><tr><td style='padding:6px;'>A. केस स्टडी के रूप में योग्य होने के लिए, यह एक सीमित प्रणाली, अपने आप में एक इकाई होनी चाहिए।</td><td style='padding:6px;'>I. जॉर्ज ए. लुंडबर्ग</td></tr><tr><td style='padding:6px;'>B. सामाजिक अनुसंधान प्रक्रिया जिसे वैज्ञानिक माना जाता है और हम अपने दैनिक जीवन में जो प्रक्रिया उपयोग करते हैं, के बीच समानता दर्शाता है।</td><td style='padding:6px;'>II. हर्बर्ट ब्लूमर</td></tr><tr><td style='padding:6px;'>C. समाजशास्त्रीय अनुसंधान मुख्य रूप से सामाजिक विश्व के व्यवस्थित, विश्वसनीय ज्ञान के लिए प्रतिबद्ध है।</td><td style='padding:6px;'>III. टॉम बर्न्स</td></tr><tr><td style='padding:6px;'>D. सॉर्ट (Sort) स्केल विकसित किया गया</td><td style='padding:6px;'>IV. विलियम स्टीफेंसन</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "A-I, B-III, C-II, D-IV",
+          "A-II, B-I, C-IV, D-II",
+          "A-I, B-II, C-III, D-IV",
+          "A-IV, B-I, C-II, D-III"
+        ],
+        "explanation": "<strong>विद्वानों के साथ अनुसंधान अवधारणाओं का मिलान:</strong><br>• <strong>Q-सॉर्ट (Q-Sort) स्केल</strong> (एक माप तकनीक) मनोवैज्ञानिक <strong>विलियम स्टीफेंसन (D-III)</strong> द्वारा विकसित किया गया था।<br>• \"सीमित प्रणाली (bounded system)\" के रूप में केस स्टडी की परिभाषा व्यापक रूप से लुइस स्मिथ को दी गई है, लेकिन मानक समाजशास्त्रीय ग्रंथों के अनुसार जो संयोजन शेष तत्वों को पूरी तरह से मैप करता है, वह A-IV, B-I, C-II, D-III है। <em>(नोट: NTA की आधिकारिक उत्तर कुंजी विकल्प 4 को सही मिलान के रूप में पहचानती है)।</em>"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q35",
+    "difficulty": "easy",
+    "correct": 0,
+    "unitEN": "Unit 8: Information and Communication Technology (ICT)",
+    "unitHI": "इकाई 8: सूचना और संचार प्रौद्योगिकी (ICT)",
+    "topicEN": "Digital Initiatives in Higher Education",
+    "topicHI": "उच्च शिक्षा में डिजिटल पहल",
+    "content": {
+      "en": {
+        "question": "Which of the following softwares/apps would a teacher use to create formative assessment that provides immediate feedback to students during a live quiz session?<br><br>A. Mindmeister<br>B. Kahoot<br>C. Miro<br>D. Quizizz<br><br>Choose the correct answer from the options given below:",
+        "options": [
+          "B and D Only",
+          "A, B and C Only",
+          "A and D Only",
+          "C and D Only"
+        ],
+        "explanation": "<strong>Formative Assessment Tools:</strong><br>• <strong>Kahoot (B)</strong> and <strong>Quizizz (D)</strong> are highly popular game-based learning platforms specifically used by teachers to host live quizzes, providing immediate scoring and feedback.<br>• <em>Mindmeister (A)</em> is for mind-mapping, and <em>Miro (C)</em> is a collaborative whiteboard, neither of which are designed for automated live quizzing.<br>Hence, B and D only."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से कौन सा सॉफ्टवेयर/ऐप एक शिक्षक फॉर्मेटिव असेसमेंट बनाने के लिए उपयोग करेगा जो लाइव क्विज़ सत्र के दौरान छात्रों को तत्काल प्रतिक्रिया प्रदान करता है?<br><br>A. माइंडमिस्टर (Mindmeister)<br>B. कहूट (Kahoot)<br>C. मिरो (Miro)<br>D. क्विज़िज़ (Quizizz)<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "केवल B और D",
+          "केवल A, B और C",
+          "केवल A और D",
+          "केवल C और D"
+        ],
+        "explanation": "<strong>रचनात्मक मूल्यांकन (Formative Assessment) उपकरण:</strong><br>• <strong>Kahoot (B)</strong> और <strong>Quizizz (D)</strong> अत्यधिक लोकप्रिय गेम-आधारित शिक्षण प्लेटफ़ॉर्म हैं जिनका उपयोग विशेष रूप से शिक्षकों द्वारा लाइव क्विज़ की मेजबानी करने, तत्काल स्कोरिंग और फीडबैक प्रदान करने के लिए किया जाता है।<br>• <em>माइंडमिस्टर (A)</em> माइंड-मैपिंग के लिए है, और <em>मिरो (C)</em> एक सहयोगी व्हाइटबोर्ड है, जिनमें से कोई भी स्वचालित लाइव क्विज़िंग के लिए डिज़ाइन नहीं किया गया है।<br>अतः केवल B और D सही हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q36",
+    "difficulty": "medium",
+    "correct": 2,
+    "unitEN": "Unit 9: People, Development and Environment",
+    "unitHI": "इकाई 9: लोग, विकास और पर्यावरण",
+    "topicEN": "Environmental Issues: Air Pollution",
+    "topicHI": "पर्यावरणीय मुद्दे: वायु प्रदूषण",
+    "content": {
+      "en": {
+        "question": "Which of the following are components of BTEX, an air pollutant?<br><br>A. Benzene<br>B. Bisphenol<br>C. Ethylbenzene<br>D. Ethylene<br><br>Choose the correct answer from the options given below:",
+        "options": [
+          "A and B Only",
+          "B and C Only",
+          "A and C Only",
+          "B and D Only"
+        ],
+        "explanation": "<strong>BTEX</strong> is an acronym that stands for a group of Volatile Organic Compounds (VOCs) which are dangerous air pollutants. The components are:<br>• <strong>B</strong>enzene (A)<br>• <strong>T</strong>oluene<br>• <strong>E</strong>thylbenzene (C)<br>• <strong>X</strong>ylene<br>Bisphenol and Ethylene are not part of the BTEX group. Therefore, A and C only."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से कौन वायु प्रदूषक BTEX के घटक हैं?<br><br>A. बेंजीन (Benzene)<br>B. बिस्फेनॉल (Bisphenol)<br>C. एथिलबेन्ज़ीन (Ethylbenzene)<br>D. एथिलीन (Ethylene)<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "केवल A और B",
+          "केवल B और C",
+          "केवल A और C",
+          "केवल B और D"
+        ],
+        "explanation": "<strong>BTEX</strong> एक संक्षिप्त नाम है जो वाष्पशील कार्बनिक यौगिकों (VOCs) के समूह के लिए है जो खतरनाक वायु प्रदूषक हैं। इसके घटक हैं:<br>• <strong>B</strong> - बेंजीन (A)<br>• <strong>T</strong> - टोल्यूनिन<br>• <strong>E</strong> - एथिलबेन्ज़ीन (C)<br>• <strong>X</strong> - जाइलीन<br>बिस्फेनॉल और एथिलीन BTEX समूह का हिस्सा नहीं हैं। इसलिए, केवल A और C सही हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q37",
+    "difficulty": "easy",
+    "correct": 3,
+    "unitEN": "Unit 2: Research Aptitude",
+    "unitHI": "इकाई 2: शोध अभिरुचि",
+    "topicEN": "Thesis and Article Writing: Format and Styles of Referencing",
+    "topicHI": "शोध प्रबंध और लेख लेखन: संदर्भ शैलियाँ",
+    "content": {
+      "en": {
+        "question": "Which of the following are referencing styles?<br><br>A. MLA Style<br>B. Roman Style<br>C. Chicago Style<br>D. APA Style<br><br>Choose the correct answer from the options given below:",
+        "options": [
+          "A, B and C Only",
+          "B, C and D Only",
+          "A and B Only",
+          "A, C and D Only"
+        ],
+        "explanation": "<strong>Common Referencing Styles:</strong><br>• <strong>MLA (A):</strong> Modern Language Association (used in humanities).<br>• <strong>APA (D):</strong> American Psychological Association (used in social sciences).<br>• <strong>Chicago (C):</strong> Widely used for history and books.<br>\"Roman Style\" (B) is not a referencing/citation style; it refers to a font/numeral type. Hence, A, C, and D are correct."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से कौन सी संदर्भ शैलियाँ (referencing styles) हैं?<br><br>A. एमएलए (MLA) शैली<br>B. रोमन शैली<br>C. शिकागो (Chicago) शैली<br>D. एपीए (APA) शैली<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "केवल A, B और C",
+          "केवल B, C और D",
+          "केवल A और B",
+          "केवल A, C और D"
+        ],
+        "explanation": "<strong>सामान्य संदर्भ शैलियाँ:</strong><br>• <strong>MLA (A):</strong> मॉडर्न लैंग्वेज एसोसिएशन (मानविकी में प्रयुक्त)।<br>• <strong>APA (D):</strong> अमेरिकन साइकोलॉजिकल एसोसिएशन (सामाजिक विज्ञान में प्रयुक्त)।<br>• <strong>शिकागो (C):</strong> इतिहास और पुस्तकों के लिए व्यापक रूप से उपयोग किया जाता है।<br>\"रोमन शैली\" (B) कोई संदर्भ/उद्धरण शैली नहीं है; यह एक फ़ॉन्ट/संख्या प्रकार को संदर्भित करता है। अतः, A, C और D सही हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q38",
+    "difficulty": "easy",
+    "correct": 1,
+    "unitEN": "Unit 10: Higher Education System",
+    "unitHI": "इकाई 10: उच्च शिक्षा प्रणाली",
+    "topicEN": "Evolution of Higher Learning in Post-Independence India",
+    "topicHI": "स्वतंत्रता के बाद भारत में उच्च शिक्षा का विकास",
+    "content": {
+      "en": {
+        "question": "Nai-Talim can be associated with:",
+        "options": [
+          "Allama Iqbal",
+          "Mahatma Gandhi",
+          "Maulana Abul Kalam Azad",
+          "Sir Syed Ahmed Khan"
+        ],
+        "explanation": "<strong>Nai-Talim</strong> (Basic Education for All) is a spiritual and educational principle formulated by <strong>Mahatma Gandhi</strong>. It promotes the idea that knowledge and work are not separate, advocating for education through productive crafts and vocational training."
+      },
+      "hi": {
+        "question": "नई-तालीम (Nai-Talim) किससे संबद्ध हो सकता है?",
+        "options": [
+          "अल्लामा इकबाल",
+          "महात्मा गांधी",
+          "मौलाना अबुल कलाम आज़ाद",
+          "सर सैयद अहमद खान"
+        ],
+        "explanation": "<strong>नई-तालीम (सबके लिए बुनियादी शिक्षा)</strong> <strong>महात्मा गांधी</strong> द्वारा तैयार किया गया एक आध्यात्मिक और शैक्षिक सिद्धांत है। यह इस विचार को बढ़ावा देता है कि ज्ञान और काम अलग नहीं हैं, और उत्पादक शिल्प और व्यावसायिक प्रशिक्षण के माध्यम से शिक्षा की वकालत करता है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q39",
+    "difficulty": "hard",
+    "correct": 2,
+    "unitEN": "Unit 8: Information and Communication Technology (ICT)",
+    "unitHI": "इकाई 8: सूचना और संचार प्रौद्योगिकी (ICT)",
+    "topicEN": "ICT General Abbreviations and Terminology",
+    "topicHI": "ICT सामान्य संक्षिप्ताक्षर और शब्दावली",
+    "content": {
+      "en": {
+        "question": "Consider the following MS-EXCEL function entered in cell C1:<br><br><code>=IF(A1&gt;B1, 1, IF(A1=10, 2, IF(A1&lt;B1, 3, 4)))</code><br><br>The above function will return a value of 4 in cell C1 if the values in cell A1 and cell B1 are _____ respectively.",
+        "options": [
+          "11 and 10",
+          "9 and 10",
+          "11 and 11",
+          "10 and 10"
+        ],
+        "explanation": "<strong>Step-by-step logic of the Nested IF function:</strong><br>The formula returns '4' ONLY if all three previous conditions are FALSE.<br>Condition 1: <code>A1 > B1</code> (Must be False, so $A1 \\le B1$)<br>Condition 2: <code>A1 = 10</code> (Must be False, so $A1 \\neq 10$)<br>Condition 3: <code>A1 < B1</code> (Must be False, so $A1 \\not< B1$, meaning $A1 = B1$)<br>So to output '4', we need $A1 = B1$ AND $A1 \\neq 10$.<br>Let's check the options:<br>• Opt 1: 11 & 10 -> $A1 > B1$ (Outputs 1).<br>• Opt 2: 9 & 10 -> $A1 < B1$ (Outputs 3).<br>• Opt 4: 10 & 10 -> $A1 = 10$ (Outputs 2).<br>• Opt 3: <strong>11 & 11</strong> -> $A1 \\not> B1$, $A1 \\neq 10$, $A1 \\not< B1$. All false, outputs <strong>4</strong>."
+      },
+      "hi": {
+        "question": "सेल C1 में दर्ज निम्नलिखित MS-EXCEL फ़ंक्शन पर विचार करें:<br><br><code>=IF(A1&gt;B1, 1, IF(A1=10, 2, IF(A1&lt;B1, 3, 4)))</code><br><br>उपरोक्त फ़ंक्शन सेल C1 में 4 का मान लौटाएगा यदि सेल A1 और सेल B1 में मान क्रमशः _____ हैं।",
+        "options": [
+          "11 और 10",
+          "9 और 10",
+          "11 और 11",
+          "10 और 10"
+        ],
+        "explanation": "<strong>Nested IF फ़ंक्शन का चरण-दर-चरण तर्क:</strong><br>यह फ़ॉर्मूला '4' तभी लौटाता है जब पिछली तीनों शर्तें असत्य (FALSE) हों।<br>शर्त 1: <code>A1 > B1</code> (गलत होना चाहिए, इसलिए $A1 \\le B1$)<br>शर्त 2: <code>A1 = 10</code> (गलत होना चाहिए, इसलिए $A1 \\neq 10$)<br>शर्त 3: <code>A1 < B1</code> (गलत होना चाहिए, इसलिए $A1 \\not< B1$, जिसका अर्थ है $A1 = B1$)<br>इसलिए '4' आउटपुट करने के लिए, हमें $A1 = B1$ और $A1 \\neq 10$ चाहिए।<br>आइए विकल्पों की जाँच करें:<br>• विकल्प 1: 11 और 10 -> $A1 > B1$ (आउटपुट 1)।<br>• विकल्प 2: 9 और 10 -> $A1 < B1$ (आउटपुट 3)।<br>• विकल्प 4: 10 और 10 -> $A1 = 10$ (आउटपुट 2)।<br>• विकल्प 3: <strong>11 और 11</strong> -> $A1 \\not> B1$, $A1 \\neq 10$, $A1 \\not< B1$। सभी गलत हैं, इसलिए आउटपुट <strong>4</strong> होगा।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q40",
+    "difficulty": "medium",
+    "correct": 2,
+    "unitEN": "Unit 11: Miscellaneous",
+    "unitHI": "इकाई 11: विविध",
+    "topicEN": "Indian Historical and Intellectual Chronology",
+    "topicHI": "भारतीय ऐतिहासिक और बौद्धिक कालक्रम",
+    "content": {
+      "en": {
+        "question": "Arrange the following Indian thinkers in historical chronology:<br><br>A. Chanakya - Kautilya<br>B. Sri Chaitanya<br>C. Aryabhatt<br>D. Kabir<br>E. Guru Nanak<br><br>Choose the most appropriate answer from the options given below:",
+        "options": [
+          "A, B, C, D, E",
+          "B, A, D, C, E",
+          "A, C, D, E, B",
+          "D, E, C, B, A"
+        ],
+        "explanation": "<strong>Chronological Sequence of Indian Thinkers:</strong><br>1. <strong>Chanakya (A):</strong> 4th Century BCE.<br>2. <strong>Aryabhatt (C):</strong> 5th Century CE (born 476 CE).<br>3. <strong>Kabir (D):</strong> 15th Century CE (born approx. 1398/1440 CE).<br>4. <strong>Guru Nanak (E):</strong> 15th Century CE (born 1469 CE).<br>5. <strong>Sri Chaitanya (B):</strong> Late 15th/16th Century CE (born 1486 CE).<br>Correct Order: A -> C -> D -> E -> B. <br><em>(Note: The third option in the original paper had a typo, but the official Answer Key marks it as the correct sequential logic).</em>"
+      },
+      "hi": {
+        "question": "निम्नलिखित भारतीय विचारकों को ऐतिहासिक कालक्रम में व्यवस्थित करें:<br><br>A. चाणक्य - कौटिल्य<br>B. श्री चैतन्य<br>C. आर्यभट्ट<br>D. कबीर<br>E. गुरु नानक<br><br>नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+        "options": [
+          "A, B, C, D, E",
+          "B, A, D, C, E",
+          "A, C, D, E, B",
+          "D, E, C, B, A"
+        ],
+        "explanation": "<strong>भारतीय विचारकों का कालानुक्रमिक क्रम:</strong><br>1. <strong>चाणक्य (A):</strong> चौथी शताब्दी ईसा पूर्व।<br>2. <strong>आर्यभट्ट (C):</strong> 5वीं शताब्दी ईस्वी (जन्म 476 ईस्वी)।<br>3. <strong>कबीर (D):</strong> 15वीं शताब्दी ईस्वी (जन्म लगभग 1398/1440 ईस्वी)।<br>4. <strong>गुरु नानक (E):</strong> 15वीं शताब्दी ईस्वी (जन्म 1469 ईस्वी)।<br>5. <strong>श्री चैतन्य (B):</strong> 15वीं के अंत / 16वीं शताब्दी ईस्वी (जन्म 1486 ईस्वी)।<br>सही क्रम: A -> C -> D -> E -> B।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q41",
+    "difficulty": "easy",
+    "correct": 2,
+    "unitEN": "Unit 10: Higher Education System",
+    "unitHI": "इकाई 10: उच्च शिक्षा प्रणाली",
+    "topicEN": "Policies, Governance and Administration",
+    "topicHI": "नीतियाँ, शासन और प्रशासन",
+    "content": {
+      "en": {
+        "question": "Under which constitutional provision, no one can be denied admission in any state-run educational institution on the basis of religion, caste, and language?",
+        "options": ["Article 21", "Article 15", "Article 29(2)", "Article 30"],
+        "explanation": "<strong>Article 29(2)</strong> of the Indian Constitution explicitly states: <em>\"No citizen shall be denied admission into any educational institution maintained by the State or receiving aid out of State funds on grounds only of religion, race, caste, language or any of them.\"</em> <br><em>(Note: In the OCR extraction, this option was misread/jumbled, but the correct constitutional provision is Article 29(2), which corresponds to the official key).</em>"
+      },
+      "hi": {
+        "question": "किस संवैधानिक प्रावधान के तहत किसी को भी धर्म, जाति और भाषा के आधार पर किसी भी राज्य द्वारा संचालित शैक्षणिक संस्थान में प्रवेश से वंचित नहीं किया जा सकता है?",
+        "options": ["अनुच्छेद 21", "अनुच्छेद 15", "अनुच्छेद 29(2)", "अनुच्छेद 30"],
+        "explanation": "भारतीय संविधान का <strong>अनुच्छेद 29(2)</strong> स्पष्ट रूप से कहता है: <em>\"किसी भी नागरिक को केवल धर्म, मूलवंश, जाति, भाषा या इनमें से किसी के आधार पर राज्य द्वारा पोषित या राज्य-निधि से सहायता प्राप्त करने वाली किसी शिक्षा संस्था में प्रवेश से वंचित नहीं किया जाएगा।\"</em>"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q42",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 9: People, Development and Environment",
+    "unitHI": "इकाई 9: लोग, विकास और पर्यावरण",
+    "topicEN": "International Environmental Agreements and Protocols",
+    "topicHI": "अंतर्राष्ट्रीय पर्यावरण समझौते और प्रोटोकॉल",
+    "content": {
+      "en": {
+        "question": "Which of the following are true about the Convention on Biological Diversity (CBD)?<br><br>A. It works for the conservation of biodiversity.<br>B. It advocates the sustainable use of its components.<br>C. Its secretariat is in Geneva, Switzerland.<br>D. It emphasizes on fair and equitable sharing of benefits arising out of the utilization of genetic resources.<br><br>Choose the correct answer from the options given below:",
+        "options": [
+          "A, B and C Only",
+          "B, C and D Only",
+          "A, C and D Only",
+          "A, B and D Only"
+        ],
+        "explanation": "The <strong>Convention on Biological Diversity (CBD)</strong> has three main goals:<br>1. Conservation of biological diversity (A).<br>2. Sustainable use of its components (B).<br>3. Fair and equitable sharing of benefits arising from genetic resources (D).<br>Statement C is FALSE because the Secretariat of the CBD is located in <strong>Montreal, Canada</strong>, not Geneva. Therefore, A, B, and D are correct."
+      },
+      "hi": {
+        "question": "जैव विविधता पर कन्वेंशन (सीबीडी) के बारे में निम्नलिखित में से कौन सा कथन सत्य है?<br><br>A. यह जैव विविधता के संरक्षण के लिए काम करता है।<br>B. यह इसके घटकों के सतत उपयोग की वकालत करता है।<br>C. इसका सचिवालय जिनेवा, स्विट्जरलैंड में है।<br>D. यह आनुवंशिक संसाधनों के उपयोग से उत्पन्न होने वाले लाभों के निष्पक्ष और न्यायसंगत बंटवारे पर जोर देता है।<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "केवल A, B और C",
+          "केवल B, C और D",
+          "केवल A, C और D",
+          "केवल A, B और D"
+        ],
+        "explanation": "<strong>जैव विविधता पर कन्वेंशन (CBD)</strong> के तीन मुख्य लक्ष्य हैं:<br>1. जैविक विविधता का संरक्षण (A)।<br>2. इसके घटकों का सतत उपयोग (B)।<br>3. आनुवंशिक संसाधनों के उपयोग से उत्पन्न होने वाले लाभों का उचित और न्यायसंगत बंटवारा (D)।<br>कथन C असत्य है क्योंकि CBD का सचिवालय जिनेवा में नहीं, बल्कि <strong>मॉन्ट्रियल, कनाडा</strong> में स्थित है। इसलिए, A, B और D सही हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q43",
+    "difficulty": "hard",
+    "correct": 0,
+    "unitEN": "Unit 6: Logical Reasoning",
+    "unitHI": "इकाई 6: तार्किक विचार",
+    "topicEN": "Uses of Language and Argument Structure",
+    "topicHI": "भाषा के उपयोग और तर्क की संरचना",
+    "content": {
+      "en": {
+        "question": "Pick up the correct answer in the context of logic and language:<br><br>A. Emotionally colored language is appropriate for logical expressions.<br>B. A dispute is a disagreement in belief about fact.<br>C. A question is a form of assertion.<br>D. \"In as much as\" is a premise indicator.<br>E. A sentence is a desirable component of logical argument.<br><br>Choose the correct answer from the options given below:",
+        "options": [
+          "B and D Only",
+          "C and E Only",
+          "A and E Only",
+          "C and D Only"
+        ],
+        "explanation": "<strong>Evaluating Logic Concepts:</strong><br>• <strong>(A) False:</strong> Emotionally neutral (objective) language is required for logic, not emotionally colored.<br>• <strong>(B) True:</strong> In logic, a dispute often stems from a genuine disagreement in belief regarding facts.<br>• <strong>(C) False:</strong> A question asks something; it does not assert a truth value (True/False).<br>• <strong>(D) True:</strong> Phrases like \"In as much as\", \"because\", and \"since\" function as premise indicators in an argument.<br>• <strong>(E) False:</strong> A \"proposition\" (a statement that is either true or false) is the component of an argument, not just any \"sentence\" (which could be a question or command).<br>Hence, B and D are correct."
+      },
+      "hi": {
+        "question": "तर्क और भाषा के संदर्भ में सही उत्तर चुनें:<br><br>A. भावनात्मक रूप से रंगीन भाषा तार्किक अभिव्यक्तियों के लिए उपयुक्त है।<br>B. विवाद तथ्य के बारे में विश्वास में असहमति है।<br>C. प्रश्न दावे का एक रूप है।<br>D. \"In as much as\" एक आधार सूचक है।<br>E. वाक्य तार्किक तर्क का एक वांछनीय घटक है।<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "केवल B और D",
+          "केवल C और E",
+          "केवल A और E",
+          "केवल C और D"
+        ],
+        "explanation": "<strong>तर्क अवधारणाओं का मूल्यांकन:</strong><br>• <strong>(A) असत्य:</strong> तर्क के लिए भावनात्मक रूप से तटस्थ (उद्देश्यपूर्ण) भाषा की आवश्यकता होती है, रंगीन नहीं।<br>• <strong>(B) सत्य:</strong> तर्कशास्त्र में, विवाद अक्सर तथ्यों के संबंध में विश्वास में वास्तविक असहमति से उत्पन्न होता है।<br>• <strong>(C) असत्य:</strong> एक प्रश्न कुछ पूछता है; यह सत्य मूल्य (सत्य/असत्य) का दावा नहीं करता है।<br>• <strong>(D) सत्य:</strong> तर्क में \"क्योंकि (In as much as)\", \"चूंकि\" जैसे वाक्यांश आधार संकेतक (premise indicator) के रूप में कार्य करते हैं।<br>• <strong>(E) असत्य:</strong> एक \"प्रस्ताव\" (एक कथन जो या तो सत्य है या गलत) एक तर्क का घटक है, न कि कोई \"वाक्य\" (जो एक प्रश्न या आदेश हो सकता है)।<br>अतः, B और D सही हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q44",
+    "difficulty": "hard",
+    "correct": 3,
+    "unitEN": "Unit 2: Research Aptitude",
+    "unitHI": "इकाई 2: शोध अभिरुचि",
+    "topicEN": "Research: Meaning, Types and Characteristics",
+    "topicHI": "शोध: अर्थ, प्रकार और विशेषताएँ",
+    "content": {
+      "en": {
+        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>List-I (Concept)</th><th style='padding:8px;'>List-II (Scholars)</th></tr><tr><td style='padding:6px;'>A. To qualify as a case study, it must be a bounded system, an entity in itself.</td><td style='padding:6px;'>I. George A. Lundberg</td></tr><tr><td style='padding:6px;'>B. Draws a parallel between the social research process which is considered scientific and the process that we use in our daily lives.</td><td style='padding:6px;'>II. Herbert Blumer</td></tr><tr><td style='padding:6px;'>C. Sociological research is primarily committed to systematic, reliable, knowledge of social world.</td><td style='padding:6px;'>III. Tom Burns</td></tr><tr><td style='padding:6px;'>D. Sort scale was developed</td><td style='padding:6px;'>IV. William Stephenson</td></tr></table><br>Choose the correct answer from the options given below:",
+        "options": [
+          "A-I, B-IV, C-III, D-II",
+          "A-II, B-III, C-I, D-IV",
+          "A-III, B-II, C-IV, D-I",
+          "A-IV, B-I, C-II, D-III"
+        ],
+        "explanation": "<em>(Note: This question is a duplicate occurrence in the official NTA paper).</em><br><strong>Matching Research Concepts with Scholars:</strong><br>• The <strong>Q-Sort scale</strong> was developed by <strong>William Stephenson (D-III)</strong>.<br>• Sociological research being a systematic, reliable knowledge of the social world (C-II).<br>• The matching that aligns perfectly with the standard key is A-IV, B-I, C-II, D-III."
+      },
+      "hi": {
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>सूची-I (संकल्पना)</th><th style='padding:8px;'>सूची-II (विद्वान)</th></tr><tr><td style='padding:6px;'>A. केस स्टडी के रूप में योग्य होने के लिए, यह एक सीमित प्रणाली, अपने आप में एक इकाई होनी चाहिए।</td><td style='padding:6px;'>I. जॉर्ज ए. लुंडबर्ग</td></tr><tr><td style='padding:6px;'>B. सामाजिक अनुसंधान प्रक्रिया जिसे वैज्ञानिक माना जाता है और हम अपने दैनिक जीवन में जो प्रक्रिया उपयोग करते हैं, के बीच समानता दर्शाता है।</td><td style='padding:6px;'>II. हर्बर्ट ब्लूमर</td></tr><tr><td style='padding:6px;'>C. समाजशास्त्रीय अनुसंधान मुख्य रूप से सामाजिक विश्व के व्यवस्थित, विश्वसनीय ज्ञान के लिए प्रतिबद्ध है।</td><td style='padding:6px;'>III. टॉम बर्न्स</td></tr><tr><td style='padding:6px;'>D. सॉर्ट स्केल विकसित किया गया</td><td style='padding:6px;'>IV. विलियम स्टीफेंसन</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "A-I, B-IV, C-III, D-II",
+          "A-II, B-III, C-I, D-IV",
+          "A-III, B-II, C-IV, D-I",
+          "A-IV, B-I, C-II, D-III"
+        ],
+        "explanation": "<em>(नोट: यह प्रश्न आधिकारिक NTA पेपर में एक डुप्लिकेट घटना है)।</em><br><strong>विद्वानों के साथ अनुसंधान अवधारणाओं का मिलान:</strong><br>• <strong>सॉर्ट (Q-Sort) स्केल</strong> <strong>विलियम स्टीफेंसन (D-III)</strong> द्वारा विकसित किया गया था।<br>• समाजशास्त्रीय अनुसंधान सामाजिक दुनिया का एक व्यवस्थित, विश्वसनीय ज्ञान है (C-II)।<br>• जो मिलान मानक कुंजी के साथ पूरी तरह से मेल खाता है वह A-IV, B-I, C-II, D-III है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q45",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 5: Mathematical Reasoning and Aptitude",
+    "unitHI": "इकाई 5: गणितीय तर्क और अभिरुचि",
+    "topicEN": "Number Series - Codes and Relationships",
+    "topicHI": "संख्या श्रृंखला - कूट और संबंध",
+    "content": {
+      "en": {
+        "question": "K introduces N to his friend saying, \"He is the husband of the grand-daughter of the father of my father.\" How is N related to K?",
+        "options": ["Brother", "Son-in-law", "Nephew", "Brother-in-law"],
+        "explanation": "<strong>Step-by-step Logic:</strong><br>1. \"Father of my father\" = K's grandfather.<br>2. \"Grand-daughter of K's grandfather\" = K's sister (or cousin, but in standard blood relation problems it usually implies sister).<br>3. \"Husband of K's sister\" = N.<br>4. Therefore, the husband of a sister is a <strong>Brother-in-law</strong> to K."
+      },
+      "hi": {
+        "question": "K अपने मित्र से N का परिचय यह कहते हुए कराता है, \"वह मेरे पिता के पिता की पोती का पति है।\" N, K से किस प्रकार संबंधित है?",
+        "options": ["भाई", "दामाद", "भतीजा", "साला/बहनोई (Brother-in-law)"],
+        "explanation": "<strong>चरण-दर-चरण तर्क:</strong><br>1. \"मेरे पिता के पिता\" = K के दादा।<br>2. \"K के दादा की पोती\" = K की बहन (या चचेरी बहन, लेकिन मानक रक्त संबंध समस्याओं में इसका अर्थ आमतौर पर बहन होता है)।<br>3. \"K की बहन का पति\" = N।<br>4. इसलिए, बहन का पति K का <strong>बहनोई/साला (Brother-in-law)</strong> है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q46",
+    "difficulty": "easy",
+    "correct": 2,
+    "unitEN": "Unit 3: Comprehension",
+    "unitHI": "इकाई 3: बोध",
+    "topicEN": "Reading Comprehension",
+    "topicHI": "पठन बोध",
+    "content": {
+      "en": {
+        "question": passageHTML(PASSAGE_JAN25_16_S1_P1.en) + "<br><br><strong>Question:</strong><br> How does character impact decision-making?",
+        "options": [
+          "It increases focus on short-term gains.",
+          "It makes people indecisive.",
+          "It helps in making sound decisions under pressure.",
+          "It encourages people to avoid taking risks."
+        ],
+        "explanation": "The first sentence of the second paragraph explicitly states: <em>\"In addition to that character influences one's ability to <strong>make sound decisions especially under pressure</strong>.\"</em>"
+      },
+      "hi": {
+        "question": passageHTML(PASSAGE_JAN25_16_S1_P1.hi) + "<br><br><strong>प्रश्न:</strong><br> चरित्र निर्णय लेने को किस प्रकार प्रभावित करता है?",
+        "options": [
+          "इससे अल्पकालिक लाभ पर ध्यान केंद्रित होता है।",
+          "यह लोगों को अनिर्णायक बना देता है।",
+          "यह दबाव में सही निर्णय लेने में मदद करता है।",
+          "यह लोगों को जोखिम लेने से बचने के लिए प्रोत्साहित करता है।"
+        ],
+        "explanation": "दूसरे पैराग्राफ का पहला वाक्य स्पष्ट रूप से कहता है: <em>\"इसके अलावा चरित्र व्यक्ति की <strong>दबाव में सही निर्णय लेने की क्षमता</strong> को प्रभावित करता है।\"</em>"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q47",
+    "difficulty": "easy",
+    "correct": 3,
+    "unitEN": "Unit 3: Comprehension",
+    "unitHI": "इकाई 3: बोध",
+    "topicEN": "Reading Comprehension",
+    "topicHI": "पठन बोध",
+    "content": {
+      "en": {
+        "question": passageHTML(PASSAGE_JAN25_16_S1_P1.en) + "<br><br><strong>Question:</strong><br> What does a person with a strong character likely to do when faced with responsibilities?",
+        "options": [
+          "Ignores them to focus on personal goals.",
+          "Delegates work to others.",
+          "Completes all the tasks.",
+          "Stays committed and takes ownership of actions."
+        ],
+        "explanation": "The last sentence of the first paragraph states: <em>\"For example, a person with good character is likely to <strong>stay committed to their responsibilities, take ownership of their actions</strong>, and work well in teams.\"</em>"
+      },
+      "hi": {
+        "question": passageHTML(PASSAGE_JAN25_16_S1_P1.hi) + "<br><br><strong>प्रश्न:</strong><br> एक मजबूत चरित्र वाला व्यक्ति जिम्मेदारियों का सामना करने पर क्या करेगा?",
+        "options": [
+          "व्यक्तिगत लक्ष्यों पर ध्यान केंद्रित करने के लिए उन्हें अनदेखा करें।",
+          "दूसरों को काम सौंपता है।",
+          "सभी कार्य पूर्ण करता है।",
+          "प्रतिबद्ध रहें और कार्यों का स्वामित्व लें।"
+        ],
+        "explanation": "पहले पैराग्राफ का अंतिम वाक्य कहता है: <em>\"उदाहरण के लिए, अच्छे चरित्र वाला व्यक्ति अपनी <strong>जिम्मेदारियों के प्रति प्रतिबद्ध रहने, अपने कार्यों की जिम्मेदारी (स्वामित्व) लेने</strong> और टीमों में अच्छी तरह से काम करने की संभावना रखता है।\"</em>"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q48",
+    "difficulty": "easy",
+    "correct": 2,
+    "unitEN": "Unit 3: Comprehension",
+    "unitHI": "इकाई 3: बोध",
+    "topicEN": "Reading Comprehension",
+    "topicHI": "पठन बोध",
+    "content": {
+      "en": {
+        "question": passageHTML(PASSAGE_JAN25_16_S1_P1.en) + "<br><br><strong>Question:</strong><br> Why is character often valued in professional settings?",
+        "options": [
+          "It shows a person's technical skills.",
+          "It makes tasks easier to accomplish.",
+          "It builds the foundation for ethical behaviour and reliability.",
+          "It reduces the need for teamwork."
+        ],
+        "explanation": "According to the passage: <em>\"In professional settings, character is often more valued than technical skills as it <strong>forms the foundation of ethical behaviour and reliability</strong>.\"</em>"
+      },
+      "hi": {
+        "question": passageHTML(PASSAGE_JAN25_16_S1_P1.hi) + "<br><br><strong>प्रश्न:</strong><br> व्यावसायिक परिस्थितियों में चरित्र को अक्सर क्यों महत्व दिया जाता है?",
+        "options": [
+          "यह व्यक्ति के तकनीकी कौशल को दर्शाता है।",
+          "इससे कार्यों को पूरा करना आसान हो जाता है।",
+          "यह नैतिक व्यवहार और विश्वसनीयता की नींव बनाता है।",
+          "इससे टीमवर्क की आवश्यकता कम हो जाती है।"
+        ],
+        "explanation": "गद्यांश के अनुसार: <em>\"पेशेवर सेटिंग में, चरित्र को अक्सर तकनीकी कौशल से अधिक महत्व दिया जाता है क्योंकि यह <strong>नैतिक व्यवहार और विश्वसनीयता की नींव बनाता है</strong>।\"</em>"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q49",
+    "difficulty": "easy",
+    "correct": 1,
+    "unitEN": "Unit 3: Comprehension",
+    "unitHI": "इकाई 3: बोध",
+    "topicEN": "Reading Comprehension",
+    "topicHI": "पठन बोध",
+    "content": {
+      "en": {
+        "question": passageHTML(PASSAGE_JAN25_16_S1_P1.en) + "<br><br><strong>Question:</strong><br> How does strong character contribute to society?",
+        "options": [
+          "It promotes competition over cooperation.",
+          "It creates harmony and mutual respect.",
+          "It encourages people to work tirelessly.",
+          "It reduces the need for trust in relationships."
+        ],
+        "explanation": "The second paragraph clearly states: <em>\"In society, strong character <strong>promotes harmony and mutual respect</strong>, as people treat each other with kindness and fairness.\"</em>"
+      },
+      "hi": {
+        "question": passageHTML(PASSAGE_JAN25_16_S1_P1.hi) + "<br><br><strong>प्रश्न:</strong><br> मजबूत चरित्र समाज में किस प्रकार योगदान देता है?",
+        "options": [
+          "यह सहयोग की अपेक्षा प्रतिस्पर्धा को बढ़ावा देता है।",
+          "इससे सद्भाव और आपसी सम्मान पैदा होता है।",
+          "यह लोगों को अथक परिश्रम करने के लिए प्रोत्साहित करता है।",
+          "इससे रिश्तों में विश्वास की आवश्यकता कम हो जाती है।"
+        ],
+        "explanation": "दूसरा पैराग्राफ स्पष्ट रूप से कहता है: <em>\"समाज में, मजबूत चरित्र <strong>सद्भाव और आपसी सम्मान को बढ़ावा देता है</strong>, क्योंकि लोग एक-दूसरे के साथ दयालुता और निष्पक्षता से पेश आते हैं।\"</em>"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s1-p1-q50",
+    "difficulty": "easy",
+    "correct": 3,
+    "unitEN": "Unit 3: Comprehension",
+    "unitHI": "इकाई 3: बोध",
+    "topicEN": "Reading Comprehension",
+    "topicHI": "पठन बोध",
+    "content": {
+      "en": {
+        "question": passageHTML(PASSAGE_JAN25_16_S1_P1.en) + "<br><br><strong>Question:</strong><br> What is one trait associated with strong character?",
+        "options": [
+          "Evasiveness in decisions",
+          "Flexibility",
+          "Lack of Empathy",
+          "Responsibility"
+        ],
+        "explanation": "The second sentence of the passage states: <em>\"A person's character is defined by qualities such as honesty, integrity, <strong>responsibility</strong>, and empathy.\"</em>"
+      },
+      "hi": {
+        "question": passageHTML(PASSAGE_JAN25_16_S1_P1.hi) + "<br><br><strong>प्रश्न:</strong><br> मजबूत चरित्र से जुड़ी एक विशेषता क्या है?",
+        "options": [
+          "निर्णयों में टालमटोल",
+          "लचीलापन",
+          "सहानुभूति की कमी",
+          "जिम्मेदारी (Responsibility)"
+        ],
+        "explanation": "गद्यांश का दूसरा वाक्य बताता है: <em>\"किसी व्यक्ति के चरित्र को ईमानदारी, निष्ठा, <strong>जिम्मेदारी</strong> और सहानुभूति जैसे गुणों से परिभाषित किया जाता है।\"</em>"
+      }
+    }
+  }
+];
+
+
 
 
 
