@@ -67,6 +67,14 @@ const TABLE_JAN25_21_S1_P1 = {
   hi: `<p style="margin-bottom:10px;"><strong>निर्देश:</strong> निम्न तालिका एक कंपनी के पांच अलग-अलग विभागों में काम करने वाले कर्मचारियों की संख्या को दर्शाती है, अर्थात् उत्पादन, वित्त, अनुसंधान एवं विकास, विपणन और मानव संसाधन, साथ ही पुरुष कर्मचारियों की संख्या जो स्नातकोत्तर (पीजी) हैं, महिला कर्मचारियों का प्रतिशत और उनमें से पीजी कर्मचारियों का प्रतिशत। तालिका में दिए गए डेटा के आधार पर निम्नलिखित प्रश्नों के उत्तर दीजिए:</p><p style="margin-bottom:8px; text-align:center;"><strong>किसी कंपनी में कर्मचारियों का विभागवार विवरण</strong></p><table border="1" style="border-collapse:collapse; width:100%; text-align:center; background:rgba(255,255,255,0.05);"><tr><th style="padding:8px;">विभाग</th><th style="padding:8px;">कर्मचारियों की संख्या</th><th style="padding:8px;">महिला कर्मचारियों का प्रतिशत (%)</th><th style="padding:8px;">पीजी कर्मचारियों का प्रतिशत (%)</th><th style="padding:8px;">पीजी पुरुष कर्मचारियों की संख्या</th></tr><tr><td style="padding:8px;">उत्पादन</td><td>3000</td><td>20%</td><td>40%</td><td>750</td></tr><tr><td style="padding:8px;">वित्त</td><td>600</td><td>40%</td><td>80%</td><td>250</td></tr><tr><td style="padding:8px;">अनुसंधान एवं विकास</td><td>400</td><td>60%</td><td>90%</td><td>240</td></tr><tr><td style="padding:8px;">विपणन</td><td>2000</td><td>45%</td><td>60%</td><td>900</td></tr><tr><td style="padding:8px;">मानव संसाधन</td><td>300</td><td>75%</td><td>80%</td><td>180</td></tr></table>`
 };
 
+// ─────────────────────────────────────────────────────────────────────────────
+// DI TABLE CONSTANT — UGC NET Paper 1 | 16 Jan 2025 | Evening Shift (MINIFIED)
+// ─────────────────────────────────────────────────────────────────────────────
+const TABLE_JAN25_16_S2_P1 = {
+  en: `<p style="margin-bottom:10px;"><strong>Directions:</strong> The following table shows the number of Hard Disk Drives (HDDs) sold by two different computer shops A and B on five different days from Monday to Friday along with the percentage of the number of HDDs purchased by females from these two shops. Based on the data in the table, answer the questions that follow.</p><p style="margin-bottom:8px; text-align:center;"><strong>Day-wise Sale Details of HDDs by Shops</strong></p><table border="1" style="border-collapse:collapse; width:100%; text-align:center; background:rgba(255,255,255,0.05);"><tr><th rowspan="2" style="padding:8px;">Day</th><th colspan="2" style="padding:8px;">Shop A</th><th colspan="2" style="padding:8px;">Shop B</th></tr><tr><th style="padding:6px;">Number of HDDs Sold</th><th style="padding:6px;">Percentage (%) of number of HDDs Purchased by Females</th><th style="padding:6px;">Number of HDDs Sold</th><th style="padding:6px;">Percentage (%) of number of HDDs Purchased by Females</th></tr><tr><td style="padding:6px;">Monday</td><td>460</td><td>30%</td><td>640</td><td>30%</td></tr><tr><td style="padding:6px;">Tuesday</td><td>560</td><td>45%</td><td>880</td><td>65%</td></tr><tr><td style="padding:6px;">Wednesday</td><td>720</td><td>40%</td><td>540</td><td>80%</td></tr><tr><td style="padding:6px;">Thursday</td><td>720</td><td>60%</td><td>760</td><td>25%</td></tr><tr><td style="padding:6px;">Friday</td><td>840</td><td>65%</td><td>550</td><td>40%</td></tr></table>`,
+  hi: `<p style="margin-bottom:10px;"><strong>निर्देश:</strong> निम्न तालिका में दो अलग-अलग कंप्यूटर दुकानों A और B द्वारा सोमवार से शुक्रवार तक पाँच अलग-अलग दिनों में बेची गई हार्ड डिस्क ड्राइव (HDD) की संख्या और इन दोनों दुकानों से महिलाओं द्वारा खरीदी गई HDD की संख्या का प्रतिशत दर्शाया गया है। तालिका में दिए गए डेटा के आधार पर, निम्नलिखित प्रश्नों के उत्तर दीजिए।</p><p style="margin-bottom:8px; text-align:center;"><strong>दुकानों द्वारा HDD की दिन-वार बिक्री का विवरण</strong></p><table border="1" style="border-collapse:collapse; width:100%; text-align:center; background:rgba(255,255,255,0.05);"><tr><th rowspan="2" style="padding:8px;">दिन</th><th colspan="2" style="padding:8px;">दुकान A</th><th colspan="2" style="padding:8px;">दुकान B</th></tr><tr><th style="padding:6px;">बेची गई HDD की संख्या</th><th style="padding:6px;">महिलाओं द्वारा खरीदी गई HDD की संख्या का प्रतिशत (%)</th><th style="padding:6px;">बेची गई HDD की संख्या</th><th style="padding:6px;">महिलाओं द्वारा खरीदी गई HDD की संख्या का प्रतिशत (%)</th></tr><tr><td style="padding:6px;">सोमवार</td><td>460</td><td>30%</td><td>640</td><td>30%</td></tr><tr><td style="padding:6px;">मंगलवार</td><td>560</td><td>45%</td><td>880</td><td>65%</td></tr><tr><td style="padding:6px;">बुधवार</td><td>720</td><td>40%</td><td>540</td><td>80%</td></tr><tr><td style="padding:6px;">गुरुवार</td><td>720</td><td>60%</td><td>760</td><td>25%</td></tr><tr><td style="padding:6px;">शुक्रवार</td><td>840</td><td>65%</td><td>550</td><td>40%</td></tr></table>`
+};
+
 // 1. Passage Constant for Q46-50
 const PASSAGE_JUNE25_S1_P1 = {
   en: `Does more education lead to greater democracy? Or are more democratic countries better at educating their citizens? A recent NBER paper compared a group of Kenyan girls in 69 primary schools whose students were randomly selected to receive a scholarship with similar students in schools which received no such financial aid. Previous studies had shown that the scholarship programme led to higher test scores and increased the likelihood that girls enrolled in secondary school.<br><br>Overall, it significantly increased the amount of education obtained. For the new study the authors tried to see how the extra schooling had affected the political and social attitudes of the women in question. Findings suggested that education may make people more interested in improving their own lives but they may not necessarily see democracy as the way to do it.<br><br>Even in established democracies, more education does not always mean either more active political participation or greater faith in democracy. Poorer and less educated people often vote in larger numbers than their more educated compatriots, who often express disdain for the messiness of democracy yearning for the kind of government that would deal strongly with the corrupt and build highways, railway lines and bridges at a dizzying pace of authoritarian China.`,
@@ -85,6 +93,14 @@ const PASSAGE_JAN25_27_S2_P1 = {
 const PASSAGE_JAN25_21_S1_P1 = {
   en: `Street theatre in India is a well-established ancient art form. Despite the proliferation of modern means of entertainment and communication, street theatre continues to flourish in India. Street theatre as a channel of communication has for centuries been propagating reforms by highlighting social, economic, and political issues present in the society.<br><br>Unlike in the olden days, its performance is no longer restricted to villages or small localities of the city. Today, small groups of performers including students, would stage performances to mobilize public opinion or to help create or raise awareness over a particular issue of public importance.<br><br>Themes on substance abuse, AIDS awareness, and domestic violence are some of the areas highlighted by contemporary street theatre troupes. Unlike regular drama, street drama employs very little props and images. The human body becomes the main tool in which choreography, mime, dialogues, songs, and slogans are extensively used.<br><br>Street theatre is one of the most intimate media. Its appeal is to the emotions leading to quick psychological impact on audiences. By being local and live they also are able to establish not only direct contact with the audience, but by being cost-effective and flexible, they are popular among all age groups.`,
   hi: `भारत में नुक्कड नाटक एक सुस्थापित प्राचीन कला है। मनोरंजन और संचार के आधुनिक साधनों के प्रसार के बावजूद, भारत में नुक्कड नाटक का प्रचलन जारी है। संचार के एक माध्यम के रूप में नुक्कड नाटक सदियों से समाज में मौजूद सामाजिक, आर्थिक और राजनीतिक मुद्दों को उजागर करके सुधारों का प्रचार करता रहा है।<br><br>पुराने दिनों के विपरीत, अब इसका प्रदर्शन गांवों या शहर के छोटे इलाकों तक सीमित नहीं है। आज, छात्रों सहित कलाकारों के छोटे समूह, जनमत को संगठित करने या सार्वजनिक महत्व के किसी विशेष मुद्दे पर जागरूकता पैदा करने या बढ़ाने में मदद करने के लिए प्रदर्शन करते हैं।<br><br>मादक द्रव्यों के सेवन, एड्स जागरूकता और घरेलू हिंसा जैसे विषयों पर समकालीन नुक्कड नाटक मंडलियों द्वारा प्रकाश डाला गया है। नियमित नाटक के विपरीत, नुक्कड नाटक में बहुत कम प्रॉप्स और छवियों का उपयोग किया जाता है। मानव शरीर मुख्य उपकरण बन जाता है जिसमें कोरियोग्राफी, माइम, संवाद, गीत और नारे बड़े पैमाने पर उपयोग किए जाते हैं।<br><br>स्ट्रीट थिएटर सबसे अंतरंग मीडिया में से एक है। इसकी अपील भावनाओं को आकर्षित करती है जिससे दर्शकों पर त्वरित मनोवैज्ञानिक प्रभाव पड़ता है। स्थानीय और लाइव होने के कारण वे न केवल दर्शकों के साथ सीधा संपर्क स्थापित करने में सक्षम हैं, बल्कि लागत प्रभावी और लचीले होने के कारण, वे सभी आयु समूहों के बीच लोकप्रिय हैं।`
+};
+
+// ─────────────────────────────────────────────────────────────────────────────
+// 1. PASSAGE CONSTANT (SINGLE LINE with <br><br> for paragraph breaks)
+// ─────────────────────────────────────────────────────────────────────────────
+const PASSAGE_JAN25_16_S2_P1 = {
+  en: `Spirituality plays a significant role in human life by offering individuals a sense of purpose, inner peace and connection to something higher than themselves. As opposed to religion, which often involves specific belief and rituals, spirituality is more personal and introspective. This is true that spirituality propels people to reflect deeper within themselves, cultivate compassion and decipher meaning in their day-to-day existence. Very often people turn to spirituality in difficult times, finding comfort and strength through meditation, prayer or nature. It has been argued that spirituality promotes mental well-being by reducing stress and nurturing resilience.<br><br>Research has suggested that spirituality is helpful in improving emotional health, contributing to a more fulfilling life. People believe spirituality involves exploring questions of life and existence while for others, it is a way to connect with others and contribute meaningfully to the ways of the world. In an increasingly busy world, spirituality can be understood as a way to mindfulness, helping people stay grounded and focus on what really counts.`,
+  hi: `आध्यात्मिकता मानव जीवन में एक महत्वपूर्ण भूमिका निभाती है, क्योंकि यह व्यक्तियों को उद्देश्य, आंतरिक शांति और खुद से ऊपर किसी चीज़ से जुड़ने की भावना प्रदान करती है। धर्म के विपरीत, जिसमें अक्सर विशिष्ट विश्वास और अनुष्ठान शामिल होते हैं, आध्यात्मिकता अधिक व्यक्तिगत और आत्मनिरीक्षणात्मक होती है। यह सच है कि आध्यात्मिकता लोगों को अपने भीतर गहराई से चिंतन करने, करुणा विकसित करने और अपने दिन-प्रतिदिन के जीवन में अर्थ समझने के लिए प्रेरित करती है। अक्सर लोग मुश्किल समय में आध्यात्मिकता की ओर रुख करते हैं, ध्यान, प्रार्थना या प्रकृति के माध्यम से आराम और शक्ति पाते हैं। यह तर्क दिया गया है कि आध्यात्मिकता तनाव को कम करके और लचीलापन बढ़ाकर मानसिक स्वास्थ्य को बढ़ावा देती है।<br><br>शोध से पता चला है कि आध्यात्मिकता भावनात्मक स्वास्थ्य को बेहतर बनाने में सहायक है, जिससे जीवन को और अधिक संतुष्टि मिलती है। लोगों का मानना है कि आध्यात्मिकता में जीवन और अस्तित्व के सवालों की खोज करना शामिल है, जबकि दूसरों के लिए, यह दूसरों से जुड़ने और दुनिया के तौर-तरीकों में सार्थक योगदान देने का एक तरीका है। तेजी से व्यस्त होती दुनिया में, आध्यात्मिकता को माइंडफुलनेस के एक तरीके के रूप में समझा जा सकता है, जो लोगों को जमीन पर टिके रहने और वास्तव में मायने रखने वाली चीज़ों पर ध्यान केंद्रित करने में मदद करता है।`
 };
 
 function passageHTML(text) { return `<div class="comprehension-box">${text}</div>`; }
@@ -5162,6 +5178,1307 @@ const TEST_JAN25_21_S1_P1 = [
     }
   }
 ];
+
+// ─────────────────────────────────────────────────────────────────────────────
+// EXTRACTED QUESTIONS ARRAY (Q1 to Q25)
+// ─────────────────────────────────────────────────────────────────────────────
+const TEST_JAN25_16_S2_P1 = [
+  {
+    "id": "jan25-16-s2-p1-q01",
+    "difficulty": "medium",
+    "correct": 2,
+    "unitEN": "Unit 7: Data Interpretation",
+    "unitHI": "इकाई 7: आंकड़ों की व्याख्या",
+    "topicEN": "Table Chart",
+    "topicHI": "तालिका चार्ट",
+    "content": {
+      "en": {
+        "question": TABLE_JAN25_16_S2_P1.en + "<br><br><strong>Question:</strong><br>What is the total number of HDDs purchased by males from shop B on all the five days?",
+        "options": ["882", "1704", "1764", "1664"],
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>To find HDDs purchased by males, we use $(100\\% - \\text{Female } \\%)$.<br>1. <strong>Mon:</strong> 640 × (100% - 30%) = 640 × 70% = 448<br>2. <strong>Tue:</strong> 880 × (100% - 65%) = 880 × 35% = 308<br>3. <strong>Wed:</strong> 540 × (100% - 80%) = 540 × 20% = 108<br>4. <strong>Thu:</strong> 760 × (100% - 25%) = 760 × 75% = 570<br>5. <strong>Fri:</strong> 550 × (100% - 40%) = 550 × 60% = 330<br><strong>Total</strong> = 448 + 308 + 108 + 570 + 330 = <strong>1764</strong>."
+      },
+      "hi": {
+        "question": TABLE_JAN25_16_S2_P1.hi + "<br><br><strong>प्रश्न:</strong><br>सभी पांच दिनों में दुकान B से पुरुषों द्वारा खरीदी गई HDD की कुल संख्या कितनी है?",
+        "options": ["882", "1704", "1764", "1664"],
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>पुरुषों द्वारा खरीदी गई HDD ज्ञात करने के लिए, हम $(100\\% - \\text{महिला } \\%)$ का उपयोग करते हैं।<br>1. <strong>सोमवार:</strong> 640 × (100% - 30%) = 640 × 70% = 448<br>2. <strong>मंगलवार:</strong> 880 × (100% - 65%) = 880 × 35% = 308<br>3. <strong>बुधवार:</strong> 540 × (100% - 80%) = 540 × 20% = 108<br>4. <strong>गुरुवार:</strong> 760 × (100% - 25%) = 760 × 75% = 570<br>5. <strong>शुक्रवार:</strong> 550 × (100% - 40%) = 550 × 60% = 330<br><strong>कुल</strong> = 448 + 308 + 108 + 570 + 330 = <strong>1764</strong>।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q02",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 7: Data Interpretation",
+    "unitHI": "इकाई 7: आंकड़ों की व्याख्या",
+    "topicEN": "Table Chart",
+    "topicHI": "तालिका चार्ट",
+    "content": {
+      "en": {
+        "question": TABLE_JAN25_16_S2_P1.en + "<br><br><strong>Question:</strong><br>What is the ratio between the total number of HDDs purchased by males from shop A on Tuesday and Wednesday together to the total number of HDDs purchased by females from shop B on Thursday and Friday together?",
+        "options": ["45:73", "71:41", "73:41", "74:41"],
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. <strong>Males from Shop A (Tue & Wed):</strong><br>   Tue: 560 × (100% - 45%) = 560 × 55% = 308.<br>   Wed: 720 × (100% - 40%) = 720 × 60% = 432.<br>   Total = 308 + 432 = <strong>740</strong>.<br>2. <strong>Females from Shop B (Thu & Fri):</strong><br>   Thu: 760 × 25% = 190.<br>   Fri: 550 × 40% = 220.<br>   Total = 190 + 220 = <strong>410</strong>.<br>3. <strong>Ratio:</strong> 740 : 410 = <strong>74 : 41</strong>."
+      },
+      "hi": {
+        "question": TABLE_JAN25_16_S2_P1.hi + "<br><br><strong>प्रश्न:</strong><br>मंगलवार और बुधवार को दुकान A से पुरुषों द्वारा खरीदी गई HDD की कुल संख्या का, गुरुवार और शुक्रवार को दुकान B से महिलाओं द्वारा खरीदी गई HDD की कुल संख्या से अनुपात क्या है?",
+        "options": ["45:73", "71:41", "73:41", "74:41"],
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. <strong>दुकान A से पुरुष (मंगल और बुध):</strong><br>   मंगलवार: 560 × (100% - 45%) = 560 × 55% = 308.<br>   बुधवार: 720 × (100% - 40%) = 720 × 60% = 432.<br>   कुल = 308 + 432 = <strong>740</strong>.<br>2. <strong>दुकान B से महिलाएँ (गुरु और शुक्र):</strong><br>   गुरुवार: 760 × 25% = 190.<br>   शुक्रवार: 550 × 40% = 220.<br>   कुल = 190 + 220 = <strong>410</strong>.<br>3. <strong>अनुपात:</strong> 740 : 410 = <strong>74 : 41</strong>."
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q03",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 7: Data Interpretation",
+    "unitHI": "इकाई 7: आंकड़ों की व्याख्या",
+    "topicEN": "Table Chart",
+    "topicHI": "तालिका चार्ट",
+    "content": {
+      "en": {
+        "question": TABLE_JAN25_16_S2_P1.en + "<br><br><strong>Question:</strong><br>If the total number of HDDs purchased from shop A and shop B on Saturday are 20% more and 30% more than the total number of HDDs sold by shop A and shop B on Wednesday, respectively, then what is the total number of HDDs purchased from shop A and shop B together on Saturday?",
+        "options": ["1656", "1566", "1624", "1646"],
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. <strong>Shop A on Saturday:</strong> Wednesday's sales for Shop A = 720. <br>   Saturday = 720 + 20% of 720 = 720 × 1.2 = <strong>864</strong>.<br>2. <strong>Shop B on Saturday:</strong> Wednesday's sales for Shop B = 540.<br>   Saturday = 540 + 30% of 540 = 540 × 1.3 = <strong>702</strong>.<br>3. <strong>Total on Saturday:</strong> 864 + 702 = <strong>1566</strong>."
+      },
+      "hi": {
+        "question": TABLE_JAN25_16_S2_P1.hi + "<br><br><strong>प्रश्न:</strong><br>यदि शनिवार को दुकान A और दुकान B से खरीदी गई HDD की कुल संख्या, बुधवार को दुकान A और दुकान B द्वारा बेची गई HDD की कुल संख्या से क्रमशः 20% अधिक और 30% अधिक है, तो शनिवार को दुकान A और दुकान B से एक साथ खरीदी गई HDD की कुल संख्या कितनी है?",
+        "options": ["1656", "1566", "1624", "1646"],
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. <strong>शनिवार को दुकान A:</strong> बुधवार को दुकान A की बिक्री = 720.<br>   शनिवार = 720 + 720 का 20% = 720 × 1.2 = <strong>864</strong>.<br>2. <strong>शनिवार को दुकान B:</strong> बुधवार को दुकान B की बिक्री = 540.<br>   शनिवार = 540 + 540 का 30% = 540 × 1.3 = <strong>702</strong>.<br>3. <strong>शनिवार को कुल:</strong> 864 + 702 = <strong>1566</strong>."
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q04",
+    "difficulty": "medium",
+    "correct": 2,
+    "unitEN": "Unit 7: Data Interpretation",
+    "unitHI": "इकाई 7: आंकड़ों की व्याख्या",
+    "topicEN": "Table Chart",
+    "topicHI": "तालिका चार्ट",
+    "content": {
+      "en": {
+        "question": TABLE_JAN25_16_S2_P1.en + "<br><br><strong>Question:</strong><br>Total number of HDDs sold by shop A on Thursday and Friday together is ______ % of the total number of HDDs sold by shop B on Wednesday and Thursday together.",
+        "options": ["125", "100", "120", "80"],
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. <strong>Shop A (Thu + Fri):</strong> 720 (Thu) + 840 (Fri) = <strong>1560</strong>.<br>2. <strong>Shop B (Wed + Thu):</strong> 540 (Wed) + 760 (Thu) = <strong>1300</strong>.<br>3. <strong>Percentage:</strong> $(1560 / 1300) \\times 100 = 120\\%$."
+      },
+      "hi": {
+        "question": TABLE_JAN25_16_S2_P1.hi + "<br><br><strong>प्रश्न:</strong><br>दुकान A द्वारा गुरुवार और शुक्रवार को बेची गई HDD की कुल संख्या, दुकान B द्वारा बुधवार और गुरुवार को बेची गई HDD की कुल संख्या का ______% है।",
+        "options": ["125", "100", "120", "80"],
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. <strong>दुकान A (गुरु + शुक्र):</strong> 720 (गुरु) + 840 (शुक्र) = <strong>1560</strong>.<br>2. <strong>दुकान B (बुध + गुरु):</strong> 540 (बुध) + 760 (गुरु) = <strong>1300</strong>.<br>3. <strong>प्रतिशत:</strong> $(1560 / 1300) \\times 100 = 120\\%$."
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q05",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 7: Data Interpretation",
+    "unitHI": "इकाई 7: आंकड़ों की व्याख्या",
+    "topicEN": "Table Chart",
+    "topicHI": "तालिका चार्ट",
+    "content": {
+      "en": {
+        "question": TABLE_JAN25_16_S2_P1.en + "<br><br><strong>Question:</strong><br>Total number of HDDs purchased by females from shop A on Wednesday and Thursday together is ______ % less than the total number of HDDs purchased by males from shop B on Thursday and Friday together.",
+        "options": ["18", "20", "22.22", "25"],
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. <strong>Females from Shop A (Wed + Thu):</strong><br>   Wed: 720 × 40% = 288.<br>   Thu: 720 × 60% = 432.<br>   Total = 288 + 432 = <strong>720</strong>.<br>2. <strong>Males from Shop B (Thu + Fri):</strong><br>   Thu: 760 × (100% - 25%) = 760 × 75% = 570.<br>   Fri: 550 × (100% - 40%) = 550 × 60% = 330.<br>   Total = 570 + 330 = <strong>900</strong>.<br>3. <strong>Difference:</strong> 900 - 720 = 180.<br>4. <strong>Percentage Less:</strong> $(180 / 900) \\times 100 = 20\\%$."
+      },
+      "hi": {
+        "question": TABLE_JAN25_16_S2_P1.hi + "<br><br><strong>प्रश्न:</strong><br>बुधवार और गुरुवार को दुकान A से महिलाओं द्वारा खरीदी गई HDD की कुल संख्या, गुरुवार और शुक्रवार को दुकान B से पुरुषों द्वारा खरीदी गई HDD की कुल संख्या से ______% कम है।",
+        "options": ["18", "20", "22.22", "25"],
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. <strong>दुकान A से महिलाएँ (बुध + गुरु):</strong><br>   बुधवार: 720 × 40% = 288.<br>   गुरुवार: 720 × 60% = 432.<br>   कुल = 288 + 432 = <strong>720</strong>.<br>2. <strong>दुकान B से पुरुष (गुरु + शुक्र):</strong><br>   गुरुवार: 760 × (100% - 25%) = 760 × 75% = 570.<br>   शुक्रवार: 550 × (100% - 40%) = 550 × 60% = 330.<br>   कुल = 570 + 330 = <strong>900</strong>.<br>3. <strong>अंतर:</strong> 900 - 720 = 180.<br>4. <strong>प्रतिशत कम:</strong> $(180 / 900) \\times 100 = 20\\%$."
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q06",
+    "difficulty": "easy",
+    "correct": 1,
+    "unitEN": "Unit 2: Research Aptitude",
+    "unitHI": "इकाई 2: शोध अभिरुचि",
+    "topicEN": "Steps of Research and Statistical Tools",
+    "topicHI": "शोध के चरण और सांख्यिकीय उपकरण",
+    "content": {
+      "en": {
+        "question": "What is 'ANOVA'?",
+        "options": ["Analysis of Variables", "Analysis of Variance", "Analysis of Variations", "Analysis of variable Averages"],
+        "explanation": "<strong>ANOVA</strong> stands for <strong>Analysis of Variance</strong>. It is a statistical formula used in research to compare the means of three or more groups to see if they are significantly different from each other."
+      },
+      "hi": {
+        "question": "'एनोवा' (ANOVA) क्या है?",
+        "options": ["चरों का विश्लेषण (Analysis of Variables)", "विचरण का विश्लेषण (Analysis of Variance)", "विविधताओं का विश्लेषण", "परिवर्तनीय औसत का विश्लेषण"],
+        "explanation": "<strong>ANOVA</strong> का अर्थ है <strong>Analysis of Variance (विचरण का विश्लेषण)</strong>। यह शोध में इस्तेमाल किया जाने वाला एक सांख्यिकीय सूत्र है जो तीन या अधिक समूहों के साधनों (means) की तुलना करने के लिए यह देखने के लिए किया जाता है कि वे एक-दूसरे से काफी भिन्न हैं या नहीं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q07",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 9: People, Development and Environment",
+    "unitHI": "इकाई 9: लोग, विकास और पर्यावरण",
+    "topicEN": "Environmental Issues and Pollution Types",
+    "topicHI": "पर्यावरणीय मुद्दे और प्रदूषण के प्रकार",
+    "content": {
+      "en": {
+        "question": "Which of the following are units of measuring turbidity?<br><br>A. Jackson Turbidity Unit<br>B. Darcy Turbidity Unit<br>C. Nephelometric Turbidity Unit<br>D. Fermi Turbidity Unit<br>E. Formazin Turbidity Unit<br><br>Choose the correct answer from the options given below:",
+        "options": ["A, B and C only", "A, C and E only", "B, D and E only", "A, D and E only"],
+        "explanation": "Turbidity is the measure of relative clarity of a liquid. The universally recognized units for measuring water turbidity are:<br>• <strong>A. Jackson Turbidity Unit (JTU)</strong><br>• <strong>C. Nephelometric Turbidity Unit (NTU)</strong><br>• <strong>E. Formazin Turbidity Unit (FTU)</strong><br>Darcy and Fermi are unrelated to turbidity measurement. Hence, A, C, and E are correct."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से कौन सी मैलापन (turbidity) मापने की इकाइयाँ हैं?<br><br>A. जैक्सन टर्बिडिटी यूनिट (JTU)<br>B. डार्सी टर्बिडिटी यूनिट<br>C. नेफेलोमेट्रिक टर्बिडिटी यूनिट (NTU)<br>D. फर्मी टर्बिडिटी यूनिट<br>E. फॉर्माज़िन टर्बिडिटी यूनिट (FTU)<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["केवल A, B और C", "केवल A, C और E", "केवल B, D और E", "केवल A, D और E"],
+        "explanation": "मैलापन (Turbidity) किसी तरल पदार्थ की सापेक्ष स्पष्टता का माप है। पानी के मैलापन को मापने के लिए सार्वभौमिक रूप से मान्यता प्राप्त इकाइयाँ हैं:<br>• <strong>A. जैक्सन टर्बिडिटी यूनिट (JTU)</strong><br>• <strong>C. नेफेलोमेट्रिक टर्बिडिटी यूनिट (NTU)</strong><br>• <strong>E. फॉर्माज़िन टर्बिडिटी यूनिट (FTU)</strong><br>डार्सी और फर्मी टर्बिडिटी माप से असंबंधित हैं। अतः, A, C और E सही हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q08",
+    "difficulty": "easy",
+    "correct": 2,
+    "unitEN": "Unit 9: People, Development and Environment",
+    "unitHI": "इकाई 9: लोग, विकास और पर्यावरण",
+    "topicEN": "Environmental Issues and Pollution Types",
+    "topicHI": "पर्यावरणीय मुद्दे और प्रदूषण के प्रकार",
+    "content": {
+      "en": {
+        "question": "Which of the following is the full form of PCB?",
+        "options": ["Poly Cyclic Benzene", "Poly Chlorinated Benzene", "Poly Chlorinated Biphenyls", "Poly Cyclic Bi phenyls"],
+        "explanation": "In environmental science, <strong>PCB</strong> stands for <strong>Poly Chlorinated Biphenyls</strong>. They are highly toxic industrial compounds (Persistent Organic Pollutants) that were widely used in electrical equipment but are now globally restricted due to their severe environmental and health impacts."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से PCB का पूर्ण रूप क्या है?",
+        "options": ["पॉली साइक्लिक बेंजीन", "पॉली क्लोरीनेटेड बेंजीन", "पॉलीक्लोरिनेटेड बाइफिनाइल्स (Poly Chlorinated Biphenyls)", "पॉली साइक्लिक बाइ फिनाइल्स"],
+        "explanation": "पर्यावरण विज्ञान में, <strong>PCB</strong> का अर्थ <strong>पॉली क्लोरिनेटेड बाइफिनाइल्स (Poly Chlorinated Biphenyls)</strong> है। ये अत्यधिक विषैले औद्योगिक यौगिक (स्थायी कार्बनिक प्रदूषक) हैं जिनका व्यापक रूप से विद्युत उपकरणों में उपयोग किया जाता था, लेकिन अब उनके गंभीर पर्यावरणीय और स्वास्थ्य प्रभावों के कारण विश्व स्तर पर प्रतिबंधित कर दिया गया है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q09",
+    "difficulty": "medium",
+    "correct": 2,
+    "unitEN": "Unit 2: Research Aptitude",
+    "unitHI": "इकाई 2: शोध अभिरुचि",
+    "topicEN": "Characteristics of Research (Reliability and Validity)",
+    "topicHI": "शोध की विशेषताएं (विश्वसनीयता और वैधता)",
+    "content": {
+      "en": {
+        "question": "Which of the following is correct?",
+        "options": ["Validity does not focus on the accuracy of instrument's measurement", "Validity does not check the systematic and random errors in the measurement process", "Reliability and validity are related to each other", "Face validity is probably the strongest way to find out the validity of the measurement for a research"],
+        "explanation": "The statement <strong>\"Reliability and validity are related to each other\"</strong> is true because for a test to be valid (accurate), it MUST also be reliable (consistent). However, a test can be reliable without being valid. <br>• Option 1 is wrong because validity IS about accuracy.<br>• Option 4 is wrong because 'Face validity' is considered the <em>weakest</em> (most subjective) form of validity."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से कौन सा सही है?",
+        "options": ["वैधता उपकरण के माप की सटीकता पर ध्यान केंद्रित नहीं करती है", "वैधता माप प्रक्रिया में व्यवस्थित और यादृच्छिक त्रुटियों की जाँच नहीं करती है", "विश्वसनीयता और वैधता एक दूसरे से संबंधित हैं", "किसी शोध के लिए माप की वैधता का पता लगाने के लिए फेस वैधता संभवतः सबसे मजबूत तरीका है।"],
+        "explanation": "यह कथन <strong>\"विश्वसनीयता और वैधता एक दूसरे से संबंधित हैं\"</strong> सत्य है क्योंकि किसी परीक्षण के वैध (सटीक) होने के लिए, उसका विश्वसनीय (निरंतर) होना भी आवश्यक है। हालाँकि, एक परीक्षण वैध हुए बिना भी विश्वसनीय हो सकता है।<br>• विकल्प 1 गलत है क्योंकि वैधता सटीकता के बारे में ही है।<br>• विकल्प 4 गलत है क्योंकि 'फेस वैलिडिटी' को वैधता का <em>सबसे कमजोर</em> (सबसे व्यक्तिपरक) रूप माना जाता है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q10",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 4: Communication",
+    "unitHI": "इकाई 4: संचार",
+    "topicEN": "Mass Media and Society",
+    "topicHI": "जन माध्यम और समाज",
+    "content": {
+      "en": {
+        "question": "Who argued that \"technological changes in the ways in which we encode information lead to radical changes in the society.\"?",
+        "options": ["Stuart Hall", "Immanuel Castells", "Harold Rheingold", "Marshal McLuhan"],
+        "explanation": "<strong>Marshall McLuhan</strong> was a famous media theorist who famously coined the phrase \"The medium is the message\". He extensively argued that technological changes in how we communicate and encode information fundamentally and radically alter society and human behavior."
+      },
+      "hi": {
+        "question": "किसने तर्क दिया कि \"जिस तरह से हम सूचना को एनकोड करते हैं उसमें तकनीकी परिवर्तन समाज में आमूलचूल परिवर्तन लाते हैं।\"?",
+        "options": ["स्टुअर्ट हॉल", "इमैनुएल कास्टेल्स", "हेरोल्ड राइनगोल्ड", "मार्शल मैक्लुहान"],
+        "explanation": "<strong>मार्शल मैक्लुहान (Marshall McLuhan)</strong> एक प्रसिद्ध मीडिया सिद्धांतकार थे जिन्होंने \"माध्यम ही संदेश है (The medium is the message)\" वाक्यांश गढ़ा था। उन्होंने बड़े पैमाने पर तर्क दिया कि हम कैसे संवाद करते हैं और जानकारी को एनकोड करते हैं, इसमें तकनीकी परिवर्तन समाज और मानव व्यवहार को मौलिक और मौलिक रूप से बदल देते हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q11",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 5: Mathematical Reasoning and Aptitude",
+    "unitHI": "इकाई 5: गणितीय तर्क और अभिरुचि",
+    "topicEN": "Venn Diagrams and Set Theory",
+    "topicHI": "वेन आरेख और समुच्चय सिद्धांत",
+    "content": {
+      "en": {
+        "question": "In a school survey of 400 students, 100 were taking apple juice, 150 orange juice and 75 were taking both apple and orange juice. How many students were taking neither apple nor orange juice?",
+        "options": ["275", "250", "175", "225"],
+        "explanation": "<strong>Step-by-step Solution:</strong><br>We use Set Theory: $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$.<br>1. Total students ($U$) = 400.<br>2. Apple ($A$) = 100. Orange ($B$) = 150. Both ($A \\cap B$) = 75.<br>3. Students taking at least one juice = $100 + 150 - 75 = 175$.<br>4. Students taking neither = Total students - Students taking at least one.<br>   $400 - 175 = $ <strong>225</strong>."
+      },
+      "hi": {
+        "question": "400 छात्रों के एक स्कूल सर्वेक्षण में, 100 छात्र सेब का जूस, 150 छात्र संतरे का जूस और 75 छात्र सेब और संतरे दोनों का जूस ले रहे थे। कितने छात्र न तो सेब और न ही संतरे का जूस ले रहे थे?",
+        "options": ["275", "250", "175", "225"],
+        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>हम सेट सिद्धांत (Set Theory) का उपयोग करते हैं: $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$।<br>1. कुल छात्र ($U$) = 400।<br>2. सेब ($A$) = 100. संतरा ($B$) = 150. दोनों ($A \\cap B$) = 75।<br>3. कम से कम एक जूस लेने वाले छात्र = $100 + 150 - 75 = 175$।<br>4. दोनों में से कोई भी जूस नहीं लेने वाले छात्र = कुल छात्र - कम से कम एक जूस लेने वाले छात्र।<br>   $400 - 175 = $ <strong>225</strong>।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q12",
+    "difficulty": "hard",
+    "correct": 0,
+    "unitEN": "Unit 6: Logical Reasoning",
+    "unitHI": "इकाई 6: तार्किक विचार",
+    "topicEN": "Classical Square of Opposition",
+    "topicHI": "विरोध का शास्त्रीय वर्ग",
+    "content": {
+      "en": {
+        "question": "Which of the following statements are related in such a way that both cannot be true together nor can both be false together?<br><br>A. All dogs are omnivorous.<br>B. Some dogs are omnivorous.<br>C. Some dogs are not omnivorous.<br>D. No dog is omnivorous.<br><br>Choose the correct answer from the given options:",
+        "options": ["Only A and C", "Only B and C", "Only C and D", "Only A and D"],
+        "explanation": "The condition \"cannot be true together nor can both be false together\" defines a <strong>Contradictory</strong> relationship in the Classical Square of Opposition. <br>Contradictory pairs are:<br>1. Universal Affirmative (A) & Particular Negative (O) $\\rightarrow$ 'All' and 'Some not'.<br>2. Universal Negative (E) & Particular Affirmative (I) $\\rightarrow$ 'No' and 'Some'.<br>Here, statement A (All) and statement C (Some not) form a perfect contradictory pair."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से कौन से कथन एक दूसरे से इस प्रकार संबंधित हैं कि दोनों एक साथ सत्य नहीं हो सकते और न ही दोनों एक साथ असत्य हो सकते हैं?<br><br>A. सभी कुत्ते सर्वाहारी होते हैं।<br>B. कुछ कुत्ते सर्वाहारी होते हैं।<br>C. कुछ कुत्ते सर्वाहारी नहीं होते हैं।<br>D. कोई भी कुत्ता सर्वाहारी नहीं होता है।<br><br>दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["केवल A और C", "केवल B और C", "केवल C और D", "केवल A और D"],
+        "explanation": "शर्त \"दोनों एक साथ सत्य नहीं हो सकते और न ही दोनों एक साथ असत्य हो सकते हैं\" शास्त्रीय विरोध वर्ग (Square of Opposition) में एक <strong>विरोधाभासी (Contradictory)</strong> संबंध को परिभाषित करती है।<br>विरोधाभासी जोड़े हैं:<br>1. सार्वभौमिक सकारात्मक (A) और विशेष नकारात्मक (O) $\\rightarrow$ 'सभी' और 'कुछ नहीं'।<br>2. सार्वभौमिक नकारात्मक (E) और विशेष सकारात्मक (I) $\\rightarrow$ 'कोई नहीं' और 'कुछ'।<br>यहाँ, कथन A (सभी) और कथन C (कुछ नहीं) एक पूर्ण विरोधाभासी जोड़ी बनाते हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q13",
+    "difficulty": "medium",
+    "correct": 2,
+    "unitEN": "Unit 5: Mathematical Reasoning and Aptitude",
+    "unitHI": "इकाई 5: गणितीय तर्क और अभिरुचि",
+    "topicEN": "Letter Series",
+    "topicHI": "अक्षर श्रृंखला",
+    "content": {
+      "en": {
+        "question": "Find the next term of the letter series.<br><br>AaC, BbD, DdF, HhJ, ________",
+        "options": ["LIN", "MmO", "PpR", "NnP"],
+        "explanation": "<strong>Step-by-step Pattern Breakdown:</strong><br>Let's analyze the position of the First capital letter in each group: A(1), B(2), D(4), H(8). The gap is multiplying by 2 (or $+1, +2, +4$). The next gap should be $+8$. So $8+8 = 16$, which is <strong>P</strong>.<br>The second letter is simply the lowercase version of the first letter: <strong>p</strong>.<br>The third letter is always +2 from the first letter: A(+2)C, B(+2)D, D(+2)F. So P(+2) = <strong>R</strong>.<br>Result: <strong>PpR</strong>."
+      },
+      "hi": {
+        "question": "अक्षर श्रृंखला का अगला पद ज्ञात कीजिए।<br><br>AaC, BbD, DdF, HhJ, ________",
+        "options": ["LIN", "MmO", "PpR", "NnP"],
+        "explanation": "<strong>चरण-दर-चरण पैटर्न विश्लेषण:</strong><br>आइए प्रत्येक समूह में पहले बड़े अक्षर की स्थिति का विश्लेषण करें: A(1), B(2), D(4), H(8)। अंतर 2 से गुणा हो रहा है (या $+1, +2, +4$ बढ़ रहा है)। अगला अंतर $+8$ होना चाहिए। तो $8+8 = 16$, जो <strong>P</strong> है।<br>दूसरा अक्षर केवल पहले अक्षर का छोटा (lowercase) संस्करण है: <strong>p</strong>।<br>तीसरा अक्षर हमेशा पहले अक्षर से +2 आगे होता है: A(+2)C, B(+2)D, D(+2)F। इसलिए P(+2) = <strong>R</strong>।<br>परिणाम: <strong>PpR</strong>।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q14",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 1: Teaching Aptitude",
+    "unitHI": "इकाई 1: शिक्षण अभिरुचि",
+    "topicEN": "Methods of Teaching",
+    "topicHI": "शिक्षण विधियाँ",
+    "content": {
+      "en": {
+        "question": "Which of the following learning provides strategic help in the initial stages of learning, gradually diminishing as students gain independence?",
+        "options": ["Latent learning", "Assisted learning", "Active learning", "Passive learning"],
+        "explanation": "The process described is known as <strong>\"Scaffolding\"</strong>, which falls under the broader category of <strong>Assisted learning</strong> (derived from Vygotsky's Zone of Proximal Development). The teacher provides heavy support in the beginning, and gradually removes that support (fades it) as the student becomes more capable and independent."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से कौन सी शिक्षा, सीखने के प्रारंभिक चरणों में रणनीतिक मदद प्रदान करती है, जो छात्रों के स्वतंत्रता प्राप्त करने के साथ धीरे-धीरे कम हो जाती है?",
+        "options": ["अव्यक्त अधिगम (Latent learning)", "सहायता प्राप्त शिक्षा (Assisted learning)", "सक्रिय अध्ययन", "निष्क्रिय शिक्षण"],
+        "explanation": "वर्णित प्रक्रिया को <strong>\"स्कैफोल्डिंग (Scaffolding)\"</strong> के रूप में जाना जाता है, जो <strong>सहायता प्राप्त शिक्षा (Assisted learning)</strong> की व्यापक श्रेणी के अंतर्गत आता है (वायगोत्स्की के समीपस्थ विकास के क्षेत्र से लिया गया है)। शिक्षक शुरुआत में भारी समर्थन प्रदान करता है, और धीरे-धीरे उस समर्थन को हटा देता है क्योंकि छात्र अधिक सक्षम और स्वतंत्र हो जाता है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q15",
+    "difficulty": "hard",
+    "correct": 1,
+    "unitEN": "Unit 10: Higher Education System",
+    "unitHI": "इकाई 10: उच्च शिक्षा प्रणाली",
+    "topicEN": "Evolution of Higher Learning in Post-Independence India",
+    "topicHI": "स्वतंत्रता के बाद भारत में उच्च शिक्षा का विकास",
+    "content": {
+      "en": {
+        "question": "Which of the following commissions under the chairmanship of Dr. K. L. Shrimali submitted its report in 1955 regarding problems in higher education in rural parts of India?",
+        "options": ["The Education Commission for State Universities", "Rural Higher Education Commission", "Shrimali Commission for Rural Education", "Inter State Universities Board"],
+        "explanation": "The <strong>Rural Higher Education Commission</strong> was appointed in 1954 under the chairmanship of Dr. K. L. Shrimali. It submitted its report in 1955, recommending the establishment of Rural Institutes to provide higher education to rural youth tailored to their environment and needs, preventing the massive brain drain to urban areas."
+      },
+      "hi": {
+        "question": "डॉ. के.एल. श्रीमाली की अध्यक्षता में निम्नलिखित में से किस आयोग ने 1955 में भारत के ग्रामीण भागों में उच्च शिक्षा की समस्याओं के संबंध में अपनी रिपोर्ट प्रस्तुत की थी?",
+        "options": ["राज्य विश्वविद्यालयों के लिए शिक्षा आयोग", "ग्रामीण उच्च शिक्षा आयोग", "श्रीमाली ग्रामीण शिक्षा आयोग", "अंतरराज्यीय विश्वविद्यालय बोर्ड"],
+        "explanation": "<strong>ग्रामीण उच्च शिक्षा आयोग (Rural Higher Education Commission)</strong> को 1954 में डॉ. के.एल. श्रीमाली की अध्यक्षता में नियुक्त किया गया था। इसने 1955 में अपनी रिपोर्ट प्रस्तुत की, जिसमें ग्रामीण युवाओं को उनके पर्यावरण और जरूरतों के अनुरूप उच्च शिक्षा प्रदान करने के लिए ग्रामीण संस्थानों की स्थापना की सिफारिश की गई, जिससे शहरी क्षेत्रों में होने वाले भारी प्रतिभा पलायन को रोका जा सके।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q16",
+    "difficulty": "hard",
+    "correct": 2,
+    "unitEN": "Unit 9: People, Development and Environment",
+    "unitHI": "इकाई 9: लोग, विकास और पर्यावरण",
+    "topicEN": "Natural and Energy Resources",
+    "topicHI": "प्राकृतिक और ऊर्जा संसाधन",
+    "content": {
+      "en": {
+        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%;'><thead><tr><th style='padding:8px;'>LIST-I (Nuclear Fuel Cycle Processes)</th><th style='padding:8px;'>LIST-II (Their Products)</th></tr></thead><tbody><tr><td style='padding:6px;'>A. Mining</td><td style='padding:6px;'>I. Spent fuels</td></tr><tr><td style='padding:6px;'>B. Milling</td><td style='padding:6px;'>II. Reactor grade uranium</td></tr><tr><td style='padding:6px;'>C. Enrichment</td><td style='padding:6px;'>III. Uranium ore</td></tr><tr><td style='padding:6px;'>D. Disposal</td><td style='padding:6px;'>IV. Yellow cake</td></tr></tbody></table><br>Choose the correct answer from the options given below:",
+        "options": ["A-IV, B-II, C-I, D-III", "A-II, B-III, C-IV, D-I", "A-III, B-IV, C-II, D-I", "A-III, B-IV, C-I, D-II"],
+        "explanation": "<strong>Matching Nuclear Fuel Cycle Processes:</strong><br>• <strong>Mining (A-III):</strong> The extraction process yields <em>Uranium ore</em> from the ground.<br>• <strong>Milling (B-IV):</strong> The ore is crushed and chemically treated to extract uranium, producing a concentrate known as <em>Yellow cake</em> ($U_3O_8$).<br>• <strong>Enrichment (C-II):</strong> The yellow cake is processed to increase the U-235 isotope ratio, yielding <em>Reactor grade uranium</em>.<br>• <strong>Disposal (D-I):</strong> After the fuel is used in the reactor, it becomes highly radioactive waste, known as <em>Spent fuels</em>."
+      },
+      "hi": {
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%;'><thead><tr><th style='padding:8px;'>सूची-I (परमाणु ईंधन चक्र प्रक्रियाएं)</th><th style='padding:8px;'>सूची-II (उनके उत्पाद)</th></tr></thead><tbody><tr><td style='padding:6px;'>A. खनन</td><td style='padding:6px;'>I. व्यतीत ईंधन</td></tr><tr><td style='padding:6px;'>B. मिलिंग</td><td style='padding:6px;'>II. रिएक्टर ग्रेड यूरेनियम</td></tr><tr><td style='padding:6px;'>C. संवर्धन</td><td style='padding:6px;'>III. यूरेनियम अयस्क</td></tr><tr><td style='padding:6px;'>D. निपटान</td><td style='padding:6px;'>IV. पीला केक</td></tr></tbody></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["A-IV, B-II, C-I, D-III", "A-II, B-III, C-IV, D-I", "A-III, B-IV, C-II, D-I", "A-III, B-IV, C-I, D-II"],
+        "explanation": "<strong>परमाणु ईंधन चक्र प्रक्रियाओं का मिलान:</strong><br>• <strong>खनन (A-III):</strong> निष्कर्षण प्रक्रिया जमीन से <em>यूरेनियम अयस्क</em> निकालती है।<br>• <strong>मिलिंग (B-IV):</strong> यूरेनियम निकालने के लिए अयस्क को कुचला जाता है और रासायनिक रूप से उपचारित किया जाता है, जिससे <em>येलो केक (Yellow cake)</em> नामक एक सांद्रण उत्पन्न होता है।<br>• <strong>संवर्धन (C-II):</strong> U-235 आइसोटोप अनुपात को बढ़ाने के लिए येलो केक को संसाधित किया जाता है, जिससे <em>रिएक्टर ग्रेड यूरेनियम</em> प्राप्त होता है।<br>• <strong>निपटान (D-I):</strong> रिएक्टर में ईंधन का उपयोग करने के बाद, यह अत्यधिक रेडियोधर्मी अपशिष्ट बन जाता है, जिसे <em>व्यतीत ईंधन (Spent fuels)</em> के रूप में जाना जाता है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q17",
+    "difficulty": "medium",
+    "correct": 0,
+    "unitEN": "Unit 1: Teaching Aptitude",
+    "unitHI": "इकाई 1: शिक्षण अभिरुचि",
+    "topicEN": "Evaluation Systems",
+    "topicHI": "मूल्यांकन प्रणालियाँ",
+    "content": {
+      "en": {
+        "question": "Which of the following is the function of Placement Evaluation?",
+        "options": ["To know entry Behaviour", "To know mastery in content", "To solve learning difficulties", "To certify the learner"],
+        "explanation": "<strong>Placement Evaluation</strong> is conducted <em>before</em> the instruction starts to assess the learner's pre-requisite knowledge, skills, and aptitude. Its primary function is <strong>to know the entry behavior</strong> of the learner so they can be placed in the correct course or level."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से कौन सा प्लेसमेंट मूल्यांकन का कार्य है?",
+        "options": ["प्रवेश व्यवहार (Entry Behaviour) जानने के लिए", "विषय-वस्तु में निपुणता जानने के लिए", "सीखने की कठिनाइयों को हल करने के लिए", "शिक्षार्थी को प्रमाणित करने के लिए"],
+        "explanation": "<strong>प्लेसमेंट मूल्यांकन</strong> शिक्षार्थी के पूर्व-अपेक्षित ज्ञान, कौशल और योग्यता का आकलन करने के लिए निर्देश शुरू होने से <em>पहले</em> आयोजित किया जाता है। इसका प्राथमिक कार्य शिक्षार्थी के <strong>प्रवेश व्यवहार (entry behavior) को जानना</strong> है ताकि उन्हें सही पाठ्यक्रम या स्तर पर रखा जा सके।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q18",
+    "difficulty": "medium",
+    "correct": 0,
+    "unitEN": "Unit 2: Research Aptitude",
+    "unitHI": "इकाई 2: शोध अभिरुचि",
+    "topicEN": "Methods of Research (Variables in Experimental Research)",
+    "topicHI": "शोध की विधियाँ (प्रयोगात्मक शोध में चर)",
+    "content": {
+      "en": {
+        "question": "Identify the correct statements regarding variables.<br><br>A. The researcher manipulates an independent variable<br>B. A dependent variable is the outcome being measured<br>C. Extraneous variables are always controlled<br>D. Control variables lead to spurious relationships<br><br>Choose the correct answer from the options given below:",
+        "options": ["A and B only", "A only", "A, B and C only", "B and D only"],
+        "explanation": "Evaluating statements:<br>• <strong>(A) True:</strong> In an experiment, the researcher intentionally manipulates the independent variable.<br>• <strong>(B) True:</strong> The dependent variable is the outcome or effect that is measured.<br>• <strong>(C) False:</strong> Extraneous variables are factors the researcher tries to control, but they are almost never <em>always</em> perfectly controlled in reality.<br>• <strong>(D) False:</strong> It is uncontrolled extraneous (confounding) variables that lead to spurious relationships, not the control variables. Control variables actually *prevent* spurious relationships.<br>Therefore, A and B only are correct."
+      },
+      "hi": {
+        "question": "चरों के संबंध में सही कथनों की पहचान करें।<br><br>A. शोधकर्ता एक स्वतंत्र चर में हेरफेर करता है<br>B. आश्रित चर वह परिणाम है जिसे मापा जा रहा है<br>C. बाहरी चर हमेशा नियंत्रित होते हैं<br>D. नियंत्रित चर झूठे संबंधों को जन्म देते हैं<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["केवल A और B", "केवल A", "केवल A, B और C", "केवल B और D"],
+        "explanation": "कथनों का मूल्यांकन:<br>• <strong>(A) सत्य:</strong> एक प्रयोग में, शोधकर्ता जानबूझकर स्वतंत्र चर (Independent variable) में हेरफेर करता है।<br>• <strong>(B) सत्य:</strong> आश्रित चर (Dependent variable) वह परिणाम या प्रभाव है जिसे मापा जाता है।<br>• <strong>(C) असत्य:</strong> बाहरी चर (Extraneous variables) वे कारक हैं जिन्हें शोधकर्ता नियंत्रित करने का प्रयास करता है, लेकिन वास्तविकता में वे <em>हमेशा</em> पूरी तरह से नियंत्रित नहीं होते हैं।<br>• <strong>(D) असत्य:</strong> यह अनियंत्रित बाहरी (भ्रामक) चर हैं जो जाली (spurious) संबंधों को जन्म देते हैं, न कि नियंत्रण चर। नियंत्रण चर वास्तव में जाली संबंधों को *रोकते* हैं।<br>इसलिए, केवल A और B सही हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q19",
+    "difficulty": "hard",
+    "correct": 3,
+    "unitEN": "Unit 6: Logical Reasoning",
+    "unitHI": "इकाई 6: तार्किक विचार",
+    "topicEN": "Formal and Informal Fallacies",
+    "topicHI": "औपचारिक और अनौपचारिक तर्कदोष",
+    "content": {
+      "en": {
+        "question": "\"There is no theoretical principle that cannot be put into practice because such theoretical principle is no theoretical principle at all.\"<br><br>Which logical fallacy is committed in the above argument?",
+        "options": ["Slippery slope", "Straw man", "Inappropriate authority", "Begging the question"],
+        "explanation": "The fallacy committed here is <strong>Begging the Question (Petitio Principii)</strong>. This occurs when an argument's premises assume the truth of the conclusion, instead of supporting it. The speaker is essentially saying \"A principle can be put into practice because if it can't, it's not a principle.\" It uses its own definition as proof, arguing in a circle without providing independent evidence."
+      },
+      "hi": {
+        "question": "\"ऐसा कोई सैद्धांतिक सिद्धांत नहीं है जिसे व्यवहार में नहीं लाया जा सकता क्योंकि ऐसा सैद्धांतिक सिद्धांत कोई सैद्धांतिक सिद्धांत ही नहीं है।\"<br><br>उपरोक्त तर्क में कौन सी तार्किक भ्रांति (fallacy) है?",
+        "options": ["फिसलन वाली ढलान (Slippery slope)", "काकभगौड़ा (Straw man)", "अनुपयुक्त प्राधिकारी", "प्रश्न पूछना (Begging the question)"],
+        "explanation": "यहाँ की गई भ्रांति <strong>प्रश्न पूछना या आत्माश्रय दोष (Begging the Question / Petitio Principii)</strong> है। यह तब होता है जब किसी तर्क के आधार उसका समर्थन करने के बजाय निष्कर्ष की सच्चाई को मान लेते हैं। वक्ता संक्षेप में कह रहा है \"एक सिद्धांत को व्यवहार में लाया जा सकता है क्योंकि यदि ऐसा नहीं हो सकता, तो वह कोई सिद्धांत नहीं है।\" यह अपने स्वयं की परिभाषा को प्रमाण के रूप में उपयोग करता है, बिना स्वतंत्र प्रमाण दिए एक चक्र में बहस करता है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q20",
+    "difficulty": "hard",
+    "correct": 3,
+    "unitEN": "Unit 2: Research Aptitude",
+    "unitHI": "इकाई 2: शोध अभिरुचि",
+    "topicEN": "Steps of Research (Sampling Methods)",
+    "topicHI": "शोध के चरण (नमूनाकरण विधियाँ)",
+    "content": {
+      "en": {
+        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%;'><thead><tr><th style='padding:8px;'>LIST-I (Type of Sampling)</th><th style='padding:8px;'>LIST-II (Statement)</th></tr></thead><tbody><tr><td style='padding:6px;'>A. Simple Random Sampling</td><td style='padding:6px;'>I. Population is divided into groups of elements</td></tr><tr><td style='padding:6px;'>B. Non-Probability Sampling</td><td style='padding:6px;'>II. Every sample element is selected independently from the population</td></tr><tr><td style='padding:6px;'>C. Cluster Sampling</td><td style='padding:6px;'>III. Elements are selected by picking a random starting point and then choosing iᵗʰ element consecutively from population</td></tr><tr><td style='padding:6px;'>D. Systematic Sampling</td><td style='padding:6px;'>IV. Selection of sample unit depends on the personal judgment</td></tr></tbody></table><br>Choose the correct answer from the options given below:",
+        "options": ["A-IV, B-II, C-I, D-III", "A-II, B-IV, C-III, D-I", "A-I, B-II, C-III, D-IV", "A-II, B-IV, C-I, D-III"],
+        "explanation": "<strong>Matching Sampling Methods:</strong><br>• <strong>Simple Random Sampling (A-II):</strong> Every individual has an equal and independent chance of being selected.<br>• <strong>Non-Probability Sampling (B-IV):</strong> Does not involve random selection; relies on personal judgment or convenience.<br>• <strong>Cluster Sampling (C-I):</strong> The total population is divided into naturally occurring groups (clusters) of elements.<br>• <strong>Systematic Sampling (D-III):</strong> Relies on arranging the target population, picking a random start, and picking every $i^{th}$ element."
+      },
+      "hi": {
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%;'><thead><tr><th style='padding:8px;'>सूची-I (नमूनाकरण का प्रकार)</th><th style='padding:8px;'>सूची-II (कथन)</th></tr></thead><tbody><tr><td style='padding:6px;'>A. सरल यादृच्छिक नमूनाकरण</td><td style='padding:6px;'>I. जनसंख्या को तत्वों के समूहों में विभाजित किया गया है</td></tr><tr><td style='padding:6px;'>B. गैर-संभाव्यता नमूनाकरण</td><td style='padding:6px;'>II. प्रत्येक नमूना तत्व जनसंख्या से स्वतंत्र रूप से चुना जाता है</td></tr><tr><td style='padding:6px;'>C. क्लस्टर नमूनाकरण</td><td style='padding:6px;'>III. तत्वों का चयन एक यादृच्छिक प्रारंभिक बिंदु चुनकर और फिर जनसंख्या से क्रमिक रूप से iᵗʰ तत्व चुनकर किया जाता है</td></tr><tr><td style='padding:6px;'>D. व्यवस्थित नमूनाकरण</td><td style='padding:6px;'>IV. नमूना इकाई का चयन व्यक्तिगत निर्णय पर निर्भर करता है</td></tr></tbody></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["A-IV, B-II, C-I, D-III", "A-II, B-IV, C-III, D-I", "A-I, B-II, C-III, D-IV", "A-II, B-IV, C-I, D-III"],
+        "explanation": "<strong>नमूनाकरण (Sampling) विधियों का मिलान:</strong><br>• <strong>सरल यादृच्छिक नमूनाकरण (A-II):</strong> प्रत्येक व्यक्ति को चुने जाने का समान और स्वतंत्र अवसर मिलता है।<br>• <strong>गैर-संभाव्यता नमूनाकरण (B-IV):</strong> इसमें यादृच्छिक चयन शामिल नहीं है; यह व्यक्तिगत निर्णय (judgment) या सुविधा पर निर्भर करता है।<br>• <strong>क्लस्टर नमूनाकरण (C-I):</strong> कुल जनसंख्या को तत्वों के स्वाभाविक रूप से होने वाले समूहों (क्लस्टर) में विभाजित किया जाता है।<br>• <strong>व्यवस्थित नमूनाकरण (D-III):</strong> लक्षित जनसंख्या को व्यवस्थित करने, एक यादृच्छिक शुरुआत चुनने और हर $i^{वें}$ तत्व को चुनने पर निर्भर करता है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q21",
+    "difficulty": "easy",
+    "correct": 2,
+    "unitEN": "Unit 8: Information and Communication Technology (ICT)",
+    "unitHI": "इकाई 8: सूचना और संचार प्रौद्योगिकी (ICT)",
+    "topicEN": "ICT General Abbreviations and Terminology",
+    "topicHI": "ICT सामान्य संक्षिप्तियाँ और शब्दावली",
+    "content": {
+      "en": {
+        "question": "Performance of computer hardware components is measured in different ways. Which of the following hardware component's performance is measured in Hertz?",
+        "options": ["Hard Disk Drive (HDD)", "Solid State Drive (SSD)", "CPU", "Laser Printer"],
+        "explanation": "The performance (clock speed) of a <strong>CPU (Central Processing Unit)</strong> is measured in <strong>Hertz (Hz)</strong>, typically Gigahertz (GHz) in modern computers. It determines how many instructions the processor can execute per second. <br>• HDD/SSD speeds are measured in RPM or MB/s.<br>• Printers are measured in PPM (Pages Per Minute)."
+      },
+      "hi": {
+        "question": "कंप्यूटर हार्डवेयर घटकों का प्रदर्शन विभिन्न तरीकों से मापा जाता है। निम्नलिखित में से किस हार्डवेयर घटक का प्रदर्शन हर्ट्ज़ (Hertz) में मापा जाता है?",
+        "options": ["हार्ड डिस्क ड्राइव (HDD)", "सॉलिड स्टेट ड्राइव (SSD)", "CPU", "लेज़र प्रिंटर"],
+        "explanation": "<strong>CPU (सेंट्रल प्रोसेसिंग यूनिट)</strong> का प्रदर्शन (क्लॉक स्पीड) <strong>हर्ट्ज (Hz)</strong> में मापा जाता है, आमतौर पर आधुनिक कंप्यूटरों में गीगाहर्ट्ज (GHz) में। यह निर्धारित करता है कि प्रोसेसर प्रति सेकंड कितने निर्देश निष्पादित कर सकता है।<br>• HDD/SSD की गति RPM या MB/s में मापी जाती है।<br>• प्रिंटर को PPM (प्रति मिनट पेज) में मापा जाता है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q22",
+    "difficulty": "easy",
+    "correct": 2,
+    "unitEN": "Unit 4: Communication",
+    "unitHI": "इकाई 4: संचार",
+    "topicEN": "Types and Characteristics of Communication",
+    "topicHI": "संचार के प्रकार और विशेषताएं",
+    "content": {
+      "en": {
+        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%;'><thead><tr><th style='padding:8px;'>LIST-I (Terminology)</th><th style='padding:8px;'>LIST-II (Meaning)</th></tr></thead><tbody><tr><td style='padding:6px;'>A. Verbal Communication</td><td style='padding:6px;'>I. Use of spoken or written words</td></tr><tr><td style='padding:6px;'>B. Non-Verbal Communication</td><td style='padding:6px;'>II. Facial expression and body language</td></tr><tr><td style='padding:6px;'>C. Encoding</td><td style='padding:6px;'>III. Converting thoughts into message</td></tr><tr><td style='padding:6px;'>D. Decoding</td><td style='padding:6px;'>IV. Interpreting the message</td></tr></tbody></table><br>Choose the correct answer from the options given below:",
+        "options": ["A-II, B-I, C-III, D-IV", "A-I, B-II, C-IV, D-III", "A-I, B-II, C-III, D-IV", "A-III, B-I, C-IV, D-II"],
+        "explanation": "<strong>Matching Communication Terminology:</strong><br>• <strong>Verbal Communication (A-I):</strong> Involves the use of spoken or written words.<br>• <strong>Non-Verbal Communication (B-II):</strong> Communication without words, using facial expressions, body language, gestures, etc.<br>• <strong>Encoding (C-III):</strong> The sender converting thoughts/ideas into a communicable message.<br>• <strong>Decoding (D-IV):</strong> The receiver interpreting and understanding the message.<br>Correct Option is 3 (A-I, B-II, C-III, D-IV)."
+      },
+      "hi": {
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%;'><thead><tr><th style='padding:8px;'>सूची-I (शब्दावली)</th><th style='padding:8px;'>सूची-II (अर्थ)</th></tr></thead><tbody><tr><td style='padding:6px;'>A. मौखिक संचार</td><td style='padding:6px;'>I. बोले या लिखे शब्दों का प्रयोग</td></tr><tr><td style='padding:6px;'>B. गैर-मौखिक संचार</td><td style='padding:6px;'>II. चेहरे के भाव और शारीरिक भाषा</td></tr><tr><td style='padding:6px;'>C. एन्कोडिंग</td><td style='padding:6px;'>III. विचारों को संदेश में बदलना</td></tr><tr><td style='padding:6px;'>D. डिकोडिंग</td><td style='padding:6px;'>IV. संदेश की व्याख्या करना</td></tr></tbody></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["A-II, B-I, C-III, D-IV", "A-I, B-II, C-IV, D-III", "A-I, B-II, C-III, D-IV", "A-III, B-I, C-IV, D-II"],
+        "explanation": "<strong>संचार शब्दावली का मिलान:</strong><br>• <strong>मौखिक संचार (A-I):</strong> इसमें बोले या लिखे गए शब्दों का उपयोग शामिल है।<br>• <strong>गैर-मौखिक संचार (B-II):</strong> बिना शब्दों के संचार, चेहरे के भाव, शारीरिक भाषा (body language), इशारों आदि का उपयोग करना।<br>• <strong>एन्कोडिंग (C-III):</strong> प्रेषक अपने विचारों को एक संचारी संदेश में परिवर्तित करता है।<br>• <strong>डिकोडिंग (D-IV):</strong> रिसीवर संदेश की व्याख्या करता है और उसे समझता है।<br>सही विकल्प 3 (A-I, B-II, C-III, D-IV) है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q23",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 10: Higher Education System",
+    "unitHI": "इकाई 10: उच्च शिक्षा प्रणाली",
+    "topicEN": "Institutions of Higher Learning in Ancient India",
+    "topicHI": "प्राचीन भारत में उच्च शिक्षा के संस्थान",
+    "content": {
+      "en": {
+        "question": "Which of the following statements are true regarding Takshashila?<br><br>A. The great grammarian Panini had his education there.<br>B. Kautilya was a learner there.<br>C. It had its gates open to all providing free education.<br>D. Students had to pay for their education.<br><br>Choose the correct answer from the options given below:",
+        "options": ["B and D only", "A, B and C only", "A and D only", "A, B and D only"],
+        "explanation": "<strong>Facts about Takshashila University:</strong><br>• <strong>(A) True:</strong> Panini, the famous Sanskrit grammarian, studied and taught here.<br>• <strong>(B) True:</strong> Chanakya (Kautilya), the author of Arthashastra, was both a student and teacher here.<br>• <strong>(C) False / (D) True:</strong> Unlike Nalanda, Takshashila was NOT completely free for everyone. While poor students could pay through manual service to their teachers, wealthy students generally had to pay a fee (often upfront). So it did not provide blanket free education."
+      },
+      "hi": {
+        "question": "तक्षशिला के संबंध में निम्नलिखित में से कौन से कथन सत्य हैं?<br><br>A. महान व्याकरणविद पाणिनी ने यहीं शिक्षा प्राप्त की थी।<br>B. कौटिल्य ने यहीं शिक्षा प्राप्त की थी।<br>C. इसके द्वार सभी के लिए खुले थे और निःशुल्क शिक्षा प्रदान करते थे।<br>D. छात्रों को अपनी शिक्षा के लिए शुल्क देना पड़ता था।<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["केवल B और D", "केवल A, B और C", "केवल A और D", "केवल A, B और D"],
+        "explanation": "<strong>तक्षशिला विश्वविद्यालय के बारे में तथ्य:</strong><br>• <strong>(A) सत्य:</strong> प्रसिद्ध संस्कृत वैयाकरण पाणिनी ने यहाँ अध्ययन किया और पढ़ाया।<br>• <strong>(B) सत्य:</strong> अर्थशास्त्र के लेखक चाणक्य (कौटिल्य) यहाँ छात्र और शिक्षक दोनों थे।<br>• <strong>(C) असत्य / (D) सत्य:</strong> नालंदा के विपरीत, तक्षशिला सभी के लिए पूरी तरह से मुफ्त नहीं थी। जबकि गरीब छात्र अपने शिक्षकों की शारीरिक सेवा के माध्यम से भुगतान कर सकते थे, धनी छात्रों को आम तौर पर शुल्क देना पड़ता था। इसलिए इसने पूरी तरह से मुफ्त शिक्षा प्रदान नहीं की।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q24",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 10: Higher Education System",
+    "unitHI": "इकाई 10: उच्च शिक्षा प्रणाली",
+    "topicEN": "Policies, Governance, and Administration",
+    "topicHI": "नीतियाँ, शासन और प्रशासन",
+    "content": {
+      "en": {
+        "question": "The bill floated by Ministry of Human Resource Development to repeal the UGC Act, 1956, is called:",
+        "options": ["Higher Education Reforms Bill", "University Education Reforms Bill", "University Education Commission Bill", "Higher Education Commission of India Bill"],
+        "explanation": "The Ministry of Human Resource Development (now Ministry of Education) drafted a bill to repeal the UGC Act of 1956 and replace the University Grants Commission (UGC) with a new apex regulatory body. This bill is officially known as the <strong>Higher Education Commission of India (HECI) Bill</strong>."
+      },
+      "hi": {
+        "question": "मानव संसाधन विकास मंत्रालय द्वारा यूजीसी अधिनियम, 1956 को निरस्त करने के लिए प्रस्तुत विधेयक को क्या कहा जाता है?",
+        "options": ["उच्च शिक्षा सुधार विधेयक", "विश्वविद्यालय शिक्षा सुधार विधेयक", "विश्वविद्यालय शिक्षा आयोग विधेयक", "भारतीय उच्च शिक्षा आयोग (HECI) विधेयक"],
+        "explanation": "मानव संसाधन विकास मंत्रालय (अब शिक्षा मंत्रालय) ने 1956 के यूजीसी अधिनियम को निरस्त करने और विश्वविद्यालय अनुदान आयोग (UGC) को एक नए शीर्ष नियामक निकाय के साथ बदलने के लिए एक विधेयक का मसौदा तैयार किया। इस विधेयक को आधिकारिक तौर पर <strong>भारतीय उच्च शिक्षा आयोग (HECI) विधेयक</strong> के रूप में जाना जाता है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q25",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 9: People, Development and Environment",
+    "unitHI": "इकाई 9: लोग, विकास और पर्यावरण",
+    "topicEN": "Environmental Issues and Air Pollution",
+    "topicHI": "पर्यावरणीय मुद्दे और वायु प्रदूषण",
+    "content": {
+      "en": {
+        "question": "T of BTEX (Air pollutant) stands for:",
+        "options": ["Tetra Ethyl lead (TEL)", "Toluene", "TriNitro Toluene (TNT)", "Tri Chloroethylene (TCE)"],
+        "explanation": "In environmental science, <strong>BTEX</strong> is an acronym for a group of Volatile Organic Compounds (VOCs) that are prominent air pollutants, often found in petroleum products. It stands for Benzene, <strong>Toluene</strong>, Ethylbenzene, and Xylene. Therefore, T stands for Toluene."
+      },
+      "hi": {
+        "question": "BTEX (वायु प्रदूषक) का T क्या है?",
+        "options": ["टेट्रा एथिल लेड (TEL)", "टोल्यूनिन (Toluene)", "ट्राइनाइट्रो टोल्यूनन (TNT)", "ट्राई क्लोरोएथिलीन (TCE)"],
+        "explanation": "पर्यावरण विज्ञान में, <strong>BTEX</strong> वाष्पशील कार्बनिक यौगिकों (VOC) के एक समूह का संक्षिप्त नाम है जो प्रमुख वायु प्रदूषक हैं, जो अक्सर पेट्रोलियम उत्पादों में पाए जाते हैं। इसका अर्थ बेंजीन, <strong>टोल्यूनिन (Toluene)</strong>, एथिलबेंजीन और जाइलीन है। इसलिए, T का अर्थ टोल्यूनिन (Toluene) है।"
+      }
+    }
+  }, 
+  // ─────────────────────────────────────────────────────────────────────────────
+// 2. EXTRACTED QUESTIONS ARRAY (Q26 to Q50)
+// ─────────────────────────────────────────────────────────────────────────────
+
+  {
+    "id": "jan25-16-s2-p1-q26",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 8: Information and Communication Technology (ICT)",
+    "unitHI": "इकाई 8: सूचना और संचार प्रौद्योगिकी (ICT)",
+    "topicEN": "ICT General Abbreviations and Terminology",
+    "topicHI": "ICT सामान्य संक्षिप्ताक्षर और शब्दावली",
+    "content": {
+      "en": {
+        "question": "The abbreviation S/MIME implies ________.",
+        "options": [
+          "Secure / Multimedia Internet Mailing Extensions",
+          "Secure / Multipurpose Internet Multimedia Extensions",
+          "Standard / Multimedia Internet Media Extensions",
+          "Secure / Multipurpose Internet Mail Extensions"
+        ],
+        "explanation": "<strong>S/MIME</strong> stands for <strong>Secure/Multipurpose Internet Mail Extensions</strong>. It is a widely accepted protocol for sending digitally signed and encrypted messages over the internet, ensuring email security and authenticity."
+      },
+      "hi": {
+        "question": "संक्षिप्त नाम S/MIME का तात्पर्य ________ है।",
+        "options": [
+          "सुरक्षित / मल्टीमीडिया इंटरनेट मेलिंग एक्सटेंशन",
+          "सुरक्षित/बहुउद्देशीय इंटरनेट मल्टीमीडिया एक्सटेंशन",
+          "मानक / मल्टीमीडिया इंटरनेट मीडिया एक्सटेंशन",
+          "सुरक्षित/बहुउद्देशीय इंटरनेट मेल एक्सटेंशन (Secure/Multipurpose Internet Mail Extensions)"
+        ],
+        "explanation": "<strong>S/MIME</strong> का अर्थ <strong>सिक्योर/मल्टीपरपज इंटरनेट मेल एक्सटेंशन (Secure/Multipurpose Internet Mail Extensions)</strong> है। यह इंटरनेट पर डिजिटल रूप से हस्ताक्षरित और एन्क्रिप्टेड संदेश भेजने के लिए एक व्यापक रूप से स्वीकृत प्रोटोकॉल है, जो ईमेल सुरक्षा और प्रामाणिकता सुनिश्चित करता है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q27",
+    "difficulty": "medium",
+    "correct": 2,
+    "unitEN": "Unit 10: Higher Education System",
+    "unitHI": "इकाई 10: उच्च शिक्षा प्रणाली",
+    "topicEN": "Policies, Governance and Administration",
+    "topicHI": "नीतियाँ, शासन और प्रशासन",
+    "content": {
+      "en": {
+        "question": "Which of the following are the features of the Choice Based Credit System (CBCS)?<br><br>A. Enhancement of learning opportunities of the learners.<br>B. Flexibility for working learners to complete the programme over an extended period of time.<br>C. Improvement in educational quality and excellence.<br>D. Compatibility between the learners' scholastic abilities and aspirations.<br><br>Choose the correct answer from the options given below:",
+        "options": [
+          "A and D only",
+          "B, C and D only",
+          "A, B, C and D",
+          "A, B and C only"
+        ],
+        "explanation": "The <strong>Choice Based Credit System (CBCS)</strong> introduced by UGC offers a flexible and learner-centric approach.<br>• It enhances learning opportunities by offering core, elective, and skill-based courses (A).<br>• It provides flexibility in the time frame to complete a degree (B).<br>• It aims at overall educational quality improvement (C).<br>• It allows students to choose subjects matching their abilities and aspirations (D).<br>Hence, all statements A, B, C, and D are correct features."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से कौन सी च्वाइस बेस्ड क्रेडिट सिस्टम (सीबीसीएस) की विशेषताएं हैं?<br><br>A. शिक्षार्थियों के सीखने के अवसरों में वृद्धि।<br>B. कार्यरत शिक्षार्थियों के लिए कार्यक्रम को लंबे समय तक पूरा करने की लचीलापन।<br>C. शैक्षिक गुणवत्ता और उत्कर्षता में सुधार।<br>D. शिक्षार्थियों की शैक्षिक क्षमताओं और आकांक्षाओं के बीच अनुकूलता।<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "केवल A और D",
+          "केवल B, C और D",
+          "A, B, C और D",
+          "केवल A, B और C"
+        ],
+        "explanation": "यूजीसी (UGC) द्वारा शुरू किया गया <strong>चॉइस बेस्ड क्रेडिट सिस्टम (CBCS)</strong> एक लचीला और शिक्षार्थी-केंद्रित दृष्टिकोण प्रदान करता है।<br>• यह कोर, इलेक्टिव और कौशल-आधारित पाठ्यक्रम (A) प्रदान करके सीखने के अवसरों को बढ़ाता है।<br>• यह डिग्री (B) को पूरा करने के लिए समय सीमा में लचीलापन प्रदान करता है।<br>• इसका उद्देश्य समग्र शैक्षिक गुणवत्ता सुधार (C) है।<br>• यह छात्रों को अपनी क्षमताओं और आकांक्षाओं (D) से मेल खाने वाले विषयों को चुनने की अनुमति देता है।<br>अतः, सभी कथन A, B, C और D सही विशेषताएं हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q28",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 10: Higher Education System",
+    "unitHI": "इकाई 10: उच्च शिक्षा प्रणाली",
+    "topicEN": "Evolution of Higher Learning in Post-Independence India",
+    "topicHI": "स्वतंत्रता के बाद भारत में उच्च शिक्षा का विकास",
+    "content": {
+      "en": {
+        "question": "Which of the following was established in 1925 to promote University activities by sharing information and co-operation in the field of education, culture, sports and allied areas?",
+        "options": [
+          "Inter-University Accelerator",
+          "Board of Higher Studies",
+          "Central Board of University Education",
+          "Inter-University Board (later known as Association of Indian Universities)"
+        ],
+        "explanation": "The <strong>Inter-University Board (IUB)</strong> was established in <strong>1925</strong> to promote cooperation among Indian Universities in the fields of education, culture, and sports. In 1973, it was renamed as the <strong>Association of Indian Universities (AIU)</strong>."
+      },
+      "hi": {
+        "question": "शिक्षा, संस्कृति, खेल और संबद्ध क्षेत्रों में सूचना और सहयोग साझा करके विश्वविद्यालय की गतिविधियों को बढ़ावा देने के लिए 1925 में निम्नलिखित में से किसकी स्थापना की गई थी?",
+        "options": [
+          "अंतर-विश्वविद्यालय त्वरक",
+          "उच्च अध्ययन बोर्ड",
+          "केंद्रीय विश्वविद्यालय शिक्षा बोर्ड",
+          "अंतर-विश्वविद्यालय बोर्ड (जिसे बाद में भारतीय विश्वविद्यालय संघ - AIU के नाम से जाना गया)"
+        ],
+        "explanation": "शिक्षा, संस्कृति और खेल के क्षेत्र में भारतीय विश्वविद्यालयों के बीच सहयोग को बढ़ावा देने के लिए <strong>1925</strong> में <strong>अंतर-विश्वविद्यालय बोर्ड (IUB)</strong> की स्थापना की गई थी। 1973 में, इसका नाम बदलकर <strong>एसोसिएशन ऑफ इंडियन यूनिवर्सिटीज (AIU)</strong> कर दिया गया।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q29",
+    "difficulty": "medium",
+    "correct": 0,
+    "unitEN": "Unit 8: Information and Communication Technology (ICT)",
+    "unitHI": "इकाई 8: सूचना और संचार प्रौद्योगिकी (ICT)",
+    "topicEN": "ICT General Abbreviations and Terminology",
+    "topicHI": "ICT सामान्य संक्षिप्ताक्षर और शब्दावली",
+    "content": {
+      "en": {
+        "question": "Identify the correct order of the terms A-E related to document production to complete the following paragraph.<br><br><em>The unit used to measure the size of a font is called ______. A page orientation can be either ______ or ______. The special margin that is placed at the top or edge to clear the text from the fold in a page is called the ______. When the first line of a paragraph appears in the last line of a page, then this is called ______.</em><br><br>A. Portrait<br>B. Gutter<br>C. Point<br>D. Orphan<br>E. Landscape<br><br>Choose the correct answer from the options given below:",
+        "options": [
+          "C, A, E, B, D",
+          "B, E, A, C, D",
+          "A, D, B, C, E",
+          "C, B, A, D, E"
+        ],
+        "explanation": "<strong>Filling the blanks in order:</strong><br>1. The unit used to measure the size of a font is called <strong>Point (C)</strong>.<br>2 & 3. A page orientation can be either <strong>Portrait (A)</strong> or <strong>Landscape (E)</strong>.<br>4. The special margin placed to clear the text from the fold (binding) is called the <strong>Gutter (B)</strong> margin.<br>5. When the first line of a paragraph appears at the bottom of a page, it is called an <strong>Orphan (D)</strong>.<br>Correct Order: C, A, E, B, D."
+      },
+      "hi": {
+        "question": "निम्नलिखित पैराग्राफ को पूरा करने के लिए दस्तावेज़ उत्पादन से संबंधित शब्दों A-E का सही क्रम पहचानें।<br><br><em>फॉन्ट के आकार को मापने के लिए इस्तेमाल की जाने वाली इकाई को ______ कहा जाता है। पेज ओरिएंटेशन ______ या ______ हो सकता है। किसी पेज में फोल्ड से टेक्स्ट को हटाने के लिए सबसे ऊपर या किनारे पर रखा गया विशेष मार्जिन ______ कहलाता है। जब पैराग्राफ की पहली लाइन पेज की आखिरी लाइन में दिखाई देती है, तो इसे ______ कहते हैं।</em><br><br>A. पोर्ट्रेट<br>B. गटर<br>C. बिंदु (Point)<br>D. अनाथ (Orphan)<br>E. लैंडस्केप<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "C, A, E, B, D",
+          "B, E, A, C, D",
+          "A, D, B, C, E",
+          "C, B, A, D, E"
+        ],
+        "explanation": "<strong>क्रम में रिक्त स्थान भरना:</strong><br>1. फ़ॉन्ट के आकार को मापने के लिए उपयोग की जाने वाली इकाई को <strong>पॉइंट/बिंदु (C)</strong> कहा जाता है।<br>2 और 3. एक पेज ओरिएंटेशन <strong>पोर्ट्रेट (A)</strong> या <strong>लैंडस्केप (E)</strong> हो सकता है।<br>4. बाइंडिंग (तह) से टेक्स्ट को बचाने के लिए रखे गए विशेष मार्जिन को <strong>गटर (B)</strong> कहा जाता है।<br>5. जब किसी पैराग्राफ की पहली लाइन किसी पेज के निचले भाग में दिखाई देती है, तो उसे <strong>ऑर्फन / अनाथ (D)</strong> कहा जाता है।<br>सही क्रम: C, A, E, B, D."
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q30",
+    "difficulty": "hard",
+    "correct": 2,
+    "unitEN": "Unit 5: Mathematical Reasoning and Aptitude",
+    "unitHI": "इकाई 5: गणितीय तर्क और अभिरुचि",
+    "topicEN": "Time and Work",
+    "topicHI": "समय और कार्य",
+    "content": {
+      "en": {
+        "question": "Ayush and Bilal can do a job in 'D' days. If Ayush can alone do the job in D+3 days and Bilal alone can do the job in D+12 days, find the value of D.",
+        "options": ["9", "8", "6", "5"],
+        "explanation": "<strong>Mathematical Shortcut (Standard Time & Work trick):</strong><br>If two people together take $D$ days to complete a job, and individually they take $D+a$ and $D+b$ days, then the value of $D$ is directly given by the formula:<br><strong>$D = \\sqrt{a \\times b}$</strong><br>Here, $a = 3$ (Ayush takes $D+3$) and $b = 12$ (Bilal takes $D+12$).<br>$D = \\sqrt{3 \\times 12} = \\sqrt{36} = $ <strong>6 days</strong>."
+      },
+      "hi": {
+        "question": "आयुष और बिलाल एक काम को 'D' दिनों में पूरा कर सकते हैं। यदि आयुष अकेले उस काम को D+3 दिनों में पूरा कर सकता है और बिलाल अकेले उस काम को D+12 दिनों में पूरा कर सकता है, तो D का मान ज्ञात कीजिए।",
+        "options": ["9", "8", "6", "5"],
+        "explanation": "<strong>गणितीय शॉर्टकट (मानक समय और कार्य की ट्रिक):</strong><br>यदि दो लोग एक साथ किसी काम को पूरा करने में $D$ दिन लेते हैं, और व्यक्तिगत रूप से वे $D+a$ और $D+b$ दिन लेते हैं, तो $D$ का मान सीधे सूत्र द्वारा दिया जाता है:<br><strong>$D = \\sqrt{a \\times b}$</strong><br>यहाँ, $a = 3$ (आयुष $D+3$ लेता है) और $b = 12$ (बिलाल $D+12$ लेता है)।<br>$D = \\sqrt{3 \\times 12} = \\sqrt{36} = $ <strong>6 दिन</strong>।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q31",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 8: Information and Communication Technology (ICT)",
+    "unitHI": "इकाई 8: सूचना और संचार प्रौद्योगिकी (ICT)",
+    "topicEN": "ICT General Abbreviations and Terminology",
+    "topicHI": "ICT सामान्य संक्षिप्ताक्षर और शब्दावली",
+    "content": {
+      "en": {
+        "question": "Which of the following are examples of an application software?<br><br>A. Internet Explorer<br>B. Mozilla Firefox<br>C. Microsoft Office<br>D. Apache Open Office<br>E. Apple iOS<br><br>Choose the correct answer from the options given below:",
+        "options": [
+          "A, B, and C only",
+          "A, B, C, and D only",
+          "D and E only",
+          "A, B, C, D, and E"
+        ],
+        "explanation": "<strong>Application Software vs System Software:</strong><br>• <strong>Application Software:</strong> Programs designed to perform specific tasks for users (e.g., Web Browsers like IE and Firefox, Office suites like MS Office and Apache Open Office). So A, B, C, and D are application softwares.<br>• <strong>System Software:</strong> Operating systems that manage hardware (e.g., Apple iOS, Windows, Android). So E is a system software, NOT an application software."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से कौन सा एप्लिकेशन सॉफ्टवेयर का उदाहरण है?<br><br>A. इंटरनेट एक्सप्लोरर<br>B. मोज़िला फायरफॉक्स<br>C. माइक्रोसॉफ्ट ऑफिस<br>D. अपाचे ओपन ऑफिस<br>E. एप्पल iOS<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "केवल A, B और C",
+          "केवल A, B, C और D",
+          "केवल D और E",
+          "A, B, C, D और E"
+        ],
+        "explanation": "<strong>एप्लिकेशन सॉफ्टवेयर बनाम सिस्टम सॉफ्टवेयर:</strong><br>• <strong>एप्लिकेशन सॉफ्टवेयर:</strong> उपयोगकर्ताओं के लिए विशिष्ट कार्य करने के लिए डिज़ाइन किए गए प्रोग्राम (जैसे वेब ब्राउज़र जैसे IE और फ़ायरफ़ॉक्स, Office सूट जैसे MS Office और अपाचे ओपन ऑफिस)। इसलिए A, B, C और D एप्लिकेशन सॉफ़्टवेयर हैं।<br>• <strong>सिस्टम सॉफ्टवेयर:</strong> ऑपरेटिंग सिस्टम जो हार्डवेयर का प्रबंधन करते हैं (जैसे Apple iOS, Windows, Android)। इसलिए E एक सिस्टम सॉफ्टवेयर है, एप्लिकेशन सॉफ्टवेयर नहीं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q32",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 8: Information and Communication Technology (ICT)",
+    "unitHI": "इकाई 8: सूचना और संचार प्रौद्योगिकी (ICT)",
+    "topicEN": "Basics of Internet, Intranet and Cyber Security",
+    "topicHI": "इंटरनेट, इंट्रानेट और साइबर सुरक्षा की मूल बातें",
+    "content": {
+      "en": {
+        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%;'><tr><th>LIST-I (Malware term)</th><th>LIST-II (Definition)</th></tr><tr><td>A. Payload</td><td>I. A program that can replicate itself and travels over network</td></tr><tr><td>B. Worm</td><td>II. Scam in which a perpetrator sends an official looking email message that attempts to obtain personal and/or financial information</td></tr><tr><td>C. Phishing</td><td>III. Destructive event or prank, a virus was created to deliver</td></tr><tr><td>D. Spamming</td><td>IV. E-mailing an unsolicited message to many people at the same time</td></tr></table><br>Choose the correct answer from the options given below:",
+        "options": [
+          "A-IV, B-I, C-II, D-III",
+          "A-III, B-I, C-II, D-IV",
+          "A-II, B-III, C-IV, D-I",
+          "A-III, B-II, C-I, D-IV"
+        ],
+        "explanation": "<strong>Matching Malware Definitions:</strong><br>• <strong>Payload (A-III):</strong> The actual malicious code/destructive event that a virus delivers or executes.<br>• <strong>Worm (B-I):</strong> A standalone malware program that replicates itself and spreads automatically across networks.<br>• <strong>Phishing (C-II):</strong> A fraudulent scam using fake \"official\" emails to steal sensitive personal or financial information.<br>• <strong>Spamming (D-IV):</strong> Sending unsolicited, bulk (junk) messages to multiple people."
+      },
+      "hi": {
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%;'><tr><th>सूची-I (मैलवेयर शब्द)</th><th>सूची-II (परिभाषा)</th></tr><tr><td>A. पेलोड</td><td>I. एक प्रोग्राम जो स्वयं की प्रतिलिपि बना सकता है और नेटवर्क पर यात्रा कर सकता है</td></tr><tr><td>B. वर्म</td><td>II. घोटाला जिसमें अपराधी एक आधिकारिक दिखने वाला ईमेल संदेश भेजता है जो व्यक्तिगत और/या वित्तीय जानकारी प्राप्त करने का प्रयास करता है</td></tr><tr><td>C. फिशिंग</td><td>III. विनाशकारी घटना या शरारत, एक वायरस को वितरित करने के लिए बनाया गया था</td></tr><tr><td>D. स्पैमिंग</td><td>IV. एक ही समय में कई लोगों को अनचाहा संदेश ई-मेल करना</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "A-IV, B-I, C-II, D-III",
+          "A-III, B-I, C-II, D-IV",
+          "A-II, B-III, C-IV, D-I",
+          "A-III, B-II, C-I, D-IV"
+        ],
+        "explanation": "<strong>मैलवेयर परिभाषाओं का मिलान:</strong><br>• <strong>पेलोड (A-III):</strong> वास्तविक दुर्भावनापूर्ण कोड/विनाशकारी घटना जो एक वायरस वितरित या निष्पादित करता है।<br>• <strong>वर्म (B-I):</strong> एक स्टैंडअलोन मैलवेयर प्रोग्राम जो स्वयं की प्रतिलिपि बनाता है और नेटवर्क पर स्वचालित रूप से फैलता है।<br>• <strong>फिशिंग (C-II):</strong> संवेदनशील व्यक्तिगत या वित्तीय जानकारी चुराने के लिए नकली \"आधिकारिक\" ईमेल का उपयोग करने वाला एक कपटपूर्ण घोटाला।<br>• <strong>स्पैमिंग (D-IV):</strong> कई लोगों को अनचाहे, थोक (जंक) संदेश भेजना।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q33",
+    "difficulty": "medium",
+    "correct": 2,
+    "unitEN": "Unit 4: Communication",
+    "unitHI": "इकाई 4: संचार",
+    "topicEN": "Effective Communication",
+    "topicHI": "प्रभावी संचार",
+    "content": {
+      "en": {
+        "question": "Identify the correct statements about effective communication.<br><br>A. Non-verbal Communication includes written words.<br>B. Cultural differences can affect the interpretation of a message.<br>C. Interpersonal communication involves direct interaction.<br>D. Effective communication ensures clarity and mutual understanding.<br><br>Choose the correct answer from the options given below:",
+        "options": [
+          "A and B only",
+          "A, B and C only",
+          "B, C and D only",
+          "C and D only"
+        ],
+        "explanation": "<strong>Evaluating Statements:</strong><br>• <strong>(A) False:</strong> Written words fall under <em>Verbal Communication</em>, not non-verbal. Non-verbal includes gestures, body language, facial expressions, etc.<br>• <strong>(B) True:</strong> Cultural nuances drastically change how a message is decoded and interpreted.<br>• <strong>(C) True:</strong> Interpersonal communication is the direct, face-to-face exchange between individuals.<br>• <strong>(D) True:</strong> The very definition of effective communication is that the message is received and understood clearly without distortion.<br>Therefore, only B, C, and D are correct."
+      },
+      "hi": {
+        "question": "प्रभावी संचार के बारे में सही कथनों की पहचान करें।<br><br>A. गैर-मौखिक संचार में लिखित शब्द शामिल होते हैं।<br>B. सांस्कृतिक अंतर किसी संदेश की व्याख्या को प्रभावित कर सकते हैं।<br>C. पारस्परिक संचार में प्रत्यक्ष बातचीत शामिल होती है।<br>D. प्रभावी संचार स्पष्टता और आपसी समझ सुनिश्चित करता है।<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "केवल A और B",
+          "केवल A, B और C",
+          "केवल B, C और D",
+          "केवल C और D"
+        ],
+        "explanation": "<strong>कथनों का मूल्यांकन:</strong><br>• <strong>(A) असत्य:</strong> लिखित शब्द <em>मौखिक संचार (Verbal Communication)</em> के अंतर्गत आते हैं, गैर-मौखिक नहीं। गैर-मौखिक में इशारे, शरीर की भाषा, चेहरे के भाव आदि शामिल हैं।<br>• <strong>(B) सत्य:</strong> सांस्कृतिक बारीकियां काफी हद तक बदल देती हैं कि किसी संदेश को कैसे समझा और व्याख्या की जाती है।<br>• <strong>(C) सत्य:</strong> पारस्परिक संचार (Interpersonal communication) व्यक्तियों के बीच प्रत्यक्ष, आमने-सामने का आदान-प्रदान है।<br>• <strong>(D) सत्य:</strong> प्रभावी संचार की परिभाषा ही यह है कि संदेश बिना किसी विकृति के स्पष्ट रूप से प्राप्त और समझा जाता है।<br>इसलिए, केवल B, C और D सही हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q34",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 6: Logical Reasoning",
+    "unitHI": "इकाई 6: तार्किक विचार",
+    "topicEN": "Structure of Categorical Propositions and Classical Square of Opposition",
+    "topicHI": "श्रेणीबद्ध प्रस्तावों की संरचना और विरोध का शास्त्रीय वर्ग",
+    "content": {
+      "en": {
+        "question": "If the statement: \"All cows are herbivores\" is given as true, then which of the following statements can be immediately inferred to be true?",
+        "options": [
+          "No herbivores are cows",
+          "Some cows are herbivores",
+          "Some herbivores are not cows",
+          "All non-cows are non-herbivores"
+        ],
+        "explanation": "According to the rules of <strong>Subalternation</strong> in the Classical Square of Opposition:<br>If the Universal Affirmative proposition (A: \"All S are P\") is <strong>True</strong>, then its corresponding Particular Affirmative proposition (I: \"Some S are P\") must necessarily be <strong>True</strong>.<br>Therefore, if \"All cows are herbivores\" is true, it immediately follows that \"Some cows are herbivores\" is also true."
+      },
+      "hi": {
+        "question": "यदि कथन: \"सभी गाय शाकाहारी होती हैं\" सत्य है, तो निम्नलिखित में से कौन सा कथन तुरंत सत्य माना जा सकता है?",
+        "options": [
+          "कोई शाकाहारी गाय नहीं है",
+          "कुछ गाय शाकाहारी होती हैं",
+          "कुछ शाकाहारी जानवर गाय नहीं हैं",
+          "सभी गैर-गाय गैर-शाकाहारी हैं"
+        ],
+        "explanation": "विरोध के शास्त्रीय वर्ग (Square of Opposition) में <strong>उपाश्रयण (Subalternation)</strong> के नियमों के अनुसार:<br>यदि सार्वभौमिक सकारात्मक प्रस्ताव (A: \"सभी S, P हैं\") <strong>सत्य</strong> है, तो इसका संगत विशेष सकारात्मक प्रस्ताव (I: \"कुछ S, P हैं\") अनिवार्य रूप से <strong>सत्य</strong> होना चाहिए।<br>इसलिए, यदि \"सभी गाय शाकाहारी हैं\" सत्य है, तो यह तुरंत अनुसरण करता है कि \"कुछ गाय शाकाहारी हैं\" भी सत्य है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q35",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 10: Higher Education System",
+    "unitHI": "इकाई 10: उच्च शिक्षा प्रणाली",
+    "topicEN": "Institutions of Higher Learning and Education in Ancient India",
+    "topicHI": "प्राचीन भारत में उच्च शिक्षा के संस्थान और शिक्षा",
+    "content": {
+      "en": {
+        "question": "Act of Incorporation, passed by Lord Canning in January 1857, provided for the establishment of which of the following Universities?<br><br>A. University of Calcutta<br>B. University of Delhi<br>C. University of Madras<br>D. Bombay University<br><br>Choose the correct answer from the options given below:",
+        "options": [
+          "A, B and C only",
+          "A, C and D only",
+          "B and D only",
+          "A, B, C and D"
+        ],
+        "explanation": "In 1857, following the recommendations of Charles Wood's Despatch (1854), Lord Canning passed the Act of Incorporation. This act established the first three modern universities in India in the three major presidency cities: <strong>University of Calcutta (A)</strong>, <strong>Bombay University (D)</strong>, and <strong>University of Madras (C)</strong>. Delhi University was established much later in 1922."
+      },
+      "hi": {
+        "question": "जनवरी 1857 में लॉर्ड कैनिंग द्वारा पारित निगमन अधिनियम ने निम्नलिखित में से किस विश्वविद्यालय की स्थापना का प्रावधान किया?<br><br>A. कलकत्ता विश्वविद्यालय<br>B. दिल्ली विश्वविद्यालय<br>C. मद्रास विश्वविद्यालय<br>D. बॉम्बे विश्वविद्यालय<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "केवल A, B और C",
+          "केवल A, C और D",
+          "केवल B और D",
+          "A, B, C और D"
+        ],
+        "explanation": "1857 में, चार्ल्स वुड के डिस्पैच (1854) की सिफारिशों के बाद, लॉर्ड कैनिंग ने निगमन अधिनियम (Act of Incorporation) पारित किया। इस अधिनियम ने तीन प्रमुख प्रेसीडेंसी शहरों में भारत में पहले तीन आधुनिक विश्वविद्यालयों की स्थापना की: <strong>कलकत्ता विश्वविद्यालय (A)</strong>, <strong>बॉम्बे विश्वविद्यालय (D)</strong>, और <strong>मद्रास विश्वविद्यालय (C)</strong>। दिल्ली विश्वविद्यालय बहुत बाद में 1922 में स्थापित किया गया था।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q36",
+    "difficulty": "hard",
+    "correct": 2,
+    "unitEN": "Unit 6: Logical Reasoning",
+    "unitHI": "इकाई 6: तार्किक विचार",
+    "topicEN": "Indian Logic: Hetvabhasas (Fallacies of Inference)",
+    "topicHI": "भारतीय तर्क: हेत्वाभास (अनुमान की भ्रांतियाँ)",
+    "content": {
+      "en": {
+        "question": "According to classical Indian logicians (Naiyāyikas), which of the following arguments commits the fallacy of irregular middle?",
+        "options": [
+          "Sound is a quality because it is visible",
+          "Sound is eternal because it is produced",
+          "Sound is eternal because it is audible",
+          "Fire is cold because it is a substance"
+        ],
+        "explanation": "The fallacy of Irregular Middle (<em>Savyabhicara</em> or <em>Anaikantika</em>) happens when the middle term is not uniformly concomitant with the major term. <br>The argument <strong>\"Sound is eternal, because it is audible\"</strong> commits the <em>Asadharana</em> (uncommon) form of irregular middle. 'Audibility' belongs ONLY to sound and nothing else. Since there is no other positive or negative example to establish a general rule (vyapti) between audibility and eternality, it leaves the conclusion completely uncertain."
+      },
+      "hi": {
+        "question": "नैयायिकों के अनुसार, निम्नलिखित में से कौन सा तर्क अनियमित मध्य (irregular middle) की भ्रांति को दर्शाता है?",
+        "options": [
+          "ध्वनि एक गुण है क्योंकि यह दृश्यमान है",
+          "ध्वनि शाश्वत है क्योंकि यह उत्पन्न होती है",
+          "ध्वनि शाश्वत है क्योंकि यह श्रव्य है",
+          "आग ठंडी है क्योंकि यह एक पदार्थ है"
+        ],
+        "explanation": "अनियमित मध्य (Irregular Middle / सव्यभिचार या अनैकांतिक) का भ्रम तब होता है जब मध्य पद प्रमुख पद के साथ समान रूप से सहवर्ती नहीं होता है।<br>तर्क <strong>\"ध्वनि शाश्वत है, क्योंकि यह श्रव्य है\"</strong> अनियमित मध्य के <em>असाधारण</em> रूप को दर्शाता है। 'श्रव्यता (Audibility)' केवल ध्वनि से संबंधित है और किसी अन्य चीज़ से नहीं। चूँकि श्रव्यता और शाश्वतता के बीच एक सामान्य नियम (व्याप्ति) स्थापित करने के लिए कोई अन्य सकारात्मक या नकारात्मक उदाहरण नहीं है, यह निष्कर्ष को पूरी तरह से अनिश्चित छोड़ देता है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q37",
+    "difficulty": "hard",
+    "correct": 1,
+    "unitEN": "Unit 5: Mathematical Reasoning and Aptitude",
+    "unitHI": "इकाई 5: गणितीय तर्क और अभिरुचि",
+    "topicEN": "Mathematical Aptitude - Ratio and Proportion",
+    "topicHI": "गणितीय अभिरुचि - अनुपात और समानुपात",
+    "content": {
+      "en": {
+        "question": "If V₁, V₂ are volumes and S₁, S₂ are the surface areas of two cubes then:",
+        "options": [
+          "S₁³ V₁² = S₂³ V₂²",
+          "S₁/S₂ = (V₁/V₂)^(2/3)",
+          "(V₁/V₂) = (S₁/S₂)^(3/2)",
+          "V₁S₁² = V₂S₂²"
+        ],
+        "explanation": "<strong>Mathematical Derivation:</strong><br>Let the sides of the two cubes be $a$ and $b$.<br>Volumes: $V_1 = a^3$, $V_2 = b^3$. So, $a/b = (V_1/V_2)^{1/3}$.<br>Surface Areas: $S_1 = 6a^2$, $S_2 = 6b^2$.<br>Ratio of Surface areas: $S_1/S_2 = (6a^2) / (6b^2) = (a/b)^2$.<br>Substitute $a/b$: $S_1/S_2 = ((V_1/V_2)^{1/3})^2$<br><strong>$S_1/S_2 = (V_1/V_2)^{2/3}$</strong>. This matches Option 2."
+      },
+      "hi": {
+        "question": "यदि V₁, V₂ आयतन हैं और S₁, S₂ दो घनों के पृष्ठीय क्षेत्र हैं तो:",
+        "options": [
+          "S₁³ V₁² = S₂³ V₂²",
+          "S₁/S₂ = (V₁/V₂)^(2/3)",
+          "(V₁/V₂) = (S₁/S₂)^(3/2)",
+          "V₁S₁² = V₂S₂²"
+        ],
+        "explanation": "<strong>गणितीय व्युत्पत्ति:</strong><br>मान लीजिए कि दो घनों की भुजाएँ $a$ और $b$ हैं।<br>आयतन: $V_1 = a^3$, $V_2 = b^3$। अतः, $a/b = (V_1/V_2)^{1/3}$।<br>पृष्ठीय क्षेत्रफल: $S_1 = 6a^2$, $S_2 = 6b^2$।<br>सतह क्षेत्रों का अनुपात: $S_1/S_2 = (6a^2) / (6b^2) = (a/b)^2$।<br>$a/b$ को प्रतिस्थापित करें: $S_1/S_2 = ((V_1/V_2)^{1/3})^2$<br><strong>$S_1/S_2 = (V_1/V_2)^{2/3}$</strong>। यह विकल्प 2 से मेल खाता है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q38",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 1: Teaching Aptitude",
+    "unitHI": "इकाई 1: शिक्षण अभिरुचि",
+    "topicEN": "Evaluation Systems",
+    "topicHI": "मूल्यांकन प्रणाली",
+    "content": {
+      "en": {
+        "question": "Which of the following are the features of learner-centered assessment strategies?<br><br>A. It involves multiple data sources<br>B. It involves skills depending on the needs of the learners<br>C. It involves individual and collaborative elements<br>D. It is related to student's learning goals<br>E. Learners are passively involved in the assessment process<br><br>Choose the correct answer from the options given below:",
+        "options": [
+          "A, C, D and E only",
+          "C and D only",
+          "B, D and E only",
+          "A, B, C and D only"
+        ],
+        "explanation": "<strong>Learner-Centered Assessment</strong> shifts the focus from the teacher to the student.<br>• It uses multiple data sources (A) and focuses on the specific needs (B) and goals (D) of the learner.<br>• It promotes both individual reflection and peer collaboration (C).<br>• Statement E is categorically <strong>False</strong> because in a learner-centered approach, learners are highly <strong>active</strong> (not passive) participants in their own assessment. <br>Thus, A, B, C, and D are correct."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से कौन सी शिक्षार्थी-केंद्रित मूल्यांकन रणनीतियों की विशेषताएं हैं?<br><br>A. इसमें कई डेटा स्रोत शामिल होते हैं<br>B. इसमें शिक्षार्थियों की आवश्यकताओं के आधार पर कौशल शामिल होते हैं<br>C. इसमें व्यक्तिगत और सहयोगी तत्व शामिल होते हैं<br>D. यह छात्र के सीखने के लक्ष्यों से संबंधित होता है<br>E. शिक्षार्थी मूल्यांकन प्रक्रिया में निष्क्रिय रूप से शामिल होते हैं<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "केवल A, C, D और E",
+          "केवल C और D",
+          "केवल B, D और E",
+          "केवल A, B, C और D"
+        ],
+        "explanation": "<strong>शिक्षार्थी-केंद्रित मूल्यांकन</strong> का फोकस शिक्षक से छात्र पर स्थानांतरित हो जाता है।<br>• यह कई डेटा स्रोतों (A) का उपयोग करता है और शिक्षार्थी की विशिष्ट आवश्यकताओं (B) और लक्ष्यों (D) पर ध्यान केंद्रित करता है।<br>• यह व्यक्तिगत प्रतिबिंब और सहकर्मी सहयोग (C) दोनों को बढ़ावा देता है।<br>• कथन E स्पष्ट रूप से <strong>असत्य</strong> है क्योंकि शिक्षार्थी-केंद्रित दृष्टिकोण में, शिक्षार्थी अपने स्वयं के मूल्यांकन में अत्यधिक <strong>सक्रिय</strong> (निष्क्रिय नहीं) भागीदार होते हैं।<br>इस प्रकार, A, B, C और D सही हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q39",
+    "difficulty": "hard",
+    "correct": 1,
+    "unitEN": "Unit 5: Mathematical Reasoning and Aptitude",
+    "unitHI": "इकाई 5: गणितीय तर्क और अभिरुचि",
+    "topicEN": "Mathematical Aptitude - Averages",
+    "topicHI": "गणितीय अभिरुचि - औसत",
+    "content": {
+      "en": {
+        "question": "If the mean of x, y and z is K, then the mean of x/y, 1, z/y is:",
+        "options": [
+          "K",
+          "K/y",
+          "K/x",
+          "K/z"
+        ],
+        "explanation": "<strong>Step-by-step Derivation:</strong><br>1. The mean of $x, y, z$ is $K$.<br>   $\\implies \\frac{x + y + z}{3} = K \\implies x + y + z = 3K$.<br>2. We need to find the mean of $\\frac{x}{y}$, $1$, and $\\frac{z}{y}$.<br>   Since $1$ can be written as $\\frac{y}{y}$, the terms are: $\\frac{x}{y}, \\frac{y}{y}, \\frac{z}{y}$.<br>3. Mean = $\\frac{\\frac{x}{y} + \\frac{y}{y} + \\frac{z}{y}}{3}$<br>4. Mean = $\\frac{\\frac{x + y + z}{y}}{3}$<br>5. Substitute $x + y + z = 3K$:<br>   Mean = $\\frac{\\frac{3K}{y}}{3} = \\frac{3K}{3y} = $ <strong>$\\frac{K}{y}$</strong>."
+      },
+      "hi": {
+        "question": "यदि x, y और z का माध्य K है, तो x/y, 1, z/y का माध्य क्या होगा?",
+        "options": [
+          "K",
+          "K/y",
+          "K/x",
+          "K/z"
+        ],
+        "explanation": "<strong>चरण-दर-चरण व्युत्पत्ति:</strong><br>1. $x, y, z$ का माध्य $K$ है।<br>   $\\implies \\frac{x + y + z}{3} = K \\implies x + y + z = 3K$।<br>2. हमें $\\frac{x}{y}$, $1$, और $\\frac{z}{y}$ का माध्य ज्ञात करना है।<br>   चूँकि $1$ को $\\frac{y}{y}$ के रूप में लिखा जा सकता है, इसलिए पद हैं: $\\frac{x}{y}, \\frac{y}{y}, \\frac{z}{y}$।<br>3. माध्य = $\\frac{\\frac{x}{y} + \\frac{y}{y} + \\frac{z}{y}}{3}$<br>4. माध्य = $\\frac{\\frac{x + y + z}{y}}{3}$<br>5. $x + y + z = 3K$ प्रतिस्थापित करें:<br>   माध्य = $\\frac{\\frac{3K}{y}}{3} = \\frac{3K}{3y} = $ <strong>$\\frac{K}{y}$</strong>।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q40",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 4: Communication",
+    "unitHI": "इकाई 4: संचार",
+    "topicEN": "Mass Media and Society",
+    "topicHI": "जनसंचार माध्यम और समाज",
+    "content": {
+      "en": {
+        "question": "Arrange the following developments in mass communication in chronological sequence.<br><br>A. Invention of Printing Press<br>B. Launch of first Television network<br>C. Emergence of radio broadcasting<br>D. Creation of the internet<br>E. Introduction of social Media Platforms<br><br>Choose the correct answer from the options given below:",
+        "options": [
+          "A, C, D, B, E",
+          "A, B, D, C, E",
+          "A, B, C, D, E",
+          "A, C, B, D, E"
+        ],
+        "explanation": "<strong>Timeline of Mass Communication:</strong><br>1. <strong>Printing Press (A):</strong> Invented around 1440 by Gutenberg.<br>2. <strong>Radio Broadcasting (C):</strong> Emerged in the 1920s.<br>3. <strong>Television Network (B):</strong> The first networks launched in the late 1930s to 1940s.<br>4. <strong>Internet (D):</strong> Created in the late 1960s (ARPANET) and popularized in the 1990s.<br>5. <strong>Social Media (E):</strong> Emerged in the early 2000s (e.g., MySpace, Facebook).<br>Correct Chronology: A -> C -> B -> D -> E."
+      },
+      "hi": {
+        "question": "जनसंचार में निम्नलिखित विकासों को कालानुक्रमिक क्रम में व्यवस्थित करें।<br><br>A. प्रिंटिंग प्रेस का आविष्कार<br>B. पहले टेलीविजन नेटवर्क का शुभारंभ<br>C. रेडियो प्रसारण का उदय<br>D. इंटरनेट का निर्माण<br>E. सोशल मीडिया प्लेटफॉर्म की शुरुआत<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "A, C, D, B, E",
+          "A, B, D, C, E",
+          "A, B, C, D, E",
+          "A, C, B, D, E"
+        ],
+        "explanation": "<strong>जनसंचार की समयरेखा:</strong><br>1. <strong>प्रिंटिंग प्रेस (A):</strong> 1440 के आसपास गुटेनबर्ग द्वारा आविष्कार किया गया।<br>2. <strong>रेडियो प्रसारण (C):</strong> 1920 के दशक में उभरा।<br>3. <strong>टेलीविजन नेटवर्क (B):</strong> पहला नेटवर्क 1930 के दशक के अंत से 1940 के दशक में शुरू हुआ।<br>4. <strong>इंटरनेट (D):</strong> 1960 के दशक के अंत में (ARPANET) बनाया गया और 1990 के दशक में लोकप्रिय हुआ।<br>5. <strong>सोशल मीडिया (E):</strong> 2000 के दशक की शुरुआत में उभरा (जैसे, माइस्पेस, फेसबुक)।<br>सही कालक्रम: A -> C -> B -> D -> E।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q41",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 6: Logical Reasoning",
+    "unitHI": "इकाई 6: तार्किक विचार",
+    "topicEN": "Structure of Categorical Propositions",
+    "topicHI": "श्रेणीबद्ध प्रस्तावों की संरचना",
+    "content": {
+      "en": {
+        "question": "Which of the following statements are logically equivalent?<br><br>A. Some animals are herbivores<br>B. Some non-herbivores are not animals<br>C. Some animals are non-herbivores<br>D. Some animals are not non-herbivores<br><br>Choose the correct answer from the options given below:",
+        "options": [
+          "A, B and C only",
+          "A and B only",
+          "B, C and D only",
+          "A and D only"
+        ],
+        "explanation": "Let's test equivalence using logical operations on Statement A (\"Some animals are herbivores\" - I proposition).<br>• <strong>Obversion of A:</strong> Keep subject same, change quality, negate predicate -> <em>\"Some animals are not non-herbivores.\"</em> This perfectly matches <strong>Statement D</strong>.<br>So, A and D are logically equivalent. B and C change the fundamental meaning."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से कौन से कथन तार्किक रूप से समान (logically equivalent) हैं?<br><br>A. कुछ जानवर शाकाहारी होते हैं<br>B. कुछ गैर-शाकाहारी जानवर नहीं होते हैं<br>C. कुछ जानवर गैर-शाकाहारी होते हैं<br>D. कुछ जानवर गैर-शाकाहारी नहीं होते हैं<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "केवल A, B और C",
+          "केवल A और B",
+          "केवल B, C और D",
+          "केवल A और D"
+        ],
+        "explanation": "आइए कथन A (\"कुछ जानवर शाकाहारी हैं\" - I प्रस्ताव) पर तार्किक संचालन का उपयोग करके समानता का परीक्षण करें।<br>• <strong>A का प्रतिवर्तन (Obversion):</strong> विषय (subject) को समान रखें, गुणवत्ता बदलें, विधेय (predicate) को नकारें -> <em>\"कुछ जानवर गैर-शाकाहारी नहीं हैं।\"</em> यह पूरी तरह से <strong>कथन D</strong> से मेल खाता है।<br>इसलिए, A और D तार्किक रूप से समान हैं। B और C मूल अर्थ को बदल देते हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q42",
+    "difficulty": "medium",
+    "correct": 0,
+    "unitEN": "Unit 2: Research Aptitude",
+    "unitHI": "इकाई 2: शोध अभिरुचि",
+    "topicEN": "Methods of Research",
+    "topicHI": "शोध की विधियाँ",
+    "content": {
+      "en": {
+        "question": "Which of the following is correct?",
+        "options": [
+          "Factor design is used for one dependent variable and two or more independent variables",
+          "Factor design is used for extraneous variables",
+          "Factor design has only one independent variable",
+          "Factor design is used for two or more dependent variables"
+        ],
+        "explanation": "In experimental research, a <strong>Factorial Design</strong> (or Factor design) is an experiment whose design consists of two or more independent variables (called factors), testing their individual and interactive effects on a single dependent variable."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से कौन सा सही है?",
+        "options": [
+          "कारक (Factor) डिजाइन का उपयोग एक आश्रित चर और दो या अधिक स्वतंत्र चर के लिए किया जाता है",
+          "फैक्टर डिज़ाइन का उपयोग बाह्य चरों के लिए किया जाता है",
+          "कारक डिज़ाइन में केवल एक स्वतंत्र चर होता है",
+          "फैक्टर डिज़ाइन का उपयोग दो या अधिक आश्रित चरों के लिए किया जाता है"
+        ],
+        "explanation": "प्रायोगिक शोध में, एक <strong>फैक्टोरियल डिज़ाइन</strong> (या कारक डिज़ाइन) एक ऐसा प्रयोग है जिसके डिज़ाइन में दो या दो से अधिक स्वतंत्र चर (जिन्हें कारक कहा जाता है) होते हैं, जो एक आश्रित चर पर उनके व्यक्तिगत और संवादात्मक प्रभावों का परीक्षण करते हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q43",
+    "difficulty": "easy",
+    "correct": 3,
+    "unitEN": "Unit 8: Information and Communication Technology (ICT)",
+    "unitHI": "इकाई 8: सूचना और संचार प्रौद्योगिकी (ICT)",
+    "topicEN": "Basics of Internet, Intranet and E-mail",
+    "topicHI": "इंटरनेट, इंट्रानेट और ई-मेल की मूल बातें",
+    "content": {
+      "en": {
+        "question": "Which of the following is a news website?",
+        "options": [
+          "Naptol.com",
+          "Hotstar.com",
+          "Hoot.com",
+          "NDTV.com"
+        ],
+        "explanation": "<strong>NDTV.com</strong> (New Delhi Television) is a well-known Indian news broadcaster and news website. <br>• Naaptol is an e-commerce/shopping site.<br>• Hotstar is an OTT video streaming platform.<br>• Hootsuite (Hoot) is a social media management tool."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से कौन एक समाचार वेबसाइट है?",
+        "options": [
+          "Naptol.com",
+          "Hotstar.com",
+          "Hoot.com",
+          "NDTV.com"
+        ],
+        "explanation": "<strong>NDTV.com</strong> (नई दिल्ली टेलीविजन) एक प्रसिद्ध भारतीय समाचार प्रसारक और समाचार वेबसाइट है।<br>• नापतोल एक ई-कॉमर्स/शॉपिंग साइट है।<br>• हॉटस्टार एक OTT वीडियो स्ट्रीमिंग प्लेटफॉर्म है।<br>• हूटसूट (Hoot) एक सोशल मीडिया प्रबंधन उपकरण है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q44",
+    "difficulty": "medium",
+    "correct": 0,
+    "unitEN": "Unit 1: Teaching Aptitude",
+    "unitHI": "इकाई 1: शिक्षण अभिरुचि",
+    "topicEN": "Evaluation Systems",
+    "topicHI": "मूल्यांकन प्रणाली",
+    "content": {
+      "en": {
+        "question": "Which of the following are the components of formative evaluation culture in classroom?<br><br>A. Use of multiple transactional approaches to address diverse needs of students<br>B. Identification of learning goals and tracking of individual progress<br>C. Feedback and adjustments in teaching-learning process as per the needs of students<br>D. Passive engagement of students in learning process<br><br>Choose the correct answer from the options given below:",
+        "options": [
+          "A, B, and C only",
+          "B and D only",
+          "A and D only",
+          "B and C only"
+        ],
+        "explanation": "<strong>Formative Evaluation</strong> takes place <em>during</em> the learning process to monitor student learning and provide ongoing feedback.<br>• Using multiple approaches (A), tracking individual progress (B), and providing constant feedback/adjustments (C) are core components.<br>• Passive engagement (D) contradicts formative assessment, which relies on active student involvement. Hence, A, B, and C are correct."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से कौन कक्षा में रचनात्मक मूल्यांकन संस्कृति के घटक हैं?<br><br>A. छात्रों की विविध आवश्यकताओं को पूरा करने के लिए कई लेन-देन संबंधी दृष्टिकोणों का उपयोग<br>B. सीखने के लक्ष्यों की पहचान और व्यक्तिगत प्रगति की ट्रैकिंग<br>C. छात्रों की आवश्यकताओं के अनुसार शिक्षण-अधिगम प्रक्रिया में फीडबैक और समायोजन<br>D. सीखने की प्रक्रिया में छात्रों की निष्क्रिय भागीदारी<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "केवल A, B और C",
+          "केवल B और D",
+          "केवल A और D",
+          "केवल B और C"
+        ],
+        "explanation": "<strong>रचनात्मक मूल्यांकन (Formative Evaluation)</strong> छात्र के सीखने की निगरानी करने और चल रही प्रतिक्रिया प्रदान करने के लिए सीखने की प्रक्रिया के <em>दौरान</em> होता है।<br>• कई दृष्टिकोणों का उपयोग करना (A), व्यक्तिगत प्रगति को ट्रैक करना (B), और निरंतर फीडबैक/समायोजन प्रदान करना (C) इसके मुख्य घटक हैं।<br>• निष्क्रिय भागीदारी (D) रचनात्मक मूल्यांकन का खंडन करती है, जो सक्रिय छात्र भागीदारी पर निर्भर करता है। इसलिए, A, B और C सही हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q45",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 9: People, Development and Environment",
+    "unitHI": "इकाई 9: लोग, विकास और पर्यावरण",
+    "topicEN": "Millennium Development and Sustainable Development Goals",
+    "topicHI": "सहस्राब्दि विकास और सतत विकास लक्ष्य",
+    "content": {
+      "en": {
+        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%;'><tr><th>LIST-I (Millennium Development Goal (MDG))</th><th>LIST-II (Goal)</th></tr><tr><td>A. MDG 1</td><td>I. Ensure Environmental sustainability</td></tr><tr><td>B. MDG 2</td><td>II. Reduce Child Mortality</td></tr><tr><td>C. MDG 4</td><td>III. Achieve universal Primary education</td></tr><tr><td>D. MDG 7</td><td>IV. End poverty and Hunger</td></tr></table><br>Choose the correct answer from the options given below:",
+        "options": [
+          "A-II, B-III, C-I, D-IV",
+          "A-II, B-III, C-IV, D-I",
+          "A-IV, B-III, C-I, D-II",
+          "A-IV, B-III, C-II, D-I"
+        ],
+        "explanation": "<strong>Matching the 8 Millennium Development Goals (MDGs):</strong><br>• <strong>MDG 1 (A-IV):</strong> Eradicate extreme poverty and hunger.<br>• <strong>MDG 2 (B-III):</strong> Achieve universal primary education.<br>• <strong>MDG 4 (C-II):</strong> Reduce child mortality.<br>• <strong>MDG 7 (D-I):</strong> Ensure environmental sustainability.<br>Thus, A-IV, B-III, C-II, D-I is the correct matching."
+      },
+      "hi": {
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%;'><tr><th>सूची-I (सहस्राब्दि विकास लक्ष्य (MDG))</th><th>सूची-II (लक्ष्य)</th></tr><tr><td>A. MDG 1</td><td>I. पर्यावरणीय स्थिरता सुनिश्चित करें</td></tr><tr><td>B. MDG 2</td><td>II. बाल मृत्यु दर में कमी लाना</td></tr><tr><td>C. MDG 4</td><td>III. सार्वभौमिक प्राथमिक शिक्षा प्राप्त करना</td></tr><tr><td>D. MDG 7</td><td>IV. गरीबी और भुखमरी को समाप्त करें</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "A-II, B-III, C-I, D-IV",
+          "A-II, B-III, C-IV, D-I",
+          "A-IV, B-III, C-I, D-II",
+          "A-IV, B-III, C-II, D-I"
+        ],
+        "explanation": "<strong>8 सहस्राब्दि विकास लक्ष्यों (MDGs) का मिलान:</strong><br>• <strong>MDG 1 (A-IV):</strong> अत्यधिक गरीबी और भुखमरी का उन्मूलन।<br>• <strong>MDG 2 (B-III):</strong> सार्वभौमिक प्राथमिक शिक्षा प्राप्त करना।<br>• <strong>MDG 4 (C-II):</strong> बाल मृत्यु दर कम करना।<br>• <strong>MDG 7 (D-I):</strong> पर्यावरणीय स्थिरता सुनिश्चित करना।<br>इस प्रकार, A-IV, B-III, C-II, D-I सही मिलान है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q46",
+    "difficulty": "easy",
+    "correct": 0,
+    "unitEN": "Unit 3: Comprehension",
+    "unitHI": "इकाई 3: बोध",
+    "topicEN": "Reading Comprehension",
+    "topicHI": "पठन बोध",
+    "content": {
+      "en": {
+        "question": passageHTML(PASSAGE_JAN25_16_S2_P1.en) + "<br><br><strong>Question:</strong><br> What does spirituality help people focus on in an increasingly busy world?",
+        "options": [
+          "On what truly matters",
+          "On personal fame",
+          "On scientific discovery",
+          "On economic growth"
+        ],
+        "explanation": "The very last sentence of the passage states: <em>\"In an increasingly busy world, spirituality can be understood as a way to mindfulness, helping people stay grounded and <strong>focus on what really counts</strong> (what truly matters).\"</em>"
+      },
+      "hi": {
+        "question": passageHTML(PASSAGE_JAN25_16_S2_P1.hi) + "<br><br><strong>प्रश्न:</strong><br> बढ़ती व्यस्तता भरी दुनिया में आध्यात्मिकता लोगों को किस बात पर ध्यान केंद्रित करने में मदद करती है?",
+        "options": [
+          "वास्तव में क्या मायने रखता है",
+          "व्यक्तिगत प्रसिद्धि पर",
+          "वैज्ञानिक खोज पर",
+          "आर्थिक विकास पर"
+        ],
+        "explanation": "गद्यांश का अंतिम वाक्य कहता है: <em>\"तेजी से व्यस्त होती दुनिया में, आध्यात्मिकता को माइंडफुलनेस के एक तरीके के रूप में समझा जा सकता है, जो लोगों को जमीन पर टिके रहने और <strong>वास्तव में मायने रखने वाली चीज़ों पर ध्यान केंद्रित करने</strong> में मदद करता है।\"</em>"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q47",
+    "difficulty": "easy",
+    "correct": 2,
+    "unitEN": "Unit 3: Comprehension",
+    "unitHI": "इकाई 3: बोध",
+    "topicEN": "Reading Comprehension",
+    "topicHI": "पठन बोध",
+    "content": {
+      "en": {
+        "question": passageHTML(PASSAGE_JAN25_16_S2_P1.en) + "<br><br><strong>Question:</strong><br> Which of the following practices is mentioned as a way by which people engage with spirituality?",
+        "options": [
+          "Travelling to new places",
+          "Scientific experiments",
+          "Meditation or prayer",
+          "Sports and Music"
+        ],
+        "explanation": "The passage explicitly mentions in the first paragraph: <em>\"...finding comfort and strength through <strong>meditation, prayer</strong> or nature.\"</em> Therefore, meditation or prayer is the correct answer."
+      },
+      "hi": {
+        "question": passageHTML(PASSAGE_JAN25_16_S2_P1.hi) + "<br><br><strong>प्रश्न:</strong><br> निम्नलिखित में से किस अभ्यास को उस तरीके के रूप में उल्लेखित किया गया है जिसके द्वारा लोग आध्यात्मिकता से जुड़ते हैं?",
+        "options": [
+          "नए स्थानों की यात्रा करना",
+          "वैज्ञानिक प्रयोग",
+          "ध्यान या प्रार्थना",
+          "खेल और संगीत"
+        ],
+        "explanation": "गद्यांश के पहले पैराग्राफ में स्पष्ट रूप से उल्लेख किया गया है: <em>\"...<strong>ध्यान, प्रार्थना</strong> या प्रकृति के माध्यम से आराम और शक्ति पाते हैं।\"</em> इसलिए, ध्यान या प्रार्थना सही उत्तर है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q48",
+    "difficulty": "easy",
+    "correct": 3,
+    "unitEN": "Unit 3: Comprehension",
+    "unitHI": "इकाई 3: बोध",
+    "topicEN": "Reading Comprehension",
+    "topicHI": "पठन बोध",
+    "content": {
+      "en": {
+        "question": passageHTML(PASSAGE_JAN25_16_S2_P1.en) + "<br><br><strong>Question:</strong><br> What do people gain from spirituality during difficult times?",
+        "options": [
+          "Fame and profit",
+          "Material wealth",
+          "Social recognition",
+          "Comfort and strength"
+        ],
+        "explanation": "According to the first paragraph: <em>\"Very often people turn to spirituality in difficult times, finding <strong>comfort and strength</strong> through meditation, prayer or nature.\"</em>"
+      },
+      "hi": {
+        "question": passageHTML(PASSAGE_JAN25_16_S2_P1.hi) + "<br><br><strong>प्रश्न:</strong><br> कठिन समय में लोग आध्यात्मिकता से क्या लाभ प्राप्त करते हैं?",
+        "options": [
+          "प्रसिद्धि और लाभ",
+          "भौतिक संपदा",
+          "सामाजिक मान्यता",
+          "आराम और ताकत"
+        ],
+        "explanation": "पहले पैराग्राफ के अनुसार: <em>\"अक्सर लोग मुश्किल समय में आध्यात्मिकता की ओर रुख करते हैं, ध्यान, प्रार्थना या प्रकृति के माध्यम से <strong>आराम और शक्ति</strong> पाते हैं।\"</em>"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q49",
+    "difficulty": "easy",
+    "correct": 2,
+    "unitEN": "Unit 3: Comprehension",
+    "unitHI": "इकाई 3: बोध",
+    "topicEN": "Reading Comprehension",
+    "topicHI": "पठन बोध",
+    "content": {
+      "en": {
+        "question": passageHTML(PASSAGE_JAN25_16_S2_P1.en) + "<br><br><strong>Question:</strong><br> According to the passage, how does spirituality differ from religion?",
+        "options": [
+          "Religion is less comforting",
+          "Religion is more about common rituals",
+          "Spirituality is more personal and introspective",
+          "Religion is primarily a social practice"
+        ],
+        "explanation": "The passage clearly contrasts the two by stating: <em>\"As opposed to religion, which often involves specific belief and rituals, <strong>spirituality is more personal and introspective</strong>.\"</em>"
+      },
+      "hi": {
+        "question": passageHTML(PASSAGE_JAN25_16_S2_P1.hi) + "<br><br><strong>प्रश्न:</strong><br> गद्यांश के अनुसार, अध्यात्म धर्म से किस प्रकार भिन्न है?",
+        "options": [
+          "धर्म कम आरामदायक है",
+          "धर्म का मतलब सामान्य रीति-रिवाजों से अधिक है",
+          "आध्यात्मिकता अधिक व्यक्तिगत और आत्मनिरीक्षणात्मक है",
+          "धर्म मुख्यतः एक सामाजिक प्रथा है"
+        ],
+        "explanation": "गद्यांश यह कहते हुए दोनों की स्पष्ट रूप से तुलना करता है: <em>\"धर्म के विपरीत, जिसमें अक्सर विशिष्ट विश्वास और अनुष्ठान शामिल होते हैं, <strong>आध्यात्मिकता अधिक व्यक्तिगत और आत्मनिरीक्षणात्मक होती है</strong>।\"</em>"
+      }
+    }
+  },
+  {
+    "id": "jan25-16-s2-p1-q50",
+    "difficulty": "easy",
+    "correct": 1,
+    "unitEN": "Unit 3: Comprehension",
+    "unitHI": "इकाई 3: बोध",
+    "topicEN": "Reading Comprehension",
+    "topicHI": "पठन बोध",
+    "content": {
+      "en": {
+        "question": passageHTML(PASSAGE_JAN25_16_S2_P1.en) + "<br><br><strong>Question:</strong><br> What benefit does spirituality offer for mental well-being?",
+        "options": [
+          "Increases Intelligence",
+          "Reduces stress and promotes resilience",
+          "Improves physical strength",
+          "Leads to financial success"
+        ],
+        "explanation": "The final sentence of the first paragraph explicitly notes: <em>\"It has been argued that spirituality promotes mental well-being by <strong>reducing stress and nurturing resilience</strong>.\"</em>"
+      },
+      "hi": {
+        "question": passageHTML(PASSAGE_JAN25_16_S2_P1.hi) + "<br><br><strong>प्रश्न:</strong><br> मानसिक स्वास्थ्य के लिए आध्यात्मिकता क्या लाभ प्रदान करती है?",
+        "options": [
+          "बुद्धि बढ़ाता है",
+          "तनाव कम करता है और लचीलापन बढ़ाता है",
+          "शारीरिक शक्ति में सुधार करता है",
+          "वित्तीय सफलता की ओर ले जाता है"
+        ],
+        "explanation": "पहले पैराग्राफ का अंतिम वाक्य स्पष्ट रूप से बताता है: <em>\"यह तर्क दिया गया है कि आध्यात्मिकता <strong>तनाव को कम करके और लचीलापन बढ़ाकर</strong> मानसिक स्वास्थ्य को बढ़ावा देती है।\"</em>"
+      }
+    }
+  }
+];
+
 
 
 
