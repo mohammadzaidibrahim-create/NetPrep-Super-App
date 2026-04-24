@@ -111,6 +111,14 @@ const TABLE_JAN25_10_S1_P1 = {
   hi: `<p style="margin-bottom:10px;"><strong>निर्देश:</strong> निम्नलिखित तालिका 2020 से 2023 तक चार वर्षों के दौरान चार अलग-अलग कॉलेजों (A-D) में नामांकित छात्रों की संख्या दर्शाती है। तालिका में दिए गए डेटा के आधार पर, निम्नलिखित प्रश्नों के उत्तर दीजिए।</p><table border="1" style="border-collapse:collapse; width:100%; text-align:center; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;"><tr><th style="padding:8px 10px;">वर्ष</th><th colspan="4" style="padding:8px 10px;">कॉलेज में नामांकित छात्रों की संख्या</th></tr><tr><th style="padding:8px 10px;"></th><th style="padding:8px 10px;">A</th><th style="padding:8px 10px;">B</th><th style="padding:8px 10px;">C</th><th style="padding:8px 10px;">D</th></tr><tr><td style="padding:8px 10px;">2020</td><td style="padding:8px 10px;">1200</td><td style="padding:8px 10px;">900</td><td style="padding:8px 10px;">1000</td><td style="padding:8px 10px;">700</td></tr><tr><td style="padding:8px 10px;">2021</td><td style="padding:8px 10px;">1100</td><td style="padding:8px 10px;">800</td><td style="padding:8px 10px;">1300</td><td style="padding:8px 10px;">900</td></tr><tr><td style="padding:8px 10px;">2022</td><td style="padding:8px 10px;">1400</td><td style="padding:8px 10px;">1000</td><td style="padding:8px 10px;">1200</td><td style="padding:8px 10px;">1100</td></tr><tr><td style="padding:8px 10px;">2023</td><td style="padding:8px 10px;">600</td><td style="padding:8px 10px;">700</td><td style="padding:8px 10px;">800</td><td style="padding:8px 10px;">1000</td></tr></table>`
 };
 
+// ─────────────────────────────────────────────────────────────────────────────
+// DI TABLE CONSTANT — UGC NET Paper 1 | 9 Jan 2025 | Morning Shift (MINIFIED)
+// ─────────────────────────────────────────────────────────────────────────────
+const TABLE_JAN25_09_S1_P1 = {
+  en: `<p style="margin-bottom:10px;"><strong>Directions:</strong> The following table shows the percentage (%) distribution of both the number of employees and number of female employees working across six different cities (A–F), along with the percentage of male and female employees who are graduates among them. In all the six cities together, the total number of employees is 80,000 and the ratio of male to female employees is 9:7. Based on the data in the table, answer the questions that follow:</p><table border="1" style="border-collapse:collapse; width:100%; text-align:center; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;"><tr><th rowspan="2" style="padding:8px 10px;">City</th><th colspan="2" style="padding:8px 10px;">Percentage Distribution of</th><th colspan="2" style="padding:8px 10px;">Percentage of</th></tr><tr><th style="padding:8px 10px;">Employees</th><th style="padding:8px 10px;">Female Employees</th><th style="padding:8px 10px;">Male Graduates</th><th style="padding:8px 10px;">Female Graduates</th></tr><tr><td style="padding:8px 10px;">A</td><td style="padding:8px 10px;">24%</td><td style="padding:8px 10px;">15%</td><td style="padding:8px 10px;">26%</td><td style="padding:8px 10px;">42%</td></tr><tr><td style="padding:8px 10px;">B</td><td style="padding:8px 10px;">15%</td><td style="padding:8px 10px;">18%</td><td style="padding:8px 10px;">33%</td><td style="padding:8px 10px;">37%</td></tr><tr><td style="padding:8px 10px;">C</td><td style="padding:8px 10px;">20%</td><td style="padding:8px 10px;">16%</td><td style="padding:8px 10px;">41%</td><td style="padding:8px 10px;">38%</td></tr><tr><td style="padding:8px 10px;">D</td><td style="padding:8px 10px;">6%</td><td style="padding:8px 10px;">10%</td><td style="padding:8px 10px;">36%</td><td style="padding:8px 10px;">46%</td></tr><tr><td style="padding:8px 10px;">E</td><td style="padding:8px 10px;">9%</td><td style="padding:8px 10px;">14%</td><td style="padding:8px 10px;">47%</td><td style="padding:8px 10px;">51%</td></tr><tr><td style="padding:8px 10px;">F</td><td style="padding:8px 10px;">26%</td><td style="padding:8px 10px;">27%</td><td style="padding:8px 10px;">48%</td><td style="padding:8px 10px;">56%</td></tr></table>`,
+  hi: `<p style="margin-bottom:10px;"><strong>निर्देश:</strong> निम्न तालिका छह अलग-अलग शहरों (A–F) में काम करने वाले कर्मचारियों की संख्या और महिला कर्मचारियों की संख्या का प्रतिशत (%) वितरण दिखाती है, साथ ही उनमें से स्नातक पुरुष और महिला कर्मचारियों का प्रतिशत भी दिखाती है। सभी छह शहरों में कुल कर्मचारियों की संख्या 80,000 है और पुरुष और महिला कर्मचारियों का अनुपात 9:7 है। तालिका में दिए गए डेटा के आधार पर, निम्नलिखित प्रश्नों के उत्तर दीजिए:</p><table border="1" style="border-collapse:collapse; width:100%; text-align:center; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;"><tr><th rowspan="2" style="padding:8px 10px;">शहर</th><th colspan="2" style="padding:8px 10px;">प्रतिशत वितरण</th><th colspan="2" style="padding:8px 10px;">प्रतिशत</th></tr><tr><th style="padding:8px 10px;">कर्मचारी</th><th style="padding:8px 10px;">महिला कर्मचारी</th><th style="padding:8px 10px;">पुरुष स्नातक</th><th style="padding:8px 10px;">महिला स्नातक</th></tr><tr><td style="padding:8px 10px;">A</td><td style="padding:8px 10px;">24%</td><td style="padding:8px 10px;">15%</td><td style="padding:8px 10px;">26%</td><td style="padding:8px 10px;">42%</td></tr><tr><td style="padding:8px 10px;">B</td><td style="padding:8px 10px;">15%</td><td style="padding:8px 10px;">18%</td><td style="padding:8px 10px;">33%</td><td style="padding:8px 10px;">37%</td></tr><tr><td style="padding:8px 10px;">C</td><td style="padding:8px 10px;">20%</td><td style="padding:8px 10px;">16%</td><td style="padding:8px 10px;">41%</td><td style="padding:8px 10px;">38%</td></tr><tr><td style="padding:8px 10px;">D</td><td style="padding:8px 10px;">6%</td><td style="padding:8px 10px;">10%</td><td style="padding:8px 10px;">36%</td><td style="padding:8px 10px;">46%</td></tr><tr><td style="padding:8px 10px;">E</td><td style="padding:8px 10px;">9%</td><td style="padding:8px 10px;">14%</td><td style="padding:8px 10px;">47%</td><td style="padding:8px 10px;">51%</td></tr><tr><td style="padding:8px 10px;">F</td><td style="padding:8px 10px;">26%</td><td style="padding:8px 10px;">27%</td><td style="padding:8px 10px;">48%</td><td style="padding:8px 10px;">56%</td></tr></table>`
+};
+
   // ─────────────────────────────────────────────────────────────────────────────
 // 1. PASSAGE CONSTANT (SINGLE LINE with <br><br> for paragraph breaks)
 // ─────────────────────────────────────────────────────────────────────────────
@@ -169,6 +177,14 @@ const PASSAGE_JAN25_10_S2_P1 = {
 const PASSAGE_JAN25_09_S2_P1 = {
   en: `The 2004 earthquake and tsunami in Banda Aceh, Indonesia, stunned the world. It killed over 230,000 people, and caused damage as far away as Africa. Less than a year later, an earthquake in Pakistan killed 80,000 people. Earthquakes are sudden movements in the earth's crust that occur along faults (planes of weakness), where one rock mass slides past another one. When movement along faults occurs gradually and relatively smoothly, it is called creep or seismic slip and may be undetectable to the casual observer. When friction prevents rocks from slipping easily, stress builds up until it is finally released with a sudden jerk. The point on fault at which the first movement occurs during an earthquake is called the epicenter.<br><br>Earthquakes have always seemed mysterious, sudden, and violent, coming without warning and leaving ruined cities and dislocated landscapes in their wake. Cities such as Kobe, Japan or Mexico City, parts of which are built on soft landfill or poorly consolidated soil, usually suffer the greatest damage from earthquakes. Water-saturated soil can liquify when shaken. Buildings sometimes sink out of sight or fall down like a row of dominoes under these conditions.`,
   hi: `इंडोनेशिया के बांदा आचे में 2004 में आए भूकंप और सुनामी ने पूरी दुनिया को चौंका दिया था। इसने 230,000 से ज़्यादा लोगों की जान ले ली और अफ्रीका तक में तबाही मचाई। एक साल से भी कम समय बाद, पाकिस्तान में आए भूकंप ने 80,000 लोगों की जान ले ली। भूकंप पृथ्वी की पपड़ी में अचानक होने वाली हलचलें हैं जो दोषों (कमजोर सतह) के साथ होती हैं, जहाँ एक चट्टान का द्रव्यमान दूसरे के ऊपर से खिसकता है। जब दोषों के साथ गति धीरे-धीरे और अपेक्षाकृत आसानी से होती है, तो इसे रेंगना या भूकंपीय फिसलन कहा जाता है और यह सामान्य पर्यवेक्षक के लिए पता लगाने योग्य नहीं हो सकता है। जब घर्षण चट्टानों को आसानी से फिसलने से रोकता है, तो तनाव तब तक बनता रहता है जब तक कि यह अचानक झटके के साथ समाप्त नहीं हो जाता। भूकंप के दौरान दोष पर वह बिंदु जहाँ पहली हलचल होती है, उसे उपरिकेंद्र कहा जाता है।<br><br>भूकंप हमेशा रहस्यमय, अचानक और हिंसक लगते हैं, बिना किसी चेतावनी के आते हैं और अपने पीछे बर्बाद शहर और अव्यवस्थित परिदृश्य छोड़ जाते हैं। कोबे, जापान या मेक्सिको सिटी जैसे शहर, जिनके कुछ हिस्से नरम लैंडफिल या खराब समेकित मिट्टी पर बने हैं, आमतौर पर भूकंप से सबसे अधिक नुकसान उठाते हैं। पानी से संतृप्त मिट्टी हिलने पर तरल हो सकती है। ऐसी परिस्थितियों में इमारतें कभी-कभी नजरों से ओझल हो जाती हैं या डोमिनोज की कतार की तरह गिर जाती हैं।`
+};
+
+  // ─────────────────────────────────────────────────────────────────────────────
+// 1. PASSAGE CONSTANT (SINGLE LINE with <br><br> for paragraph breaks)
+// ─────────────────────────────────────────────────────────────────────────────
+const PASSAGE_JAN25_09_S1_P1 = {
+  en: `No two other poets can be more dissimilar. Ezekiel is from India's sophisticated Western metropolis; Mahapatra is from an Eastern moffusil town. Ezekiel is a professor of English, with a literary background; Mahapatra is a trained physicist. Ezekiel is a Bene-Israel Jew; Mahapatra is a second-generation Christian. If Ezekiel pioneered post-independence Indian English poetry, Mahapatra gave it a new direction. Ezekiel's poetry is formally mindful; Mahapatra's poetry is written in free-flowing, sense- or idea-governed lines. The former wrote realistic verse; the latter's poetry is suffused with images and symbols. One can go on in this vein. No wonder, we notice Mahapatra inveighing against something in Ezekiel's poetic credo in his prose pieces. Up to the eighties Ezekiel was considered the foremost among Indian English poets but more recently he is being seen as a highly inconsistent poet.`,
+  hi: `कोई भी दो कवि इतने भिन्न नहीं हो सकते। एज़ेकील भारत के परिष्कृत पश्चिमी महानगर से हैं; महापात्र पूर्वी मफ़्फुसिल शहर से हैं। एज़ेकील अंग्रेजी के प्रोफेसर हैं, जिनकी साहित्यिक पृष्ठभूमि है; महापात्र एक प्रशिक्षित भौतिक विज्ञानी हैं। एज़ेकील एक बेने-इज़राइल यहूदी हैं; महापात्र दूसरी पीढ़ी के ईसाई हैं। अगर एज़ेकील ने स्वतंत्रता के बाद भारतीय अंग्रेजी कविता का बीड़ा उठाया, तो महापात्र ने इसे एक नई दिशा दी। एज़ेकील की कविता औपचारिक रूप से विचारशील है; महापात्र की कविताएँ मुक्त-प्रवाह, भावना-या विचार-संचालित पंक्तियों में लिखी गई हैं। पूर्व ने यथार्थवादी कविता लिखी; बाद की कविताएँ छवियों और प्रतीकों से भरी हुई हैं। इस तरह से आगे बढ़ा जा सकता है। कोई आश्चर्य नहीं, हम देखते हैं कि महापात्र अपने गद्य टुकड़ों में एज़ेकील के काव्य सिद्धांत में कुछ के खिलाफ हमला करते हैं। अस्सी के दशक तक एज़ेकील को भारतीय अंग्रेजी कवियों में अग्रणी माना जाता था, लेकिन हाल ही में उन्हें अत्यधिक असंगत कवि के रूप में देखा जाने लगा है।`
 };
 
 function passageHTML(text) { return `<div class="comprehension-box">${text}</div>`; }
@@ -11880,6 +11896,1068 @@ const TEST_JAN25_09_S2_P1 = [
     }
   }
 ];
+
+// ─────────────────────────────────────────────────────────────────────────────
+// EXTRACTED QUESTIONS ARRAY (Q1 to Q25)
+// ─────────────────────────────────────────────────────────────────────────────
+const TEST_JAN25_09_S1_P1 = [
+  {
+    "id": "jan25-9-s1-p1-q01",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 7: Data Interpretation",
+    "unitHI": "इकाई 7: आंकड़ों की व्याख्या",
+    "topicEN": "Table Chart",
+    "topicHI": "तालिका चार्ट",
+    "content": {
+      "en": {
+        "question": TABLE_JAN25_9_S1_P1.en + "<br><br><strong>Question:</strong><br> The number of male employees from city B is _____________% of the total number of employees from all the six cities together?",
+        "options": ["5.25", "7.125", "11.375", "13.725"],
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. Total employees = 80,000. Male:Female = 9:7 (Total 16 parts).<br>   Total Females = $\\frac{7}{16} \\times 80,000 = 35,000$.<br>2. <strong>City B Total Employees:</strong> 15% of 80,000 = 12,000.<br>3. <strong>City B Female Employees:</strong> 18% of Total Females (35,000) = $0.18 \\times 35,000 = 6,300$.<br>4. <strong>City B Male Employees:</strong> $12,000 - 6,300 = 5,700$.<br>5. <strong>Percentage of Total Employees:</strong> $(\\frac{5700}{80000}) \\times 100 = \\frac{57}{8} = $ <strong>7.125%</strong>."
+      },
+      "hi": {
+        "question": TABLE_JAN25_9_S1_P1.hi + "<br><br><strong>प्रश्न:</strong><br> शहर B के पुरुष कर्मचारियों की संख्या सभी छह शहरों के कर्मचारियों की कुल संख्या का ____________% है?",
+        "options": ["5.25", "7.125", "11.375", "13.725"],
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. कुल कर्मचारी = 80,000। पुरुष:महिला = 9:7 (कुल 16 भाग)।<br>   कुल महिलाएँ = $\\frac{7}{16} \\times 80,000 = 35,000$।<br>2. <strong>शहर B कुल कर्मचारी:</strong> 80,000 का 15% = 12,000।<br>3. <strong>शहर B महिला कर्मचारी:</strong> कुल महिलाओं (35,000) का 18% = $0.18 \\times 35,000 = 6,300$।<br>4. <strong>शहर B पुरुष कर्मचारी:</strong> $12,000 - 6,300 = 5,700$।<br>5. <strong>कुल कर्मचारियों का प्रतिशत:</strong> $(\\frac{5700}{80000}) \\times 100 = \\frac{57}{8} = $ <strong>7.125%</strong>।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q02",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 7: Data Interpretation",
+    "unitHI": "इकाई 7: आंकड़ों की व्याख्या",
+    "topicEN": "Table Chart",
+    "topicHI": "तालिका चार्ट",
+    "content": {
+      "en": {
+        "question": TABLE_JAN25_9_S1_P1.en + "<br><br><strong>Question:</strong><br> The number of graduate male employees from city D is approximately____________% of the number of graduate male employees from city B.",
+        "options": ["23.2", "24.88", "27.28", "32.52"],
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>Total Females = 35,000.<br>1. <strong>City D Male Employees:</strong><br>   Total D = 6% of 80k = 4,800. Female D = 10% of 35k = 3,500.<br>   Male D = $4800 - 3500 = 1300$.<br>   Graduate Male D = 36% of 1300 = $0.36 \\times 1300 = 468$.<br>2. <strong>City B Male Employees:</strong><br>   Total B = 15% of 80k = 12,000. Female B = 18% of 35k = 6,300.<br>   Male B = $12000 - 6300 = 5700$.<br>   Graduate Male B = 33% of 5700 = $0.33 \\times 5700 = 1881$.<br>3. <strong>Required Percentage:</strong> $(\\frac{468}{1881}) \\times 100 \\approx$ <strong>24.88%</strong>."
+      },
+      "hi": {
+        "question": TABLE_JAN25_9_S1_P1.hi + "<br><br><strong>प्रश्न:</strong><br> शहर D से स्नातक पुरुष कर्मचारियों की संख्या शहर B से स्नातक पुरुष कर्मचारियों की संख्या का लगभग____________% है।",
+        "options": ["23.2", "24.88", "27.28", "32.52"],
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>कुल महिलाएँ = 35,000.<br>1. <strong>शहर D पुरुष कर्मचारी:</strong><br>   कुल D = 80k का 6% = 4,800। महिला D = 35k का 10% = 3,500।<br>   पुरुष D = $4800 - 3500 = 1300$।<br>   स्नातक पुरुष D = 1300 का 36% = $0.36 \\times 1300 = 468$।<br>2. <strong>शहर B पुरुष कर्मचारी:</strong><br>   कुल B = 80k का 15% = 12,000। महिला B = 35k का 18% = 6,300।<br>   पुरुष B = $12000 - 6300 = 5700$।<br>   स्नातक पुरुष B = 5700 का 33% = $0.33 \\times 5700 = 1881$।<br>3. <strong>आवश्यक प्रतिशत:</strong> $(\\frac{468}{1881}) \\times 100 \\approx$ <strong>24.88%</strong>।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q03",
+    "difficulty": "medium",
+    "correct": 0,
+    "unitEN": "Unit 7: Data Interpretation",
+    "unitHI": "इकाई 7: आंकड़ों की व्याख्या",
+    "topicEN": "Table Chart",
+    "topicHI": "तालिका चार्ट",
+    "content": {
+      "en": {
+        "question": TABLE_JAN25_9_S1_P1.en + "<br><br><strong>Question:</strong><br> What is the ratio of the total number of graduate female employees of city A to the total number of non-graduate female employees from city D?",
+        "options": ["7 : 6", "8 : 7", "6 : 5", "5 : 4"],
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>Total Females = 35,000.<br>1. <strong>City A Graduate Females:</strong><br>   Total Females in A = 15% of 35,000 = 5,250.<br>   Graduate Females A = 42% of 5250 = $0.42 \\times 5250 = 2205$.<br>2. <strong>City D Non-Graduate Females:</strong><br>   Total Females in D = 10% of 35,000 = 3,500.<br>   Graduate Females D = 46%. So, Non-Graduate = $100\\% - 46\\% = 54\\%$.<br>   Non-Graduate Females D = 54% of 3500 = $0.54 \\times 3500 = 1890$.<br>3. <strong>Ratio:</strong> 2205 : 1890. Dividing both by 315 gives <strong>7 : 6</strong>."
+      },
+      "hi": {
+        "question": TABLE_JAN25_9_S1_P1.hi + "<br><br><strong>प्रश्न:</strong><br> शहर A की स्नातक महिला कर्मचारियों की कुल संख्या का शहर D की गैर-स्नातक महिला कर्मचारियों की कुल संख्या से अनुपात क्या है?",
+        "options": ["7 : 6", "8 : 7", "6 : 5", "5 : 4"],
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>कुल महिलाएँ = 35,000।<br>1. <strong>शहर A स्नातक महिलाएँ:</strong><br>   A में कुल महिलाएँ = 35,000 का 15% = 5,250।<br>   स्नातक महिलाएँ A = 5250 का 42% = $0.42 \\times 5250 = 2205$।<br>2. <strong>शहर D गैर-स्नातक महिलाएँ:</strong><br>   D में कुल महिलाएँ = 35,000 का 10% = 3,500।<br>   स्नातक महिलाएँ D = 46%। तो, गैर-स्नातक = $100\\% - 46\\% = 54\\%$।<br>   गैर-स्नातक महिलाएँ D = 3500 का 54% = $0.54 \\times 3500 = 1890$।<br>3. <strong>अनुपात:</strong> 2205 : 1890। दोनों को 315 से विभाजित करने पर <strong>7 : 6</strong> प्राप्त होता है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q04",
+    "difficulty": "medium",
+    "correct": 2,
+    "unitEN": "Unit 7: Data Interpretation",
+    "unitHI": "इकाई 7: आंकड़ों की व्याख्या",
+    "topicEN": "Table Chart",
+    "topicHI": "तालिका चार्ट",
+    "content": {
+      "en": {
+        "question": TABLE_JAN25_9_S1_P1.en + "<br><br><strong>Question:</strong><br> The number of male employees from city C is approximately_________________% more than the number of female employees from city F.",
+        "options": ["6", "8", "10", "14"],
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>Total Employees = 80,000. Total Females = 35,000.<br>1. <strong>City C Male Employees:</strong><br>   Total C = 20% of 80k = 16,000.<br>   Female C = 16% of 35k = 5,600.<br>   Male C = $16000 - 5600 = 10,400$.<br>2. <strong>City F Female Employees:</strong><br>   Female F = 27% of 35k = 9,450.<br>3. <strong>Difference:</strong> $10400 - 9450 = 950$.<br>4. <strong>Percentage More:</strong> $(\\frac{950}{9450}) \\times 100 \\approx 10.05\\%$, which is approximately <strong>10%</strong>."
+      },
+      "hi": {
+        "question": TABLE_JAN25_9_S1_P1.hi + "<br><br><strong>प्रश्न:</strong><br> शहर C के पुरुष कर्मचारियों की संख्या शहर F की महिला कर्मचारियों की संख्या से लगभग _________________% अधिक है।",
+        "options": ["6", "8", "10", "14"],
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>कुल कर्मचारी = 80,000। कुल महिलाएँ = 35,000।<br>1. <strong>शहर C पुरुष कर्मचारी:</strong><br>   कुल C = 80k का 20% = 16,000।<br>   महिला C = 35k का 16% = 5,600।<br>   पुरुष C = $16000 - 5600 = 10,400$।<br>2. <strong>शहर F महिला कर्मचारी:</strong><br>   महिला F = 35k का 27% = 9,450।<br>3. <strong>अंतर:</strong> $10400 - 9450 = 950$।<br>4. <strong>प्रतिशत अधिक:</strong> $(\\frac{950}{9450}) \\times 100 \\approx 10.05\\%$, जो लगभग <strong>10%</strong> है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q05",
+    "difficulty": "hard",
+    "correct": 3,
+    "unitEN": "Unit 7: Data Interpretation",
+    "unitHI": "इकाई 7: आंकड़ों की व्याख्या",
+    "topicEN": "Table Chart",
+    "topicHI": "तालिका चार्ट",
+    "content": {
+      "en": {
+        "question": TABLE_JAN25_9_S1_P1.en + "<br><br><strong>Question:</strong><br> What is the difference between the total number of graduate male employees and the total number of graduate female employees taking all the six cities together?",
+        "options": ["701", "702", "703", "704"],
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>Calculate Graduate Males and Females for each city (Total F=35000, Total M=45000, but Males vary per city):<br>• <strong>A:</strong> F=5250 (Grad F = 42% = 2205). M = (24% of 80k) - 5250 = 19200 - 5250 = 13950 (Grad M = 26% = 3627).<br>• <strong>B:</strong> F=6300 (Grad F = 37% = 2331). M = 12000 - 6300 = 5700 (Grad M = 33% = 1881).<br>• <strong>C:</strong> F=5600 (Grad F = 38% = 2128). M = 16000 - 5600 = 10400 (Grad M = 41% = 4264).<br>• <strong>D:</strong> F=3500 (Grad F = 46% = 1610). M = 4800 - 3500 = 1300 (Grad M = 36% = 468).<br>• <strong>E:</strong> F=4900 (Grad F = 51% = 2499). M = 7200 - 4900 = 2300 (Grad M = 47% = 1081).<br>• <strong>F:</strong> F=9450 (Grad F = 56% = 5292). M = 20800 - 9450 = 11350 (Grad M = 48% = 5448).<br><strong>Totals:</strong> Grad Males = $3627 + 1881 + 4264 + 468 + 1081 + 5448 = 16769$.<br>Grad Females = $2205 + 2331 + 2128 + 1610 + 2499 + 5292 = 16065$.<br><strong>Difference:</strong> $16769 - 16065 =$ <strong>704</strong>."
+      },
+      "hi": {
+        "question": TABLE_JAN25_9_S1_P1.hi + "<br><br><strong>प्रश्न:</strong><br> सभी छह शहरों में स्नातक पुरुष कर्मचारियों की कुल संख्या और स्नातक महिला कर्मचारियों की कुल संख्या के बीच क्या अंतर है?",
+        "options": ["701", "702", "703", "704"],
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>प्रत्येक शहर के लिए स्नातक पुरुषों और महिलाओं की गणना करें:<br>• <strong>A:</strong> महिला=5250 (स्नातक=2205)। पुरुष = 19200-5250 = 13950 (स्नातक=3627)।<br>• <strong>B:</strong> महिला=6300 (स्नातक=2331)। पुरुष = 12000-6300 = 5700 (स्नातक=1881)।<br>• <strong>C:</strong> महिला=5600 (स्नातक=2128)। पुरुष = 16000-5600 = 10400 (स्नातक=4264)।<br>• <strong>D:</strong> महिला=3500 (स्नातक=1610)। पुरुष = 4800-3500 = 1300 (स्नातक=468)।<br>• <strong>E:</strong> महिला=4900 (स्नातक=2499)। पुरुष = 7200-4900 = 2300 (स्नातक=1081)।<br>• <strong>F:</strong> महिला=9450 (स्नातक=5292)। पुरुष = 20800-9450 = 11350 (स्नातक=5448)।<br><strong>कुल:</strong> स्नातक पुरुष = 16769।<br>स्नातक महिलाएँ = 16065।<br><strong>अंतर:</strong> $16769 - 16065 =$ <strong>704</strong>।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q06",
+    "difficulty": "hard",
+    "correct": 0,
+    "unitEN": "Unit 6: Logical Reasoning",
+    "unitHI": "इकाई 6: तार्किक तर्क",
+    "topicEN": "Indian Logic — Pramanas and Perception (Sannikarsa of Nyaya)",
+    "topicHI": "भारतीय तर्कशास्त्र — प्रमाण और प्रत्यक्ष (न्याय का सन्निकर्ष)",
+    "content": {
+      "en": {
+        "question": "In the light of 'Sannikarsa' of Nyāya, a substance 'pot' is perceived through the contact of the particular sense with the substance. This is known as:",
+        "options": ["Samyoga", "Samvāya", "Samyukta-Samavāya", "Samyukta-Samaveta-Samāvāya"],
+        "explanation": "In Nyāya philosophy, <strong>Samyoga (Conjunction)</strong> is the ordinary sensory contact (Sannikarsa) between a sense organ and a substance. For example, when the eye comes in direct contact with a physical object like a 'pot', the contact is mere conjunction (Samyoga)."
+      },
+      "hi": {
+        "question": "न्याय के 'सन्निकर्स' के प्रकाश में, पदार्थ के साथ विशेष इंद्रिय के संपर्क के माध्यम से एक पदार्थ 'घड़ा' का अनुभव किया जाता है, जिसे क्या कहा जाता है?",
+        "options": ["संयोग (Samyoga)", "समवाय", "संयुक्त-समवाय", "संयुक्त-समवेत-समवाय"],
+        "explanation": "न्याय दर्शन में, <strong>संयोग (Samyoga / Conjunction)</strong> एक ज्ञानेंद्रिय और एक पदार्थ के बीच सामान्य संवेदी संपर्क (सन्निकर्ष) है। उदाहरण के लिए, जब आंख किसी भौतिक वस्तु जैसे 'घड़े' के सीधे संपर्क में आती है, तो संपर्क केवल संयोजन (संयोग) होता है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q07",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 9: People, Development and Environment",
+    "unitHI": "इकाई 9: लोग, विकास और पर्यावरण",
+    "topicEN": "Environmental Issues — Air Pollution and Acid Rain",
+    "topicHI": "पर्यावरणीय मुद्दे — वायु प्रदूषण और अम्लीय वर्षा",
+    "content": {
+      "en": {
+        "question": "Which of the following pollutants are most responsible for acid rain formation?<br><br>A. Carbon Monoxide (CO)<br>B. Nitrogen dioxide (NO₂)<br>C. Ozone (O₃)<br>D. Sulphur dioxide (SO₂)<br>E. Lead (Pb)<br><br>Choose the correct answer from the options given below:",
+        "options": ["A and B only", "B and D only", "C and E only", "A, B and D only"],
+        "explanation": "Acid rain is primarily caused by emissions of <strong>Sulphur dioxide (SO₂)</strong> and <strong>Nitrogen oxides (NOx, particularly NO₂)</strong>. When these gases react with water, oxygen, and other chemicals in the atmosphere, they form sulfuric and nitric acids, which then fall to the ground as acid rain. Hence, B and D are correct."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से कौन से प्रदूषक अम्लीय वर्षा के निर्माण के लिए सबसे अधिक जिम्मेदार हैं?<br><br>A. कार्बन मोनोऑक्साइड (CO)<br>B. नाइट्रोजन डाइऑक्साइड (NO₂)<br>C. ओजोन (O₃)<br>D. सल्फर डाइऑक्साइड (SO₂)<br>E. सीसा (Pb)<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["केवल A और B", "केवल B और D", "केवल C और E", "केवल A, B और D"],
+        "explanation": "अम्लीय वर्षा (Acid rain) मुख्य रूप से <strong>सल्फर डाइऑक्साइड (SO₂)</strong> और <strong>नाइट्रोजन ऑक्साइड (NOx, विशेष रूप से NO₂)</strong> के उत्सर्जन के कारण होती है। जब ये गैसें वायुमंडल में पानी, ऑक्सीजन और अन्य रसायनों के साथ प्रतिक्रिया करती हैं, तो वे सल्फ्यूरिक और नाइट्रिक एसिड बनाती हैं, जो फिर अम्लीय वर्षा के रूप में जमीन पर गिरती हैं। अतः B और D सही हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q08",
+    "difficulty": "medium",
+    "correct": 0,
+    "unitEN": "Unit 5: Mathematical Reasoning and Aptitude",
+    "unitHI": "इकाई 5: गणितीय तर्क और अभिवृत्ति",
+    "topicEN": "Mathematical Aptitude — Time, Distance and Speed",
+    "topicHI": "गणितीय अभिवृत्ति — समय, दूरी और गति",
+    "content": {
+      "en": {
+        "question": "A man rows in still water at a certain speed V (km/hour). He takes as much time to cover 2 km distance upstream as he takes to cover 3 km distance downstream. If the speed of the stream is 2 (km/hour), what is the value of V?",
+        "options": ["10 km/hour", "8 km/hour", "6 km/hour", "5 km/hour"],
+        "explanation": "<strong>Step-by-step Solution:</strong><br>1. Speed upstream = $(V - 2)$ km/hr.<br>2. Speed downstream = $(V + 2)$ km/hr.<br>3. Time = Distance / Speed. Given that $Time_{\\text{upstream}} = Time_{\\text{downstream}}$.<br>   $\\frac{2}{V - 2} = \\frac{3}{V + 2}$<br>4. Cross-multiply: $2(V + 2) = 3(V - 2)$<br>   $2V + 4 = 3V - 6$<br>5. Solving for V: $3V - 2V = 4 + 6 \\implies V = <strong>10 \\text{ km/hour}</strong>$."
+      },
+      "hi": {
+        "question": "एक व्यक्ति स्थिर जल में एक निश्चित गति V (किमी/घंटा) से नाव चलाता है। उसे धारा के प्रतिकूल 2 किमी की दूरी तय करने में उतना ही समय लगता है जितना उसे धारा के अनुकूल 3 किमी की दूरी तय करने में लगता है। यदि धारा की गति 2 (किमी/घंटा) है, तो V का मान क्या है?",
+        "options": ["10 किमी/घंटा", "8 किमी/घंटा", "6 किमी/घंटा", "5 किमी/घंटा"],
+        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>1. धारा के प्रतिकूल (upstream) गति = $(V - 2)$ किमी/घंटा।<br>2. धारा के अनुकूल (downstream) गति = $(V + 2)$ किमी/घंटा।<br>3. समय = दूरी / गति। दिया गया है कि $Time_{\\text{upstream}} = Time_{\\text{downstream}}$।<br>   $\\frac{2}{V - 2} = \\frac{3}{V + 2}$<br>4. क्रॉस-मल्टीप्लाई करें: $2(V + 2) = 3(V - 2)$<br>   $2V + 4 = 3V - 6$<br>5. V का मान निकालें: $3V - 2V = 4 + 6 \\implies V = <strong>10 \\text{ किमी/घंटा}</strong>$।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q09",
+    "difficulty": "medium",
+    "correct": 2,
+    "unitEN": "Unit 6: Logical Reasoning",
+    "unitHI": "इकाई 6: तार्किक तर्क",
+    "topicEN": "Formal and Informal Fallacies",
+    "topicHI": "औपचारिक और अनौपचारिक तार्किक भ्रांतियां",
+    "content": {
+      "en": {
+        "question": "Identify the fallacy in the following:<br><br><em>\"There are just three types of base hits in baseball: a single, a double and a triple. Slugger got a base hit but didn't get a single or a double. Therefore, Slugger must have gotten a triple.\"</em>",
+        "options": ["Questionable Cause", "Loaded Question", "False Alternatives", "Appeal to ignorance"],
+        "explanation": "This argument commits the fallacy of <strong>False Alternatives</strong> (or False Dilemma). It falsely assumes there are \"just three types of base hits\" (ignoring the home run). Because the premise artificially limits the options to single, double, or triple, the conclusion drawn by eliminating the first two is fallacious."
+      },
+      "hi": {
+        "question": "निम्नलिखित में भ्रांति की पहचान करें:<br><br><em>\"बेसबॉल में सिर्फ तीन तरह के बेस हिट होते हैं: सिंगल, डबल और ट्रिपल। स्लगर को बेस हिट तो मिला, लेकिन सिंगल या डबल नहीं मिला। इसलिए, स्लगर को ट्रिपल मिला होगा।\"</em>",
+        "options": ["संदिग्ध कारण", "लोडेड प्रश्न", "झूठे विकल्प (False Alternatives)", "अज्ञानता की अपील"],
+        "explanation": "यह तर्क <strong>झूठे विकल्प (False Alternatives / False Dilemma)</strong> की भ्रांति को दर्शाता है। यह गलत तरीके से मान लेता है कि \"बेस हिट के केवल तीन प्रकार हैं\" (होम रन को नज़रअंदाज़ करते हुए)। क्योंकि आधारवाक्य कृत्रिम रूप से विकल्पों को सिंगल, डबल या ट्रिपल तक सीमित कर देता है, इसलिए पहले दो को समाप्त करके निकाला गया निष्कर्ष भ्रामक है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q10",
+    "difficulty": "medium",
+    "correct": 2,
+    "unitEN": "Unit 10: Higher Education System",
+    "unitHI": "इकाई 10: उच्च शिक्षा प्रणाली",
+    "topicEN": "Higher Education Schemes and Policies — Educational Institutions",
+    "topicHI": "उच्च शिक्षा योजनाएं और नीतियां — शैक्षिक संस्थाएं",
+    "content": {
+      "en": {
+        "question": "Match the following:<br><br><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>List-I (Institutions/Portal)</th><th style='padding:8px 10px;'>List-II (Domains)</th></tr><tr><td style='padding:8px 10px;'>A. NCTE</td><td style='padding:8px 10px;'>I. Assessment and Accreditation</td></tr><tr><td style='padding:8px 10px;'>B. NCERT</td><td style='padding:8px 10px;'>II. Online Education</td></tr><tr><td style='padding:8px 10px;'>C. NAAC</td><td style='padding:8px 10px;'>III. Teacher Education</td></tr><tr><td style='padding:8px 10px;'>D. SWAYAM</td><td style='padding:8px 10px;'>IV. School Textbooks</td></tr></table><br>Choose the correct answer from the options given below:",
+        "options": ["A-I, B-II, C-III, D-IV", "A-II, B-I, C-IV, D-III", "A-III, B-IV, C-I, D-II", "A-IV, B-III, C-II, D-I"],
+        "explanation": "<strong>Matching Educational Institutions with their Domains:</strong><br>• <strong>NCTE (A-III):</strong> National Council for Teacher Education focuses on Teacher Education.<br>• <strong>NCERT (B-IV):</strong> National Council of Educational Research and Training publishes School Textbooks.<br>• <strong>NAAC (C-I):</strong> National Assessment and Accreditation Council handles Assessment and Accreditation of higher education institutions.<br>• <strong>SWAYAM (D-II):</strong> A massive platform for Online Education.<br>Hence, A-III, B-IV, C-I, D-II is the correct match."
+      },
+      "hi": {
+        "question": "निम्नलिखित का मिलान करें:<br><br><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>सूची-I (संस्थाएँ/पोर्टल)</th><th style='padding:8px 10px;'>सूची-II (डोमेन)</th></tr><tr><td style='padding:8px 10px;'>A. एनसीटीई (NCTE)</td><td style='padding:8px 10px;'>I. मूल्यांकन और मान्यता</td></tr><tr><td style='padding:8px 10px;'>B. एनसीईआरटी (NCERT)</td><td style='padding:8px 10px;'>II. ऑनलाइन शिक्षा</td></tr><tr><td style='padding:8px 10px;'>C. एनएएसी (NAAC)</td><td style='padding:8px 10px;'>III. शिक्षक शिक्षा</td></tr><tr><td style='padding:8px 10px;'>D. स्वयं (SWAYAM)</td><td style='padding:8px 10px;'>IV. स्कूल की पाठ्य पुस्तकें</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["A-I, B-II, C-III, D-IV", "A-II, B-I, C-IV, D-III", "A-III, B-IV, C-I, D-II", "A-IV, B-III, C-II, D-I"],
+        "explanation": "<strong>शैक्षणिक संस्थानों का उनके डोमेन के साथ मिलान:</strong><br>• <strong>NCTE (A-III):</strong> राष्ट्रीय शिक्षक शिक्षा परिषद शिक्षक शिक्षा (Teacher Education) पर ध्यान केंद्रित करती है।<br>• <strong>NCERT (B-IV):</strong> राष्ट्रीय शैक्षिक अनुसंधान और प्रशिक्षण परिषद स्कूल की पाठ्य पुस्तकें (School Textbooks) प्रकाशित करती है।<br>• <strong>NAAC (C-I):</strong> राष्ट्रीय मूल्यांकन और प्रत्यायन परिषद उच्च शिक्षा संस्थानों के मूल्यांकन और मान्यता (Assessment and Accreditation) को संभालती है।<br>• <strong>SWAYAM (D-II):</strong> ऑनलाइन शिक्षा के लिए एक विशाल मंच।<br>अतः A-III, B-IV, C-I, D-II सही मिलान है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q11",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 1: Teaching Aptitude",
+    "unitHI": "इकाई 1: शिक्षण अभिवृत्ति",
+    "topicEN": "Levels of Teaching — Memory, Understanding and Reflective",
+    "topicHI": "शिक्षण के स्तर — स्मृति, समझ और चिंतनशील",
+    "content": {
+      "en": {
+        "question": "Match the following:<br><br><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>List-I (Level of Understanding)</th><th style='padding:8px 10px;'>List-II (Process)</th></tr><tr><td style='padding:8px 10px;'>A. Autonomous Dependent Level</td><td style='padding:8px 10px;'>I. Peer learning</td></tr><tr><td style='padding:8px 10px;'>B. Memory level</td><td style='padding:8px 10px;'>II. Effects and feelings</td></tr><tr><td style='padding:8px 10px;'>C. Reflective level</td><td style='padding:8px 10px;'>III. Recall of facts and information</td></tr><tr><td style='padding:8px 10px;'>D. Understanding level</td><td style='padding:8px 10px;'>IV. Seeing of relationship</td></tr></table><br>Choose the correct answer from the options given below:",
+        "options": ["A-I, B-III, C-IV, D-II", "A-II, B-III, C-I, D-IV", "A-II, B-III, C-IV, D-I", "A-IV, B-III, C-II, D-I"],
+        "explanation": "<strong>Matching Levels of Teaching with Processes:</strong><br>• <strong>Autonomous Development Level (A-II):</strong> This is student-centered and primarily focuses on student's effects, attitudes, and feelings.<br>• <strong>Memory Level (B-III):</strong> Relies solely on the memorization and recall of facts and information.<br>• <strong>Reflective Level (C-I):</strong> The highest level where students engage in deep problem-solving, independent thinking, and peer learning.<br>• <strong>Understanding Level (D-IV):</strong> Focuses on seeing relationships between facts and understanding concepts.<br>Hence, A-II, B-III, C-I, D-IV is the correct match."
+      },
+      "hi": {
+        "question": "निम्नलिखित का मिलान करें:<br><br><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>सूची-I (समझ का स्तर)</th><th style='padding:8px 10px;'>सूची-II (प्रक्रिया)</th></tr><tr><td style='padding:8px 10px;'>A. स्वायत्त आश्रित स्तर</td><td style='padding:8px 10px;'>I. सहकर्मी सीखना</td></tr><tr><td style='padding:8px 10px;'>B. स्मृति स्तर</td><td style='padding:8px 10px;'>II. प्रभाव और भावनाएँ</td></tr><tr><td style='padding:8px 10px;'>C. परावर्तक स्तर</td><td style='padding:8px 10px;'>III. तथ्यों और सूचनाओं का स्मरण</td></tr><tr><td style='padding:8px 10px;'>D. समझ का स्तर</td><td style='padding:8px 10px;'>IV. रिश्ते को देखना</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["A-I, B-III, C-IV, D-II", "A-II, B-III, C-I, D-IV", "A-II, B-III, C-IV, D-I", "A-IV, B-III, C-II, D-I"],
+        "explanation": "<strong>शिक्षण के स्तर का प्रक्रियाओं से मिलान:</strong><br>• <strong>स्वायत्त विकास स्तर (A-II):</strong> यह छात्र-केंद्रित है और मुख्य रूप से छात्र के प्रभाव, दृष्टिकोण और भावनाओं पर केंद्रित है।<br>• <strong>स्मृति स्तर (B-III):</strong> केवल तथ्यों और सूचनाओं को याद रखने और याद करने पर निर्भर करता है।<br>• <strong>चिंतनशील (परावर्तक) स्तर (C-I):</strong> उच्चतम स्तर जहां छात्र गहरी समस्या-समाधान, स्वतंत्र सोच और सहकर्मी सीखने (Peer learning) में संलग्न होते हैं।<br>• <strong>समझ का स्तर (D-IV):</strong> तथ्यों के बीच संबंधों को देखने और अवधारणाओं को समझने पर केंद्रित है।<br>अतः A-II, B-III, C-I, D-IV सही मिलान है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q12",
+    "difficulty": "easy",
+    "correct": 1,
+    "unitEN": "Unit 8: Information and Communication Technology (ICT)",
+    "unitHI": "इकाई 8: सूचना एवं संचार प्रौद्योगिकी (आईसीटी)",
+    "topicEN": "Basics of Internet — Social Networking",
+    "topicHI": "इंटरनेट की मूल बातें — सोशल नेटवर्किंग",
+    "content": {
+      "en": {
+        "question": "__________________allows a user to share ideas, activities, events and interests, among the people.",
+        "options": ["Adware", "Social networking sites", "Cookies", "Open source software"],
+        "explanation": "<strong>Social networking sites</strong> (like Facebook, X/Twitter, Instagram) are online platforms specifically designed to allow users to create profiles and share ideas, activities, events, and interests with a community of people."
+      },
+      "hi": {
+        "question": "__________________उपयोगकर्ता को लोगों के बीच विचारों, गतिविधियों, घटनाओं और रुचियों को साझा करने की अनुमति देता है।",
+        "options": ["एडवेयर", "सोशल नेटवर्किंग साइट्स", "कुकीज़", "ओपन सोर्स सॉफ्टवेयर"],
+        "explanation": "<strong>सोशल नेटवर्किंग साइट्स</strong> (जैसे Facebook, X/Twitter, Instagram) ऑनलाइन प्लेटफ़ॉर्म हैं जिन्हें विशेष रूप से उपयोगकर्ताओं को प्रोफ़ाइल बनाने और लोगों के समुदाय के साथ विचारों, गतिविधियों, घटनाओं और रुचियों को साझा करने की अनुमति देने के लिए डिज़ाइन किया गया है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q13",
+    "difficulty": "medium",
+    "correct": 2,
+    "unitEN": "Unit 9: People, Development and Environment",
+    "unitHI": "इकाई 9: लोग, विकास और पर्यावरण",
+    "topicEN": "Soil Types and Regional Distribution",
+    "topicHI": "मृदा के प्रकार और क्षेत्रीय वितरण",
+    "content": {
+      "en": {
+        "question": "Match the following:<br><br><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>List-I (Soil type)</th><th style='padding:8px 10px;'>List-II (Region)</th></tr><tr><td style='padding:8px 10px;'>A. Alluvial soil</td><td style='padding:8px 10px;'>I. Western Ghat, Kerala</td></tr><tr><td style='padding:8px 10px;'>B. Desert soil</td><td style='padding:8px 10px;'>II. Runn of Kutch, Gujarat</td></tr><tr><td style='padding:8px 10px;'>C. Black soil</td><td style='padding:8px 10px;'>III. Indo-Gangetic plain, Bihar</td></tr><tr><td style='padding:8px 10px;'>D. Laterite soil</td><td style='padding:8px 10px;'>IV. Krishna Tungabhadra basin of Tamil Nadu</td></tr></table><br>Choose the correct answer from the options given below:",
+        "options": ["A-III, B-I, C-IV, D-II", "A-I, B-II, C-III, D-IV", "A-III, B-II, C-IV, D-I", "A-I, B-III, C-I, D-IV"],
+        "explanation": "<strong>Matching Soil Types with Indian Regions:</strong><br>• <strong>Alluvial Soil (A-III):</strong> Found extensively in the river basins like the Indo-Gangetic plain (Bihar).<br>• <strong>Desert / Arid Soil (B-II):</strong> Found in arid regions like the Rann of Kutch (Gujarat) and Rajasthan.<br>• <strong>Black Soil (C-IV):</strong> Prominent in the Deccan plateau, including the Krishna-Tungabhadra basin (Tamil Nadu/Karnataka borders).<br>• <strong>Laterite Soil (D-I):</strong> Found in areas with high rainfall and temperature, like the Western Ghats (Kerala).<br>Correct match: A-III, B-II, C-IV, D-I."
+      },
+      "hi": {
+        "question": "निम्नलिखित का मिलान करें:<br><br><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>सूची-I (मृदा प्रकार)</th><th style='padding:8px 10px;'>सूची-II (क्षेत्र)</th></tr><tr><td style='padding:8px 10px;'>A. जलोढ़ मिट्टी</td><td style='padding:8px 10px;'>I. पश्चिमी घाट, केरल</td></tr><tr><td style='padding:8px 10px;'>B. रेगिस्तानी मिट्टी</td><td style='padding:8px 10px;'>II. कच्छ का रन्न, गुजरात</td></tr><tr><td style='padding:8px 10px;'>C. काली मिट्टी</td><td style='padding:8px 10px;'>III. इंडो-गैंगेटिक प्लेन, बिहार</td></tr><tr><td style='padding:8px 10px;'>D. लैटेराइट मिट्टी</td><td style='padding:8px 10px;'>IV. तमिलनाडु का कृष्णा तुंगभद्रा बेसिन</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["A-III, B-I, C-IV, D-II", "A-I, B-II, C-III, D-IV", "A-III, B-II, C-IV, D-I", "A-I, B-III, C-I, D-IV"],
+        "explanation": "<strong>भारतीय क्षेत्रों के साथ मिट्टी के प्रकारों का मिलान:</strong><br>• <strong>जलोढ़ मिट्टी (A-III):</strong> नदी घाटियों जैसे इंडो-गैंगेटिक मैदान (बिहार) में बड़े पैमाने पर पाई जाती है।<br>• <strong>रेगिस्तानी / शुष्क मिट्टी (B-II):</strong> कच्छ के रण (गुजरात) और राजस्थान जैसे शुष्क क्षेत्रों में पाई जाती है।<br>• <strong>काली मिट्टी (C-IV):</strong> दक्कन के पठार में प्रमुख, जिसमें कृष्णा-तुंगभद्रा बेसिन (तमिलनाडु/कर्नाटक सीमाएं) शामिल है।<br>• <strong>लेटराइट मिट्टी (D-I):</strong> उच्च वर्षा और तापमान वाले क्षेत्रों में पाई जाती है, जैसे पश्चिमी घाट (केरल)।<br>सही मिलान: A-III, B-II, C-IV, D-I."
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q14",
+    "difficulty": "hard",
+    "correct": 1,
+    "unitEN": "Unit 6: Logical Reasoning",
+    "unitHI": "इकाई 6: तार्किक तर्क",
+    "topicEN": "Classical Square of Opposition",
+    "topicHI": "विरोध का शास्त्रीय वर्ग",
+    "content": {
+      "en": {
+        "question": "Match the following:<br><br><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>List-I (Square of Opposition)</th><th style='padding:8px 10px;'>List-II (Result)</th></tr><tr><td style='padding:8px 10px;'>A. If 'I' is given as true</td><td style='padding:8px 10px;'>I. 'E' and 'I' are undetermined</td></tr><tr><td style='padding:8px 10px;'>B. If 'I' is given as false</td><td style='padding:8px 10px;'>II. 'E' is false, A is undetermined</td></tr><tr><td style='padding:8px 10px;'>C. If 'O' is given as true</td><td style='padding:8px 10px;'>III. 'A' is false, 'E' is true</td></tr><tr><td style='padding:8px 10px;'>D. If 'O' is given as false</td><td style='padding:8px 10px;'>IV. 'E' is false</td></tr></table><br>Choose the correct answer from the options given below:",
+        "options": ["A-III, B-IV, C-I, D-II", "A-II, B-III, C-I, D-IV", "A-I, B-IV, C-II, D-III", "A-IV, B-I, C-III, D-I"],
+        "explanation": "<strong>Square of Opposition Rules:</strong><br>• <strong>(A) If 'I' is True:</strong> Its contradictory 'E' is False. The universal 'A' and particular 'O' remain undetermined. (Matches II).<br>• <strong>(B) If 'I' is False:</strong> Its contradictory 'E' must be True. By subalternation, 'A' must be False. (Matches III).<br>• <strong>(C) If 'O' is True:</strong> Its contradictory 'A' is False. The propositions 'E' and 'I' remain undetermined. (Matches I).<br>• <strong>(D) If 'O' is False:</strong> Its contradictory 'A' is True. By subalternation, 'I' is True, and 'E' is False. (Matches IV).<br>Correct match: A-II, B-III, C-I, D-IV."
+      },
+      "hi": {
+        "question": "निम्नलिखित का मिलान करें:<br><br><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>सूची-I (विरोध का वर्ग)</th><th style='padding:8px 10px;'>सूची-II (परिणाम)</th></tr><tr><td style='padding:8px 10px;'>A. यदि 'I' को सत्य माना गया है</td><td style='padding:8px 10px;'>I. 'E' और 'I' अनिर्धारित हैं</td></tr><tr><td style='padding:8px 10px;'>B. यदि 'I' असत्य दिया गया है</td><td style='padding:8px 10px;'>II. 'E' असत्य है, A अनिर्धारित है</td></tr><tr><td style='padding:8px 10px;'>C. यदि 'O' सत्य दिया गया है</td><td style='padding:8px 10px;'>III. 'A' असत्य है, 'E' सत्य है</td></tr><tr><td style='padding:8px 10px;'>D. यदि 'O' असत्य दिया गया है</td><td style='padding:8px 10px;'>IV. 'E' असत्य है</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["A-III, B-IV, C-I, D-II", "A-II, B-III, C-I, D-IV", "A-I, B-IV, C-II, D-III", "A-IV, B-I, C-III, D-I"],
+        "explanation": "<strong>विरोध के वर्ग (Square of Opposition) के नियम:</strong><br>• <strong>(A) यदि 'I' सत्य है:</strong> इसका विरोधाभासी 'E' असत्य है। सार्वभौमिक 'A' और विशेष 'O' अनिर्धारित रहते हैं। (II से मेल खाता है)।<br>• <strong>(B) यदि 'I' असत्य है:</strong> इसका विरोधाभासी 'E' सत्य होना चाहिए। उपाश्रयण (subalternation) द्वारा, 'A' असत्य होना चाहिए। (III से मेल खाता है)।<br>• <strong>(C) यदि 'O' सत्य है:</strong> इसका विरोधाभासी 'A' असत्य है। 'E' और 'I' अनिर्धारित रहते हैं। (I से मेल खाता है)।<br>• <strong>(D) यदि 'O' असत्य है:</strong> इसका विरोधाभासी 'A' सत्य है। 'I' सत्य है, और 'E' असत्य है। (IV से मेल खाता है)।<br>सही मिलान: A-II, B-III, C-I, D-IV।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q15",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 2: Research Aptitude",
+    "unitHI": "इकाई 2: शोध अभिवृत्ति",
+    "topicEN": "Research Paradigms — Positivism and Post-Positivism",
+    "topicHI": "शोध प्रतिमान — प्रत्यक्षवाद और उत्तर-प्रत्यक्षवाद",
+    "content": {
+      "en": {
+        "question": "Which among the following is incorrect in the light of Positivist Research Paradigm?",
+        "options": ["Scientific Knowledge is derived from accumulation of data obtained theory-free and value free from observation", "Scientific method cannot be applied to humanities and social affairs", "Anything that cannot be observed is of little importance", "Science is the pursuit of foundational knowledge"],
+        "explanation": "The <strong>Positivist Research Paradigm</strong>, founded by Auguste Comte, strongly believes that the scientific method (used in natural sciences) <strong>CAN and SHOULD be applied</strong> to humanities and social sciences to discover absolute social facts. Therefore, the statement \"Scientific method cannot be applied to humanities and social affairs\" is fundamentally INCORRECT according to positivists."
+      },
+      "hi": {
+        "question": "प्रत्यक्षवादी अनुसंधान प्रतिमान के प्रकाश में निम्नलिखित में से कौन सा गलत है?",
+        "options": ["वैज्ञानिक ज्ञान सिद्धांत-मुक्त और मूल्य-मुक्त अवलोकन से प्राप्त आंकड़ों के संचय से प्राप्त होता है", "वैज्ञानिक पद्धति को मानविकी और सामाजिक मामलों पर लागू नहीं किया जा सकता", "जो कुछ भी देखा न जा सके उसका महत्व कम है", "विज्ञान आधारभूत ज्ञान की खोज है"],
+        "explanation": "अगस्टे कॉम्टे द्वारा स्थापित <strong>प्रत्यक्षवादी अनुसंधान प्रतिमान (Positivist Research Paradigm)</strong> का दृढ़ता से मानना ​​है कि पूर्ण सामाजिक तथ्यों को खोजने के लिए वैज्ञानिक पद्धति (प्राकृतिक विज्ञान में प्रयुक्त) को मानविकी और सामाजिक विज्ञानों पर <strong>लागू किया जा सकता है और किया जाना चाहिए</strong>। इसलिए, यह कथन कि \"वैज्ञानिक पद्धति को मानविकी और सामाजिक मामलों पर लागू नहीं किया जा सकता\" प्रत्यक्षवादियों के अनुसार मौलिक रूप से गलत (INCORRECT) है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q16",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 9: People, Development and Environment",
+    "unitHI": "इकाई 9: लोग, विकास और पर्यावरण",
+    "topicEN": "International Environmental Agreements — Hazardous Materials Conventions",
+    "topicHI": "अंतर्राष्ट्रीय पर्यावरण समझौते — खतरनाक पदार्थ सम्मेलन",
+    "content": {
+      "en": {
+        "question": "Arrange the following events related to hazardous materials in order of their occurrence starting from oldest to the most recent.<br><br>A. BAMAKO Convention<br>B. Waigani Convention<br>C. Basel Convention<br>D. London Convention<br>E. Rotterdam Convention<br><br>Choose the correct answer from the options given below:",
+        "options": ["B, D, C, A, E", "D, C, A, B, E", "E, B, C, D, A", "D, C, B, E, A"],
+        "explanation": "<strong>Chronology of Hazardous Materials Conventions:</strong><br>1. <strong>London Convention (D):</strong> Adopted in <strong>1972</strong> (marine pollution by dumping wastes).<br>2. <strong>Basel Convention (C):</strong> Adopted in <strong>1989</strong> (control of transboundary movements of hazardous wastes).<br>3. <strong>Bamako Convention (A):</strong> Adopted in <strong>1991</strong> (banning import of hazardous wastes into Africa).<br>4. <strong>Waigani Convention (B):</strong> Adopted in <strong>1995</strong> (banning hazardous wastes in the South Pacific).<br>5. <strong>Rotterdam Convention (E):</strong> Adopted in <strong>1998</strong> (hazardous chemicals and pesticides trade).<br>Correct Order: D $\\rightarrow$ C $\\rightarrow$ A $\\rightarrow$ B $\\rightarrow$ E."
+      },
+      "hi": {
+        "question": "खतरनाक पदार्थों से संबंधित निम्नलिखित घटनाओं को उनकी घटना के क्रम में सबसे पुरानी से लेकर सबसे हाल की तक व्यवस्थित करें।<br><br>A. बामाको कन्वेंशन<br>B. वैगानी कन्वेंशन<br>C. बेसल कन्वेंशन<br>D. लंदन कन्वेंशन<br>E. रॉटरडैम कन्वेंशन<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["B, D, C, A, E", "D, C, A, B, E", "E, B, C, D, A", "D, C, B, E, A"],
+        "explanation": "<strong>खतरनाक सामग्री सम्मेलनों का कालक्रम:</strong><br>1. <strong>लंदन कन्वेंशन (D):</strong> <strong>1972</strong> में अपनाया गया (कचरा डंप करने से समुद्री प्रदूषण)।<br>2. <strong>बेसल कन्वेंशन (C):</strong> <strong>1989</strong> में अपनाया गया (खतरनाक कचरे की सीमा पार गतिविधियों का नियंत्रण)।<br>3. <strong>बामाको कन्वेंशन (A):</strong> <strong>1991</strong> में अपनाया गया (अफ्रीका में खतरनाक कचरे के आयात पर प्रतिबंध)।<br>4. <strong>वैगानी कन्वेंशन (B):</strong> <strong>1995</strong> में अपनाया गया (दक्षिण प्रशांत में खतरनाक कचरे पर प्रतिबंध)।<br>5. <strong>रॉटरडैम कन्वेंशन (E):</strong> <strong>1998</strong> में अपनाया गया (खतरनाक रसायन और कीटनाशक व्यापार)।<br>सही क्रम: D $\\rightarrow$ C $\\rightarrow$ A $\\rightarrow$ B $\\rightarrow$ E।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q17",
+    "difficulty": "easy",
+    "correct": 2,
+    "unitEN": "Unit 8: Information and Communication Technology (ICT)",
+    "unitHI": "इकाई 8: सूचना एवं संचार प्रौद्योगिकी (आईसीटी)",
+    "topicEN": "ICT General Abbreviations and Terminology — Storage Devices",
+    "topicHI": "आईसीटी सामान्य शब्दावली — भंडारण उपकरण",
+    "content": {
+      "en": {
+        "question": "Which of the following is NOT an optical storage device?",
+        "options": ["CD-ROM", "DVD-ROM", "RAM", "CD-R"],
+        "explanation": "Optical storage devices use lasers and lights to read and write data. Examples include CDs, DVDs, and Blu-ray discs. <br><strong>RAM (Random Access Memory)</strong> is a solid-state semiconductor memory chip (primary memory) and is NOT an optical storage device."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से कौन ऑप्टिकल स्टोरेज डिवाइस नहीं है?",
+        "options": ["सीडी-रोम (CD-ROM)", "डीवीडी-रोम (DVD-ROM)", "रैम (RAM)", "सीडी-आर (CD-R)"],
+        "explanation": "ऑप्टिकल स्टोरेज डिवाइस डेटा को पढ़ने और लिखने के लिए लेजर और रोशनी का उपयोग करते हैं। उदाहरणों में सीडी, डीवीडी और ब्लू-रे डिस्क शामिल हैं।<br><strong>RAM (रैंडम एक्सेस मेमोरी)</strong> एक सॉलिड-स्टेट सेमीकंडक्टर मेमोरी चिप (प्राथमिक मेमोरी) है और यह ऑप्टिकल स्टोरेज डिवाइस नहीं है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q18",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 5: Mathematical Reasoning and Aptitude",
+    "unitHI": "इकाई 5: गणितीय तर्क और अभिवृत्ति",
+    "topicEN": "Codes and Relationships",
+    "topicHI": "कोड और संबंध",
+    "content": {
+      "en": {
+        "question": "In a certain coding scheme, 'CLASS' and 'CABIN' are coded as 'XOZHH' and 'XZYRM', respectively. In this scheme, what will be the code of 'TABLE'?",
+        "options": ["GYZOV", "FZYOV", "HZYPV", "GZYOV"],
+        "explanation": "<strong>Step-by-step Logic:</strong><br>The coding scheme uses the <strong>opposite letters</strong> of the English alphabet (A$\\leftrightarrow$Z, B$\\leftrightarrow$Y, C$\\leftrightarrow$X, etc.).<br>1. CLASS $\\rightarrow$ C(X), L(O), A(Z), S(H), S(H) = XOZHH.<br>2. CABIN $\\rightarrow$ C(X), A(Z), B(Y), I(R), N(M) = XZYRM.<br>3. Apply to TABLE:<br>   T $\\rightarrow$ G<br>   A $\\rightarrow$ Z<br>   B $\\rightarrow$ Y<br>   L $\\rightarrow$ O<br>   E $\\rightarrow$ V<br>Result is <strong>GZYOV</strong>."
+      },
+      "hi": {
+        "question": "एक निश्चित कोडिंग योजना में, 'CLASS' और 'CABIN' को क्रमशः 'XOZHH' और 'XZYRM' के रूप में कोडित किया गया है। इस योजना में, 'TABLE' का कोड क्या होगा?",
+        "options": ["GYZOV", "FZYOV", "HZYPV", "GZYOV"],
+        "explanation": "<strong>चरण-दर-चरण तर्क:</strong><br>कोडिंग योजना अंग्रेजी वर्णमाला के <strong>विपरीत अक्षरों (Opposite letters)</strong> (A$\\leftrightarrow$Z, B$\\leftrightarrow$Y, C$\\leftrightarrow$X, आदि) का उपयोग करती है।<br>1. CLASS $\\rightarrow$ C(X), L(O), A(Z), S(H), S(H) = XOZHH।<br>2. CABIN $\\rightarrow$ C(X), A(Z), B(Y), I(R), N(M) = XZYRM।<br>3. TABLE पर लागू करें:<br>   T $\\rightarrow$ G<br>   A $\\rightarrow$ Z<br>   B $\\rightarrow$ Y<br>   L $\\rightarrow$ O<br>   E $\\rightarrow$ V<br>परिणाम <strong>GZYOV</strong> है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q19",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 10: Higher Education System",
+    "unitHI": "इकाई 10: उच्च शिक्षा प्रणाली",
+    "topicEN": "Higher Education Policies — NEP 2020 and Governance",
+    "topicHI": "उच्च शिक्षा नीतियां — NEP 2020 और शासन",
+    "content": {
+      "en": {
+        "question": "Choose the correct statements.<br><br>A. This year Government of India has spent six percent of GDP on Education<br>B. The Govt of Karnataka has established a different State Education Policy commission under Sukhdeo Thorat<br>C. The NEP 2020 was chaired by a missile scientist — K. Kasturirangan<br>D. The NEP 2020 was chaired by an eminent educationist — Krishna Kumar<br>E. The NEP 2020 promotes private-philanthropic participation in education<br><br>Choose the correct answer from the options given below:",
+        "options": ["A, B and D only", "B, C and E only", "A and D only", "B and C only"],
+        "explanation": "<strong>Evaluating Education Statements:</strong><br>• <strong>(A) False:</strong> The government has not yet achieved the target of spending 6% of GDP on education.<br>• <strong>(B) True:</strong> Karnataka government formed a committee headed by former UGC Chairman Prof. Sukhadeo Thorat to draft its State Education Policy (SEP), rejecting NEP 2020.<br>• <strong>(C) True:</strong> The drafting committee of NEP 2020 was chaired by Dr. K. Kasturirangan, a former ISRO chief (missile/space scientist).<br>• <strong>(D) False:</strong> It was chaired by Kasturirangan, not Krishna Kumar.<br>• <strong>(E) True:</strong> NEP 2020 explicitly encourages private-philanthropic participation to boost the education sector.<br>Thus, B, C, and E are correct."
+      },
+      "hi": {
+        "question": "सही कथन चुनें।<br><br>A. इस वर्ष भारत सरकार ने शिक्षा पर सकल घरेलू उत्पाद का छह प्रतिशत खर्च किया है<br>B. कर्नाटक सरकार ने सुखदेव थोरात के नेतृत्व में एक अलग राज्य शिक्षा नीति आयोग की स्थापना की है<br>C. NEP 2020 की अध्यक्षता मिसाइल वैज्ञानिक के. कस्तूरीरंगन ने की<br>D. एनईपी 2020 की अध्यक्षता एक प्रख्यात शिक्षाविद् कृष्ण कुमार ने की थी<br>E. एनईपी 2020 शिक्षा में निजी-परोपकारी भागीदारी को बढ़ावा देती है<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["केवल A, B और D", "केवल B, C और E", "केवल A और D", "केवल B और C"],
+        "explanation": "<strong>शिक्षा कथनों का मूल्यांकन:</strong><br>• <strong>(A) असत्य:</strong> सरकार ने अभी तक शिक्षा पर सकल घरेलू उत्पाद का 6% खर्च करने का लक्ष्य हासिल नहीं किया है।<br>• <strong>(B) सत्य:</strong> कर्नाटक सरकार ने NEP 2020 को खारिज करते हुए अपनी राज्य शिक्षा नीति (SEP) का मसौदा तैयार करने के लिए पूर्व UGC अध्यक्ष प्रो. सुखदेव थोराट के नेतृत्व में एक समिति का गठन किया।<br>• <strong>(C) सत्य:</strong> NEP 2020 की मसौदा समिति की अध्यक्षता पूर्व ISRO प्रमुख (मिसाइल/अंतरिक्ष वैज्ञानिक) डॉ. के. कस्तूरीरंगन ने की थी।<br>• <strong>(D) असत्य:</strong> इसकी अध्यक्षता कस्तूरीरंगन ने की थी, कृष्ण कुमार ने नहीं।<br>• <strong>(E) सत्य:</strong> NEP 2020 शिक्षा क्षेत्र को बढ़ावा देने के लिए निजी-परोपकारी भागीदारी (private-philanthropic participation) को स्पष्ट रूप से प्रोत्साहित करता है।<br>अतः B, C और E सही हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q20",
+    "difficulty": "easy",
+    "correct": 3,
+    "unitEN": "Unit 8: Information and Communication Technology (ICT)",
+    "unitHI": "इकाई 8: सूचना एवं संचार प्रौद्योगिकी (आईसीटी)",
+    "topicEN": "ICT General Terminology — Programming Languages",
+    "topicHI": "आईसीटी सामान्य शब्दावली — प्रोग्रामिंग भाषाएं",
+    "content": {
+      "en": {
+        "question": "Arrange the following programming languages according to their generations in ascending order:<br><br>A. Machine language<br>B. High level language<br>C. Assembly language<br>D. Very high level language<br><br>Choose the correct answer from the options given below:",
+        "options": ["D, B, A, C", "B, D, C, A", "A, C, D, B", "A, C, B, D"],
+        "explanation": "<strong>Generations of Programming Languages:</strong><br>1. <strong>First Generation (A):</strong> Machine language (binary 0s and 1s).<br>2. <strong>Second Generation (C):</strong> Assembly language (mnemonics).<br>3. <strong>Third Generation (B):</strong> High-level language (C, Java, Python).<br>4. <strong>Fourth/Fifth Generation (D):</strong> Very high-level language (SQL, Prolog, AI languages).<br>Ascending Order: A $\\rightarrow$ C $\\rightarrow$ B $\\rightarrow$ D."
+      },
+      "hi": {
+        "question": "निम्नलिखित प्रोग्रामिंग भाषाओं को उनकी पीढ़ियों के अनुसार आरोही क्रम में व्यवस्थित करें:<br><br>A. मशीन भाषा<br>B. उच्च स्तरीय भाषा<br>C. असेंबली भाषा<br>D. अति उच्च स्तरीय भाषा<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["D, B, A, C", "B, D, C, A", "A, C, D, B", "A, C, B, D"],
+        "explanation": "<strong>प्रोग्रामिंग भाषाओं की पीढ़ियाँ:</strong><br>1. <strong>पहली पीढ़ी (A):</strong> मशीन भाषा (बाइनरी 0 और 1)।<br>2. <strong>दूसरी पीढ़ी (C):</strong> असेंबली भाषा (mnemonics)।<br>3. <strong>तीसरी पीढ़ी (B):</strong> उच्च स्तरीय भाषा (C, Java, Python)।<br>4. <strong>चौथी/पांचवीं पीढ़ी (D):</strong> बहुत उच्च स्तरीय भाषा (SQL, Prolog, AI भाषाएँ)।<br>आरोही क्रम: A $\\rightarrow$ C $\\rightarrow$ B $\\rightarrow$ D।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q21",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 2: Research Aptitude",
+    "unitHI": "इकाई 2: शोध अभिवृत्ति",
+    "topicEN": "Research Methods — Measurement Scales",
+    "topicHI": "शोध विधियां — मापन पैमाने",
+    "content": {
+      "en": {
+        "question": "What among the following applies to the 'Ratio-scale'?<br><br>A. It is a useful device in assessing quality and values<br>B. It has equal interval properties<br>C. It has a true zero<br>D. The numerals have the qualities of real numbers and can be added, subtracted etc.<br>E. It uses non-parametric statistical techniques<br><br>Choose the correct answer from the options given below:",
+        "options": ["A, C and D only", "D and E only", "A, B and C only", "B, C and D only"],
+        "explanation": "<strong>Characteristics of Ratio Scale:</strong><br>• It is the highest level of measurement. It possesses all properties of interval scales, meaning it has <strong>equal intervals (B)</strong>.<br>• Unlike interval scales, it has an absolute or <strong>true zero (C)</strong> point (e.g., height, weight, income).<br>• Because of the true zero, the numerals act like real numbers and <strong>can be mathematically manipulated</strong> (added, subtracted, multiplied, divided) <strong>(D)</strong>.<br>• <em>(A) is vague (usually qualitative) and (E) is false because ratio scales use powerful PARAMETRIC statistics.</em><br>Thus, B, C, and D are correct."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से क्या 'अनुपात-पैमाने' (Ratio-scale) पर लागू होता है?<br><br>A. यह गुणवत्ता और मूल्यों का आकलन करने में एक उपयोगी उपकरण है<br>B. इसमें समान अंतराल गुण होते हैं<br>C. इसका शून्य सत्य है<br>D. अंकों में वास्तविक संख्याओं के गुण होते हैं और उन्हें जोड़ा, घटाया आदि जा सकता है<br>E. यह गैर-पैरामेट्रिक सांख्यिकीय तकनीकों का उपयोग करता है<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["केवल A, C और D", "केवल D और E", "केवल A, B और C", "केवल B, C और D"],
+        "explanation": "<strong>अनुपात पैमाने (Ratio Scale) की विशेषताएं:</strong><br>• यह माप का उच्चतम स्तर है। इसमें अंतराल पैमाने (interval scale) के सभी गुण होते हैं, जिसका अर्थ है कि इसमें <strong>समान अंतराल (B)</strong> होते हैं।<br>• अंतराल पैमाने के विपरीत, इसका एक पूर्ण या <strong>सत्य शून्य (C)</strong> बिंदु होता है (उदा. ऊंचाई, वजन, आय)।<br>• वास्तविक शून्य के कारण, अंक वास्तविक संख्याओं की तरह कार्य करते हैं और <strong>गणितीय रूप से हेरफेर</strong> (जोड़ा, घटाया, गुणा, विभाजित) <strong>(D)</strong> किए जा सकते हैं।<br>• <em>(A) अस्पष्ट है (आमतौर पर गुणात्मक) और (E) गलत है क्योंकि अनुपात पैमाने शक्तिशाली पैरामीट्रिक (PARAMETRIC) आँकड़ों का उपयोग करते हैं।</em><br>इस प्रकार, B, C और D सही हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q22",
+    "difficulty": "medium",
+    "correct": 0,
+    "unitEN": "Unit 2: Research Aptitude",
+    "unitHI": "इकाई 2: शोध अभिवृत्ति",
+    "topicEN": "Methods of Research — Qualitative vs Quantitative",
+    "topicHI": "शोध विधियां — गुणात्मक बनाम मात्रात्मक",
+    "content": {
+      "en": {
+        "question": "Triangulation is a method of research adopted by",
+        "options": ["Qualitative Research", "Quantitative Research", "Applied Research", "Fundamental Research"],
+        "explanation": "<strong>Triangulation</strong> refers to the use of multiple methods or data sources in qualitative research to develop a comprehensive understanding of phenomena. While it can technically be used in mixed methods, it was historically adopted and is predominantly utilized in <strong>Qualitative Research</strong> to test validity and ensure credibility by cross-verifying information."
+      },
+      "hi": {
+        "question": "त्रिभुजाकारीकरण (Triangulation) शोध की एक विधि है जिसे अपनाया गया है",
+        "options": ["गुणात्मक अनुसंधान (Qualitative Research)", "मात्रात्मक अनुसंधान", "अनुप्रयुक्त अनुसंधान", "मौलिक अनुसंधान"],
+        "explanation": "<strong>त्रिकोणीयन (Triangulation)</strong> घटनाओं की व्यापक समझ विकसित करने के लिए गुणात्मक अनुसंधान में कई विधियों या डेटा स्रोतों के उपयोग को संदर्भित करता है। यद्यपि इसे तकनीकी रूप से मिश्रित तरीकों में इस्तेमाल किया जा सकता है, इसे ऐतिहासिक रूप से अपनाया गया था और मुख्य रूप से जानकारी को क्रॉस-सत्यापित करके वैधता का परीक्षण करने और विश्वसनीयता सुनिश्चित करने के लिए <strong>गुणात्मक अनुसंधान (Qualitative Research)</strong> में उपयोग किया जाता है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q23",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 6: Logical Reasoning",
+    "unitHI": "इकाई 6: तार्किक तर्क",
+    "topicEN": "Uses of Language — Genus and Difference in Definition",
+    "topicHI": "भाषा का उपयोग — परिभाषा में जीनस और अंतर",
+    "content": {
+      "en": {
+        "question": "In the context of definition, the class whose membership is divided into subclasses is called:",
+        "options": ["Species", "Set", "Group", "Genus"],
+        "explanation": "In logic, a definition by \"genus and difference\" works by placing a concept into a larger class and then showing how it differs from others in that class. The larger, broader class whose membership is divided into subclasses (species) is called the <strong>Genus</strong>."
+      },
+      "hi": {
+        "question": "परिभाषा के संदर्भ में, वह वर्ग जिसकी सदस्यता उपवर्गों में विभाजित होती है, कहलाता है:",
+        "options": ["प्रजातियाँ", "सेट", "समूह", "जीनस (Genus)"],
+        "explanation": "तर्कशास्त्र में, \"जीनस और अंतर\" द्वारा परिभाषा एक अवधारणा को एक बड़े वर्ग में रखकर और फिर यह दिखाकर काम करती है कि यह उस वर्ग के अन्य लोगों से कैसे अलग है। जिस बड़े, व्यापक वर्ग की सदस्यता उपवर्गों (प्रजातियों/species) में विभाजित होती है, उसे <strong>जीनस (Genus)</strong> कहा जाता है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q24",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 4: Communication",
+    "unitHI": "इकाई 4: संचार",
+    "topicEN": "Mass Media and Society — Development Communication Theorists",
+    "topicHI": "जन माध्यम और समाज — विकास संचार सिद्धांतकार",
+    "content": {
+      "en": {
+        "question": "Match the following:<br><br><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>List-I (Scholars)</th><th style='padding:8px 10px;'>List-II (Concept/Innovation/Publication)</th></tr><tr><td style='padding:8px 10px;'>A. Everett Rogers</td><td style='padding:8px 10px;'>I. Original Version of dependency and under development theory</td></tr><tr><td style='padding:8px 10px;'>B. Paul Baran and Andre Gunder Frank</td><td style='padding:8px 10px;'>II. The Passing of Traditional Society</td></tr><tr><td style='padding:8px 10px;'>C. Daniel Lerner</td><td style='padding:8px 10px;'>III. Mass Media and National Development</td></tr><tr><td style='padding:8px 10px;'>D. Wilbur Schramm</td><td style='padding:8px 10px;'>IV. Diffusion of Innovation</td></tr></table><br>Choose the correct answer from the options given below:",
+        "options": ["A-I, B-IV, C-II, D-III", "A-IV, B-I, C-III, D-II", "A-I, B-II, C-III, D-IV", "A-IV, B-I, C-II, D-III"],
+        "explanation": "<strong>Matching Communication Scholars with Concepts:</strong><br>• <strong>Everett Rogers (A-IV):</strong> Famous for developing the <em>Diffusion of Innovations</em> theory.<br>• <strong>Baran & Frank (B-I):</strong> Associated with the original version of the <em>Dependency and Underdevelopment theory</em>.<br>• <strong>Daniel Lerner (C-II):</strong> Wrote the highly influential book <em>The Passing of Traditional Society</em>.<br>• <strong>Wilbur Schramm (D-III):</strong> Wrote <em>Mass Media and National Development</em>. <br>Correct match: A-IV, B-I, C-II, D-III."
+      },
+      "hi": {
+        "question": "निम्नलिखित का मिलान करें:<br><br><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>सूची-I (विद्वान)</th><th style='padding:8px 10px;'>सूची-II (संकल्पना/नवाचार/प्रकाशन)</th></tr><tr><td style='padding:8px 10px;'>A. एवरेट रोजर्स</td><td style='padding:8px 10px;'>I. निर्भरता और विकास के अंतर्गत सिद्धांत का मूल संस्करण</td></tr><tr><td style='padding:8px 10px;'>B. पॉल बरन और आंद्रे गुंडर फ्रैंक</td><td style='padding:8px 10px;'>II. पारंपरिक समाज का अंत</td></tr><tr><td style='padding:8px 10px;'>C. डैनियल लर्नर</td><td style='padding:8px 10px;'>III. मास मीडिया और राष्ट्रीय विकास</td></tr><tr><td style='padding:8px 10px;'>D. विल्बर श्रामन</td><td style='padding:8px 10px;'>IV. नवाचार का प्रसार</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["A-I, B-IV, C-II, D-III", "A-IV, B-I, C-III, D-II", "A-I, B-II, C-III, D-IV", "A-IV, B-I, C-II, D-III"],
+        "explanation": "<strong>अवधारणाओं के साथ संचार विद्वानों का मिलान:</strong><br>• <strong>एवरेट रोजर्स (A-IV):</strong> <em>नवाचार का प्रसार (Diffusion of Innovations)</em> सिद्धांत विकसित करने के लिए प्रसिद्ध।<br>• <strong>बारान और फ्रैंक (B-I):</strong> <em>निर्भरता और अविकसितता सिद्धांत (Dependency and Underdevelopment theory)</em> के मूल संस्करण से जुड़े हैं।<br>• <strong>डैनियल लर्नर (C-II):</strong> अत्यंत प्रभावशाली पुस्तक <em>द पासिंग ऑफ ट्रेडिशनल सोसाइटी (The Passing of Traditional Society)</em> लिखी।<br>• <strong>विल्बर श्राम (D-III):</strong> <em>मास मीडिया और राष्ट्रीय विकास</em> लिखा।<br>सही मिलान: A-IV, B-I, C-II, D-III।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q25",
+    "difficulty": "medium",
+    "correct": 2,
+    "unitEN": "Unit 8: Information and Communication Technology (ICT)",
+    "unitHI": "इकाई 8: सूचना एवं संचार प्रौद्योगिकी (आईसीटी)",
+    "topicEN": "Basics of Internet — Protocols and Web Technologies",
+    "topicHI": "इंटरनेट की मूल बातें — प्रोटोकॉल और वेब तकनीकें",
+    "content": {
+      "en": {
+        "question": "Match the following:<br><br><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>List-I (Internet Keyword)</th><th style='padding:8px 10px;'>List-II (Function)</th></tr><tr><td style='padding:8px 10px;'>A. FTP</td><td style='padding:8px 10px;'>I. Used to create hypertext documents for use on the web</td></tr><tr><td style='padding:8px 10px;'>B. Ping</td><td style='padding:8px 10px;'>II. A message sent to check if a server is running</td></tr><tr><td style='padding:8px 10px;'>C. HTML</td><td style='padding:8px 10px;'>III. A set of rules to exchange documents on the web</td></tr><tr><td style='padding:8px 10px;'>D. HTTP</td><td style='padding:8px 10px;'>IV. Program that enables users to transfer files from one computer to another</td></tr></table><br>Choose the correct answer from the options given below:",
+        "options": ["A-I, B-III, C-II, D-IV", "A-I, B-III, C-IV, D-II", "A-IV, B-II, C-I, D-III", "A-II, B-IV, C-I, D-III"],
+        "explanation": "<strong>Matching Internet Keywords:</strong><br>• <strong>FTP (A-IV):</strong> File Transfer Protocol enables the transfer of files between computers.<br>• <strong>Ping (B-II):</strong> A network utility used to test the reachability/status of a host/server.<br>• <strong>HTML (C-I):</strong> HyperText Markup Language is used to create and structure web documents.<br>• <strong>HTTP (D-III):</strong> HyperText Transfer Protocol is the set of rules for exchanging data/documents on the web.<br>Correct match: A-IV, B-II, C-I, D-III."
+      },
+      "hi": {
+        "question": "निम्नलिखित का मिलान करें:<br><br><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>सूची-I (इंटरनेट कीवर्ड)</th><th style='padding:8px 10px;'>सूची-II (कार्य)</th></tr><tr><td style='padding:8px 10px;'>A. एफटीपी (FTP)</td><td style='padding:8px 10px;'>I. वेब पर उपयोग के लिए हाइपरटेक्स्ट दस्तावेज़ बनाने के लिए उपयोग किया जाता है</td></tr><tr><td style='padding:8px 10px;'>B. पिंग (Ping)</td><td style='padding:8px 10px;'>II. यह जाँचने के लिए संदेश भेजा गया कि सर्वर चल रहा है या नहीं</td></tr><tr><td style='padding:8px 10px;'>C. एचटीएमएल (HTML)</td><td style='padding:8px 10px;'>III. वेब पर दस्तावेजों के आदान-प्रदान के लिए नियमों का एक सेट</td></tr><tr><td style='padding:8px 10px;'>D. एचटीटीपी (HTTP)</td><td style='padding:8px 10px;'>IV. प्रोग्राम जो उपयोगकर्ताओं को एक कंप्यूटर से दूसरे कंप्यूटर पर फ़ाइलें स्थानांतरित करने में सक्षम बनाता है</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["A-I, B-III, C-II, D-IV", "A-I, B-III, C-IV, D-II", "A-IV, B-II, C-I, D-III", "A-II, B-IV, C-I, D-III"],
+        "explanation": "<strong>इंटरनेट कीवर्ड का मिलान:</strong><br>• <strong>FTP (A-IV):</strong> फाइल ट्रांसफर प्रोटोकॉल कंप्यूटरों के बीच फाइलों के हस्तांतरण को सक्षम बनाता है।<br>• <strong>Ping (B-II):</strong> एक नेटवर्क उपयोगिता जिसका उपयोग होस्ट/सर्वर की पहुंच/स्थिति का परीक्षण करने के लिए किया जाता है।<br>• <strong>HTML (C-I):</strong> हाइपरटेक्स्ट मार्कअप लैंग्वेज का उपयोग वेब दस्तावेज़ बनाने और संरचना करने के लिए किया जाता है।<br>• <strong>HTTP (D-III):</strong> हाइपरटेक्स्ट ट्रांसफर प्रोटोकॉल वेब पर डेटा/दस्तावेजों के आदान-प्रदान के लिए नियमों का सेट है।<br>सही मिलान: A-IV, B-II, C-I, D-III।"
+      }
+    }
+  }, 
+
+// ─────────────────────────────────────────────────────────────────────────────
+// 2. EXTRACTED QUESTIONS ARRAY (Q26 to Q50)
+// ─────────────────────────────────────────────────────────────────────────────
+  {
+    "id": "jan25-9-s1-p1-q26",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 4: Communication",
+    "unitHI": "इकाई 4: संचार",
+    "topicEN": "Mass Media and Society — History of Indian Cinema",
+    "topicHI": "जन माध्यम और समाज — भारतीय सिनेमा का इतिहास",
+    "content": {
+      "en": {
+        "question": "Identify the sequence of films released (earliest to latest).<br><br>A. Mother India<br>B. Pather Panchali<br>C. Mughal-E-Azam<br>D. New Delhi<br>E. Kala Pani<br><br>Choose the correct answer from the options given below:",
+        "options": ["B, A, D, E, C", "B, D, A, C, E", "A, B, C, D, E", "B, D, A, E, C"],
+        "explanation": "<strong>Chronology of Indian Films:</strong><br>1. <strong>Pather Panchali (B):</strong> Released in <strong>1955</strong> (Directed by Satyajit Ray).<br>2. <strong>New Delhi (D):</strong> Released in <strong>1956</strong>.<br>3. <strong>Mother India (A):</strong> Released in <strong>1957</strong>.<br>4. <strong>Kala Pani (E):</strong> Released in <strong>1958</strong>.<br>5. <strong>Mughal-E-Azam (C):</strong> Released in <strong>1960</strong>.<br>Correct Order: B $\\rightarrow$ D $\\rightarrow$ A $\\rightarrow$ E $\\rightarrow$ C."
+      },
+      "hi": {
+        "question": "रिलीज हुई फिल्मों का क्रम (सबसे पहले से लेकर सबसे हाल तक) पहचानें।<br><br>A. भारत माता (Mother India)<br>B. पाथेर पांचाली<br>C. मुगल-ए-आजम<br>D. नई दिल्ली<br>E. काला पानी<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["B, A, D, E, C", "B, D, A, C, E", "A, B, C, D, E", "B, D, A, E, C"],
+        "explanation": "<strong>भारतीय फिल्मों का कालक्रम:</strong><br>1. <strong>पाथेर पांचाली (B):</strong> <strong>1955</strong> में रिलीज़ हुई (सत्यजीत रे द्वारा निर्देशित)।<br>2. <strong>नई दिल्ली (D):</strong> <strong>1956</strong> में रिलीज़ हुई।<br>3. <strong>मदर इंडिया (A):</strong> <strong>1957</strong> में रिलीज़ हुई।<br>4. <strong>काला पानी (E):</strong> <strong>1958</strong> में रिलीज़ हुई।<br>5. <strong>मुग़ल-ए-आज़म (C):</strong> <strong>1960</strong> में रिलीज़ हुई।<br>सही क्रम: B $\\rightarrow$ D $\\rightarrow$ A $\\rightarrow$ E $\\rightarrow$ C।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q27",
+    "difficulty": "easy",
+    "correct": 0,
+    "unitEN": "Unit 2: Research Aptitude",
+    "unitHI": "इकाई 2: शोध अभिवृत्ति",
+    "topicEN": "Methods of Research — Sampling Techniques",
+    "topicHI": "शोध विधियां — नमूनाकरण तकनीकें",
+    "content": {
+      "en": {
+        "question": "Sampling in which sampling units are selected on the advice of some experts or by the intuition or opinion of the researcher himself is known as:",
+        "options": ["Judgment sampling", "Snowball sampling", "Quota sampling", "Convenience sampling"],
+        "explanation": "<strong>Judgment Sampling</strong> (also known as Purposive Sampling) is a non-probability sampling technique where the researcher selects units based on their own knowledge, intuition, or professional judgment about which individuals will be most useful or representative for the study."
+      },
+      "hi": {
+        "question": "नमूनाकरण जिसमें नमूना इकाइयों का चयन कुछ विशेषज्ञों की सलाह पर या शोधकर्ता की अपनी अंतर्ज्ञान या राय द्वारा किया जाता है, उसे क्या कहते हैं?",
+        "options": ["निर्णय नमूनाकरण (Judgment sampling)", "स्नोबॉल नमूनाकरण", "कोटा नमूनाकरण", "सुविधा नमूनाकरण"],
+        "explanation": "<strong>निर्णय नमूनाकरण (Judgment / Purposive Sampling)</strong> एक गैर-संभाव्यता नमूनाकरण तकनीक है जहाँ शोधकर्ता अध्ययन के लिए सबसे उपयोगी या प्रतिनिधि व्यक्तियों के बारे में अपने स्वयं के ज्ञान, अंतर्ज्ञान या पेशेवर निर्णय के आधार पर इकाइयों का चयन करता है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q28",
+    "difficulty": "easy",
+    "correct": 0,
+    "unitEN": "Unit 9: People, Development and Environment",
+    "unitHI": "इकाई 9: लोग, विकास और पर्यावरण",
+    "topicEN": "Environmental Issues — Air Pollution and Hydrocarbons",
+    "topicHI": "पर्यावरणीय मुद्दे — वायु प्रदूषण और हाइड्रोकार्बन",
+    "content": {
+      "en": {
+        "question": "Which is the most abundant hydrocarbon in the atmosphere?",
+        "options": ["Methane", "Benzene", "Ethane", "Paraffin"],
+        "explanation": "<strong>Methane ($CH_4$)</strong> is the most abundant hydrocarbon in the Earth's atmosphere. It is a significant greenhouse gas emitted from natural sources (like wetlands) and human activities (like agriculture and fossil fuel extraction)."
+      },
+      "hi": {
+        "question": "वायुमंडल में सबसे प्रचुर मात्रा में पाया जाने वाला हाइड्रोकार्बन कौन सा है?",
+        "options": ["मीथेन (Methane)", "बेंजीन", "इथेन", "पैराफिन"],
+        "explanation": "<strong>मीथेन ($CH_4$)</strong> पृथ्वी के वायुमंडल में सबसे प्रचुर मात्रा में पाया जाने वाला हाइड्रोकार्बन है। यह एक महत्वपूर्ण ग्रीनहाउस गैस है जो प्राकृतिक स्रोतों (जैसे आर्द्रभूमि) और मानवीय गतिविधियों (जैसे कृषि और जीवाश्म ईंधन निष्कर्षण) से उत्सर्जित होती है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q29",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 2: Research Aptitude",
+    "unitHI": "इकाई 2: शोध अभिवृत्ति",
+    "topicEN": "Methods of Research — Descriptive Research",
+    "topicHI": "शोध विधियां — वर्णनात्मक शोध",
+    "content": {
+      "en": {
+        "question": "Which among the following features applies to descriptive research?<br><br>A. It may involve the procedure of Induction and analysis<br>B. A study that describes and interprets what is/was the case<br>C. It can never be normative<br>D. It is used only in the quantitative research<br>E. Survey studies is one of its types<br><br>Choose the correct answer from the options given below:",
+        "options": ["B, C and D only", "A, B and E only", "C, D and E only", "B, D and A only"],
+        "explanation": "<strong>Descriptive Research Features:</strong><br>• <strong>(A) True:</strong> It can involve inductive procedures to analyze data.<br>• <strong>(B) True:</strong> Its primary purpose is to describe 'what is' or 'what was' without manipulating variables.<br>• <strong>(E) True:</strong> Surveys, cross-sectional studies, and observational studies are core types of descriptive research.<br>• <em>(C) False</em> (Descriptive research can sometimes have normative components like normative surveys) and <em>(D) False</em> (It uses both quantitative and qualitative methods). Thus, A, B, and E are correct."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से कौन सी विशेषता वर्णनात्मक शोध पर लागू होती है?<br><br>A. इसमें प्रेरण और विश्लेषण की प्रक्रिया शामिल हो सकती है<br>B. एक अध्ययन जो वर्णन करता है और व्याख्या करता है कि मामला क्या है/था<br>C. यह कभी भी मानक नहीं हो सकता<br>D. इसका उपयोग केवल मात्रात्मक अनुसंधान में किया जाता है<br>E. सर्वेक्षण अध्ययन इसके प्रकारों में से एक है<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["केवल B, C और D", "केवल A, B और E", "केवल C, D और E", "केवल B, D और A"],
+        "explanation": "<strong>वर्णनात्मक अनुसंधान की विशेषताएं:</strong><br>• <strong>(A) सत्य:</strong> इसमें डेटा का विश्लेषण करने के लिए प्रेरक (inductive) प्रक्रियाएं शामिल हो सकती हैं।<br>• <strong>(B) सत्य:</strong> इसका प्राथमिक उद्देश्य चरों में हेरफेर किए बिना यह वर्णन करना है कि 'क्या है' या 'क्या था'।<br>• <strong>(E) सत्य:</strong> सर्वेक्षण, क्रॉस-सेक्शनल अध्ययन और अवलोकन संबंधी अध्ययन वर्णनात्मक शोध के मुख्य प्रकार हैं।<br>• <em>(C) असत्य</em> और <em>(D) असत्य</em> (यह मात्रात्मक और गुणात्मक दोनों विधियों का उपयोग करता है)। अतः A, B और E सही हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q30",
+    "difficulty": "medium",
+    "correct": 2,
+    "unitEN": "Unit 1: Teaching Aptitude",
+    "unitHI": "इकाई 1: शिक्षण अभिवृत्ति",
+    "topicEN": "Learner's Characteristics — Nature of Learning",
+    "topicHI": "शिक्षार्थी की विशेषताएं — अधिगम की प्रकृति",
+    "content": {
+      "en": {
+        "question": "Which of the following are NOT true for Learning?<br><br>A. Learning is a temporary change in behavior.<br>B. Learning is an enduring and permanent change in behavior.<br>C. Learning is a life-long process.<br>D. Learning happens only until the age of 18 years.<br>E. Learning needs reconstruction of experiences.<br><br>Choose the correct answer from the options given below:",
+        "options": ["A, B, C and E only", "A, D and E only", "A and D only", "B, C, D and E only"],
+        "explanation": "<strong>Evaluating Learning Characteristics:</strong><br>• Learning is defined as a relatively <em>permanent</em> change in behavior due to experience. Therefore, <strong>(A) \"temporary change\" is FALSE</strong>.<br>• Learning is continuous from cradle to grave. Therefore, <strong>(D) \"happens only until the age of 18 years\" is FALSE</strong>.<br>• Statements B, C, and E are universally accepted TRUTHS about learning.<br>Since the question asks what is NOT true, A and D are the correct answers."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से कौन सा कथन सीखने (Learning) के संबंध में सत्य नहीं है?<br><br>A. सीखना व्यवहार में एक अस्थायी परिवर्तन है।<br>B. सीखना व्यवहार में एक स्थायी और स्थाई परिवर्तन है।<br>C. सीखना एक जीवनपर्यन्त चलने वाली प्रक्रिया है।<br>D. सीखना केवल 18 वर्ष की आयु तक होता है।<br>E. सीखने के लिए अनुभवों के पुनर्निर्माण की आवश्यकता होती है।<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["केवल A, B, C और E", "केवल A, D और E", "केवल A और D", "केवल B, C, D और E"],
+        "explanation": "<strong>अधिगम (सीखने) की विशेषताओं का मूल्यांकन:</strong><br>• अधिगम को अनुभव के कारण व्यवहार में अपेक्षाकृत <em>स्थायी</em> परिवर्तन के रूप में परिभाषित किया गया है। इसलिए, <strong>(A) \"अस्थायी परिवर्तन\" असत्य है</strong>।<br>• सीखना जन्म से मृत्यु तक निरंतर चलता रहता है। इसलिए, <strong>(D) \"केवल 18 वर्ष की आयु तक होता है\" असत्य है</strong>।<br>• कथन B, C और E सीखने के बारे में सार्वभौमिक रूप से स्वीकृत सत्य हैं।<br>चूँकि प्रश्न पूछता है कि क्या सत्य नहीं है, A और D सही उत्तर हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q31",
+    "difficulty": "medium",
+    "correct": 2,
+    "unitEN": "Unit 5: Mathematical Reasoning and Aptitude",
+    "unitHI": "इकाई 5: गणितीय तर्क और अभिवृत्ति",
+    "topicEN": "Mathematical Aptitude — Ratio, Proportion and Percentage",
+    "topicHI": "गणितीय अभिवृत्ति — अनुपात, समानुपात और प्रतिशत",
+    "content": {
+      "en": {
+        "question": "Arrange the following households (A, B, C and D) in terms of increasing percentage of expenditure (E) to their income (I).<br><br>A. I = 5.0 Lakh, E = 4.0 Lakh<br>B. I = 6.0 Lakh, E = 4.5 Lakh<br>C. I = 8.0 Lakh, E = 5.0 Lakh<br>D. I = 4.8 Lakh, E = 3.2 Lakh<br><br>Choose the correct answer from the options given below:",
+        "options": ["D, A, B, C", "D, B, C, A", "C, D, B, A", "D, A, C, B"],
+        "explanation": "<strong>Step-by-step Calculation (Expenditure Percentage = $\\frac{E}{I} \\times 100$):</strong><br>• <strong>Household A:</strong> $(4.0 / 5.0) \\times 100 = 80\\%$<br>• <strong>Household B:</strong> $(4.5 / 6.0) \\times 100 = 75\\%$<br>• <strong>Household C:</strong> $(5.0 / 8.0) \\times 100 = 62.5\\%$<br>• <strong>Household D:</strong> $(3.2 / 4.8) \\times 100 = 66.67\\%$<br><strong>Increasing order:</strong> 62.5% (C) $<$ 66.67% (D) $<$ 75% (B) $<$ 80% (A).<br>Correct Sequence: C, D, B, A."
+      },
+      "hi": {
+        "question": "निम्नलिखित परिवारों (A, B, C और D) को उनकी आय (I) के व्यय (E) के बढ़ते प्रतिशत के संदर्भ में व्यवस्थित करें।<br><br>A. I = 5.0 लाख, E = 4.0 लाख<br>B. I = 6.0 लाख, E = 4.5 लाख<br>C. I = 8.0 लाख, E = 5.0 लाख<br>D. I = 4.8 लाख, E = 3.2 लाख<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["D, A, B, C", "D, B, C, A", "C, D, B, A", "D, A, C, B"],
+        "explanation": "<strong>चरण-दर-चरण गणना (व्यय प्रतिशत = $\\frac{E}{I} \\times 100$):</strong><br>• <strong>परिवार A:</strong> $(4.0 / 5.0) \\times 100 = 80\\%$<br>• <strong>परिवार B:</strong> $(4.5 / 6.0) \\times 100 = 75\\%$<br>• <strong>परिवार C:</strong> $(5.0 / 8.0) \\times 100 = 62.5\\%$<br>• <strong>परिवार D:</strong> $(3.2 / 4.8) \\times 100 = 66.67\\%$<br><strong>बढ़ता क्रम:</strong> 62.5% (C) $<$ 66.67% (D) $<$ 75% (B) $<$ 80% (A)।<br>सही अनुक्रम: C, D, B, A।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q32",
+    "difficulty": "medium",
+    "correct": 2,
+    "unitEN": "Unit 8: Information and Communication Technology (ICT)",
+    "unitHI": "इकाई 8: सूचना एवं संचार प्रौद्योगिकी (आईसीटी)",
+    "topicEN": "ICT and Governance — Database Management Systems (DBMS)",
+    "topicHI": "आईसीटी और शासन — डेटाबेस प्रबंधन प्रणाली (DBMS)",
+    "content": {
+      "en": {
+        "question": "Choose the correct statements in the context of DBMS.<br><br>A. DBMS is a software to create and manage databases.<br>B. Database schema is the design of the database.<br>C. Foreign key in a relation is used for unique identification of tables.<br>D. Primary key is used to relate two tables or relations.<br>E. SQL stands for Structured Query Language.<br><br>Choose the correct answer from the options given below:",
+        "options": ["A, B and C only", "B, C and D only", "A, B and E only", "A, C and D only"],
+        "explanation": "<strong>Evaluating DBMS Concepts:</strong><br>• <strong>(A) True:</strong> DBMS (Database Management System) manages databases.<br>• <strong>(B) True:</strong> The schema is the logical structure/design of the database.<br>• <strong>(C) False:</strong> A <em>Primary Key</em> is used for unique identification of records in a table, not a Foreign key.<br>• <strong>(D) False:</strong> A <em>Foreign Key</em> is used to relate or link two tables together, not the Primary key.<br>• <strong>(E) True:</strong> SQL = Structured Query Language.<br>Therefore, A, B, and E are the correct statements."
+      },
+      "hi": {
+        "question": "DBMS के संदर्भ में सही कथन चुनें।<br><br>A. डीबीएमएस (DBMS) डेटाबेस बनाने और प्रबंधित करने के लिए एक सॉफ्टवेयर है।<br>B. डेटाबेस स्कीमा डेटाबेस का डिज़ाइन है।<br>C. किसी संबंध में विदेशी कुंजी (Foreign key) का उपयोग तालिकाओं की विशिष्ट पहचान के लिए किया जाता है।<br>D. प्राथमिक कुंजी (Primary key) का उपयोग दो तालिकाओं या संबंधों को जोड़ने के लिए किया जाता है।<br>E. SQL का तात्पर्य स्ट्रक्चर्ड क्वेरी लैंग्वेज है।<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["केवल A, B और C", "केवल B, C और D", "केवल A, B और E", "केवल A, C और D"],
+        "explanation": "<strong>DBMS अवधारणाओं का मूल्यांकन:</strong><br>• <strong>(A) सत्य:</strong> DBMS डेटाबेस का प्रबंधन करता है।<br>• <strong>(B) सत्य:</strong> स्कीमा डेटाबेस की तार्किक संरचना/डिज़ाइन है।<br>• <strong>(C) असत्य:</strong> <em>प्राथमिक कुंजी</em> (Primary Key) का उपयोग तालिका में रिकॉर्ड की विशिष्ट पहचान के लिए किया जाता है, विदेशी कुंजी का नहीं।<br>• <strong>(D) असत्य:</strong> <em>विदेशी कुंजी</em> (Foreign Key) का उपयोग दो तालिकाओं को एक साथ जोड़ने के लिए किया जाता है, न कि प्राथमिक कुंजी का।<br>• <strong>(E) सत्य:</strong> SQL = स्ट्रक्चर्ड क्वेरी लैंग्वेज।<br>इसलिए, A, B और E सही कथन हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q33",
+    "difficulty": "easy",
+    "correct": 2,
+    "unitEN": "Unit 1: Teaching Aptitude",
+    "unitHI": "इकाई 1: शिक्षण अभिवृत्ति",
+    "topicEN": "Teaching Support System — Audio-Visual and Projected Aids",
+    "topicHI": "शिक्षण सहायक प्रणाली — दृश्य-श्रव्य और प्रक्षेपित सहायताएं",
+    "content": {
+      "en": {
+        "question": "The Over-Head Projector is used for:",
+        "options": ["Still Pictures", "Motion Pictures", "Transparencies", "PPT"],
+        "explanation": "An <strong>Over-Head Projector (OHP)</strong> is a classic piece of classroom equipment that uses light to project images from transparent acetate sheets (known as <strong>Transparencies</strong>) onto a screen or wall."
+      },
+      "hi": {
+        "question": "ओवर-हेड प्रोजेक्टर का उपयोग किसके लिए किया जाता है?",
+        "options": ["स्थिर चित्र", "मोशन पिक्चर्स", "पारदर्शिता (Transparencies)", "पीपीटी (PPT)"],
+        "explanation": "<strong>ओवर-हेड प्रोजेक्टर (OHP)</strong> कक्षा का एक क्लासिक उपकरण है जो पारदर्शी एसीटेट शीट (जिन्हें <strong>पारदर्शिता/Transparencies</strong> कहा जाता है) से छवियों को स्क्रीन या दीवार पर प्रोजेक्ट करने के लिए प्रकाश का उपयोग करता है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q34",
+    "difficulty": "easy",
+    "correct": 0,
+    "unitEN": "Unit 10: Higher Education System",
+    "unitHI": "इकाई 10: उच्च शिक्षा प्रणाली",
+    "topicEN": "Institutions of Higher Learning in Ancient India",
+    "topicHI": "प्राचीन भारत में उच्च शिक्षा की संस्थाएं",
+    "content": {
+      "en": {
+        "question": "Nalanda University in ancient India was a renowned center of ________.",
+        "options": ["Buddhist learning", "Brahminical learning", "Kshatriya learning", "Jain learning"],
+        "explanation": "<strong>Nalanda University</strong>, located in ancient Magadha (modern-day Bihar), was one of the most prestigious Mahaviharas (large monasteries) and a globally renowned center of <strong>Buddhist learning</strong> and philosophy from the 5th century CE to 1200 CE."
+      },
+      "hi": {
+        "question": "प्राचीन भारत में नालंदा विश्वविद्यालय ________ का एक प्रसिद्ध केंद्र था।",
+        "options": ["बौद्ध शिक्षा", "ब्राह्मणवादी शिक्षा", "क्षत्रिय शिक्षा", "जैन शिक्षा"],
+        "explanation": "प्राचीन मगध (आधुनिक बिहार) में स्थित <strong>नालंदा विश्वविद्यालय</strong> सबसे प्रतिष्ठित महाविहारों (बड़े मठों) में से एक था और 5वीं शताब्दी ईस्वी से 1200 ईस्वी तक <strong>बौद्ध शिक्षा</strong> और दर्शन का विश्व स्तर पर प्रसिद्ध केंद्र था।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q35",
+    "difficulty": "medium",
+    "correct": 2,
+    "unitEN": "Unit 1: Teaching Aptitude",
+    "unitHI": "इकाई 1: शिक्षण अभिवृत्ति",
+    "topicEN": "Learner's Characteristics — Maslow's Hierarchy of Needs",
+    "topicHI": "शिक्षार्थी की विशेषताएं — मास्लो की आवश्यकताओं का पदानुक्रम",
+    "content": {
+      "en": {
+        "question": "Arrange the following according to Maslow's hierarchical structure of needs (lowest to highest).<br><br>A. Esteem needs<br>B. Safety<br>C. Self-actualization<br>D. Aesthetic<br>E. Physiological<br><br>Choose the correct answer from the options given below:",
+        "options": ["E, B, D, A, C", "A, C, D, B, E", "E, B, A, D, C", "E, D, B, A, C"],
+        "explanation": "<strong>Maslow's Expanded Hierarchy of Needs (Lowest to Highest):</strong><br>1. <strong>Physiological (E):</strong> Basic survival needs.<br>2. <strong>Safety (B):</strong> Security and protection.<br>3. Belongingness/Love (Not listed).<br>4. <strong>Esteem (A):</strong> Respect and recognition.<br>5. Cognitive needs (Not listed).<br>6. <strong>Aesthetic (D):</strong> Appreciation and search for beauty, balance.<br>7. <strong>Self-actualization (C):</strong> Realizing personal potential.<br>Correct Order: E $\\rightarrow$ B $\\rightarrow$ A $\\rightarrow$ D $\\rightarrow$ C."
+      },
+      "hi": {
+        "question": "निम्नलिखित को मास्लो की आवश्यकताओं की पदानुक्रमिक संरचना के अनुसार (सबसे निम्न से सबसे उच्च) व्यवस्थित करें।<br><br>A. सम्मान की जरूरत<br>B. सुरक्षा<br>C. आत्म-साक्षात्कार<br>D. सौंदर्यबोध<br>E. शारीरिक<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["E, B, D, A, C", "A, C, D, B, E", "E, B, A, D, C", "E, D, B, A, C"],
+        "explanation": "<strong>मास्लो का विस्तारित आवश्यकता पदानुक्रम (न्यूनतम से उच्चतम):</strong><br>1. <strong>शारीरिक (E):</strong> बुनियादी अस्तित्व की ज़रूरतें।<br>2. <strong>सुरक्षा (B):</strong> सुरक्षा और बचाव।<br>3. अपनापन/प्रेम (सूचीबद्ध नहीं)।<br>4. <strong>सम्मान (A):</strong> सम्मान और मान्यता।<br>5. संज्ञानात्मक आवश्यकताएँ (सूचीबद्ध नहीं)।<br>6. <strong>सौंदर्यबोध (D):</strong> सुंदरता, संतुलन की खोज।<br>7. <strong>आत्म-साक्षात्कार (C):</strong> व्यक्तिगत क्षमता को साकार करना।<br>सही क्रम: E $\\rightarrow$ B $\\rightarrow$ A $\\rightarrow$ D $\\rightarrow$ C।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q36",
+    "difficulty": "easy",
+    "correct": 0,
+    "unitEN": "Unit 8: Information and Communication Technology (ICT)",
+    "unitHI": "इकाई 8: सूचना एवं संचार प्रौद्योगिकी (आईसीटी)",
+    "topicEN": "ICT General Abbreviations and Terminology — Software Types",
+    "topicHI": "आईसीटी सामान्य शब्दावली — सॉफ्टवेयर के प्रकार",
+    "content": {
+      "en": {
+        "question": "Which of the following is NOT an example of Application software?",
+        "options": ["Compiler", "Spreadsheet", "Word Processor", "Computer-aided design"],
+        "explanation": "A <strong>Compiler</strong> is an example of <em>System Software</em> (specifically a language translator/programming tool) because it translates high-level code into machine code for the system to execute. Spreadsheets, Word Processors, and CAD are all end-user <em>Application Softwares</em>."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से कौन सा एप्लीकेशन सॉफ्टवेयर का उदाहरण नहीं है?",
+        "options": ["संकलक (Compiler)", "स्प्रेडशीट", "वर्ड प्रोसेसर", "कंप्यूटर सहायता प्राप्त डिजाइन"],
+        "explanation": "एक <strong>कंपाइलर (Compiler)</strong> <em>सिस्टम सॉफ्टवेयर</em> (विशेष रूप से एक भाषा अनुवादक/प्रोग्रामिंग टूल) का एक उदाहरण है क्योंकि यह सिस्टम को निष्पादित करने के लिए उच्च-स्तरीय कोड को मशीन कोड में अनुवाद करता है। स्प्रेडशीट, वर्ड प्रोसेसर और CAD सभी अंतिम-उपयोगकर्ता <em>एप्लिकेशन सॉफ्टवेयर</em> हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q37",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 10: Higher Education System",
+    "unitHI": "इकाई 10: उच्च शिक्षा प्रणाली",
+    "topicEN": "Evolution of Higher Learning in Post-Independence India",
+    "topicHI": "स्वतंत्रता के बाद भारत में उच्च शिक्षा का विकास",
+    "content": {
+      "en": {
+        "question": "Arrange chronologically the following:<br><br>A. Establishment of Delhi University<br>B. Establishment of University Grants Commission<br>C. Establishment of NCERT<br>D. Establishment of University of Allahabad<br>E. Establishment of IGNOU<br><br>Choose the correct answer from the options given below:",
+        "options": ["B, A, D, E, C", "D, C, E, B, A", "A, B, D, E, C", "D, A, B, C, E"],
+        "explanation": "<strong>Chronology of Higher Education Establishments:</strong><br>1. <strong>University of Allahabad (D):</strong> Established in <strong>1887</strong>.<br>2. <strong>Delhi University (A):</strong> Established in <strong>1922</strong>.<br>3. <strong>UGC (B):</strong> Inaugurated in <strong>1953</strong> (Statutory in 1956).<br>4. <strong>NCERT (C):</strong> Established in <strong>1961</strong>.<br>5. <strong>IGNOU (E):</strong> Established in <strong>1985</strong>.<br>Correct Order: D $\\rightarrow$ A $\\rightarrow$ B $\\rightarrow$ C $\\rightarrow$ E."
+      },
+      "hi": {
+        "question": "निम्नलिखित को कालानुक्रमिक रूप से व्यवस्थित करें:<br><br>A. दिल्ली विश्वविद्यालय की स्थापना<br>B. विश्वविद्यालय अनुदान आयोग की स्थापना<br>C. एनसीईआरटी की स्थापना<br>D. इलाहाबाद विश्वविद्यालय की स्थापना<br>E. इग्नू की स्थापना<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["B, A, D, E, C", "D, C, E, B, A", "A, B, D, E, C", "D, A, B, C, E"],
+        "explanation": "<strong>उच्च शिक्षा प्रतिष्ठानों का कालक्रम:</strong><br>1. <strong>इलाहाबाद विश्वविद्यालय (D):</strong> <strong>1887</strong> में स्थापित।<br>2. <strong>दिल्ली विश्वविद्यालय (A):</strong> <strong>1922</strong> में स्थापित।<br>3. <strong>UGC (B):</strong> <strong>1953</strong> में स्थापित (1956 में वैधानिक)।<br>4. <strong>NCERT (C):</strong> <strong>1961</strong> में स्थापित।<br>5. <strong>IGNOU (E):</strong> <strong>1985</strong> में स्थापित।<br>सही क्रम: D $\\rightarrow$ A $\\rightarrow$ B $\\rightarrow$ C $\\rightarrow$ E।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q38",
+    "difficulty": "medium",
+    "correct": 2,
+    "unitEN": "Unit 4: Communication",
+    "unitHI": "इकाई 4: संचार",
+    "topicEN": "Effective Communication — Role of Communication in Education",
+    "topicHI": "प्रभावी संचार — शिक्षा में संचार की भूमिका",
+    "content": {
+      "en": {
+        "question": "Which of the following illustrates how communication aids in learning and education?<br><br>A. It encourages critical thinking<br>B. It leads to memorisation without understanding<br>C. It allows exchange of diverse perspectives<br>D. It limits the spread of information<br><br>Choose the correct answer from the options given below:",
+        "options": ["A, B and C only", "B and D only", "A and C only", "C and D only"],
+        "explanation": "<strong>Role of Communication in Education:</strong><br>• Good communication promotes interactive dialogue, which <strong>encourages critical thinking (A)</strong>.<br>• It facilitates the open <strong>exchange of diverse perspectives (C)</strong> and ideas.<br>• It actively <em>prevents</em> rote memorization (B) and <em>expands</em> (not limits) the spread of information (D).<br>Therefore, A and C are correct."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से कौन सा उदाहरण दर्शाता है कि संचार सीखने और शिक्षा में कैसे सहायता करता है?<br><br>A. यह आलोचनात्मक सोच को प्रोत्साहित करता है<br>B. यह बिना समझे याद करने की ओर ले जाता है<br>C. यह विविध दृष्टिकोणों के आदान-प्रदान की अनुमति देता है<br>D. यह सूचना के प्रसार को सीमित करता है<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["केवल A, B और C", "केवल B और D", "केवल A और C", "केवल C और D"],
+        "explanation": "<strong>शिक्षा में संचार की भूमिका:</strong><br>• अच्छा संचार इंटरैक्टिव संवाद को बढ़ावा देता है, जो <strong>आलोचनात्मक सोच को प्रोत्साहित करता है (A)</strong>।<br>• यह <strong>विविध दृष्टिकोणों (C)</strong> और विचारों के खुले आदान-प्रदान की सुविधा प्रदान करता है।<br>• यह सक्रिय रूप से रटने (B) को रोकता है और सूचना के प्रसार (D) का विस्तार (सीमित नहीं) करता है।<br>इसलिए, A और C सही हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q39",
+    "difficulty": "easy",
+    "correct": 0,
+    "unitEN": "Unit 2: Research Aptitude",
+    "unitHI": "इकाई 2: शोध अभिवृत्ति",
+    "topicEN": "Research Ethics — UGC Guidelines on Plagiarism",
+    "topicHI": "शोध नैतिकता — साहित्यिक चोरी पर यूजीसी दिशानिर्देश",
+    "content": {
+      "en": {
+        "question": "According to the UGC guidelines on Plagiarism, upto what percentage of similarity of text does not invite penalty?",
+        "options": ["10 percent", "16 percent", "25 percent", "40 percent"],
+        "explanation": "According to the UGC (Promotion of Academic Integrity and Prevention of Plagiarism) Regulations, 2018, <strong>Level 0</strong> similarities <strong>up to 10%</strong> are considered minor and do not invite any penalty."
+      },
+      "hi": {
+        "question": "साहित्यिक चोरी पर यूजीसी के दिशानिर्देशों के अनुसार, पाठ की समानता के कितने प्रतिशत तक दंड नहीं लगता है?",
+        "options": ["10 प्रतिशत", "16 प्रतिशत", "25 प्रतिशत", "40 प्रतिशत"],
+        "explanation": "यूजीसी (अकादमिक अखंडता को बढ़ावा देना और साहित्यिक चोरी की रोकथाम) विनियम, 2018 के अनुसार, <strong>10% तक</strong> <strong>लेवल 0</strong> समानताएं मामूली मानी जाती हैं और इसके लिए कोई जुर्माना नहीं लगता है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q40",
+    "difficulty": "medium",
+    "correct": 2,
+    "unitEN": "Unit 5: Mathematical Reasoning and Aptitude",
+    "unitHI": "इकाई 5: गणितीय तर्क और अभिवृत्ति",
+    "topicEN": "Number Series",
+    "topicHI": "संख्या श्रृंखला",
+    "content": {
+      "en": {
+        "question": "Find the next term in the number series given below:<br><br>1, 7, 25, 61, ?",
+        "options": ["81", "110", "121", "141"],
+        "explanation": "<strong>Step-by-step Pattern Breakdown:</strong><br>The series follows the cubic pattern $n^3 - (n-1)$ where n = 1, 2, 3...<br>• $1^3 - 0 = 1$<br>• $2^3 - 1 = 8 - 1 = 7$<br>• $3^3 - 2 = 27 - 2 = 25$<br>• $4^3 - 3 = 64 - 3 = 61$<br>For the next term ($n=5$):<br>• $5^3 - 4 = 125 - 4 =$ <strong>121</strong>."
+      },
+      "hi": {
+        "question": "नीचे दी गई संख्या श्रृंखला में अगला पद ज्ञात कीजिए:<br><br>1, 7, 25, 61, ?",
+        "options": ["81", "110", "121", "141"],
+        "explanation": "<strong>चरण-दर-चरण पैटर्न विश्लेषण:</strong><br>यह श्रृंखला $n^3 - (n-1)$ के घन पैटर्न का अनुसरण करती है जहाँ n = 1, 2, 3...<br>• $1^3 - 0 = 1$<br>• $2^3 - 1 = 8 - 1 = 7$<br>• $3^3 - 2 = 27 - 2 = 25$<br>• $4^3 - 3 = 64 - 3 = 61$<br>अगले पद के लिए ($n=5$):<br>• $5^3 - 4 = 125 - 4 =$ <strong>121</strong>।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q41",
+    "difficulty": "easy",
+    "correct": 0,
+    "unitEN": "Unit 10: Higher Education System",
+    "unitHI": "इकाई 10: उच्च शिक्षा प्रणाली",
+    "topicEN": "Higher Education Policies — Navodaya Vidyalayas",
+    "topicHI": "उच्च शिक्षा नीतियां — नवोदय विद्यालय",
+    "content": {
+      "en": {
+        "question": "The Navodaya Vidyalayas to school rural poor students were established on the recommendations of __________.",
+        "options": ["National Policy on Education-1986", "PM-SHRI schools", "National Education Policy 2020", "Secondary Education Commission 1950"],
+        "explanation": "Jawahar Navodaya Vidyalayas (JNVs) are a system of central schools for talented students predominantly from rural areas in India. They were established based on the recommendations of the <strong>National Policy on Education (NPE), 1986</strong>."
+      },
+      "hi": {
+        "question": "ग्रामीण गरीब छात्रों को स्कूल भेजने के लिए नवोदय विद्यालयों की स्थापना __________ की सिफारिशों पर की गई थी।",
+        "options": ["राष्ट्रीय शिक्षा नीति-1986", "पीएम-श्री स्कूल", "राष्ट्रीय शिक्षा नीति 2020", "माध्यमिक शिक्षा आयोग 1950"],
+        "explanation": "जवाहर नवोदय विद्यालय (JNVs) भारत में मुख्य रूप से ग्रामीण क्षेत्रों के प्रतिभाशाली छात्रों के लिए केंद्रीय विद्यालयों की एक प्रणाली है। इनकी स्थापना <strong>राष्ट्रीय शिक्षा नीति (NPE), 1986</strong> की सिफारिशों के आधार पर की गई थी।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q42",
+    "difficulty": "easy",
+    "correct": 0,
+    "unitEN": "Unit 8: Information and Communication Technology (ICT)",
+    "unitHI": "इकाई 8: सूचना एवं संचार प्रौद्योगिकी (आईसीटी)",
+    "topicEN": "ICT General Abbreviations and Terminology — History of AI",
+    "topicHI": "आईसीटी सामान्य शब्दावली — कृत्रिम बुद्धिमत्ता का इतिहास",
+    "content": {
+      "en": {
+        "question": "Who coined the term Artificial Intelligence in the year 1956?",
+        "options": ["John McCarthy", "John McLuhan", "Rhiengold", "Curran, J"],
+        "explanation": "The term \"Artificial Intelligence\" was coined by the pioneering computer scientist <strong>John McCarthy</strong> in 1956 when he organized the famous Dartmouth Conference, which essentially founded AI as a distinct field of research."
+      },
+      "hi": {
+        "question": "वर्ष 1956 में आर्टिफिशियल इंटेलिजेंस शब्द किसने गढ़ा?",
+        "options": ["जॉन मैकार्थी (John McCarthy)", "जॉन मैक्लुहान", "रिंगोल्ड", "करन, जे"],
+        "explanation": "आर्टिफिशियल इंटेलिजेंस\" शब्द 1956 में अग्रणी कंप्यूटर वैज्ञानिक <strong>जॉन मैकार्थी</strong> द्वारा गढ़ा गया था, जब उन्होंने प्रसिद्ध डार्टमाउथ सम्मेलन का आयोजन किया था, जिसने अनिवार्य रूप से AI को अनुसंधान के एक विशिष्ट क्षेत्र के रूप में स्थापित किया।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q43",
+    "difficulty": "medium",
+    "correct": 2,
+    "unitEN": "Unit 5: Mathematical Reasoning and Aptitude",
+    "unitHI": "इकाई 5: गणितीय तर्क और अभिवृत्ति",
+    "topicEN": "Mathematical Aptitude — Linear Equations and Relationships",
+    "topicHI": "गणितीय अभिवृत्ति — रैखिक समीकरण और संबंध",
+    "content": {
+      "en": {
+        "question": "There are x trees and y parrots. If on each tree only one parrot is sitting, then one parrot remains without a tree. If on each tree two parrots are sitting, then one tree remains without a parrot. Therefore, x and y are, respectively:<br><br>A. 1<br>B. 2<br>C. 3<br>D. 4<br><br>Choose the correct answer from the options given below:",
+        "options": ["A and B", "B and C", "C and D", "A and C"],
+        "explanation": "<strong>Step-by-step Solution:</strong><br>1. Let trees = $x$ and parrots = $y$.<br>2. Condition 1: 1 parrot per tree, 1 parrot left over.<br>   Equation: $y = 1(x) + 1 \\implies y = x + 1$<br>3. Condition 2: 2 parrots per tree, 1 tree left over (meaning $(x-1)$ trees have 2 parrots).<br>   Equation: $y = 2(x - 1) \\implies y = 2x - 2$<br>4. Equating both equations: $x + 1 = 2x - 2$<br>   $2x - x = 1 + 2 \\implies x = 3$ (Trees).<br>5. Substitute $x$ back: $y = 3 + 1 = 4$ (Parrots).<br>Trees (x) = 3 (C), Parrots (y) = 4 (D). Hence, C and D."
+      },
+      "hi": {
+        "question": "x पेड़ और y तोते हैं। यदि प्रत्येक पेड़ पर केवल एक तोता बैठा है, तो एक तोता बिना पेड़ के रह जाता है। यदि प्रत्येक पेड़ पर दो तोते बैठे हैं, तो एक पेड़ बिना तोते के रह जाता है। इसलिए, x और y क्रमशः हैं:<br><br>A. 1<br>B. 2<br>C. 3<br>D. 4<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["A और B", "B और C", "C और D", "A और C"],
+        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>1. मान लें कि पेड़ = $x$ और तोते = $y$।<br>2. शर्त 1: 1 तोता प्रति पेड़, 1 तोता बचा।<br>   समीकरण: $y = 1(x) + 1 \\implies y = x + 1$<br>3. शर्त 2: 2 तोते प्रति पेड़, 1 पेड़ बच जाता है (यानी $(x-1)$ पेड़ों पर 2 तोते हैं)।<br>   समीकरण: $y = 2(x - 1) \\implies y = 2x - 2$<br>4. दोनों समीकरणों की तुलना: $x + 1 = 2x - 2$<br>   $2x - x = 1 + 2 \\implies x = 3$ (पेड़)।<br>5. $x$ का मान वापस रखें: $y = 3 + 1 = 4$ (तोते)।<br>पेड़ (x) = 3 (C), तोते (y) = 4 (D)। अतः C और D।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q44",
+    "difficulty": "easy",
+    "correct": 1,
+    "unitEN": "Unit 9: People, Development and Environment",
+    "unitHI": "इकाई 9: लोग, विकास और पर्यावरण",
+    "topicEN": "Environmental Issues — Air Pollution and VOCs",
+    "topicHI": "पर्यावरणीय मुद्दे — वायु प्रदूषण और वीओसी",
+    "content": {
+      "en": {
+        "question": "The largest source of Volatile Organic Compounds (VOCs) on earth is:",
+        "options": ["Animals", "Plants", "Industries", "Transportation"],
+        "explanation": "While human activities (like industries and transportation) do emit VOCs, the single largest source of VOCs globally is actually biogenic, meaning it comes from <strong>Plants</strong>. Trees and plants release massive amounts of biogenic VOCs (like isoprene and terpenes) into the atmosphere."
+      },
+      "hi": {
+        "question": "पृथ्वी पर वाष्पशील कार्बनिक यौगिकों (वीओसी) का सबसे बड़ा स्रोत है:",
+        "options": ["पशु", "पौधे", "उद्योग", "परिवहन"],
+        "explanation": "जबकि मानवीय गतिविधियाँ (जैसे उद्योग और परिवहन) वाष्पशील कार्बनिक यौगिकों (VOCs) का उत्सर्जन करती हैं, विश्व स्तर पर VOC का सबसे बड़ा स्रोत वास्तव में बायोजेनिक है, जिसका अर्थ है कि यह <strong>पौधों</strong> से आता है। पेड़ और पौधे बड़ी मात्रा में बायोजेनिक VOC (जैसे आइसोप्रीन और टेरपेन्स) वायुमंडल में छोड़ते हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q45",
+    "difficulty": "hard",
+    "correct": 3,
+    "unitEN": "Unit 6: Logical Reasoning",
+    "unitHI": "इकाई 6: तार्किक तर्क",
+    "topicEN": "Categorical Syllogism — Mood, Figure and Fallacies",
+    "topicHI": "श्रेणीबद्ध न्यायवाक्य — मूड, आकृति और भ्रांतियां",
+    "content": {
+      "en": {
+        "question": "Choose the correct answer in the context of EAO in IIIrd figure.",
+        "options": ["Undistributed middle", "Conclusion distributes its subject term", "Commits the fallacy of exclusive premises", "Commits the Existential fallacy"],
+        "explanation": "<strong>Analyzing EAO in Figure III (Felapton):</strong><br>• Figure III structure: Middle term (M) is the <strong>subject</strong> in both premises.<br>• Major Premise (E): No M is P. (Universal).<br>• Minor Premise (A): All M is S. (Universal).<br>• Conclusion (O): Some S is not P. (Particular).<br>Deriving a particular conclusion (O) from two purely universal premises (E, A) is invalid under the modern Boolean standpoint because it assumes the existence of the subjects. This error is known as the <strong>Existential Fallacy</strong>."
+      },
+      "hi": {
+        "question": "तीसरी आकृति में EAO के संदर्भ में सही उत्तर चुनें।",
+        "options": ["अवितरित मध्य", "निष्कर्ष अपने विषय पद को वितरित करता है", "अनन्य आधार की भ्रांति करता है", "अस्तित्वगत भ्रांति (Existential fallacy) करता है"],
+        "explanation": "<strong>आकृति III (Felapton) में EAO का विश्लेषण:</strong><br>• आकृति III संरचना: मध्य पद (M) दोनों आधारवाक्यों में <strong>विषय (subject)</strong> है।<br>• प्रमुख आधार (E): कोई M, P नहीं है। (सार्वभौमिक)।<br>• लघु आधार (A): सभी M, S हैं। (सार्वभौमिक)।<br>• निष्कर्ष (O): कुछ S, P नहीं हैं। (विशेष)।<br>दो पूर्णतः सार्वभौमिक आधारवाक्यों (E, A) से एक विशेष निष्कर्ष (O) निकालना आधुनिक बूलियन दृष्टिकोण के तहत अमान्य है क्योंकि यह विषयों के अस्तित्व को मान लेता है। इस त्रुटि को <strong>अस्तित्वगत भ्रांति (Existential Fallacy)</strong> के रूप में जाना जाता है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q46",
+    "difficulty": "easy",
+    "correct": 2,
+    "unitEN": "Unit 3: Comprehension",
+    "unitHI": "इकाई 3: बोध",
+    "topicEN": "Reading Comprehension — Indian English Poetry",
+    "topicHI": "पठन बोध — भारतीय अंग्रेजी कविता",
+    "content": {
+      "en": {
+        "question": passageHTML(PASSAGE_JAN25_09_S1_P1.en) + "<br><strong>Question:</strong><br> Which of the following poets is from a metropolitan area in western India?",
+        "options": ["Mahapatra", "Kamala Das", "Ezekiel", "R. Parthasarathy"],
+        "explanation": "The passage explicitly mentions: <em>\"<strong>Ezekiel</strong> is from India's sophisticated <strong>Western metropolis</strong>; Mahapatra is from an Eastern moffusil town.\"</em>"
+      },
+      "hi": {
+        "question": passageHTML(PASSAGE_JAN25_09_S1_P1.hi) + "<br><strong>प्रश्न:</strong><br> निम्नलिखित में से कौन सा कवि पश्चिमी भारत के महानगरीय क्षेत्र से है?",
+        "options": ["महापात्रा", "कमला दास", "एज़ेकील", "आर. पार्थसारथी"],
+        "explanation": "गद्यांश में स्पष्ट रूप से उल्लेख किया गया है: <em>\"<strong>एज़ेकील</strong> भारत के परिष्कृत <strong>पश्चिमी महानगर</strong> से हैं; महापात्र पूर्वी मफ़्फुसिल शहर से हैं।\"</em>"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q47",
+    "difficulty": "easy",
+    "correct": 3,
+    "unitEN": "Unit 3: Comprehension",
+    "unitHI": "इकाई 3: बोध",
+    "topicEN": "Reading Comprehension — Indian English Poetry",
+    "topicHI": "पठन बोध — भारतीय अंग्रेजी कविता",
+    "content": {
+      "en": {
+        "question": passageHTML(PASSAGE_JAN25_09_S1_P1.en) + "<br><strong>Question:</strong><br> Which poet can be credited with pioneering post-independence Indian English poetry?",
+        "options": ["Mahapatra", "R. Parthasarathy", "Kamala Das", "Ezekiel"],
+        "explanation": "According to the passage: <em>\"If <strong>Ezekiel pioneered post-independence Indian English poetry</strong>, Mahapatra gave it a new direction.\"</em>"
+      },
+      "hi": {
+        "question": passageHTML(PASSAGE_JAN25_09_S1_P1.hi) + "<br><strong>प्रश्न:</strong><br> स्वतंत्रता के बाद भारतीय अंग्रेजी कविता का अग्रणी श्रेय किस कवि को दिया जा सकता है?",
+        "options": ["महापात्रा", "आर. पार्थसारथी", "कमला दास", "एज़ेकील"],
+        "explanation": "गद्यांश के अनुसार: <em>\"अगर <strong>एज़ेकील ने स्वतंत्रता के बाद भारतीय अंग्रेजी कविता का बीड़ा उठाया (pioneered)</strong>, तो महापात्र ने इसे एक नई दिशा दी।\"</em>"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q48",
+    "difficulty": "easy",
+    "correct": 1,
+    "unitEN": "Unit 3: Comprehension",
+    "unitHI": "इकाई 3: बोध",
+    "topicEN": "Reading Comprehension — Indian English Poetry",
+    "topicHI": "पठन बोध — भारतीय अंग्रेजी कविता",
+    "content": {
+      "en": {
+        "question": passageHTML(PASSAGE_JAN25_09_S1_P1.en) + "<br><strong>Question:</strong><br> How is Mahapatra's poetry style described in contrast to that of Ezekiel?",
+        "options": ["Formally structured and realistic", "Free flowing and governed by sense or idea", "Written with complex rhyme schemes", "Lyrical and simple"],
+        "explanation": "The passage states: <em>\"Ezekiel's poetry is formally mindful; <strong>Mahapatra's poetry is written in free-flowing, sense- or idea-governed lines</strong>.\"</em>"
+      },
+      "hi": {
+        "question": passageHTML(PASSAGE_JAN25_09_S1_P1.hi) + "<br><strong>प्रश्न:</strong><br> एज़ेकील की तुलना में महापात्र की काव्य शैली का वर्णन कैसे किया गया है?",
+        "options": ["औपचारिक रूप से संरचित और यथार्थवादी", "मुक्त प्रवाह तथा इंद्रिय या विचार द्वारा संचालित", "जटिल तुकांत योजनाओं के साथ लिखा गया", "गीतात्मक और सरल"],
+        "explanation": "गद्यांश कहता है: <em>\"एज़ेकील की कविता औपचारिक रूप से विचारशील है; <strong>महापात्र की कविताएँ मुक्त-प्रवाह, भावना-या विचार-संचालित पंक्तियों में लिखी गई हैं</strong>।\"</em>"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q49",
+    "difficulty": "easy",
+    "correct": 1,
+    "unitEN": "Unit 3: Comprehension",
+    "unitHI": "इकाई 3: बोध",
+    "topicEN": "Reading Comprehension — Indian English Poetry",
+    "topicHI": "पठन बोध — भारतीय अंग्रेजी कविता",
+    "content": {
+      "en": {
+        "question": passageHTML(PASSAGE_JAN25_09_S1_P1.en) + "<br><strong>Question:</strong><br> How is Ezekiel's reputation described as changing after the 1980s?",
+        "options": ["He became increasingly popular", "He was seen as highly inconsistent", "He was no longer read in literary circles", "He was considered the most influential poet of his time"],
+        "explanation": "The passage notes in its final sentence: <em>\"Up to the eighties Ezekiel was considered the foremost among Indian English poets but <strong>more recently he is being seen as a highly inconsistent poet</strong>.\"</em>"
+      },
+      "hi": {
+        "question": passageHTML(PASSAGE_JAN25_09_S1_P1.hi) + "<br><strong>प्रश्न:</strong><br> 1980 के दशक के बाद एज़ेकील की प्रतिष्ठा में किस तरह का बदलाव आया?",
+        "options": ["वह तेजी से लोकप्रिय हो गया", "उसे अत्यधिक असंगत माना जाने लगा", "साहित्यिक हलकों में उसे अब पढ़ा नहीं जाता था", "उसे अपने समय का सबसे प्रभावशाली कवि माना जाता था"],
+        "explanation": "गद्यांश अपने अंतिम वाक्य में बताता है: <em>\"अस्सी के दशक तक एज़ेकील को भारतीय अंग्रेजी कवियों में अग्रणी माना जाता था, लेकिन <strong>हाल ही में उन्हें अत्यधिक असंगत कवि के रूप में देखा जाने लगा है</strong>।\"</em>"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s1-p1-q50",
+    "difficulty": "medium",
+    "correct": 2,
+    "unitEN": "Unit 3: Comprehension",
+    "unitHI": "इकाई 3: बोध",
+    "topicEN": "Reading Comprehension — Indian English Poetry",
+    "topicHI": "पठन बोध — भारतीय अंग्रेजी कविता",
+    "content": {
+      "en": {
+        "question": passageHTML(PASSAGE_JAN25_09_S1_P1.en) + "<br><strong>Question:</strong><br> According to the passage, which of the following statements best describes Mahapatra's view of Ezekiel's poetic approach?",
+        "options": ["He is inspired by it", "He is indifferent to it", "He opposes it", "He corroborates it"],
+        "explanation": "The passage states: <em>\"No wonder, we notice Mahapatra <strong>inveighing against</strong> something in Ezekiel's poetic credo...\"</em> The phrase \"inveighing against\" means to write or speak about something with great hostility or opposition."
+      },
+      "hi": {
+        "question": passageHTML(PASSAGE_JAN25_09_S1_P1.hi) + "<br><strong>प्रश्न:</strong><br> गद्यांश के अनुसार, निम्नलिखित में से कौन सा कथन एज़ेकील के काव्यात्मक दृष्टिकोण के बारे में महापात्र के विचार का सबसे अच्छा वर्णन करता है?",
+        "options": ["वह इससे प्रेरित है", "वह इसके प्रति उदासीन है", "वह इसका विरोध करता है", "वह इसकी पुष्टि करता है"],
+        "explanation": "गद्यांश कहता है: <em>\"कोई आश्चर्य नहीं, हम देखते हैं कि महापात्र अपने गद्य टुकड़ों में एज़ेकील के काव्य सिद्धांत में कुछ के <strong>खिलाफ हमला (inveighing against)</strong> करते हैं...\"</em> मुहावरे \"inveighing against\" का अर्थ है किसी चीज़ का बड़ी शत्रुता या विरोध के साथ लिखना या बोलना।"
+      }
+    }
+  }
+];
+
+
 
 
 
