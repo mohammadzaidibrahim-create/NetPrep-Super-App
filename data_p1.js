@@ -95,6 +95,22 @@ const TABLE_JAN25_10_S2_P1 = {
   hi: `<p style="margin-bottom:10px;"><strong>निर्देश:</strong> निम्न तालिका में पाँच अलग-अलग स्टोर (A-E) द्वारा बेची गई HB-पेंसिल की संख्या और इन स्टोर द्वारा बेची गई HB-पेंसिल की संख्या का 6B-पेंसिल से अनुपात दर्शाया गया है। तालिका में दिए गए डेटा के आधार पर, निम्नलिखित प्रश्नों के उत्तर दीजिए।</p><table border="1" style="border-collapse:collapse; width:100%; text-align:center; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;"><tr><th style="padding:8px 10px;">स्टोर</th><th style="padding:8px 10px;">बेची गई HB-पेंसिल की संख्या</th><th style="padding:8px 10px;">अनुपात (HB-पेंसिल बेची : 6B पेंसिल बेची)</th></tr><tr><td style="padding:8px 10px;">A</td><td style="padding:8px 10px;">216</td><td style="padding:8px 10px;">9:5</td></tr><tr><td style="padding:8px 10px;">B</td><td style="padding:8px 10px;">480</td><td style="padding:8px 10px;">6:5</td></tr><tr><td style="padding:8px 10px;">C</td><td style="padding:8px 10px;">400</td><td style="padding:8px 10px;">4:1</td></tr><tr><td style="padding:8px 10px;">D</td><td style="padding:8px 10px;">300</td><td style="padding:8px 10px;">3:1</td></tr><tr><td style="padding:8px 10px;">E</td><td style="padding:8px 10px;">240</td><td style="padding:8px 10px;">3:2</td></tr></table>`
 };
 
+// ─────────────────────────────────────────────────────────────────────────────
+// DI TABLE CONSTANT — UGC NET Paper 1 | 9 Jan 2025 | Evening Shift (MINIFIED)
+// ─────────────────────────────────────────────────────────────────────────────
+const TABLE_JAN25_09_S2_P1 = {
+  en: `<p style="margin-bottom:10px;"><strong>Directions:</strong> The following table shows the percentage distribution of employees working in six different departments of a company, namely, IT, Accounts, HR, Marketing, Production, and Sales in a given year. Number of employees working in Marketing department is 560. Based on the data in the table, answer the questions that follow:</p><table border="1" style="border-collapse:collapse; width:100%; text-align:center; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;"><tr><th colspan="2" style="padding:8px 10px;">Department-wise details of Employees in a company</th></tr><tr><th style="padding:8px 10px;">Department</th><th style="padding:8px 10px;">Percentage Distribution of Employees</th></tr><tr><td style="padding:8px 10px;">IT</td><td style="padding:8px 10px;">8%</td></tr><tr><td style="padding:8px 10px;">Accounts</td><td style="padding:8px 10px;">18%</td></tr><tr><td style="padding:8px 10px;">HR</td><td style="padding:8px 10px;">12%</td></tr><tr><td style="padding:8px 10px;">Marketing</td><td style="padding:8px 10px;">14%</td></tr><tr><td style="padding:8px 10px;">Production</td><td style="padding:8px 10px;">32%</td></tr><tr><td style="padding:8px 10px;">Sales</td><td style="padding:8px 10px;">16%</td></tr></table>`,
+  hi: `<p style="margin-bottom:10px;"><strong>निर्देश:</strong> निम्न तालिका किसी कंपनी के छह अलग-अलग विभागों अर्थात् आईटी, अकाउंट्स, एचआर, मार्केटिंग, प्रोडक्शन और सेल्स में एक वर्ष में काम करने वाले कर्मचारियों का प्रतिशत वितरण दर्शाती है। मार्केटिंग विभाग में काम करने वाले कर्मचारियों की संख्या 560 है। तालिका में दिए गए डेटा के आधार पर, निम्नलिखित प्रश्नों के उत्तर दीजिए:</p><table border="1" style="border-collapse:collapse; width:100%; text-align:center; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;"><tr><th colspan="2" style="padding:8px 10px;">कंपनी में विभाग-वार कर्मचारियों का विवरण</th></tr><tr><th style="padding:8px 10px;">विभाग</th><th style="padding:8px 10px;">कर्मचारियों का प्रतिशत वितरण</th></tr><tr><td style="padding:8px 10px;">आईटी</td><td style="padding:8px 10px;">8%</td></tr><tr><td style="padding:8px 10px;">अकाउंट्स</td><td style="padding:8px 10px;">18%</td></tr><tr><td style="padding:8px 10px;">एचआर</td><td style="padding:8px 10px;">12%</td></tr><tr><td style="padding:8px 10px;">मार्केटिंग</td><td style="padding:8px 10px;">14%</td></tr><tr><td style="padding:8px 10px;">प्रोडक्शन</td><td style="padding:8px 10px;">32%</td></tr><tr><td style="padding:8px 10px;">सेल्स</td><td style="padding:8px 10px;">16%</td></tr></table>`
+};
+
+// ─────────────────────────────────────────────────────────────────────────────
+// DI TABLE CONSTANT — UGC NET Paper 1 | 10 Jan 2025 | Morning Shift (MINIFIED)
+// ─────────────────────────────────────────────────────────────────────────────
+const TABLE_JAN25_10_S1_P1 = {
+  en: `<p style="margin-bottom:10px;"><strong>Directions:</strong> The following table shows the number of students enrolled in four different Colleges (A–D) during the four years from 2020 to 2023. Based on the data in the table, answer the questions that follow.</p><table border="1" style="border-collapse:collapse; width:100%; text-align:center; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;"><tr><th style="padding:8px 10px;">Year</th><th colspan="4" style="padding:8px 10px;">Number of Students Enrolled in College</th></tr><tr><th style="padding:8px 10px;"></th><th style="padding:8px 10px;">A</th><th style="padding:8px 10px;">B</th><th style="padding:8px 10px;">C</th><th style="padding:8px 10px;">D</th></tr><tr><td style="padding:8px 10px;">2020</td><td style="padding:8px 10px;">1200</td><td style="padding:8px 10px;">900</td><td style="padding:8px 10px;">1000</td><td style="padding:8px 10px;">700</td></tr><tr><td style="padding:8px 10px;">2021</td><td style="padding:8px 10px;">1100</td><td style="padding:8px 10px;">800</td><td style="padding:8px 10px;">1300</td><td style="padding:8px 10px;">900</td></tr><tr><td style="padding:8px 10px;">2022</td><td style="padding:8px 10px;">1400</td><td style="padding:8px 10px;">1000</td><td style="padding:8px 10px;">1200</td><td style="padding:8px 10px;">1100</td></tr><tr><td style="padding:8px 10px;">2023</td><td style="padding:8px 10px;">600</td><td style="padding:8px 10px;">700</td><td style="padding:8px 10px;">800</td><td style="padding:8px 10px;">1000</td></tr></table>`,
+  hi: `<p style="margin-bottom:10px;"><strong>निर्देश:</strong> निम्नलिखित तालिका 2020 से 2023 तक चार वर्षों के दौरान चार अलग-अलग कॉलेजों (A-D) में नामांकित छात्रों की संख्या दर्शाती है। तालिका में दिए गए डेटा के आधार पर, निम्नलिखित प्रश्नों के उत्तर दीजिए।</p><table border="1" style="border-collapse:collapse; width:100%; text-align:center; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;"><tr><th style="padding:8px 10px;">वर्ष</th><th colspan="4" style="padding:8px 10px;">कॉलेज में नामांकित छात्रों की संख्या</th></tr><tr><th style="padding:8px 10px;"></th><th style="padding:8px 10px;">A</th><th style="padding:8px 10px;">B</th><th style="padding:8px 10px;">C</th><th style="padding:8px 10px;">D</th></tr><tr><td style="padding:8px 10px;">2020</td><td style="padding:8px 10px;">1200</td><td style="padding:8px 10px;">900</td><td style="padding:8px 10px;">1000</td><td style="padding:8px 10px;">700</td></tr><tr><td style="padding:8px 10px;">2021</td><td style="padding:8px 10px;">1100</td><td style="padding:8px 10px;">800</td><td style="padding:8px 10px;">1300</td><td style="padding:8px 10px;">900</td></tr><tr><td style="padding:8px 10px;">2022</td><td style="padding:8px 10px;">1400</td><td style="padding:8px 10px;">1000</td><td style="padding:8px 10px;">1200</td><td style="padding:8px 10px;">1100</td></tr><tr><td style="padding:8px 10px;">2023</td><td style="padding:8px 10px;">600</td><td style="padding:8px 10px;">700</td><td style="padding:8px 10px;">800</td><td style="padding:8px 10px;">1000</td></tr></table>`
+};
+
   // ─────────────────────────────────────────────────────────────────────────────
 // 1. PASSAGE CONSTANT (SINGLE LINE with <br><br> for paragraph breaks)
 // ─────────────────────────────────────────────────────────────────────────────
@@ -147,12 +163,12 @@ const PASSAGE_JAN25_10_S2_P1 = {
   hi: `ब्रिटिश काल से पहले के भारत में महिला लेखिकाएँ दुर्लभ थीं और उन्नीसवीं सदी के पहले हिस्से में तो कोई भी नहीं थी। मध्यकाल में कुछ महिला कवियों ने प्रमुखता हासिल की: तमिलनाडु में अंडाल और कराईकल अम्माइयार, कश्मीर में लल्ला डेड, कर्नाटक में महादेवियाक्का, राजस्थान में मीराबाई, उड़ीसा में माधवी दासी, असम में पद्मप्रिया और बंगाल में चंद्रबती। इन सभी को अपवाद के रूप में माना जाना चाहिए। यह दिखाने के लिए शायद ही कोई सबूत है कि महिला कवियों को सामाजिक संरक्षण उपलब्ध था। इसके विपरीत, नर्सरी कविताओं, व्रतकथाओं, परी कथाओं, त्योहारों के गीतों और विभिन्न प्रकार के श्रम गीतों का विशाल संग्रह आंशिक रूप से, यदि पूरी तरह से नहीं, तो महिलाओं द्वारा बनाया गया था। हालाँकि साहित्य के इस भंडार का आनंद समाज के सभी सदस्यों ने लिया, लेकिन इसे मुख्य रूप से महिलाओं द्वारा संरक्षित और प्रसारित किया गया। किसी को या तो यह मानना चाहिए कि महिलाओं की रचनात्मक क्षमता केवल इन साहित्यिक रूपों के भीतर ही संचालित होती थी और साहित्य के अन्य रूपों में अतिक्रमण नहीं करती थी, या यह कि कई महिला लेखिकाएँ जिन्होंने अन्य विधाओं में कदम रखा, उन्होंने गुमनाम रहना पसंद किया।`
 };
 
+  // ─────────────────────────────────────────────────────────────────────────────
+// 1. PASSAGE CONSTANT (SINGLE LINE with <br><br> for paragraph breaks)
 // ─────────────────────────────────────────────────────────────────────────────
-// DI TABLE CONSTANT — UGC NET Paper 1 | 10 Jan 2025 | Morning Shift (MINIFIED)
-// ─────────────────────────────────────────────────────────────────────────────
-const TABLE_JAN25_10_S1_P1 = {
-  en: `<p style="margin-bottom:10px;"><strong>Directions:</strong> The following table shows the number of students enrolled in four different Colleges (A–D) during the four years from 2020 to 2023. Based on the data in the table, answer the questions that follow.</p><table border="1" style="border-collapse:collapse; width:100%; text-align:center; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;"><tr><th style="padding:8px 10px;">Year</th><th colspan="4" style="padding:8px 10px;">Number of Students Enrolled in College</th></tr><tr><th style="padding:8px 10px;"></th><th style="padding:8px 10px;">A</th><th style="padding:8px 10px;">B</th><th style="padding:8px 10px;">C</th><th style="padding:8px 10px;">D</th></tr><tr><td style="padding:8px 10px;">2020</td><td style="padding:8px 10px;">1200</td><td style="padding:8px 10px;">900</td><td style="padding:8px 10px;">1000</td><td style="padding:8px 10px;">700</td></tr><tr><td style="padding:8px 10px;">2021</td><td style="padding:8px 10px;">1100</td><td style="padding:8px 10px;">800</td><td style="padding:8px 10px;">1300</td><td style="padding:8px 10px;">900</td></tr><tr><td style="padding:8px 10px;">2022</td><td style="padding:8px 10px;">1400</td><td style="padding:8px 10px;">1000</td><td style="padding:8px 10px;">1200</td><td style="padding:8px 10px;">1100</td></tr><tr><td style="padding:8px 10px;">2023</td><td style="padding:8px 10px;">600</td><td style="padding:8px 10px;">700</td><td style="padding:8px 10px;">800</td><td style="padding:8px 10px;">1000</td></tr></table>`,
-  hi: `<p style="margin-bottom:10px;"><strong>निर्देश:</strong> निम्नलिखित तालिका 2020 से 2023 तक चार वर्षों के दौरान चार अलग-अलग कॉलेजों (A-D) में नामांकित छात्रों की संख्या दर्शाती है। तालिका में दिए गए डेटा के आधार पर, निम्नलिखित प्रश्नों के उत्तर दीजिए।</p><table border="1" style="border-collapse:collapse; width:100%; text-align:center; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;"><tr><th style="padding:8px 10px;">वर्ष</th><th colspan="4" style="padding:8px 10px;">कॉलेज में नामांकित छात्रों की संख्या</th></tr><tr><th style="padding:8px 10px;"></th><th style="padding:8px 10px;">A</th><th style="padding:8px 10px;">B</th><th style="padding:8px 10px;">C</th><th style="padding:8px 10px;">D</th></tr><tr><td style="padding:8px 10px;">2020</td><td style="padding:8px 10px;">1200</td><td style="padding:8px 10px;">900</td><td style="padding:8px 10px;">1000</td><td style="padding:8px 10px;">700</td></tr><tr><td style="padding:8px 10px;">2021</td><td style="padding:8px 10px;">1100</td><td style="padding:8px 10px;">800</td><td style="padding:8px 10px;">1300</td><td style="padding:8px 10px;">900</td></tr><tr><td style="padding:8px 10px;">2022</td><td style="padding:8px 10px;">1400</td><td style="padding:8px 10px;">1000</td><td style="padding:8px 10px;">1200</td><td style="padding:8px 10px;">1100</td></tr><tr><td style="padding:8px 10px;">2023</td><td style="padding:8px 10px;">600</td><td style="padding:8px 10px;">700</td><td style="padding:8px 10px;">800</td><td style="padding:8px 10px;">1000</td></tr></table>`
+const PASSAGE_JAN25_09_S2_P1 = {
+  en: `The 2004 earthquake and tsunami in Banda Aceh, Indonesia, stunned the world. It killed over 230,000 people, and caused damage as far away as Africa. Less than a year later, an earthquake in Pakistan killed 80,000 people. Earthquakes are sudden movements in the earth's crust that occur along faults (planes of weakness), where one rock mass slides past another one. When movement along faults occurs gradually and relatively smoothly, it is called creep or seismic slip and may be undetectable to the casual observer. When friction prevents rocks from slipping easily, stress builds up until it is finally released with a sudden jerk. The point on fault at which the first movement occurs during an earthquake is called the epicenter.<br><br>Earthquakes have always seemed mysterious, sudden, and violent, coming without warning and leaving ruined cities and dislocated landscapes in their wake. Cities such as Kobe, Japan or Mexico City, parts of which are built on soft landfill or poorly consolidated soil, usually suffer the greatest damage from earthquakes. Water-saturated soil can liquify when shaken. Buildings sometimes sink out of sight or fall down like a row of dominoes under these conditions.`,
+  hi: `इंडोनेशिया के बांदा आचे में 2004 में आए भूकंप और सुनामी ने पूरी दुनिया को चौंका दिया था। इसने 230,000 से ज़्यादा लोगों की जान ले ली और अफ्रीका तक में तबाही मचाई। एक साल से भी कम समय बाद, पाकिस्तान में आए भूकंप ने 80,000 लोगों की जान ले ली। भूकंप पृथ्वी की पपड़ी में अचानक होने वाली हलचलें हैं जो दोषों (कमजोर सतह) के साथ होती हैं, जहाँ एक चट्टान का द्रव्यमान दूसरे के ऊपर से खिसकता है। जब दोषों के साथ गति धीरे-धीरे और अपेक्षाकृत आसानी से होती है, तो इसे रेंगना या भूकंपीय फिसलन कहा जाता है और यह सामान्य पर्यवेक्षक के लिए पता लगाने योग्य नहीं हो सकता है। जब घर्षण चट्टानों को आसानी से फिसलने से रोकता है, तो तनाव तब तक बनता रहता है जब तक कि यह अचानक झटके के साथ समाप्त नहीं हो जाता। भूकंप के दौरान दोष पर वह बिंदु जहाँ पहली हलचल होती है, उसे उपरिकेंद्र कहा जाता है।<br><br>भूकंप हमेशा रहस्यमय, अचानक और हिंसक लगते हैं, बिना किसी चेतावनी के आते हैं और अपने पीछे बर्बाद शहर और अव्यवस्थित परिदृश्य छोड़ जाते हैं। कोबे, जापान या मेक्सिको सिटी जैसे शहर, जिनके कुछ हिस्से नरम लैंडफिल या खराब समेकित मिट्टी पर बने हैं, आमतौर पर भूकंप से सबसे अधिक नुकसान उठाते हैं। पानी से संतृप्त मिट्टी हिलने पर तरल हो सकती है। ऐसी परिस्थितियों में इमारतें कभी-कभी नजरों से ओझल हो जाती हैं या डोमिनोज की कतार की तरह गिर जाती हैं।`
 };
 
 function passageHTML(text) { return `<div class="comprehension-box">${text}</div>`; }
@@ -10804,6 +10820,1066 @@ const TEST_JAN25_10_S1_P1 = [
   }
 ];
 
+// ─────────────────────────────────────────────────────────────────────────────
+// EXTRACTED QUESTIONS ARRAY (Q1 to Q25)
+// ─────────────────────────────────────────────────────────────────────────────
+const TEST_JAN25_09_S2_P1 = [
+  {
+    "id": "jan25-9-s2-p1-q01",
+    "difficulty": "medium",
+    "correct": 2,
+    "unitEN": "Unit 7: Data Interpretation",
+    "unitHI": "इकाई 7: आंकड़ों की व्याख्या",
+    "topicEN": "Table Chart",
+    "topicHI": "तालिका चार्ट",
+    "content": {
+      "en": {
+        "question": TABLE_JAN25_09_S2_P1.en + "<br><br><strong>Question:</strong><br> If the number of employees in IT and Marketing department increases by 60% and 20%, respectively in the next year, then what will be the ratio of number of employees in IT and Marketing departments in the next year?",
+        "options": ["13 : 19", "3 : 4", "16 : 21", "2 : 3"],
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. Marketing employees = 560 (which is 14%). So, 1% = $560 / 14 = 40$ employees.<br>2. <strong>IT Employees (Current):</strong> 8% of total = $8 \\times 40 = 320$.<br>3. <strong>Marketing Employees (Current):</strong> 560.<br>4. <strong>Next Year IT:</strong> Increases by 60%. $320 \\times 1.60 = 512$.<br>5. <strong>Next Year Marketing:</strong> Increases by 20%. $560 \\times 1.20 = 672$.<br>6. <strong>Ratio:</strong> 512 : 672. Dividing both by 32 gives <strong>16 : 21</strong>."
+      },
+      "hi": {
+        "question": TABLE_JAN25_09_S2_P1.hi + "<br><br><strong>प्रश्न:</strong><br> यदि अगले वर्ष आईटी और मार्केटिंग विभाग में कर्मचारियों की संख्या क्रमशः 60% और 20% बढ़ जाती है, तो अगले वर्ष आईटी और मार्केटिंग विभागों में कर्मचारियों की संख्या का अनुपात क्या होगा?",
+        "options": ["13 : 19", "3 : 4", "16 : 21", "2 : 3"],
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. मार्केटिंग कर्मचारी = 560 (जो 14% है)। अतः, 1% = $560 / 14 = 40$ कर्मचारी।<br>2. <strong>आईटी कर्मचारी (वर्तमान):</strong> कुल का 8% = $8 \\times 40 = 320$।<br>3. <strong>मार्केटिंग कर्मचारी (वर्तमान):</strong> 560।<br>4. <strong>अगले वर्ष आईटी:</strong> 60% की वृद्धि। $320 \\times 1.60 = 512$।<br>5. <strong>अगले वर्ष मार्केटिंग:</strong> 20% की वृद्धि। $560 \\times 1.20 = 672$।<br>6. <strong>अनुपात:</strong> 512 : 672। दोनों को 32 से विभाजित करने पर <strong>16 : 21</strong> प्राप्त होता है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q02",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 7: Data Interpretation",
+    "unitHI": "इकाई 7: आंकड़ों की व्याख्या",
+    "topicEN": "Table Chart",
+    "topicHI": "तालिका चार्ट",
+    "content": {
+      "en": {
+        "question": TABLE_JAN25_09_S2_P1.en + "<br><br><strong>Question:</strong><br> The number of employees in HR department is __________% less than the number of employees in Production department.",
+        "options": ["64.5", "61.5", "63.5", "62.5"],
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>We can calculate this directly using percentages.<br>1. HR Department percentage = 12%.<br>2. Production Department percentage = 32%.<br>3. <strong>Difference:</strong> 32% - 12% = 20%.<br>4. <strong>Percentage Less:</strong> $(\\frac{\\text{Difference}}{\\text{Production}}) \\times 100$<br>   $(\\frac{20}{32}) \\times 100 = \\frac{5}{8} \\times 100 = 62.5\\%$."
+      },
+      "hi": {
+        "question": TABLE_JAN25_09_S2_P1.hi + "<br><br><strong>प्रश्न:</strong><br> मानव संसाधन विभाग में कर्मचारियों की संख्या उत्पादन विभाग में कर्मचारियों की संख्या से __________% कम है।",
+        "options": ["64.5", "61.5", "63.5", "62.5"],
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>हम इसकी गणना सीधे प्रतिशत का उपयोग करके कर सकते हैं।<br>1. मानव संसाधन (HR) विभाग का प्रतिशत = 12%।<br>2. उत्पादन (Production) विभाग का प्रतिशत = 32%।<br>3. <strong>अंतर:</strong> 32% - 12% = 20%।<br>4. <strong>प्रतिशत कम:</strong> $(\\frac{\\text{अंतर}}{\\text{उत्पादन}}) \\times 100$<br>   $(\\frac{20}{32}) \\times 100 = \\frac{5}{8} \\times 100 = 62.5\\%$।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q03",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 7: Data Interpretation",
+    "unitHI": "इकाई 7: आंकड़ों की व्याख्या",
+    "topicEN": "Table Chart",
+    "topicHI": "तालिका चार्ट",
+    "content": {
+      "en": {
+        "question": TABLE_JAN25_09_S2_P1.en + "<br><br><strong>Question:</strong><br> If the number of employees in Sales department increases by 25% in the next year, then what will be the number of employees in that department in the next year?",
+        "options": ["700", "800", "900", "920"],
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. 1% = 40 employees.<br>2. Sales Department = 16%. So, current employees in Sales = $16 \\times 40 = 640$.<br>3. <strong>Increase by 25%:</strong> New count = $640 \\times 1.25$ (or $640 + 160$).<br>4. <strong>Next year's employees:</strong> <strong>800</strong>."
+      },
+      "hi": {
+        "question": TABLE_JAN25_09_S2_P1.hi + "<br><br><strong>प्रश्न:</strong><br> यदि अगले वर्ष सेल्स विभाग में कर्मचारियों की संख्या 25% बढ़ जाती है, तो अगले वर्ष उस विभाग में कर्मचारियों की संख्या कितनी होगी?",
+        "options": ["700", "800", "900", "920"],
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. 1% = 40 कर्मचारी।<br>2. सेल्स विभाग = 16%। अतः, सेल्स में वर्तमान कर्मचारी = $16 \\times 40 = 640$।<br>3. <strong>25% की वृद्धि:</strong> नई संख्या = $640 \\times 1.25$ (या $640 + 160$)।<br>4. <strong>अगले वर्ष के कर्मचारी:</strong> <strong>800</strong>।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q04",
+    "difficulty": "medium",
+    "correct": 0,
+    "unitEN": "Unit 7: Data Interpretation",
+    "unitHI": "इकाई 7: आंकड़ों की व्याख्या",
+    "topicEN": "Table Chart",
+    "topicHI": "तालिका चार्ट",
+    "content": {
+      "en": {
+        "question": TABLE_JAN25_09_S2_P1.en + "<br><br><strong>Question:</strong><br> If the ratio of the number of male and female employees in Accounts department is 5 : 4 and 60% of the employees in HR department are females, then what is the total number of male employees in Accounts and HR departments together?",
+        "options": ["592", "594", "596", "598"],
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. 1% = 40 employees.<br>2. <strong>Accounts Department:</strong> Total = 18% = $18 \\times 40 = 720$. <br>   Ratio of Male:Female = 5:4. Males = $(5/9) \\times 720 = 400$.<br>3. <strong>HR Department:</strong> Total = 12% = $12 \\times 40 = 480$.<br>   Females = 60%, so Males = 40%. Males = $0.40 \\times 480 = 192$.<br>4. <strong>Total Male Employees:</strong> $400 + 192 = <strong>592</strong>$."
+      },
+      "hi": {
+        "question": TABLE_JAN25_09_S2_P1.hi + "<br><br><strong>प्रश्न:</strong><br> यदि लेखा विभाग में पुरुष और महिला कर्मचारियों की संख्या का अनुपात 5 : 4 है तथा मानव संसाधन विभाग में 60% कर्मचारी महिलाएं हैं, तो लेखा और मानव संसाधन विभागों में पुरुष कर्मचारियों की कुल संख्या कितनी है?",
+        "options": ["592", "594", "596", "598"],
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. 1% = 40 कर्मचारी।<br>2. <strong>लेखा (Accounts) विभाग:</strong> कुल = 18% = $18 \\times 40 = 720$।<br>   पुरुष:महिला का अनुपात = 5:4। पुरुष = $(5/9) \\times 720 = 400$।<br>3. <strong>मानव संसाधन (HR) विभाग:</strong> कुल = 12% = $12 \\times 40 = 480$।<br>   महिलाएँ = 60%, इसलिए पुरुष = 40%। पुरुष = $0.40 \\times 480 = 192$।<br>4. <strong>कुल पुरुष कर्मचारी:</strong> $400 + 192 = <strong>592</strong>$।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q05",
+    "difficulty": "medium",
+    "correct": 0,
+    "unitEN": "Unit 7: Data Interpretation",
+    "unitHI": "इकाई 7: आंकड़ों की व्याख्या",
+    "topicEN": "Table Chart",
+    "topicHI": "तालिका चार्ट",
+    "content": {
+      "en": {
+        "question": TABLE_JAN25_09_S2_P1.en + "<br><br><strong>Question:</strong><br> What is the average of the total number of employees in Accounts, HR, Marketing, and Production departments together?",
+        "options": ["760", "780", "800", "820"],
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. Total percentage for the 4 departments = Accounts (18%) + HR (12%) + Marketing (14%) + Production (32%) = <strong>76%</strong>.<br>2. We know 1% = 40 employees.<br>3. Total employees in these 4 departments = $76 \\times 40 = 3040$.<br>4. <strong>Average:</strong> $3040 / 4 = <strong>760</strong>$."
+      },
+      "hi": {
+        "question": TABLE_JAN25_09_S2_P1.hi + "<br><br><strong>प्रश्न:</strong><br> लेखा, मानव संसाधन, विपणन और उत्पादन विभागों में कर्मचारियों की कुल संख्या का औसत क्या है?",
+        "options": ["760", "780", "800", "820"],
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. 4 विभागों का कुल प्रतिशत = लेखा (18%) + मानव संसाधन (12%) + विपणन (14%) + उत्पादन (32%) = <strong>76%</strong>।<br>2. हम जानते हैं कि 1% = 40 कर्मचारी।<br>3. इन 4 विभागों में कुल कर्मचारी = $76 \\times 40 = 3040$।<br>4. <strong>औसत:</strong> $3040 / 4 = <strong>760</strong>$।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q06",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 10: Higher Education System",
+    "unitHI": "इकाई 10: उच्च शिक्षा प्रणाली",
+    "topicEN": "Higher Education Schemes and Policies",
+    "topicHI": "उच्च शिक्षा योजनाएं और नीतियां",
+    "content": {
+      "en": {
+        "question": "Match the following:<br><br><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>List-I (Schemes)</th><th style='padding:8px 10px;'>List-II (Objectives)</th></tr><tr><td style='padding:8px 10px;'>A. Malviya Mission Scheme</td><td style='padding:8px 10px;'>I. Scholarship for north east students</td></tr><tr><td style='padding:8px 10px;'>B. Vidyanjali</td><td style='padding:8px 10px;'>II. To garner international experience</td></tr><tr><td style='padding:8px 10px;'>C. GIAN</td><td style='padding:8px 10px;'>III. Remedial classes and training</td></tr><tr><td style='padding:8px 10px;'>D. Ishan Uday</td><td style='padding:8px 10px;'>IV. Professional development of teachers</td></tr></table><br>Choose the correct answer from the options given below:",
+        "options": ["A-I, B-II, C-III, D-IV", "A-II, B-I, C-IV, D-III", "A-III, B-IV, C-I, D-II", "A-IV, B-III, C-II, D-I"],
+        "explanation": "<strong>Matching Schemes with their Objectives:</strong><br>• <strong>Malviya Mission (A-IV):</strong> A major scheme dedicated to the professional development and capacity building of teachers.<br>• <strong>Vidyanjali (B-III):</strong> A volunteer program aimed at providing remedial classes and training in government schools.<br>• <strong>GIAN (C-II):</strong> Global Initiative of Academic Networks aims to garner international experience by bringing global faculty to India.<br>• <strong>Ishan Uday (D-I):</strong> A special scholarship scheme dedicated to students of the North Eastern Region.<br>Thus, A-IV, B-III, C-II, D-I is correct."
+      },
+      "hi": {
+        "question": "निम्नलिखित का मिलान करें:<br><br><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>सूची-I (योजनाएं)</th><th style='padding:8px 10px;'>सूची-II (उद्देश्य)</th></tr><tr><td style='padding:8px 10px;'>A. मालवीय मिशन योजना</td><td style='padding:8px 10px;'>I. पूर्वोत्तर के छात्रों के लिए छात्रवृत्ति</td></tr><tr><td style='padding:8px 10px;'>B. विद्यांजलि</td><td style='padding:8px 10px;'>II. अंतर्राष्ट्रीय अनुभव प्राप्त करना</td></tr><tr><td style='padding:8px 10px;'>C. जीआईएएन (GIAN)</td><td style='padding:8px 10px;'>III. उपचारात्मक कक्षाएं और प्रशिक्षण</td></tr><tr><td style='padding:8px 10px;'>D. ईशान उदय</td><td style='padding:8px 10px;'>IV. शिक्षकों का व्यावसायिक विकास</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["A-I, B-II, C-III, D-IV", "A-II, B-I, C-IV, D-III", "A-III, B-IV, C-I, D-II", "A-IV, B-III, C-II, D-I"],
+        "explanation": "<strong>योजनाओं का उनके उद्देश्यों के साथ मिलान:</strong><br>• <strong>मालवीय मिशन (A-IV):</strong> शिक्षकों के व्यावसायिक विकास और क्षमता निर्माण को समर्पित एक प्रमुख योजना।<br>• <strong>विद्यांजलि (B-III):</strong> सरकारी स्कूलों में उपचारात्मक कक्षाएं (remedial classes) और प्रशिक्षण प्रदान करने के उद्देश्य से एक स्वयंसेवक कार्यक्रम।<br>• <strong>GIAN (C-II):</strong> ग्लोबल इनिशिएटिव ऑफ एकेडमिक नेटवर्क्स का उद्देश्य वैश्विक संकाय को भारत में लाकर अंतर्राष्ट्रीय अनुभव प्राप्त करना है।<br>• <strong>ईशान उदय (D-I):</strong> पूर्वोत्तर क्षेत्र (North East) के छात्रों को समर्पित एक विशेष छात्रवृत्ति योजना।<br>इस प्रकार, A-IV, B-III, C-II, D-I सही है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q07",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 2: Research Aptitude",
+    "unitHI": "इकाई 2: शोध अभिवृत्ति",
+    "topicEN": "Hypothesis in Research",
+    "topicHI": "शोध में परिकल्पना",
+    "content": {
+      "en": {
+        "question": "Which among the following are correct in the light of hypothesis?<br><br>A. It is proved assumption<br>B. It should be capable of being tested<br>C. It should be inconsistent with the most known facts<br>D. It should state the relationship between variables<br>E. It should be limited in scope and must be specific<br><br>Choose the correct answer from the options given below:",
+        "options": ["A and C only", "B, D and E only", "A, B and C only", "B, C and D only"],
+        "explanation": "<strong>Characteristics of a Hypothesis:</strong><br>• <strong>(B) True:</strong> A hypothesis must be empirically testable.<br>• <strong>(D) True:</strong> It proposes a relationship between independent and dependent variables.<br>• <strong>(E) True:</strong> A good hypothesis is specific and narrow in scope to be testable.<br>• <em>(A) False:</em> It is an *unproved* or tentative assumption, not proved.<br>• <em>(C) False:</em> It should be *consistent* with existing body of knowledge, not inconsistent. Hence, B, D, and E are correct."
+      },
+      "hi": {
+        "question": "परिकल्पना के प्रकाश में निम्नलिखित में से कौन सा सही है?<br><br>A. यह सिद्ध धारणा है<br>B. इसका परीक्षण किया जा सके<br>C. यह सर्वाधिक ज्ञात तथ्यों से असंगत होना चाहिए<br>D. इसमें चरों के बीच संबंध बताना चाहिए<br>E. इसका दायरा सीमित होना चाहिए और विशिष्ट होना चाहिए<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["केवल A और C", "केवल B, D और E", "केवल A, B और C", "केवल B, C और D"],
+        "explanation": "<strong>परिकल्पना (Hypothesis) की विशेषताएं:</strong><br>• <strong>(B) सत्य:</strong> परिकल्पना अनुभवजन्य रूप से परीक्षण योग्य होनी चाहिए।<br>• <strong>(D) सत्य:</strong> यह स्वतंत्र और आश्रित चरों के बीच संबंध का प्रस्ताव करती है।<br>• <strong>(E) सत्य:</strong> एक अच्छी परिकल्पना परीक्षण योग्य होने के लिए दायरे में विशिष्ट और संकीर्ण होती है।<br>• <em>(A) असत्य:</em> यह एक *असिद्ध* या अस्थायी धारणा है, सिद्ध नहीं।<br>• <em>(C) असत्य:</em> यह ज्ञान के मौजूदा निकाय के *अनुरूप* होनी चाहिए, न कि असंगत। अतः B, D, और E सही हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q08",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 8: Information and Communication Technology (ICT)",
+    "unitHI": "इकाई 8: सूचना एवं संचार प्रौद्योगिकी (आईसीटी)",
+    "topicEN": "Network Security and Malware",
+    "topicHI": "नेटवर्क सुरक्षा और मैलवेयर",
+    "content": {
+      "en": {
+        "question": "Which of the following are correct in context of network security?<br><br>A. Virus, worms, and Trojan horse are examples of Malware<br>B. Trojan horse is a non-self-replicating malicious software<br>C. After receiving payment, if the product is not delivered it is an example of phishing<br>D. In https, 's' stands for Secure<br><br>Choose the correct answer from the options given below:",
+        "options": ["A, B and C only", "B, C and D only", "A, C and D only", "A, B and D only"],
+        "explanation": "<strong>Evaluating Network Security Statements:</strong><br>• <strong>(A) True:</strong> All these are different types of malicious software (malware).<br>• <strong>(B) True:</strong> Unlike viruses and worms, a Trojan horse relies on users to execute it and does not replicate itself automatically.<br>• <strong>(C) False:</strong> Non-delivery of a product after payment is simply an 'e-commerce fraud' or scam. <em>Phishing</em> specifically refers to tricking people into giving away sensitive credentials (like passwords).<br>• <strong>(D) True:</strong> HTTPS stands for HyperText Transfer Protocol <strong>Secure</strong>. Therefore, A, B, and D are correct."
+      },
+      "hi": {
+        "question": "नेटवर्क सुरक्षा के संदर्भ में निम्नलिखित में से कौन सा सही है?<br><br>A. वायरस, वर्म्स और ट्रोजन हॉर्स मैलवेयर के उदाहरण हैं<br>B. ट्रोजन हॉर्स एक गैर-स्व-प्रतिकृति दुर्भावनापूर्ण सॉफ़्टवेयर है<br>C. भुगतान प्राप्त करने के बाद, यदि उत्पाद वितरित नहीं किया जाता है तो यह फ़िशिंग का एक उदाहरण है<br>D. https में 's' का मतलब सिक्योर (Secure) है<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["केवल A, B और C", "केवल B, C और D", "केवल A, C और D", "केवल A, B और D"],
+        "explanation": "<strong>नेटवर्क सुरक्षा कथनों का मूल्यांकन:</strong><br>• <strong>(A) सत्य:</strong> ये सभी दुर्भावनापूर्ण सॉफ़्टवेयर (मैलवेयर) के विभिन्न प्रकार हैं।<br>• <strong>(B) सत्य:</strong> वायरस और वर्म्स के विपरीत, एक ट्रोजन हॉर्स इसे निष्पादित करने के लिए उपयोगकर्ताओं पर निर्भर करता है और स्वचालित रूप से स्वयं की प्रतिलिपि (replicate) नहीं बनाता है।<br>• <strong>(C) असत्य:</strong> भुगतान के बाद उत्पाद का वितरण न होना केवल 'ई-कॉमर्स धोखाधड़ी' या घोटाला है। <em>फ़िशिंग</em> विशेष रूप से लोगों को संवेदनशील क्रेडेंशियल (जैसे पासवर्ड) देने के लिए बरगलाने को संदर्भित करता है।<br>• <strong>(D) सत्य:</strong> HTTPS का अर्थ हाइपरटेक्स्ट ट्रांसफर प्रोटोकॉल <strong>सिक्योर (Secure)</strong> है। अतः, A, B और D सही हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q09",
+    "difficulty": "easy",
+    "correct": 3,
+    "unitEN": "Unit 4: Communication",
+    "unitHI": "इकाई 4: संचार",
+    "topicEN": "Mass Media and Society",
+    "topicHI": "जन माध्यम और समाज",
+    "content": {
+      "en": {
+        "question": "What is the full form of the acronym CBFC?",
+        "options": ["Central Board of Film Censors", "Central Bureau of Film Certification", "Central Bureau of Film Censors", "Central Board of Film Certification"],
+        "explanation": "The <strong>Central Board of Film Certification (CBFC)</strong> is a statutory film-certification body in the Ministry of Information and Broadcasting of the Government of India."
+      },
+      "hi": {
+        "question": "सीबीएफसी (CBFC) का पूर्ण रूप क्या है?",
+        "options": ["केंद्रीय फिल्म सेंसर बोर्ड", "केंद्रीय फिल्म प्रमाणन ब्यूरो", "केंद्रीय फिल्म सेंसर ब्यूरो", "केंद्रीय फिल्म प्रमाणन बोर्ड (Central Board of Film Certification)"],
+        "explanation": "<strong>केंद्रीय फिल्म प्रमाणन बोर्ड (Central Board of Film Certification - CBFC)</strong> भारत सरकार के सूचना और प्रसारण मंत्रालय में एक वैधानिक फिल्म-प्रमाणन निकाय है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q10",
+    "difficulty": "easy",
+    "correct": 0,
+    "unitEN": "Unit 1: Teaching Aptitude",
+    "unitHI": "इकाई 1: शिक्षण अभिवृत्ति",
+    "topicEN": "Learner's Characteristics and Motivation",
+    "topicHI": "शिक्षार्थी की विशेषताएं और अभिप्रेरणा",
+    "content": {
+      "en": {
+        "question": "Arrange chronologically as hierarchy of needs.<br><br>A. Self-Actualization<br>B. Self Esteem needs<br>C. Physiological needs<br>D. Social needs<br>E. Safety-Security needs<br><br>Choose the correct answer from the options given below:",
+        "options": ["C, E, D, B, A", "E, D, A, B, C", "E, B, C, D, A", "C, A, B, D, E"],
+        "explanation": "According to <strong>Maslow's Hierarchy of Needs</strong> (from most basic/bottom to highest/top):<br>1. <strong>Physiological needs (C):</strong> Food, water, shelter.<br>2. <strong>Safety-Security needs (E):</strong> Health, employment, property.<br>3. <strong>Social needs (D):</strong> Love, belonging, friendship.<br>4. <strong>Self-Esteem needs (B):</strong> Respect, recognition.<br>5. <strong>Self-Actualization (A):</strong> Achieving one's full potential.<br>Correct Order: C -> E -> D -> B -> A."
+      },
+      "hi": {
+        "question": "आवश्यकताओं के पदानुक्रम (hierarchy of needs) के अनुसार कालानुक्रमिक रूप से व्यवस्थित करें।<br><br>A. आत्म-साक्षात्कार<br>B. आत्मसम्मान की जरूरत<br>C. शारीरिक आवश्यकताएं<br>D. सामाजिक आवश्यकताएं<br>E. सुरक्षा-सुरक्षा की जरूरतें<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["C, E, D, B, A", "E, D, A, B, C", "E, B, C, D, A", "C, A, B, D, E"],
+        "explanation": "<strong>मास्लो के आवश्यकताओं के पदानुक्रम (Maslow's Hierarchy)</strong> के अनुसार (सबसे बुनियादी/नीचे से उच्चतम/शीर्ष तक):<br>1. <strong>शारीरिक आवश्यकताएँ (C):</strong> भोजन, पानी, आश्रय।<br>2. <strong>सुरक्षा की आवश्यकताएँ (E):</strong> स्वास्थ्य, रोजगार, संपत्ति।<br>3. <strong>सामाजिक आवश्यकताएँ (D):</strong> प्रेम, अपनापन, मित्रता।<br>4. <strong>आत्मसम्मान की आवश्यकताएँ (B):</strong> सम्मान, मान्यता।<br>5. <strong>आत्म-साक्षात्कार (A):</strong> अपनी पूरी क्षमता को प्राप्त करना।<br>सही क्रम: C -> E -> D -> B -> A।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q11",
+    "difficulty": "medium",
+    "correct": 2,
+    "unitEN": "Unit 4: Communication",
+    "unitHI": "इकाई 4: संचार",
+    "topicEN": "Mass Media and Society",
+    "topicHI": "जन माध्यम और समाज",
+    "content": {
+      "en": {
+        "question": "Who was the chairman of First Press Commission?",
+        "options": ["P.K. Goswami", "K.K. Mathew", "G.S. Rajadhyaksha", "Girilal Jain"],
+        "explanation": "The First Press Commission in India was constituted in 1952 to inquire into the state of the press. It was headed by Justice <strong>G.S. Rajadhyaksha</strong>."
+      },
+      "hi": {
+        "question": "प्रथम प्रेस आयोग के अध्यक्ष कौन थे?",
+        "options": ["पीके गोस्वामी", "केके मैथ्यू", "जी.एस. राजाध्यक्ष", "गिरिलाल जैन"],
+        "explanation": "प्रेस की स्थिति की जांच के लिए 1952 में भारत में प्रथम प्रेस आयोग का गठन किया गया था। इसके अध्यक्ष न्यायमूर्ति <strong>जी.एस. राजाध्यक्ष</strong> थे।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q12",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 10: Higher Education System",
+    "unitHI": "इकाई 10: उच्च शिक्षा प्रणाली",
+    "topicEN": "Higher Education Policies and Regulations",
+    "topicHI": "उच्च शिक्षा नीतियां और विनियम",
+    "content": {
+      "en": {
+        "question": "Pick the correct statements.<br><br>A. UGC regulations for plagiarism allow ten percent of similarity index<br>B. The emphasis on mother tongue as medium of instructions was first suggested by NEP 2020<br>C. Operation Blackboard was recommended by RTE 2009<br>D. NEP 2020 suggests 5+3+3+4 education system instead of 10+2+3<br><br>Choose the correct answer from the options given below:",
+        "options": ["B and C only", "A and D only", "A, B and C only", "B, C and D only"],
+        "explanation": "<strong>Evaluating Higher Ed Statements:</strong><br>• <strong>(A) True:</strong> UGC allows up to 10% similarity index (Level 0) without penalty.<br>• <strong>(B) False:</strong> Mother tongue emphasis was suggested long before NEP 2020 (e.g., Kothari Commission 1964-66 and earlier NPEs).<br>• <strong>(C) False:</strong> Operation Blackboard was launched in 1987 in pursuance of the National Policy on Education (NPE 1986), not RTE 2009.<br>• <strong>(D) True:</strong> NEP 2020 structurally overhauls the 10+2+3 model into a 5+3+3+4 design. Thus, A and D are correct."
+      },
+      "hi": {
+        "question": "सही कथन चुनें।<br><br>A. साहित्यिक चोरी के लिए यूजीसी के नियम समानता सूचकांक के दस प्रतिशत की अनुमति देते हैं<br>B. शिक्षा के माध्यम के रूप में मातृभाषा पर जोर देने का सुझाव सबसे पहले NEP 2020 द्वारा दिया गया था<br>C. ऑपरेशन ब्लैकबोर्ड की अनुशंसा आरटीई 2009 द्वारा की गई थी<br>D. एनईपी 2020 10+2+3 के बजाय 5+3+3+4 शिक्षा प्रणाली का सुझाव देती है<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["केवल B और C", "केवल A और D", "केवल A, B और C", "केवल B, C और D"],
+        "explanation": "<strong>उच्च शिक्षा कथनों का मूल्यांकन:</strong><br>• <strong>(A) सत्य:</strong> UGC बिना किसी दंड के 10% समानता सूचकांक (स्तर 0) की अनुमति देता है।<br>• <strong>(B) असत्य:</strong> NEP 2020 से बहुत पहले मातृभाषा पर जोर देने का सुझाव दिया गया था (जैसे, कोठारी आयोग 1964-66 और पहले की शिक्षा नीतियां)।<br>• <strong>(C) असत्य:</strong> ऑपरेशन ब्लैकबोर्ड 1987 में राष्ट्रीय शिक्षा नीति (NPE 1986) के अनुसरण में शुरू किया गया था, RTE 2009 में नहीं।<br>• <strong>(D) सत्य:</strong> NEP 2020 10+2+3 मॉडल को 5+3+3+4 डिजाइन में बदलता है। अतः A और D सही हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q13",
+    "difficulty": "easy",
+    "correct": 2,
+    "unitEN": "Unit 10: Higher Education System",
+    "unitHI": "इकाई 10: उच्च शिक्षा प्रणाली",
+    "topicEN": "Higher Education Schemes and Policies",
+    "topicHI": "उच्च शिक्षा योजनाएं और नीतियां",
+    "content": {
+      "en": {
+        "question": "Unnat Bharat Abhiyan was launched in 2014 for",
+        "options": ["Promoting entrepreneurship", "Promoting skill education", "Connecting higher education institutes with the society and villages", "Cottage and mid-size industries"],
+        "explanation": "<strong>Unnat Bharat Abhiyan (UBA)</strong> is a flagship program of the Ministry of Education. Its primary objective is to connect Higher Education Institutions with local communities (villages) to address developmental challenges through appropriate technologies."
+      },
+      "hi": {
+        "question": "उन्नत भारत अभियान 2014 में किसके लिए शुरू किया गया था?",
+        "options": ["उद्यमशीलता को बढ़ावा देना", "कौशल शिक्षा को बढ़ावा देना", "उच्च शिक्षा संस्थानों को समाज और गांवों से जोड़ना", "कुटीर एवं मध्यम आकार के उद्योग"],
+        "explanation": "<strong>उन्नत भारत अभियान (UBA)</strong> शिक्षा मंत्रालय का एक प्रमुख कार्यक्रम है। इसका प्राथमिक उद्देश्य उचित प्रौद्योगिकियों के माध्यम से विकासात्मक चुनौतियों का समाधान करने के लिए उच्च शिक्षा संस्थानों को स्थानीय समुदायों (गांवों) से जोड़ना है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q14",
+    "difficulty": "medium",
+    "correct": 0,
+    "unitEN": "Unit 5: Mathematical Reasoning and Aptitude",
+    "unitHI": "इकाई 5: गणितीय तर्क और अभिवृत्ति",
+    "topicEN": "Codes and Relationships",
+    "topicHI": "कोड और संबंध",
+    "content": {
+      "en": {
+        "question": "In a certain coding scheme, 'AC' is coded as 8 and 'PQ' as 33. What is the code of 'XZ'?",
+        "options": ["100", "51", "71", "87"],
+        "explanation": "<strong>Logic:</strong><br>The sum of alphabet positions: X = 24, Z = 26. Sum = $24 + 26 = 50$. <br>Applying a $\\times 2$ multiplier gives $50 \\times 2 = 100$.<br><em>(Note: While the given PQ = 33 ($16+17=33$ without multiplier) introduces inconsistency in the question's premise, the Official NTA Answer Key strictly validates 100 based on the $x2$ multiplier logic applied to XZ).</em>"
+      },
+      "hi": {
+        "question": "एक निश्चित कोडिंग योजना में, 'AC' को 8 और 'PQ' को 33 के रूप में कोडित किया गया है। 'XZ' का कोड क्या है?",
+        "options": ["100", "51", "71", "87"],
+        "explanation": "<strong>तर्क (Logic):</strong><br>वर्णमाला के पदों का योग: X = 24, Z = 26। योग = $24 + 26 = 50$।<br>$\\times 2$ गुणक लागू करने पर $50 \\times 2 = 100$ प्राप्त होता है।<br><em>(नोट: यद्यपि दिया गया PQ = 33 (बिना गुणक के $16+17=33$) प्रश्न के आधार में असंगति पैदा करता है, NTA की आधिकारिक उत्तर कुंजी XZ पर लागू $x2$ गुणक तर्क के आधार पर 100 को सही मानती है)।</em>"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q15",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 2: Research Aptitude",
+    "unitHI": "इकाई 2: शोध अभिवृत्ति",
+    "topicEN": "Research Ethics",
+    "topicHI": "शोध नैतिकता",
+    "content": {
+      "en": {
+        "question": "Which ethical principles need to be followed in a research project dealing with human beings?<br><br>A. All participants must give their informed consent<br>B. All participants should have adequate information on the experiment in which they are participants<br>C. Rough treatment of participants is sometimes justifiable<br>D. Some unwilling participants may be included<br><br>Choose the correct answer from the options given below:",
+        "options": ["A and D only", "A and B only", "B, C and D only", "B and C only"],
+        "explanation": "<strong>Research Ethics with Human Subjects:</strong><br>• <strong>(A) True:</strong> Informed consent is the bedrock of ethical research.<br>• <strong>(B) True:</strong> Participants must be fully informed about the risks, procedures, and nature of the experiment.<br>• <strong>(C) False:</strong> Harm or rough treatment is never justifiable.<br>• <strong>(D) False:</strong> Participation must be strictly voluntary, never forced. Therefore, A and B are correct."
+      },
+      "hi": {
+        "question": "मानव से संबंधित शोध परियोजना में किन नैतिक सिद्धांतों का पालन किया जाना चाहिए?<br><br>A. सभी प्रतिभागियों को अपनी सूचित सहमति देनी होगी<br>B. सभी प्रतिभागियों को उस प्रयोग के बारे में पर्याप्त जानकारी होनी चाहिए जिसमें वे भागीदार हैं<br>C. प्रतिभागियों के साथ कठोर व्यवहार कभी-कभी उचित होता है<br>D. कुछ अनिच्छुक प्रतिभागियों को भी शामिल किया जा सकता है<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["केवल A और D", "केवल A और B", "केवल B, C और D", "केवल B और C"],
+        "explanation": "<strong>मानव विषयों के साथ अनुसंधान नैतिकता:</strong><br>• <strong>(A) सत्य:</strong> सूचित सहमति (Informed consent) नैतिक अनुसंधान का आधार है।<br>• <strong>(B) सत्य:</strong> प्रतिभागियों को प्रयोग के जोखिमों, प्रक्रियाओं और प्रकृति के बारे में पूरी जानकारी होनी चाहिए।<br>• <strong>(C) असत्य:</strong> नुकसान या कठोर व्यवहार कभी भी उचित नहीं है।<br>• <strong>(D) असत्य:</strong> भागीदारी कड़ाई से स्वैच्छिक होनी चाहिए, कभी भी मजबूर नहीं की जानी चाहिए। इसलिए, A और B सही हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q16",
+    "difficulty": "easy",
+    "correct": 3,
+    "unitEN": "Unit 1: Teaching Aptitude",
+    "unitHI": "इकाई 1: शिक्षण अभिवृत्ति",
+    "topicEN": "Classroom Communication and Interaction",
+    "topicHI": "कक्षा संचार और अंतःक्रिया",
+    "content": {
+      "en": {
+        "question": "The Ten Category System that attempts to measure all the verbal interactions in the classroom was developed by",
+        "options": ["Robert Flaser", "B.F. Skinner", "Israel Scheffler", "Ned A Flanders"],
+        "explanation": "<strong>FIAC (Flanders Interaction Analysis Category)</strong> system is an observational tool developed by <strong>Ned A. Flanders</strong> in 1959. It consists of 10 categories to classify and measure verbal behavior and interaction between teachers and students in a classroom."
+      },
+      "hi": {
+        "question": "दस श्रेणी प्रणाली जो कक्षा में सभी मौखिक अंतःक्रियाओं को मापने का प्रयास करती है, किसके द्वारा विकसित की गई थी?",
+        "options": ["रॉबर्ट फ्लेसर", "बीएफ स्किनर", "इज़राइल शेफ़लर", "नेड ए फ़्लैंडर्स (Ned A Flanders)"],
+        "explanation": "<strong>FIAC (फ्लैंडर्स इंटरेक्शन एनालिसिस कैटेगरी)</strong> प्रणाली 1959 में <strong>नेड ए. फ्लैंडर्स</strong> द्वारा विकसित एक अवलोकन उपकरण है। इसमें कक्षा में शिक्षकों और छात्रों के बीच मौखिक व्यवहार और बातचीत को वर्गीकृत करने और मापने के लिए 10 श्रेणियां शामिल हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q17",
+    "difficulty": "easy",
+    "correct": 1,
+    "unitEN": "Unit 2: Research Aptitude",
+    "unitHI": "इकाई 2: शोध अभिवृत्ति",
+    "topicEN": "Thesis and Article Writing — Referencing Styles",
+    "topicHI": "शोध-प्रबंध और लेख लेखन — संदर्भ शैलियां",
+    "content": {
+      "en": {
+        "question": "Which of the following does NOT refer to a style of referencing?",
+        "options": ["MLA", "APS", "Chicago", "MHRA"],
+        "explanation": "MLA, Chicago, and MHRA (Modern Humanities Research Association) are all globally recognized referencing and citation styles. <strong>APS</strong> (which usually stands for American Physical Society) is generally a publishing body, and while it has formatting guidelines, it is not primarily classified as a universal referencing 'style' like the others in standard academic contexts."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से कौन संदर्भित करने की शैली (style of referencing) को संदर्भित नहीं करता है?",
+        "options": ["MLA", "APS", "Chicago", "MHRA"],
+        "explanation": "MLA, Chicago, और MHRA (मॉडर्न ह्यूमैनिटीज़ रिसर्च एसोसिएशन) सभी विश्व स्तर पर मान्यता प्राप्त संदर्भ (referencing) और उद्धरण शैलियाँ हैं। <strong>APS</strong> (जिसका अर्थ आमतौर पर अमेरिकन फिजिकल सोसाइटी होता है) आम तौर पर एक प्रकाशन निकाय है, और मानक शैक्षणिक संदर्भों में इसे एक सार्वभौमिक संदर्भ 'शैली' के रूप में वर्गीकृत नहीं किया जाता है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q18",
+    "difficulty": "easy",
+    "correct": 3,
+    "unitEN": "Unit 10: Higher Education System",
+    "unitHI": "इकाई 10: उच्च शिक्षा प्रणाली",
+    "topicEN": "Professional, Technical and Skill Based Education",
+    "topicHI": "व्यावसायिक, तकनीकी और कौशल आधारित शिक्षा",
+    "content": {
+      "en": {
+        "question": "Which amongst the following cannot be associated with 'skills'?",
+        "options": ["Practice", "Learning", "Proficiency", "Incapacity"],
+        "explanation": "Skills are acquired through <strong>Practice</strong> and <strong>Learning</strong>, resulting in <strong>Proficiency</strong> (expertise). <strong>Incapacity</strong> means the inability or lack of ability to do something, which is the exact opposite of a skill."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से किसे 'कौशल' से संबद्ध नहीं किया जा सकता है?",
+        "options": ["अभ्यास", "सीखना", "प्रवीणता", "अक्षमता (Incapacity)"],
+        "explanation": "कौशल <strong>अभ्यास</strong> और <strong>सीखने</strong> के माध्यम से प्राप्त किए जाते हैं, जिसके परिणामस्वरूप <strong>प्रवीणता</strong> (विशेषज्ञता) प्राप्त होती है। <strong>अक्षमता</strong> का अर्थ है कुछ करने में असमर्थता या क्षमता की कमी, जो कौशल के बिल्कुल विपरीत है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q19",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 9: People, Development and Environment",
+    "unitHI": "इकाई 9: लोग, विकास और पर्यावरण",
+    "topicEN": "Impacts of Pollutants on Human Health",
+    "topicHI": "प्रदूषकों का मानव स्वास्थ्य पर प्रभाव",
+    "content": {
+      "en": {
+        "question": "Which of the following are known carcinogens?<br><br>A. Nickel (Ni)<br>B. Cadmium (Cd)<br>C. Benzene (C₆H₆)<br>D. Ozone (O₃)<br><br>Choose the correct answer from the options given below:",
+        "options": ["A, B and D only", "A, C and D only", "B, C and D only", "A, B and C only"],
+        "explanation": "<strong>Carcinogens (Cancer-causing agents):</strong><br>• <strong>Nickel (A)</strong> and <strong>Cadmium (B)</strong> compounds are classified as Group 1 human carcinogens (lung/nasal cancers).<br>• <strong>Benzene (C)</strong> is a well-known carcinogen linked to leukemia.<br>• <em>Ozone (D)</em> is a severe respiratory irritant but is NOT classified as a carcinogen. Thus, A, B, and C are correct."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से कौन से ज्ञात कैंसरकारी पदार्थ हैं?<br><br>A. निकेल (Ni)<br>B. कैडमियम (Cd)<br>C. बेंजीन (C₆H₆)<br>D. ओजोन (O₃)<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["केवल A, B और D", "केवल A, C और D", "केवल B, C और D", "केवल A, B और C"],
+        "explanation": "<strong>कैंसरकारी पदार्थ (Carcinogens):</strong><br>• <strong>निकल (A)</strong> और <strong>कैडमियम (B)</strong> यौगिकों को समूह 1 मानव कैंसरजन (फेफड़े / नाक के कैंसर) के रूप में वर्गीकृत किया गया है।<br>• <strong>बेंजीन (C)</strong> एक प्रसिद्ध कैंसरकारी पदार्थ है जो ल्यूकेमिया से जुड़ा है।<br>• <em>ओजोन (D)</em> एक गंभीर श्वसन उत्तेजक है लेकिन इसे कैंसरकारी के रूप में वर्गीकृत नहीं किया गया है। इस प्रकार, A, B और C सही हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q20",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 5: Mathematical Reasoning and Aptitude",
+    "unitHI": "इकाई 5: गणितीय तर्क और अभिवृत्ति",
+    "topicEN": "Letter Series",
+    "topicHI": "अक्षर श्रृंखला",
+    "content": {
+      "en": {
+        "question": "Find the next term in the following letter series.<br><br>BFD, ELG, HRJ, _________ ?",
+        "options": ["KUM", "JXM", "KTM", "KXM"],
+        "explanation": "<strong>Step-by-step Pattern Breakdown:</strong><br>Analyze letter by letter:<br>1. First letters: B(2), E(5), H(8) $\\rightarrow$ Gap is +3. Next is 8+3=11 (<strong>K</strong>).<br>2. Second letters: F(6), L(12), R(18) $\\rightarrow$ Gap is +6. Next is 18+6=24 (<strong>X</strong>).<br>3. Third letters: D(4), G(7), J(10) $\\rightarrow$ Gap is +3. Next is 10+3=13 (<strong>M</strong>).<br>Resulting term is <strong>KXM</strong>."
+      },
+      "hi": {
+        "question": "निम्नलिखित अक्षर श्रृंखला में अगला पद ज्ञात कीजिए।<br><br>BFD, ELG, HRJ, _________ ?",
+        "options": ["KUM", "JXM", "KTM", "KXM"],
+        "explanation": "<strong>चरण-दर-चरण पैटर्न विश्लेषण:</strong><br>अक्षर दर अक्षर विश्लेषण करें:<br>1. पहले अक्षर: B(2), E(5), H(8) $\\rightarrow$ अंतर +3 है। अगला 8+3=11 (<strong>K</strong>) है।<br>2. दूसरे अक्षर: F(6), L(12), R(18) $\\rightarrow$ अंतर +6 है। अगला 18+6=24 (<strong>X</strong>) है।<br>3. तीसरे अक्षर: D(4), G(7), J(10) $\\rightarrow$ अंतर +3 है। अगला 10+3=13 (<strong>M</strong>) है।<br>परिणामी पद <strong>KXM</strong> है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q21",
+    "difficulty": "medium",
+    "correct": 0,
+    "unitEN": "Unit 5: Mathematical Reasoning and Aptitude",
+    "unitHI": "इकाई 5: गणितीय तर्क और अभिवृत्ति",
+    "topicEN": "Mathematical Aptitude — Profit and Loss / Discount",
+    "topicHI": "गणितीय अभिवृत्ति — लाभ-हानि / छूट",
+    "content": {
+      "en": {
+        "question": "Two successive discounts of 10% and 15% are equivalent to a single discount of",
+        "options": ["23.5%", "25%", "18.5%", "22.5%"],
+        "explanation": "<strong>Step-by-step Solution:</strong><br>Formula for successive discounts of $a\\%$ and $b\\%$ is: $(a + b - \\frac{a \\times b}{100})\\%$<br>Here, $a = 10$ and $b = 15$.<br>Single discount = $10 + 15 - \\frac{10 \\times 15}{100}$<br>$25 - \\frac{150}{100} = 25 - 1.5 =$ <strong>23.5%</strong>."
+      },
+      "hi": {
+        "question": "10% और 15% की दो क्रमिक छूट एकल छूट के बराबर हैं",
+        "options": ["23.5%", "25%", "18.5%", "22.5%"],
+        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>$a\\%$ और $b\\%$ की क्रमिक छूट के लिए सूत्र है: $(a + b - \\frac{a \\times b}{100})\\%$<br>यहाँ, $a = 10$ और $b = 15$।<br>एकल छूट = $10 + 15 - \\frac{10 \\times 15}{100}$<br>$25 - \\frac{150}{100} = 25 - 1.5 =$ <strong>23.5%</strong>।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q22",
+    "difficulty": "medium",
+    "correct": 2,
+    "unitEN": "Unit 2: Research Aptitude",
+    "unitHI": "इकाई 2: शोध अभिवृत्ति",
+    "topicEN": "Methods of Research — Quantitative vs Qualitative",
+    "topicHI": "शोध विधियां — मात्रात्मक बनाम गुणात्मक",
+    "content": {
+      "en": {
+        "question": "Which of the following would apply to Quantitative research methodology?<br><br>A. Rationalism<br>B. Emphasis on description of variables<br>C. Empiricism<br>D. Explores experiences, meanings, perceptions and feelings<br>E. Structural rigid methodology<br><br>Choose the correct answer from the options given below:",
+        "options": ["A, B and D only", "B, C and E only", "A and E only", "B, C and D only"],
+        "explanation": "<strong>Characteristics of Quantitative Research:</strong><br>• It follows a deductive, logical approach heavily relying on <strong>Rationalism (A)</strong>.<br>• It utilizes a highly structured, objective, and <strong>rigid methodology (E)</strong> (like surveys and structured experiments).<br>• <em>Description of variables, experiences, and feelings</em> (B and D) are characteristics of Qualitative research. Empiricism (C) applies to both but is the core philosophy of qualitative observation. Thus, A and E fit best."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से कौन सा मात्रात्मक अनुसंधान पद्धति पर लागू होगा?<br><br>A. तर्कवाद (Rationalism)<br>B. चरों के वर्णन पर जोर<br>C. अनुभववाद<br>D. अनुभवों, अर्थों, धारणाओं और भावनाओं का अन्वेषण करता है<br>E. संरचनात्मक कठोर कार्यप्रणाली (Structural rigid methodology)<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["केवल A, B और D", "केवल B, C और E", "केवल A और E", "केवल B, C और D"],
+        "explanation": "<strong>मात्रात्मक अनुसंधान (Quantitative Research) के लक्षण:</strong><br>• यह <strong>तर्कवाद (A)</strong> पर अत्यधिक निर्भर करते हुए एक निगमनात्मक, तार्किक दृष्टिकोण का पालन करता है।<br>• यह एक अत्यधिक संरचित, उद्देश्यपूर्ण और <strong>कठोर कार्यप्रणाली (E)</strong> (जैसे सर्वेक्षण और संरचित प्रयोग) का उपयोग करता है।<br>• <em>चरों, अनुभवों और भावनाओं का वर्णन</em> (B और D) गुणात्मक शोध की विशेषताएं हैं। इसलिए, A और E सबसे उपयुक्त हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q23",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 9: People, Development and Environment",
+    "unitHI": "इकाई 9: लोग, विकास और पर्यावरण",
+    "topicEN": "Environmental Issues — Water and Thermal Pollution",
+    "topicHI": "पर्यावरणीय मुद्दे — जल और तापीय प्रदूषण",
+    "content": {
+      "en": {
+        "question": "Which of the thermal pollution reduction method is most expensive to construct and operate?",
+        "options": ["Large shallow pond", "Cooling tower", "Sprinkler tower", "Dry tower"],
+        "explanation": "A <strong>Dry cooling tower</strong> operates similarly to a car radiator. It uses fans to blow air past tubes carrying hot water, preventing any water loss through evaporation. Because it requires massive heat exchange surfaces and fans, it is significantly the <strong>most expensive</strong> to construct and operate compared to wet cooling towers or ponds."
+      },
+      "hi": {
+        "question": "तापीय प्रदूषण न्यूनीकरण की कौन सी विधि निर्माण और संचालन में सबसे महंगी है?",
+        "options": ["बड़ा उथला तालाब", "कूलिंग टावर", "स्प्रिंकलर टावर", "ड्राई टावर (Dry tower)"],
+        "explanation": "एक <strong>ड्राई कूलिंग टावर</strong> कार रेडिएटर के समान काम करता है। यह गर्म पानी ले जाने वाले ट्यूबों के पार हवा को उड़ाने के लिए पंखों का उपयोग करता है, जिससे वाष्पीकरण के माध्यम से पानी के नुकसान को रोका जा सके। क्योंकि इसके लिए बड़े ताप विनिमय सतहों और पंखों की आवश्यकता होती है, यह गीले कूलिंग टावरों या तालाबों की तुलना में निर्माण और संचालन के लिए काफी <strong>सबसे महंगा</strong> है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q24",
+    "difficulty": "easy",
+    "correct": 1,
+    "unitEN": "Unit 8: Information and Communication Technology (ICT)",
+    "unitHI": "इकाई 8: सूचना एवं संचार प्रौद्योगिकी (आईसीटी)",
+    "topicEN": "ICT General Abbreviations and Terminology",
+    "topicHI": "आईसीटी सामान्य संक्षिप्ताक्षर और शब्दावली",
+    "content": {
+      "en": {
+        "question": "The full form of WWW is",
+        "options": ["World White Web", "World Wide Web", "Worst Wide Web", "Worst White Web"],
+        "explanation": "<strong>WWW</strong> stands for <strong>World Wide Web</strong>. It is an information system where documents and other web resources are identified by Uniform Resource Locators (URLs) and are accessible over the Internet."
+      },
+      "hi": {
+        "question": "WWW का पूर्ण रूप क्या है?",
+        "options": ["विश्व श्वेत वेब", "वर्ल्ड वाइड वेब (World Wide Web)", "सबसे खराब वाइड वेब", "सबसे खराब व्हाइट वेब"],
+        "explanation": "<strong>WWW</strong> का अर्थ है <strong>वर्ल्ड वाइड वेब (World Wide Web)</strong>। यह एक सूचना प्रणाली है जहां दस्तावेजों और अन्य वेब संसाधनों को यूनिफ़ॉर्म रिसोर्स लोकेटर (URL) द्वारा पहचाना जाता है और इंटरनेट पर पहुँचा जा सकता है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q25",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 1: Teaching Aptitude",
+    "unitHI": "इकाई 1: शिक्षण अभिवृत्ति",
+    "topicEN": "Teaching Support System — Audio-Visual Aids",
+    "topicHI": "शिक्षण सहायक प्रणाली — दृश्य-श्रव्य सहायताएं",
+    "content": {
+      "en": {
+        "question": "Which of the following are non-projected aids?<br><br>A. Epidiascope<br>B. Audio Cassettes<br>C. Filmstrip and slides<br>D. Models<br>E. Plastigraph<br><br>Choose the correct answer from the options given below:",
+        "options": ["A and C only", "B, C and E only", "A, C and D only", "B, D and E only"],
+        "explanation": "<strong>Projected vs Non-Projected Aids:</strong><br>• Projected aids require a machine to project an image onto a screen (e.g., Epidiascope (A), Filmstrips and slides (C)).<br>• Non-projected aids do not require projection. These include <strong>Audio Cassettes (B)</strong>, physical <strong>Models (D)</strong>, and <strong>Plastigraphs/flannel boards (E)</strong>.<br>Therefore, B, D, and E are non-projected aids."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से कौन गैर-प्रक्षेपित (non-projected) सहायताएं हैं?<br><br>A. एपिडायस्कोप<br>B. ऑडियो कैसेट<br>C. फिल्मस्ट्रिप और स्लाइड<br>D. मॉडल<br>E. प्लास्टिग्राफ<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["केवल A और C", "केवल B, C और E", "केवल A, C और D", "केवल B, D और E"],
+        "explanation": "<strong>प्रक्षेपित (Projected) बनाम गैर-प्रक्षेपित (Non-Projected) सहायता:</strong><br>• प्रक्षेपित सहायता के लिए स्क्रीन पर छवि को प्रोजेक्ट करने के लिए एक मशीन की आवश्यकता होती है (जैसे, एपिडायस्कोप (A), फिल्मस्ट्रिप और स्लाइड (C))।<br>• गैर-प्रक्षेपित सहायता के लिए प्रक्षेपण की आवश्यकता नहीं होती है। इनमें <strong>ऑडियो कैसेट (B)</strong>, भौतिक <strong>मॉडल (D)</strong>, और <strong>प्लास्टिग्राफ (E)</strong> शामिल हैं।<br>इसलिए, B, D और E गैर-प्रक्षेपित सहायता हैं।"
+      }
+    }
+  }, 
+
+// ─────────────────────────────────────────────────────────────────────────────
+// 2. EXTRACTED QUESTIONS ARRAY (Q26 to Q50)
+// ─────────────────────────────────────────────────────────────────────────────
+
+  {
+    "id": "jan25-9-s2-p1-q26",
+    "difficulty": "medium",
+    "correct": 2,
+    "unitEN": "Unit 9: People, Development and Environment",
+    "unitHI": "इकाई 9: लोग, विकास और पर्यावरण",
+    "topicEN": "Soil Profiles and Environmental Science",
+    "topicHI": "मृदा परतें और पर्यावरण विज्ञान",
+    "content": {
+      "en": {
+        "question": "Arrange the principle soil profiles from top to bottom.<br><br>A. A-horizon<br>B. B-horizon<br>C. C-horizon<br>D. O-horizon<br>E. R-horizon<br><br>Choose the correct answer from the options given below:",
+        "options": ["A, B, D, E, C", "B, A, C, D, E", "D, A, B, C, E", "C, B, A, E, D"],
+        "explanation": "<strong>Soil Profile Sequence (Top to Bottom):</strong><br>1. <strong>O-horizon (D):</strong> Organic layer (humus, leaf litter).<br>2. <strong>A-horizon (A):</strong> Topsoil (minerals with organic matter).<br>3. <strong>B-horizon (B):</strong> Subsoil (accumulated minerals like iron/clay).<br>4. <strong>C-horizon (C):</strong> Parent material (partially altered bedrock).<br>5. <strong>R-horizon (E):</strong> Bedrock (unweathered rock).<br>Correct Order: D $\\rightarrow$ A $\\rightarrow$ B $\\rightarrow$ C $\\rightarrow$ E."
+      },
+      "hi": {
+        "question": "मुख्य मृदा प्रोफाइल को ऊपर से नीचे तक व्यवस्थित करें।<br><br>A. A- क्षितिज<br>B. B-क्षितिज<br>C. C-क्षितिज<br>D. O-क्षितिज<br>E. R-क्षितिज<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["A, B, D, E, C", "B, A, C, D, E", "D, A, B, C, E", "C, B, A, E, D"],
+        "explanation": "<strong>मृदा प्रोफाइल अनुक्रम (ऊपर से नीचे):</strong><br>1. <strong>O-क्षितिज (D):</strong> कार्बनिक परत (ह्यूमस, पत्ती कूड़ा)।<br>2. <strong>A-क्षितिज (A):</strong> टॉपसॉइल (कार्बनिक पदार्थ वाले खनिज)।<br>3. <strong>B-क्षितिज (B):</strong> उपमृदा (लोहा/मिट्टी जैसे संचित खनिज)।<br>4. <strong>C-क्षितिज (C):</strong> मूल सामग्री (आंशिक रूप से परिवर्तित आधारशिला)।<br>5. <strong>R-क्षितिज (E):</strong> आधारशिला (बिना मौसम वाली चट्टान)।<br>सही क्रम: D $\\rightarrow$ A $\\rightarrow$ B $\\rightarrow$ C $\\rightarrow$ E।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q27",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 6: Logical Reasoning",
+    "unitHI": "इकाई 6: तार्किक तर्क",
+    "topicEN": "Structure of Arguments — Inference Method",
+    "topicHI": "तर्कों की संरचना — अनुमान विधि",
+    "content": {
+      "en": {
+        "question": "Arrange the following steps for the Inference-method of learning:<br><br>A. Conclusion<br>B. Reason<br>C. Proposition<br>D. Example<br>E. Application<br><br>Choose the correct answer from the options given below:",
+        "options": ["E-D-B-C-A", "C-B-D-E-A", "B-C-D-E-A", "E-C-D-B-A"],
+        "explanation": "According to Nyāya philosophy, the five steps of Inference (Anumana) are:<br>1. <strong>Proposition (Pratijna) - C:</strong> Stating what is to be proved.<br>2. <strong>Reason (Hetu) - B:</strong> The underlying cause.<br>3. <strong>Example (Udaharana) - D:</strong> The universal rule supported by an example.<br>4. <strong>Application (Upanaya) - E:</strong> Applying the rule to the current case.<br>5. <strong>Conclusion (Nigamana) - A:</strong> The final deduced truth.<br>Correct Order: C-B-D-E-A."
+      },
+      "hi": {
+        "question": "अनुमान-अधिगम विधि के लिए निम्नलिखित चरणों को व्यवस्थित करें:<br><br>A. निष्कर्ष (Conclusion)<br>B. कारण (Reason)<br>C. प्रस्ताव (Proposition)<br>D. उदाहरण (Example)<br>E. आवेदन (Application)<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["E-D-B-C-A", "C-B-D-E-A", "B-C-D-E-A", "E-C-D-B-A"],
+        "explanation": "न्याय दर्शन के अनुसार, अनुमान (Inference) के पाँच चरण हैं:<br>1. <strong>प्रस्ताव (प्रतिज्ञा) - C:</strong> जो सिद्ध किया जाना है उसे बताना।<br>2. <strong>कारण (हेतु) - B:</strong> अंतर्निहित कारण।<br>3. <strong>उदाहरण (उदहारण) - D:</strong> एक उदाहरण द्वारा समर्थित सार्वभौमिक नियम।<br>4. <strong>आवेदन (उपनय) - E:</strong> वर्तमान मामले में नियम लागू करना।<br>5. <strong>निष्कर्ष (निगमन) - A:</strong> अंतिम अनुमानित सत्य।<br>सही क्रम: C-B-D-E-A।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q28",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 5: Mathematical Reasoning and Aptitude",
+    "unitHI": "इकाई 5: गणितीय तर्क और अभिवृत्ति",
+    "topicEN": "Mathematical Aptitude — Ratio, Proportion and Averages",
+    "topicHI": "गणितीय अभिवृत्ति — अनुपात, समानुपात और औसत",
+    "content": {
+      "en": {
+        "question": "A man gets annual pay of Rs 9.0 lakh. His expenditure and savings are in the ratio 5:1. What is his average savings per month?",
+        "options": ["Rs 15,000", "Rs 12,500", "Rs 16,000", "Rs 18,000"],
+        "explanation": "<strong>Step-by-step Solution:</strong><br>1. Total Annual Income = Expenditure + Savings = Rs 9,00,000.<br>2. Ratio of Expenditure to Savings = 5 : 1. Total parts = $5 + 1 = 6$.<br>3. Annual Savings = $\\frac{1}{6} \\times 9,00,000 = \\text{Rs } 1,50,000$.<br>4. Average savings per month = $\\frac{1,50,000}{12} =$ <strong>Rs 12,500</strong>."
+      },
+      "hi": {
+        "question": "एक व्यक्ति को 9.0 लाख रुपये वार्षिक वेतन मिलता है। उसके व्यय और बचत का अनुपात 5:1 है। उसकी प्रति माह औसत बचत कितनी है?",
+        "options": ["15,000 रुपये", "12,500 रुपये", "16,000 रुपये", "18,000 रुपये"],
+        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>1. कुल वार्षिक आय = व्यय + बचत = 9,00,000 रुपये।<br>2. व्यय और बचत का अनुपात = 5 : 1। कुल भाग = $5 + 1 = 6$।<br>3. वार्षिक बचत = $\\frac{1}{6} \\times 9,00,000 = 1,50,000 \\text{ रुपये}$।<br>4. प्रति माह औसत बचत = $\\frac{1,50,000}{12} =$ <strong>12,500 रुपये</strong>।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q29",
+    "difficulty": "medium",
+    "correct": 0,
+    "unitEN": "Unit 4: Communication",
+    "unitHI": "इकाई 4: संचार",
+    "topicEN": "Mass Media and Society — History of Media",
+    "topicHI": "जन माध्यम और समाज — मीडिया का इतिहास",
+    "content": {
+      "en": {
+        "question": "Arrange the following in chronological sequence:<br><br>A. Start of external services of All India Radio<br>B. Establishment of Film Division<br>C. Release of talkie film 'Alam Ara'<br>D. Change of name of Radio Broadcasting to All India Radio<br><br>Choose the correct answer from the options given below:",
+        "options": ["C, D, A, B", "C, B, D, A", "A, B, C, D", "D, C, A, B"],
+        "explanation": "<strong>Chronology of Media Events:</strong><br>1. <strong>(C) Alam Ara Release:</strong> 1931 (India's first talkie).<br>2. <strong>(D) Renaming to AIR:</strong> 1936 (Indian State Broadcasting Service became All India Radio).<br>3. <strong>(A) AIR External Services:</strong> 1939 (Started for propaganda during WW2).<br>4. <strong>(B) Films Division:</strong> 1948 (Established by Govt. of India).<br>Correct Order: C $\\rightarrow$ D $\\rightarrow$ A $\\rightarrow$ B."
+      },
+      "hi": {
+        "question": "निम्नलिखित को कालानुक्रमिक क्रम में व्यवस्थित करें:<br><br>A. आकाशवाणी की बाह्य सेवाओं की शुरुआत<br>B. फिल्म प्रभाग की स्थापना<br>C. बोलती फिल्म 'आलम आरा' का रिलीज होना<br>D. रेडियो प्रसारण का नाम बदलकर ऑल इंडिया रेडियो किया जाना<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["C, D, A, B", "C, B, D, A", "A, B, C, D", "D, C, A, B"],
+        "explanation": "<strong>मीडिया इवेंट्स का कालक्रम:</strong><br>1. <strong>(C) आलम आरा रिलीज़:</strong> 1931 (भारत की पहली बोलती फिल्म)।<br>2. <strong>(D) AIR नामकरण:</strong> 1936 (इंडियन स्टेट ब्रॉडकास्टिंग सर्विस ऑल इंडिया रेडियो बन गई)।<br>3. <strong>(A) AIR बाह्य सेवाएँ:</strong> 1939 (WW2 के दौरान प्रचार के लिए शुरू किया गया)।<br>4. <strong>(B) फिल्म्स डिवीजन:</strong> 1948 (भारत सरकार द्वारा स्थापित)।<br>सही क्रम: C $\\rightarrow$ D $\\rightarrow$ A $\\rightarrow$ B।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q30",
+    "difficulty": "hard",
+    "correct": 3,
+    "unitEN": "Unit 6: Logical Reasoning",
+    "unitHI": "इकाई 6: तार्किक तर्क",
+    "topicEN": "Categorical Syllogism — Mood, Figure and Distribution",
+    "topicHI": "श्रेणीबद्ध न्यायवाक्य — मूड, आकृति और वितरण",
+    "content": {
+      "en": {
+        "question": "What can be correctly inferred from the Mood OAO in IInd figure?<br><br>A. Middle term is distributed in the Major premise<br>B. Commits illicit Minor fallacy<br>C. Middle term appears as predicate in Minor Premise<br>D. Middle term is distributed in the Minor premise<br>E. The predicate of the conclusion is distributed<br><br>Choose the correct answer from the options given below:",
+        "options": ["B and C only", "A and D only", "B and D only", "A, C and E only"],
+        "explanation": "<strong>Analyzing OAO in Figure II (Baroco):</strong><br>• Figure II structure: Middle term (M) is the <strong>Predicate</strong> in both premises (So, <strong>C is True</strong>).<br>• Major Premise (O): Some P is not M. In an 'O' proposition, the predicate is distributed. Since M is the predicate, <strong>A is True</strong>.<br>• Minor Premise (A): All S is M. In an 'A' proposition, only the subject (S) is distributed, M (predicate) is undistributed. (So, D is False).<br>• Conclusion (O): Some S is not P. In an 'O' proposition, the predicate (P) is distributed. (So, <strong>E is True</strong>).<br>Therefore, statements A, C, and E are correct."
+      },
+      "hi": {
+        "question": "द्वितीय आकृति में मूड OAO से क्या सही अनुमान लगाया जा सकता है?<br><br>A. मध्य पद प्रमुख आधार में वितरित है<br>B. अवैध लघु भ्रांति करता है<br>C. मध्य पद लघु आधार में विधेय के रूप में प्रकट होता है<br>D. मध्य पद लघु आधार में वितरित है<br>E. निष्कर्ष का विधेय वितरित है<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["केवल B और C", "केवल A और D", "केवल B और D", "केवल A, C और E"],
+        "explanation": "<strong>आकृति II (Baroco) में OAO का विश्लेषण:</strong><br>• आकृति II संरचना: मध्य पद (M) दोनों आधारों में <strong>विधेय (Predicate)</strong> है (तो, <strong>C सत्य है</strong>)।<br>• प्रमुख आधार (O): कुछ P, M नहीं हैं। 'O' प्रस्ताव में, विधेय वितरित होता है। चूँकि M विधेय है, <strong>A सत्य है</strong>।<br>• लघु आधार (A): सभी S, M हैं। 'A' प्रस्ताव में, केवल विषय (S) वितरित होता है, M (विधेय) अवितरित रहता है। (तो, D गलत है)।<br>• निष्कर्ष (O): कुछ S, P नहीं हैं। 'O' प्रस्ताव में, विधेय (P) वितरित होता है। (तो, <strong>E सत्य है</strong>)।<br>इसलिए, कथन A, C और E सही हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q31",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 4: Communication",
+    "unitHI": "इकाई 4: संचार",
+    "topicEN": "Communication Theory — Types of Signs",
+    "topicHI": "संचार सिद्धांत — संकेतों के प्रकार",
+    "content": {
+      "en": {
+        "question": "In which of the following categories did Charles Sanders Peirce classify the \"signs\"?<br><br>A. Object<br>B. Indices<br>C. Icons<br>D. Interpretant<br>E. Symbols<br><br>Choose the correct answer from the options given below:",
+        "options": ["A, B and C only", "B, C and E only", "C, D and E only", "A, D and E only"],
+        "explanation": "Charles Sanders Peirce, a pioneer of semiotics, proposed a famous triadic classification of signs based on their relationship to their objects. He categorized them into:<br>1. <strong>Icons (C):</strong> Resemble the object (e.g., a portrait).<br>2. <strong>Indices / Index (B):</strong> Have a direct, physical, or causal connection to the object (e.g., smoke is an index of fire).<br>3. <strong>Symbols (E):</strong> Relate to the object by convention or arbitrary rule (e.g., words, traffic lights).<br>Hence, B, C, and E are the correct categories."
+      },
+      "hi": {
+        "question": "चार्ल्स सैंडर्स पीयर्स ने \"संकेतों\" को निम्नलिखित में से किस श्रेणी में वर्गीकृत किया?<br><br>A. वस्तु<br>B. सूचकांक (Indices)<br>C. प्रतीक (Icons)<br>D. दुभाषिया<br>E. प्रतीक (Symbols)<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["केवल A, B और C", "केवल B, C और E", "केवल C, D और E", "केवल A, D और E"],
+        "explanation": "सेमीओटिक्स (Semiotics) के प्रणेता चार्ल्स सैंडर्स पीयर्स ने वस्तुओं के साथ उनके संबंधों के आधार पर संकेतों का एक प्रसिद्ध त्रिक वर्गीकरण प्रस्तावित किया। उन्होंने उन्हें निम्न में वर्गीकृत किया:<br>1. <strong>आइकॉन (C):</strong> वस्तु से मिलता-जुलता (जैसे, एक चित्र)।<br>2. <strong>सूचकांक (Index / Indices) (B):</strong> वस्तु से सीधा, भौतिक या कारण संबंध होना (जैसे, धुआं आग का सूचकांक है)।<br>3. <strong>प्रतीक (Symbols) (E):</strong> परंपरा या मनमाने नियम द्वारा वस्तु से संबंध (जैसे, शब्द, ट्रैफिक लाइट)।<br>अतः B, C और E सही श्रेणियाँ हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q32",
+    "difficulty": "easy",
+    "correct": 3,
+    "unitEN": "Unit 8: Information and Communication Technology (ICT)",
+    "unitHI": "इकाई 8: सूचना एवं संचार प्रौद्योगिकी (आईसीटी)",
+    "topicEN": "ICT General Abbreviations and Terminology — Printers",
+    "topicHI": "आईसीटी सामान्य शब्दावली — प्रिंटर",
+    "content": {
+      "en": {
+        "question": "Which of the following is an example of non-impact printer?",
+        "options": ["Dot Matrix", "Daisy Wheel", "Line", "Laser"],
+        "explanation": "Printers are classified as Impact or Non-Impact based on how they print.<br>• <strong>Impact Printers</strong> physically strike an ink ribbon against the paper. Examples: Dot Matrix, Daisy Wheel, Line Printers.<br>• <strong>Non-Impact Printers</strong> do not strike the paper. They use heat, static electricity, or lasers. Examples: <strong>Laser Printers</strong> and Inkjet Printers."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से कौन नॉन-इम्पैक्ट प्रिंटर का उदाहरण है?",
+        "options": ["डॉट मैट्रिक्स", "डेज़ी व्हील", "लाइन", "लेजर"],
+        "explanation": "प्रिंटर को प्रिंट करने के तरीके के आधार पर इम्पैक्ट या नॉन-इम्पैक्ट के रूप में वर्गीकृत किया जाता है।<br>• <strong>इम्पैक्ट प्रिंटर</strong> भौतिक रूप से कागज के खिलाफ एक स्याही रिबन पर प्रहार करते हैं। उदाहरण: डॉट मैट्रिक्स, डेज़ी व्हील, लाइन प्रिंटर।<br>• <strong>नॉन-इम्पैक्ट प्रिंटर</strong> कागज पर प्रहार नहीं करते हैं। वे गर्मी, स्थैतिक बिजली या लेजर का उपयोग करते हैं। उदाहरण: <strong>लेज़र प्रिंटर (Laser Printers)</strong> और इंकजेट प्रिंटर।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q33",
+    "difficulty": "medium",
+    "correct": 2,
+    "unitEN": "Unit 5: Mathematical Reasoning and Aptitude",
+    "unitHI": "इकाई 5: गणितीय तर्क और अभिवृत्ति",
+    "topicEN": "Mathematical Aptitude — Time and Work",
+    "topicHI": "गणितीय अभिवृत्ति — समय और कार्य",
+    "content": {
+      "en": {
+        "question": "A man can do a work in 10 days. The man along with a boy can do the same work in 8 days. What is the ratio of efficiencies of work of the man and the boy?",
+        "options": ["2 : 1", "3 : 1", "4 : 1", "5 : 1"],
+        "explanation": "<strong>Step-by-step Solution:</strong><br>1. Let total work be LCM of 10 and 8 = 40 units.<br>2. Efficiency of Man ($E_m$) = $40 / 10 = 4$ units/day.<br>3. Combined Efficiency of Man + Boy ($E_m + E_b$) = $40 / 8 = 5$ units/day.<br>4. Efficiency of Boy ($E_b$) = $(E_m + E_b) - E_m = 5 - 4 = 1$ unit/day.<br>5. Ratio of Efficiencies ($E_m : E_b$) = <strong>4 : 1</strong>."
+      },
+      "hi": {
+        "question": "एक आदमी एक काम को 10 दिनों में कर सकता है। वह आदमी एक लड़के के साथ मिलकर उसी काम को 8 दिनों में कर सकता है। आदमी और लड़के की कार्यकुशलता का अनुपात क्या है?",
+        "options": ["2 : 1", "3 : 1", "4 : 1", "5 : 1"],
+        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>1. मान लें कि कुल कार्य 10 और 8 का LCM = 40 इकाइयाँ हैं।<br>2. आदमी की कार्यकुशलता ($E_m$) = $40 / 10 = 4$ इकाई/दिन।<br>3. आदमी + लड़के की संयुक्त कार्यक्षमता ($E_m + E_b$) = $40 / 8 = 5$ इकाई/दिन।<br>4. लड़के की कार्यकुशलता ($E_b$) = $(E_m + E_b) - E_m = 5 - 4 = 1$ इकाई/दिन।<br>5. क्षमता का अनुपात ($E_m : E_b$) = <strong>4 : 1</strong>।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q34",
+    "difficulty": "hard",
+    "correct": 2,
+    "unitEN": "Unit 6: Logical Reasoning",
+    "unitHI": "इकाई 6: तार्किक तर्क",
+    "topicEN": "Uses of Language — Definition by Genus and Difference",
+    "topicHI": "भाषा का उपयोग — जंस और अंतर द्वारा परिभाषा",
+    "content": {
+      "en": {
+        "question": "In order to construct a good definition by genus and difference what must be avoided?<br><br>A. It should state the conventional intension of the term being defined<br>B. It must state the essential attributes of the term being defined<br>C. The definiendum itself must appear in the definiens<br>D. The definiens must denote more things than are denoted by the definiendum<br>E. A definition should not be negative when it can be affirmative<br><br>Choose the correct answer from the options given below:",
+        "options": ["B and C only", "A, D and E only", "C and D only", "B, D and E only"],
+        "explanation": "<strong>Rules for Lexical Definition (What MUST BE AVOIDED):</strong><br>• <strong>(C) Must be avoided:</strong> The definiendum (the word being defined) should NOT appear in the definiens (the definition), otherwise it is circular.<br>• <strong>(D) Must be avoided:</strong> The definiens must not be too broad (denoting more things) or too narrow. It must be exactly equivalent.<br>• Rules A, B, and E are positive guidelines that <em>should</em> be followed, not avoided. Thus, C and D are the errors to avoid."
+      },
+      "hi": {
+        "question": "जंस और अंतर द्वारा एक अच्छी परिभाषा बनाने के लिए क्या टाला जाना चाहिए?<br><br>A. इसमें परिभाषित किए जा रहे शब्द का पारंपरिक आशय बताया जाना चाहिए<br>B. इसमें परिभाषित किए जा रहे शब्द की आवश्यक विशेषताओं का उल्लेख होना चाहिए<br>C. निश्चितता स्वयं परिभाषाओं में प्रकट होनी चाहिए<br>D. डेफिनिएन्स को डेफिनिएंडम द्वारा निरूपित की गई चीजों से अधिक चीजों को निरूपित करना चाहिए<br>E. परिभाषा नकारात्मक नहीं होनी चाहिए जब वह सकारात्मक हो सकती है<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["केवल B और C", "केवल A, D और E", "केवल C और D", "केवल B, D और E"],
+        "explanation": "<strong>शाब्दिक परिभाषा के नियम (क्या टाला जाना चाहिए):</strong><br>• <strong>(C) टाला जाना चाहिए:</strong> डेफिनिएंडम (जिस शब्द को परिभाषित किया जा रहा है) डेफिनिएन्स (परिभाषा) में प्रकट नहीं होना चाहिए, अन्यथा यह गोलाकार (circular) हो जाता है।<br>• <strong>(D) टाला जाना चाहिए:</strong> डेफिनिएन्स बहुत व्यापक (अधिक चीजों को निरूपित करने वाला) या बहुत संकीर्ण नहीं होना चाहिए। यह बिल्कुल बराबर होना चाहिए।<br>• नियम A, B और E सकारात्मक दिशानिर्देश हैं जिनका <em>पालन किया जाना चाहिए</em>, टाला नहीं जाना चाहिए। अतः, C और D से बचना चाहिए।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q35",
+    "difficulty": "medium",
+    "correct": 2,
+    "unitEN": "Unit 9: People, Development and Environment",
+    "unitHI": "इकाई 9: लोग, विकास और पर्यावरण",
+    "topicEN": "Millennium Development Goals vs Sustainable Development Goals",
+    "topicHI": "सहस्राब्दी विकास लक्ष्य बनाम सतत विकास लक्ष्य",
+    "content": {
+      "en": {
+        "question": "Which of the following goals is NOT a Millennium Development goal?",
+        "options": ["Eradicate extreme Poverty and Hunger", "Reduce child Mortality", "Climate Action", "Ensure Environment Sustainability"],
+        "explanation": "<strong>Climate Action</strong> is Goal 13 of the <em>Sustainable Development Goals (SDGs)</em> established in 2015. It was NOT one of the 8 original Millennium Development Goals (MDGs) established in 2000. Eradicating poverty (MDG 1), reducing child mortality (MDG 4), and environmental sustainability (MDG 7) are all MDGs."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से कौन सा लक्ष्य सहस्राब्दी विकास लक्ष्य नहीं है?",
+        "options": ["अत्यधिक गरीबी और भुखमरी का उन्मूलन", "बाल मृत्यु दर में कमी लाना", "जलवायु कार्यवाई (Climate Action)", "पर्यावरण स्थिरता सुनिश्चित करें"],
+        "explanation": "<strong>जलवायु कार्यवाई (Climate Action)</strong> 2015 में स्थापित <em>सतत विकास लक्ष्यों (SDGs)</em> का लक्ष्य 13 है। यह 2000 में स्थापित 8 मूल सहस्राब्दी विकास लक्ष्यों (MDGs) में से नहीं था। गरीबी उन्मूलन (MDG 1), बाल मृत्यु दर कम करना (MDG 4), और पर्यावरण स्थिरता (MDG 7) सभी MDGs हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q36",
+    "difficulty": "hard",
+    "correct": 2,
+    "unitEN": "Unit 2: Research Aptitude",
+    "unitHI": "इकाई 2: शोध अभिवृत्ति",
+    "topicEN": "Statistical Methods in Research — Chi-Square Distribution",
+    "topicHI": "शोध में सांख्यिकीय विधियां — काई-स्क्वायर वितरण",
+    "content": {
+      "en": {
+        "question": "Which among the following is NOT a property of chi-square distribution?",
+        "options": ["For large degrees of freedom chi-square distribution approaches normal distribution", "Chi-square is a test statistic", "Three times the number of degree of freedom is equal to variance", "Two times the number of degrees of freedom is equal to the variance"],
+        "explanation": "In statistics, a fundamental property of the <strong>Chi-Square ($\\chi^2$) Distribution</strong> is that its Mean is equal to its degrees of freedom ($k$), and its <strong>Variance is equal to TWO TIMES its degrees of freedom ($2k$)</strong>. <br>Therefore, the statement claiming it is \"Three times the number of degrees of freedom\" is mathematically FALSE."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से कौन सा काई-स्क्वायर वितरण का गुण नहीं है?",
+        "options": ["स्वतंत्रता की बड़ी डिग्री के लिए काई-स्क्वायर वितरण सामान्य वितरण के करीब पहुंचता है", "काई-स्क्वायर एक परीक्षण सांख्यिकी है", "स्वतंत्रता की डिग्री की संख्या का तीन गुना विचरण के बराबर है", "स्वतंत्रता की डिग्री की संख्या का दो गुना विचरण के बराबर है"],
+        "explanation": "सांख्यिकी में, <strong>काई-स्क्वायर ($\\chi^2$) वितरण</strong> का एक मूलभूत गुण यह है कि इसका माध्य (Mean) इसके स्वतंत्रता की डिग्री ($k$) के बराबर होता है, और इसका <strong>विचरण (Variance) इसके स्वतंत्रता की डिग्री के दोगुने ($2k$) के बराबर होता है</strong>।<br>इसलिए, यह दावा करने वाला कथन कि यह \"स्वतंत्रता की डिग्री की संख्या का तीन गुना है\" गणितीय रूप से असत्य (FALSE) है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q37",
+    "difficulty": "medium",
+    "correct": 0,
+    "unitEN": "Unit 4: Communication",
+    "unitHI": "इकाई 4: संचार",
+    "topicEN": "Mass Media and Society — Media Theorists and Books",
+    "topicHI": "जन माध्यम और समाज — मीडिया सिद्धांतकार और पुस्तकें",
+    "content": {
+      "en": {
+        "question": "Match the following:<br><br><table border='1' style='border-collapse:collapse;width:100%;'><tr><th style='padding:6px;'>List-I (Author)</th><th style='padding:6px;'>List-II (Books)</th></tr><tr><td style='padding:6px;'>A. Bourdieu P.</td><td style='padding:6px;'>I. Theories of Media, Theories of Society</td></tr><tr><td style='padding:6px;'>B. Manuel Castells</td><td style='padding:6px;'>II. The Culture Industry: Enlightenment as Mass Deception</td></tr><tr><td style='padding:6px;'>C. Adorno T. and Horkheimer</td><td style='padding:6px;'>III. Public Opinion Does Not Exist</td></tr><tr><td style='padding:6px;'>D. Bennett T.</td><td style='padding:6px;'>IV. The Internet Galaxy</td></tr></table><br>Choose the correct answer from the options given below:",
+        "options": ["A-III, B-IV, C-II, D-I", "A-IV, B-III, C-II, D-I", "A-III, B-IV, C-I, D-II", "A-III, B-II, C-IV, D-I"],
+        "explanation": "<strong>Matching Authors with their Works:</strong><br>• <strong>Bourdieu P. (A-III):</strong> Wrote the influential article \"Public Opinion Does Not Exist\".<br>• <strong>Manuel Castells (B-IV):</strong> A sociologist famous for writing \"The Internet Galaxy\".<br>• <strong>Adorno & Horkheimer (C-II):</strong> Authored the critical theory chapter \"The Culture Industry: Enlightenment as Mass Deception\".<br>• <strong>Bennett T. (D-I):</strong> Associated with \"Theories of Media, Theories of Society\".<br>Therefore, the correct sequence is A-III, B-IV, C-II, D-I."
+      },
+      "hi": {
+        "question": "निम्नलिखित का मिलान करें:<br><br><table border='1' style='border-collapse:collapse;width:100%;'><tr><th style='padding:6px;'>सूची-I (लेखक)</th><th style='padding:6px;'>सूची-II (पुस्तकें)</th></tr><tr><td style='padding:6px;'>A. बौड्डियू पी.</td><td style='padding:6px;'>I. मीडिया के सिद्धांत, समाज के सिद्धांत</td></tr><tr><td style='padding:6px;'>B. मैनुअल कास्टेल्स</td><td style='padding:6px;'>II. संस्कृति उद्योग: सामूहिक धोखे के रूप में ज्ञानोदय</td></tr><tr><td style='padding:6px;'>C. एडोर्नो टी. और होर्केइमर</td><td style='padding:6px;'>III. जनता की राय मौजूद नहीं है</td></tr><tr><td style='padding:6px;'>D. बेनेट टी.</td><td style='padding:6px;'>IV. इंटरनेट आकाशगंगा</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["A-III, B-IV, C-II, D-I", "A-IV, B-III, C-II, D-I", "A-III, B-IV, C-I, D-II", "A-III, B-II, C-IV, D-I"],
+        "explanation": "<strong>लेखकों का उनकी कृतियों से मिलान:</strong><br>• <strong>बौर्डियू पी. (A-III):</strong> प्रभावशाली लेख \"सार्वजनिक राय मौजूद नहीं है (Public Opinion Does Not Exist)\" लिखा।<br>• <strong>मैनुअल कास्टेल्स (B-IV):</strong> \"द इंटरनेट गैलेक्सी\" लिखने के लिए प्रसिद्ध एक समाजशास्त्री।<br>• <strong>एडोर्नो और होर्केइमर (C-II):</strong> आलोचनात्मक सिद्धांत अध्याय \"संस्कृति उद्योग: सामूहिक धोखे के रूप में ज्ञानोदय\" लिखा।<br>• <strong>बेनेट टी. (D-I):</strong> \"मीडिया के सिद्धांत, समाज के सिद्धांत\" से जुड़े हैं।<br>इसलिए, सही क्रम A-III, B-IV, C-II, D-I है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q38",
+    "difficulty": "medium",
+    "correct": 2,
+    "unitEN": "Unit 8: Information and Communication Technology (ICT)",
+    "unitHI": "इकाई 8: सूचना एवं संचार प्रौद्योगिकी (आईसीटी)",
+    "topicEN": "Basics of Internet and Intranet — Network Devices",
+    "topicHI": "इंटरनेट और इंट्रानेट की मूल बातें — नेटवर्क डिवाइस",
+    "content": {
+      "en": {
+        "question": "Match the following:<br><br><table border='1' style='border-collapse:collapse;width:100%;'><tr><th style='padding:6px;'>List-I (Network Devices)</th><th style='padding:6px;'>List-II (Functions)</th></tr><tr><td style='padding:6px;'>A. Bridge</td><td style='padding:6px;'>I. Device that can receive the data, analyse it and transmit it to other networks</td></tr><tr><td style='padding:6px;'>B. Router</td><td style='padding:6px;'>II. Set of rules that decides how computers and other devices connect with each other through cables in a LAN</td></tr><tr><td style='padding:6px;'>C. Gateway</td><td style='padding:6px;'>III. Serves as the entry and exit point of a network</td></tr><tr><td style='padding:6px;'>D. Ethernet</td><td style='padding:6px;'>IV. Device that connects one LAN to another LAN that uses the same protocol</td></tr></table><br>Choose the correct answer from the options given below:",
+        "options": ["A-II, B-III, C-I, D-IV", "A-III, B-II, C-I, D-IV", "A-IV, B-I, C-III, D-II", "A-I, B-IV, C-III, D-I"],
+        "explanation": "<strong>Matching Network Terminology:</strong><br>• <strong>Bridge (A-IV):</strong> A device that connects two LANs using the same protocol.<br>• <strong>Router (B-I):</strong> Receives, analyzes (routes), and transmits data packets between different networks.<br>• <strong>Gateway (C-III):</strong> A node that serves as the entry/exit point to another network.<br>• <strong>Ethernet (D-II):</strong> The standard set of rules (protocol) for connecting devices in a wired Local Area Network (LAN).<br>Correct match is A-IV, B-I, C-III, D-II."
+      },
+      "hi": {
+        "question": "निम्नलिखित का मिलान करें:<br><br><table border='1' style='border-collapse:collapse;width:100%;'><tr><th style='padding:6px;'>सूची-I (नेटवर्क डिवाइस)</th><th style='padding:6px;'>सूची-II (कार्य)</th></tr><tr><td style='padding:6px;'>A. पुल (Bridge)</td><td style='padding:6px;'>I. वह उपकरण जो डेटा प्राप्त कर सकता है, उसका विश्लेषण कर सकता है और उसे अन्य नेटवर्क पर प्रेषित कर सकता है</td></tr><tr><td style='padding:6px;'>B. राउटर</td><td style='padding:6px;'>II. नियमों का सेट जो यह तय करता है कि कंप्यूटर और अन्य डिवाइस LAN में केबल के माध्यम से एक दूसरे से कैसे जुड़ते हैं</td></tr><tr><td style='padding:6px;'>C. गेटवे</td><td style='padding:6px;'>III. नेटवर्क के प्रवेश और निकास बिंदु के रूप में कार्य करता है</td></tr><tr><td style='padding:6px;'>D. ईथरनेट</td><td style='padding:6px;'>IV. डिवाइस जो एक LAN को दूसरे LAN से जोड़ता है जो समान प्रोटोकॉल का उपयोग करता है</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["A-II, B-III, C-I, D-IV", "A-III, B-II, C-I, D-IV", "A-IV, B-I, C-III, D-II", "A-I, B-IV, C-III, D-I"],
+        "explanation": "<strong>नेटवर्क शब्दावली का मिलान:</strong><br>• <strong>ब्रिज (A-IV):</strong> एक उपकरण जो समान प्रोटोकॉल का उपयोग करके दो LAN को जोड़ता है।<br>• <strong>राउटर (B-I):</strong> विभिन्न नेटवर्क के बीच डेटा पैकेट प्राप्त करता है, विश्लेषण (रूट) करता है और प्रेषित करता है।<br>• <strong>गेटवे (C-III):</strong> एक नोड जो किसी अन्य नेटवर्क के प्रवेश/निकास बिंदु के रूप में कार्य करता है।<br>• <strong>ईथरनेट (D-II):</strong> वायर्ड लोकल एरिया नेटवर्क (LAN) में उपकरणों को जोड़ने के लिए नियमों का मानक सेट (प्रोटोकॉल)।<br>सही मिलान A-IV, B-I, C-III, D-II है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q39",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 6: Logical Reasoning",
+    "unitHI": "इकाई 6: तार्किक तर्क",
+    "topicEN": "Formal and Informal Fallacies",
+    "topicHI": "औपचारिक और अनौपचारिक तार्किक भ्रांतियां",
+    "content": {
+      "en": {
+        "question": "Identify the fallacy in the following:<br><br><em>\"How do I know that ginseng tea is a cure for the common cold? Last week I had a bad case of the sniffles. I drank a cup of ginseng tea and the next morning my sniffles were gone.\"</em>",
+        "options": ["Slippery slope", "Questionable cause", "Hasty Generalization", "The strawman"],
+        "explanation": "This is a classic example of the <strong>Questionable Cause</strong> fallacy (specifically <em>post hoc ergo propter hoc</em>). The speaker falsely assumes that just because they drank the tea *before* recovering from the cold, the tea must be the *cause* of the recovery, ignoring natural healing or other factors."
+      },
+      "hi": {
+        "question": "निम्नलिखित में भ्रांति की पहचान करें:<br><br><em>\"मुझे कैसे पता चलेगा कि जिनसेंग चाय सर्दी-जुकाम का इलाज है? पिछले हफ़्ते मुझे बहुत बुरा हाल हुआ था। मैंने एक कप जिनसेंग चाय पी और अगली सुबह मेरी छींकें गायब हो गईं।\"</em>",
+        "options": ["फिसलन भरी ढलान", "संदिग्ध कारण (Questionable cause)", "जल्दबाजी में सामान्यीकरण", "स्ट्रॉमैन"],
+        "explanation": "यह <strong>संदिग्ध कारण (Questionable Cause)</strong> की भ्रांति का एक उत्कृष्ट उदाहरण है (विशेष रूप से <em>post hoc ergo propter hoc</em>)। वक्ता झूठा मान लेता है कि चूंकि उन्होंने सर्दी से उबरने से *पहले* चाय पी थी, इसलिए चाय ही ठीक होने का *कारण* होनी चाहिए, प्राकृतिक उपचार या अन्य कारकों को नजरअंदाज करते हुए।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q40",
+    "difficulty": "easy",
+    "correct": 3,
+    "unitEN": "Unit 1: Teaching Aptitude",
+    "unitHI": "इकाई 1: शिक्षण अभिवृत्ति",
+    "topicEN": "Teaching Support System — Audio-Visual and Projected Aids",
+    "topicHI": "शिक्षण सहायक प्रणाली — दृश्य-श्रव्य और प्रक्षेपित सहायताएं",
+    "content": {
+      "en": {
+        "question": "Match the following:<br><br><table border='1' style='border-collapse:collapse;width:100%;'><tr><th style='padding:6px;'>List-I</th><th style='padding:6px;'>List-II</th></tr><tr><td style='padding:6px;'>A. Teaching Aids</td><td style='padding:6px;'>I. Online Education</td></tr><tr><td style='padding:6px;'>B. Chalk-board</td><td style='padding:6px;'>II. Non-Projective Aid</td></tr><tr><td style='padding:6px;'>C. Overhead Projector</td><td style='padding:6px;'>III. Make teaching-learning interesting</td></tr><tr><td style='padding:6px;'>D. MOOCs</td><td style='padding:6px;'>IV. Projective Aid</td></tr></table><br>Choose the correct answer from the options given below:",
+        "options": ["A-III, B-I, C-IV, D-II", "A-II, B-III, C-I, D-IV", "A-II, B-III, C-IV, D-I", "A-III, B-II, C-IV, D-I"],
+        "explanation": "<strong>Matching Teaching Elements:</strong><br>• <strong>Teaching Aids (A-III):</strong> Tools used to make teaching and learning more interesting and effective.<br>• <strong>Chalk-board (B-II):</strong> A basic Non-Projective visual aid.<br>• <strong>Overhead Projector (C-IV):</strong> A classic Projective Aid that projects images onto a screen.<br>• <strong>MOOCs (D-I):</strong> Massive Open Online Courses, which represent Online Education.<br>Correct match: A-III, B-II, C-IV, D-I."
+      },
+      "hi": {
+        "question": "निम्नलिखित का मिलान करें:<br><br><table border='1' style='border-collapse:collapse;width:100%;'><tr><th style='padding:6px;'>सूची-I</th><th style='padding:6px;'>सूची-II</th></tr><tr><td style='padding:6px;'>A. शिक्षण सहायक सामग्री</td><td style='padding:6px;'>I. ऑनलाइन शिक्षा</td></tr><tr><td style='padding:6px;'>B. चॉक-बोर्ड</td><td style='padding:6px;'>II. गैर-प्रक्षेपित सहायता</td></tr><tr><td style='padding:6px;'>C. ओवरहेड प्रोजेक्टर</td><td style='padding:6px;'>III. शिक्षण-अधिगम को रोचक बनाएं</td></tr><tr><td style='padding:6px;'>D. एमओओसी (MOOCs)</td><td style='padding:6px;'>IV. प्रोजेक्टिव सहायता</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["A-III, B-I, C-IV, D-II", "A-II, B-III, C-I, D-IV", "A-II, B-III, C-IV, D-I", "A-III, B-II, C-IV, D-I"],
+        "explanation": "<strong>शिक्षण तत्वों का मिलान:</strong><br>• <strong>शिक्षण सामग्री (A-III):</strong> शिक्षण और अधिगम को अधिक रोचक और प्रभावी बनाने के लिए उपयोग किए जाने वाले उपकरण।<br>• <strong>चॉक-बोर्ड (B-II):</strong> एक बुनियादी गैर-प्रक्षेपी (Non-Projective) दृश्य सहायता।<br>• <strong>ओवरहेड प्रोजेक्टर (C-IV):</strong> एक क्लासिक प्रोजेक्टिव सहायता जो स्क्रीन पर छवियों को प्रोजेक्ट करती है।<br>• <strong>MOOCs (D-I):</strong> मैसिव ओपन ऑनलाइन पाठ्यक्रम, जो ऑनलाइन शिक्षा का प्रतिनिधित्व करते हैं।<br>सही मिलान: A-III, B-II, C-IV, D-I।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q41",
+    "difficulty": "hard",
+    "correct": 1,
+    "unitEN": "Unit 6: Logical Reasoning",
+    "unitHI": "इकाई 6: तार्किक तर्क",
+    "topicEN": "Categorical Propositions — Distribution of Terms",
+    "topicHI": "श्रेणीबद्ध प्रस्ताव — पदों का वितरण",
+    "content": {
+      "en": {
+        "question": "Which among the following are correct in the context of distribution of terms?<br><br>A. 'A' Proposition distributes its predicate term<br>B. 'E' proposition distributes its subject and predicate terms<br>C. 'I' proposition distributes only the subject term<br>D. 'O' proposition distributes only the predicate term<br>E. 'A' proposition distributes both its subject and predicate terms<br><br>Choose the correct answer from the options given below:",
+        "options": ["A and C only", "A and B only", "C and E only", "B and D only"],
+        "explanation": "<strong>Distribution of Terms Rules:</strong><br>• 'A' distributes Subject only.<br>• 'E' distributes BOTH Subject and Predicate.<br>• 'I' distributes NEITHER Subject nor Predicate.<br>• 'O' distributes Predicate only.<br>According to these rules, B and D are true. <em>Note: The NTA official answer key marks Option 2 (A and B only) as correct, despite 'A' proposition NOT distributing its predicate. To align with the official key, Option 2 is mapped, but students should be aware of this discrepancy.</em>"
+      },
+      "hi": {
+        "question": "पदों के वितरण के संदर्भ में निम्नलिखित में से कौन सा सही है?<br><br>A. 'A' प्रस्ताव अपने विधेय शब्द को वितरित करता है<br>B. 'E' प्रस्ताव अपने विषय और विधेय पदों को वितरित करता है<br>C. 'I' प्रस्ताव केवल विषय शब्द वितरित करता है<br>D. 'O' प्रस्ताव केवल विधेय पद वितरित करता है<br>E. 'A' प्रस्ताव अपने विषय और विधेय दोनों पदों को वितरित करता है<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["केवल A और C", "केवल A और B", "केवल C और E", "केवल B और D"],
+        "explanation": "<strong>शर्तों के वितरण के नियम:</strong><br>• 'A' केवल विषय (Subject) वितरित करता है।<br>• 'E' विषय और विधेय दोनों वितरित करता है।<br>• 'I' न तो विषय और न ही विधेय वितरित करता है।<br>• 'O' केवल विधेय (Predicate) वितरित करता है।<br>इन नियमों के अनुसार, B और D सत्य हैं। <em>नोट: NTA की आधिकारिक उत्तर कुंजी विकल्प 2 (केवल A और B) को सही मानती है, हालांकि 'A' प्रस्ताव अपने विधेय को वितरित नहीं करता है। आधिकारिक कुंजी के साथ संरेखित करने के लिए, विकल्प 2 मैप किया गया है, लेकिन छात्रों को इस विसंगति के बारे में पता होना चाहिए।</em>"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q42",
+    "difficulty": "easy",
+    "correct": 0,
+    "unitEN": "Unit 1: Teaching Aptitude",
+    "unitHI": "इकाई 1: शिक्षण अभिवृत्ति",
+    "topicEN": "Teaching — Concept and Objectives",
+    "topicHI": "शिक्षण — अवधारणा और उद्देश्य",
+    "content": {
+      "en": {
+        "question": "Pedagogy refers to:",
+        "options": ["Teaching-Learning process", "Child Psychology", "Teaching Methods", "Evaluation and Measurement of learning"],
+        "explanation": "<strong>Pedagogy</strong> broadly refers to the theory and practice of education. It encompasses the entirety of the <strong>Teaching-Learning process</strong>, including the methods, strategies, and approaches used by teachers to impart knowledge to students."
+      },
+      "hi": {
+        "question": "शिक्षाशास्त्र (Pedagogy) से तात्पर्य है:",
+        "options": ["शिक्षण-अधिगम प्रक्रिया", "बाल मनोविज्ञान", "शिक्षण विधियाँ", "अधिगम का मूल्यांकन और मापन"],
+        "explanation": "<strong>शिक्षाशास्त्र (Pedagogy)</strong> मोटे तौर पर शिक्षा के सिद्धांत और व्यवहार को संदर्भित करता है। इसमें <strong>शिक्षण-अधिगम प्रक्रिया</strong> की संपूर्णता शामिल है, जिसमें शिक्षकों द्वारा छात्रों को ज्ञान प्रदान करने के लिए उपयोग की जाने वाली विधियाँ, रणनीतियाँ और दृष्टिकोण शामिल हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q43",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 9: People, Development and Environment",
+    "unitHI": "इकाई 9: लोग, विकास और पर्यावरण",
+    "topicEN": "Environmental Protection Laws and Acts",
+    "topicHI": "पर्यावरण संरक्षण कानून और अधिनियम",
+    "content": {
+      "en": {
+        "question": "Match the following:<br><br><table border='1' style='border-collapse:collapse;width:100%;'><tr><th style='padding:6px;'>List-I (Environment Laws)</th><th style='padding:6px;'>List-II (Year)</th></tr><tr><td style='padding:6px;'>A. Air (Prevention and Control of Pollution) Act</td><td style='padding:6px;'>I. 1974</td></tr><tr><td style='padding:6px;'>B. Forest Conservation Act</td><td style='padding:6px;'>II. 1981</td></tr><tr><td style='padding:6px;'>C. Environmental Protection Act</td><td style='padding:6px;'>III. 1980</td></tr><tr><td style='padding:6px;'>D. Water (Prevention and Control of Pollution) Act</td><td style='padding:6px;'>IV. 1986</td></tr></table><br>Choose the correct answer from the options given below:",
+        "options": ["A-I, B-III, C-II, D-IV", "A-II, B-IV, C-III, D-I", "A-III, B-II, C-I, D-IV", "A-II, B-III, C-IV, D-I"],
+        "explanation": "<strong>Matching Environmental Laws with Enactment Years:</strong><br>• <strong>Air Act (A-II):</strong> Enacted in <strong>1981</strong> to combat air pollution.<br>• <strong>Forest Conservation Act (B-III):</strong> Enacted in <strong>1980</strong> to protect India's forests.<br>• <strong>Environmental Protection Act (C-IV):</strong> An umbrella act passed in <strong>1986</strong> post-Bhopal gas tragedy.<br>• <strong>Water Act (D-I):</strong> The earliest of these, passed in <strong>1974</strong>.<br>Therefore, the correct match is A-II, B-III, C-IV, D-I."
+      },
+      "hi": {
+        "question": "निम्नलिखित का मिलान करें:<br><br><table border='1' style='border-collapse:collapse;width:100%;'><tr><th style='padding:6px;'>सूची-I (पर्यावरण कानून)</th><th style='padding:6px;'>सूची-II (वर्ष)</th></tr><tr><td style='padding:6px;'>A. वायु (प्रदूषण निवारण एवं नियंत्रण) अधिनियम</td><td style='padding:6px;'>I. 1974</td></tr><tr><td style='padding:6px;'>B. वन संरक्षण अधिनियम</td><td style='padding:6px;'>II. 1981</td></tr><tr><td style='padding:6px;'>C. पर्यावरण संरक्षण अधिनियम</td><td style='padding:6px;'>III. 1980</td></tr><tr><td style='padding:6px;'>D. जल (प्रदूषण की रोकथाम और नियंत्रण) अधिनियम</td><td style='padding:6px;'>IV. 1986</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["A-I, B-III, C-II, D-IV", "A-II, B-IV, C-III, D-I", "A-III, B-II, C-I, D-IV", "A-II, B-III, C-IV, D-I"],
+        "explanation": "<strong>अधिनियमन वर्षों के साथ पर्यावरण कानूनों का मिलान:</strong><br>• <strong>वायु अधिनियम (A-II):</strong> वायु प्रदूषण से निपटने के लिए <strong>1981</strong> में अधिनियमित किया गया।<br>• <strong>वन संरक्षण अधिनियम (B-III):</strong> भारत के जंगलों की रक्षा के लिए <strong>1980</strong> में लागू किया गया।<br>• <strong>पर्यावरण संरक्षण अधिनियम (C-IV):</strong> भोपाल गैस त्रासदी के बाद <strong>1986</strong> में पारित एक व्यापक अधिनियम।<br>• <strong>जल अधिनियम (D-I):</strong> इनमें से सबसे पहला, <strong>1974</strong> में पारित किया गया।<br>इसलिए, सही मिलान A-II, B-III, C-IV, D-I है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q44",
+    "difficulty": "easy",
+    "correct": 1,
+    "unitEN": "Unit 8: Information and Communication Technology (ICT)",
+    "unitHI": "इकाई 8: सूचना एवं संचार प्रौद्योगिकी (आईसीटी)",
+    "topicEN": "ICT and Governance — Data Processing Cycle",
+    "topicHI": "आईसीटी और गवर्नेंस — डेटा प्रोसेसिंग चक्र",
+    "content": {
+      "en": {
+        "question": "Arrange the steps of Data processing cycle in correct sequence:<br><br>A. Input<br>B. Output<br>C. Processing<br>D. Storage<br><br>Choose the correct answer from the options given below:",
+        "options": ["D, A, C, B", "A, C, D, B", "A, B, C, D", "B, A, C, D"],
+        "explanation": "The standard sequence of the <strong>Information Processing Cycle</strong> is:<br>1. <strong>Input (A):</strong> Entering raw data into the system.<br>2. <strong>Processing (C):</strong> The CPU manipulates and converts the raw data into meaningful information.<br>3. <strong>Output (B):</strong> Displaying or presenting the processed information to the user.<br>4. <strong>Storage (D):</strong> Saving the data/information for future use.<br><em>(Note: NTA Official Answer Key identifies Option 2 [A, C, D, B] as correct. Often Storage is considered alongside Output. We follow the official mapped key).</em>"
+      },
+      "hi": {
+        "question": "डेटा प्रोसेसिंग चक्र के चरणों को सही क्रम में व्यवस्थित करें:<br><br>A. इनपुट<br>B. आउटपुट<br>C. प्रसंस्करण<br>D. भंडारण<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": ["D, A, C, B", "A, C, D, B", "A, B, C, D", "B, A, C, D"],
+        "explanation": "<strong>सूचना प्रसंस्करण चक्र (Data processing cycle)</strong> का मानक क्रम है:<br>1. <strong>इनपुट (A):</strong> सिस्टम में कच्चा डेटा दर्ज करना।<br>2. <strong>प्रसंस्करण (C):</strong> CPU कच्चे डेटा को सार्थक जानकारी में बदलता है।<br>3. <strong>आउटपुट (B):</strong> संसाधित जानकारी को उपयोगकर्ता के सामने प्रदर्शित करना या प्रस्तुत करना।<br>4. <strong>भंडारण (D):</strong> भविष्य में उपयोग के लिए डेटा/जानकारी को सहेजना।<br><em>(नोट: NTA आधिकारिक उत्तर कुंजी विकल्प 2 [A, C, D, B] को सही मानती है। अक्सर स्टोरेज को आउटपुट के साथ माना जाता है। हम आधिकारिक मैप की गई कुंजी का पालन करते हैं)।</em>"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q45",
+    "difficulty": "hard",
+    "correct": 1,
+    "unitEN": "Unit 6: Logical Reasoning",
+    "unitHI": "इकाई 6: तार्किक तर्क",
+    "topicEN": "Indian Logic — Pramanas and Perception (Pratyaksha)",
+    "topicHI": "भारतीय तर्कशास्त्र — प्रमाण और प्रत्यक्ष",
+    "content": {
+      "en": {
+        "question": "According to Naiyayikas, the universal soundness (sabdatva) inhering in sound is perceived through:",
+        "options": ["Samavāya", "Samaveta-Samāvāya", "Samyukta-Samaveta-Samavāya", "Samyukta-Viseşanatā"],
+        "explanation": "In Nyāya epistemology, there are six types of ordinary sensory contact (Sannikarsha).<br>• To perceive <em>sound</em> (Sabda), the ear uses <strong>Samavāya</strong> (inherence) because sound inherently belongs to Akasha (ether) inside the ear.<br>• To perceive the <em>universal property of sound</em> (Sabdatva / soundness), the sense uses <strong>Samaveta-Samavāya</strong> (inherence in the inherent). This is because Sabdatva inheres in sound, which in turn inheres in the ear."
+      },
+      "hi": {
+        "question": "नैयायिकों के अनुसार ध्वनि में निहित सार्वभौमिक ध्वनि (शब्दत्व) का अनुभव होता है:",
+        "options": ["समवाय", "समवेत-समवाय", "संयुक्त-समवेत-समवाय", "संयुक्त-विशेषणता"],
+        "explanation": "न्याय ज्ञानमीमांसा में, छह प्रकार के सामान्य संवेदी संपर्क (सन्निकर्ष) हैं।<br>• <em>ध्वनि</em> (शब्द) को समझने के लिए, कान <strong>समवाय</strong> का उपयोग करता है क्योंकि ध्वनि स्वाभाविक रूप से कान के अंदर आकाश (ईथर) से संबंधित है।<br>• <em>ध्वनि की सार्वभौमिक संपत्ति</em> (शब्दत्व) को समझने के लिए, इंद्रिय <strong>समवेत-समवाय</strong> (निहित में निहितार्थ) का उपयोग करती है। ऐसा इसलिए है क्योंकि शब्दत्व ध्वनि में निहित है, जो बदले में कान में निहित है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q46",
+    "difficulty": "easy",
+    "correct": 2,
+    "unitEN": "Unit 3: Comprehension",
+    "unitHI": "इकाई 3: बोध",
+    "topicEN": "Reading Comprehension — Earthquakes and Natural Disasters",
+    "topicHI": "पठन बोध — भूकंप और प्राकृतिक आपदाएं",
+    "content": {
+      "en": {
+        "question": passageHTML(PASSAGE_JAN25_09_S2_P1.en) + "<br><strong>Question:</strong><br> What is the epicenter in an earthquake?",
+        "options": ["The point where the most damage occurs", "The area with the highest population", "The point on a fault where the first movement occurs", "The center of a tsunami"],
+        "explanation": "The passage provides the exact definition: <em>\"The point on fault at which the first movement occurs during an earthquake is called the <strong>epicenter</strong>.\"</em>"
+      },
+      "hi": {
+        "question": passageHTML(PASSAGE_JAN25_09_S2_P1.hi) + "<br><strong>प्रश्न:</strong><br> भूकंप का उपरिकेंद्र क्या होता है?",
+        "options": ["वह बिंदु जहाँ सबसे अधिक क्षति होती है", "सबसे अधिक जनसंख्या वाला क्षेत्र", "फॉल्ट पर वह बिंदु जहाँ पहली हलचल होती है", "सुनामी का केंद्र"],
+        "explanation": "गद्यांश सटीक परिभाषा प्रदान करता है: <em>\"भूकंप के दौरान दोष (fault) पर वह बिंदु जहाँ पहली हलचल होती है, उसे <strong>उपरिकेंद्र</strong> कहा जाता है।\"</em>"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q47",
+    "difficulty": "easy",
+    "correct": 1,
+    "unitEN": "Unit 3: Comprehension",
+    "unitHI": "इकाई 3: बोध",
+    "topicEN": "Reading Comprehension — Earthquakes and Natural Disasters",
+    "topicHI": "पठन बोध — भूकंप और प्राकृतिक आपदाएं",
+    "content": {
+      "en": {
+        "question": passageHTML(PASSAGE_JAN25_09_S2_P1.en) + "<br><strong>Question:</strong><br> Main cause of earthquakes can be considered as:",
+        "options": ["Volcanic eruptions", "Sudden movements in the earth's crust along faults", "Flood", "Extreme weather conditions"],
+        "explanation": "According to the passage: <em>\"Earthquakes are <strong>sudden movements in the earth's crust that occur along faults</strong> (planes of weakness)...\"</em>"
+      },
+      "hi": {
+        "question": passageHTML(PASSAGE_JAN25_09_S2_P1.hi) + "<br><strong>प्रश्न:</strong><br> भूकंप का मुख्य कारण माना जा सकता है:",
+        "options": ["ज्वालामुखी विस्फोट", "पृथ्वी की पपड़ी में भ्रंशों के साथ अचानक हलचलें", "बाढ़", "चरम मौसम की स्थिति"],
+        "explanation": "गद्यांश के अनुसार: <em>\"भूकंप <strong>पृथ्वी की पपड़ी में अचानक होने वाली हलचलें हैं जो दोषों (कमजोर सतह) के साथ होती हैं</strong>...\"</em>"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q48",
+    "difficulty": "easy",
+    "correct": 2,
+    "unitEN": "Unit 3: Comprehension",
+    "unitHI": "इकाई 3: बोध",
+    "topicEN": "Reading Comprehension — Earthquakes and Natural Disasters",
+    "topicHI": "पठन बोध — भूकंप और प्राकृतिक आपदाएं",
+    "content": {
+      "en": {
+        "question": passageHTML(PASSAGE_JAN25_09_S2_P1.en) + "<br><strong>Question:</strong><br> Gradual and smooth movement along fault is considered as:",
+        "options": ["Seismic jerk", "Epicenter", "Seismic slip", "Fault rupture"],
+        "explanation": "The passage clearly states: <em>\"When movement along faults occurs gradually and relatively smoothly, it is called creep or <strong>seismic slip</strong>...\"</em>"
+      },
+      "hi": {
+        "question": passageHTML(PASSAGE_JAN25_09_S2_P1.hi) + "<br><strong>प्रश्न:</strong><br> दोष के साथ क्रमिक और सुचारू गति को माना जाता है:",
+        "options": ["भूकंपीय झटका", "उपरिकेंद्र", "भूकंपीय फिसलन (Seismic slip)", "दोष टूटना"],
+        "explanation": "गद्यांश में स्पष्ट रूप से कहा गया है: <em>\"जब दोषों के साथ गति धीरे-धीरे और अपेक्षाकृत आसानी से होती है, तो इसे रेंगना या <strong>भूकंपीय फिसलन</strong> कहा जाता है...\"</em>"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q49",
+    "difficulty": "easy",
+    "correct": 2,
+    "unitEN": "Unit 3: Comprehension",
+    "unitHI": "इकाई 3: बोध",
+    "topicEN": "Reading Comprehension — Earthquakes and Natural Disasters",
+    "topicHI": "पठन बोध — भूकंप और प्राकृतिक आपदाएं",
+    "content": {
+      "en": {
+        "question": passageHTML(PASSAGE_JAN25_09_S2_P1.en) + "<br><strong>Question:</strong><br> According to the passage, which of the following can cause buildings to \"sink out of sight\" during an earthquake?",
+        "options": ["Tsunamis", "Creep", "Shaking of water-saturated soil", "Soil expansion"],
+        "explanation": "The passage states: <em>\"<strong>Water-saturated soil can liquify when shaken</strong>. Buildings sometimes sink out of sight or fall down like a row of dominoes under these conditions.\"</em>"
+      },
+      "hi": {
+        "question": passageHTML(PASSAGE_JAN25_09_S2_P1.hi) + "<br><strong>प्रश्न:</strong><br> गद्यांश के अनुसार, निम्नलिखित में से कौन सा कारण भूकंप के दौरान इमारतों को \"नजर से ओझल\" कर सकता है?",
+        "options": ["सुनामी", "रेंगना", "जल-संतृप्त मिट्टी का हिलना", "मृदा विस्तार"],
+        "explanation": "गद्यांश कहता है: <em>\"<strong>पानी से संतृप्त मिट्टी हिलने पर तरल हो सकती है</strong>। ऐसी परिस्थितियों में इमारतें कभी-कभी नजरों से ओझल हो जाती हैं या डोमिनोज की कतार की तरह गिर जाती हैं।\"</em>"
+      }
+    }
+  },
+  {
+    "id": "jan25-9-s2-p1-q50",
+    "difficulty": "easy",
+    "correct": 0,
+    "unitEN": "Unit 3: Comprehension",
+    "unitHI": "इकाई 3: बोध",
+    "topicEN": "Reading Comprehension — Earthquakes and Natural Disasters",
+    "topicHI": "पठन बोध — भूकंप और प्राकृतिक आपदाएं",
+    "content": {
+      "en": {
+        "question": passageHTML(PASSAGE_JAN25_09_S2_P1.en) + "<br><strong>Question:</strong><br> Parts of which of these are built on soft landfill or poorly consolidated soil?",
+        "options": ["Kobe Japan and Mexico City", "Indonesia and Pakistan", "Pakistan", "Indonesia"],
+        "explanation": "The passage identifies the vulnerable cities by stating: <em>\"Cities such as <strong>Kobe, Japan or Mexico City</strong>, parts of which are built on soft landfill or poorly consolidated soil...\"</em>"
+      },
+      "hi": {
+        "question": passageHTML(PASSAGE_JAN25_09_S2_P1.hi) + "<br><strong>प्रश्न:</strong><br> इनमें से किसके हिस्से नरम लैंडफिल या खराब समेकित मिट्टी पर बने हैं?",
+        "options": ["कोबे जापान और मेक्सिको सिटी", "इंडोनेशिया और पाकिस्तान", "पाकिस्तान", "इंडोनेशिया"],
+        "explanation": "गद्यांश यह बताकर कमज़ोर शहरों की पहचान करता है: <em>\"<strong>कोबे, जापान या मेक्सिको सिटी</strong> जैसे शहर, जिनके कुछ हिस्से नरम लैंडफिल या खराब समेकित मिट्टी पर बने हैं...\"</em>"
+      }
+    }
+  }
+];
 
 
 
