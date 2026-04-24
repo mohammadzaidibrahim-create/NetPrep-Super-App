@@ -14174,6 +14174,60 @@ const TEST_JAN25_08_S2_P1 = [
   }
 ];
 
+// ─────────────────────────────────────────────────────────────────────────────
+// ONE-SHOT AUTO-MERGER & MATH CLEANER (Paste at the very bottom of data_p1.js)
+// ─────────────────────────────────────────────────────────────────────────────
+
+function mergeAndClean(mainArray, part2Array) {
+  if (!mainArray) return;
+  
+  // 1. Agar Part-2 exist karta hai aur abhi tak merge nahi hua hai, toh usko main array me push kardo
+  if (part2Array && Array.isArray(part2Array)) {
+    if (mainArray.length < 50) {
+      mainArray.push(...part2Array);
+    }
+  }
+
+  // 2. Math symbols ko clean karna
+  const replacements = [
+    { regex: /\\rightarrow/g, replacement: '→' },
+    { regex: /\\implies/g, replacement: '⇒' },
+    { regex: /\\times/g, replacement: '×' },
+    { regex: /\\approx/g, replacement: '≈' },
+    { regex: /\\%/g, replacement: '%' },
+    { regex: /\\text\{([^}]+)\}/g, replacement: '$1' },         
+    { regex: /\\frac\{([^}]+)\}\{([^}]+)\}/g, replacement: '($1/$2)' }, 
+    { regex: /\$/g, replacement: '' }                           
+  ];
+
+  mainArray.forEach(q => {
+    let enExp = q.content.en.explanation || "";
+    let hiExp = q.content.hi.explanation || "";
+
+    replacements.forEach(({ regex, replacement }) => {
+      enExp = enExp.replace(regex, replacement);
+      hiExp = hiExp.replace(regex, replacement);
+    });
+
+    q.content.en.explanation = enExp;
+    q.content.hi.explanation = hiExp;
+  });
+}
+
+// ══════════════════════════════════════════════════════════════════════
+// APPLYING TO ALL TESTS SAFELY (No crashes even if a variable is missing)
+// ══════════════════════════════════════════════════════════════════════
+
+try { if (typeof TEST_JUNE25_S1_P1 !== 'undefined') mergeAndClean(TEST_JUNE25_S1_P1, typeof TEST_JUNE25_S1_P1_PART2 !== 'undefined' ? TEST_JUNE25_S1_P1_PART2 : null); } catch(e){}
+try { if (typeof TEST_JAN25_27_S2_P1 !== 'undefined') mergeAndClean(TEST_JAN25_27_S2_P1, typeof TEST_JAN25_27_S2_P1_PART2 !== 'undefined' ? TEST_JAN25_27_S2_P1_PART2 : null); } catch(e){}
+try { if (typeof TEST_JAN25_21_S1_P1 !== 'undefined') mergeAndClean(TEST_JAN25_21_S1_P1, typeof TEST_JAN25_21_S1_P1_PART2 !== 'undefined' ? TEST_JAN25_21_S1_P1_PART2 : null); } catch(e){}
+try { if (typeof TEST_JAN25_16_S2_P1 !== 'undefined') mergeAndClean(TEST_JAN25_16_S2_P1, typeof TEST_JAN25_16_S2_P1_PART2 !== 'undefined' ? TEST_JAN25_16_S2_P1_PART2 : null); } catch(e){}
+try { if (typeof TEST_JAN25_16_S1_P1 !== 'undefined') mergeAndClean(TEST_JAN25_16_S1_P1, typeof TEST_JAN25_16_S1_P1_PART2 !== 'undefined' ? TEST_JAN25_16_S1_P1_PART2 : null); } catch(e){}
+try { if (typeof TEST_JAN25_10_S2_P1 !== 'undefined') mergeAndClean(TEST_JAN25_10_S2_P1, typeof TEST_JAN25_10_S2_P1_PART2 !== 'undefined' ? TEST_JAN25_10_S2_P1_PART2 : null); } catch(e){}
+try { if (typeof TEST_JAN25_10_S1_P1 !== 'undefined') mergeAndClean(TEST_JAN25_10_S1_P1, typeof TEST_JAN25_10_S1_P1_PART2 !== 'undefined' ? TEST_JAN25_10_S1_P1_PART2 : null); } catch(e){}
+try { if (typeof TEST_JAN25_09_S2_P1 !== 'undefined') mergeAndClean(TEST_JAN25_09_S2_P1, typeof TEST_JAN25_09_S2_P1_PART2 !== 'undefined' ? TEST_JAN25_09_S2_P1_PART2 : null); } catch(e){}
+try { if (typeof TEST_JAN25_09_S1_P1 !== 'undefined') mergeAndClean(TEST_JAN25_09_S1_P1, typeof TEST_JAN25_09_S1_P1_PART2 !== 'undefined' ? TEST_JAN25_09_S1_P1_PART2 : null); } catch(e){}
+try { if (typeof TEST_JAN25_08_S2_P1 !== 'undefined') mergeAndClean(TEST_JAN25_08_S2_P1, typeof TEST_JAN25_08_S2_P1_PART2 !== 'undefined' ? TEST_JAN25_08_S2_P1_PART2 : null); } catch(e){}
 
 
 
