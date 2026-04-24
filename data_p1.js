@@ -95,6 +95,14 @@ const TABLE_JAN25_10_S2_P1 = {
   hi: `<p style="margin-bottom:10px;"><strong>निर्देश:</strong> निम्न तालिका में पाँच अलग-अलग स्टोर (A-E) द्वारा बेची गई HB-पेंसिल की संख्या और इन स्टोर द्वारा बेची गई HB-पेंसिल की संख्या का 6B-पेंसिल से अनुपात दर्शाया गया है। तालिका में दिए गए डेटा के आधार पर, निम्नलिखित प्रश्नों के उत्तर दीजिए।</p><table border="1" style="border-collapse:collapse; width:100%; text-align:center; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;"><tr><th style="padding:8px 10px;">स्टोर</th><th style="padding:8px 10px;">बेची गई HB-पेंसिल की संख्या</th><th style="padding:8px 10px;">अनुपात (HB-पेंसिल बेची : 6B पेंसिल बेची)</th></tr><tr><td style="padding:8px 10px;">A</td><td style="padding:8px 10px;">216</td><td style="padding:8px 10px;">9:5</td></tr><tr><td style="padding:8px 10px;">B</td><td style="padding:8px 10px;">480</td><td style="padding:8px 10px;">6:5</td></tr><tr><td style="padding:8px 10px;">C</td><td style="padding:8px 10px;">400</td><td style="padding:8px 10px;">4:1</td></tr><tr><td style="padding:8px 10px;">D</td><td style="padding:8px 10px;">300</td><td style="padding:8px 10px;">3:1</td></tr><tr><td style="padding:8px 10px;">E</td><td style="padding:8px 10px;">240</td><td style="padding:8px 10px;">3:2</td></tr></table>`
 };
 
+  // ─────────────────────────────────────────────────────────────────────────────
+// 1. PASSAGE CONSTANT (SINGLE LINE with <br><br> for paragraph breaks)
+// ─────────────────────────────────────────────────────────────────────────────
+const PASSAGE_JAN25_10_S1_P1 = {
+  en: `The most important literary event in the nineteenth century was the emergence of literary prose in all the modern Indian languages. It is not that prose was an invention of this period. Both Sanskrit and Persian had a vast body of prose. Persian prose in the main treated "serious and learned topics"; the purpose of the authors was "to inform and to uplift rather than to amuse", despite the fact that the fantastic adventure of the Arabian Nights cycle gave scope to the creative imagination. Sanskrit, which developed a simple and dignified prose-style from the time of the composition of the Upanisads, several centuries before Christ, employed prose in various spheres of intellectual and imaginative activities. Following the same tradition, Pali and a few Prakrit languages also developed a rich and vast body of tales and romances.`,
+  hi: `उन्नीसवीं सदी की सबसे महत्वपूर्ण साहित्यिक घटना थी सभी आधुनिक भारतीय भाषाओं में साहित्यिक गद्य का उदय। ऐसा नहीं है कि गद्य इस काल की खोज थी। संस्कृत और फारसी दोनों में गद्य का विशाल भंडार था। फारसी गद्य में मुख्य रूप से "गंभीर और विद्वत्तापूर्ण विषय" थे; लेखकों का उद्देश्य "मनोरंजन के बजाय जानकारी देना और उत्थान करना" था, इस तथ्य के बावजूद कि अरेबियन नाइट्स चक्र के शानदार रोमांच ने रचनात्मक कल्पना को गुंजाइश दी थी। संस्कृत ने, जिसने ईसा से कई शताब्दियों पहले उपनिषदों की रचना के समय से एक सरल और गरिमामय गद्य-शैली विकसित की थी, बौद्धिक और कल्पनाशील गतिविधियों के विभिन्न क्षेत्रों में गद्य का इस्तेमाल किया। उसी परंपरा का अनुसरण करते हुए, पाली और कुछ प्राकृत भाषाओं ने भी कहानियों और रोमांस का एक समृद्ध और विशाल भंडार विकसित किया।`
+};
+
 // 1. Passage Constant for Q46-50
 const PASSAGE_JUNE25_S1_P1 = {
   en: `Does more education lead to greater democracy? Or are more democratic countries better at educating their citizens? A recent NBER paper compared a group of Kenyan girls in 69 primary schools whose students were randomly selected to receive a scholarship with similar students in schools which received no such financial aid. Previous studies had shown that the scholarship programme led to higher test scores and increased the likelihood that girls enrolled in secondary school.<br><br>Overall, it significantly increased the amount of education obtained. For the new study the authors tried to see how the extra schooling had affected the political and social attitudes of the women in question. Findings suggested that education may make people more interested in improving their own lives but they may not necessarily see democracy as the way to do it.<br><br>Even in established democracies, more education does not always mean either more active political participation or greater faith in democracy. Poorer and less educated people often vote in larger numbers than their more educated compatriots, who often express disdain for the messiness of democracy yearning for the kind of government that would deal strongly with the corrupt and build highways, railway lines and bridges at a dizzying pace of authoritarian China.`,
@@ -137,6 +145,14 @@ const PASSAGE_JAN25_16_S1_P1 = {
 const PASSAGE_JAN25_10_S2_P1 = {
   en: `Women writers were rare in pre-British India, and there was none in the first half of the nineteenth century. A few women poets came into prominence in the mediaeval period: Andal and Karaikkal Ammaiyar in Tamil Nadu, Lalla Ded in Kashmir, Mahadeviyakka in Karnataka, Mirabai in Rajasthan, Madhavi Dasi in Orissa, Padmapriya in Assam, and Chandrabati in Bengal. All of them must be treated as exceptions. There is hardly any evidence to show that social patronage was available to the women poets. On the contrary, the great corpus of nursery rhymes, vratakathā, fairy-tales, festival songs, and various types of labour songs were created partly, if not entirely, by women. Although this body of literature was enjoyed by all members of society, it was preserved and transmitted mainly by women. One should believe either that the creative faculty of women operated exclusively within these literary forms and did not trespass into other forms of literature, or that many of the women writers who ventured into other genres preferred to remain anonymous.`,
   hi: `ब्रिटिश काल से पहले के भारत में महिला लेखिकाएँ दुर्लभ थीं और उन्नीसवीं सदी के पहले हिस्से में तो कोई भी नहीं थी। मध्यकाल में कुछ महिला कवियों ने प्रमुखता हासिल की: तमिलनाडु में अंडाल और कराईकल अम्माइयार, कश्मीर में लल्ला डेड, कर्नाटक में महादेवियाक्का, राजस्थान में मीराबाई, उड़ीसा में माधवी दासी, असम में पद्मप्रिया और बंगाल में चंद्रबती। इन सभी को अपवाद के रूप में माना जाना चाहिए। यह दिखाने के लिए शायद ही कोई सबूत है कि महिला कवियों को सामाजिक संरक्षण उपलब्ध था। इसके विपरीत, नर्सरी कविताओं, व्रतकथाओं, परी कथाओं, त्योहारों के गीतों और विभिन्न प्रकार के श्रम गीतों का विशाल संग्रह आंशिक रूप से, यदि पूरी तरह से नहीं, तो महिलाओं द्वारा बनाया गया था। हालाँकि साहित्य के इस भंडार का आनंद समाज के सभी सदस्यों ने लिया, लेकिन इसे मुख्य रूप से महिलाओं द्वारा संरक्षित और प्रसारित किया गया। किसी को या तो यह मानना चाहिए कि महिलाओं की रचनात्मक क्षमता केवल इन साहित्यिक रूपों के भीतर ही संचालित होती थी और साहित्य के अन्य रूपों में अतिक्रमण नहीं करती थी, या यह कि कई महिला लेखिकाएँ जिन्होंने अन्य विधाओं में कदम रखा, उन्होंने गुमनाम रहना पसंद किया।`
+};
+
+// ─────────────────────────────────────────────────────────────────────────────
+// DI TABLE CONSTANT — UGC NET Paper 1 | 10 Jan 2025 | Morning Shift (MINIFIED)
+// ─────────────────────────────────────────────────────────────────────────────
+const TABLE_JAN25_10_S1_P1 = {
+  en: `<p style="margin-bottom:10px;"><strong>Directions:</strong> The following table shows the number of students enrolled in four different Colleges (A–D) during the four years from 2020 to 2023. Based on the data in the table, answer the questions that follow.</p><table border="1" style="border-collapse:collapse; width:100%; text-align:center; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;"><tr><th style="padding:8px 10px;">Year</th><th colspan="4" style="padding:8px 10px;">Number of Students Enrolled in College</th></tr><tr><th style="padding:8px 10px;"></th><th style="padding:8px 10px;">A</th><th style="padding:8px 10px;">B</th><th style="padding:8px 10px;">C</th><th style="padding:8px 10px;">D</th></tr><tr><td style="padding:8px 10px;">2020</td><td style="padding:8px 10px;">1200</td><td style="padding:8px 10px;">900</td><td style="padding:8px 10px;">1000</td><td style="padding:8px 10px;">700</td></tr><tr><td style="padding:8px 10px;">2021</td><td style="padding:8px 10px;">1100</td><td style="padding:8px 10px;">800</td><td style="padding:8px 10px;">1300</td><td style="padding:8px 10px;">900</td></tr><tr><td style="padding:8px 10px;">2022</td><td style="padding:8px 10px;">1400</td><td style="padding:8px 10px;">1000</td><td style="padding:8px 10px;">1200</td><td style="padding:8px 10px;">1100</td></tr><tr><td style="padding:8px 10px;">2023</td><td style="padding:8px 10px;">600</td><td style="padding:8px 10px;">700</td><td style="padding:8px 10px;">800</td><td style="padding:8px 10px;">1000</td></tr></table>`,
+  hi: `<p style="margin-bottom:10px;"><strong>निर्देश:</strong> निम्नलिखित तालिका 2020 से 2023 तक चार वर्षों के दौरान चार अलग-अलग कॉलेजों (A-D) में नामांकित छात्रों की संख्या दर्शाती है। तालिका में दिए गए डेटा के आधार पर, निम्नलिखित प्रश्नों के उत्तर दीजिए।</p><table border="1" style="border-collapse:collapse; width:100%; text-align:center; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;"><tr><th style="padding:8px 10px;">वर्ष</th><th colspan="4" style="padding:8px 10px;">कॉलेज में नामांकित छात्रों की संख्या</th></tr><tr><th style="padding:8px 10px;"></th><th style="padding:8px 10px;">A</th><th style="padding:8px 10px;">B</th><th style="padding:8px 10px;">C</th><th style="padding:8px 10px;">D</th></tr><tr><td style="padding:8px 10px;">2020</td><td style="padding:8px 10px;">1200</td><td style="padding:8px 10px;">900</td><td style="padding:8px 10px;">1000</td><td style="padding:8px 10px;">700</td></tr><tr><td style="padding:8px 10px;">2021</td><td style="padding:8px 10px;">1100</td><td style="padding:8px 10px;">800</td><td style="padding:8px 10px;">1300</td><td style="padding:8px 10px;">900</td></tr><tr><td style="padding:8px 10px;">2022</td><td style="padding:8px 10px;">1400</td><td style="padding:8px 10px;">1000</td><td style="padding:8px 10px;">1200</td><td style="padding:8px 10px;">1100</td></tr><tr><td style="padding:8px 10px;">2023</td><td style="padding:8px 10px;">600</td><td style="padding:8px 10px;">700</td><td style="padding:8px 10px;">800</td><td style="padding:8px 10px;">1000</td></tr></table>`
 };
 
 function passageHTML(text) { return `<div class="comprehension-box">${text}</div>`; }
@@ -9382,6 +9398,1407 @@ const TEST_JAN25_10_S2_P1 = [
           "महिला लेखिकाओं ने अन्य विधाओं में कार्य नहीं किया"
         ],
         "explanation": "गद्यांश का अंतिम वाक्य सटीक कारण प्रदान करता है: <em>\"किसी को या तो यह मानना चाहिए कि महिलाओं की रचनात्मक क्षमता विशेष रूप से इन साहित्यिक रूपों (अनौपचारिक रूपों) के भीतर काम करती थी... या यह कि कई महिला लेखक जिन्होंने अन्य विधाओं में कदम रखा, उन्होंने गुमनाम रहना पसंद किया।\"</em>"
+      }
+    }
+  }
+];
+
+// ─────────────────────────────────────────────────────────────────────────────
+// EXTRACTED QUESTIONS ARRAY (Q1 to Q25)
+// ─────────────────────────────────────────────────────────────────────────────
+const TEST_JAN25_10_S1_P1 = [
+  {
+    "id": "jan25-10-s1-p1-q01",
+    "difficulty": "hard",
+    "correct": 1,
+    "unitEN": "Unit 7: Data Interpretation",
+    "unitHI": "इकाई 7: आंकड़ों की व्याख्या",
+    "topicEN": "Table Chart",
+    "topicHI": "तालिका चार्ट",
+    "content": {
+      "en": {
+        "question": TABLE_JAN25_10_S1_P1.en + "<br><br><strong>Question:</strong><br> If the ratio between number of girls and boys in College B in 2021 is 3:5 and the ratio between the number of girls and boys in College C in 2022 is 7:5, then what is the ratio between the number of girls in College B in 2021 to the number of boys of College C in 2022?",
+        "options": ["2:5", "3:5", "1:3", "2:3"],
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. <strong>College B (2021):</strong> Total students = 800. Ratio of Girls to Boys = 3:5.<br>Number of Girls = $\\frac{3}{3+5} \\times 800 = \\frac{3}{8} \\times 800 = 300$.<br>2. <strong>College C (2022):</strong> Total students = 1200. Ratio of Girls to Boys = 7:5.<br>Number of Boys = $\\frac{5}{7+5} \\times 1200 = \\frac{5}{12} \\times 1200 = 500$.<br>3. <strong>Required Ratio:</strong> Girls in B(2021) : Boys in C(2022) = 300 : 500 = <strong>3:5</strong>."
+      },
+      "hi": {
+        "question": TABLE_JAN25_10_S1_P1.hi + "<br><br><strong>प्रश्न:</strong><br> यदि 2021 में कॉलेज B में लड़कियों और लड़कों की संख्या के बीच का अनुपात 3:5 है और 2022 में कॉलेज C में लड़कियों और लड़कों की संख्या के बीच का अनुपात 7:5 है, तो 2021 में कॉलेज B में लड़कियों की संख्या का 2022 में कॉलेज C के लड़कों की संख्या से अनुपात क्या है?",
+        "options": ["2:5", "3:5", "1:3", "2:3"],
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. <strong>कॉलेज B (2021):</strong> कुल छात्र = 800। लड़कियों और लड़कों का अनुपात = 3:5।<br>लड़कियों की संख्या = $\\frac{3}{8} \\times 800 = 300$।<br>2. <strong>कॉलेज C (2022):</strong> कुल छात्र = 1200। लड़कियों और लड़कों का अनुपात = 7:5।<br>लड़कों की संख्या = $\\frac{5}{12} \\times 1200 = 500$।<br>3. <strong>आवश्यक अनुपात:</strong> B (2021) में लड़कियाँ : C (2022) में लड़के = 300 : 500 = <strong>3:5</strong>।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q02",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 7: Data Interpretation",
+    "unitHI": "इकाई 7: आंकड़ों की व्याख्या",
+    "topicEN": "Table Chart",
+    "topicHI": "तालिका चार्ट",
+    "content": {
+      "en": {
+        "question": TABLE_JAN25_10_S1_P1.en + "<br><br><strong>Question:</strong><br> Taking all the Colleges together, the total number of students enrolled in the year 2020 is ______ more than the total number of students enrolled in the year 2023.",
+        "options": ["500", "900", "300", "700"],
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. Total students in 2020 = $1200 (A) + 900 (B) + 1000 (C) + 700 (D) = 3800$.<br>2. Total students in 2023 = $600 (A) + 700 (B) + 800 (C) + 1000 (D) = 3100$.<br>3. Difference = $3800 - 3100 = <strong>700</strong>$."
+      },
+      "hi": {
+        "question": TABLE_JAN25_10_S1_P1.hi + "<br><br><strong>प्रश्न:</strong><br> सभी कॉलेजों को एक साथ लेते हुए, वर्ष 2020 में नामांकित छात्रों की कुल संख्या वर्ष 2023 में नामांकित छात्रों की कुल संख्या से ______ अधिक है।",
+        "options": ["500", "900", "300", "700"],
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. 2020 में कुल छात्र = $1200 (A) + 900 (B) + 1000 (C) + 700 (D) = 3800$।<br>2. 2023 में कुल छात्र = $600 (A) + 700 (B) + 800 (C) + 1000 (D) = 3100$।<br>3. अंतर = $3800 - 3100 = <strong>700</strong>$।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q03",
+    "difficulty": "easy",
+    "correct": 0,
+    "unitEN": "Unit 7: Data Interpretation",
+    "unitHI": "इकाई 7: आंकड़ों की व्याख्या",
+    "topicEN": "Table Chart",
+    "topicHI": "तालिका चार्ट",
+    "content": {
+      "en": {
+        "question": TABLE_JAN25_10_S1_P1.en + "<br><br><strong>Question:</strong><br> What is the average number of students enrolled in College B over all the four years?",
+        "options": ["850", "750", "840", "720"],
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. Total enrolled in College B = $900 (2020) + 800 (2021) + 1000 (2022) + 700 (2023) = 3400$.<br>2. Average = $\\frac{\\text{Total}}{\\text{Number of years}} = \\frac{3400}{4} = <strong>850</strong>$."
+      },
+      "hi": {
+        "question": TABLE_JAN25_10_S1_P1.hi + "<br><br><strong>प्रश्न:</strong><br> सभी चार वर्षों में कॉलेज B में नामांकित छात्रों की औसत संख्या क्या है?",
+        "options": ["850", "750", "840", "720"],
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. कॉलेज B में नामांकित कुल छात्र = $900 (2020) + 800 (2021) + 1000 (2022) + 700 (2023) = 3400$।<br>2. औसत = $\\frac{\\text{कुल छात्र}}{\\text{वर्षों की संख्या}} = \\frac{3400}{4} = <strong>850</strong>$।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q04",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 7: Data Interpretation",
+    "unitHI": "इकाई 7: आंकड़ों की व्याख्या",
+    "topicEN": "Table Chart",
+    "topicHI": "तालिका चार्ट",
+    "content": {
+      "en": {
+        "question": TABLE_JAN25_10_S1_P1.en + "<br><br><strong>Question:</strong><br> Number of students enrolled in College A in year 2020 and 2021 together is ______% more than the number of students enrolled in College C in the year 2022 and 2023 together.",
+        "options": ["12.5", "8.5", "10", "15"],
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. Students in College A (2020 + 2021) = $1200 + 1100 = 2300$.<br>2. Students in College C (2022 + 2023) = $1200 + 800 = 2000$.<br>3. Difference = $2300 - 2000 = 300$.<br>4. Percentage more = $(\\frac{\\text{Difference}}{\\text{College C Total}}) \\times 100$<br>   Percentage = $(\\frac{300}{2000}) \\times 100 = 15\\%$."
+      },
+      "hi": {
+        "question": TABLE_JAN25_10_S1_P1.hi + "<br><br><strong>प्रश्न:</strong><br> वर्ष 2020 और 2021 में कॉलेज A में नामांकित छात्रों की संख्या वर्ष 2022 और 2023 में कॉलेज C में नामांकित छात्रों की संख्या से ______% अधिक है।",
+        "options": ["12.5", "8.5", "10", "15"],
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. कॉलेज A में छात्र (2020 + 2021) = $1200 + 1100 = 2300$।<br>2. कॉलेज C में छात्र (2022 + 2023) = $1200 + 800 = 2000$।<br>3. अंतर = $2300 - 2000 = 300$।<br>4. प्रतिशत अधिक = $(\\frac{\\text{अंतर}}{\\text{कॉलेज C कुल}}) \\times 100$<br>   प्रतिशत = $(\\frac{300}{2000}) \\times 100 = 15\\%$।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q05",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 7: Data Interpretation",
+    "unitHI": "इकाई 7: आंकड़ों की व्याख्या",
+    "topicEN": "Table Chart",
+    "topicHI": "तालिका चार्ट",
+    "content": {
+      "en": {
+        "question": TABLE_JAN25_10_S1_P1.en + "<br><br><strong>Question:</strong><br> For College B in the year 2021, if 20% of students were enrolled in B.Sc, 30% of students were enrolled in B.Com, and the remaining students were enrolled in BCA, then what is the difference between the number of students enrolled in BCA and B.Sc?",
+        "options": ["260", "220", "230", "240"],
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. Total students in College B (2021) = 800.<br>2. Percentage in B.Sc = 20%. Percentage in B.Com = 30%.<br>3. Remaining percentage (BCA) = $100\\% - (20\\% + 30\\%) = 50\\%$.<br>4. Difference in percentage between BCA and B.Sc = $50\\% - 20\\% = 30\\%$.<br>5. Difference in number of students = $30\\% \\text{ of } 800 = 0.30 \\times 800 = <strong>240</strong>$."
+      },
+      "hi": {
+        "question": TABLE_JAN25_10_S1_P1.hi + "<br><br><strong>प्रश्न:</strong><br> वर्ष 2021 में कॉलेज B के लिए, यदि 20% छात्र B.Sc में नामांकित थे, 30% छात्र B.Com में नामांकित थे, और शेष छात्र BCA में नामांकित थे, तो BCA और B.Sc में नामांकित छात्रों की संख्या के बीच अंतर क्या है?",
+        "options": ["260", "220", "230", "240"],
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. कॉलेज B (2021) में कुल छात्र = 800।<br>2. B.Sc में प्रतिशत = 20%। B.Com में प्रतिशत = 30%।<br>3. शेष प्रतिशत (BCA) = $100\\% - (20\\% + 30\\%) = 50\\%$।<br>4. BCA और B.Sc के बीच प्रतिशत में अंतर = $50\\% - 20\\% = 30\\%$।<br>5. छात्रों की संख्या में अंतर = $800 \\text{ का } 30\\% = 0.30 \\times 800 = <strong>240</strong>$।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q06",
+    "difficulty": "easy",
+    "correct": 3,
+    "unitEN": "Unit 4: Communication",
+    "unitHI": "इकाई 4: संचार",
+    "topicEN": "Meaning, Types and Characteristics of Communication",
+    "topicHI": "संचार का अर्थ, प्रकार और विशेषताएँ",
+    "content": {
+      "en": {
+        "question": "What is Grapevine communication?",
+        "options": [
+          "Corporate Communication",
+          "Agri based Communication",
+          "Formal Communication",
+          "Informal Communication"
+        ],
+        "explanation": "<strong>Grapevine communication</strong> is the unofficial and informal method of communication within an organization. It occurs naturally through social interactions, gossip, and rumors, bypassing the formal structural channels."
+      },
+      "hi": {
+        "question": "ग्रेपवाइन (Grapevine) संचार क्या है?",
+        "options": [
+          "कॉर्पोरेट संचार",
+          "कृषि आधारित संचार",
+          "औपचारिक संचार",
+          "अनौपचारिक संचार (Informal Communication)"
+        ],
+        "explanation": "<strong>ग्रेपवाइन संचार (Grapevine communication)</strong> किसी संगठन के भीतर संचार की एक अनौपचारिक (informal) और अनधिकृत विधि है। यह औपचारिक संरचनात्मक चैनलों को दरकिनार करते हुए, सामाजिक बातचीत, गपशप और अफवाहों के माध्यम से स्वाभाविक रूप से होता है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q07",
+    "difficulty": "hard",
+    "correct": 3,
+    "unitEN": "Unit 6: Logical Reasoning",
+    "unitHI": "इकाई 6: तार्किक विचार",
+    "topicEN": "Indian Logic: Hetvabhasas (Fallacies of Inference)",
+    "topicHI": "भारतीय तर्क: हेत्वाभास (अनुमान की भ्रांतियाँ)",
+    "content": {
+      "en": {
+        "question": "What among the following can be said about the fallacy of Savyabhicāra (irregular middle)?",
+        "options": [
+          "It leads to a single conclusion",
+          "The hetu in it, is uniformly constant with the major term",
+          "The hetu in it, is only related to the non-existence of the major term",
+          "It leads to different opposite conclusions"
+        ],
+        "explanation": "In Indian Logic, <strong>Savyabhicāra</strong> is the fallacy of the irregular or straying middle term. It occurs when the middle term (Hetu) is not uniformly concomitant with the major term, meaning the middle term exists in both objects that possess the major term and objects that lack it. Because it strays, it does not lead to one definite conclusion but rather <strong>leads to different opposite conclusions</strong>."
+      },
+      "hi": {
+        "question": "सव्यभिचार (अनियमित मध्य) की भ्रांति के बारे में निम्नलिखित में से क्या कहा जा सकता है?",
+        "options": [
+          "इससे एक ही निष्कर्ष निकलता है",
+          "इसमें हेतु, प्रमुख पद के साथ समान रूप से स्थिर है",
+          "इसमें हेतु केवल प्रमुख शब्द की गैर-मौजूदगी से संबंधित है",
+          "इससे भिन्न-भिन्न विपरीत निष्कर्ष निकलते हैं"
+        ],
+        "explanation": "भारतीय तर्कशास्त्र में, <strong>सव्यभिचार</strong> अनियमित या भटकते हुए मध्य पद (हेतु) की भ्रांति है। यह तब होता है जब मध्य पद (हेतु) समान रूप से प्रमुख पद के साथ सहवर्ती नहीं होता है, जिसका अर्थ है कि मध्य पद उन दोनों वस्तुओं में मौजूद है जिनमें प्रमुख पद है और जिनमें नहीं है। क्योंकि यह भटकता है, यह किसी एक निश्चित निष्कर्ष पर नहीं जाता बल्कि <strong>विभिन्न विपरीत निष्कर्षों की ओर ले जाता है</strong>।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q08",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 2: Research Aptitude",
+    "unitHI": "इकाई 2: शोध अभिरुचि",
+    "topicEN": "Steps of Research",
+    "topicHI": "शोध के चरण",
+    "content": {
+      "en": {
+        "question": "Which among the following is used for judging the significance of several statistical measures, particularly the mean?",
+        "options": ["χ²-test", "Z-test", "Kruskal-Wallis test", "F-test"],
+        "explanation": "The <strong>Z-test</strong> is a fundamental statistical test used to determine whether two population means are different when the variances are known and the sample size is large (n > 30). It is heavily utilized for judging the statistical significance of sample means in relation to the population mean. <br><em>(Note: While ANOVA/F-test compares multiple means, the Z-test is specifically the classic test for judging the significance of the mean itself).</em>"
+      },
+      "hi": {
+        "question": "निम्नलिखित में से किसका उपयोग कई सांख्यिकीय उपायों, विशेषरूप से माध्य के महत्व को तय करने के लिए किया जाता है?",
+        "options": ["χ²-परीक्षण", "Z-परीक्षण (Z-test)", "क्रुस्कल-वालिस परीक्षण", "F-परीक्षण"],
+        "explanation": "<strong>Z-परीक्षण (Z-test)</strong> एक मौलिक सांख्यिकीय परीक्षण है जिसका उपयोग यह निर्धारित करने के लिए किया जाता है कि क्या दो जनसंख्या के माध्य (means) भिन्न हैं जब भिन्नता ज्ञात होती है और नमूना आकार बड़ा (n > 30) होता है। जनसंख्या के माध्य के संबंध में नमूना माध्य के सांख्यिकीय महत्व को आंकने के लिए इसका अत्यधिक उपयोग किया जाता है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q09",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 9: People, Development and Environment",
+    "unitHI": "इकाई 9: लोग, विकास और पर्यावरण",
+    "topicEN": "International Environmental Agreements and Protocols",
+    "topicHI": "अंतर्राष्ट्रीय पर्यावरण समझौते और प्रोटोकॉल",
+    "content": {
+      "en": {
+        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>List-I (Environmental Treaty/Convention)</th><th style='padding:8px 10px;'>List-II (Focus Area)</th></tr><tr><td style='padding:8px 10px;'>A. Bonn Convention</td><td style='padding:8px 10px;'>I. Migratory Species Conservation</td></tr><tr><td style='padding:8px 10px;'>B. CITES</td><td style='padding:8px 10px;'>II. Convention on Biological Diversity</td></tr><tr><td style='padding:8px 10px;'>C. Earth Summit</td><td style='padding:8px 10px;'>III. Trades in Endangered Species</td></tr><tr><td style='padding:8px 10px;'>D. Nagoya Protocol</td><td style='padding:8px 10px;'>IV. Sustainable Development</td></tr></table><br>Choose the correct answer from the options given below:",
+        "options": [
+          "A-IV, B-III, C-II, D-I",
+          "A-I, B-III, C-IV, D-II",
+          "A-II, B-IV, C-III, D-I",
+          "A-III, B-I, C-IV, D-II"
+        ],
+        "explanation": "<strong>Matching Environmental Treaties:</strong><br>• <strong>Bonn Convention (A-I):</strong> Focuses on the conservation of Migratory Species of Wild Animals.<br>• <strong>CITES (B-III):</strong> Convention on International Trade in Endangered Species of Wild Fauna and Flora.<br>• <strong>Earth Summit 1992 (C-IV):</strong> Focused broadly on Sustainable Development (Agenda 21).<br>• <strong>Nagoya Protocol (D-II):</strong> A supplementary agreement to the Convention on Biological Diversity (CBD) regarding genetic resources.<br>Correct order: A-I, B-III, C-IV, D-II."
+      },
+      "hi": {
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>सूची-I (पर्यावरण संधि/सम्मेलन)</th><th style='padding:8px 10px;'>सूची-II (फोकस क्षेत्र)</th></tr><tr><td style='padding:8px 10px;'>A. बॉन कन्वेंशन</td><td style='padding:8px 10px;'>I. प्रवासी प्रजाति संरक्षण</td></tr><tr><td style='padding:8px 10px;'>B. सीआईटीईएस (CITES)</td><td style='padding:8px 10px;'>II. जैविक विविधता पर सम्मेलन</td></tr><tr><td style='padding:8px 10px;'>C. पृथ्वी शिखर सम्मेलन</td><td style='padding:8px 10px;'>III. लुप्तप्राय प्रजातियों का व्यापार</td></tr><tr><td style='padding:8px 10px;'>D. नागोया प्रोटोकॉल</td><td style='padding:8px 10px;'>IV. सतत विकास</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "A-IV, B-III, C-II, D-I",
+          "A-I, B-III, C-IV, D-II",
+          "A-II, B-IV, C-III, D-I",
+          "A-III, B-I, C-IV, D-II"
+        ],
+        "explanation": "<strong>पर्यावरण संधियों का मिलान:</strong><br>• <strong>बॉन कन्वेंशन (A-I):</strong> जंगली जानवरों की प्रवासी प्रजातियों के संरक्षण पर केंद्रित है।<br>• <strong>सीआईटीईएस/CITES (B-III):</strong> लुप्तप्राय प्रजातियों (Endangered Species) के अंतर्राष्ट्रीय व्यापार पर कन्वेंशन।<br>• <strong>पृथ्वी शिखर सम्मेलन/Earth Summit (C-IV):</strong> मोटे तौर पर सतत विकास (एजेंडा 21) पर केंद्रित है।<br>• <strong>नागोया प्रोटोकॉल (D-II):</strong> आनुवंशिक संसाधनों के संबंध में जैविक विविधता पर कन्वेंशन (CBD) का एक पूरक समझौता।<br>सही क्रम: A-I, B-III, C-IV, D-II।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q10",
+    "difficulty": "easy",
+    "correct": 3,
+    "unitEN": "Unit 8: Information and Communication Technology (ICT)",
+    "unitHI": "इकाई 8: सूचना और संचार प्रौद्योगिकी (ICT)",
+    "topicEN": "Digital Initiatives in Higher Education",
+    "topicHI": "उच्च शिक्षा में डिजिटल पहल",
+    "content": {
+      "en": {
+        "question": "Which of the following are most suitable tools for creating interactive teaching and learning material?<br><br>A. Genially<br>B. Learningapps.org<br>C. Interacty<br>D. H5P<br>E. Educaplay<br><br>Choose the correct answer from the options given below:",
+        "options": [
+          "A, C and E Only",
+          "B and D Only",
+          "A, B, D and E Only",
+          "A, B, C, D and E"
+        ],
+        "explanation": "<strong>ALL</strong> of the listed tools (Genially, Learningapps.org, Interacty, H5P, and Educaplay) are highly popular, specifically designed EdTech platforms meant for creating interactive digital teaching and learning materials like quizzes, interactive presentations, games, and multimedia activities."
+      },
+      "hi": {
+        "question": "इंटरैक्टिव शिक्षण और सीखने की सामग्री बनाने के लिए निम्नलिखित में से कौन सा उपकरण सबसे उपयुक्त है?<br><br>A. जेनियली (Genially)<br>B. लर्निंगएप्स.ऑर्ग (Learningapps.org)<br>C. इंटरैक्टी (Interacty)<br>D. एच5पी (H5P)<br>E. एजुकाप्ले (Educaplay)<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "केवल A, C और E",
+          "केवल B और D",
+          "केवल A, B, D और E",
+          "A, B, C, D और E"
+        ],
+        "explanation": "सूचीबद्ध <strong>सभी</strong> उपकरण (Genially, Learningapps.org, Interacty, H5P, और Educaplay) अत्यधिक लोकप्रिय हैं, विशेष रूप से डिज़ाइन किए गए EdTech प्लेटफ़ॉर्म हैं जिनका उद्देश्य क्विज़, इंटरैक्टिव प्रस्तुतियाँ, गेम और मल्टीमीडिया गतिविधियों जैसी इंटरैक्टिव डिजिटल शिक्षण और सीखने की सामग्री बनाना है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q11",
+    "difficulty": "medium",
+    "correct": 0,
+    "unitEN": "Unit 10: Higher Education System",
+    "unitHI": "इकाई 10: उच्च शिक्षा प्रणाली",
+    "topicEN": "Policies, Governance and Administration",
+    "topicHI": "नीतियाँ, शासन और प्रशासन",
+    "content": {
+      "en": {
+        "question": "Pick the correct statements pertaining to NEP 2020.<br><br>A. It promotes multiple entry-multiple exit<br>B. It promotes English education<br>C. It promotes multi and inter-disciplinarity<br>D. It promotes privatization-philanthropic participation in Education<br><br>Choose the correct answer from the options given below:",
+        "options": [
+          "A, C and D Only",
+          "B and D Only",
+          "B, C and D Only",
+          "A and B Only"
+        ],
+        "explanation": "<strong>Key Features of NEP 2020:</strong><br>• <strong>(A) True:</strong> It introduces flexible degree programs with Multiple Entry and Exit options.<br>• <strong>(B) False:</strong> It strongly promotes instruction in the <em>mother tongue / regional languages</em> (up to at least Grade 5), rather than exclusively promoting English education.<br>• <strong>(C) True:</strong> It heavily emphasizes a multidisciplinary and interdisciplinary approach in higher education.<br>• <strong>(D) True:</strong> It encourages private philanthropic participation (via a \"light but tight\" regulatory framework) to boost educational infrastructure.<br>Hence, A, C, and D are correct."
+      },
+      "hi": {
+        "question": "NEP 2020 से संबंधित सही कथन चुनें।<br><br>A. यह बहु प्रवेश-बहु निकास को बढ़ावा देता है<br>B. यह अंग्रेजी शिक्षा को बढ़ावा देता है<br>C. यह बहु और अंतः अनुशासनात्मकता को बढ़ावा देता है<br>D. यह शिक्षा में निजीकरण-परोपकारी भागीदारी को बढ़ावा देता है<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "केवल A, C और D",
+          "केवल B और D",
+          "केवल B, C और D",
+          "केवल A और B"
+        ],
+        "explanation": "<strong>NEP 2020 की मुख्य विशेषताएं:</strong><br>• <strong>(A) सत्य:</strong> यह मल्टीपल एंट्री और एग्जिट विकल्पों के साथ लचीले डिग्री प्रोग्राम पेश करता है।<br>• <strong>(B) असत्य:</strong> यह विशेष रूप से अंग्रेजी शिक्षा को बढ़ावा देने के बजाय <em>मातृभाषा / क्षेत्रीय भाषाओं</em> (कम से कम ग्रेड 5 तक) में शिक्षा को दृढ़ता से बढ़ावा देता है।<br>• <strong>(C) सत्य:</strong> यह उच्च शिक्षा में बहु-विषयक (multidisciplinary) और अंतःविषय दृष्टिकोण पर जोर देता है।<br>• <strong>(D) सत्य:</strong> यह शैक्षिक बुनियादी ढांचे को बढ़ावा देने के लिए निजी परोपकारी भागीदारी (निजीकरण) को प्रोत्साहित करता है।<br>अतः A, C और D सही हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q12",
+    "difficulty": "easy",
+    "correct": 0,
+    "unitEN": "Unit 2: Research Aptitude",
+    "unitHI": "इकाई 2: शोध अभिरुचि",
+    "topicEN": "Thesis and Article Writing: Format and Styles of Referencing",
+    "topicHI": "शोध प्रबंध और लेख लेखन: संदर्भ शैलियाँ",
+    "content": {
+      "en": {
+        "question": "Which of the following is a variant of the Harvard style of referencing?",
+        "options": ["APA", "Chicago", "IEEE", "MLA"],
+        "explanation": "The <strong>Harvard referencing style</strong> is an \"author-date\" system. The <strong>APA (American Psychological Association)</strong> style is highly derivative and considered a major structural variant of the Harvard (author-date) referencing system."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से कौन सा हावर्ड (Harvard) शैली का संदर्भ संस्करण (variant) है?",
+        "options": ["APA", "Chicago", "IEEE", "MLA"],
+        "explanation": "<strong>हार्वर्ड रेफरेंसिंग शैली</strong> एक \"लेखक-तिथि (author-date)\" प्रणाली है। <strong>एपीए (APA - अमेरिकन साइकोलॉजिकल एसोसिएशन)</strong> शैली हार्वर्ड (लेखक-तारीख) संदर्भ प्रणाली का एक प्रमुख संरचनात्मक संस्करण (variant) मानी जाती है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q13",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 10: Higher Education System",
+    "unitHI": "इकाई 10: उच्च शिक्षा प्रणाली",
+    "topicEN": "Institutions of Higher Learning and Education in Ancient India",
+    "topicHI": "प्राचीन भारत में उच्च शिक्षा के संस्थान और शिक्षा",
+    "content": {
+      "en": {
+        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>List-I (Institutions)</th><th style='padding:8px 10px;'>List-II (Propounders)</th></tr><tr><td style='padding:8px 10px;'>A. Milind College</td><td style='padding:8px 10px;'>I. B.R. Ambedkar</td></tr><tr><td style='padding:8px 10px;'>B. Rajghat Besant School</td><td style='padding:8px 10px;'>II. Sri Aurobindo</td></tr><tr><td style='padding:8px 10px;'>C. Banasthali Vidyapeeth</td><td style='padding:8px 10px;'>III. Hiralal Shastri</td></tr><tr><td style='padding:8px 10px;'>D. Auroville</td><td style='padding:8px 10px;'>IV. Jiddu Krishnamurti</td></tr></table><br>Choose the correct answer from the options given below:",
+        "options": [
+          "A-IV, B-III, C-II, D-I",
+          "A-III, B-II, C-I, D-IV",
+          "A-II, B-I, C-IV, D-III",
+          "A-I, B-IV, C-III, D-II"
+        ],
+        "explanation": "<strong>Matching Educational Institutions:</strong><br>• <strong>Milind College (A-I):</strong> Founded by Dr. B.R. Ambedkar in Aurangabad.<br>• <strong>Rajghat Besant School (B-IV):</strong> Founded by the philosopher Jiddu Krishnamurti in Varanasi.<br>• <strong>Banasthali Vidyapeeth (C-III):</strong> Founded by Hiralal Shastri for women's education.<br>• <strong>Auroville (D-II):</strong> An experimental township in South India inspired by the vision of Sri Aurobindo.<br>Correct match: A-I, B-IV, C-III, D-II."
+      },
+      "hi": {
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>सूची-I (संस्थाएँ)</th><th style='padding:8px 10px;'>सूची-II (प्रस्तावक)</th></tr><tr><td style='padding:8px 10px;'>A. मिलिंद कॉलेज</td><td style='padding:8px 10px;'>I. बीआर अंबेडकर</td></tr><tr><td style='padding:8px 10px;'>B. राजघाट बेसेंट स्कूल</td><td style='padding:8px 10px;'>II. श्री अरबिंदो</td></tr><tr><td style='padding:8px 10px;'>C. बनस्थली विद्यापीठ</td><td style='padding:8px 10px;'>III. हीरालाल शास्त्री</td></tr><tr><td style='padding:8px 10px;'>D. ऑरोविले</td><td style='padding:8px 10px;'>IV. जिद्दू कृष्णमूर्ति</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "A-IV, B-III, C-II, D-I",
+          "A-III, B-II, C-I, D-IV",
+          "A-II, B-I, C-IV, D-III",
+          "A-I, B-IV, C-III, D-II"
+        ],
+        "explanation": "<strong>शैक्षणिक संस्थानों का मिलान:</strong><br>• <strong>मिलिंद कॉलेज (A-I):</strong> औरंगाबाद में डॉ बीआर अंबेडकर द्वारा स्थापित।<br>• <strong>राजघाट बेसेंट स्कूल (B-IV):</strong> वाराणसी में दार्शनिक जिद्दू कृष्णमूर्ति द्वारा स्थापित।<br>• <strong>बनस्थली विद्यापीठ (C-III):</strong> महिला शिक्षा के लिए हीरालाल शास्त्री द्वारा स्थापित।<br>• <strong>ऑरोविले (D-II):</strong> श्री अरबिंदो के दृष्टिकोण से प्रेरित दक्षिण भारत में एक प्रायोगिक टाउनशिप।<br>सही मिलान: A-I, B-IV, C-III, D-II।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q14",
+    "difficulty": "easy",
+    "correct": 0,
+    "unitEN": "Unit 9: People, Development and Environment",
+    "unitHI": "इकाई 9: लोग, विकास और पर्यावरण",
+    "topicEN": "Environmental Issues: Noise Pollution",
+    "topicHI": "पर्यावरणीय मुद्दे: ध्वनि प्रदूषण",
+    "content": {
+      "en": {
+        "question": "Which of the following is represented by Noise Index L₉₀?",
+        "options": [
+          "Background noise level",
+          "Average noise level",
+          "Peak noise level",
+          "Threshold noise level"
+        ],
+        "explanation": "In acoustics and environmental noise measurement, <strong>$L_{90}$</strong> is the noise level exceeded for 90% of the measurement period. Since it captures the constant, underlying noise, it is universally used to represent the <strong>Background noise level</strong>."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से किसे शोर सूचकांक L₉₀ द्वारा दर्शाया जाता है?",
+        "options": [
+          "पृष्ठभूमि शोर का स्तर (Background noise level)",
+          "औसत शोर स्तर",
+          "अधिकतम शोर स्तर",
+          "सीमा शोर स्तर"
+        ],
+        "explanation": "ध्वनिकी और पर्यावरणीय शोर माप में, <strong>$L_{90}$</strong> वह शोर स्तर है जो माप की अवधि के 90% से अधिक रहता है। चूँकि यह स्थिर शोर को पकड़ता है, इसलिए इसका सार्वभौमिक रूप से <strong>पृष्ठभूमि शोर (Background noise) स्तर</strong> को दर्शाने के लिए उपयोग किया जाता है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q15",
+    "difficulty": "easy",
+    "correct": 1,
+    "unitEN": "Unit 9: People, Development and Environment",
+    "unitHI": "इकाई 9: लोग, विकास और पर्यावरण",
+    "topicEN": "Human and Environment Interaction",
+    "topicHI": "मानव और पर्यावरण की अंतर्क्रिया",
+    "content": {
+      "en": {
+        "question": "Total gain in Biomass by an animal is known as:",
+        "options": [
+          "Gross Primary Productivity",
+          "Gross Secondary Productivity",
+          "Net Primary Productivity",
+          "Net Secondary Productivity"
+        ],
+        "explanation": "<strong>Gross Secondary Productivity</strong> is the total amount of energy or biomass assimilated by consumers (animals/heterotrophs) through feeding. <em>Primary productivity</em> only relates to plants/autotrophs."
+      },
+      "hi": {
+        "question": "किसी जानवर द्वारा बायोमास में कुल लाभ को किस नाम से जाना जाता है?",
+        "options": [
+          "सकल प्राथमिक उत्पादकता",
+          "सकल माध्यमिक उत्पादकता (Gross Secondary Productivity)",
+          "शुद्ध प्राथमिक उत्पादकता",
+          "शुद्ध द्वितीयक उत्पादकता"
+        ],
+        "explanation": "<strong>सकल माध्यमिक उत्पादकता (Gross Secondary Productivity)</strong> उपभोक्ताओं (जानवरों/परपोषी) द्वारा भोजन के माध्यम से आत्मसात की गई ऊर्जा या बायोमास की कुल मात्रा है। <em>प्राथमिक उत्पादकता</em> केवल पौधों/स्वपोषी जीवों से संबंधित है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q16",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 10: Higher Education System",
+    "unitHI": "इकाई 10: उच्च शिक्षा प्रणाली",
+    "topicEN": "Institutions of Higher Learning and Education in Ancient India",
+    "topicHI": "प्राचीन भारत में उच्च शिक्षा के संस्थान और शिक्षा",
+    "content": {
+      "en": {
+        "question": "Which amongst the following is NOT a Buddhist monastic University?",
+        "options": ["Nalanda", "Takshashila", "Vikramshila", "Odantpuri"],
+        "explanation": "While Nalanda, Vikramshila, and Odantpuri were famous Mahaviharas (Buddhist monastic universities) established under the Pala Empire, <strong>Takshashila (Taxila)</strong> predates them. It was a secular, ancient Brahminical center of learning (where Chanakya and Panini taught) and not strictly a Buddhist monastic university."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से कौन बौद्ध मठ विश्वविद्यालय नहीं है?",
+        "options": ["नालंदा", "तक्षशिला", "विक्रमशिला", "ओदंतपुरी"],
+        "explanation": "जहाँ नालंदा, विक्रमशिला और ओदंतपुरी पाल साम्राज्य के तहत स्थापित प्रसिद्ध महाविहार (बौद्ध मठ विश्वविद्यालय) थे, <strong>तक्षशिला (Taxila)</strong> उनसे पहले का है। यह सीखने का एक धर्मनिरपेक्ष, प्राचीन ब्राह्मणवादी केंद्र था (जहाँ चाणक्य और पाणिनी ने पढ़ाया था) और कड़ाई से बौद्ध मठ विश्वविद्यालय नहीं था।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q17",
+    "difficulty": "easy",
+    "correct": 3,
+    "unitEN": "Unit 8: Information and Communication Technology (ICT)",
+    "unitHI": "इकाई 8: सूचना और संचार प्रौद्योगिकी (ICT)",
+    "topicEN": "Basics of Internet, Intranet and Cloud Computing",
+    "topicHI": "इंटरनेट, इंट्रानेट और क्लाउड कंप्यूटिंग की मूल बातें",
+    "content": {
+      "en": {
+        "question": "The form of computing utilized by an email service is:",
+        "options": ["Distributed", "Grid", "P2P", "Cloud"],
+        "explanation": "Web-based email services (like Gmail, Outlook, Yahoo) operate on <strong>Cloud Computing</strong> infrastructure. The software, processing, and data storage (Software as a Service - SaaS) are entirely managed remotely on cloud servers over the internet."
+      },
+      "hi": {
+        "question": "ईमेल सेवा द्वारा उपयोग किया जाने वाला कंप्यूटिंग का रूप क्या है?",
+        "options": ["Distributed", "Grid", "P2P", "Cloud (क्लाउड)"],
+        "explanation": "वेब-आधारित ईमेल सेवाएँ (जैसे जीमेल, आउटलुक, याहू) <strong>क्लाउड कंप्यूटिंग (Cloud Computing)</strong> बुनियादी ढांचे पर काम करती हैं। सॉफ्टवेयर, प्रोसेसिंग और डेटा स्टोरेज (सॉफ्टवेयर एज़ ए सर्विस - SaaS) को पूरी तरह से इंटरनेट पर क्लाउड सर्वर पर दूरस्थ रूप से प्रबंधित किया जाता है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q18",
+    "difficulty": "hard",
+    "correct": 1,
+    "unitEN": "Unit 6: Logical Reasoning",
+    "unitHI": "इकाई 6: तार्किक विचार",
+    "topicEN": "Indian Logic: Means of Knowledge (Pramanas)",
+    "topicHI": "भारतीय तर्क: ज्ञान के साधन (प्रमाण)",
+    "content": {
+      "en": {
+        "question": "Which school among the following upholds perception as an unerring knowledge of the unique particular?",
+        "options": ["Nyāya", "Buddhism", "Vaiśesika", "Jaina"],
+        "explanation": "In Indian philosophy, the <strong>Buddhist</strong> epistemologists (especially Dignaga and Dharmakirti) define perception (Pratyaksha) as \"free from conceptual construction and non-erroneous\" (<em>kalpanapodham abhrantam</em>). For them, true perception only apprehends the \"unique particular\" (<em>Svalakshana</em>) which is real and momentary."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से कौन सा स्कूल प्रत्यक्षीकरण को अद्वितीय विशेष के अचूक ज्ञान के रूप में मानता है?",
+        "options": ["न्याय", "बुद्ध धर्म", "वैशेषिक", "जैन"],
+        "explanation": "भारतीय दर्शन में, <strong>बौद्ध</strong> ज्ञानमीमांसक (विशेष रूप से दिग्नाग और धर्मकीर्ति) धारणा/प्रत्यक्षीकरण (प्रत्यक्ष) को \"वैचारिक निर्माण से मुक्त और गैर-गलत\" (<em>कल्पनापोढम अभ्रांतम</em>) के रूप में परिभाषित करते हैं। उनके लिए, सच्ची धारणा केवल \"अद्वितीय विशेष\" (<em>स्वलक्षण</em>) को समझती है जो वास्तविक और क्षणिक है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q19",
+    "difficulty": "hard",
+    "correct": 2,
+    "unitEN": "Unit 5: Mathematical Reasoning and Aptitude",
+    "unitHI": "इकाई 5: गणितीय तर्क और अभिरुचि",
+    "topicEN": "Time and Distance",
+    "topicHI": "समय और दूरी",
+    "content": {
+      "en": {
+        "question": "A train travels at a certain average speed for a distance of 63 km and then travels a distance of 72 km at an average speed of 6 km/h more than its original speed. If it takes 3 hours to complete the total journey, what is the original speed?",
+        "options": ["48 km/h", "40 km/h", "42 km/h", "32 km/h"],
+        "explanation": "<strong>Step-by-step Solution:</strong><br>1. Let the original speed be $v$ km/h.<br>2. Total time = $Time_1 + Time_2 = 3$ hours.<br>   $\\frac{63}{v} + \\frac{72}{v+6} = 3$<br>3. Divide the entire equation by 3 to simplify:<br>   $\\frac{21}{v} + \\frac{24}{v+6} = 1$<br>4. Multiply by $v(v+6)$:<br>   $21(v+6) + 24v = v^2 + 6v$<br>   $21v + 126 + 24v = v^2 + 6v$<br>   $45v + 126 = v^2 + 6v$<br>5. Rearrange into a quadratic equation: $v^2 - 39v - 126 = 0$<br>6. Factorize: $v^2 - 42v + 3v - 126 = 0 \\implies (v-42)(v+3) = 0$.<br>Since speed cannot be negative, $v = <strong>42 \\text{ km/h}</strong>$."
+      },
+      "hi": {
+        "question": "एक रेलगाड़ी 63 किमी की दूरी एक निश्चित औसत गति से तय करती है और फिर 72 किमी की दूरी अपनी मूल गति से 6 किमी/घंटा अधिक की औसत गति से तय करती है। यदि पूरी यात्रा पूरी करने में उसे 3 घंटे लगते हैं, तो मूल गति क्या है?",
+        "options": ["48 किमी/घंटा", "40 किमी/घंटा", "42 किमी/घंटा", "32 किमी/घंटा"],
+        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>1. मान लीजिए कि मूल गति $v$ किमी/घंटा है।<br>2. कुल समय = $Time_1 + Time_2 = 3$ घंटे।<br>   $\\frac{63}{v} + \\frac{72}{v+6} = 3$<br>3. सरल करने के लिए पूरे समीकरण को 3 से विभाजित करें:<br>   $\\frac{21}{v} + \\frac{24}{v+6} = 1$<br>4. $v(v+6)$ से गुणा करें:<br>   $21(v+6) + 24v = v^2 + 6v$<br>   $21v + 126 + 24v = v^2 + 6v$<br>   $45v + 126 = v^2 + 6v$<br>5. द्विघात समीकरण (quadratic equation) में पुनर्व्यवस्थित करें: $v^2 - 39v - 126 = 0$<br>6. गुणनखंडन (Factorize): $v^2 - 42v + 3v - 126 = 0 \\implies (v-42)(v+3) = 0$।<br>चूँकि गति नकारात्मक नहीं हो सकती, $v = <strong>42 \\text{ किमी/घंटा}</strong>$।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q20",
+    "difficulty": "medium",
+    "correct": 2,
+    "unitEN": "Unit 8: Information and Communication Technology (ICT)",
+    "unitHI": "इकाई 8: सूचना और संचार प्रौद्योगिकी (ICT)",
+    "topicEN": "ICT General Abbreviations and Terminology",
+    "topicHI": "ICT सामान्य संक्षिप्ताक्षर और शब्दावली",
+    "content": {
+      "en": {
+        "question": "Which of the following statements are correct in the context of the operating system?<br><br>A. Utility program is the first program loaded into the computer during booting.<br>B. Multiprogramming was introduced for interleaved execution of multiple jobs by the same CPU.<br>C. DOS is an example of a single-user operating system.<br>D. Mainframe computer uses a multiuser operating system.<br><br>Choose the correct answer from the options given below:",
+        "options": [
+          "A, B, and C Only",
+          "A, B, and D Only",
+          "B, C, and D Only",
+          "A, C, and D Only"
+        ],
+        "explanation": "<strong>Evaluating OS Statements:</strong><br>• <strong>(A) False:</strong> The Bootstrap loader (or BIOS) is the first program loaded, not a utility program.<br>• <strong>(B) True:</strong> Multiprogramming allows a single CPU to execute multiple jobs by switching between them (interleaved execution).<br>• <strong>(C) True:</strong> DOS (Disk Operating System) is a classic example of a single-user, single-tasking OS.<br>• <strong>(D) True:</strong> Mainframes handle thousands of concurrent users, hence they use complex multiuser operating systems.<br>Thus, B, C, and D are correct."
+      },
+      "hi": {
+        "question": "ऑपरेटिंग सिस्टम के संदर्भ में निम्नलिखित में से कौन से कथन सही हैं?<br><br>A. यूटिलिटी प्रोग्राम बूटिंग के दौरान कंप्यूटर में लोड किया जाने वाला पहला प्रोग्राम है।<br>B. मल्टीप्रोग्रामिंग को एक ही CPU द्वारा कई जॉब्स के इंटरलीव्ड निष्पादन के लिए पेश किया गया था।<br>C. DOS सिंगल-यूजर ऑपरेटिंग सिस्टम का एक उदाहरण है।<br>D. मेनफ्रेम कंप्यूटर मल्टीयूजर ऑपरेटिंग सिस्टम का उपयोग करता है।<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "केवल A, B और C",
+          "केवल A, B और D",
+          "केवल B, C और D",
+          "केवल A, C और D"
+        ],
+        "explanation": "<strong>OS कथनों का मूल्यांकन:</strong><br>• <strong>(A) असत्य:</strong> बूटस्ट्रैप लोडर (या BIOS) लोड किया गया पहला प्रोग्राम है, न कि कोई यूटिलिटी प्रोग्राम।<br>• <strong>(B) सत्य:</strong> मल्टीप्रोग्रामिंग एक सिंगल सीपीयू को कई कार्यों के बीच स्विच करके (इंटरलिव्ड निष्पादन) निष्पादित करने की अनुमति देता है।<br>• <strong>(C) सत्य:</strong> DOS (डिस्क ऑपरेटिंग सिस्टम) सिंगल-यूजर, सिंगल-टास्किंग OS का एक उत्कृष्ट उदाहरण है।<br>• <strong>(D) सत्य:</strong> मेनफ्रेम हजारों समवर्ती उपयोगकर्ताओं को संभालते हैं, इसलिए वे जटिल मल्टीयूजर ऑपरेटिंग सिस्टम का उपयोग करते हैं।<br>इस प्रकार, B, C, और D सही हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q21",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 6: Logical Reasoning",
+    "unitHI": "इकाई 6: तार्किक विचार",
+    "topicEN": "Formal and Informal Fallacies",
+    "topicHI": "औपचारिक और अनौपचारिक तर्कदोष",
+    "content": {
+      "en": {
+        "question": "Identify the fallacy in the following: \"Only man has an immortal soul\". No woman is a man. Therefore, no woman has an immortal soul.\"",
+        "options": [
+          "Strawman",
+          "Equivocation",
+          "Red Herring",
+          "Bandwagon argument"
+        ],
+        "explanation": "This argument commits the fallacy of <strong>Equivocation</strong>, which occurs when a key term is used with two different meanings in the same argument. <br>In the first premise, \"man\" means humanity or mankind as a whole. In the second premise, \"man\" is used in a gender-specific way (male). Because the meaning shifts, the conclusion is fallacious."
+      },
+      "hi": {
+        "question": "निम्नलिखित में भ्रांति की पहचान करें: \"केवल पुरुष के पास अमर आत्मा होती है\"। कोई भी महिला पुरुष नहीं है। इसलिए, किसी भी महिला के पास अमर आत्मा नहीं होती।\"",
+        "options": [
+          "काकिगौडा",
+          "गोल-मोल बात (Equivocation)",
+          "रेड हेरिंग",
+          "बैंडवैगन तर्क"
+        ],
+        "explanation": "यह तर्क <strong>गोल-मोल बात (Equivocation)</strong> की भ्रांति को दर्शाता है, जो तब होता है जब एक ही तर्क में दो अलग-अलग अर्थों के साथ एक प्रमुख शब्द का उपयोग किया जाता है।<br>पहले आधारवाक्य में, \"पुरुष/मैन\" का अर्थ पूरी मानवता या मानव जाति है। दूसरे आधारवाक्य में, \"मैन\" का प्रयोग लिंग-विशिष्ट तरीके (नर) में किया गया है। चूँकि अर्थ बदल जाता है, इसलिए निष्कर्ष भ्रामक है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q22",
+    "difficulty": "hard",
+    "correct": 1,
+    "unitEN": "Unit 6: Logical Reasoning",
+    "unitHI": "इकाई 6: तार्किक विचार",
+    "topicEN": "Structure of Categorical Propositions: Mood and Figure",
+    "topicHI": "श्रेणीबद्ध प्रस्तावों की संरचना: मूड और आकृति",
+    "content": {
+      "en": {
+        "question": "Identify the correct claims in the context of MOOD-AII in IIⁿᵈ figure.<br><br>A. The middle term appears as predicate in both the premises<br>B. It commits fallacy of undistributed middle term<br>C. Middle term is distributed in the major premise<br>D. Draws negative conclusion from affirmative premise<br>E. Conclusion distributes neither of its terms<br><br>Choose the correct answer from the options given below:",
+        "options": [
+          "C and D Only",
+          "A, B and E Only",
+          "B and C Only",
+          "B, C and D Only"
+        ],
+        "explanation": "<strong>Analyzing Syllogism AII in Figure 2:</strong><br>• Figure 2 structure: Middle term (M) is the <strong>predicate</strong> in both premises. (So, <strong>A is true</strong>).<br>• Major Premise (A): All P is M. (M is the predicate of an 'A' proposition, so it is <em>undistributed</em>).<br>• Minor Premise (I): Some S is M. (M is the predicate of an 'I' proposition, so it is <em>undistributed</em>).<br>• Because the middle term is undistributed in both premises, it commits the <strong>Fallacy of the Undistributed Middle</strong>. (So, <strong>B is true</strong>, and C is false).<br>• Conclusion (I): Some S is P. An 'I' proposition distributes <em>neither</em> the subject nor the predicate. (So, <strong>E is true</strong>).<br>Therefore, A, B, and E are the correct claims."
+      },
+      "hi": {
+        "question": "IInd आकृति में MOOD-AII के संदर्भ में सही दावों की पहचान करें।<br><br>A. मध्य पद दोनों आधारों में विधेय के रूप में प्रकट होता है<br>B. यह अविभाजित मध्य पद की भ्रांति करता है<br>C. मध्य पद प्रमुख आधार में वितरित होता है<br>D. सकारात्मक आधार से नकारात्मक निष्कर्ष निकालता है<br>E. निष्कर्ष अपने किसी भी पद को वितरित नहीं करता है<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "केवल C और D",
+          "केवल A, B और E",
+          "केवल B और C",
+          "केवल B, C और D"
+        ],
+        "explanation": "<strong>आकृति 2 में न्यायवाक्य AII का विश्लेषण:</strong><br>• आकृति 2 संरचना: मध्य पद (M) दोनों आधारों में <strong>विधेय (predicate)</strong> है। (तो, <strong>A सत्य है</strong>)।<br>• प्रमुख आधार (A): सभी P, M हैं। (M एक 'A' प्रस्ताव का विधेय है, इसलिए यह <em>अवितरित/undistributed</em> है)।<br>• लघु आधार (I): कुछ S, M हैं। (M एक 'I' प्रस्ताव का विधेय है, इसलिए यह <em>अवितरित</em> है)।<br>• चूँकि दोनों आधारवाक्यों में मध्य पद अवितरित है, यह <strong>अविभाजित मध्य की भ्रांति (Fallacy of Undistributed Middle)</strong> करता है। (तो, <strong>B सत्य है</strong>, और C गलत है)।<br>• निष्कर्ष (I): कुछ S, P हैं। एक 'I' प्रस्ताव न तो विषय को वितरित करता है और न ही विधेय को। (तो, <strong>E सत्य है</strong>)।<br>इसलिए, A, B, और E सही दावे हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q23",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 4: Communication",
+    "unitHI": "इकाई 4: संचार",
+    "topicEN": "Effective Communication",
+    "topicHI": "प्रभावी संचार",
+    "content": {
+      "en": {
+        "question": "What are the three stages of Interpersonal Communication?<br><br>A. The Phatic Stage<br>B. The Plato Stage<br>C. The Personal Stage<br>D. The Proxemics Stage<br>E. The Intimate Stage<br><br>Choose the correct answer from the options given below:",
+        "options": [
+          "A, B and C Only",
+          "A, C and E Only",
+          "C, D and E Only",
+          "B, C and D Only"
+        ],
+        "explanation": "Interpersonal communication generally deepens through three sequential stages:<br>1. <strong>The Phatic Stage (A):</strong> Small talk, greetings, and superficial exchanges.<br>2. <strong>The Personal Stage (C):</strong> Sharing personal information, beliefs, and opinions.<br>3. <strong>The Intimate Stage (E):</strong> High self-disclosure, deep emotional connection, and sharing of profound secrets. <br>Thus, A, C, and E are the correct stages."
+      },
+      "hi": {
+        "question": "पारस्परिक संचार के तीन चरण क्या हैं?<br><br>A. फैटिक चरण<br>B. प्लेटो चरण<br>C. व्यक्तिगत चरण<br>D. प्रॉक्सिमिक्स चरण<br>E. अंतरंग चरण<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "केवल A, B और C",
+          "केवल A, C और E",
+          "केवल C, D और E",
+          "केवल B, C और D"
+        ],
+        "explanation": "पारस्परिक संचार (Interpersonal communication) आम तौर पर तीन क्रमिक चरणों के माध्यम से गहरा होता है:<br>1. <strong>फैटिक (Phatic) चरण (A):</strong> छोटी-मोटी बातचीत, अभिवादन और सतही आदान-प्रदान।<br>2. <strong>व्यक्तिगत चरण (C):</strong> व्यक्तिगत जानकारी, विश्वास और राय साझा करना।<br>3. <strong>अंतरंग (Intimate) चरण (E):</strong> उच्च आत्म-प्रकटीकरण, गहरा भावनात्मक जुड़ाव, और गहरे रहस्य साझा करना।<br>इस प्रकार, A, C और E सही चरण हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q24",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 5: Mathematical Reasoning and Aptitude",
+    "unitHI": "इकाई 5: गणितीय तर्क और अभिरुचि",
+    "topicEN": "Mathematical Aptitude - Profit and Loss",
+    "topicHI": "गणितीय अभिरुचि - लाभ और हानि",
+    "content": {
+      "en": {
+        "question": "A shopkeeper purchased 10 kg of Basmati rice at the rate of Rs. 50 per kg and 15 kg of ordinary rice at the rate of Rs. 20 per kg. He mixed the two varieties of the rice and sold it for a gain of 25%. What was his sale price (Rs/kg)?",
+        "options": [
+          "Rs 10 per kg",
+          "Rs 20 per kg",
+          "Rs 30 per kg",
+          "Rs 40 per kg"
+        ],
+        "explanation": "<strong>Step-by-step Solution:</strong><br>1. <strong>Cost of Basmati rice:</strong> 10 kg × Rs 50/kg = Rs 500.<br>2. <strong>Cost of ordinary rice:</strong> 15 kg × Rs 20/kg = Rs 300.<br>3. <strong>Total Cost Price (CP):</strong> Rs 500 + Rs 300 = Rs 800.<br>4. <strong>Total quantity of mixture:</strong> 10 kg + 15 kg = 25 kg.<br>5. <strong>CP per kg of mixture:</strong> Rs 800 / 25 kg = Rs 32/kg.<br>6. He wants a <strong>gain of 25%</strong> on this CP.<br>   Selling Price (SP) = CP + 25% of CP = $32 + (0.25 \\times 32) = 32 + 8 =$ <strong>Rs 40/kg</strong>."
+      },
+      "hi": {
+        "question": "एक दुकानदार ने 50 रुपये प्रति किलोग्राम की दर से 10 किलोग्राम बासमती चावल और 20 रुपये प्रति किलोग्राम की दर से 15 किलोग्राम साधारण चावल खरीदा। उसने चावल की दो किस्मों को मिलाया और 25% के लाभ पर बेचा। उसका विक्रय मूल्य (रुपये/किलोग्राम) क्या था?",
+        "options": [
+          "10 रुपये प्रति किलो",
+          "20 रुपये प्रति किलो",
+          "30 रुपये प्रति किलो",
+          "40 रुपये प्रति किलो"
+        ],
+        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>1. <strong>बासमती चावल की लागत:</strong> 10 किग्रा × 50 रुपये/किग्रा = 500 रुपये।<br>2. <strong>साधारण चावल की लागत:</strong> 15 किग्रा × 20 रुपये/किग्रा = 300 रुपये।<br>3. <strong>कुल लागत मूल्य (CP):</strong> 500 रुपये + 300 रुपये = 800 रुपये।<br>4. <strong>मिश्रण की कुल मात्रा:</strong> 10 किलो + 15 किलो = 25 किलो।<br>5. <strong>मिश्रण का CP प्रति किलो:</strong> 800 रुपये / 25 किग्रा = 32 रुपये/किग्रा।<br>6. वह इस CP पर <strong>25% का लाभ</strong> चाहता है।<br>   विक्रय मूल्य (SP) = CP + CP का 25% = $32 + (0.25 \\times 32) = 32 + 8 =$ <strong>40 रुपये/किग्रा</strong>।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q25",
+    "difficulty": "medium",
+    "correct": 2,
+    "unitEN": "Unit 4: Communication",
+    "unitHI": "इकाई 4: संचार",
+    "topicEN": "Mass Media and Society",
+    "topicHI": "जनसंचार माध्यम और समाज",
+    "content": {
+      "en": {
+        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>List-I (Proponents)</th><th style='padding:8px 10px;'>List-II (Theory)</th></tr><tr><td style='padding:8px 10px;'>A. George Gerbner</td><td style='padding:8px 10px;'>I. Cognitive Dissonance Theory</td></tr><tr><td style='padding:8px 10px;'>B. L.A. Festinger</td><td style='padding:8px 10px;'>II. Cultivation Theory</td></tr><tr><td style='padding:8px 10px;'>C. McCombs and Donald L. Shaw</td><td style='padding:8px 10px;'>III. Uses and Gratification Theory</td></tr><tr><td style='padding:8px 10px;'>D. Katz and Blumer</td><td style='padding:8px 10px;'>IV. Agenda Setting Theory</td></tr></table><br>Choose the correct answer from the options given below:",
+        "options": [
+          "A-I, B-II, C-IV, D-III",
+          "A-III, B-II, C-IV, D-I",
+          "A-II, B-I, C-IV, D-III",
+          "A-III, B-I, C-IV, D-II"
+        ],
+        "explanation": "<strong>Matching Communication Theories with Proponents:</strong><br>• <strong>George Gerbner (A-II):</strong> Developed the <em>Cultivation Theory</em>, which examines the long-term effects of television.<br>• <strong>Leon Festinger (B-I):</strong> Formulated the <em>Cognitive Dissonance Theory</em>.<br>• <strong>McCombs & Shaw (C-IV):</strong> Developed the <em>Agenda-Setting Theory</em>, explaining how media influences what we think about.<br>• <strong>Katz & Blumler (D-III):</strong> Associated with the <em>Uses and Gratification Theory</em>.<br>Therefore, the correct match is A-II, B-I, C-IV, D-III."
+      },
+      "hi": {
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>सूची-I (प्रस्तावक)</th><th style='padding:8px 10px;'>सूची-II (सिद्धांत)</th></tr><tr><td style='padding:8px 10px;'>A. जॉर्ज गर्बनेर</td><td style='padding:8px 10px;'>I. संज्ञानात्मक असंगति सिद्धांत</td></tr><tr><td style='padding:8px 10px;'>B. एलए फेस्टिंगर</td><td style='padding:8px 10px;'>II. खेती सिद्धांत (Cultivation Theory)</td></tr><tr><td style='padding:8px 10px;'>C. मैककॉम्ब्स और डोनाल्ड एल. शॉ</td><td style='padding:8px 10px;'>III. उपयोग और संतुष्टि सिद्धांत</td></tr><tr><td style='padding:8px 10px;'>D. काट्ज़ और ब्लूमर</td><td style='padding:8px 10px;'>IV. एजेंडा सेटिंग सिद्धांत</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "A-I, B-II, C-IV, D-III",
+          "A-III, B-II, C-IV, D-I",
+          "A-II, B-I, C-IV, D-III",
+          "A-III, B-I, C-IV, D-II"
+        ],
+        "explanation": "<strong>संचार सिद्धांतों का प्रस्तावकों के साथ मिलान:</strong><br>• <strong>जॉर्ज गर्बनेर (A-II):</strong> <em>खेती सिद्धांत (Cultivation Theory)</em> विकसित किया, जो टेलीविजन के दीर्घकालिक प्रभावों की जांच करता है।<br>• <strong>लियोन फेस्टिंगर (B-I):</strong> <em>संज्ञानात्मक असंगति सिद्धांत (Cognitive Dissonance Theory)</em> तैयार किया।<br>• <strong>मैककॉम्ब्स और शॉ (C-IV):</strong> <em>एजेंडा-सेटिंग थ्योरी</em> विकसित की, जिसमें बताया गया कि मीडिया हमारे सोचने के तरीके को कैसे प्रभावित करता है।<br>• <strong>काट्ज़ और ब्लूमर (D-III):</strong> <em>उपयोग और संतुष्टि सिद्धांत (Uses and Gratification Theory)</em> से जुड़े हैं।<br>इसलिए, सही मिलान A-II, B-I, C-IV, D-III है।"
+      }
+    }
+  }, 
+
+// ─────────────────────────────────────────────────────────────────────────────
+// 2. EXTRACTED QUESTIONS ARRAY (Q26 to Q50)
+// ─────────────────────────────────────────────────────────────────────────────
+
+  {
+    "id": "jan25-10-s1-p1-q26",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 2: Research Aptitude",
+    "unitHI": "इकाई 2: शोध अभिरुचि",
+    "topicEN": "Steps of Research",
+    "topicHI": "शोध के चरण",
+    "content": {
+      "en": {
+        "question": "Which of the following statements could be considered as a valid scientific hypothesis?",
+        "options": [
+          "Adults should drink more water.",
+          "Eating 20 almonds a day decreases the risk of contracting heart disease.",
+          "Cows should be given green fodder.",
+          "Children should eat cereals."
+        ],
+        "explanation": "A valid <strong>scientific hypothesis</strong> must be testable, measurable, and state a clear relationship between variables. <br>• \"Eating 20 almonds a day decreases the risk of contracting heart disease\" proposes a specific, testable relationship between an independent variable (eating 20 almonds) and a dependent variable (heart disease risk). <br>The other statements are prescriptive/normative (\"should\" statements) and are not empirically testable hypotheses."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से कौन सा कथन एक वैध वैज्ञानिक परिकल्पना माना जा सकता है?",
+        "options": [
+          "वयस्कों को अधिक पानी पीना चाहिए।",
+          "प्रतिदिन 20 बादाम खाने से हृदय रोग का खतरा कम हो जाता है।",
+          "गायों को हरा चारा दिया जाना चाहिए।",
+          "बच्चों को अनाज खाना चाहिए।"
+        ],
+        "explanation": "एक वैध <strong>वैज्ञानिक परिकल्पना (scientific hypothesis)</strong> परीक्षण योग्य, मापने योग्य और चरों (variables) के बीच स्पष्ट संबंध बताने वाली होनी चाहिए।<br>• \"प्रतिदिन 20 बादाम खाने से हृदय रोग का खतरा कम हो जाता है\" एक स्वतंत्र चर (20 बादाम खाना) और एक आश्रित चर (हृदय रोग का जोखिम) के बीच एक विशिष्ट, परीक्षण योग्य संबंध का प्रस्ताव करता है।<br>अन्य कथन निर्देशात्मक (\"चाहिए\" वाले) हैं और अनुभवजन्य रूप से परीक्षण योग्य परिकल्पनाएं नहीं हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q27",
+    "difficulty": "hard",
+    "correct": 3,
+    "unitEN": "Unit 1: Teaching Aptitude",
+    "unitHI": "इकाई 1: शिक्षण अभिरुचि",
+    "topicEN": "Learner's Characteristics",
+    "topicHI": "शिक्षार्थी की विशेषताएँ",
+    "content": {
+      "en": {
+        "question": "Which of the following statements is true for Episodic Buffer?",
+        "options": [
+          "Integrates information from phonological loop only.",
+          "Integrates information from visuospatial sketch pad only.",
+          "Integrates information from the phonological loop and visuospatial sketchpad.",
+          "Integrates information from the phonological loop, visuospatial sketchpad, and long-term Memory."
+        ],
+        "explanation": "In Alan Baddeley's model of Working Memory, the <strong>Episodic Buffer</strong> is a temporary storage system that integrates information from the phonological loop (audio/speech), the visuospatial sketchpad (visual/spatial data), and long-term memory into a single, cohesive episodic representation."
+      },
+      "hi": {
+        "question": "एपिसोडिक बफर के लिए निम्नलिखित में से कौन सा कथन सत्य है?",
+        "options": [
+          "केवल ध्वन्यात्मक लूप से जानकारी एकीकृत करता है।",
+          "दृश्य-स्थानिक स्केच पैड से जानकारी एकीकृत करता है।",
+          "ध्वन्यात्मक लूप और दृश्य-स्थानिक स्केचपैड से जानकारी को एकीकृत करता है।",
+          "ध्वन्यात्मक लूप, दृश्य-स्थानिक स्केचपैड और दीर्घकालिक मेमोरी से जानकारी को एकीकृत करता है।"
+        ],
+        "explanation": "एलन बैडले (Alan Baddeley) के वर्किंग मेमोरी के मॉडल में, <strong>एपिसोडिक बफ़र (Episodic Buffer)</strong> एक अस्थायी भंडारण प्रणाली है जो ध्वन्यात्मक लूप (ऑडियो/भाषण), विज़ुओस्पेशियल स्केचपैड (दृश्य/स्थानिक डेटा), और दीर्घकालिक मेमोरी (Long-term memory) से जानकारी को एक एकल, सामंजस्यपूर्ण एपिसोडिक प्रतिनिधित्व में एकीकृत करती है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q28",
+    "difficulty": "easy",
+    "correct": 1,
+    "unitEN": "Unit 8: Information and Communication Technology (ICT)",
+    "unitHI": "इकाई 8: सूचना और संचार प्रौद्योगिकी (ICT)",
+    "topicEN": "Basics of Internet, Intranet and Cyber Security",
+    "topicHI": "इंटरनेट, इंट्रानेट और साइबर सुरक्षा की मूल बातें",
+    "content": {
+      "en": {
+        "question": "Which of the following is NOT a security risk?",
+        "options": ["Hacking", "Firewall", "Phishing", "Pharming"],
+        "explanation": "A <strong>Firewall</strong> is a network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules. It is a security *measure/protection*, not a security *risk*. Hacking, Phishing, and Pharming are all malicious security risks/attacks."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से कौन सा सुरक्षा जोखिम नहीं है?",
+        "options": ["हैकिंग", "फायरवॉल (Firewall)", "फिशिंग", "फार्मिंग"],
+        "explanation": "<strong>फ़ायरवॉल (Firewall)</strong> एक नेटवर्क सुरक्षा प्रणाली है जो पूर्व निर्धारित सुरक्षा नियमों के आधार पर आने वाले और बाहर जाने वाले नेटवर्क ट्रैफ़िक की निगरानी और नियंत्रण करती है। यह एक सुरक्षा *उपाय/सुरक्षा* है, सुरक्षा *जोखिम* नहीं। हैकिंग, फिशिंग और फार्मिंग सभी दुर्भावनापूर्ण सुरक्षा जोखिम/हमले हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q29",
+    "difficulty": "medium",
+    "correct": 2,
+    "unitEN": "Unit 10: Higher Education System",
+    "unitHI": "इकाई 10: उच्च शिक्षा प्रणाली",
+    "topicEN": "Evolution of Higher Learning in Post-Independence India",
+    "topicHI": "स्वतंत्रता के बाद भारत में उच्च शिक्षा का विकास",
+    "content": {
+      "en": {
+        "question": "The infamous minutes of 1834 can be associated with:",
+        "options": [
+          "Charles Wood",
+          "William Bentuick",
+          "Thomas Babington Macaulay",
+          "Charles Grant"
+        ],
+        "explanation": "The \"infamous minutes\" refers to <strong>Thomas Babington Macaulay's</strong> \"Minute on Indian Education\" (drafted around 1834-35 and submitted in Feb 1835). He strongly advocated for English as the medium of instruction in India and disparaged traditional Indian educational systems."
+      },
+      "hi": {
+        "question": "1834 के कुख्यात मिनटों को किससे जोड़ा जा सकता है?",
+        "options": [
+          "चार्ल्स वुड",
+          "विलियम बेंटुइक",
+          "थॉमस बैबिंगटन मैकाले (Macaulay)",
+          "चार्ल्स ग्रांट"
+        ],
+        "explanation": "\"कुख्यात मिनट्स\" <strong>थॉमस बैबिंगटन मैकाले</strong> के \"मिनट ऑन इंडियन एजुकेशन\" (लगभग 1834-35 के आसपास तैयार किया गया और फरवरी 1835 में प्रस्तुत किया गया) को संदर्भित करता है। उन्होंने भारत में शिक्षा के माध्यम के रूप में अंग्रेजी की पुरजोर वकालत की और पारंपरिक भारतीय शैक्षिक प्रणालियों को नीचा दिखाया।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q30",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 8: Information and Communication Technology (ICT)",
+    "unitHI": "इकाई 8: सूचना और संचार प्रौद्योगिकी (ICT)",
+    "topicEN": "Basics of Internet, Intranet and Networking",
+    "topicHI": "इंटरनेट, इंट्रानेट और नेटवर्किंग की मूल बातें",
+    "content": {
+      "en": {
+        "question": "Arrange the following OSI layers in correct sequence (from lowest to highest):<br><br>A. Data link layer<br>B. Physical layer<br>C. Network layer<br>D. Presentation layer<br>E. Application layer<br><br>Choose the correct answer from the options given below:",
+        "options": [
+          "E, D, B, A, C",
+          "E, D, A, C, B",
+          "B, A, C, E, D",
+          "B, A, C, D, E"
+        ],
+        "explanation": "<strong>OSI Model Layers (Lowest to Highest):</strong><br>1. <strong>Physical Layer (B)</strong><br>2. <strong>Data Link Layer (A)</strong><br>3. <strong>Network Layer (C)</strong><br>4. Transport Layer (Not listed)<br>5. Session Layer (Not listed)<br>6. <strong>Presentation Layer (D)</strong><br>7. <strong>Application Layer (E)</strong><br>Correct Sequence: B, A, C, D, E."
+      },
+      "hi": {
+        "question": "निम्नलिखित OSI परतों को सही क्रम में व्यवस्थित करें (निम्नतम से उच्चतम):<br><br>A. डेटा लिंक परत<br>B. भौतिक परत<br>C. नेटवर्क परत<br>D. प्रस्तुति परत<br>E. अनुप्रयोग परत<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "E, D, B, A, C",
+          "E, D, A, C, B",
+          "B, A, C, E, D",
+          "B, A, C, D, E"
+        ],
+        "explanation": "<strong>OSI मॉडल परतें (निम्नतम से उच्चतम):</strong><br>1. <strong>भौतिक परत / Physical Layer (B)</strong><br>2. <strong>डेटा लिंक परत / Data Link Layer (A)</strong><br>3. <strong>नेटवर्क परत / Network Layer (C)</strong><br>4. ट्रांसपोर्ट लेयर (सूचीबद्ध नहीं)<br>5. सेशन लेयर (सूचीबद्ध नहीं)<br>6. <strong>प्रस्तुति परत / Presentation Layer (D)</strong><br>7. <strong>अनुप्रयोग परत / Application Layer (E)</strong><br>सही क्रम: B, A, C, D, E."
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q31",
+    "difficulty": "medium",
+    "correct": 2,
+    "unitEN": "Unit 2: Research Aptitude",
+    "unitHI": "इकाई 2: शोध अभिरुचि",
+    "topicEN": "Methods of Research",
+    "topicHI": "शोध की विधियाँ",
+    "content": {
+      "en": {
+        "question": "If a researcher decides to have a control group in a 'placebo' design, he/she should have how many groups?",
+        "options": [
+          "One group",
+          "Two groups",
+          "Three groups",
+          "Four groups"
+        ],
+        "explanation": "A standard robust <strong>Placebo Control Group Design</strong> typically requires <strong>Three groups</strong>:<br>1. <strong>Experimental Group:</strong> Receives the actual treatment/drug.<br>2. <strong>Placebo Group:</strong> Receives a fake treatment (sugar pill) to measure the psychological placebo effect.<br>3. <strong>True Control Group:</strong> Receives absolutely nothing (to measure baseline natural changes without any intervention)."
+      },
+      "hi": {
+        "question": "यदि कोई शोधकर्ता 'प्लेसीबो' डिजाइन में एक नियंत्रण समूह रखने का निर्णय लेता है, तो उसके पास कितने समूह होने चाहिए?",
+        "options": [
+          "एक समूह",
+          "दो समूह",
+          "तीन समूह",
+          "चार समूह"
+        ],
+        "explanation": "एक मानक मजबूत <strong>प्लेसीबो नियंत्रण समूह डिजाइन (Placebo Control Group Design)</strong> में आम तौर पर <strong>तीन समूहों</strong> की आवश्यकता होती है:<br>1. <strong>प्रायोगिक समूह (Experimental Group):</strong> वास्तविक उपचार/दवा प्राप्त करता है।<br>2. <strong>प्लेसबो समूह (Placebo Group):</strong> मनोवैज्ञानिक प्लेसबो प्रभाव को मापने के लिए एक नकली उपचार (चीनी की गोली) प्राप्त करता है।<br>3. <strong>सच्चा नियंत्रण समूह (True Control Group):</strong> कुछ भी प्राप्त नहीं करता (बिना किसी हस्तक्षेप के आधारभूत प्राकृतिक परिवर्तनों को मापने के लिए)।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q32",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 8: Information and Communication Technology (ICT)",
+    "unitHI": "इकाई 8: सूचना और संचार प्रौद्योगिकी (ICT)",
+    "topicEN": "Basics of Internet, Intranet, E-mail, Audio and Video-conferencing",
+    "topicHI": "इंटरनेट, इंट्रानेट, ई-मेल, ऑडियो और वीडियो-कॉन्फ्रेंसिंग की मूल बातें",
+    "content": {
+      "en": {
+        "question": "Identify the advantages of video conferencing.<br><br>A. Increased productivity<br>B. Going green<br>C. Lack of personal contact<br>D. Clarity of audio and video always<br><br>Choose the correct answer from the options given below:",
+        "options": [
+          "A, B and D Only",
+          "A and C Only",
+          "A, B and C Only",
+          "A and B Only"
+        ],
+        "explanation": "<strong>Advantages of Video Conferencing:</strong><br>• <strong>(A) Increased productivity:</strong> It saves travel time and speeds up decision-making.<br>• <strong>(B) Going green:</strong> It heavily reduces carbon footprints by cutting down travel (flights/drives).<br>• <em>(C) Lack of personal contact</em> is a <strong>disadvantage</strong>, not an advantage.<br>• <em>(D) Clarity is 'always' guaranteed</em> is practically FALSE, as it depends on internet bandwidth and can often be laggy.<br>Hence, only A and B are true advantages."
+      },
+      "hi": {
+        "question": "वीडियो कॉन्फ्रेंसिंग के लाभों की पहचान करें।<br><br>A. उत्पादकता में वृद्धि<br>B. पर्यावरण अनुकूल होना (Going green)<br>C. व्यक्तिगत संपर्क में कमी<br>D. ऑडियो और वीडियो की हमेशा स्पष्टता<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "केवल A, B और D",
+          "केवल A और C",
+          "केवल A, B और C",
+          "केवल A और B"
+        ],
+        "explanation": "<strong>वीडियो कॉन्फ्रेंसिंग के लाभ:</strong><br>• <strong>(A) उत्पादकता में वृद्धि:</strong> यह यात्रा के समय को बचाता है और निर्णय लेने की गति को तेज करता है।<br>• <strong>(B) पर्यावरण अनुकूल होना (Going green):</strong> यह यात्रा (उड़ानों/ड्राइव) में कटौती करके कार्बन फुटप्रिंट को काफी कम करता है।<br>• <em>(C) व्यक्तिगत संपर्क की कमी</em> एक <strong>नुकसान</strong> है, लाभ नहीं।<br>• <em>(D) स्पष्टता की 'हमेशा' गारंटी होती है</em> यह व्यावहारिक रूप से गलत है, क्योंकि यह इंटरनेट बैंडविड्थ पर निर्भर करता है और अक्सर खराब हो सकता है।<br>अतः केवल A और B सही लाभ हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q33",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 1: Teaching Aptitude",
+    "unitHI": "इकाई 1: शिक्षण अभिरुचि",
+    "topicEN": "Learner's Characteristics",
+    "topicHI": "शिक्षार्थी की विशेषताएँ",
+    "content": {
+      "en": {
+        "question": "Which of the following depicts Semantic Memory?",
+        "options": [
+          "It is dependent on the person's identity with the past.",
+          "It is a student's general knowledge about the world.",
+          "It is the retention of information about the where and when of life's happenings.",
+          "It is the knowledge in the form of skills and cognitive operations."
+        ],
+        "explanation": "<strong>Semantic Memory</strong> is a type of explicit long-term memory responsible for storing facts, concepts, and general knowledge about the world (e.g., knowing that Paris is the capital of France). <br><em>Option 1 & 3 describe Episodic memory (personal past experiences). Option 4 describes Procedural memory (skills).</em>"
+      },
+      "hi": {
+        "question": "निम्नलिखित में से कौन सा शब्दार्थक स्मृति (Semantic Memory) को दर्शाता है?",
+        "options": [
+          "यह व्यक्ति की अतीत से जुड़ी पहचान पर निर्भर करता है।",
+          "यह विश्व के बारे में एक छात्र का सामान्य ज्ञान है।",
+          "यह जीवन में होने वाली घटनाओं के बारे में जानकारी को बनाए रखना है कि वे कब और कहाँ घटित हुईं।",
+          "यह कौशल और संज्ञानात्मक कार्यों के रूप में ज्ञान है।"
+        ],
+        "explanation": "<strong>शब्दार्थक स्मृति (Semantic Memory)</strong> एक प्रकार की स्पष्ट दीर्घकालिक स्मृति है जो दुनिया के बारे में तथ्यों, अवधारणाओं और सामान्य ज्ञान को संग्रहीत करने के लिए जिम्मेदार है (जैसे, यह जानना कि पेरिस फ्रांस की राजधानी है)।<br><em>विकल्प 1 और 3 प्रासंगिक स्मृति (Episodic memory - व्यक्तिगत पिछले अनुभव) का वर्णन करते हैं। विकल्प 4 प्रक्रियात्मक स्मृति (Procedural memory - कौशल) का वर्णन करता है।</em>"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q34",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 5: Mathematical Reasoning and Aptitude",
+    "unitHI": "इकाई 5: गणितीय तर्क और अभिरुचि",
+    "topicEN": "Mathematical Aptitude - Ratio and Proportion",
+    "topicHI": "गणितीय अभिरुचि - अनुपात और समानुपात",
+    "content": {
+      "en": {
+        "question": "A sum of Rs 3800 is divided among three persons A, B, and C in the ratio ½ : ⅓ : ¾. What is the share of the person C?",
+        "options": ["Rs. 3360", "Rs. 2240", "Rs. 2150", "Rs. 1800"],
+        "explanation": "<strong>Step-by-step Solution:</strong><br>1. Ratio of A : B : C = $\\frac{1}{2} : \\frac{1}{3} : \\frac{3}{4}$.<br>2. To simplify, multiply the entire ratio by the LCM of denominators (2, 3, 4) which is 12.<br>   $A = \\frac{1}{2} \\times 12 = 6$<br>   $B = \\frac{1}{3} \\times 12 = 4$<br>   $C = \\frac{3}{4} \\times 12 = 9$<br>   Simplified Ratio A : B : C = <strong>6 : 4 : 9</strong>.<br>3. Total parts = $6 + 4 + 9 = 19$ parts.<br>4. Value of 1 part = $3800 / 19 = \\text{Rs. } 200$.<br>5. Share of C = $9 \\text{ parts} \\times 200 =$ <strong>Rs. 1800</strong>."
+      },
+      "hi": {
+        "question": "3800 रुपये की राशि को तीन व्यक्तियों A, B और C के बीच ½ : ⅓ : ¾ के अनुपात में बाँटा गया है। व्यक्ति C का हिस्सा क्या है?",
+        "options": ["रु. 3360", "रु. 2240", "रु. 2150", "रु. 1800"],
+        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>1. A : B : C का अनुपात = $\\frac{1}{2} : \\frac{1}{3} : \\frac{3}{4}$।<br>2. सरल करने के लिए, पूरे अनुपात को हर (denominators 2, 3, 4) के लघुत्तम समापवर्त्य (LCM) 12 से गुणा करें।<br>   $A = \\frac{1}{2} \\times 12 = 6$<br>   $B = \\frac{1}{3} \\times 12 = 4$<br>   $C = \\frac{3}{4} \\times 12 = 9$<br>   सरलीकृत अनुपात A : B : C = <strong>6 : 4 : 9</strong>।<br>3. कुल भाग = $6 + 4 + 9 = 19$ भाग।<br>4. 1 भाग का मूल्य = $3800 / 19 = \\text{रु. } 200$।<br>5. C का हिस्सा = $9 \\text{ भाग} \\times 200 =$ <strong>रु. 1800</strong>।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q35",
+    "difficulty": "easy",
+    "correct": 1,
+    "unitEN": "Unit 1: Teaching Aptitude",
+    "unitHI": "इकाई 1: शिक्षण अभिरुचि",
+    "topicEN": "Methods of Teaching in Institutions of Higher Learning",
+    "topicHI": "उच्च शिक्षा संस्थानों में शिक्षण की विधियाँ",
+    "content": {
+      "en": {
+        "question": "Individual and group accountability is one of the elements of _______.",
+        "options": [
+          "Inductive learning",
+          "Cooperative learning",
+          "Deductive learning",
+          "Active learning"
+        ],
+        "explanation": "<strong>Cooperative learning</strong> relies on students working together in small groups to accomplish a shared goal. A core foundational element of this method is that students must hold both <strong>group accountability</strong> (achieving the group goal) and <strong>individual accountability</strong> (each member doing their fair share of work)."
+      },
+      "hi": {
+        "question": "व्यक्तिगत और समूह जवाबदेही _______ के तत्वों में से एक है।",
+        "options": [
+          "आगमनात्मक शिक्षा",
+          "सहयोगी शिक्षण (Cooperative learning)",
+          "निगमनात्मक अधिगम",
+          "सक्रिय अध्ययन"
+        ],
+        "explanation": "<strong>सहकारी शिक्षण (Cooperative learning)</strong> एक साझा लक्ष्य को पूरा करने के लिए छोटे समूहों में एक साथ काम करने वाले छात्रों पर निर्भर करता है। इस पद्धति का एक मुख्य मूलभूत तत्व यह है कि छात्रों को <strong>समूह जवाबदेही</strong> (समूह लक्ष्य प्राप्त करना) और <strong>व्यक्तिगत जवाबदेही</strong> (प्रत्येक सदस्य अपने हिस्से का उचित काम कर रहा है) दोनों को निभाना चाहिए।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q36",
+    "difficulty": "medium",
+    "correct": 2,
+    "unitEN": "Unit 10: Higher Education System",
+    "unitHI": "इकाई 10: उच्च शिक्षा प्रणाली",
+    "topicEN": "Evolution of Higher Learning in Post-Independence India",
+    "topicHI": "स्वतंत्रता के बाद भारत में उच्च शिक्षा का विकास",
+    "content": {
+      "en": {
+        "question": "Arrange the following chronologically:-<br><br>A. Secondary Education Commission<br>B. Kothari Education Commission<br>C. Establishment of UGC<br>D. Chattopadhyay Commission<br>E. University Education Commission<br><br>Choose the correct answer from the options given below:",
+        "options": [
+          "A, E, B, D, C",
+          "A, D, C, B, E",
+          "E, A, C, B, D",
+          "E, B, D, C, A"
+        ],
+        "explanation": "<strong>Chronology of Educational Milestones:</strong><br>1. <strong>University Education Commission (E):</strong> Headed by Dr. Radhakrishnan in <strong>1948-49</strong>.<br>2. <strong>Secondary Education Commission (A):</strong> Headed by Dr. Mudaliar in <strong>1952-53</strong>.<br>3. <strong>Establishment of UGC (C):</strong> Inaugurated in <strong>1953</strong> (became a statutory body in 1956).<br>4. <strong>Kothari Education Commission (B):</strong> Appointed in <strong>1964</strong>.<br>5. <strong>Chattopadhyay Commission (D):</strong> The National Commission on Teachers set up in <strong>1983</strong>.<br>Correct sequence: E -> A -> C -> B -> D."
+      },
+      "hi": {
+        "question": "निम्नलिखित को कालानुक्रमिक रूप से व्यवस्थित करें:-<br><br>A. माध्यमिक शिक्षा आयोग<br>B. कोठारी शिक्षा आयोग<br>C. यूजीसी की स्थापना<br>D. चट्टोपाध्याय आयोग<br>E. विश्वविद्यालय शिक्षा आयोग<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "A, E, B, D, C",
+          "A, D, C, B, E",
+          "E, A, C, B, D",
+          "E, B, D, C, A"
+        ],
+        "explanation": "<strong>शैक्षिक मील के पत्थर का कालक्रम:</strong><br>1. <strong>विश्वविद्यालय शिक्षा आयोग (E):</strong> <strong>1948-49</strong> में डॉ. राधाकृष्णन की अध्यक्षता में।<br>2. <strong>माध्यमिक शिक्षा आयोग (A):</strong> <strong>1952-53</strong> में डॉ. मुदालियर की अध्यक्षता में।<br>3. <strong>यूजीसी की स्थापना (C):</strong> <strong>1953</strong> में उद्घाटन (1956 में एक वैधानिक निकाय बन गया)।<br>4. <strong>कोठारी शिक्षा आयोग (B):</strong> <strong>1964</strong> में नियुक्त किया गया।<br>5. <strong>चट्टोपाध्याय आयोग (D):</strong> राष्ट्रीय शिक्षक आयोग की स्थापना <strong>1983</strong> में हुई।<br>सही क्रम: E -> A -> C -> B -> D।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q37",
+    "difficulty": "medium",
+    "correct": 0,
+    "unitEN": "Unit 9: People, Development and Environment",
+    "unitHI": "इकाई 9: लोग, विकास और पर्यावरण",
+    "topicEN": "Environmental Issues: Water Pollution and Wetlands",
+    "topicHI": "पर्यावरणीय मुद्दे: जल प्रदूषण और आर्द्रभूमि",
+    "content": {
+      "en": {
+        "question": "Artificial wetland is located in:",
+        "options": [
+          "Keoladeo National Park",
+          "Rajaji National Park",
+          "Kanha National Park",
+          "Manas National Park"
+        ],
+        "explanation": "<strong>Keoladeo National Park</strong> (formerly Bharatpur Bird Sanctuary) in Rajasthan is a famous avifauna sanctuary that is entirely a man-made (artificial) and man-managed wetland. It was originally a natural depression that was flooded after the construction of the Ajan Bund."
+      },
+      "hi": {
+        "question": "कृत्रिम आर्द्र भूमि (Artificial wetland) कहाँ स्थित है?",
+        "options": [
+          "केवलादेव राष्ट्रीय उद्यान",
+          "राजाजी राष्ट्रीय उद्यान",
+          "कान्हा राष्ट्रीय उद्यान",
+          "मानस राष्ट्रीय उद्यान"
+        ],
+        "explanation": "राजस्थान में <strong>केवलादेव राष्ट्रीय उद्यान (Keoladeo National Park)</strong> (पूर्व में भरतपुर पक्षी अभयारण्य) एक प्रसिद्ध एविफौना अभयारण्य है जो पूरी तरह से मानव निर्मित (कृत्रिम) और मानव-प्रबंधित आर्द्रभूमि (wetland) है। यह मूल रूप से एक प्राकृतिक गर्त था जो अजान बांध (Ajan Bund) के निर्माण के बाद भर गया था।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q38",
+    "difficulty": "medium",
+    "correct": 0,
+    "unitEN": "Unit 9: People, Development and Environment",
+    "unitHI": "इकाई 9: लोग, विकास और पर्यावरण",
+    "topicEN": "Environmental Issues: Soil Pollution",
+    "topicHI": "पर्यावरणीय मुद्दे: भूमि प्रदूषण",
+    "content": {
+      "en": {
+        "question": "Which of the following soil types support earthworm activity?<br><br>A. Loam soil<br>B. Gleyed soil<br>C. Rendzina<br>D. Podzol<br><br>Choose the correct answer from the options given below:",
+        "options": [
+          "A, B and C Only",
+          "B, C and D Only",
+          "A, C and D Only",
+          "A, B and D Only"
+        ],
+        "explanation": "Earthworms thrive in soils with neutral to slightly alkaline pH, good moisture, and organic matter.<br>• <strong>Loam soil (A):</strong> Perfect balance of sand, silt, clay, and organics, making it ideal.<br>• <strong>Rendzina (C):</strong> A humus-rich, shallow calcareous soil over limestone, highly supportive of earthworms.<br>• <strong>Gleyed soil (B):</strong> While often waterlogged, some specific earthworm species adapt and survive here.<br>• <em>Podzol (D)</em> is highly acidic soil found in coniferous forests, which is toxic/unsuitable for earthworm activity. Hence, D is excluded."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से कौन सी मिट्टी के प्रकार से केंचुआ की गतिविधि को बढ़ावा मिलता है?<br><br>A. दोमट मिट्टी (Loam soil)<br>B. ग्लेयड मिट्टी (Gleyed soil)<br>C. रेंडज़िना (Rendzina)<br>D. पोड्ज़ोल (Podzol)<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "केवल A, B और C",
+          "केवल B, C और D",
+          "केवल A, C और D",
+          "केवल A, B और D"
+        ],
+        "explanation": "केंचुए (Earthworms) तटस्थ से थोड़ा क्षारीय पीएच, अच्छी नमी और कार्बनिक पदार्थों वाली मिट्टी में पनपते हैं।<br>• <strong>दोमट मिट्टी (A):</strong> रेत, गाद, मिट्टी और ऑर्गेनिक्स का सही संतुलन, इसे केंचुए के लिए आदर्श बनाता है।<br>• <strong>रेंडज़िना (C):</strong> चूना पत्थर के ऊपर एक ह्यूमस युक्त, उथली कैलकेरियस मिट्टी, जो केंचुओं के लिए अत्यधिक सहायक है।<br>• <strong>ग्लेयड मिट्टी (B):</strong> हालांकि अक्सर जलमग्न होती है, कुछ विशिष्ट केंचुआ प्रजातियां यहां अनुकूलित और जीवित रहती हैं।<br>• <em>पोड्ज़ोल (D)</em> शंकुधारी जंगलों में पाई जाने वाली अत्यधिक अम्लीय मिट्टी है, जो केंचुओं की गतिविधि के लिए जहरीली/अनुपयुक्त है। इसलिए D को बाहर रखा गया है।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q39",
+    "difficulty": "hard",
+    "correct": 1,
+    "unitEN": "Unit 6: Logical Reasoning",
+    "unitHI": "इकाई 6: तार्किक विचार",
+    "topicEN": "Uses of Language and Argument Structure",
+    "topicHI": "भाषा के उपयोग और तर्क की संरचना",
+    "content": {
+      "en": {
+        "question": "Which among the following definition states that the term to be defined is correctly applied to a given case, if and only if, the performance of specified operations in that case yields a specified result?",
+        "options": [
+          "Synonymous definition",
+          "Operational definition",
+          "Ostensive definition",
+          "Quasi-ostensive definition"
+        ],
+        "explanation": "An <strong>Operational definition</strong> assigns meaning to a concept or variable by specifying the exact operations, tests, or measurements required to identify or quantify it. For example, defining 'intelligence' specifically as the score yielded by completing an IQ test operation."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से कौन सी परिभाषा यह बताती है कि परिभाषित किया जाने वाला शब्द किसी दिए गए मामले में सही ढंग से लागू होता है, यदि और केवल यदि, उस मामले में निर्दिष्ट कार्यों के प्रदर्शन से एक निर्दिष्ट परिणाम प्राप्त होता है?",
+        "options": [
+          "समानार्थी परिभाषा",
+          "संचालनगत परिभाषा (Operational definition)",
+          "ओस्टेंसिव परिभाषा",
+          "अर्ध-प्रत्यक्ष परिभाषा"
+        ],
+        "explanation": "एक <strong>परिचालन परिभाषा (Operational definition)</strong> किसी अवधारणा या चर (variable) को पहचानने या मापने के लिए आवश्यक सटीक संचालन, परीक्षण या माप निर्दिष्ट करके अर्थ प्रदान करती है। उदाहरण के लिए, 'बुद्धिमत्ता' को विशेष रूप से IQ परीक्षण पूरा करने पर प्राप्त स्कोर के रूप में परिभाषित करना।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q40",
+    "difficulty": "medium",
+    "correct": 3,
+    "unitEN": "Unit 2: Research Aptitude",
+    "unitHI": "इकाई 2: शोध अभिरुचि",
+    "topicEN": "Research: Meaning, Types and Characteristics",
+    "topicHI": "शोध: अर्थ, प्रकार और विशेषताएँ",
+    "content": {
+      "en": {
+        "question": "Which of the following would apply to Qualitative research methodology?<br><br>A. Empiricism<br>B. Emphasis on description of variables<br>C. Rationalism<br>D. Structured rigid methodology<br>E. Explores experiences, meanings, perceptions and feelings<br><br>Choose the correct answer from the options given below:",
+        "options": [
+          "B, C and D Only",
+          "C, D and E Only",
+          "A and E Only",
+          "A, B and E Only"
+        ],
+        "explanation": "<strong>Characteristics of Qualitative Research:</strong><br>• It relies heavily on <strong>Empiricism (A)</strong> in the form of direct field observations and experiencing phenomena naturally.<br>• It uses detailed <strong>description of variables/phenomena (B)</strong> rather than just mathematical quantification.<br>• It fundamentally <strong>explores experiences, meanings, perceptions, and feelings (E)</strong>.<br>• <em>Rationalism (C)</em> and <em>Structured rigid methodology (D)</em> are typically traits of quantitative/positivist research. Hence, A, B, and E are correct."
+      },
+      "hi": {
+        "question": "निम्नलिखित में से कौन गुणात्मक शोध पद्धति पर लागू होगा?<br><br>A. अनुभववाद<br>B. चरों के वर्णन पर जोर<br>C. बुद्धिवाद<br>D. संरचित कठोर कार्यप्रणाली<br>E. अनुभवों, अर्थों, धारणाओं और भावनाओं का अन्वेषण करना<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "केवल B, C और D",
+          "केवल C, D और E",
+          "केवल A और E",
+          "केवल A, B और E"
+        ],
+        "explanation": "<strong>गुणात्मक अनुसंधान (Qualitative Research) की विशेषताएं:</strong><br>• यह प्रत्यक्ष क्षेत्र अवलोकन और स्वाभाविक रूप से घटनाओं का अनुभव करने के रूप में <strong>अनुभववाद (A)</strong> पर काफी हद तक निर्भर करता है।<br>• यह केवल गणितीय परिमाणीकरण के बजाय <strong>चर/घटनाओं (B) के विस्तृत विवरण</strong> का उपयोग करता है।<br>• यह मौलिक रूप से <strong>अनुभवों, अर्थों, धारणाओं और भावनाओं (E)</strong> का अन्वेषण करता है।<br>• <em>बुद्धिवाद (C)</em> और <em>संरचित कठोर कार्यप्रणाली (D)</em> आमतौर पर मात्रात्मक अनुसंधान के लक्षण हैं। अतः, A, B और E सही हैं।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q41",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 5: Mathematical Reasoning and Aptitude",
+    "unitHI": "इकाई 5: गणितीय तर्क और अभिरुचि",
+    "topicEN": "Letter Series and Codes",
+    "topicHI": "अक्षर श्रृंखला और कूट",
+    "content": {
+      "en": {
+        "question": "If 'PEAK' is coded as 'KVZP' and 'FOUR' is coded as 'ULFI', the code of 'THIS' will be:",
+        "options": ["GRSH", "GSRH", "SHGR", "HGRS"],
+        "explanation": "<strong>Step-by-step Logic:</strong><br>The coding relies on writing the <strong>opposite letter</strong> of the English alphabet (A$\leftrightarrow$Z, B$\leftrightarrow$Y, etc.).<br>1. P $\\rightarrow$ K, E $\\rightarrow$ V, A $\\rightarrow$ Z, K $\\rightarrow$ P (PEAK $\\rightarrow$ KVZP).<br>2. F $\\rightarrow$ U, O $\\rightarrow$ L, U $\\rightarrow$ F, R $\\rightarrow$ I (FOUR $\\rightarrow$ ULFI).<br>3. Applying this to 'THIS': <br>   T $\\rightarrow$ G<br>   H $\\rightarrow$ S<br>   I $\\rightarrow$ R<br>   S $\\rightarrow$ H<br>So, THIS is coded as <strong>GSRH</strong>."
+      },
+      "hi": {
+        "question": "यदि 'PEAK' को 'KVZP' के रूप में कोडित किया जाता है और 'FOUR' को 'ULFI' के रूप में कोडित किया जाता है, तो 'THIS' का कोड क्या होगा?",
+        "options": ["GRSH", "GSRH", "SHGR", "HGRS"],
+        "explanation": "<strong>चरण-दर-चरण तर्क:</strong><br>कोडिंग अंग्रेजी वर्णमाला के <strong>विपरीत अक्षर (Opposite letters)</strong> (A$\leftrightarrow$Z, B$\leftrightarrow$Y, आदि) लिखने पर निर्भर करती है।<br>1. P $\\rightarrow$ K, E $\\rightarrow$ V, A $\\rightarrow$ Z, K $\\rightarrow$ P (PEAK $\\rightarrow$ KVZP)।<br>2. F $\\rightarrow$ U, O $\\rightarrow$ L, U $\\rightarrow$ F, R $\\rightarrow$ I (FOUR $\\rightarrow$ ULFI)।<br>3. इसे 'THIS' पर लागू करने पर:<br>   T $\\rightarrow$ G<br>   H $\\rightarrow$ S<br>   I $\\rightarrow$ R<br>   S $\\rightarrow$ H<br>इसलिए, THIS को <strong>GSRH</strong> के रूप में कोडित किया जाएगा।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q42",
+    "difficulty": "easy",
+    "correct": 1,
+    "unitEN": "Unit 1: Teaching Aptitude",
+    "unitHI": "इकाई 1: शिक्षण अभिरुचि",
+    "topicEN": "Learner's Characteristics",
+    "topicHI": "शिक्षार्थी की विशेषताएँ",
+    "content": {
+      "en": {
+        "question": "Difficulty in accessing a memory because of the presence of other information is known as _______.",
+        "options": ["Decay", "Interference", "Retroactive", "Proactive"],
+        "explanation": "<strong>Interference</strong> is a theory in psychology explaining forgetting. It occurs when some memories interfere with the retrieval of other memories. (It can be either Proactive—old blocks new, or Retroactive—new blocks old, but the general term for the phenomenon is Interference)."
+      },
+      "hi": {
+        "question": "अन्य जानकारी की उपस्थिति के कारण मेमोरी तक पहुँचने में कठिनाई को _______ के रूप में जाना जाता है।",
+        "options": ["क्षय", "दखल अंदाजी (Interference)", "पूर्वव्यापी", "सक्रिय"],
+        "explanation": "<strong>दखल अंदाजी (Interference / हस्तक्षेप)</strong> मनोविज्ञान में भूलने की व्याख्या करने वाला एक सिद्धांत है। यह तब होता है जब कुछ यादें अन्य यादों की पुनर्प्राप्ति में हस्तक्षेप (interfere) करती हैं। (यह या तो सक्रिय हो सकता है-पुराना नए को रोकता है, या पूर्वव्यापी-नया पुराने को रोकता है, लेकिन घटना के लिए सामान्य शब्द हस्तक्षेप/Interference है)।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q43",
+    "difficulty": "easy",
+    "correct": 1,
+    "unitEN": "Unit 8: Information and Communication Technology (ICT)",
+    "unitHI": "इकाई 8: सूचना और संचार प्रौद्योगिकी (ICT)",
+    "topicEN": "ICT General Abbreviations and Terminology",
+    "topicHI": "ICT सामान्य संक्षिप्ताक्षर और शब्दावली",
+    "content": {
+      "en": {
+        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>List-I (Device)</th><th style='padding:8px 10px;'>List-II (Function)</th></tr><tr><td style='padding:8px 10px;'>A. CPU</td><td style='padding:8px 10px;'>I. Stores data temporarily</td></tr><tr><td style='padding:8px 10px;'>B. Monitor</td><td style='padding:8px 10px;'>II. Stores data permanently</td></tr><tr><td style='padding:8px 10px;'>C. RAM</td><td style='padding:8px 10px;'>III. Processes Instructions</td></tr><tr><td style='padding:8px 10px;'>D. Hard disk</td><td style='padding:8px 10px;'>IV. Displays visual output</td></tr></table><br>Choose the correct answer from the options given below:",
+        "options": [
+          "A-III, B-IV, C-II, D-I",
+          "A-III, B-IV, C-I, D-II",
+          "A-I, B-II, C-III, D-IV",
+          "A-I, B-III, C-IV, D-III"
+        ],
+        "explanation": "<strong>Matching Devices with their Functions:</strong><br>• <strong>CPU (A-III):</strong> Central Processing Unit handles all logic and processes instructions.<br>• <strong>Monitor (B-IV):</strong> An output device that displays visual output.<br>• <strong>RAM (C-I):</strong> Random Access Memory stores active data and programs temporarily (volatile).<br>• <strong>Hard Disk (D-II):</strong> A storage drive that stores data permanently (non-volatile).<br>Correct match: A-III, B-IV, C-I, D-II."
+      },
+      "hi": {
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>सूची-I (उपकरण)</th><th style='padding:8px 10px;'>सूची-II (कार्य)</th></tr><tr><td style='padding:8px 10px;'>A. सीपीयू (CPU)</td><td style='padding:8px 10px;'>I. डेटा को अस्थायी रूप से संग्रहीत करता है</td></tr><tr><td style='padding:8px 10px;'>B. मॉनीटर</td><td style='padding:8px 10px;'>II. डेटा को स्थायी रूप से संग्रहीत करता है</td></tr><tr><td style='padding:8px 10px;'>C. RAM</td><td style='padding:8px 10px;'>III. निर्देशों को प्रोसेस करता है</td></tr><tr><td style='padding:8px 10px;'>D. हार्ड डिस्क</td><td style='padding:8px 10px;'>IV. दृश्य आउटपुट प्रदर्शित करता है</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "A-III, B-IV, C-II, D-I",
+          "A-III, B-IV, C-I, D-II",
+          "A-I, B-II, C-III, D-IV",
+          "A-I, B-III, C-IV, D-III"
+        ],
+        "explanation": "<strong>उपकरणों का उनके कार्यों के साथ मिलान:</strong><br>• <strong>सीपीयू (A-III):</strong> सेंट्रल प्रोसेसिंग यूनिट सभी तर्क को संभालती है और निर्देशों को प्रोसेस करती है।<br>• <strong>मॉनिटर (B-IV):</strong> एक आउटपुट डिवाइस जो दृश्य आउटपुट प्रदर्शित करता है।<br>• <strong>RAM (C-I):</strong> रैंडम एक्सेस मेमोरी सक्रिय डेटा और प्रोग्राम को अस्थायी रूप से (परिवर्तनशील) संग्रहीत करती है।<br>• <strong>हार्ड डिस्क (D-II):</strong> एक स्टोरेज ड्राइव जो डेटा को स्थायी रूप से संग्रहीत करती है।<br>सही मिलान: A-III, B-IV, C-I, D-II।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q44",
+    "difficulty": "medium",
+    "correct": 0,
+    "unitEN": "Unit 5: Mathematical Reasoning and Aptitude",
+    "unitHI": "इकाई 5: गणितीय तर्क और अभिरुचि",
+    "topicEN": "Number Series",
+    "topicHI": "संख्या श्रृंखला",
+    "content": {
+      "en": {
+        "question": "Choose the next term of the series: 6, 18, 108, 1296, ______",
+        "options": ["31104", "15552", "30104", "23328"],
+        "explanation": "<strong>Step-by-step Pattern Breakdown:</strong><br>Analyze the multiplier between consecutive terms:<br>• 18 / 6 = <strong>3</strong><br>• 108 / 18 = <strong>6</strong><br>• 1296 / 108 = <strong>12</strong><br>The multipliers themselves form a series: 3, 6, 12, ... which is doubling each time ($3 \\times 2 = 6$, $6 \\times 2 = 12$).<br>The next multiplier should be $12 \\times 2 = $ <strong>24</strong>.<br>So, Next term = $1296 \\times 24 = <strong>31104</strong>$."
+      },
+      "hi": {
+        "question": "श्रृंखला का अगला पद चुनें: 6, 18, 108, 1296, ______",
+        "options": ["31104", "15552", "30104", "23328"],
+        "explanation": "<strong>चरण-दर-चरण पैटर्न विश्लेषण:</strong><br>लगातार पदों के बीच गुणक (multiplier) का विश्लेषण करें:<br>• 18 / 6 = <strong>3</strong><br>• 108 / 18 = <strong>6</strong><br>• 1296 / 108 = <strong>12</strong><br>गुणक स्वयं एक शृंखला बनाते हैं: 3, 6, 12, ... जो हर बार दोगुना हो रहा है ($3 \\times 2 = 6$, $6 \\times 2 = 12$)।<br>अगला गुणक $12 \\times 2 = $ <strong>24</strong> होना चाहिए।<br>अतः, अगला पद = $1296 \\times 24 = <strong>31104</strong>$।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q45",
+    "difficulty": "medium",
+    "correct": 1,
+    "unitEN": "Unit 4: Communication",
+    "unitHI": "इकाई 4: संचार",
+    "topicEN": "Mass Media and Society",
+    "topicHI": "जनसंचार माध्यम और समाज",
+    "content": {
+      "en": {
+        "question": "Arrange the following events related to mass media in the correct chronological sequence:<br><br>A. Publication of early newspapers.<br>B. Development of Television Broadcasting.<br>C. Introduction of email.<br>D. Launch of online news websites.<br>E. Invention of Radio.<br><br>Choose the correct answer from the options given below:",
+        "options": [
+          "A, E, B, D, C",
+          "A, E, B, C, D",
+          "E, A, C, D, B",
+          "A, C, B, E, D"
+        ],
+        "explanation": "<strong>Chronology of Mass Media Events:</strong><br>1. <strong>Early Newspapers (A):</strong> Started in the 17th/18th centuries.<br>2. <strong>Invention of Radio (E):</strong> Late 19th/early 20th century (approx. 1895-1901).<br>3. <strong>Television Broadcasting (B):</strong> Emerged in the 1920s and 1930s.<br>4. <strong>Introduction of email (C):</strong> Developed in the early 1970s via ARPANET.<br>5. <strong>Online news websites (D):</strong> Started appearing in the early 1990s.<br>Correct Order: A -> E -> B -> C -> D."
+      },
+      "hi": {
+        "question": "जनसंचार माध्यमों से संबंधित निम्नलिखित घटनाओं को सही कालानुक्रमिक क्रम में व्यवस्थित करें:<br><br>A. शुरुआती समाचार पत्रों का प्रकाशन।<br>B. टेलीविजन प्रसारण का विकास।<br>C. ईमेल की शुरुआत।<br>D. ऑनलाइन समाचार वेबसाइटों की शुरुआत।<br>E. रेडियो का आविष्कार।<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "options": [
+          "A, E, B, D, C",
+          "A, E, B, C, D",
+          "E, A, C, D, B",
+          "A, C, B, E, D"
+        ],
+        "explanation": "<strong>मास मीडिया घटनाओं का कालक्रम:</strong><br>1. <strong>शुरुआती समाचार पत्र (A):</strong> 17वीं/18वीं शताब्दी में शुरू हुए।<br>2. <strong>रेडियो का आविष्कार (E):</strong> 19वीं सदी के अंत / 20वीं सदी की शुरुआत में (लगभग 1895-1901)।<br>3. <strong>टेलीविजन प्रसारण (B):</strong> 1920 और 1930 के दशक में उभरा।<br>4. <strong>ईमेल का परिचय (C):</strong> ARPANET के माध्यम से 1970 के दशक की शुरुआत में विकसित हुआ।<br>5. <strong>ऑनलाइन समाचार वेबसाइटें (D):</strong> 1990 के दशक की शुरुआत में दिखाई देने लगीं।<br>सही क्रम: A -> E -> B -> C -> D।"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q46",
+    "difficulty": "easy",
+    "correct": 0,
+    "unitEN": "Unit 3: Comprehension",
+    "unitHI": "इकाई 3: बोध",
+    "topicEN": "Reading Comprehension",
+    "topicHI": "पठन बोध",
+    "content": {
+      "en": {
+        "question": passageHTML(PASSAGE_JAN25_10_S1_P1.en) + "<br><br><strong>Question:</strong><br> According to the passage, Persian prose deals with:",
+        "options": [
+          "Serious and learned topics",
+          "Entertainment to the readers",
+          "Comedy only",
+          "Religious practices only"
+        ],
+        "explanation": "The passage explicitly states: <em>\"Persian prose in the main treated <strong>'serious and learned topics'</strong>...\"</em>"
+      },
+      "hi": {
+        "question": passageHTML(PASSAGE_JAN25_10_S1_P1.hi) + "<br><br><strong>प्रश्न:</strong><br> गद्यांश के अनुसार, फारसी गद्य किससे संबंधित है?",
+        "options": [
+          "गंभीर एवं ज्ञानवर्धक विषय",
+          "पाठकों के लिए मनोरंजन",
+          "केवल कॉमेडी",
+          "केवल धार्मिक प्रथाएँ"
+        ],
+        "explanation": "गद्यांश में स्पष्ट रूप से कहा गया है: <em>\"फारसी गद्य में मुख्य रूप से <strong>'गंभीर और विद्वत्तापूर्ण विषय'</strong> थे...\"</em>"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q47",
+    "difficulty": "easy",
+    "correct": 0,
+    "unitEN": "Unit 3: Comprehension",
+    "unitHI": "इकाई 3: बोध",
+    "topicEN": "Reading Comprehension",
+    "topicHI": "पठन बोध",
+    "content": {
+      "en": {
+        "question": passageHTML(PASSAGE_JAN25_10_S1_P1.en) + "<br><br><strong>Question:</strong><br> How is Sanskrit prose described in the passage?",
+        "options": [
+          "Simple and dignified",
+          "Complex and humorous",
+          "Solely poetic and lyrical",
+          "Limited to religious themes"
+        ],
+        "explanation": "The passage describes Sanskrit prose as follows: <em>\"Sanskrit, which developed a <strong>simple and dignified</strong> prose-style from the time of the composition of the Upanisads...\"</em>"
+      },
+      "hi": {
+        "question": passageHTML(PASSAGE_JAN25_10_S1_P1.hi) + "<br><br><strong>प्रश्न:</strong><br> गद्यांश में संस्कृत गद्य का वर्णन किस प्रकार किया गया है?",
+        "options": [
+          "सरल एवं गरिमामय",
+          "जटिल और विनोदी",
+          "पूर्णतः काव्यात्मक एवं गीतात्मक",
+          "धार्मिक विषयों तक सीमित"
+        ],
+        "explanation": "गद्यांश में संस्कृत गद्य का इस प्रकार वर्णन किया गया है: <em>\"संस्कृत ने, जिसने ईसा से कई शताब्दियों पहले उपनिषदों की रचना के समय से एक <strong>सरल और गरिमामय</strong> गद्य-शैली विकसित की थी...\"</em>"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q48",
+    "difficulty": "easy",
+    "correct": 1,
+    "unitEN": "Unit 3: Comprehension",
+    "unitHI": "इकाई 3: बोध",
+    "topicEN": "Reading Comprehension",
+    "topicHI": "पठन बोध",
+    "content": {
+      "en": {
+        "question": passageHTML(PASSAGE_JAN25_10_S1_P1.en) + "<br><br><strong>Question:</strong><br> What was the purpose of authors writing in Persian prose, as described in the passage?",
+        "options": [
+          "To entertain the audience",
+          "To inform and uplift the readers",
+          "To promote religious doctrines",
+          "To provide translations of Sanskrit texts"
+        ],
+        "explanation": "According to the passage: <em>\"...the purpose of the authors was <strong>'to inform and to uplift rather than to amuse'</strong>...\"</em>"
+      },
+      "hi": {
+        "question": passageHTML(PASSAGE_JAN25_10_S1_P1.hi) + "<br><br><strong>प्रश्न:</strong><br> जैसा कि गद्यांश में बताया गया है, फारसी गद्य में लिखने वाले लेखकों का उद्देश्य क्या था?",
+        "options": [
+          "दर्शकों का मनोरंजन करने के लिए",
+          "पाठकों को सूचित करने और उनका उत्थान करने के लिए",
+          "धार्मिक सिद्धांतों को बढ़ावा देना",
+          "संस्कृत ग्रंथों का अनुवाद उपलब्ध कराना"
+        ],
+        "explanation": "गद्यांश के अनुसार: <em>\"...लेखकों का उद्देश्य 'मनोरंजन के बजाय <strong>जानकारी देना और उत्थान करना</strong>' था...\"</em>"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q49",
+    "difficulty": "easy",
+    "correct": 2,
+    "unitEN": "Unit 3: Comprehension",
+    "unitHI": "इकाई 3: बोध",
+    "topicEN": "Reading Comprehension",
+    "topicHI": "पठन बोध",
+    "content": {
+      "en": {
+        "question": passageHTML(PASSAGE_JAN25_10_S1_P1.en) + "<br><br><strong>Question:</strong><br> The most significant literary event in the nineteenth century according to the passage was:",
+        "options": [
+          "The invention of poetic forms",
+          "The development of drama",
+          "The emergence of literary prose in modern Indian languages",
+          "The translation of foreign literature"
+        ],
+        "explanation": "The very first sentence of the passage states: <em>\"The most important literary event in the nineteenth century was <strong>the emergence of literary prose in all the modern Indian languages</strong>.\"</em>"
+      },
+      "hi": {
+        "question": passageHTML(PASSAGE_JAN25_10_S1_P1.hi) + "<br><br><strong>प्रश्न:</strong><br> गद्यांश के अनुसार उन्नीसवीं शताब्दी की सबसे महत्वपूर्ण साहित्यिक घटना थी:",
+        "options": [
+          "काव्य रूपों का आविष्कार",
+          "नाटक का विकास",
+          "आधुनिक भारतीय भाषाओं में साहित्यिक गद्य का उदय",
+          "विदेशी साहित्य का अनुवाद"
+        ],
+        "explanation": "गद्यांश का पहला ही वाक्य कहता है: <em>\"उन्नीसवीं सदी की सबसे महत्वपूर्ण साहित्यिक घटना थी <strong>सभी आधुनिक भारतीय भाषाओं में साहित्यिक गद्य का उदय</strong>।\"</em>"
+      }
+    }
+  },
+  {
+    "id": "jan25-10-s1-p1-q50",
+    "difficulty": "easy",
+    "correct": 1,
+    "unitEN": "Unit 3: Comprehension",
+    "unitHI": "इकाई 3: बोध",
+    "topicEN": "Reading Comprehension",
+    "topicHI": "पठन बोध",
+    "content": {
+      "en": {
+        "question": passageHTML(PASSAGE_JAN25_10_S1_P1.en) + "<br><br><strong>Question:</strong><br> What among the following allowed scope for creative imagination?",
+        "options": [
+          "The Ramayana",
+          "The Arabian Nights",
+          "The Mahabharata",
+          "The Panchatantra"
+        ],
+        "explanation": "The passage explicitly notes: <em>\"...despite the fact that the fantastic adventure of the <strong>Arabian Nights</strong> cycle gave scope to the creative imagination.\"</em>"
+      },
+      "hi": {
+        "question": passageHTML(PASSAGE_JAN25_10_S1_P1.hi) + "<br><br><strong>प्रश्न:</strong><br> निम्नलिखित में से किसने रचनात्मक कल्पना के लिए गुंजाइश दी?",
+        "options": [
+          "रामायण",
+          "अरेबियन नाइट्स",
+          "महाभारत",
+          "पंचतंत्र"
+        ],
+        "explanation": "गद्यांश में स्पष्ट रूप से उल्लेख किया गया है: <em>\"...इस तथ्य के बावजूद कि <strong>अरेबियन नाइट्स</strong> चक्र के शानदार रोमांच ने रचनात्मक कल्पना को गुंजाइश दी थी।\"</em>"
       }
     }
   }
