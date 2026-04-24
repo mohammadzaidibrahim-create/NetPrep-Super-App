@@ -131,6 +131,6 @@ const ALL_TESTS = [
     minutes: 60,
     difficulty: "Medium",
     live: true, 
-    data: TEST_JAN25_9_S2_P1  
+    data: TEST_JAN25_09_S2_P1  
   } 
 ];
