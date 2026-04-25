@@ -1271,7 +1271,7 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q01",
     "difficulty": "medium",
-    "correct": 3,
+    "correct": 2,
     "unitEN": "Unit 7: Data Interpretation",
     "unitHI": "इकाई 7: आंकड़ों की व्याख्या",
     "topicEN": "Table Chart",
@@ -1292,7 +1292,7 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q02",
     "difficulty": "medium",
-    "correct": 2,
+    "correct": 1,
     "unitEN": "Unit 7: Data Interpretation",
     "unitHI": "इकाई 7: आंकड़ों की व्याख्या",
     "topicEN": "Table Chart",
@@ -1313,7 +1313,7 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q03",
     "difficulty": "medium",
-    "correct": 1,
+    "correct": 0,
     "unitEN": "Unit 7: Data Interpretation",
     "unitHI": "इकाई 7: आंकड़ों की व्याख्या",
     "topicEN": "Table Chart",
@@ -1334,7 +1334,7 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q04",
     "difficulty": "hard",
-    "correct": 4,
+    "correct": 3,
     "unitEN": "Unit 7: Data Interpretation",
     "unitHI": "इकाई 7: आंकड़ों की व्याख्या",
     "topicEN": "Table Chart",
@@ -1355,7 +1355,7 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q05",
     "difficulty": "medium",
-    "correct": 4,
+    "correct": 3,
     "unitEN": "Unit 7: Data Interpretation",
     "unitHI": "इकाई 7: आंकड़ों की व्याख्या",
     "topicEN": "Table Chart",
@@ -1376,7 +1376,7 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q06",
     "difficulty": "easy",
-    "correct": 1,
+    "correct": 0,
     "unitEN": "Unit 10: Higher Education System",
     "unitHI": "इकाई 10: उच्च शिक्षा प्रणाली",
     "topicEN": "Policies, Governance, and Administration",
@@ -1407,14 +1407,14 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q07",
     "difficulty": "hard",
-    "correct": 1,
+    "correct": 0,
     "unitEN": "Unit 5: Mathematical Reasoning and Aptitude",
     "unitHI": "इकाई 5: गणितीय तर्क और अभिरुचि",
     "topicEN": "Ratio and Proportion",
     "topicHI": "अनुपात और समानुपात",
     "content": {
       "en": {
-        "question": "<p>Match the <strong>LIST-I</strong> with <strong>LIST-II</strong>:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>LIST-I (Question)</th><th style='padding:8px;'>LIST-II (Answer)</th></tr><tr><td style='padding:6px;'>A. If x/5 = y/8, then (x+5) : (y+8) = ?</td><td style='padding:6px;'>I. 2 : 1</td></tr><tr><td style='padding:6px;'>B. If (x : y) = 2 : 1, then (x² − y²) : (x² + y²) = ?</td><td style='padding:6px;'>II. 2 : 3</td></tr><tr><td style='padding:6px;'>C. If (x² + 4y²) = 4xy, then x : y = ?</td><td style='padding:6px;'>III. 3 : 5</td></tr><tr><td style='padding:6px;'>D. If A : B = 3 : 4 and B : C = 8 : 9, then A : C = ?</td><td style='padding:6px;'>IV. 5 : 8</td></tr></table><br>Choose the <strong>correct</strong> answer from the options given below:",
+        "question": "<p>Match the <strong>LIST-I</strong> with <strong>LIST-II</strong>:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>LIST-I (Question)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>LIST-II (Answer)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. If x/5 = y/8, then (x+5) : (y+8) = ?</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. 2 : 1</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. If (x : y) = 2 : 1, then (x² − y²) : (x² + y²) = ?</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. 2 : 3</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. If (x² + 4y²) = 4xy, then x : y = ?</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. 3 : 5</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. If A : B = 3 : 4 and B : C = 8 : 9, then A : C = ?</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. 5 : 8</td></tr></table><br>Choose the <strong>correct</strong> answer from the options given below:",
         "options": [
           "A-IV, B-III, C-I, D-II",
           "A-I, B-II, C-III, D-IV",
@@ -1424,7 +1424,7 @@ const TEST_JAN_2026_P1 = [
         "explanation": "<strong>Step-by-step Verification:</strong><br><br><strong>A.</strong> Given x/5 = y/8. Let it equal k. Then x = 5k, y = 8k.<br>(x+5) : (y+8) = (5k+5) : (8k+8) = 5(k+1) : 8(k+1) = <strong>5 : 8</strong> (Matches IV)<br><br><strong>B.</strong> Given x : y = 2 : 1. Let x = 2, y = 1.<br>(x² − y²) : (x² + y²) = (4 − 1) : (4 + 1) = <strong>3 : 5</strong> (Matches III)<br><br><strong>C.</strong> Given x² + 4y² = 4xy. Rearranging: x² - 4xy + 4y² = 0.<br>This is the expansion of (x - 2y)² = 0. Therefore, x = 2y, which means x : y = <strong>2 : 1</strong> (Matches I)<br><br><strong>D.</strong> Given A/B = 3/4 and B/C = 8/9.<br>To find A/C, multiply the two ratios: (A/B) × (B/C) = (3/4) × (8/9) = 24/36 = <strong>2 : 3</strong> (Matches II)<br><br>Correct Matching: A-IV, B-III, C-I, D-II."
       },
       "hi": {
-        "question": "<p><strong>सूची-I</strong> का <strong>सूची-II</strong> के साथ मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>सूची-I (प्रश्न)</th><th style='padding:8px;'>सूची-II (उत्तर)</th></tr><tr><td style='padding:6px;'>A. यदि x/5 = y/8, तो (x+5) : (y+8) = ?</td><td style='padding:6px;'>I. 2 : 1</td></tr><tr><td style='padding:6px;'>B. यदि (x : y) = 2 : 1, तो (x² − y²) : (x² + y²) = ?</td><td style='padding:6px;'>II. 2 : 3</td></tr><tr><td style='padding:6px;'>C. यदि (x² + 4y²) = 4xy, तो x : y = ?</td><td style='padding:6px;'>III. 3 : 5</td></tr><tr><td style='padding:6px;'>D. यदि A : B = 3 : 4 और B : C = 8 : 9, तो A : C = ?</td><td style='padding:6px;'>IV. 5 : 8</td></tr></table><br>नीचे दिए गए विकल्पों में से <strong>सही</strong> उत्तर चुनें:",
+        "question": "<p><strong>सूची-I</strong> का <strong>सूची-II</strong> के साथ मिलान करें:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-I (प्रश्न)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-II (उत्तर)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. यदि x/5 = y/8, तो (x+5) : (y+8) = ?</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. 2 : 1</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. यदि (x : y) = 2 : 1, तो (x² − y²) : (x² + y²) = ?</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. 2 : 3</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. यदि (x² + 4y²) = 4xy, तो x : y = ?</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. 3 : 5</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. यदि A : B = 3 : 4 और B : C = 8 : 9, तो A : C = ?</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. 5 : 8</td></tr></table><br>नीचे दिए गए विकल्पों में से <strong>सही</strong> उत्तर चुनें:",
         "options": [
           "A-IV, B-III, C-I, D-II",
           "A-I, B-II, C-III, D-IV",
@@ -1438,7 +1438,7 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q08",
     "difficulty": "easy",
-    "correct": 3,
+    "correct": 2,
     "unitEN": "Unit 2: Research Aptitude",
     "unitHI": "इकाई 2: शोध अभिरुचि",
     "topicEN": "Methods of Research",
@@ -1469,14 +1469,14 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q09",
     "difficulty": "medium",
-    "correct": 1,
+    "correct": 0,
     "unitEN": "Unit 8: Information and Communication Technology (ICT)",
     "unitHI": "इकाई 8: सूचना और संचार प्रौद्योगिकी (ICT)",
     "topicEN": "Basics of Internet and ICT Terminology",
     "topicHI": "इंटरनेट और ICT शब्दावली की मूल बातें",
     "content": {
       "en": {
-        "question": "<p>Match the <strong>LIST-I</strong> with <strong>LIST-II</strong>:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>LIST-I (Scientist)</th><th style='padding:8px;'>LIST-II (Invention)</th></tr><tr><td style='padding:6px;'>A. Tim Berners Lee</td><td style='padding:6px;'>I. Computer Architecture</td></tr><tr><td style='padding:6px;'>B. Fred Cohen</td><td style='padding:6px;'>II. Father of modern computer</td></tr><tr><td style='padding:6px;'>C. Charles Babbage</td><td style='padding:6px;'>III. Virus</td></tr><tr><td style='padding:6px;'>D. John Von Neumann</td><td style='padding:6px;'>IV. World Wide Web</td></tr></table><br>Choose the <strong>correct</strong> answer from the options given below:",
+        "question": "<p>Match the <strong>LIST-I</strong> with <strong>LIST-II</strong>:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>LIST-I (Scientist)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>LIST-II (Invention)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. Tim Berners Lee</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. Computer Architecture</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. Fred Cohen</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. Father of modern computer</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. Charles Babbage</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. Virus</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. John Von Neumann</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. World Wide Web</td></tr></table><br>Choose the <strong>correct</strong> answer from the options given below:",
         "options": [
           "A-IV, B-III, C-II, D-I",
           "A-III, B-IV, C-I, D-II",
@@ -1486,7 +1486,7 @@ const TEST_JAN_2026_P1 = [
         "explanation": "<strong>Key Matches:</strong><br>• <strong>Tim Berners Lee (A-IV):</strong> Invented the World Wide Web (WWW) in 1989.<br>• <strong>Fred Cohen (B-III):</strong> Best known as the inventor of computer virus defense techniques and coined the term 'Computer Virus' in 1983.<br>• <strong>Charles Babbage (C-II):</strong> Known as the 'Father of the Computer' for inventing the first mechanical computer (Analytical Engine).<br>• <strong>John Von Neumann (D-I):</strong> Developed the 'Von Neumann Architecture' which is the foundation of almost all modern computer design (Stored-program concept)."
       },
       "hi": {
-        "question": "<p><strong>सूची-I</strong> का <strong>सूची-II</strong> के साथ मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>सूची-I (वैज्ञानिक)</th><th style='padding:8px;'>सूची-II (आविष्कार)</th></tr><tr><td style='padding:6px;'>A. टिम बर्नर्स ली (Tim Berners Lee)</td><td style='padding:6px;'>I. कंप्यूटर आर्किटेक्चर</td></tr><tr><td style='padding:6px;'>B. फ्रेड कोहेन (Fred Cohen)</td><td style='padding:6px;'>II. आधुनिक कंप्यूटर के जनक</td></tr><tr><td style='padding:6px;'>C. चार्ल्स बैबेज (Charles Babbage)</td><td style='padding:6px;'>III. वायरस (Virus)</td></tr><tr><td style='padding:6px;'>D. जॉन वॉन न्यूमैन (John Von Neumann)</td><td style='padding:6px;'>IV. वर्ल्ड वाइड वेब (WWW)</td></tr></table><br>नीचे दिए गए विकल्पों में से <strong>सही</strong> उत्तर चुनें:",
+        "question": "<p><strong>सूची-I</strong> का <strong>सूची-II</strong> के साथ मिलान करें:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-I (वैज्ञानिक)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-II (आविष्कार)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. टिम बर्नर्स ली (Tim Berners Lee)</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. कंप्यूटर आर्किटेक्चर</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. फ्रेड कोहेन (Fred Cohen)</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. आधुनिक कंप्यूटर के जनक</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. चार्ल्स बैबेज (Charles Babbage)</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. वायरस (Virus)</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. जॉन वॉन न्यूमैन (John Von Neumann)</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. वर्ल्ड वाइड वेब (WWW)</td></tr></table><br>नीचे दिए गए विकल्पों में से <strong>सही</strong> उत्तर चुनें:",
         "options": [
           "A-IV, B-III, C-II, D-I",
           "A-III, B-IV, C-I, D-II",
@@ -1500,7 +1500,7 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q10",
     "difficulty": "easy",
-    "correct": 2,
+    "correct": 1,
     "unitEN": "Unit 8: Information and Communication Technology (ICT)",
     "unitHI": "इकाई 8: सूचना और संचार प्रौद्योगिकी (ICT)",
     "topicEN": "Basics of Internet and ICT Terminology",
@@ -1521,7 +1521,7 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q11",
     "difficulty": "hard",
-    "correct": 4,
+    "correct": 3,
     "unitEN": "Unit 6: Logical Reasoning",
     "unitHI": "इकाई 6: तार्किक विचार",
     "topicEN": "Indian Logic and Hetvabhasas (Fallacies of Inference)",
@@ -1552,7 +1552,7 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q12",
     "difficulty": "medium",
-    "correct": 1,
+    "correct": 0,
     "unitEN": "Unit 9: People, Development and Environment",
     "unitHI": "इकाई 9: लोग, विकास और पर्यावरण",
     "topicEN": "Environmental Issues and Climate Change",
@@ -1583,7 +1583,7 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q13",
     "difficulty": "medium",
-    "correct": 1,
+    "correct": 0,
     "unitEN": "Unit 1: Teaching Aptitude",
     "unitHI": "इकाई 1: शिक्षण अभिरुचि",
     "topicEN": "Levels of Teaching and Bloom's Taxonomy",
@@ -1597,7 +1597,7 @@ const TEST_JAN_2026_P1 = [
           "B, C, A, E, D",
           "C, E, B, A, D"
         ],
-        "explanation": "According to the Revised <strong>Bloom's Taxonomy</strong> for the Cognitive Domain (Anderson and Krathwohl, 2001), the levels of learning from lowest (simplest) to highest (most complex) ascending order are:<br>1. <strong>Remembering (E):</strong> Recalling facts.<br>2. <strong>Understanding (A):</strong> Explaining ideas or concepts.<br>3. <strong>Applying (D):</strong> Using information in new situations.<br>4. <strong>Analyzing (C):</strong> Drawing connections among ideas.<br>5. <strong>Evaluating (B):</strong> Justifying a stand or decision.<br>(6. Creating is the highest, but not given here).<br>Correct Order: E -> A -> D -> C -> B."
+        "explanation": "According to the Revised <strong>Bloom's Taxonomy</strong> for the Cognitive Domain (Anderson and Krathwohl, 2001), the levels of learning from lowest (simplest) to highest (most complex) ascending order are:<br>1. <strong>Remembering (E):</strong> Recalling facts.<br>2. <strong>Understanding (A):</strong> Explaining ideas or concepts.<br>3. <strong>Applying (D):</strong> Using information in new situations.<br>4. <strong>Analyzing (C):</strong> Drawing connections among ideas.<br>5. <strong>Evaluating (B):</strong> Justifying a stand or decision.<br>(6. Creating is the highest, but not given here).<br>Correct Order: E → A → D → C → B."
       },
       "hi": {
         "question": "संज्ञानात्मक डोमेन (cognitive domain) के आलोक में, निम्नलिखित कक्षा प्रश्नों (A-E) को सही आरोही क्रम (ascending order) में व्यवस्थित करें:<br><br>A. समझना (Understanding)<br>B. मूल्यांकन करना (Evaluating)<br>C. विश्लेषण करना (Analyzing)<br>D. लागू करना (Applying)<br>E. याद रखना (Remembering)<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
@@ -1607,14 +1607,14 @@ const TEST_JAN_2026_P1 = [
           "B, C, A, E, D",
           "C, E, B, A, D"
         ],
-        "explanation": "संज्ञानात्मक डोमेन के लिए संशोधित <strong>ब्लूम के वर्गीकरण (Bloom's Taxonomy)</strong> के अनुसार, न्यूनतम (सबसे सरल) से उच्चतम (सबसे जटिल) आरोही क्रम में सीखने के स्तर इस प्रकार हैं:<br>1. <strong>याद रखना / Remembering (E):</strong> तथ्यों को याद करना।<br>2. <strong>समझना / Understanding (A):</strong> विचारों या अवधारणाओं को समझाना।<br>3. <strong>लागू करना / Applying (D):</strong> नई स्थितियों में सूचना का उपयोग करना।<br>4. <strong>विश्लेषण करना / Analyzing (C):</strong> विचारों के बीच संबंध स्थापित करना।<br>5. <strong>मूल्यांकन करना / Evaluating (B):</strong> किसी निर्णय को उचित ठहराना।<br>सही क्रम: E -> A -> D -> C -> B."
+        "explanation": "संज्ञानात्मक डोमेन के लिए संशोधित <strong>ब्लूम के वर्गीकरण (Bloom's Taxonomy)</strong> के अनुसार, न्यूनतम (सबसे सरल) से उच्चतम (सबसे जटिल) आरोही क्रम में सीखने के स्तर इस प्रकार हैं:<br>1. <strong>याद रखना / Remembering (E):</strong> तथ्यों को याद करना।<br>2. <strong>समझना / Understanding (A):</strong> विचारों या अवधारणाओं को समझाना।<br>3. <strong>लागू करना / Applying (D):</strong> नई स्थितियों में सूचना का उपयोग करना।<br>4. <strong>विश्लेषण करना / Analyzing (C):</strong> विचारों के बीच संबंध स्थापित करना।<br>5. <strong>मूल्यांकन करना / Evaluating (B):</strong> किसी निर्णय को उचित ठहराना।<br>सही क्रम: E → A → D → C → B."
       }
     }
   },
   {
     "id": "june25-s1-p1-q14",
     "difficulty": "medium",
-    "correct": 3,
+    "correct": 2,
     "unitEN": "Unit 6: Logical Reasoning",
     "unitHI": "इकाई 6: तार्किक विचार",
     "topicEN": "Formal and Informal Fallacies",
@@ -1645,7 +1645,7 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q15",
     "difficulty": "medium",
-    "correct": 1,
+    "correct": 0,
     "unitEN": "Unit 5: Mathematical Reasoning and Aptitude",
     "unitHI": "इकाई 5: गणितीय तर्क और अभिरुचि",
     "topicEN": "Codes and Relationships",
@@ -1666,7 +1666,7 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q16",
     "difficulty": "medium",
-    "correct": 1,
+    "correct": 0,
     "unitEN": "Unit 9: People, Development and Environment",
     "unitHI": "इकाई 9: लोग, विकास और पर्यावरण",
     "topicEN": "Natural Hazards and Disasters",
@@ -1697,7 +1697,7 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q17",
     "difficulty": "medium",
-    "correct": 4,
+    "correct": 3,
     "unitEN": "Unit 8: Information and Communication Technology (ICT)",
     "unitHI": "इकाई 8: सूचना और संचार प्रौद्योगिकी (ICT)",
     "topicEN": "ICT General Abbreviations and Terminology",
@@ -1728,7 +1728,7 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q18",
     "difficulty": "medium",
-    "correct": 4,
+    "correct": 3,
     "unitEN": "Unit 4: Communication",
     "unitHI": "इकाई 4: संचार",
     "topicEN": "Mass Media and Society",
@@ -1742,7 +1742,7 @@ const TEST_JAN_2026_P1 = [
           "D, A, C, B, E",
           "C, A, B, D, E"
         ],
-        "explanation": "<strong>Chronology of Indian Cinema milestones:</strong><br>1. <strong>C. Raja Harish Chandra (1913):</strong> India's first full-length feature film (silent).<br>2. <strong>A. Alam Ara (1931):</strong> India's first sound film (talkie).<br>3. <strong>B. Do Bigha Zameen (1953):</strong> A trend-setting film directed by Bimal Roy.<br>4. <strong>D. Garam Hawa (1973):</strong> A critically acclaimed film based on the partition.<br>5. <strong>E. Sholay (1975):</strong> The iconic blockbuster.<br>Therefore, the correct chronological order is C -> A -> B -> D -> E."
+        "explanation": "<strong>Chronology of Indian Cinema milestones:</strong><br>1. <strong>C. Raja Harish Chandra (1913):</strong> India's first full-length feature film (silent).<br>2. <strong>A. Alam Ara (1931):</strong> India's first sound film (talkie).<br>3. <strong>B. Do Bigha Zameen (1953):</strong> A trend-setting film directed by Bimal Roy.<br>4. <strong>D. Garam Hawa (1973):</strong> A critically acclaimed film based on the partition.<br>5. <strong>E. Sholay (1975):</strong> The iconic blockbuster.<br>Therefore, the correct chronological order is C → A → B → D → E."
       },
       "hi": {
         "question": "निम्नलिखित फिल्मों के रिलीज़ होने का सही कालक्रम क्या है? (सबसे पहले से नवीनतम तक)<br><br>A. आलम आरा<br>B. दो बीघा ज़मीन<br>C. राजा हरिश्चंद्र<br>D. गरम हवा<br>E. शोले<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
@@ -1752,14 +1752,14 @@ const TEST_JAN_2026_P1 = [
           "D, A, C, B, E",
           "C, A, B, D, E"
         ],
-        "explanation": "<strong>भारतीय सिनेमा के मील के पत्थरों का कालक्रम:</strong><br>1. <strong>C. राजा हरिश्चंद्र (1913):</strong> भारत की पहली फुल-लेंथ फीचर फिल्म (मूक फिल्म)।<br>2. <strong>A. आलम आरा (1931):</strong> भारत की पहली बोलती फिल्म (Sound film)।<br>3. <strong>B. दो बीघा ज़मीन (1953):</strong> बिमल रॉय द्वारा निर्देशित एक ट्रेंड-सेटिंग फिल्म।<br>4. <strong>D. गरम हवा (1973):</strong> विभाजन पर आधारित एक समीक्षकों द्वारा प्रशंसित फिल्म।<br>5. <strong>E. शोले (1975):</strong> भारतीय इतिहास की सबसे प्रतिष्ठित ब्लॉकबस्टर।<br>इसलिए, सही कालानुक्रमिक क्रम C -> A -> B -> D -> E है।"
+        "explanation": "<strong>भारतीय सिनेमा के मील के पत्थरों का कालक्रम:</strong><br>1. <strong>C. राजा हरिश्चंद्र (1913):</strong> भारत की पहली फुल-लेंथ फीचर फिल्म (मूक फिल्म)।<br>2. <strong>A. आलम आरा (1931):</strong> भारत की पहली बोलती फिल्म (Sound film)।<br>3. <strong>B. दो बीघा ज़मीन (1953):</strong> बिमल रॉय द्वारा निर्देशित एक ट्रेंड-सेटिंग फिल्म।<br>4. <strong>D. गरम हवा (1973):</strong> विभाजन पर आधारित एक समीक्षकों द्वारा प्रशंसित फिल्म।<br>5. <strong>E. शोले (1975):</strong> भारतीय इतिहास की सबसे प्रतिष्ठित ब्लॉकबस्टर।<br>इसलिए, सही कालानुक्रमिक क्रम C → A → B → D → E है।"
       }
     }
   },
   {
     "id": "june25-s1-p1-q19",
     "difficulty": "easy",
-    "correct": 1,
+    "correct": 0,
     "unitEN": "Unit 8: Information and Communication Technology (ICT)",
     "unitHI": "इकाई 8: सूचना और संचार प्रौद्योगिकी (ICT)",
     "topicEN": "Basics of Internet and Network Security",
@@ -1780,14 +1780,14 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q20",
     "difficulty": "medium",
-    "correct": 4,
+    "correct": 3,
     "unitEN": "Unit 1: Teaching Aptitude",
     "unitHI": "इकाई 1: शिक्षण अभिरुचि",
     "topicEN": "Value Education",
     "topicHI": "मूल्य शिक्षा",
     "content": {
       "en": {
-        "question": "<p>Match the <strong>LIST-I</strong> with <strong>LIST-II</strong>:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>LIST-I (Value Education)</th><th style='padding:8px;'>LIST-II (Description)</th></tr><tr><td style='padding:6px;'>A. Social Value Education</td><td style='padding:6px;'>I. Aware of the diversity, deals and norms of the society</td></tr><tr><td style='padding:6px;'>B. Spiritual Value Education</td><td style='padding:6px;'>II. People should know common values applicable to mankind</td></tr><tr><td style='padding:6px;'>C. Cultural Value Education</td><td style='padding:6px;'>III. Make people better and more responsible citizens</td></tr><tr><td style='padding:6px;'>D. Universal Value Education</td><td style='padding:6px;'>IV. To keep mind calm and awakened</td></tr></table><br>Choose the <strong>correct</strong> answer from the options given below:",
+        "question": "<p>Match the <strong>LIST-I</strong> with <strong>LIST-II</strong>:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>LIST-I (Value Education)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>LIST-II (Description)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. Social Value Education</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. Aware of the diversity, deals and norms of the society</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. Spiritual Value Education</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. People should know common values applicable to mankind</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. Cultural Value Education</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. Make people better and more responsible citizens</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. Universal Value Education</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. To keep mind calm and awakened</td></tr></table><br>Choose the <strong>correct</strong> answer from the options given below:",
         "options": [
           "A-I, B-II, C-III, D-IV",
           "A-II, B-I, C-IV, D-III",
@@ -1797,21 +1797,21 @@ const TEST_JAN_2026_P1 = [
         "explanation": "<strong>Matching Concept:</strong><br>• <strong>Social Value Education (A-III):</strong> Its goal is to integrate individuals into society, making them better and more responsible citizens.<br>• <strong>Spiritual Value Education (B-IV):</strong> Focuses on inner peace, mindfulness, and keeping the mind calm and awakened.<br>• <strong>Cultural Value Education (C-I):</strong> Involves passing down traditions and making people aware of the diversity, ideals, and norms of their specific culture.<br>• <strong>Universal Value Education (D-II):</strong> Relates to fundamental human values (like truth, non-violence, peace) that are common and applicable to all mankind globally."
       },
       "hi": {
-        "question": "<p><strong>सूची-I</strong> का <strong>सूची-II</strong> के साथ मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>सूची-I (मूल्य शिक्षा)</th><th style='padding:8px;'>सूची-II (विवरण)</th></tr><tr><td style='padding:6px;'>A. सामाजिक मूल्य शिक्षा</td><td style='padding:6px;'>I. समाज की विविधता, आदर्शों और मानदंडों के प्रति जागरूक</td></tr><tr><td style='padding:6px;'>B. आध्यात्मिक मूल्य शिक्षा</td><td style='padding:6px;'>II. लोगों को मानव जाति पर लागू होने वाले सामान्य मूल्यों को जानना चाहिए</td></tr><tr><td style='padding:6px;'>C. सांस्कृतिक मूल्य शिक्षा</td><td style='padding:6px;'>III. लोगों को बेहतर और अधिक जिम्मेदार नागरिक बनाना</td></tr><tr><td style='padding:6px;'>D. सार्वभौमिक मूल्य शिक्षा</td><td style='padding:6px;'>IV. मन को शांत और जाग्रत रखना</td></tr></table><br>नीचे दिए गए विकल्पों में से <strong>सही</strong> उत्तर चुनें:",
+        "question": "<p><strong>सूची-I</strong> का <strong>सूची-II</strong> के साथ मिलान करें:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-I (मूल्य शिक्षा)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-II (विवरण)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. सामाजिक मूल्य शिक्षा</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. समाज की विविधता, आदर्शों और मानदंडों के प्रति जागरूक</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. आध्यात्मिक मूल्य शिक्षा</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. लोगों को मानव जाति पर लागू होने वाले सामान्य मूल्यों को जानना चाहिए</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. सांस्कृतिक मूल्य शिक्षा</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. लोगों को बेहतर और अधिक जिम्मेदार नागरिक बनाना</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. सार्वभौमिक मूल्य शिक्षा</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. मन को शांत और जाग्रत रखना</td></tr></table><br>नीचे दिए गए विकल्पों में से <strong>सही</strong> उत्तर चुनें:",
         "options": [
           "A-I, B-II, C-III, D-IV",
           "A-II, B-I, C-IV, D-III",
           "A-IV, B-III, C-II, D-I",
           "A-III, B-IV, C-I, D-II"
         ],
-        "explanation": "<strong>वैचारिक मिलान:</strong><br>• <strong>सामाजिक मूल्य शिक्षा (A-III):</strong> इसका लक्ष्य व्यक्तियों को समाज में एकीकृत करना, उन्हें बेहतर और अधिक जिम्मेदार नागरिक बनाना है।<br>• <strong>आध्यात्मिक मूल्य शिक्षा (B-IV):</strong> आंतरिक शांति, दिमागीपन और मन को शांत और जाग्रत रखने पर केंद्रित है।<br>• <strong>सांस्कृतिक मूल्य शिक्षा (C-I):</strong> इसमें परंपराओं को आगे बढ़ाना और लोगों को उनकी विशिष्ट संस्कृति की विविधता, आदर्शों और मानदंडों से अवगत कराना शामिल है।<br>• <strong>सार्वभौमिक मूल्य शिक्षा (D-II):</strong> मौलिक मानवीय मूल्यों (जैसे सत्य, अहिंसा, शांति) से संबंधित है जो विश्व स्तर पर सभी मानव जाति के लिए आम और लागू हैं।"
+        "explanation": "<strong>वैचारिक मिलान:</strong><br>• <strong>सामाजिक मूल्य शिक्षा (A-III):</strong> इसका लक्ष्य व्यक्तियों को समाज में एकीकृत करना, उन्हें बेहतर और अधिक जिम्मेदार नागरिक बनाना है।<br>• <strong>आध्यात्मिक मूल्य शिक्षा (B-IV):</strong> आंतरिक शांति, दिमागीपन और मन को शांत और जाग्रत रखने पर केंद्रित है।<br>• <strong>सांस्कृतिक मूल्य शिक्षा (C-I):</strong> इसमें परंपराओं को आगे बढ़ाना और लोगों को उनकी विशिष्ट संस्कृति की विविधता, आदर्शों और मानदंडों से अवगत कराना शामिल है।<br>• <strong>सार्वभौमिक मूल्य शिक्षा (D-II):</strong> मौलिक मानवीय मूल्यों (जैसे सत्य, अहिंसा, शांति) से संबंधित है जो विश्व स्तर উন্নয়ন स्तर पर सभी मानव जाति के लिए आम और लागू हैं।"
       }
     }
   },
   {
     "id": "june25-s1-p1-q21",
     "difficulty": "easy",
-    "correct": 2,
+    "correct": 1,
     "unitEN": "Unit 9: People, Development and Environment",
     "unitHI": "इकाई 9: लोग, विकास और पर्यावरण",
     "topicEN": "Sustainable Development Goals",
@@ -1842,7 +1842,7 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q22",
     "difficulty": "hard",
-    "correct": 3,
+    "correct": 2,
     "unitEN": "Unit 5: Mathematical Reasoning and Aptitude",
     "unitHI": "इकाई 5: गणितीय तर्क और अभिरुचि",
     "topicEN": "Mathematical Aptitude (Speed, Percentage, Ratio)",
@@ -1856,7 +1856,7 @@ const TEST_JAN_2026_P1 = [
           "A and C Only",
           "B and D Only"
         ],
-        "explanation": "<strong>Statement Analysis:</strong><br><br><strong>A (True):</strong> Speed = Distance/Time = 200/24 m/s. To convert to km/hr, multiply by 18/5. -> (200/24) × (18/5) = 30 km/hr.<br><strong>B (False):</strong> Let number be x. 65% of x = (4/5)x - 21. <br>0.65x = 0.8x - 21 -> 0.15x = 21 -> x = 21 / 0.15 = 140. (Statement says 150).<br><strong>C (True):</strong> Speed = 108 km/hr. In m/s = 108 × (5/18) = 30 m/s. Distance in 15s = 30 × 15 = 450 metres.<br><strong>D (False):</strong> 7.5% of A = 12.5% of B -> 7.5A = 12.5B -> 3A = 5B -> A = (5/3)B.<br>Given A - B = 1660 -> (5/3)B - B = 1660 -> (2/3)B = 1660 -> B = 2490. A = 4150. (Statement says B is 2200).<br>Only A and C are mathematically true."
+        "explanation": "<strong>Statement Analysis:</strong><br><br><strong>A (True):</strong> Speed = Distance/Time = 200/24 m/s. To convert to km/hr, multiply by 18/5. → (200/24) × (18/5) = 30 km/hr.<br><strong>B (False):</strong> Let number be x. 65% of x = (4/5)x - 21. <br>0.65x = 0.8x - 21 → 0.15x = 21 → x = 21 / 0.15 = 140. (Statement says 150).<br><strong>C (True):</strong> Speed = 108 km/hr. In m/s = 108 × (5/18) = 30 m/s. Distance in 15s = 30 × 15 = 450 metres.<br><strong>D (False):</strong> 7.5% of A = 12.5% of B → 7.5A = 12.5B → 3A = 5B → A = (5/3)B.<br>Given A - B = 1660 → (5/3)B - B = 1660 → (2/3)B = 1660 → B = 2490. A = 4150. (Statement says B is 2200).<br>Only A and C are mathematically true."
       },
       "hi": {
         "question": "निम्नलिखित में से कौन सा/से कथन सत्य है/हैं?<br><br>A. यदि कोई एथलीट 24 सेकंड में 200 मीटर दौड़ता है, तो उसकी गति 30 किमी/घंटा है।<br>B. किसी संख्या का 65 प्रतिशत उस संख्या के 4/5 से 21 कम है। वह संख्या 150 है।<br>C. एक कार 108 किमी/घंटा की गति से चल रही है। 15 सेकंड में कार द्वारा तय की गई दूरी 450 मीटर है।<br>D. 2 संख्याओं A और B के बीच का अंतर 1660 है। यदि A का 7.5% B का 12.5% है, तो A और B का मान 4150 और 2200 है。<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
@@ -1866,14 +1866,14 @@ const TEST_JAN_2026_P1 = [
           "केवल A और C",
           "केवल B और D"
         ],
-        "explanation": "<strong>कथन विश्लेषण:</strong><br><br><strong>A (सत्य):</strong> गति = दूरी/समय = 200/24 मीटर/सेकंड। किमी/घंटा में बदलने के लिए, 18/5 से गुणा करें। -> (200/24) × (18/5) = 30 किमी/घंटा।<br><strong>B (असत्य):</strong> माना संख्या x है। x का 65% = (4/5)x - 21.<br>0.65x = 0.8x - 21 -> 0.15x = 21 -> x = 21 / 0.15 = 140. (कथन कहता है कि संख्या 150 है)।<br><strong>C (सत्य):</strong> गति = 108 किमी/घंटा। मीटर/सेकंड में = 108 × (5/18) = 30 मीटर/सेकंड। 15 सेकंड में दूरी = 30 × 15 = 450 मीटर।<br><strong>D (असत्य):</strong> A का 7.5% = B का 12.5% -> 7.5A = 12.5B -> 3A = 5B -> A = (5/3)B.<br>दिया गया है A - B = 1660 -> (5/3)B - B = 1660 -> (2/3)B = 1660 -> B = 2490. और A = 4150. (कथन कहता है कि B 2200 है)।<br>केवल A और C गणितीय रूप से सत्य हैं।"
+        "explanation": "<strong>कथन विश्लेषण:</strong><br><br><strong>A (सत्य):</strong> गति = दूरी/समय = 200/24 मीटर/सेकंड। किमी/घंटा में बदलने के लिए, 18/5 से गुणा करें। → (200/24) × (18/5) = 30 किमी/घंटा।<br><strong>B (असत्य):</strong> माना संख्या x है। x का 65% = (4/5)x - 21.<br>0.65x = 0.8x - 21 → 0.15x = 21 → x = 21 / 0.15 = 140. (कथन कहता है कि संख्या 150 है)।<br><strong>C (सत्य):</strong> गति = 108 किमी/घंटा। मीटर/सेकंड में = 108 × (5/18) = 30 मीटर/सेकंड। 15 सेकंड में दूरी = 30 × 15 = 450 मीटर।<br><strong>D (असत्य):</strong> A का 7.5% = B का 12.5% → 7.5A = 12.5B → 3A = 5B → A = (5/3)B.<br>दिया गया है A - B = 1660 → (5/3)B - B = 1660 → (2/3)B = 1660 → B = 2490. और A = 4150. (कथन कहता है कि B 2200 है)।<br>केवल A और C गणितीय रूप से सत्य हैं।"
       }
     }
   },
   {
     "id": "june25-s1-p1-q23",
     "difficulty": "medium",
-    "correct": 1,
+    "correct": 0,
     "unitEN": "Unit 4: Communication",
     "unitHI": "इकाई 4: संचार",
     "topicEN": "Mass Media and Society",
@@ -1904,7 +1904,7 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q24",
     "difficulty": "medium",
-    "correct": 2,
+    "correct": 1,
     "unitEN": "Unit 10: Higher Education System",
     "unitHI": "इकाई 10: उच्च शिक्षा प्रणाली",
     "topicEN": "Evolution of Higher Learning and Research in Post-Independence India",
@@ -1935,7 +1935,7 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q25",
     "difficulty": "medium",
-    "correct": 4,
+    "correct": 3,
     "unitEN": "Unit 1: Teaching Aptitude",
     "unitHI": "इकाई 1: शिक्षण अभिरुचि",
     "topicEN": "Evaluation Systems",
@@ -1966,7 +1966,7 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q26",
     "difficulty": "medium",
-    "correct": 1,
+    "correct": 0,
     "unitEN": "Unit 2: Research Aptitude",
     "unitHI": "इकाई 2: शोध अभिरुचि",
     "topicEN": "Research Ethics",
@@ -1997,7 +1997,7 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q27",
     "difficulty": "medium",
-    "correct": 4,
+    "correct": 3,
     "unitEN": "Unit 6: Logical Reasoning",
     "unitHI": "इकाई 6: तार्किक विचार",
     "topicEN": "Connotations and Denotations of Terms",
@@ -2028,7 +2028,7 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q28",
     "difficulty": "medium",
-    "correct": 2,
+    "correct": 1,
     "unitEN": "Unit 9: People, Development and Environment",
     "unitHI": "इकाई 9: लोग, विकास और पर्यावरण",
     "topicEN": "Natural and Energy Resources",
@@ -2059,7 +2059,7 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q29",
     "difficulty": "hard",
-    "correct": 4,
+    "correct": 3,
     "unitEN": "Unit 5: Mathematical Reasoning and Aptitude",
     "unitHI": "इकाई 5: गणितीय तर्क और अभिरुचि",
     "topicEN": "Profit and Loss",
@@ -2090,14 +2090,14 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q30",
     "difficulty": "medium",
-    "correct": 2,
+    "correct": 1,
     "unitEN": "Unit 9: People, Development and Environment",
     "unitHI": "इकाई 9: लोग, विकास और पर्यावरण",
     "topicEN": "International Environmental Agreements and Protocols",
     "topicHI": "अंतर्राष्ट्रीय पर्यावरण समझौते और प्रोटोकॉल",
     "content": {
       "en": {
-        "question": "<p>Match the <strong>LIST-I</strong> with <strong>LIST-II</strong></p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>LIST-I (Environmental Protocols/Conventions)</th><th style='padding:8px;'>LIST-II (Year of action/adoption)</th></tr><tr><td style='padding:6px;'>A. International Solar Alliance</td><td style='padding:6px;'>I. 1997</td></tr><tr><td style='padding:6px;'>B. Convention on Biodiversity</td><td style='padding:6px;'>II. 2015</td></tr><tr><td style='padding:6px;'>C. National Action Plan on Climate Change</td><td style='padding:6px;'>III. 1992</td></tr><tr><td style='padding:6px;'>D. Kyoto Protocol</td><td style='padding:6px;'>IV. 2008</td></tr></table><br>Choose the <strong>correct</strong> answer from the options given below:",
+        "question": "<p>Match the <strong>LIST-I</strong> with <strong>LIST-II</strong></p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>LIST-I (Environmental Protocols/Conventions)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>LIST-II (Year of action/adoption)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. International Solar Alliance</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. 1997</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. Convention on Biodiversity</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. 2015</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. National Action Plan on Climate Change</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. 1992</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. Kyoto Protocol</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. 2008</td></tr></table><br>Choose the <strong>correct</strong> answer from the options given below:",
         "options": [
           "A-III, B-II, C-IV, D-I",
           "A-II, B-III, C-IV, D-I",
@@ -2107,7 +2107,7 @@ const TEST_JAN_2026_P1 = [
         "explanation": "<strong>Key Matches:</strong><br>• <strong>International Solar Alliance (A-II):</strong> Initiated by India and France, it was launched during COP21 in Paris in <strong>2015</strong>.<br>• <strong>Convention on Biological Diversity (B-III):</strong> Opened for signature at the Earth Summit in Rio de Janeiro in <strong>1992</strong>.<br>• <strong>National Action Plan on Climate Change (C-IV):</strong> Launched by the Government of India in <strong>2008</strong> outlining 8 National Missions.<br>• <strong>Kyoto Protocol (D-I):</strong> An international treaty that commits state parties to reduce greenhouse gas emissions, adopted in <strong>1997</strong> in Kyoto, Japan."
       },
       "hi": {
-        "question": "<p><strong>सूची-I</strong> का <strong>सूची-II</strong> के साथ मिलान करें</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>सूची-I (पर्यावरण प्रोटोकॉल/सम्मेलन)</th><th style='padding:8px;'>सूची-II (कार्रवाई/अपनाने का वर्ष)</th></tr><tr><td style='padding:6px;'>A. अंतर्राष्ट्रीय सौर गठबंधन (ISA)</td><td style='padding:6px;'>I. 1997</td></tr><tr><td style='padding:6px;'>B. जैव विविधता पर कन्वेंशन</td><td style='padding:6px;'>II. 2015</td></tr><tr><td style='padding:6px;'>C. जलवायु परिवर्तन पर राष्ट्रीय कार्य योजना (NAPCC)</td><td style='padding:6px;'>III. 1992</td></tr><tr><td style='padding:6px;'>D. क्योटो प्रोटोकॉल</td><td style='padding:6px;'>IV. 2008</td></tr></table><br>नीचे दिए गए विकल्पों में से <strong>सही</strong> उत्तर चुनें:",
+        "question": "<p><strong>सूची-I</strong> का <strong>सूची-II</strong> के साथ मिलान करें</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-I (पर्यावरण प्रोटोकॉल/सम्मेलन)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-II (कार्रवाई/अपनाने का वर्ष)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. अंतर्राष्ट्रीय सौर गठबंधन (ISA)</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. 1997</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. जैव विविधता पर कन्वेंशन</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. 2015</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. जलवायु परिवर्तन पर राष्ट्रीय कार्य योजना (NAPCC)</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. 1992</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. क्योटो प्रोटोकॉल</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. 2008</td></tr></table><br>नीचे दिए गए विकल्पों में से <strong>सही</strong> उत्तर चुनें:",
         "options": [
           "A-III, B-II, C-IV, D-I",
           "A-II, B-III, C-IV, D-I",
@@ -2121,14 +2121,14 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q31",
     "difficulty": "medium",
-    "correct": 1,
+    "correct": 0,
     "unitEN": "Unit 1: Teaching Aptitude",
     "unitHI": "इकाई 1: शिक्षण अभिरुचि",
     "topicEN": "Evaluation Systems",
     "topicHI": "मूल्यांकन प्रणाली",
     "content": {
       "en": {
-        "question": "<p>Match the <strong>LIST-I</strong> with <strong>LIST-II</strong></p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>LIST-I (Cognitive domain level)</th><th style='padding:8px;'>LIST-II (Suggested word)</th></tr><tr><td style='padding:6px;'>A. Evaluation</td><td style='padding:6px;'>I. Define</td></tr><tr><td style='padding:6px;'>B. Knowledge</td><td style='padding:6px;'>II. Appraise</td></tr><tr><td style='padding:6px;'>C. Analysis</td><td style='padding:6px;'>III. Distinguish</td></tr><tr><td style='padding:6px;'>D. Application</td><td style='padding:6px;'>IV. Demonstrate</td></tr></table><br>Choose the <strong>correct</strong> answer from the options given below:",
+        "question": "<p>Match the <strong>LIST-I</strong> with <strong>LIST-II</strong></p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>LIST-I (Cognitive domain level)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>LIST-II (Suggested word)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. Evaluation</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. Define</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. Knowledge</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. Appraise</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. Analysis</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. Distinguish</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. Application</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. Demonstrate</td></tr></table><br>Choose the <strong>correct</strong> answer from the options given below:",
         "options": [
           "A-II, B-I, C-III, D-IV",
           "A-I, B-II, C-III, D-IV",
@@ -2138,7 +2138,7 @@ const TEST_JAN_2026_P1 = [
         "explanation": "These action verbs represent levels in Bloom's Taxonomy of the Cognitive Domain:<br>• <strong>Knowledge (B-I):</strong> The lowest level, involves recalling facts. Action verb: <em>Define</em>, List, State.<br>• <strong>Application (D-IV):</strong> Using acquired knowledge in new situations. Action verb: <em>Demonstrate</em>, Apply, Solve.<br>• <strong>Analysis (C-III):</strong> Breaking information into parts. Action verb: <em>Distinguish</em>, Analyze, Compare.<br>• <strong>Evaluation (A-II):</strong> Making judgments about the value of ideas. Action verb: <em>Appraise</em>, Judge, Evaluate."
       },
       "hi": {
-        "question": "<p><strong>सूची-I</strong> का <strong>सूची-II</strong> के साथ मिलान करें</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>सूची-I (संज्ञानात्मक डोमेन स्तर)</th><th style='padding:8px;'>सूची-II (सुझाया गया शब्द)</th></tr><tr><td style='padding:6px;'>A. मूल्यांकन (Evaluation)</td><td style='padding:6px;'>I. परिभाषित करना (Define)</td></tr><tr><td style='padding:6px;'>B. ज्ञान (Knowledge)</td><td style='padding:6px;'>II. आंकना (Appraise)</td></tr><tr><td style='padding:6px;'>C. विश्लेषण (Analysis)</td><td style='padding:6px;'>III. अंतर करना (Distinguish)</td></tr><tr><td style='padding:6px;'>D. अनुप्रयोग (Application)</td><td style='padding:6px;'>IV. प्रदर्शन करना (Demonstrate)</td></tr></table><br>नीचे दिए गए विकल्पों में से <strong>सही</strong> उत्तर चुनें:",
+        "question": "<p><strong>सूची-I</strong> का <strong>सूची-II</strong> के साथ मिलान करें</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-I (संज्ञानात्मक डोमेन स्तर)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-II (सुझाया गया शब्द)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. मूल्यांकन (Evaluation)</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. परिभाषित करना (Define)</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. ज्ञान (Knowledge)</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. आंकना (Appraise)</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. विश्लेषण (Analysis)</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. अंतर करना (Distinguish)</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. अनुप्रयोग (Application)</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. प्रदर्शन करना (Demonstrate)</td></tr></table><br>नीचे दिए गए विकल्पों में से <strong>सही</strong> उत्तर चुनें:",
         "options": [
           "A-II, B-I, C-III, D-IV",
           "A-I, B-II, C-III, D-IV",
@@ -2152,7 +2152,7 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q32",
     "difficulty": "hard",
-    "correct": 2,
+    "correct": 1,
     "unitEN": "Unit 6: Logical Reasoning",
     "unitHI": "इकाई 6: तार्किक विचार",
     "topicEN": "Structure of Categorical Propositions and Classical Square of Opposition",
@@ -2183,7 +2183,7 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q33",
     "difficulty": "medium",
-    "correct": 3,
+    "correct": 2,
     "unitEN": "Unit 6: Logical Reasoning",
     "unitHI": "इकाई 6: तार्किक विचार",
     "topicEN": "Classical Square of Opposition",
@@ -2214,7 +2214,7 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q34",
     "difficulty": "hard",
-    "correct": 4,
+    "correct": 3,
     "unitEN": "Unit 5: Mathematical Reasoning and Aptitude",
     "unitHI": "इकाई 5: गणितीय तर्क और अभिरुचि",
     "topicEN": "Number Series",
@@ -2245,14 +2245,14 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q35",
     "difficulty": "medium",
-    "correct": 2,
+    "correct": 1,
     "unitEN": "Unit 7: Data Interpretation",
     "unitHI": "इकाई 7: डेटा व्याख्या",
     "topicEN": "Data Interpretation",
     "topicHI": "डेटा व्याख्या",
     "content": {
       "en": {
-        "question": "<p>Match the <strong>LIST-I</strong> with <strong>LIST-II</strong></p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>LIST-I (n= number of Trials; p= probability of Success)</th><th style='padding:8px;'>LIST-II (Mean of Binomial Distribution)</th></tr><tr><td style='padding:6px;'>A. n = 16, p = 0.8</td><td style='padding:6px;'>I. 9.1</td></tr><tr><td style='padding:6px;'>B. n = 21, p = 0.6</td><td style='padding:6px;'>II. 9.2</td></tr><tr><td style='padding:6px;'>C. n = 13, p = 0.7</td><td style='padding:6px;'>III. 12.8</td></tr><tr><td style='padding:6px;'>D. n = 23, p = 0.4</td><td style='padding:6px;'>IV. 12.6</td></tr></table><br>Choose the <strong>correct</strong> answer from the options given below:",
+        "question": "<p>Match the <strong>LIST-I</strong> with <strong>LIST-II</strong></p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>LIST-I (n= number of Trials; p= probability of Success)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>LIST-II (Mean of Binomial Distribution)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. n = 16, p = 0.8</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. 9.1</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. n = 21, p = 0.6</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. 9.2</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. n = 13, p = 0.7</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. 12.8</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. n = 23, p = 0.4</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. 12.6</td></tr></table><br>Choose the <strong>correct</strong> answer from the options given below:",
         "options": [
           "A-II, B-IV, C-I, D-III",
           "A-III, B-IV, C-I, D-II",
@@ -2262,7 +2262,7 @@ const TEST_JAN_2026_P1 = [
         "explanation": "The formula for the <strong>Mean of a Binomial Distribution</strong> is simply <strong>Mean = n × p</strong>.<br>Let's calculate for each option:<br>• A. n = 16, p = 0.8 => 16 × 0.8 = <strong>12.8</strong> (Matches III)<br>• B. n = 21, p = 0.6 => 21 × 0.6 = <strong>12.6</strong> (Matches IV)<br>• C. n = 13, p = 0.7 => 13 × 0.7 = <strong>9.1</strong> (Matches I)<br>• D. n = 23, p = 0.4 => 23 × 0.4 = <strong>9.2</strong> (Matches II)<br>Hence, A-III, B-IV, C-I, D-II is the correct matching."
       },
       "hi": {
-        "question": "<p><strong>सूची-I</strong> का <strong>सूची-II</strong> के साथ मिलान करें</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>सूची-I (n= परीक्षणों की संख्या; p= सफलता की संभावना)</th><th style='padding:8px;'>सूची-II (द्विपद बंटन का माध्य / Mean of Binomial Distribution)</th></tr><tr><td style='padding:6px;'>A. n = 16, p = 0.8</td><td style='padding:6px;'>I. 9.1</td></tr><tr><td style='padding:6px;'>B. n = 21, p = 0.6</td><td style='padding:6px;'>II. 9.2</td></tr><tr><td style='padding:6px;'>C. n = 13, p = 0.7</td><td style='padding:6px;'>III. 12.8</td></tr><tr><td style='padding:6px;'>D. n = 23, p = 0.4</td><td style='padding:6px;'>IV. 12.6</td></tr></table><br>नीचे दिए गए विकल्पों में से <strong>सही</strong> उत्तर चुनें:",
+        "question": "<p><strong>सूची-I</strong> का <strong>सूची-II</strong> के साथ मिलान करें</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-I (n= परीक्षणों की संख्या; p= सफलता की संभावना)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-II (द्विपद बंटन का माध्य / Mean of Binomial Distribution)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. n = 16, p = 0.8</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. 9.1</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. n = 21, p = 0.6</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. 9.2</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. n = 13, p = 0.7</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. 12.8</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. n = 23, p = 0.4</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. 12.6</td></tr></table><br>नीचे दिए गए विकल्पों में से <strong>सही</strong> उत्तर चुनें:",
         "options": [
           "A-II, B-IV, C-I, D-III",
           "A-III, B-IV, C-I, D-II",
@@ -2276,14 +2276,14 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q36",
     "difficulty": "medium",
-    "correct": 3,
+    "correct": 2,
     "unitEN": "Unit 11: Miscellaneous",
     "unitHI": "इकाई 11: विविध",
     "topicEN": "Indian Cultural and Media Institutions",
     "topicHI": "भारतीय सांस्कृतिक और मीडिया संस्थान",
     "content": {
       "en": {
-        "question": "<p>Match the <strong>LIST-I</strong> with <strong>LIST-II</strong></p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>LIST-I (Cities)</th><th style='padding:8px;'>LIST-II (Institutes)</th></tr><tr><td style='padding:6px;'>A. New Delhi</td><td style='padding:6px;'>I. Bhartendu Natya Akademy</td></tr><tr><td style='padding:6px;'>B. Pune</td><td style='padding:6px;'>II. Asian Academy of Films &amp; T.V.</td></tr><tr><td style='padding:6px;'>C. Noida</td><td style='padding:6px;'>III. National Film Archive of India</td></tr><tr><td style='padding:6px;'>D. Lucknow</td><td style='padding:6px;'>IV. National School of Drama</td></tr></table><br>Choose the <strong>correct</strong> answer from the options given below:",
+        "question": "<p>Match the <strong>LIST-I</strong> with <strong>LIST-II</strong></p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>LIST-I (Cities)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>LIST-II (Institutes)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. New Delhi</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. Bhartendu Natya Akademy</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. Pune</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. Asian Academy of Films &amp; T.V.</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. Noida</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. National Film Archive of India</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. Lucknow</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. National School of Drama</td></tr></table><br>Choose the <strong>correct</strong> answer from the options given below:",
         "options": [
           "A-I, B-II, C-III, D-IV",
           "A-II, B-IV, C-I, D-III",
@@ -2293,7 +2293,7 @@ const TEST_JAN_2026_P1 = [
         "explanation": "<strong>Matching Media Institutes with Cities:</strong><br>• <strong>National School of Drama (NSD):</strong> One of the foremost theatre training institutions in the world, located in <strong>New Delhi (A-IV)</strong>.<br>• <strong>National Film Archive of India (NFAI):</strong> A premier film preservation body situated in <strong>Pune (B-III)</strong>.<br>• <strong>Asian Academy of Films & T.V. (AAFT):</strong> Located in Film City, <strong>Noida (C-II)</strong>.<br>• <strong>Bhartendu Natya Akademy (BNA):</strong> A prestigious theatre training institute established by the Department of Culture, UP, located in <strong>Lucknow (D-I)</strong>."
       },
       "hi": {
-        "question": "<p><strong>सूची-I</strong> का <strong>सूची-II</strong> के साथ मिलान करें</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>सूची-I (शहर)</th><th style='padding:8px;'>सूची-II (संस्थान)</th></tr><tr><td style='padding:6px;'>A. नई दिल्ली</td><td style='padding:6px;'>I. भारतेंदु नाट्य अकादमी</td></tr><tr><td style='padding:6px;'>B. पुणे</td><td style='padding:6px;'>II. एशियन एकेडमी ऑफ फिल्म्स एंड टी.वी.</td></tr><tr><td style='padding:6px;'>C. नोएडा</td><td style='padding:6px;'>III. भारतीय राष्ट्रीय फिल्म अभिलेखागार (NFAI)</td></tr><tr><td style='padding:6px;'>D. लखनऊ</td><td style='padding:6px;'>IV. राष्ट्रीय नाट्य विद्यालय (NSD)</td></tr></table><br>नीचे दिए गए विकल्पों में से <strong>सही</strong> उत्तर चुनें:",
+        "question": "<p><strong>सूची-I</strong> का <strong>सूची-II</strong> के साथ मिलान करें</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-I (शहर)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-II (संस्थान)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. नई दिल्ली</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. भारतेंदु नाट्य अकादमी</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. पुणे</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. एशियन एकेडमी ऑफ फिल्म्स एंड टी.वी.</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. नोएडा</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. भारतीय राष्ट्रीय फिल्म अभिलेखागार (NFAI)</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. लखनऊ</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. राष्ट्रीय नाट्य विद्यालय (NSD)</td></tr></table><br>नीचे दिए गए विकल्पों में से <strong>सही</strong> उत्तर चुनें:",
         "options": [
           "A-I, B-II, C-III, D-IV",
           "A-II, B-IV, C-I, D-III",
@@ -2307,7 +2307,7 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q37",
     "difficulty": "easy",
-    "correct": 2,
+    "correct": 1,
     "unitEN": "Unit 2: Research Aptitude",
     "unitHI": "इकाई 2: शोध अभिरुचि",
     "topicEN": "Methods of Research",
@@ -2338,7 +2338,7 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q38",
     "difficulty": "easy",
-    "correct": 1,
+    "correct": 0,
     "unitEN": "Unit 1: Teaching Aptitude",
     "unitHI": "इकाई 1: शिक्षण अभिरुचि",
     "topicEN": "Learner's Characteristics",
@@ -2369,7 +2369,7 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q39",
     "difficulty": "easy",
-    "correct": 4,
+    "correct": 3,
     "unitEN": "Unit 8: Information and Communication Technology (ICT)",
     "unitHI": "इकाई 8: सूचना और संचार प्रौद्योगिकी (ICT)",
     "topicEN": "ICT General Terminology and Concepts",
@@ -2400,7 +2400,7 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q40",
     "difficulty": "medium",
-    "correct": 1,
+    "correct": 0,
     "unitEN": "Unit 9: People, Development and Environment",
     "unitHI": "इकाई 9: लोग, विकास और पर्यावरण",
     "topicEN": "Natural and Energy Resources",
@@ -2431,7 +2431,7 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q41",
     "difficulty": "easy",
-    "correct": 4,
+    "correct": 3,
     "unitEN": "Unit 4: Communication",
     "unitHI": "इकाई 4: संचार",
     "topicEN": "Meaning, Types and Characteristics of Communication",
@@ -2462,7 +2462,7 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q42",
     "difficulty": "medium",
-    "correct": 1,
+    "correct": 0,
     "unitEN": "Unit 2: Research Aptitude",
     "unitHI": "इकाई 2: शोध अभिरुचि",
     "topicEN": "Steps of Research",
@@ -2493,7 +2493,7 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q43",
     "difficulty": "medium",
-    "correct": 3,
+    "correct": 2,
     "unitEN": "Unit 1: Teaching Aptitude",
     "unitHI": "इकाई 1: शिक्षण अभिरुचि",
     "topicEN": "Evaluation Systems",
@@ -2524,7 +2524,7 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q44",
     "difficulty": "medium",
-    "correct": 3,
+    "correct": 2,
     "unitEN": "Unit 10: Higher Education System",
     "unitHI": "इकाई 10: उच्च शिक्षा प्रणाली",
     "topicEN": "Policies, Governance and Administration",
@@ -2555,14 +2555,14 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q45",
     "difficulty": "medium",
-    "correct": 1,
+    "correct": 0,
     "unitEN": "Unit 9: People, Development and Environment",
     "unitHI": "इकाई 9: लोग, विकास और पर्यावरण",
     "topicEN": "Impacts of Pollutants on Human Health",
     "topicHI": "प्रदूषकों का मानव स्वास्थ्य पर प्रभाव",
     "content": {
       "en": {
-        "question": "<p>Match the <strong>LIST-I</strong> with <strong>LIST-II</strong></p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>LIST-I (Health related terms)</th><th style='padding:8px;'>LIST-II (Explanation)</th></tr><tr><td style='padding:6px;'>A. Toxicology</td><td style='padding:6px;'>I. Action taken to prevent environmental health hazard</td></tr><tr><td style='padding:6px;'>B. Exposure Assessment</td><td style='padding:6px;'>II. Evaluation of public risk of a hazard</td></tr><tr><td style='padding:6px;'>C. Risk Assessment</td><td style='padding:6px;'>III. Science of effect of toxic substances</td></tr><tr><td style='padding:6px;'>D. Risk Management</td><td style='padding:6px;'>IV. Estimation of impacts of environmental contaminants on humans</td></tr></table><br>Choose the <strong>correct</strong> answer from the options given below:",
+        "question": "<p>Match the <strong>LIST-I</strong> with <strong>LIST-II</strong></p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>LIST-I (Health related terms)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>LIST-II (Explanation)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. Toxicology</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. Action taken to prevent environmental health hazard</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. Exposure Assessment</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. Evaluation of public risk of a hazard</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. Risk Assessment</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. Science of effect of toxic substances</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. Risk Management</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. Estimation of impacts of environmental contaminants on humans</td></tr></table><br>Choose the <strong>correct</strong> answer from the options given below:",
         "options": [
           "A-III, B-IV, C-II, D-I",
           "A-III, B-IV, C-I, D-II",
@@ -2572,7 +2572,7 @@ const TEST_JAN_2026_P1 = [
         "explanation": "<strong>Matching Environmental Health terms:</strong><br>• <strong>Toxicology (A-III):</strong> The scientific study of adverse effects that occur in living organisms due to toxic substances (chemicals).<br>• <strong>Exposure Assessment (B-IV):</strong> The process of estimating or measuring the magnitude, frequency, and duration of exposure to environmental contaminants on human populations.<br>• <strong>Risk Assessment (C-II):</strong> The systematic evaluation of the potential public risk posed by a hazard.<br>• <strong>Risk Management (D-I):</strong> The physical actions/policies taken to control, mitigate, or prevent the identified environmental health hazard."
       },
       "hi": {
-        "question": "<p><strong>सूची-I</strong> का <strong>सूची-II</strong> के साथ मिलान करें</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>सूची-I (स्वास्थ्य संबंधी शर्तें)</th><th style='padding:8px;'>सूची-II (स्पष्टीकरण)</th></tr><tr><td style='padding:6px;'>A. विषविज्ञान (Toxicology)</td><td style='padding:6px;'>I. पर्यावरणीय स्वास्थ्य जोखिम को रोकने के लिए की गई कार्रवाई</td></tr><tr><td style='padding:6px;'>B. एक्सपोजर मूल्यांकन</td><td style='padding:6px;'>II. किसी खतरे के सार्वजनिक जोखिम का मूल्यांकन</td></tr><tr><td style='padding:6px;'>C. जोखिम मूल्यांकन</td><td style='padding:6px;'>III. विषाक्त पदार्थों के प्रभाव का विज्ञान</td></tr><tr><td style='padding:6px;'>D. जोखिम प्रबंधन</td><td style='padding:6px;'>IV. मनुष्यों पर पर्यावरणीय प्रदूषकों के प्रभाव का अनुमान</td></tr></table><br>नीचे दिए गए विकल्पों में से <strong>सही</strong> उत्तर चुनें:",
+        "question": "<p><strong>सूची-I</strong> का <strong>सूची-II</strong> के साथ मिलान करें</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-I (स्वास्थ्य संबंधी शर्तें)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-II (स्पष्टीकरण)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. विषविज्ञान (Toxicology)</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. पर्यावरणीय स्वास्थ्य जोखिम को रोकने के लिए की गई कार्रवाई</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. एक्सपोजर मूल्यांकन</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. किसी खतरे के सार्वजनिक जोखिम का मूल्यांकन</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. जोखिम मूल्यांकन</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. विषाक्त पदार्थों के प्रभाव का विज्ञान</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. जोखिम प्रबंधन</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. मनुष्यों पर पर्यावरणीय प्रदूषकों के प्रभाव का अनुमान</td></tr></table><br>नीचे दिए गए विकल्पों में से <strong>सही</strong> उत्तर चुनें:",
         "options": [
           "A-III, B-IV, C-II, D-I",
           "A-III, B-IV, C-I, D-II",
@@ -2586,7 +2586,7 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q46",
     "difficulty": "medium",
-    "correct": 2,
+    "correct": 1,
     "unitEN": "Unit 3: Comprehension",
     "unitHI": "इकाई 3: बोध",
     "topicEN": "Reading Comprehension",
@@ -2617,7 +2617,7 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q47",
     "difficulty": "medium",
-    "correct": 2,
+    "correct": 1,
     "unitEN": "Unit 3: Comprehension",
     "unitHI": "इकाई 3: बोध",
     "topicEN": "Reading Comprehension",
@@ -2634,7 +2634,7 @@ const TEST_JAN_2026_P1 = [
         "explanation": "In the final paragraph, the author mentions China as an example of an authoritarian regime that builds infrastructure rapidly: <em>\"...deal strongly with the corrupt and build highways, railway lines and bridges at a dizzying pace of authoritarian China.\"</em> This implies that China has made huge strides in infrastructure development (building highways, railways, bridges rapidly)."
       },
       "hi": {
-        "question": passageHTML(PASSAGE_JUNE25_S1_P1.hi) + "<br><br><strong>प्रश्न:</strong><br> गद्यांश के संदर्भ में चीन के बारे में निम्नलिखित में से कौन सा सत्य है?",
+        "question": passageHTML(PASSAGE_JUNE25_S1_P1.hi) + "<br><br><strong>प्रश्न:</strong><br> गद्यांश के संदर्भ में चीन के बारे बारे में निम्नलिखित में से कौन सा सत्य है?",
         "options": [
           "चीन के नागरिक सरकार का अधिक प्रतिनिधि रूप चाहते हैं",
           "चीन ने बुनियादी ढांचे के विकास में काफी प्रगति की है",
@@ -2648,7 +2648,7 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q48",
     "difficulty": "medium",
-    "correct": 1,
+    "correct": 0,
     "unitEN": "Unit 3: Comprehension",
     "unitHI": "इकाई 3: बोध",
     "topicEN": "Reading Comprehension",
@@ -2679,7 +2679,7 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q49",
     "difficulty": "medium",
-    "correct": 3,
+    "correct": 2,
     "unitEN": "Unit 3: Comprehension",
     "unitHI": "इकाई 3: बोध",
     "topicEN": "Reading Comprehension",
@@ -2710,7 +2710,7 @@ const TEST_JAN_2026_P1 = [
   {
     "id": "june25-s1-p1-q50",
     "difficulty": "medium",
-    "correct": 4,
+    "correct": 3,
     "unitEN": "Unit 3: Comprehension",
     "unitHI": "इकाई 3: बोध",
     "topicEN": "Reading Comprehension",
@@ -2739,33 +2739,6 @@ const TEST_JAN_2026_P1 = [
     }
   }
 ];
-
-/* ══════════════════════════════════════════════════════════════════════
-   🚀 MASTER REPAIR PATCH: JUNE 2025 (OPTIONS FIX + DI SPACING FIX)
-══════════════════════════════════════════════════════════════════════ */
-if (typeof TEST_JUNE25_S1_P1 !== 'undefined') {
-  TEST_JUNE25_S1_P1.forEach(q => {
-    
-    // 1. OPTIONS FIX: 1-based indexing ko 0-based indexing me badalna
-    // (Taaki Option 4 wale undefined na ho)
-    if (q.correct === 1 || q.correct === 2 || q.correct === 3 || q.correct === 4) {
-      q.correct = q.correct - 1;
-    }
-    
-    // 2. DI SPACING FIX: Q1 se Q5 me chhuphe hue 'Enter' (\n) ko mitana
-    // (Taaki index.html unhe <br> banakar faaltu gap na de)
-    const qNum = parseInt(q.id.split('-q')[1]);
-    if (qNum <= 5) {
-      if (q.content.en && q.content.en.question) {
-        q.content.en.question = q.content.en.question.replace(/\n/g, '');
-      }
-      if (q.content.hi && q.content.hi.question) {
-        q.content.hi.question = q.content.hi.question.replace(/\n/g, '');
-      }
-    }
-   
-  });
-}
 
 const TEST_JAN25_27_S2_P1 = [
   {
@@ -2945,7 +2918,7 @@ const TEST_JAN25_27_S2_P1 = [
     "topicHI": "जनसंचार माध्यम और समाज",
     "content": {
       "en": {
-        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>List-I (Investigative Reporting)</th><th style='padding:8px;'>List-II (Persons)</th></tr><tr><td style='padding:6px;'>A. Tehalka Case</td><td style='padding:6px;'>I. Bob Woodward and Carl Bernstein</td></tr><tr><td style='padding:6px;'>B. Watergate Scandal</td><td style='padding:6px;'>II. Julian Assange</td></tr><tr><td style='padding:6px;'>C. Bofors Scandal</td><td style='padding:6px;'>III. Tarun Tej Pal</td></tr><tr><td style='padding:6px;'>D. Wikileaks</td><td style='padding:6px;'>IV. Chitra Subramaniam</td></tr></table><br>Choose the correct answer from the options given below:",
+        "question": "<p>Match the following:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-I (Investigative Reporting)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-II (Persons)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. Tehalka Case</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. Bob Woodward and Carl Bernstein</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. Watergate Scandal</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. Julian Assange</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. Bofors Scandal</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. Tarun Tej Pal</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. Wikileaks</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. Chitra Subramaniam</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": [
           "A-III, B-I, C-IV, D-II",
           "A-I, B-III, C-IV, D-II",
@@ -2955,7 +2928,7 @@ const TEST_JAN25_27_S2_P1 = [
         "explanation": "<strong>Matching Investigative Reporting Milestones:</strong><br>• <strong>Tehelka Case (A-III):</strong> The sting operation 'Operation West End' was led by Tarun Tejpal, founder of Tehelka magazine.<br>• <strong>Watergate Scandal (B-I):</strong> Exposed by journalists Bob Woodward and Carl Bernstein from The Washington Post.<br>• <strong>Bofors Scandal (C-IV):</strong> Prominent investigative journalism on this arms-deal scandal was done by Chitra Subramaniam.<br>• <strong>Wikileaks (D-II):</strong> The famous whistleblowing website was founded by Julian Assange."
       },
       "hi": {
-        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>सूची-I (खोजी रिपोर्टिंग)</th><th style='padding:8px;'>सूची-II (व्यक्ति)</th></tr><tr><td style='padding:6px;'>A. तहलका मामला</td><td style='padding:6px;'>I. बॉब वुडवर्ड और कार्ल बर्नस्टीन</td></tr><tr><td style='padding:6px;'>B. वाटरगेट कांड</td><td style='padding:6px;'>II. जूलियन असांजे</td></tr><tr><td style='padding:6px;'>C. बोफोर्स घोटाला</td><td style='padding:6px;'>III. तरुण तेज पाल</td></tr><tr><td style='padding:6px;'>D. विकिलीक्स</td><td style='padding:6px;'>IV. चित्रा सुब्रमण्यम</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-I (खोजी रिपोर्टिंग)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-II (व्यक्ति)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. तहलका मामला</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. बॉब वुडवर्ड और कार्ल बर्नस्टीन</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. वाटरगेट कांड</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. जूलियन असांजे</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. बोफोर्स घोटाला</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. तरुण तेज पाल</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. विकिलीक्स</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. चित्रा सुब्रमण्यम</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": [
           "A-III, B-I, C-IV, D-II",
           "A-I, B-III, C-IV, D-II",
@@ -2976,7 +2949,7 @@ const TEST_JAN25_27_S2_P1 = [
     "topicHI": "शोध के प्रकार",
     "content": {
       "en": {
-        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>List-I (Research types)</th><th style='padding:8px;'>List-II (Meaning)</th></tr><tr><td style='padding:6px;'>A. Basic Research</td><td style='padding:6px;'>I. Assessing programs or interventions</td></tr><tr><td style='padding:6px;'>B. Applied Research</td><td style='padding:6px;'>II. Solving practical problems</td></tr><tr><td style='padding:6px;'>C. Action Research</td><td style='padding:6px;'>III. Improving practices in special settings</td></tr><tr><td style='padding:6px;'>D. Evaluation Research</td><td style='padding:6px;'>IV. Expanding knowledge without immediate application</td></tr></table><br>Choose the correct answer from the options given below:",
+        "question": "<p>Match the following:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-I (Research types)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-II (Meaning)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. Basic Research</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. Assessing programs or interventions</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. Applied Research</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. Solving practical problems</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. Action Research</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. Improving practices in special settings</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. Evaluation Research</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. Expanding knowledge without immediate application</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": [
           "A-II, B-I, C-III, D-IV",
           "A-I, B-II, C-IV, D-III",
@@ -2986,7 +2959,7 @@ const TEST_JAN25_27_S2_P1 = [
         "explanation": "<strong>Definitions of Research Types:</strong><br>• <strong>Basic (Fundamental) Research (A-IV):</strong> Conducted purely for the enhancement of knowledge without the aim of immediate practical application.<br>• <strong>Applied Research (B-II):</strong> Aimed at finding a solution for an immediate, practical problem facing a society or organization.<br>• <strong>Action Research (C-III):</strong> A specific type of applied research focused on improving local practices and solving problems in specific settings (like a classroom).<br>• <strong>Evaluation Research (D-I):</strong> Used to determine the impact or effectiveness of a specific program, policy, or intervention."
       },
       "hi": {
-        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>सूची-I (अनुसंधान के प्रकार)</th><th style='padding:8px;'>सूची-II (अर्थ)</th></tr><tr><td style='padding:6px;'>A. बेसिक रिसर्च</td><td style='padding:6px;'>I. कार्यक्रमों या हस्तक्षेपों का मूल्यांकन</td></tr><tr><td style='padding:6px;'>B. अनुप्रयुक्त अनुसंधान</td><td style='padding:6px;'>II. व्यावहारिक समस्याओं का समाधान</td></tr><tr><td style='padding:6px;'>C. एक्शन रिसर्च</td><td style='padding:6px;'>III. विशेष परिस्थितियों में प्रथाओं में सुधार</td></tr><tr><td style='padding:6px;'>D. मूल्यांकन अनुसंधान</td><td style='padding:6px;'>IV. तत्काल अनुप्रयोग के बिना ज्ञान का विस्तार करना</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-I (अनुसंधान के प्रकार)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-II (अर्थ)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. बेसिक रिसर्च</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. कार्यक्रमों या हस्तक्षेपों का मूल्यांकन</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. अनुप्रयुक्त अनुसंधान</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. व्यावहारिक समस्याओं का समाधान</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. एक्शन रिसर्च</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. विशेष परिस्थितियों में प्रथाओं में सुधार</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. मूल्यांकन अनुसंधान</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. तत्काल अनुप्रयोग के बिना ज्ञान का विस्तार करना</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": [
           "A-II, B-I, C-III, D-IV",
           "A-I, B-II, C-IV, D-III",
@@ -3076,7 +3049,7 @@ const TEST_JAN25_27_S2_P1 = [
           "15 hrs",
           "25 hrs"
         ],
-        "explanation": "<strong>Step-by-step Solution:</strong><br>Let the larger pipe take $x$ hours and smaller pipe take $y$ hours to fill the pool alone.<br>In 1 hour, larger fills $1/x$ and smaller fills $1/y$.<br>Equation 1 (Together): $1/x + 1/y = 1/12$ => Multiply by 12 => $12/x + 12/y = 1$<br>Equation 2 (Partial): $4/x + 9/y = 1/2$<br>To eliminate $y$, multiply Eq 2 by $(12/9) = 4/3$:<br>$(4/x) * (4/3) + (9/y) * (4/3) = (1/2) * (4/3)$<br>$16/3x + 12/y = 2/3$<br>Now, subtract this from Eq 1:<br>$(12/x - 16/3x) + (12/y - 12/y) = 1 - 2/3$<br>$(36 - 16)/3x = 1/3$<br>$20/3x = 1/3$ => $20/x = 1$ => <strong>$x = 20$ hours</strong>.<br>The larger pipe takes 20 hours to fill the pool alone."
+        "explanation": "<strong>Step-by-step Solution:</strong><br>Let the larger pipe take x hours and smaller pipe take y hours to fill the pool alone.<br>In 1 hour, larger fills 1/x and smaller fills 1/y.<br>Equation 1 (Together): 1/x + 1/y = 1/12 => Multiply by 12 => 12/x + 12/y = 1<br>Equation 2 (Partial): 4/x + 9/y = 1/2<br>To eliminate y, multiply Eq 2 by (12/9) = 4/3:<br>(4/x) × (4/3) + (9/y) × (4/3) = (1/2) × (4/3)<br>16/3x + 12/y = 2/3<br>Now, subtract this from Eq 1:<br>(12/x - 16/3x) + (12/y - 12/y) = 1 - 2/3<br>(36 - 16)/3x = 1/3<br>20/3x = 1/3 => 20/x = 1 => <strong>x = 20 hours</strong>.<br>The larger pipe takes 20 hours to fill the pool alone."
       },
       "hi": {
         "question": "दो पाइपों का उपयोग करके एक स्विमिंग पूल को भरने में 12 घंटे लगते हैं। यदि बड़े व्यास वाले पाइप का उपयोग 4 घंटे और छोटे व्यास वाले पाइप का उपयोग 9 घंटे के लिए किया जाता है, तो केवल आधा पूल ही भर सकता है। बड़े व्यास वाले पाइप को पूल भरने में कितना समय लगेगा?",
@@ -3086,7 +3059,7 @@ const TEST_JAN25_27_S2_P1 = [
           "15 घंटे",
           "25 घंटे"
         ],
-        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>मान लें कि बड़े पाइप को $x$ घंटे लगते हैं और छोटे पाइप को पूल को अकेले भरने में $y$ घंटे लगते हैं।<br>1 घंटे में, बड़ा पाइप $1/x$ भरता है और छोटा पाइप $1/y$ भरता है।<br>समीकरण 1 (एक साथ): $1/x + 1/y = 1/12$ => 12 से गुणा करें => $12/x + 12/y = 1$<br>समीकरण 2 (आंशिक): $4/x + 9/y = 1/2$<br>$y$ को हटाने के लिए, समीकरण 2 को $(12/9) = 4/3$ से गुणा करें:<br>$(4/x) * (4/3) + (9/y) * (4/3) = (1/2) * (4/3)$<br>$16/3x + 12/y = 2/3$<br>अब, इसे समीकरण 1 से घटाएं:<br>$(12/x - 16/3x) + (12/y - 12/y) = 1 - 2/3$<br>$(36 - 16)/3x = 1/3$<br>$20/3x = 1/3$ => $20/x = 1$ => <strong>$x = 20$ घंटे</strong>।<br>बड़े पाइप को अकेले पूल भरने में 20 घंटे का समय लगता है।"
+        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>मान लें कि बड़े पाइप को x घंटे लगते हैं और छोटे पाइप को पूल को अकेले भरने में y घंटे लगते हैं।<br>1 घंटे में, बड़ा पाइप 1/x भरता है और छोटा पाइप 1/y भरता है।<br>समीकरण 1 (एक साथ): 1/x + 1/y = 1/12 => 12 से गुणा करें => 12/x + 12/y = 1<br>समीकरण 2 (आंशिक): 4/x + 9/y = 1/2<br>y को हटाने के लिए, समीकरण 2 को (12/9) = 4/3 से गुणा करें:<br>(4/x) × (4/3) + (9/y) × (4/3) = (1/2) × (4/3)<br>16/3x + 12/y = 2/3<br>अब, इसे समीकरण 1 से घटाएं:<br>(12/x - 16/3x) + (12/y - 12/y) = 1 - 2/3<br>(36 - 16)/3x = 1/3<br>20/3x = 1/3 => 20/x = 1 => <strong>x = 20 घंटे</strong>।<br>बड़े पाइप को अकेले पूल भरने में 20 घंटे का समय लगता है।"
       }
     }
   },
@@ -3100,7 +3073,7 @@ const TEST_JAN25_27_S2_P1 = [
     "topicHI": "सहस्राब्दि विकास और सतत विकास लक्ष्य",
     "content": {
       "en": {
-        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>List-I (Specific SDG)</th><th style='padding:8px;'>List-II (Its Goal)</th></tr><tr><td style='padding:6px;'>A. SDG 12</td><td style='padding:6px;'>I. Life below water</td></tr><tr><td style='padding:6px;'>B. SDG 13</td><td style='padding:6px;'>II. Life on land</td></tr><tr><td style='padding:6px;'>C. SDG 14</td><td style='padding:6px;'>III. Responsible production and consumption</td></tr><tr><td style='padding:6px;'>D. SDG 15</td><td style='padding:6px;'>IV. Climate Action</td></tr></table><br>Choose the correct answer from the options given below:",
+        "question": "<p>Match the following:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-I (Specific SDG)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-II (Its Goal)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. SDG 12</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. Life below water</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. SDG 13</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. Life on land</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. SDG 14</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. Responsible production and consumption</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. SDG 15</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. Climate Action</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": [
           "A-III, B-IV, C-I, D-II",
           "A-III, B-IV, C-II, D-I",
@@ -3110,7 +3083,7 @@ const TEST_JAN25_27_S2_P1 = [
         "explanation": "<strong>Matching the Sustainable Development Goals (SDGs):</strong><br>• <strong>SDG 12 (A-III):</strong> Ensure sustainable consumption and production patterns (Responsible production and consumption).<br>• <strong>SDG 13 (B-IV):</strong> Take urgent action to combat climate change and its impacts (Climate Action).<br>• <strong>SDG 14 (C-I):</strong> Conserve and sustainably use the oceans, seas and marine resources (Life below water).<br>• <strong>SDG 15 (D-II):</strong> Protect, restore and promote sustainable use of terrestrial ecosystems (Life on land)."
       },
       "hi": {
-        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>सूची-I (विशिष्ट SDG)</th><th style='padding:8px;'>सूची-II (इसका लक्ष्य)</th></tr><tr><td style='padding:6px;'>A. SDG 12</td><td style='padding:6px;'>I. पानी के नीचे जीवन</td></tr><tr><td style='padding:6px;'>B. SDG 13</td><td style='padding:6px;'>II. भूमि पर जीवन</td></tr><tr><td style='padding:6px;'>C. SDG 14</td><td style='padding:6px;'>III. जिम्मेदार उत्पादन और उपभोग</td></tr><tr><td style='padding:6px;'>D. SDG 15</td><td style='padding:6px;'>IV. जलवायु कार्रवाई</td></tr></table><br>नी नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-I (विशिष्ट SDG)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-II (इसका लक्ष्य)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. SDG 12</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. पानी के नीचे जीवन</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. SDG 13</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. भूमि पर जीवन</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. SDG 14</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. जिम्मेदार उत्पादन और उपभोग</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. SDG 15</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. जलवायु कार्रवाई</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": [
           "A-III, B-IV, C-I, D-II",
           "A-III, B-IV, C-II, D-I",
@@ -3131,7 +3104,7 @@ const TEST_JAN25_27_S2_P1 = [
     "topicHI": "विरोध का शास्त्रीय वर्ग",
     "content": {
       "en": {
-        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>List-I (In a square of opposition)</th><th style='padding:8px;'>List-II (Result)</th></tr><tr><td style='padding:6px;'>A. If 'E' is False</td><td style='padding:6px;'>I. 'O' is Undetermined</td></tr><tr><td style='padding:6px;'>B. If 'O' is True</td><td style='padding:6px;'>II. 'E' is True</td></tr><tr><td style='padding:6px;'>C. If 'I' is False</td><td style='padding:6px;'>III. 'E' is False</td></tr><tr><td style='padding:6px;'>D. If 'A' is True</td><td style='padding:6px;'>IV. 'E' is Undetermined</td></tr></table><br>Choose the correct answer from the options given below:",
+        "question": "<p>Match the following:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-I (In a square of opposition)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-II (Result)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. If 'E' is False</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. 'O' is Undetermined</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. If 'O' is True</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. 'E' is True</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. If 'I' is False</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. 'E' is False</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. If 'A' is True</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. 'E' is Undetermined</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": [
           "A-II, B-I, C-IV, D-III",
           "A-IV, B-III, C-I, D-II",
@@ -3141,7 +3114,7 @@ const TEST_JAN25_27_S2_P1 = [
         "explanation": "<strong>Applying rules of the Classical Square of Opposition:</strong><br>• <strong>A (If 'E' is False):</strong> 'I' must be True, but 'A' and 'O' are undetermined. So, <strong>'O' is Undetermined (I)</strong>.<br>• <strong>B (If 'O' is True):</strong> 'A' is False, but 'E' and 'I' are undetermined. So, <strong>'E' is Undetermined (IV)</strong>.<br>• <strong>C (If 'I' is False):</strong> 'A' is False, 'E' is True, and 'O' is True. So, <strong>'E' is True (II)</strong>.<br>• <strong>D (If 'A' is True):</strong> 'O' is False, 'I' is True, and 'E' is False. So, <strong>'E' is False (III)</strong>.<br>Matching is A-I, B-IV, C-II, D-III."
       },
       "hi": {
-        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>सूची-I (विपक्ष के एक वर्ग में)</th><th style='padding:8px;'>सूची-II (परिणाम)</th></tr><tr><td style='padding:6px;'>A. यदि 'E' असत्य है</td><td style='padding:6px;'>I. 'O' अनिर्धारित है</td></tr><tr><td style='padding:6px;'>B. यदि 'O' सत्य है</td><td style='padding:6px;'>II. 'E' सत्य है</td></tr><tr><td style='padding:6px;'>C. यदि 'I' असत्य है</td><td style='padding:6px;'>III. 'E' असत्य है</td></tr><tr><td style='padding:6px;'>D. यदि 'A' सत्य है</td><td style='padding:6px;'>IV. 'E' अनिर्धारित है</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-I (विपक्ष के एक वर्ग में)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-II (परिणाम)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. यदि 'E' असत्य है</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. 'O' अनिर्धारित है</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. यदि 'O' सत्य है</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. 'E' सत्य है</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. यदि 'I' असत्य है</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. 'E' असत्य है</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. यदि 'A' सत्य है</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. 'E' अनिर्धारित है</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": [
           "A-II, B-I, C-IV, D-III",
           "A-IV, B-III, C-I, D-II",
@@ -3169,7 +3142,7 @@ const TEST_JAN25_27_S2_P1 = [
           "1290",
           "1920"
         ],
-        "explanation": "<strong>Step-by-step Solution:</strong><br>1. Let total students be $x$.<br>2. Fraction using bus = $2/5$. Fraction using car = $1/4$.<br>3. Total using transport = $2/5 + 1/4 = (8 + 5) / 20 = 13/20$.<br>4. Remaining fraction (who walk) = $1 - 13/20 = 7/20$. So, walking students = $(7/20)x$.<br>5. We are told $1/3$ of these walking students walk ALONE (not accompanied).<br>6. So, students walking alone = $(1/3) * (7/20)x = (7/60)x$.<br>7. It's given that 224 students walk on their own. Therefore:<br>   $(7/60)x = 224$<br>   $x = (224 × 60) / 7$<br>   $x = 32 × 60 = 1920$.<br>The total number of students is <strong>1920</strong>."
+        "explanation": "<strong>Step-by-step Solution:</strong><br>1. Let total students be x.<br>2. Fraction using bus = 2/5. Fraction using car = 1/4.<br>3. Total using transport = 2/5 + 1/4 = (8 + 5) / 20 = 13/20.<br>4. Remaining fraction (who walk) = 1 - 13/20 = 7/20. So, walking students = (7/20)x.<br>5. We are told 1/3 of these walking students walk ALONE (not accompanied).<br>6. So, students walking alone = (1/3) × (7/20)x = (7/60)x.<br>7. It's given that 224 students walk on their own. Therefore:<br>   (7/60)x = 224<br>   x = (224 × 60) / 7<br>   x = 32 × 60 = 1920.<br>The total number of students is <strong>1920</strong>."
       },
       "hi": {
         "question": "एक स्कूल के दो-पांचवें छात्र बस से स्कूल जाते हैं, एक-चौथाई कार से और बाकी पैदल स्कूल जाते हैं। पैदल स्कूल जाने वाले एक-तिहाई छात्रों के साथ कोई नहीं होता; बाकी छात्रों को उनके माता-पिता साथ लेकर जाते हैं। यदि 224 छात्र अकेले स्कूल जाते हैं, तो स्कूल में छात्रों की कुल संख्या कितनी है?",
@@ -3179,7 +3152,7 @@ const TEST_JAN25_27_S2_P1 = [
           "1290",
           "1920"
         ],
-        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>1. मान लें कि कुल छात्र $x$ हैं।<br>2. बस का उपयोग करने वाला भिन्न = $2/5$। कार का उपयोग करने वाला भिन्न = $1/4$।<br>3. परिवहन का उपयोग करने वाले कुल छात्र = $2/5 + 1/4 = (8 + 5) / 20 = 13/20$।<br>4. शेष भिन्न (जो पैदल चलते हैं) = $1 - 13/20 = 7/20$। अतः, पैदल चलने वाले छात्र = $(7/20)x$।<br>5. बताया गया है कि इन पैदल चलने वाले छात्रों में से $1/3$ अकेले चलते हैं (उनके साथ कोई नहीं होता)।<br>6. अतः, अकेले चलने वाले छात्र = $(1/3) * (7/20)x = (7/60)x$।<br>7. यह दिया गया है कि 224 छात्र अकेले स्कूल जाते हैं। इसलिए:<br>   $(7/60)x = 224$<br>   $x = (224 × 60) / 7$<br>   $x = 32 × 60 = 1920$।<br>स्कूल में छात्रों की कुल संख्या <strong>1920</strong> है।"
+        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>1. मान लें कि कुल छात्र x हैं।<br>2. बस का उपयोग करने वाला भिन्न = 2/5। कार का उपयोग करने वाला भिन्न = 1/4।<br>3. परिवहन का उपयोग करने वाले कुल छात्र = 2/5 + 1/4 = (8 + 5) / 20 = 13/20।<br>4. शेष भिन्न (जो पैदल चलते हैं) = 1 - 13/20 = 7/20। अतः, पैदल चलने वाले छात्र = (7/20)x।<br>5. बताया गया है कि इन पैदल चलने वाले छात्रों में से 1/3 अकेले चलते हैं (उनके साथ कोई नहीं होता)।<br>6. अतः, अकेले चलने वाले छात्र = (1/3) × (7/20)x = (7/60)x।<br>7. यह दिया गया है कि 224 छात्र अकेले स्कूल जाते हैं। इसलिए:<br>   (7/60)x = 224<br>   x = (224 × 60) / 7<br>   x = 32 × 60 = 1920।<br>स्कूल में छात्रों की कुल संख्या <strong>1920</strong> है।"
       }
     }
   },
@@ -3255,7 +3228,7 @@ const TEST_JAN25_27_S2_P1 = [
     "topicHI": "शिक्षण को प्रभावित करने वाले कारक",
     "content": {
       "en": {
-        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>List-I (Term)</th><th style='padding:8px;'>List-II (Feature)</th></tr><tr><td style='padding:6px;'>A. Learner diversity</td><td style='padding:6px;'>I. Hinders utilization of instructional facilities for teachers</td></tr><tr><td style='padding:6px;'>B. Poor classroom ventilation</td><td style='padding:6px;'>II. Worsens the digital divide</td></tr><tr><td style='padding:6px;'>C. Digital inequality</td><td style='padding:6px;'>III. Requires culturally responsive teaching strategies</td></tr><tr><td style='padding:6px;'>D. Teacher's reluctance to innovate</td><td style='padding:6px;'>IV. Negatively affects concentration levels of students</td></tr></table><br>Choose the correct answer from the options given below:",
+        "question": "<p>Match the following:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-I (Term)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-II (Feature)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. Learner diversity</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. Hinders utilization of instructional facilities for teachers</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. Poor classroom ventilation</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. Worsens the digital divide</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. Digital inequality</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. Requires culturally responsive teaching strategies</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. Teacher's reluctance to innovate</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. Negatively affects concentration levels of students</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": [
           "A-II, B-IV, C-III, D-I",
           "A-I, B-II, C-III, D-IV",
@@ -3265,7 +3238,7 @@ const TEST_JAN25_27_S2_P1 = [
         "explanation": "<strong>Matching Factors Affecting Teaching & Learning:</strong><br>• <strong>Learner diversity (A-III):</strong> When students come from different backgrounds, it requires culturally responsive teaching strategies.<br>• <strong>Poor classroom ventilation (B-IV):</strong> A bad physical environment negatively affects the concentration levels of students.<br>• <strong>Digital inequality (C-II):</strong> The gap in access to tech worsens the 'digital divide' among students.<br>• <strong>Teacher's reluctance to innovate (D-I):</strong> A negative attitude in a teacher hinders the proper utilization of new instructional facilities/tools."
       },
       "hi": {
-        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>सूची-I (अवधि)</th><th style='padding:8px;'>सूची-II (विशेषता)</th></tr><tr><td style='padding:6px;'>A. शिक्षार्थी विविधता</td><td style='padding:6px;'>I. शिक्षकों के लिए शिक्षण सुविधाओं के उपयोग में बाधा डालता है</td></tr><tr><td style='padding:6px;'>B. कक्षा में खराब वेंटिलेशन</td><td style='padding:6px;'>II. डिजिटल विभाजन को और बिगाड़ता है</td></tr><tr><td style='padding:6px;'>C. डिजिटल असमानता</td><td style='padding:6px;'>III. सांस्कृतिक रूप से उत्तरदायी शिक्षण रणनीतियों की आवश्यकता है</td></tr><tr><td style='padding:6px;'>D. शिक्षकों की नवाचार के प्रति अनिच्छा</td><td style='padding:6px;'>IV. छात्रों के एकाग्रता स्तर पर नकारात्मक प्रभाव पड़ता है</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-I (अवधि)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-II (विशेषता)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. शिक्षार्थी विविधता</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. शिक्षकों के लिए शिक्षण सुविधाओं के उपयोग में बाधा डालता है</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. कक्षा में खराब वेंटिलेशन</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. डिजिटल विभाजन को और बिगाड़ता है</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. डिजिटल असमानता</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. सांस्कृतिक रूप से उत्तरदायी शिक्षण रणनीतियों की आवश्यकता है</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. शिक्षकों की नवाचार के प्रति अनिच्छा</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. छात्रों के एकाग्रता स्तर पर नकारात्मक प्रभाव पड़ता है</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": [
           "A-II, B-IV, C-III, D-I",
           "A-I, B-II, C-III, D-IV",
@@ -3324,7 +3297,7 @@ const TEST_JAN25_27_S2_P1 = [
           "(a + 1/a)(n) x̄",
           "(a + 1/a)(2n) x̄"
         ],
-        "explanation": "<strong>Step-by-step Solution:</strong><br>1. The original mean is $\\bar{x}$. This means the sum of $x_1 + x_2 + ... + x_n = n\\bar{x}$.<br>2. We have a new combined series with $2n$ terms: first half is multiplied by $a$, second half is divided by $a$.<br>3. Sum of the new series = $(ax_1 + ax_2 + ... + ax_n) + (x_1/a + x_2/a + ... + x_n/a)$.<br>4. Factoring out $a$ and $1/a$:<br>   Sum = $a(x_1 + ... + x_n) + \\frac{1}{a}(x_1 + ... + x_n)$<br>   Sum = $a(n\\bar{x}) + \\frac{1}{a}(n\\bar{x}) = n\\bar{x}(a + \\frac{1}{a})$.<br>5. New Mean = (Total Sum) / (Total number of terms). Since there are $2n$ terms:<br>   New Mean = $\\frac{n\\bar{x}(a + 1/a)}{2n} = \\frac{1}{2}(a + \\frac{1}{a})\\bar{x}$."
+        "explanation": "<strong>Step-by-step Solution:</strong><br>1. The original mean is x̄. This means the sum of x₁ + x₂ + ... + xₙ = n * x̄.<br>2. We have a new combined series with 2n terms: first half is multiplied by a, second half is divided by a.<br>3. Sum of the new series = (ax₁ + ax₂ + ... + axₙ) + (x₁/a + x₂/a + ... + xₙ/a).<br>4. Factoring out a and 1/a:<br>   Sum = a(x₁ + ... + xₙ) + (1/a)(x₁ + ... + xₙ)<br>   Sum = a(n * x̄) + (1/a)(n * x̄) = n * x̄ * (a + 1/a).<br>5. New Mean = (Total Sum) / (Total number of terms). Since there are 2n terms:<br>   New Mean = [n * x̄ * (a + 1/a)] / 2n = (1/2) * (a + 1/a) * x̄."
       },
       "hi": {
         "question": "यदि X̄, x₁, x₂, x₃, ……xₙ का माध्य है, तो a ≠ 0 के लिए, (ax₁, ax₂, ax₃, ………axₙ, x₁/a, x₂/a, x₃/a, ….xₙ/a) का माध्य क्या होगा?",
@@ -3334,7 +3307,7 @@ const TEST_JAN25_27_S2_P1 = [
           "(a + 1/a)(n) x̄",
           "(a + 1/a)(2n) x̄"
         ],
-        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>1. मूल माध्य $\\bar{x}$ है। इसका अर्थ है कि $x_1 + x_2 + ... + x_n$ का योग $= n\\bar{x}$ है।<br>2. हमारे पास $2n$ पदों के साथ एक नई संयुक्त श्रृंखला है: पहले आधे को $a$ से गुणा किया गया है, दूसरे आधे को $a$ से विभाजित किया गया है।<br>3. नई श्रृंखला का योग = $(ax_1 + ax_2 + ... + ax_n) + (x_1/a + x_2/a + ... + x_n/a)$।<br>4. $a$ और $1/a$ को फैक्टर करने पर:<br>   योग = $a(x_1 + ... + x_n) + \\frac{1}{a}(x_1 + ... + x_n)$<br>   योग = $a(n\\bar{x}) + \\frac{1}{a}(n\\bar{x}) = n\\bar{x}(a + \\frac{1}{a})$।<br>5. नया माध्य = (कुल योग) / (पदों की कुल संख्या)। चूँकि $2n$ पद हैं:<br>   नया माध्य = $\\frac{n\\bar{x}(a + 1/a)}{2n} = \\frac{1}{2}(a + \\frac{1}{a})\\bar{x}$।"
+        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>1. मूल माध्य x̄ है। इसका अर्थ है कि x₁ + x₂ + ... + xₙ का योग = n * x̄ है।<br>2. हमारे पास 2n पदों के साथ एक नई संयुक्त श्रृंखला है: पहले आधे को a से गुणा किया गया है, दूसरे आधे को a से विभाजित किया गया है।<br>3. नई श्रृंखला का योग = (ax₁ + ax₂ + ... + axₙ) + (x₁/a + x₂/a + ... + xₙ/a)।<br>4. a और 1/a को फैक्टर करने पर:<br>   योग = a(x₁ + ... + xₙ) + (1/a)(x₁ + ... + xₙ)<br>   योग = a(n * x̄) + (1/a)(n * x̄) = n * x̄ * (a + 1/a)।<br>5. नया माध्य = (कुल योग) / (पदों की कुल संख्या)। चूँकि 2n पद हैं:<br>   नया माध्य = [n * x̄ * (a + 1/a)] / 2n = (1/2) * (a + 1/a) * x̄।"
       }
     }
   },
@@ -3505,12 +3478,12 @@ const TEST_JAN25_27_S2_P1 = [
       "en": {
         "question": "Choose the next term of the series A4C, E36G, I100K, _______.",
         "options": ["L169M", "N225O", "M196O", "M169O"],
-        "explanation": "<strong>Step-by-step Pattern Breakdown:</strong><br>1. <strong>First Letter:</strong> A(1), E(5), I(9)... The difference is +4. Next letter = 9 + 4 = 13, which is <strong>M</strong>.<br>2. <strong>Number in middle:</strong> 4 ($2^2$), 36 ($6^2$), 100 ($10^2$). The base numbers are 2, 6, 10 (increasing by +4). The next base is 14. So, $14^2 = $ <strong>196</strong>.<br>3. <strong>Last Letter:</strong> C(3), G(7), K(11)... The difference is +4. Next letter = 11 + 4 = 15, which is <strong>O</strong>.<br>Combining them all: <strong>M196O</strong>."
+        "explanation": "<strong>Step-by-step Pattern Breakdown:</strong><br>1. <strong>First Letter:</strong> A(1), E(5), I(9)... The difference is +4. Next letter = 9 + 4 = 13, which is <strong>M</strong>.<br>2. <strong>Number in middle:</strong> 4 (2²), 36 (6²), 100 (10²). The base numbers are 2, 6, 10 (increasing by +4). The next base is 14. So, 14² = <strong>196</strong>.<br>3. <strong>Last Letter:</strong> C(3), G(7), K(11)... The difference is +4. Next letter = 11 + 4 = 15, which is <strong>O</strong>.<br>Combining them all: <strong>M196O</strong>."
       },
       "hi": {
         "question": "श्रृंखला का अगला पद A4C, E36G, I100K, _______ चुनें।",
         "options": ["L169M", "N225O", "M196O", "M169O"],
-        "explanation": "<strong>चरण-दर-चरण पैटर्न विश्लेषण:</strong><br>1. <strong>पहला अक्षर:</strong> A(1), E(5), I(9)... अंतर +4 का है। अगला अक्षर = 9 + 4 = 13, जो <strong>M</strong> है।<br>2. <strong>बीच की संख्या:</strong> 4 ($2^2$), 36 ($6^2$), 100 ($10^2$)। आधार संख्या 2, 6, 10 हैं (+4 बढ़ रही हैं)। अगला आधार 14 है। इसलिए, $14^2 = $ <strong>196</strong>।<br>3. <strong>अंतिम अक्षर:</strong> C(3), G(7), K(11)... अंतर +4 का है। अगला अक्षर = 11 + 4 = 15, जो <strong>O</strong> है।<br>सभी को मिलाने पर: <strong>M196O</strong>।"
+        "explanation": "<strong>चरण-दर-चरण पैटर्न विश्लेषण:</strong><br>1. <strong>पहला अक्षर:</strong> A(1), E(5), I(9)... अंतर +4 का है। अगला अक्षर = 9 + 4 = 13, जो <strong>M</strong> है।<br>2. <strong>बीच की संख्या:</strong> 4 (2²), 36 (6²), 100 (10²)। आधार संख्या 2, 6, 10 हैं (+4 बढ़ रही हैं)। अगला आधार 14 है। इसलिए, 14² = <strong>196</strong>।<br>3. <strong>अंतिम अक्षर:</strong> C(3), G(7), K(11)... अंतर +4 का है। अगला अक्षर = 11 + 4 = 15, जो <strong>O</strong> है।<br>सभी को मिलाने पर: <strong>M196O</strong>।"
       }
     }
   },
@@ -3583,7 +3556,7 @@ const TEST_JAN25_27_S2_P1 = [
           "(A) and (D) Only",
           "(A), (B) and (C) Only"
         ],
-        "explanation": "<strong>Finding x and y:</strong><br>• <strong>Series I:</strong> Multiples logic -> 6×4=24; 24×5=120; 120×6=720; 720×7=5040. So, <strong>x = 120</strong>.<br>• <strong>Series II:</strong> Pattern is $2 \\times n^3$ in decreasing order -> $2\\times6^3 = 432$; $2\\times5^3 = 250$; $2\\times4^3 = 128$; $2\\times3^3 = 54$; $2\\times2^3 = 16$. So, <strong>y = 54</strong>.<br><br><strong>Evaluating Statements:</strong><br>A. Sum = 120 + 54 = 174 (Not 164, so False).<br>B. Double of y is 108. x (120) exceeds 108 by 12. (True).<br>C. Both 120 and 54 are divisible by 6. (True).<br>D. Neither 120 nor 54 is a perfect square. (False).<br>Thus, only B and C are true."
+        "explanation": "<strong>Finding x and y:</strong><br>• <strong>Series I:</strong> Multiples logic -> 6×4=24; 24×5=120; 120×6=720; 720×7=5040. So, <strong>x = 120</strong>.<br>• <strong>Series II:</strong> Pattern is 2 × n³ in decreasing order -> 2 × 6³ = 432; 2 × 5³ = 250; 2 × 4³ = 128; 2 × 3³ = 54; 2 × 2³ = 16. So, <strong>y = 54</strong>.<br><br><strong>Evaluating Statements:</strong><br>A. Sum = 120 + 54 = 174 (Not 164, so False).<br>B. Double of y is 108. x (120) exceeds 108 by 12. (True).<br>C. Both 120 and 54 are divisible by 6. (True).<br>D. Neither 120 nor 54 is a perfect square. (False).<br>Thus, only B and C are true."
       },
       "hi": {
         "question": "नीचे दी गई संख्या श्रृंखला I और II के संदर्भ में कौन से कथन (A)-(D) सत्य हैं:<br><br>श्रृंखला I: 6, 24, x, 720, 5040<br>श्रृंखला II: 432, 250, 128, y, 16<br><br>(A) x और y का योग 164 है<br>(B) x, y के दुगुने से 12 अधिक है<br>(C) x और y दोनों 6 से पूर्णतः विभाज्य हैं<br>(D) या तो x या y पूर्ण वर्ग है<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
@@ -3593,7 +3566,7 @@ const TEST_JAN25_27_S2_P1 = [
           "(A) और (D) केवल",
           "(A), (B) और (C) केवल"
         ],
-        "explanation": "<strong>x और y खोजना:</strong><br>• <strong>श्रृंखला I:</strong> गुणकों का तर्क -> 6×4=24; 24×5=120; 120×6=720; 720×7=5040. तो, <strong>x = 120</strong>।<br>• <strong>श्रृंखला II:</strong> घटते क्रम में पैटर्न $2 \\times n^3$ है -> $2\\times6^3 = 432$; $2\\times5^3 = 250$; $2\\times4^3 = 128$; $2\\times3^3 = 54$; $2\\times2^3 = 16$. तो, <strong>y = 54</strong>।<br><br><strong>कथनों का मूल्यांकन:</strong><br>A. योग = 120 + 54 = 174 (164 नहीं, तो असत्य)।<br>B. y का दुगुना 108 है। x (120), 108 से 12 अधिक है। (सत्य)।<br>C. 120 और 54 दोनों 6 से विभाज्य हैं। (सत्य)।<br>D. न तो 120 और न ही 54 पूर्ण वर्ग है। (असत्य)।<br>अतः, केवल B और C सत्य हैं।"
+        "explanation": "<strong>x और y खोजना:</strong><br>• <strong>श्रृंखला I:</strong> गुणकों का तर्क -> 6×4=24; 24×5=120; 120×6=720; 720×7=5040. तो, <strong>x = 120</strong>।<br>• <strong>श्रृंखला II:</strong> घटते क्रम में पैटर्न 2 × n³ है -> 2 × 6³ = 432; 2 × 5³ = 250; 2 × 4³ = 128; 2 × 3³ = 54; 2 × 2³ = 16. तो, <strong>y = 54</strong>।<br><br><strong>कथनों का मूल्यांकन:</strong><br>A. योग = 120 + 54 = 174 (164 नहीं, तो असत्य)।<br>B. y का दुगुना 108 है। x (120), 108 से 12 अधिक है। (सत्य)।<br>C. 120 और 54 दोनों 6 से विभाज्य हैं। (सत्य)।<br>D. न तो 120 और न ही 54 पूर्ण वर्ग है। (असत्य)।<br>अतः, केवल B और C सत्य हैं।"
       }
     }
   },
@@ -3638,7 +3611,7 @@ const TEST_JAN25_27_S2_P1 = [
     "topicHI": "नीतियाँ, शासन और प्रशासन",
     "content": {
       "en": {
-        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>List-I (Courses)</th><th style='padding:8px;'>List-II (Regulating Bodies)</th></tr><tr><td style='padding:6px;'>A. B.Ed - M.Ed</td><td style='padding:6px;'>I. MCI</td></tr><tr><td style='padding:6px;'>B. Special Education</td><td style='padding:6px;'>II. AICTE</td></tr><tr><td style='padding:6px;'>C. B.Tech - Engineering</td><td style='padding:6px;'>III. RCI</td></tr><tr><td style='padding:6px;'>D. MBBS</td><td style='padding:6px;'>IV. NCTE</td></tr></table><br>Choose the correct answer from the options given below:",
+        "question": "<p>Match the following:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-I (Courses)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-II (Regulating Bodies)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. B.Ed - M.Ed</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. MCI</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. Special Education</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. AICTE</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. B.Tech - Engineering</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. RCI</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. MBBS</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. NCTE</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": [
           "A-I, B-II, C-III, D-IV",
           "A-IV, B-III, C-II, D-I",
@@ -3648,7 +3621,7 @@ const TEST_JAN25_27_S2_P1 = [
         "explanation": "<strong>Matching Educational Courses with their Regulators:</strong><br>• <strong>B.Ed - M.Ed (A-IV):</strong> Teachers' education is regulated by the National Council for Teacher Education (<strong>NCTE</strong>).<br>• <strong>Special Education (B-III):</strong> Education and training for specially-abled individuals is regulated by the Rehabilitation Council of India (<strong>RCI</strong>).<br>• <strong>B.Tech - Engineering (C-II):</strong> Technical and engineering courses are governed by the All India Council for Technical Education (<strong>AICTE</strong>).<br>• <strong>MBBS (D-I):</strong> Medical education is regulated by the Medical Council of India (<strong>MCI</strong>) - now replaced by NMC."
       },
       "hi": {
-        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>सूची-I (पाठ्यक्रम)</th><th style='padding:8px;'>सूची-II (विनियामक निकाय)</th></tr><tr><td style='padding:6px;'>A. B.Ed - M.Ed</td><td style='padding:6px;'>I. MCI</td></tr><tr><td style='padding:6px;'>B. विशेष शिक्षा</td><td style='padding:6px;'>II. AICTE</td></tr><tr><td style='padding:6px;'>C. B.Tech - इंजीनियरिंग</td><td style='padding:6px;'>III. RCI</td></tr><tr><td style='padding:6px;'>D. MBBS</td><td style='padding:6px;'>IV. NCTE</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-I (पाठ्यक्रम)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-II (विनियामक निकाय)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. B.Ed - M.Ed</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. MCI</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. विशेष शिक्षा</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. AICTE</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. B.Tech - इंजीनियरिंग</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. RCI</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. MBBS</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. NCTE</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": [
           "A-I, B-II, C-III, D-IV",
           "A-IV, B-III, C-II, D-I",
@@ -3824,7 +3797,7 @@ const TEST_JAN25_27_S2_P1 = [
         "explanation": "Evaluating the statements:<br>• <strong>(A) True:</strong> The Null Hypothesis (H0) always predicts that there is no effect, no relationship, or no difference.<br>• <strong>(B) False:</strong> The Alternative Hypothesis (H1) assumes that a relationship DOES exist between variables.<br>• <strong>(C) True:</strong> A core principle of scientific research (Karl Popper's theory) is that a hypothesis must be falsifiable (capable of being proven false by evidence).<br>• <strong>(D) False:</strong> The null hypothesis is not \"always true\"; the whole point of testing is to see if we can reject it.<br>Therefore, only A and C are correct."
       },
       "hi": {
-        "question": "परिकल्पना परीक्षण (hypothesis testing) के बारे में सही कथनों की पहचान करें।<br><br>(A) शून्य परिकल्पना (null hypothesis) मानती है कि चर या विभिन्न समूहों के बीच कोई संबंध मौजूद नहीं है।<br>(B) वैकल्पिक परिकल्पना मानती है कि चर या विभिन्न समूहों के बीच कोई संबंध मौजूद नहीं है।<br>(C) परिकल्पना स्वीकार्य या मिथ्या साबित करने योग्य (falsifiable) होनी चाहिए।<br>(D) शून्य परिकल्पना हमेशा सत्य होती है।<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "परिकल्पना परीक्षण (hypothesis testing) के बारे में सही कथनों की पहचान करें।<br><br>(A) शून्य परिकल्पना (null hypothesis) मानती है कि चर या विभिन्न समूहों के बीच कोई संबंध मौजूद नहीं है।<br>(B) वैकल्पिक परिकल्पना मानती है कि चर या विभिन्न समूहों के बीच कोई संबंध मौजूद नहीं है।<br>(C) परिकल्पना स्वीकार्य या मिथ्या साबित करने योग्य (falsifiable) होनी चाहिए।<br>(D) शून्य परिकल्पना हमेशा सत्य होती है।<br><br>नी নিচে दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": [
           "(A) और (C) केवल",
           "(A), (B) और (C) केवल",
@@ -3876,7 +3849,7 @@ const TEST_JAN25_27_S2_P1 = [
     "topicHI": "इंटरनेट, इंट्रानेट और साइबर सुरक्षा की मूल बातें",
     "content": {
       "en": {
-        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>List-I (Computer attack/cyber crime)</th><th style='padding:8px;'>List-II (Definition)</th></tr><tr><td style='padding:6px;'>A. Worm</td><td style='padding:6px;'>I. Misdirecting users to a fraudulent website without their knowledge or consent</td></tr><tr><td style='padding:6px;'>B. Bot</td><td style='padding:6px;'>II. A malware that replicates itself in order to spread to other computers across the network</td></tr><tr><td style='padding:6px;'>C. Denial-of-Service</td><td style='padding:6px;'>III. Flooding sites with useless traffic to overwhelm a network</td></tr><tr><td style='padding:6px;'>D. Pharming</td><td style='padding:6px;'>IV. A malware that responds to external commands sent by an attacker</td></tr></table><br>Choose the correct answer from the options given below:",
+        "question": "<p>Match the following:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-I (Computer attack/cyber crime)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-II (Definition)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. Worm</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. Misdirecting users to a fraudulent website without their knowledge or consent</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. Bot</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. A malware that replicates itself in order to spread to other computers across the network</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. Denial-of-Service</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. Flooding sites with useless traffic to overwhelm a network</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. Pharming</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. A malware that responds to external commands sent by an attacker</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": [
           "A-II, B-IV, C-III, D-I",
           "A-I, B-III, C-IV, D-II",
@@ -3886,7 +3859,7 @@ const TEST_JAN25_27_S2_P1 = [
         "explanation": "<strong>Matching Cyber Threats:</strong><br>• <strong>Worm (A-II):</strong> A standalone malware that independently replicates itself to spread to other computers over a network.<br>• <strong>Bot (B-IV):</strong> Short for robot; it's a malware that allows an attacker to remotely take control of an infected computer (making it part of a botnet) by sending external commands.<br>• <strong>Denial-of-Service or DoS (C-III):</strong> A cyber attack where the perpetrator seeks to make a machine or network unavailable to its intended users by temporarily disrupting services of a host connected to the internet (flooding it with useless traffic).<br>• <strong>Pharming (D-I):</strong> A cyber attack intended to redirect a website's traffic to another, fake site without the user's consent."
       },
       "hi": {
-        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>सूची-I (कम्प्यूटर हमला/साइबर अपराध)</th><th style='padding:8px;'>सूची-II (परिभाषा)</th></tr><tr><td style='padding:6px;'>A. कीड़ा (Worm)</td><td style='padding:6px;'>I. उपयोगकर्ताओं को उनकी जानकारी या सहमति के बिना धोखाधड़ी वाली वेबसाइट पर ले जाना</td></tr><tr><td style='padding:6px;'>B. बॉट</td><td style='padding:6px;'>II. एक मैलवेयर जो नेटवर्क पर अन्य कंप्यूटरों में फैलने के लिए खुद की प्रतिकृति बनाता है</td></tr><tr><td style='padding:6px;'>C. सेवा से इनकार (DoS)</td><td style='padding:6px;'>III. नेटवर्क को प्रभावित करने के लिए साइटों पर बेकार ट्रैफिक की बाढ़ लाना</td></tr><tr><td style='padding:6px;'>D. फार्मिंग</td><td style='padding:6px;'>IV. एक मैलवेयर जो हमलावर द्वारा भेजे गए बाहरी आदेशों का जवाब देता है</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-I (कम्प्यूटर हमला/साइबर अपराध)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-II (परिभाषा)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. कीड़ा (Worm)</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. उपयोगकर्ताओं को उनकी जानकारी या सहमति के बिना धोखाधड़ी वाली वेबसाइट पर ले जाना</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. बॉट</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. एक मैलवेयर जो नेटवर्क पर अन्य कंप्यूटरों में फैलने के लिए खुद की प्रतिकृति बनाता है</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. सेवा से इनकार (DoS)</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. नेटवर्क को प्रभावित करने के लिए साइटों पर बेकार ट्रैफिक की बाढ़ लाना</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. फार्मिंग</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. एक मैलवेयर जो हमलावर द्वारा भेजे गए बाहरी आदेशों का जवाब देता है</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": [
           "A-II, B-IV, C-III, D-I",
           "A-I, B-III, C-IV, D-II",
@@ -4614,12 +4587,12 @@ const TEST_JAN25_21_S1_P1 = [
       "en": {
         "question": "Ravi draws a picture on a piece of paper of 5 inch × 4 inches in size. He wants to use a scanner to scan the picture with 500 pixels per square inch and 16-bit color. Without file compression, what is the approximate file size of the scanned image (in MB)?",
         "options": ["7.82", "6.33", "8.66", "9.54"],
-        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. <strong>Area of the image:</strong> 5 inches × 4 inches = 20 square inches.<br>2. <strong>Pixels per sq. inch:</strong> Since the resolution is 500 pixels per inch linearly, in a square inch it's 500 × 500 = 250,000 pixels.<br>3. <strong>Total Pixels:</strong> 20 × 250,000 = 5,000,000 pixels.<br>4. <strong>Color depth:</strong> 16-bit color means 16 bits per pixel. Since 8 bits = 1 byte, 16 bits = 2 bytes per pixel.<br>5. <strong>File Size in Bytes:</strong> 5,000,000 pixels × 2 bytes/pixel = 10,000,000 Bytes.<br>6. <strong>Convert to MB:</strong> Divide by $1024 \\times 1024$ (1,048,576).<br>   10,000,000 / 1,048,576 = <strong>9.536 MB</strong>.<br>The closest option is 9.54."
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. <strong>Area of the image:</strong> 5 inches × 4 inches = 20 square inches.<br>2. <strong>Pixels per sq. inch:</strong> Since the resolution is 500 pixels per inch linearly, in a square inch it's 500 × 500 = 250,000 pixels.<br>3. <strong>Total Pixels:</strong> 20 × 250,000 = 5,000,000 pixels.<br>4. <strong>Color depth:</strong> 16-bit color means 16 bits per pixel. Since 8 bits = 1 byte, 16 bits = 2 bytes per pixel.<br>5. <strong>File Size in Bytes:</strong> 5,000,000 pixels × 2 bytes/pixel = 10,000,000 Bytes.<br>6. <strong>Convert to MB:</strong> Divide by 1024 × 1024 (1,048,576).<br>   10,000,000 / 1,048,576 = <strong>9.536 MB</strong>.<br>The closest option is 9.54."
       },
       "hi": {
         "question": "रवि 5 इंच × 4 इंच आकार के कागज़ के टुकड़े पर एक चित्र बनाता है। वह चित्र को 500 पिक्सेल प्रति वर्ग इंच और 16-बिट रंग के साथ स्कैन करने के लिए स्कैनर का उपयोग करना चाहता है। फ़ाइल संपीड़न के बिना, स्कैन की गई छवि का अनुमानित फ़ाइल आकार (एमबी में) क्या है?",
         "options": ["7.82", "6.33", "8.66", "9.54"],
-        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. <strong>छवि का क्षेत्रफल:</strong> 5 इंच × 4 इंच = 20 वर्ग इंच।<br>2. <strong>प्रति वर्ग इंच पिक्सेल:</strong> चूँकि रिज़ॉल्यूशन रैखिक रूप से 500 पिक्सेल प्रति इंच है, एक वर्ग इंच में यह 500 × 500 = 2,50,000 पिक्सेल है।<br>3. <strong>कुल पिक्सेल:</strong> 20 × 2,50,000 = 5,000,000 पिक्सेल।<br>4. <strong>कलर डेप्थ:</strong> 16-बिट रंग का अर्थ है प्रति पिक्सेल 16 बिट्स। चूँकि 8 बिट्स = 1 बाइट, 16 बिट्स = 2 बाइट प्रति पिक्सेल।<br>5. <strong>बाइट्स में फ़ाइल आकार:</strong> 5,000,000 पिक्सेल × 2 बाइट/पिक्सेल = 10,000,000 बाइट्स।<br>6. <strong>MB में बदलें:</strong> $1024 \\times 1024$ (1,048,576) से विभाजित करें।<br>   10,000,000 / 1,048,576 = <strong>9.536 MB</strong>।<br>सबसे निकटतम विकल्प 9.54 है।"
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. <strong>छवि का क्षेत्रफल:</strong> 5 इंच × 4 इंच = 20 वर्ग इंच।<br>2. <strong>प्रति वर्ग इंच पिक्सेल:</strong> चूँकि रिज़ॉल्यूशन रैखिक रूप से 500 पिक्सेल प्रति इंच है, एक वर्ग इंच में यह 500 × 500 = 2,50,000 पिक्सेल है।<br>3. <strong>कुल पिक्सेल:</strong> 20 × 2,50,000 = 5,000,000 पिक्सेल।<br>4. <strong>कलर डेप्थ:</strong> 16-बिट रंग का अर्थ है प्रति पिक्सेल 16 बिट्स। चूँकि 8 बिट्स = 1 बाइट, 16 बिट्स = 2 बाइट प्रति पिक्सेल।<br>5. <strong>बाइट्स में फ़ाइल आकार:</strong> 5,000,000 पिक्सेल × 2 बाइट/पिक्सेल = 10,000,000 बाइट्स।<br>6. <strong>MB में बदलें:</strong> 1024 × 1024 (1,048,576) से विभाजित करें।<br>   10,000,000 / 1,048,576 = <strong>9.536 MB</strong>।<br>सबसे निकटतम विकल्प 9.54 है।"
       }
     }
   },
@@ -4677,12 +4650,12 @@ const TEST_JAN25_21_S1_P1 = [
       "en": {
         "question": "The liquids A and B are in the ratio 5:1 in container 1 and 1:3 in container 2. In what ratio should the contents of the two containers be mixed so as to obtain a mixture of A and B in the ratio 1:1?",
         "options": ["2:3", "3:2", "4:3", "3:4"],
-        "explanation": "<strong>Step-by-step Solution using Alligation:</strong><br>1. Let's focus on the fraction of Liquid A in each container.<br>2. <strong>Container 1:</strong> Ratio is 5:1. Fraction of A = 5 / (5+1) = 5/6.<br>3. <strong>Container 2:</strong> Ratio is 1:3. Fraction of A = 1 / (1+3) = 1/4.<br>4. <strong>Target Mixture:</strong> Ratio is 1:1. Fraction of A = 1 / (1+1) = 1/2.<br>5. <strong>Apply the Rule of Alligation:</strong><br>   Ratio = $(Target - C2) : (C1 - Target)$<br>   Ratio = $(1/2 - 1/4) : (5/6 - 1/2)$<br>   Ratio = $(2/4 - 1/4) : (5/6 - 3/6)$<br>   Ratio = $(1/4) : (2/6)$<br>   Ratio = $(1/4) : (1/3)$<br>6. Multiply both sides by 12 to remove fractions: $3 : 4$.<br>The contents must be mixed in a <strong>3:4</strong> ratio."
+        "explanation": "<strong>Step-by-step Solution using Alligation:</strong><br>1. Let's focus on the fraction of Liquid A in each container.<br>2. <strong>Container 1:</strong> Ratio is 5:1. Fraction of A = 5 / (5+1) = 5/6.<br>3. <strong>Container 2:</strong> Ratio is 1:3. Fraction of A = 1 / (1+3) = 1/4.<br>4. <strong>Target Mixture:</strong> Ratio is 1:1. Fraction of A = 1 / (1+1) = 1/2.<br>5. <strong>Apply the Rule of Alligation:</strong><br>   Ratio = (Target - C2) : (C1 - Target)<br>   Ratio = (1/2 - 1/4) : (5/6 - 1/2)<br>   Ratio = (2/4 - 1/4) : (5/6 - 3/6)<br>   Ratio = (1/4) : (2/6)<br>   Ratio = (1/4) : (1/3)<br>6. Multiply both sides by 12 to remove fractions: 3:4.<br>The contents must be mixed in a <strong>3:4</strong> ratio."
       },
       "hi": {
         "question": "द्रव A और B कंटेनर 1 में 5:1 के अनुपात में हैं और कंटेनर 2 में 1:3 के अनुपात में हैं। दोनों कंटेनरों की सामग्री को किस अनुपात में मिलाया जाना चाहिए ताकि A और B का मिश्रण 1:1 के अनुपात में प्राप्त हो?",
         "options": ["2:3", "3:2", "4:3", "3:4"],
-        "explanation": "<strong>एलिगेशन (Alligation) का उपयोग करके चरण-दर-चरण समाधान:</strong><br>1. आइए प्रत्येक कंटेनर में तरल A के अंश (fraction) पर ध्यान दें।<br>2. <strong>कंटेनर 1:</strong> अनुपात 5:1 है। A का अंश = 5 / (5+1) = 5/6।<br>3. <strong>कंटेनर 2:</strong> अनुपात 1:3 है। A का अंश = 1 / (1+3) = 1/4।<br>4. <strong>लक्षित मिश्रण:</strong> अनुपात 1:1 है। A का अंश = 1 / (1+1) = 1/2।<br>5. <strong>एलिगेशन का नियम लागू करें:</strong><br>   अनुपात = $(Target - C2) : (C1 - Target)$<br>   अनुपात = $(1/2 - 1/4) : (5/6 - 1/2)$<br>   अनुपात = $(2/4 - 1/4) : (5/6 - 3/6)$<br>   अनुपात = $(1/4) : (2/6)$<br>   अनुपात = $(1/4) : (1/3)$<br>6. भिन्नों को हटाने के लिए दोनों पक्षों को 12 से गुणा करें: <strong>3:4</strong>।<br>सामग्री को 3:4 के अनुपात में मिलाया जाना चाहिए।"
+        "explanation": "<strong>एलिगेशन (Alligation) का उपयोग करके चरण-दर-चरण समाधान:</strong><br>1. आइए प्रत्येक कंटेनर में तरल A के अंश (fraction) पर ध्यान दें।<br>2. <strong>कंटेनर 1:</strong> अनुपात 5:1 है। A का अंश = 5 / (5+1) = 5/6।<br>3. <strong>कंटेनर 2:</strong> अनुपात 1:3 है। A का अंश = 1 / (1+3) = 1/4।<br>4. <strong>लक्षित मिश्रण:</strong> अनुपात 1:1 है। A का अंश = 1 / (1+1) = 1/2।<br>5. <strong>एलिगेशन का नियम लागू करें:</strong><br>   अनुपात = (Target - C2) : (C1 - Target)<br>   अनुपात = (1/2 - 1/4) : (5/6 - 1/2)<br>   अनुपात = (2/4 - 1/4) : (5/6 - 3/6)<br>   अनुपात = (1/4) : (2/6)<br>   अनुपात = (1/4) : (1/3)<br>6. भिन्नों को हटाने के लिए दोनों पक्षों को 12 से गुणा करें: <strong>3:4</strong>।<br>सामग्री को 3:4 के अनुपात में मिलाया जाना चाहिए।"
       }
     }
   },
@@ -4717,14 +4690,14 @@ const TEST_JAN25_21_S1_P1 = [
     "topicHI": "वायु प्रदूषण — एरोसोल कण",
     "content": {
       "en": {
-        "question": "Match the following:<br><br><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05);'><tr><th style='padding:8px;'>List-I (Aerosol particles)</th><th style='padding:8px;'>List-II (Size)</th></tr><tr><td style='padding:8px;'>A. Coarse Particles</td><td style='padding:8px;'>I. &lt; 0.1 microns</td></tr><tr><td style='padding:8px;'>B. Respirable Particles</td><td style='padding:8px;'>II. &gt; 10 microns</td></tr><tr><td style='padding:8px;'>C. Fine Particles</td><td style='padding:8px;'>III. &lt; 10 microns</td></tr><tr><td style='padding:8px;'>D. Ultrafine Particles</td><td style='padding:8px;'>IV. &lt; 2.5 microns</td></tr></table><br>Choose the correct answer from the options given below:",
+        "question": "Match the following:<br><br><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-I (Aerosol particles)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-II (Size)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. Coarse Particles</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. &lt; 0.1 microns</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. Respirable Particles</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. &gt; 10 microns</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. Fine Particles</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. &lt; 10 microns</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. Ultrafine Particles</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. &lt; 2.5 microns</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": ["A-II, B-III, C-IV, D-I", "A-II, B-III, C-I, D-IV", "A-III, B-II, C-I, D-IV", "A-III, B-II, C-IV, D-I"],
-        "explanation": "<strong>Matching Aerosol Particles by Size:</strong><br>• <strong>Coarse Particles (A-II):</strong> Typically larger than 10 microns ($>10 \\mu m$). They usually don't penetrate deep into the lungs.<br>• <strong>Respirable Particles (B-III):</strong> Small enough to be inhaled into the respiratory system, typically PM10 ($<10 \\mu m$).<br>• <strong>Fine Particles (C-IV):</strong> Known as PM2.5, these are smaller than 2.5 microns ($<2.5 \\mu m$) and pose a major health risk.<br>• <strong>Ultrafine Particles (D-I):</strong> The smallest category, often PM0.1, measuring less than 0.1 microns ($<0.1 \\mu m$)."
+        "explanation": "<strong>Matching Aerosol Particles by Size:</strong><br>• <strong>Coarse Particles (A-II):</strong> Typically larger than 10 microns (> 10 µm). They usually don't penetrate deep into the lungs.<br>• <strong>Respirable Particles (B-III):</strong> Small enough to be inhaled into the respiratory system, typically PM10 (< 10 µm).<br>• <strong>Fine Particles (C-IV):</strong> Known as PM2.5, these are smaller than 2.5 microns (< 2.5 µm) and pose a major health risk.<br>• <strong>Ultrafine Particles (D-I):</strong> The smallest category, often PM0.1, measuring less than 0.1 microns (< 0.1 µm)."
       },
       "hi": {
-        "question": "निम्नलिखित का मिलान करें:<br><br><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05);'><tr><th style='padding:8px;'>सूची-I (एरोसोल कण)</th><th style='padding:8px;'>सूची-II (आकार)</th></tr><tr><td style='padding:8px;'>A. मोटे कण</td><td style='padding:8px;'>I. &lt; 0.1 माइक्रोन</td></tr><tr><td style='padding:8px;'>B. श्वसनीय कण</td><td style='padding:8px;'>II. &gt; 10 माइक्रोन</td></tr><tr><td style='padding:8px;'>C. सूक्ष्म कण</td><td style='padding:8px;'>III. &lt; 10 माइक्रोन</td></tr><tr><td style='padding:8px;'>D. अल्ट्राफाइन कण</td><td style='padding:8px;'>IV. &lt; 2.5 माइक्रोन</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "निम्नलिखित का मिलान करें:<br><br><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-I (एरोसोल कण)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-II (आकार)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. मोटे कण</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. &lt; 0.1 माइक्रोन</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. श्वसनीय कण</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. &gt; 10 माइक्रोन</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. सूक्ष्म कण</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. &lt; 10 माइक्रोन</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. अल्ट्राफाइन कण</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. &lt; 2.5 माइक्रोन</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": ["A-II, B-III, C-IV, D-I", "A-II, B-III, C-I, D-IV", "A-III, B-II, C-I, D-IV", "A-III, B-II, C-IV, D-I"],
-        "explanation": "<strong>आकार के अनुसार एरोसोल कणों का मिलान:</strong><br>• <strong>मोटे कण (A-II):</strong> आमतौर पर 10 माइक्रोन ($>10 \\mu m$) से बड़े होते हैं। वे आमतौर पर फेफड़ों में गहराई तक नहीं जाते हैं।<br>• <strong>श्वसनीय कण (B-III):</strong> श्वसन प्रणाली में सांस लेने के लिए पर्याप्त छोटे, आमतौर पर PM10 ($<10 \\mu m$) कहलाते हैं।<br>• <strong>सूक्ष्म कण (C-IV):</strong> PM2.5 के रूप में जाने जाते हैं, ये 2.5 माइक्रोन ($<2.5 \\mu m$) से छोटे होते हैं और एक बड़ा स्वास्थ्य जोखिम पैदा करते हैं।<br>• <strong>अल्ट्राफाइन कण (D-I):</strong> सबसे छोटी श्रेणी, अक्सर PM0.1, जिनका आकार 0.1 माइक्रोन ($<0.1 \\mu m$) से कम होता है।"
+        "explanation": "<strong>आकार के अनुसार एरोसोल कणों का मिलान:</strong><br>• <strong>मोटे कण (A-II):</strong> आमतौर पर 10 माइक्रोन (> 10 µm) से बड़े होते हैं। वे आमतौर पर फेफड़ों में गहराई तक नहीं जाते हैं।<br>• <strong>श्वसनीय कण (B-III):</strong> श्वसन प्रणाली में सांस लेने के लिए पर्याप्त छोटे, आमतौर पर PM10 (< 10 µm) कहलाते हैं।<br>• <strong>सूक्ष्म कण (C-IV):</strong> PM2.5 के रूप में जाने जाते हैं, ये 2.5 माइक्रोन (< 2.5 µm) से छोटे होते हैं और एक बड़ा स्वास्थ्य जोखिम पैदा करते हैं।<br>• <strong>अल्ट्राफाइन कण (D-I):</strong> सबसे छोटी श्रेणी, अक्सर PM0.1, जिनका आकार 0.1 माइक्रोन (< 0.1 µm) से कम होता है।"
       }
     }
   },
@@ -4740,18 +4713,15 @@ const TEST_JAN25_21_S1_P1 = [
       "en": {
         "question": "Find the next term of the series:<br><br>16, 125, 25, 64, 36, 27, 49, __________.",
         "options": ["64", "81", "216", "8"],
-        "explanation": "<strong>Step-by-step Pattern Breakdown:</strong><br>This is an alternating series consisting of two intertwined patterns:<br>• <strong>Odd Positions (1st, 3rd, 5th, 7th):</strong> 16, 25, 36, 49. These are consecutive perfect squares ($4^2, 5^2, 6^2, 7^2$).<br>• <strong>Even Positions (2nd, 4th, 6th, 8th):</strong> 125, 64, 27, ___. These are consecutive perfect cubes in <em>descending</em> order ($5^3, 4^3, 3^3$).<br>The next term must be the 8th term (even position), which follows the cube pattern: $2^3 = $ <strong>8</strong>."
+        "explanation": "<strong>Step-by-step Pattern Breakdown:</strong><br>This is an alternating series consisting of two intertwined patterns:<br>• <strong>Odd Positions (1st, 3rd, 5th, 7th):</strong> 16, 25, 36, 49. These are consecutive perfect squares (4², 5², 6², 7²).<br>• <strong>Even Positions (2nd, 4th, 6th, 8th):</strong> 125, 64, 27, ___. These are consecutive perfect cubes in <em>descending</em> order (5³, 4³, 3³).<br>The next term must be the 8th term (even position), which follows the cube pattern: 2³ = <strong>8</strong>."
       },
       "hi": {
         "question": "श्रृंखला का अगला पद ज्ञात कीजिए:<br><br>16, 125, 25, 64, 36, 27, 49, __________.",
         "options": ["64", "81", "216", "8"],
-        "explanation": "<strong>चरण-दर-चरण पैटर्न विश्लेषण:</strong><br>यह दो गुंथे हुए पैटर्नों वाली एक एकांतर (alternating) श्रृंखला है:<br>• <strong>विषम स्थान (पहला, तीसरा, 5वां, 7वां):</strong> 16, 25, 36, 49। ये लगातार पूर्ण वर्ग हैं ($4^2, 5^2, 6^2, 7^2$)।<br>• <strong>सम स्थान (दूसरा, चौथा, छठा, 8वां):</strong> 125, 64, 27, ___। ये <em>अवरोही (descending)</em> क्रम में लगातार पूर्ण घन हैं ($5^3, 4^3, 3^3$)।<br>अगला पद 8वां पद (सम स्थान) होना चाहिए, जो घन (cube) पैटर्न का अनुसरण करता है: $2^3 = $ <strong>8</strong>।"
+        "explanation": "<strong>चरण-दर-चरण पैटर्न विश्लेषण:</strong><br>यह दो गुंथे हुए पैटर्नों वाली एक एकांतर (alternating) श्रृंखला है:<br>• <strong>विषम स्थान (पहला, तीसरा, 5वां, 7वां):</strong> 16, 25, 36, 49। ये लगातार पूर्ण वर्ग हैं (4², 5², 6², 7²)।<br>• <strong>सम स्थान (दूसरा, चौथा, छठा, 8वां):</strong> 125, 64, 27, ___। ये <em>अवरोही (descending)</em> क्रम में लगातार पूर्ण घन हैं (5³, 4³, 3³)।<br>अगला पद 8वां पद (सम स्थान) होना चाहिए, जो घन (cube) पैटर्न का अनुसरण करता है: 2³ = <strong>8</strong>।"
       }
     }
   }, 
-  // ─────────────────────────────────────────────────────────────────────────────
-// 2. EXTRACTED QUESTIONS ARRAY (Q26 to Q50)
-// ─────────────────────────────────────────────────────────────────────────────
   {
     "id": "jan25-21-s1-p1-q26",
     "difficulty": "medium",
@@ -4806,12 +4776,12 @@ const TEST_JAN25_21_S1_P1 = [
       "en": {
         "question": "What is correct in the context of Venn diagram representation of the following?<br><br>\"All great scientists are college graduates. Some professional athletes are college graduates. Therefore, some professional athletes are great scientists.\"",
         "options": ["Place 'x' on the line between two regions of SPM and SP̄M", "The overlapping part contains only one region of SP̄M", "The overlapping part contains only one region of SPM", "Shade out the region SPM̄ only"],
-        "explanation": "When drawing a Venn diagram for a syllogism with a universal premise ('All S are P') and a particular premise ('Some S are P'), we first diagram the universal premise by <strong>shading out</strong> the empty areas. In \"All great scientists (S) are college graduates (M)\", we shade the region of S that is outside M (i.e., $S \\bar{M}$). Then we place an 'X' for the particular premise."
+        "explanation": "When drawing a Venn diagram for a syllogism with a universal premise ('All S are P') and a particular premise ('Some S are P'), we first diagram the universal premise by <strong>shading out</strong> the empty areas. In \"All great scientists (S) are college graduates (M)\", we shade the region of S that is outside M (i.e., S M̄). Then we place an 'X' for the particular premise."
       },
       "hi": {
         "question": "वेन आरेख निरूपण के संदर्भ में निम्नलिखित में से क्या सही है?<br><br>\"सभी महान वैज्ञानिक कॉलेज स्नातक हैं। कुछ पेशेवर एथलीट कॉलेज स्नातक हैं। इसलिए, कुछ पेशेवर एथलीट महान वैज्ञानिक हैं।\"",
         "options": ["SPM और SP̄M के दो क्षेत्रों के बीच की रेखा पर 'x' रखें", "अतिव्यापी भाग में SP̄M का केवल एक क्षेत्र होता है", "ओवरलैपिंग भाग में SPM का केवल एक क्षेत्र होता है", "केवल SPM̄ क्षेत्र को छायांकित करें"],
-        "explanation": "एक सार्वभौमिक आधार ('सभी S, P हैं') और एक विशेष आधार ('कुछ S, P हैं') वाले न्यायवाक्य के लिए वेन आरेख खींचते समय, हम पहले खाली क्षेत्रों को <strong>छायांकित (shading out)</strong> करके सार्वभौमिक आधार का आरेख बनाते हैं। \"सभी महान वैज्ञानिक (S) कॉलेज स्नातक (M) हैं\" में, हम S के उस क्षेत्र को छायांकित करते हैं जो M के बाहर है (यानी, $S \\bar{M}$)। फिर हम विशेष आधार के लिए 'X' रखते हैं।"
+        "explanation": "एक सार्वभौमिक आधार ('सभी S, P हैं') और एक विशेष आधार ('कुछ S, P हैं') वाले न्यायवाक्य के लिए वेन आरेख खींचते समय, हम पहले खाली क्षेत्रों को <strong>छायांकित (shading out)</strong> करके सार्वभौमिक आधार का आरेख बनाते हैं। \"सभी महान वैज्ञानिक (S) कॉलेज स्नातक (M) हैं\" में, हम S के उस क्षेत्र को छायांकित करते हैं जो M के बाहर है (यानी, S M̄)। फिर हम विशेष आधार के लिए 'X' रखते हैं।"
       }
     }
   },
@@ -4825,12 +4795,12 @@ const TEST_JAN25_21_S1_P1 = [
     "topicHI": "नीतियाँ, शासन और प्रशासन",
     "content": {
       "en": {
-        "question": `Match the following:<table style="border-collapse:collapse;width:100%;margin:10px 0;"><thead><tr><th style="border:1px solid #ccc;padding:6px 10px;text-align:left;">List-I (Institutions)</th><th style="border:1px solid #ccc;padding:6px 10px;text-align:left;">List-II (Domains)</th></tr></thead><tbody><tr><td style="border:1px solid #ccc;padding:6px 10px;">A. NIEPA</td><td style="border:1px solid #ccc;padding:6px 10px;">I. To promote quality in technical education</td></tr><tr><td style="border:1px solid #ccc;padding:6px 10px;">B. ICSSR</td><td style="border:1px solid #ccc;padding:6px 10px;">II. To accredit higher education institutions</td></tr><tr><td style="border:1px solid #ccc;padding:6px 10px;">C. NAAC</td><td style="border:1px solid #ccc;padding:6px 10px;">III. Education planning and management</td></tr><tr><td style="border:1px solid #ccc;padding:6px 10px;">D. AICTE</td><td style="border:1px solid #ccc;padding:6px 10px;">IV. To promote social science research</td></tr></tbody></table>Choose the correct answer from the options given below:`,
+        "question": "<p>Match the following:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-I (Institutions)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-II (Domains)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. NIEPA</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. To promote quality in technical education</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. ICSSR</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. To accredit higher education institutions</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. NAAC</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. Education planning and management</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. AICTE</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. To promote social science research</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": ["A-III, B-IV, C-II, D-I", "A-I, B-II, C-III, D-IV", "A-II, B-I, C-IV, D-III", "A-IV, B-I, C-III, D-II"],
         "explanation": "<strong>Matching Higher Education Institutions:</strong><br>• <strong>NIEPA (A-III):</strong> National Institute of Educational Planning and Administration (Deals with planning and management).<br>• <strong>ICSSR (B-IV):</strong> Indian Council of Social Science Research (Promotes social science research).<br>• <strong>NAAC (C-II):</strong> National Assessment and Accreditation Council (Accredits higher education institutions).<br>• <strong>AICTE (D-I):</strong> All India Council for Technical Education (Promotes quality in technical education).<br>Correct Option is 3."
       },
       "hi": {
-        "question": `निम्नलिखित का मिलान करें:<table style="border-collapse:collapse;width:100%;margin:10px 0;"><thead><tr><th style="border:1px solid #ccc;padding:6px 10px;text-align:left;">सूची-I (संस्थाएं)</th><th style="border:1px solid #ccc;padding:6px 10px;text-align:left;">सूची-II (डोमेन)</th></tr></thead><tbody><tr><td style="border:1px solid #ccc;padding:6px 10px;">A. NIEPA</td><td style="border:1px solid #ccc;padding:6px 10px;">I. तकनीकी शिक्षा में गुणवत्ता को बढ़ावा देना</td></tr><tr><td style="border:1px solid #ccc;padding:6px 10px;">B. ICSSR</td><td style="border:1px solid #ccc;padding:6px 10px;">II. उच्च शिक्षा संस्थानों को मान्यता प्रदान करना</td></tr><tr><td style="border:1px solid #ccc;padding:6px 10px;">C. NAAC</td><td style="border:1px solid #ccc;padding:6px 10px;">III. शिक्षा योजना और प्रबंधन</td></tr><tr><td style="border:1px solid #ccc;padding:6px 10px;">D. AICTE</td><td style="border:1px solid #ccc;padding:6px 10px;">IV. सामाजिक विज्ञान अनुसंधान को बढ़ावा देना</td></tr></tbody></table>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:`,
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-I (संस्थाएं)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-II (डोमेन)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. NIEPA</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. तकनीकी शिक्षा में गुणवत्ता को बढ़ावा देना</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. ICSSR</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. उच्च शिक्षा संस्थानों को मान्यता प्रदान करना</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. NAAC</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. शिक्षा योजना और प्रबंधन</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. AICTE</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. सामाजिक विज्ञान अनुसंधान को बढ़ावा देना</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": ["A-III, B-IV, C-II, D-I", "A-I, B-II, C-III, D-IV", "A-II, B-I, C-IV, D-III", "A-IV, B-I, C-III, D-II"],
         "explanation": "<strong>उच्च शिक्षा संस्थानों का मिलान:</strong><br>• <strong>NIEPA (A-III):</strong> राष्ट्रीय शैक्षिक योजना और प्रशासन संस्थान (योजना और प्रबंधन से संबंधित)।<br>• <strong>ICSSR (B-IV):</strong> भारतीय सामाजिक विज्ञान अनुसंधान परिषद (सामाजिक विज्ञान अनुसंधान को बढ़ावा देता है)।<br>• <strong>NAAC (C-II):</strong> राष्ट्रीय मूल्यांकन और प्रत्यायन परिषद (उच्च शिक्षा संस्थानों को मान्यता देता है)।<br>• <strong>AICTE (D-I):</strong> अखिल भारतीय तकनीकी शिक्षा परिषद (तकनीकी शिक्षा में गुणवत्ता को बढ़ावा देता है)।<br>सही विकल्प 3 है।"
       }
@@ -4846,14 +4816,14 @@ const TEST_JAN25_21_S1_P1 = [
     "topicHI": "अनुसंधान विधियाँ और नमूनाकरण",
     "content": {
       "en": {
-        "question": `Match the following:<table style="border-collapse:collapse;width:100%;margin:10px 0;"><thead><tr><th style="border:1px solid #ccc;padding:6px 10px;text-align:left;">List-I (Types of Sampling)</th><th style="border:1px solid #ccc;padding:6px 10px;text-align:left;">List-II (Description)</th></tr></thead><tbody><tr><td style="border:1px solid #ccc;padding:6px 10px;">A. Random sampling</td><td style="border:1px solid #ccc;padding:6px 10px;">I. Dividing population into subgroups that are individually more homogeneous than the population and sampling from each of them</td></tr><tr><td style="border:1px solid #ccc;padding:6px 10px;">B. Stratified sampling</td><td style="border:1px solid #ccc;padding:6px 10px;">II. Selecting every nᵗʰ individual</td></tr><tr><td style="border:1px solid #ccc;padding:6px 10px;">C. Cluster sampling</td><td style="border:1px solid #ccc;padding:6px 10px;">III. Sampling is used when population is divided into smaller groups which share some common characteristics</td></tr><tr><td style="border:1px solid #ccc;padding:6px 10px;">D. Systematic sampling</td><td style="border:1px solid #ccc;padding:6px 10px;">IV. Equal chance for all participants</td></tr></tbody></table>Choose the correct answer from the options given below:`,
+        "question": "<p>Match the following:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-I (Types of Sampling)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-II (Description)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. Random sampling</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. Dividing population into subgroups that are individually more homogeneous than the population and sampling from each of them</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. Stratified sampling</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. Selecting every n-th individual</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. Cluster sampling</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. Sampling is used when population is divided into smaller groups which share some common characteristics</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. Systematic sampling</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. Equal chance for all participants</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": ["A-IV, B-I, C-III, D-II", "A-I, B-IV, C-III, D-II", "A-IV, B-I, C-II, D-III", "A-I, B-II, C-III, D-IV"],
-        "explanation": "<strong>Matching Sampling Methods:</strong><br>• <strong>Random Sampling (A-IV):</strong> Every participant has an equal and independent chance of being selected.<br>• <strong>Stratified Sampling (B-I):</strong> Dividing the population into homogeneous subgroups (strata) and then taking a random sample from each.<br>• <strong>Cluster Sampling (C-III):</strong> The population is divided into naturally occurring smaller groups (clusters) sharing common traits, and whole clusters are selected randomly.<br>• <strong>Systematic Sampling (D-II):</strong> Selecting subjects at a regular interval, like every $n^{th}$ individual from a list."
+        "explanation": "<strong>Matching Sampling Methods:</strong><br>• <strong>Random Sampling (A-IV):</strong> Every participant has an equal and independent chance of being selected.<br>• <strong>Stratified Sampling (B-I):</strong> Dividing the population into homogeneous subgroups (strata) and then taking a random sample from each.<br>• <strong>Cluster Sampling (C-III):</strong> The population is divided into naturally occurring smaller groups (clusters) sharing common traits, and whole clusters are selected randomly.<br>• <strong>Systematic Sampling (D-II):</strong> Selecting subjects at a regular interval, like every n-th individual from a list."
       },
       "hi": {
-        "question": `निम्नलिखित का मिलान करें:<table style="border-collapse:collapse;width:100%;margin:10px 0;"><thead><tr><th style="border:1px solid #ccc;padding:6px 10px;text-align:left;">सूची-I (नमूनाकरण के प्रकार)</th><th style="border:1px solid #ccc;padding:6px 10px;text-align:left;">सूची-II (विवरण)</th></tr></thead><tbody><tr><td style="border:1px solid #ccc;padding:6px 10px;">A. यादृच्छिक नमूनाकरण</td><td style="border:1px solid #ccc;padding:6px 10px;">I. जनसंख्या को उपसमूहों में विभाजित करना जो व्यक्तिगत रूप से जनसंख्या से अधिक समरूप हों और उनमें से प्रत्येक से नमूना लेना</td></tr><tr><td style="border:1px solid #ccc;padding:6px 10px;">B. स्तरीकृत नमूनाकरण</td><td style="border:1px solid #ccc;padding:6px 10px;">II. प्रत्येक nवें व्यक्ति का चयन</td></tr><tr><td style="border:1px solid #ccc;padding:6px 10px;">C. क्लस्टर नमूनाकरण</td><td style="border:1px solid #ccc;padding:6px 10px;">III. नमूनाकरण का उपयोग तब किया जाता है जब जनसंख्या को छोटे समूहों में विभाजित किया जाता है जो कुछ सामान्य विशेषताओं को साझा करते हैं</td></tr><tr><td style="border:1px solid #ccc;padding:6px 10px;">D. व्यवस्थित नमूनाकरण</td><td style="border:1px solid #ccc;padding:6px 10px;">IV. सभी प्रतिभागियों के लिए समान अवसर</td></tr></tbody></table>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:`,
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-I (नमूनाकरण के प्रकार)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-II (विवरण)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. यादृच्छिक नमूनाकरण</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. जनसंख्या को उपसमूहों में विभाजित करना जो व्यक्तिगत रूप से जनसंख्या से अधिक समरूप हों और उनमें से प्रत्येक से नमूना लेना</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. स्तरीकृत नमूनाकरण</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. प्रत्येक n-वें व्यक्ति का चयन</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. क्लस्टर नमूनाकरण</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. नमूनाकरण का उपयोग तब किया जाता है जब जनसंख्या को छोटे समूहों में विभाजित किया जाता है जो कुछ सामान्य विशेषताओं को साझा करते हैं</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. व्यवस्थित नमूनाकरण</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. सभी प्रतिभागियों के लिए समान अवसर</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": ["A-IV, B-I, C-III, D-II", "A-I, B-IV, C-III, D-II", "A-IV, B-I, C-II, D-III", "A-I, B-II, C-III, D-IV"],
-        "explanation": "<strong>नमूनाकरण (Sampling) विधियों का मिलान:</strong><br>• <strong>यादृच्छिक नमूनाकरण (A-IV):</strong> प्रत्येक प्रतिभागी के चुने जाने का समान और स्वतंत्र अवसर होता है।<br>• <strong>स्तरीकृत नमूनाकरण (B-I):</strong> जनसंख्या को समरूप उपसमूहों (strata) में विभाजित करना और फिर प्रत्येक से एक यादृच्छिक नमूना लेना।<br>• <strong>क्लस्टर नमूनाकरण (C-III):</strong> जनसंख्या को सामान्य लक्षण साझा करने वाले स्वाभाविक रूप से होने वाले छोटे समूहों (clusters) में विभाजित किया जाता है, और पूरे समूहों को यादृच्छिक रूप से चुना जाता है।<br>• <strong>व्यवस्थित नमूनाकरण (D-II):</strong> एक नियमित अंतराल पर विषयों का चयन करना, जैसे सूची से प्रत्येक $n^{वें}$ व्यक्ति का चयन करना।"
+        "explanation": "<strong>नमूनाकरण (Sampling) विधियों का मिलान:</strong><br>• <strong>यादृच्छिक नमूनाकरण (A-IV):</strong> प्रत्येक प्रतिभागी के चुने जाने का समान और स्वतंत्र अवसर होता है।<br>• <strong>स्तरीकृत नमूनाकरण (B-I):</strong> जनसंख्या को समरूप उपसमूहों (strata) में विभाजित करना और फिर प्रत्येक से एक यादृच्छिक नमूना लेना।<br>• <strong>क्लस्टर नमूनाकरण (C-III):</strong> जनसंख्या को सामान्य लक्षण साझा करने वाले स्वाभाविक रूप से होने वाले छोटे समूहों (clusters) में विभाजित किया जाता है, और पूरे समूहों को यादृच्छिक रूप से चुना जाता है।<br>• <strong>व्यवस्थित नमूनाकरण (D-II):</strong> एक नियमित अंतराल पर विषयों का चयन करना, जैसे सूची से प्रत्येक n-वें व्यक्ति का चयन करना।"
       }
     }
   },
@@ -4888,12 +4858,12 @@ const TEST_JAN25_21_S1_P1 = [
     "topicHI": "उच्च शिक्षा में डिजिटल पहल",
     "content": {
       "en": {
-        "question": `Match the following:<table style="border-collapse:collapse;width:100%;margin:10px 0;"><thead><tr><th style="border:1px solid #ccc;padding:6px 10px;text-align:left;">List-I (Tool)</th><th style="border:1px solid #ccc;padding:6px 10px;text-align:left;">List-II (Used for)</th></tr></thead><tbody><tr><td style="border:1px solid #ccc;padding:6px 10px;">A. Trello</td><td style="border:1px solid #ccc;padding:6px 10px;">I. Interactive video content creation for assessment</td></tr><tr><td style="border:1px solid #ccc;padding:6px 10px;">B. Mindmeister</td><td style="border:1px solid #ccc;padding:6px 10px;">II. Fun, interactive, research-based simulations</td></tr><tr><td style="border:1px solid #ccc;padding:6px 10px;">C. Edpuzzle</td><td style="border:1px solid #ccc;padding:6px 10px;">III. Project management and task tracking</td></tr><tr><td style="border:1px solid #ccc;padding:6px 10px;">D. PhET</td><td style="border:1px solid #ccc;padding:6px 10px;">IV. Creating mind maps collaboratively to brainstorm ideas</td></tr></tbody></table>Choose the correct answer from the options given below:`,
+        "question": "<p>Match the following:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-I (Tool)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-II (Used for)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. Trello</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. Interactive video content creation for assessment</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. Mindmeister</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. Fun, interactive, research-based simulations</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. Edpuzzle</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. Project management and task tracking</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. PhET</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. Creating mind maps collaboratively to brainstorm ideas</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": ["A-III, B-IV, C-I, D-II", "A-IV, B-III, C-II, D-I", "A-I, B-II, C-III, D-IV", "A-II, B-I, C-IV, D-III"],
         "explanation": "<strong>Matching Digital Tools with their Purpose:</strong><br>• <strong>Trello (A-III):</strong> A widely used visual tool for project management and task tracking using boards and cards.<br>• <strong>Mindmeister (B-IV):</strong> An online tool used for creating collaborative mind maps and brainstorming.<br>• <strong>Edpuzzle (C-I):</strong> An assessment-centered tool that allows teachers to create interactive video lessons by embedding questions.<br>• <strong>PhET (D-II):</strong> Created by CU Boulder, it provides fun, free, interactive, research-based science and mathematics simulations."
       },
       "hi": {
-        "question": `निम्नलिखित का मिलान करें:<table style="border-collapse:collapse;width:100%;margin:10px 0;"><thead><tr><th style="border:1px solid #ccc;padding:6px 10px;text-align:left;">सूची-I (औजार)</th><th style="border:1px solid #ccc;padding:6px 10px;text-align:left;">सूची-II (के लिए इस्तेमाल होता है)</th></tr></thead><tbody><tr><td style="border:1px solid #ccc;padding:6px 10px;">A. ट्रेलो (Trello)</td><td style="border:1px solid #ccc;padding:6px 10px;">I. मूल्यांकन के लिए इंटरैक्टिव वीडियो सामग्री निर्माण</td></tr><tr><td style="border:1px solid #ccc;padding:6px 10px;">B. माइंडमिस्टर (Mindmeister)</td><td style="border:1px solid #ccc;padding:6px 10px;">II. मजेदार, इंटरैक्टिव, शोध-आधारित सिमुलेशन</td></tr><tr><td style="border:1px solid #ccc;padding:6px 10px;">C. एडपज़ल (Edpuzzle)</td><td style="border:1px solid #ccc;padding:6px 10px;">III. परियोजना प्रबंधन और कार्य ट्रैकिंग</td></tr><tr><td style="border:1px solid #ccc;padding:6px 10px;">D. पीएचईटी (PhET)</td><td style="border:1px solid #ccc;padding:6px 10px;">IV. विचारों पर मंथन करने के लिए सहयोगात्मक रूप से माइंड मैप बनाना</td></tr></tbody></table>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:`,
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-I (औजार)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-II (के लिए इस्तेमाल होता है)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. ट्रेलो (Trello)</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. मूल्यांकन के लिए इंटरैक्टिव वीडियो सामग्री निर्माण</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. माइंडमिस्टर (Mindmeister)</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. मजेदार, इंटरैक्टिव, शोध-आधारित सिमुलेशन</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. एडपज़ल (Edpuzzle)</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. परियोजना प्रबंधन और कार्य ट्रैकिंग</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. पीएचईटी (PhET)</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. विचारों पर मंथन करने के लिए सहयोगात्मक रूप से माइंड मैप बनाना</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": ["A-III, B-IV, C-I, D-II", "A-IV, B-III, C-II, D-I", "A-I, B-II, C-III, D-IV", "A-II, B-I, C-IV, D-III"],
         "explanation": "<strong>डिजिटल टूल का उनके उद्देश्य से मिलान:</strong><br>• <strong>Trello (A-III):</strong> बोर्ड और कार्ड का उपयोग करके प्रोजेक्ट प्रबंधन और कार्य ट्रैकिंग (task tracking) के लिए व्यापक रूप से उपयोग किया जाने वाला एक दृश्य उपकरण।<br>• <strong>Mindmeister (B-IV):</strong> एक ऑनलाइन उपकरण जिसका उपयोग सहयोगी माइंड मैप बनाने और विचार-मंथन (brainstorming) के लिए किया जाता है।<br>• <strong>Edpuzzle (C-I):</strong> एक मूल्यांकन-केंद्रित उपकरण जो शिक्षकों को प्रश्न सम्मिलित करके इंटरैक्टिव वीडियो पाठ बनाने की अनुमति देता है।<br>• <strong>PhET (D-II):</strong> सीयू बोल्डर (CU Boulder) द्वारा निर्मित, यह मजेदार, मुफ्त, इंटरैक्टिव, शोध-आधारित विज्ञान और गणित सिमुलेशन प्रदान करता है।"
       }
@@ -4951,12 +4921,12 @@ const TEST_JAN25_21_S1_P1 = [
     "topicHI": "ICT सामान्य संक्षेप और शब्दावली",
     "content": {
       "en": {
-        "question": `Match the following:<table style="border-collapse:collapse;width:100%;margin:10px 0;"><thead><tr><th style="border:1px solid #ccc;padding:6px 10px;text-align:left;">List-I (Malware Example)</th><th style="border:1px solid #ccc;padding:6px 10px;text-align:left;">List-II (Type of Malware)</th></tr></thead><tbody><tr><td style="border:1px solid #ccc;padding:6px 10px;">A. WannaCry</td><td style="border:1px solid #ccc;padding:6px 10px;">I. Trojan</td></tr><tr><td style="border:1px solid #ccc;padding:6px 10px;">B. Stuxnet</td><td style="border:1px solid #ccc;padding:6px 10px;">II. Worm</td></tr><tr><td style="border:1px solid #ccc;padding:6px 10px;">C. Emotet</td><td style="border:1px solid #ccc;padding:6px 10px;">III. Spyware</td></tr><tr><td style="border:1px solid #ccc;padding:6px 10px;">D. Pegasus</td><td style="border:1px solid #ccc;padding:6px 10px;">IV. Ransomware</td></tr></tbody></table>Choose the correct answer from the options given below:`,
+        "question": "<p>Match the following:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-I (Malware Example)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-II (Type of Malware)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. WannaCry</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. Trojan</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. Stuxnet</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. Worm</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. Emotet</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. Spyware</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. Pegasus</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. Ransomware</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": ["A-IV, B-II, C-I, D-III", "A-III, B-I, C-II, D-IV", "A-II, B-III, C-IV, D-I", "A-I, B-IV, C-III, D-II"],
         "explanation": "<strong>Matching Malware Examples with their Types:</strong><br>• <strong>WannaCry (A-IV):</strong> A famous <em>Ransomware</em> cryptoworm that targeted computers running Windows, demanding payment in Bitcoin.<br>• <strong>Stuxnet (B-II):</strong> A malicious computer <em>Worm</em> first uncovered in 2010, designed to target industrial control systems (SCADA).<br>• <strong>Emotet (C-I):</strong> Originally designed as a banking <em>Trojan</em> that sneaks into computers to steal financial information.<br>• <strong>Pegasus (D-III):</strong> A highly sophisticated <em>Spyware</em> developed by the NSO Group that can secretly infiltrate iOS and Android devices."
       },
       "hi": {
-        "question": `निम्नलिखित का मिलान करें:<table style="border-collapse:collapse;width:100%;margin:10px 0;"><thead><tr><th style="border:1px solid #ccc;padding:6px 10px;text-align:left;">सूची-I (मैलवेयर उदाहरण)</th><th style="border:1px solid #ccc;padding:6px 10px;text-align:left;">सूची-II (मैलवेयर का प्रकार)</th></tr></thead><tbody><tr><td style="border:1px solid #ccc;padding:6px 10px;">A. वानाक्राई (WannaCry)</td><td style="border:1px solid #ccc;padding:6px 10px;">I. ट्रोजन</td></tr><tr><td style="border:1px solid #ccc;padding:6px 10px;">B. स्टक्सनेट (Stuxnet)</td><td style="border:1px solid #ccc;padding:6px 10px;">II. कीड़ा (Worm)</td></tr><tr><td style="border:1px solid #ccc;padding:6px 10px;">C. इमोटेट (Emotet)</td><td style="border:1px solid #ccc;padding:6px 10px;">III. स्पाइवेयर</td></tr><tr><td style="border:1px solid #ccc;padding:6px 10px;">D. पेगासस (Pegasus)</td><td style="border:1px solid #ccc;padding:6px 10px;">IV. रैंसमवेयर</td></tr></tbody></table>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:`,
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-I (मैलवेयर उदाहरण)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-II (मैलवेयर का प्रकार)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. वानाक्राई (WannaCry)</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. ट्रोजन</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. स्टक्सनेट (Stuxnet)</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. कीड़ा (Worm)</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. इमोटेट (Emotet)</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. स्पाइवेयर</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. पेगासस (Pegasus)</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. रैंसमवेयर</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": ["A-IV, B-II, C-I, D-III", "A-III, B-I, C-II, D-IV", "A-IV, B-II, C-I, D-III", "A-I, B-IV, C-III, D-II"],
         "explanation": "<strong>मैलवेयर उदाहरणों का उनके प्रकारों से मिलान:</strong><br>• <strong>WannaCry (A-IV):</strong> एक प्रसिद्ध <em>रैंसमवेयर (Ransomware)</em> जो विंडोज चलाने वाले कंप्यूटरों को लक्षित करता है और फिरौती मांगता है।<br>• <strong>Stuxnet (B-II):</strong> 2010 में खोजा गया एक दुर्भावनापूर्ण कंप्यूटर <em>वर्म (Worm)</em>, जिसे औद्योगिक नियंत्रण प्रणालियों को लक्षित करने के लिए डिज़ाइन किया गया था।<br>• <strong>Emotet (C-I):</strong> मूल रूप से एक बैंकिंग <em>ट्रोजन (Trojan)</em> के रूप में डिज़ाइन किया गया है जो वित्तीय जानकारी चुराने के लिए कंप्यूटर में घुस जाता है।<br>• <strong>Pegasus (D-III):</strong> NSO ग्रुप द्वारा विकसित एक अत्यधिक परिष्कृत <em>स्पाइवेयर (Spyware)</em> जो गुप्त रूप से मोबाइल उपकरणों में घुसपैठ कर सकता है।"
       }
@@ -5014,12 +4984,12 @@ const TEST_JAN25_21_S1_P1 = [
     "topicHI": "प्रभावी संचार में बाधाएं",
     "content": {
       "en": {
-        "question": `Match the following:<table style="border-collapse:collapse;width:100%;margin:10px 0;"><thead><tr><th style="border:1px solid #ccc;padding:6px 10px;text-align:left;">List-I (Types of Communication Barriers)</th><th style="border:1px solid #ccc;padding:6px 10px;text-align:left;">List-II (Meaning)</th></tr></thead><tbody><tr><td style="border:1px solid #ccc;padding:6px 10px;">A. Semantic Barrier</td><td style="border:1px solid #ccc;padding:6px 10px;">I. Misunderstanding in words or phrases</td></tr><tr><td style="border:1px solid #ccc;padding:6px 10px;">B. Physical Barrier</td><td style="border:1px solid #ccc;padding:6px 10px;">II. Noise or distance</td></tr><tr><td style="border:1px solid #ccc;padding:6px 10px;">C. Psychological Barrier</td><td style="border:1px solid #ccc;padding:6px 10px;">III. Emotion or attitudes</td></tr><tr><td style="border:1px solid #ccc;padding:6px 10px;">D. Cultural Barrier</td><td style="border:1px solid #ccc;padding:6px 10px;">IV. Differences in social norms</td></tr></tbody></table>Choose the correct answer from the options given below:`,
+        "question": "<p>Match the following:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-I (Types of Communication Barriers)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-II (Meaning)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. Semantic Barrier</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. Misunderstanding in words or phrases</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. Physical Barrier</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. Noise or distance</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. Psychological Barrier</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. Emotion or attitudes</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. Cultural Barrier</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. Differences in social norms</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": ["A-I, B-II, C-III, D-IV", "A-II, B-I, C-III, D-IV", "A-I, B-II, C-IV, D-III", "A-III, B-II, C-I, D-IV"],
         "explanation": "<strong>Matching Communication Barriers:</strong><br>• <strong>Semantic Barrier (A-I):</strong> Occurs due to different meanings, jargon, or misunderstanding of words and phrases.<br>• <strong>Physical Barrier (B-II):</strong> Environmental factors like loud noise, physical distance, or closed doors.<br>• <strong>Psychological Barrier (C-III):</strong> State of mind, strong emotions (anger/fear), or prejudiced attitudes blocking the message.<br>• <strong>Cultural Barrier (D-IV):</strong> Differences in language, social norms, values, and traditions between sender and receiver."
       },
       "hi": {
-        "question": `निम्नलिखित का मिलान करें:<table style="border-collapse:collapse;width:100%;margin:10px 0;"><thead><tr><th style="border:1px solid #ccc;padding:6px 10px;text-align:left;">सूची-I (संचार बाधाओं के प्रकार)</th><th style="border:1px solid #ccc;padding:6px 10px;text-align:left;">सूची-II (अर्थ)</th></tr></thead><tbody><tr><td style="border:1px solid #ccc;padding:6px 10px;">A. शब्दार्थ बाधा</td><td style="border:1px solid #ccc;padding:6px 10px;">I. शब्दों या वाक्यांशों में गलतफहमी</td></tr><tr><td style="border:1px solid #ccc;padding:6px 10px;">B. भौतिक बाधा</td><td style="border:1px solid #ccc;padding:6px 10px;">II. शोर या दूरी</td></tr><tr><td style="border:1px solid #ccc;padding:6px 10px;">C. मनोवैज्ञानिक बाधा</td><td style="border:1px solid #ccc;padding:6px 10px;">III. भावना या दृष्टिकोण</td></tr><tr><td style="border:1px solid #ccc;padding:6px 10px;">D. सांस्कृतिक बाधा</td><td style="border:1px solid #ccc;padding:6px 10px;">IV. सामाजिक मानदंडों में अंतर</td></tr></tbody></table>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:`,
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-I (संचार बाधाओं के प्रकार)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-II (अर्थ)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. शब्दार्थ बाधा</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. शब्दों या वाक्यांशों में गलतफहमी</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. भौतिक बाधा</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. शोर या दूरी</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. मनोवैज्ञानिक बाधा</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. भावना या दृष्टिकोण</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. सांस्कृतिक बाधा</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. सामाजिक मानदंडों में अंतर</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": ["A-I, B-II, C-III, D-IV", "A-II, B-I, C-III, D-IV", "A-I, B-II, C-IV, D-III", "A-III, B-II, C-I, D-IV"],
         "explanation": "<strong>संचार बाधाओं (Communication Barriers) का मिलान:</strong><br>• <strong>शब्दार्थ बाधा (A-I):</strong> शब्दों और वाक्यांशों के अलग-अलग अर्थ, शब्दजाल या गलतफहमी के कारण होती है।<br>• <strong>भौतिक बाधा (B-II):</strong> पर्यावरणीय कारक जैसे तेज शोर, शारीरिक दूरी या बंद दरवाजे।<br>• <strong>मनोवैज्ञानिक बाधा (C-III):</strong> मन की स्थिति, तीव्र भावनाएं (गुस्सा/डर), या संदेश को अवरुद्ध करने वाला पक्षपाती दृष्टिकोण।<br>• <strong>सांस्कृतिक बाधा (D-IV):</strong> प्रेषक और रिसीवर के बीच भाषा, सामाजिक मानदंडों, मूल्यों और परंपराओं में अंतर।"
       }
@@ -5037,12 +5007,12 @@ const TEST_JAN25_21_S1_P1 = [
       "en": {
         "question": "A man travels three-fifth of a distance AB at a speed of 3a and the remaining at the speed of 2b. If he goes from B to A and returns at a speed of 5c in the same time, then:",
         "options": ["1/a + 1/b = 2/c", "1/a + 1/b = 1/c", "a + b = c", "1/a + 1/b = 1/2c"],
-        "explanation": "<strong>Step-by-step Solution:</strong><br>1. Let total distance AB be $D$.<br>2. <strong>Time taken for A to B:</strong><br>   Distance 1 = $\\frac{3D}{5}$ at speed $3a$. Time 1 = $(\\frac{3D}{5}) / 3a = \\frac{D}{5a}$.<br>   Remaining Distance = $\\frac{2D}{5}$ at speed $2b$. Time 2 = $(\\frac{2D}{5}) / 2b = \\frac{D}{5b}$.<br>   Total Time (A to B) = $\\frac{D}{5a} + \\frac{D}{5b}$.<br>3. <strong>Time taken for B to A (Return):</strong><br>   Distance = $D$ at speed $5c$. Time = $\\frac{D}{5c}$.<br>4. The question says both journey times are equal:<br>   $\\frac{D}{5a} + \\frac{D}{5b} = \\frac{D}{5c}$<br>5. Canceling out $D$ and multiplying by 5:<br>   <strong>$\\frac{1}{a} + \\frac{1}{b} = \\frac{1}{c}$</strong>."
+        "explanation": "<strong>Step-by-step Solution:</strong><br>1. Let total distance AB be D.<br>2. <strong>Time taken for A to B:</strong><br>   Distance 1 = 3D/5 at speed 3a. Time 1 = (3D/5) / 3a = D/5a.<br>   Remaining Distance = 2D/5 at speed 2b. Time 2 = (2D/5) / 2b = D/5b.<br>   Total Time (A to B) = D/5a + D/5b.<br>3. <strong>Time taken for B to A (Return):</strong><br>   Distance = D at speed 5c. Time = D/5c.<br>4. The question says both journey times are equal:<br>   D/5a + D/5b = D/5c<br>5. Canceling out D and multiplying by 5:<br>   <strong>1/a + 1/b = 1/c</strong>."
       },
       "hi": {
         "question": "एक व्यक्ति AB दूरी का 3/5 भाग 3a गति से तथा शेष दूरी 2b गति से तय करता है। यदि वह B से A तक जाए और समान समय में 5c की गति से वापस आए, तो:",
         "options": ["1/a + 1/b = 2/c", "1/a + 1/b = 1/c", "a + b = c", "1/a + 1/b = 1/2c"],
-        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>1. मान लें कि कुल दूरी AB, $D$ है।<br>2. <strong>A से B तक जाने में लगा समय:</strong><br>   दूरी 1 = $3a$ की गति से $\\frac{3D}{5}$। समय 1 = $(\\frac{3D}{5}) / 3a = \\frac{D}{5a}$।<br>   शेष दूरी = $2b$ की गति से $\\frac{2D}{5}$। समय 2 = $(\\frac{2D}{5}) / 2b = \\frac{D}{5b}$।<br>   कुल समय (A से B) = $\\frac{D}{5a} + \\frac{D}{5b}$।<br>3. <strong>B से A (वापसी) के लिए लिया गया समय:</strong><br>   दूरी = $5c$ की गति से $D$। समय = $\\frac{D}{5c}$।<br>4. प्रश्न कहता है कि दोनों यात्रा का समय समान है:<br>   $\\frac{D}{5a} + \\frac{D}{5b} = \\frac{D}{5c}$<br>5. $D$ को रद्द करने और 5 से गुणा करने पर:<br>   <strong>$\\frac{1}{a} + \\frac{1}{b} = \\frac{1}{c}$</strong>।"
+        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>1. मान लें कि कुल दूरी AB, D है।<br>2. <strong>A से B तक जाने में लगा समय:</strong><br>   दूरी 1 = 3a की गति से 3D/5। समय 1 = (3D/5) / 3a = D/5a।<br>   शेष दूरी = 2b की गति से 2D/5। समय 2 = (2D/5) / 2b = D/5b।<br>   कुल समय (A से B) = D/5a + D/5b।<br>3. <strong>B से A (वापसी) के लिए लिया गया समय:</strong><br>   दूरी = 5c की गति से D। समय = D/5c।<br>4. प्रश्न कहता है कि दोनों यात्रा का समय समान है:<br>   D/5a + D/5b = D/5c<br>5. D को रद्द करने और 5 से गुणा करने पर:<br>   <strong>1/a + 1/b = 1/c</strong>।"
       }
     }
   },
@@ -5161,14 +5131,14 @@ const TEST_JAN25_21_S1_P1 = [
     "topicHI": "डेटा व्याख्या और सांख्यिकीय माप",
     "content": {
       "en": {
-        "question": "The median of the distribution given below is 14.4. The values of x and y, if the total frequency is 20, are respectively:<br><table border='1' style='border-collapse:collapse; width:100%; text-align:center; margin-top:10px; background:rgba(255,255,255,0.05);'><tr><th style='padding:6px;'>Class Interval</th><td>0-6</td><td>6-12</td><td>12-18</td><td>18-24</td><td>24-30</td></tr><tr><th style='padding:6px;'>Frequency</th><td>4</td><td>x</td><td>5</td><td>y</td><td>1</td></tr></table>",
+        "question": "The median of the distribution given below is 14.4. The values of x and y, if the total frequency is 20, are respectively:<br><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:center;'>Class Interval</th><td style='border:1px solid #e0e0e0; padding:8px; text-align:center;'>0-6</td><td style='border:1px solid #e0e0e0; padding:8px; text-align:center;'>6-12</td><td style='border:1px solid #e0e0e0; padding:8px; text-align:center;'>12-18</td><td style='border:1px solid #e0e0e0; padding:8px; text-align:center;'>18-24</td><td style='border:1px solid #e0e0e0; padding:8px; text-align:center;'>24-30</td></tr><tr><th style='border:1px solid #e0e0e0; padding:8px; text-align:center;'>Frequency</th><td style='border:1px solid #e0e0e0; padding:8px; text-align:center;'>4</td><td style='border:1px solid #e0e0e0; padding:8px; text-align:center;'>x</td><td style='border:1px solid #e0e0e0; padding:8px; text-align:center;'>5</td><td style='border:1px solid #e0e0e0; padding:8px; text-align:center;'>y</td><td style='border:1px solid #e0e0e0; padding:8px; text-align:center;'>1</td></tr></table>",
         "options": ["4, 6", "6, 4", "5, 5", "7, 3"],
-        "explanation": "<strong>Step-by-step Mathematical Solution:</strong><br>1. Total Frequency ($N$) = 20. Sum of frequencies = $4 + x + 5 + y + 1 = 10 + x + y$.<br>So, $10 + x + y = 20 \\implies x + y = 10$.<br>2. Median is given as 14.4, which lies in the class interval <strong>12-18</strong>.<br>3. Lower limit ($L$) = 12, frequency of median class ($f$) = 5, class width ($h$) = 6.<br>4. Cumulative frequency of the class preceding the median class ($cf$) = $4 + x$.<br>5. Formula: $\\text{Median} = L + \\left(\\frac{N/2 - cf}{f}\\right) \\times h$<br>$14.4 = 12 + \\left(\\frac{10 - (4 + x)}{5}\\right) \\times 6$<br>$2.4 = \\frac{6 - x}{5} \\times 6$<br>$12 = 36 - 6x \\implies 6x = 24 \\implies <strong>x = 4</strong>$.<br>6. Since $x + y = 10$, $4 + y = 10 \\implies <strong>y = 6</strong>$.<br><br><em>(Note: Mathematically the correct answer is x=4, y=6 (Option 1). However, the official NTA Answer Key marked Option 2 (6, 4). We have retained the official key's index, but provided the correct mathematical proof here.)</em>"
+        "explanation": "<strong>Step-by-step Mathematical Solution:</strong><br>1. Total Frequency (N) = 20. Sum of frequencies = 4 + x + 5 + y + 1 = 10 + x + y.<br>So, 10 + x + y = 20 ⇒ x + y = 10.<br>2. Median is given as 14.4, which lies in the class interval <strong>12-18</strong>.<br>3. Lower limit (L) = 12, frequency of median class (f) = 5, class width (h) = 6.<br>4. Cumulative frequency of the class preceding the median class (cf) = 4 + x.<br>5. Formula: Median = L + [(N/2 - cf) / f] × h<br>14.4 = 12 + [(10 - (4 + x)) / 5] × 6<br>2.4 = [(6 - x) / 5] × 6<br>12 = 36 - 6x ⇒ 6x = 24 ⇒ <strong>x = 4</strong>.<br>6. Since x + y = 10, 4 + y = 10 ⇒ <strong>y = 6</strong>.<br><br><em>(Note: Mathematically the correct answer is x=4, y=6 (Option 1). However, the official NTA Answer Key marked Option 2 (6, 4). We have retained the official key's index, but provided the correct mathematical proof here.)</em>"
       },
       "hi": {
-        "question": "नीचे दिए गए वितरण का माध्यिका 14.4 है। यदि कुल आवृत्ति 20 है, तो x और y के मान क्रमशः हैं:<br><table border='1' style='border-collapse:collapse; width:100%; text-align:center; margin-top:10px; background:rgba(255,255,255,0.05);'><tr><th style='padding:6px;'>वर्ग अंतराल</th><td>0-6</td><td>6-12</td><td>12-18</td><td>18-24</td><td>24-30</td></tr><tr><th style='padding:6px;'>आवृत्ति</th><td>4</td><td>x</td><td>5</td><td>y</td><td>1</td></tr></table>",
+        "question": "नीचे दिए गए वितरण का माध्यिका 14.4 है। यदि कुल आवृत्ति 20 है, तो x और y के मान क्रमशः हैं:<br><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:center;'>वर्ग अंतराल</th><td style='border:1px solid #e0e0e0; padding:8px; text-align:center;'>0-6</td><td style='border:1px solid #e0e0e0; padding:8px; text-align:center;'>6-12</td><td style='border:1px solid #e0e0e0; padding:8px; text-align:center;'>12-18</td><td style='border:1px solid #e0e0e0; padding:8px; text-align:center;'>18-24</td><td style='border:1px solid #e0e0e0; padding:8px; text-align:center;'>24-30</td></tr><tr><th style='border:1px solid #e0e0e0; padding:8px; text-align:center;'>आवृत्ति</th><td style='border:1px solid #e0e0e0; padding:8px; text-align:center;'>4</td><td style='border:1px solid #e0e0e0; padding:8px; text-align:center;'>x</td><td style='border:1px solid #e0e0e0; padding:8px; text-align:center;'>5</td><td style='border:1px solid #e0e0e0; padding:8px; text-align:center;'>y</td><td style='border:1px solid #e0e0e0; padding:8px; text-align:center;'>1</td></tr></table>",
         "options": ["4, 6", "6, 4", "5, 5", "7, 3"],
-        "explanation": "<strong>चरण-दर-चरण गणितीय समाधान:</strong><br>1. कुल आवृत्ति ($N$) = 20. आवृत्तियों का योग = $4 + x + 5 + y + 1 = 10 + x + y$.<br>अतः, $10 + x + y = 20 \\implies x + y = 10$.<br>2. माध्यिका (Median) 14.4 दी गई है, जो <strong>12-18</strong> वर्ग अंतराल में आती है।<br>3. निचली सीमा ($L$) = 12, माध्यिका वर्ग की आवृत्ति ($f$) = 5, वर्ग की चौड़ाई ($h$) = 6.<br>4. माध्यिका वर्ग से पहले वाले वर्ग की संचयी आवृत्ति ($cf$) = $4 + x$.<br>5. सूत्र: $\\text{माध्यिका} = L + \\left(\\frac{N/2 - cf}{f}\\right) \\times h$<br>$14.4 = 12 + \\left(\\frac{10 - (4 + x)}{5}\\right) \\times 6$<br>$2.4 = \\frac{6 - x}{5} \\times 6$<br>$12 = 36 - 6x \\implies 6x = 24 \\implies <strong>x = 4</strong>$.<br>6. चूंकि $x + y = 10$, $4 + y = 10 \\implies <strong>y = 6</strong>$.<br><br><em>(नोट: गणितीय रूप से सही उत्तर x=4, y=6 (विकल्प 1) है। हालाँकि, NTA की आधिकारिक उत्तर कुंजी ने विकल्प 2 (6, 4) को चिह्नित किया है, जो एक टाइपिंग त्रुटि हो सकती है। हमने सिस्टम सटीकता के लिए आधिकारिक कुंजी को रखा है, लेकिन यहाँ सही गणितीय प्रमाण प्रदान किया है।)</em>"
+        "explanation": "<strong>चरण-दर-चरण गणितीय समाधान:</strong><br>1. कुल आवृत्ति (N) = 20. आवृत्तियों का योग = 4 + x + 5 + y + 1 = 10 + x + y.<br>अतः, 10 + x + y = 20 ⇒ x + y = 10.<br>2. माध्यिका (Median) 14.4 दी गई है, जो <strong>12-18</strong> वर्ग अंतराल में आती है।<br>3. निचली सीमा (L) = 12, माध्यिका वर्ग की आवृत्ति (f) = 5, वर्ग की चौड़ाई (h) = 6.<br>4. माध्यिका वर्ग से पहले वाले वर्ग की संचयी आवृत्ति (cf) = 4 + x.<br>5. सूत्र: माध्यिका = L + [(N/2 - cf) / f] × h<br>14.4 = 12 + [(10 - (4 + x)) / 5] × 6<br>2.4 = [(6 - x) / 5] × 6<br>12 = 36 - 6x ⇒ 6x = 24 ⇒ <strong>x = 4</strong>.<br>6. चूंकि x + y = 10, 4 + y = 10 ⇒ <strong>y = 6</strong>.<br><br><em>(नोट: गणितीय रूप से सही उत्तर x=4, y=6 (विकल्प 1) है। हालाँकि, NTA की आधिकारिक उत्तर कुंजी ने विकल्प 2 (6, 4) को चिह्नित किया है, जो एक टाइपिंग त्रुटि हो सकती है। हमने सिस्टम सटीकता के लिए आधिकारिक कुंजी को रखा है, लेकिन यहाँ सही गणितीय प्रमाण प्रदान किया है।)</em>"
       }
     }
   }, 
@@ -5295,12 +5265,12 @@ const TEST_JAN25_16_S2_P1 = [
       "en": {
         "question": TABLE_JAN25_16_S2_P1.en + "<br><br><strong>Question:</strong><br>What is the total number of HDDs purchased by males from shop B on all the five days?",
         "options": ["882", "1704", "1764", "1664"],
-        "explanation": "<strong>Step-by-step Calculation:</strong><br>To find HDDs purchased by males, we use $(100\\% - \\text{Female } \\%)$.<br>1. <strong>Mon:</strong> 640 × (100% - 30%) = 640 × 70% = 448<br>2. <strong>Tue:</strong> 880 × (100% - 65%) = 880 × 35% = 308<br>3. <strong>Wed:</strong> 540 × (100% - 80%) = 540 × 20% = 108<br>4. <strong>Thu:</strong> 760 × (100% - 25%) = 760 × 75% = 570<br>5. <strong>Fri:</strong> 550 × (100% - 40%) = 550 × 60% = 330<br><strong>Total</strong> = 448 + 308 + 108 + 570 + 330 = <strong>1764</strong>."
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>To find HDDs purchased by males, we use (100% - Female %).<br>1. <strong>Mon:</strong> 640 × (100% - 30%) = 640 × 70% = 448<br>2. <strong>Tue:</strong> 880 × (100% - 65%) = 880 × 35% = 308<br>3. <strong>Wed:</strong> 540 × (100% - 80%) = 540 × 20% = 108<br>4. <strong>Thu:</strong> 760 × (100% - 25%) = 760 × 75% = 570<br>5. <strong>Fri:</strong> 550 × (100% - 40%) = 550 × 60% = 330<br><strong>Total</strong> = 448 + 308 + 108 + 570 + 330 = <strong>1764</strong>."
       },
       "hi": {
         "question": TABLE_JAN25_16_S2_P1.hi + "<br><br><strong>प्रश्न:</strong><br>सभी पांच दिनों में दुकान B से पुरुषों द्वारा खरीदी गई HDD की कुल संख्या कितनी है?",
         "options": ["882", "1704", "1764", "1664"],
-        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>पुरुषों द्वारा खरीदी गई HDD ज्ञात करने के लिए, हम $(100\\% - \\text{महिला } \\%)$ का उपयोग करते हैं।<br>1. <strong>सोमवार:</strong> 640 × (100% - 30%) = 640 × 70% = 448<br>2. <strong>मंगलवार:</strong> 880 × (100% - 65%) = 880 × 35% = 308<br>3. <strong>बुधवार:</strong> 540 × (100% - 80%) = 540 × 20% = 108<br>4. <strong>गुरुवार:</strong> 760 × (100% - 25%) = 760 × 75% = 570<br>5. <strong>शुक्रवार:</strong> 550 × (100% - 40%) = 550 × 60% = 330<br><strong>कुल</strong> = 448 + 308 + 108 + 570 + 330 = <strong>1764</strong>।"
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>पुरुषों द्वारा खरीदी गई HDD ज्ञात करने के लिए, हम (100% - महिला %) का उपयोग करते हैं।<br>1. <strong>सोमवार:</strong> 640 × (100% - 30%) = 640 × 70% = 448<br>2. <strong>मंगलवार:</strong> 880 × (100% - 65%) = 880 × 35% = 308<br>3. <strong>बुधवार:</strong> 540 × (100% - 80%) = 540 × 20% = 108<br>4. <strong>गुरुवार:</strong> 760 × (100% - 25%) = 760 × 75% = 570<br>5. <strong>शुक्रवार:</strong> 550 × (100% - 40%) = 550 × 60% = 330<br><strong>कुल</strong> = 448 + 308 + 108 + 570 + 330 = <strong>1764</strong>।"
       }
     }
   },
@@ -5358,12 +5328,12 @@ const TEST_JAN25_16_S2_P1 = [
       "en": {
         "question": TABLE_JAN25_16_S2_P1.en + "<br><br><strong>Question:</strong><br>Total number of HDDs sold by shop A on Thursday and Friday together is ______ % of the total number of HDDs sold by shop B on Wednesday and Thursday together.",
         "options": ["125", "100", "120", "80"],
-        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. <strong>Shop A (Thu + Fri):</strong> 720 (Thu) + 840 (Fri) = <strong>1560</strong>.<br>2. <strong>Shop B (Wed + Thu):</strong> 540 (Wed) + 760 (Thu) = <strong>1300</strong>.<br>3. <strong>Percentage:</strong> $(1560 / 1300) \\times 100 = 120\\%$."
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. <strong>Shop A (Thu + Fri):</strong> 720 (Thu) + 840 (Fri) = <strong>1560</strong>.<br>2. <strong>Shop B (Wed + Thu):</strong> 540 (Wed) + 760 (Thu) = <strong>1300</strong>.<br>3. <strong>Percentage:</strong> (1560 / 1300) × 100 = 120%."
       },
       "hi": {
         "question": TABLE_JAN25_16_S2_P1.hi + "<br><br><strong>प्रश्न:</strong><br>दुकान A द्वारा गुरुवार और शुक्रवार को बेची गई HDD की कुल संख्या, दुकान B द्वारा बुधवार और गुरुवार को बेची गई HDD की कुल संख्या का ______% है।",
         "options": ["125", "100", "120", "80"],
-        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. <strong>दुकान A (गुरु + शुक्र):</strong> 720 (गुरु) + 840 (शुक्र) = <strong>1560</strong>.<br>2. <strong>दुकान B (बुध + गुरु):</strong> 540 (बुध) + 760 (गुरु) = <strong>1300</strong>.<br>3. <strong>प्रतिशत:</strong> $(1560 / 1300) \\times 100 = 120\\%$."
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. <strong>दुकान A (गुरु + शुक्र):</strong> 720 (गुरु) + 840 (शुक्र) = <strong>1560</strong>.<br>2. <strong>दुकान B (बुध + गुरु):</strong> 540 (बुध) + 760 (गुरु) = <strong>1300</strong>.<br>3. <strong>प्रतिशत:</strong> (1560 / 1300) × 100 = 120%."
       }
     }
   },
@@ -5379,12 +5349,12 @@ const TEST_JAN25_16_S2_P1 = [
       "en": {
         "question": TABLE_JAN25_16_S2_P1.en + "<br><br><strong>Question:</strong><br>Total number of HDDs purchased by females from shop A on Wednesday and Thursday together is ______ % less than the total number of HDDs purchased by males from shop B on Thursday and Friday together.",
         "options": ["18", "20", "22.22", "25"],
-        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. <strong>Females from Shop A (Wed + Thu):</strong><br>   Wed: 720 × 40% = 288.<br>   Thu: 720 × 60% = 432.<br>   Total = 288 + 432 = <strong>720</strong>.<br>2. <strong>Males from Shop B (Thu + Fri):</strong><br>   Thu: 760 × (100% - 25%) = 760 × 75% = 570.<br>   Fri: 550 × (100% - 40%) = 550 × 60% = 330.<br>   Total = 570 + 330 = <strong>900</strong>.<br>3. <strong>Difference:</strong> 900 - 720 = 180.<br>4. <strong>Percentage Less:</strong> $(180 / 900) \\times 100 = 20\\%$."
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. <strong>Females from Shop A (Wed + Thu):</strong><br>   Wed: 720 × 40% = 288.<br>   Thu: 720 × 60% = 432.<br>   Total = 288 + 432 = <strong>720</strong>.<br>2. <strong>Males from Shop B (Thu + Fri):</strong><br>   Thu: 760 × (100% - 25%) = 760 × 75% = 570.<br>   Fri: 550 × (100% - 40%) = 550 × 60% = 330.<br>   Total = 570 + 330 = <strong>900</strong>.<br>3. <strong>Difference:</strong> 900 - 720 = 180.<br>4. <strong>Percentage Less:</strong> (180 / 900) × 100 = 20%."
       },
       "hi": {
         "question": TABLE_JAN25_16_S2_P1.hi + "<br><br><strong>प्रश्न:</strong><br>बुधवार और गुरुवार को दुकान A से महिलाओं द्वारा खरीदी गई HDD की कुल संख्या, गुरुवार और शुक्रवार को दुकान B से पुरुषों द्वारा खरीदी गई HDD की कुल संख्या से ______% कम है।",
         "options": ["18", "20", "22.22", "25"],
-        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. <strong>दुकान A से महिलाएँ (बुध + गुरु):</strong><br>   बुधवार: 720 × 40% = 288.<br>   गुरुवार: 720 × 60% = 432.<br>   कुल = 288 + 432 = <strong>720</strong>.<br>2. <strong>दुकान B से पुरुष (गुरु + शुक्र):</strong><br>   गुरुवार: 760 × (100% - 25%) = 760 × 75% = 570.<br>   शुक्रवार: 550 × (100% - 40%) = 550 × 60% = 330.<br>   कुल = 570 + 330 = <strong>900</strong>.<br>3. <strong>अंतर:</strong> 900 - 720 = 180.<br>4. <strong>प्रतिशत कम:</strong> $(180 / 900) \\times 100 = 20\\%$."
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. <strong>दुकान A से महिलाएँ (बुध + गुरु):</strong><br>   बुधवार: 720 × 40% = 288.<br>   गुरुवार: 720 × 60% = 432.<br>   कुल = 288 + 432 = <strong>720</strong>.<br>2. <strong>दुकान B से पुरुष (गुरु + शुक्र):</strong><br>   गुरुवार: 760 × (100% - 25%) = 760 × 75% = 570.<br>   शुक्रवार: 550 × (100% - 40%) = 550 × 60% = 330.<br>   कुल = 570 + 330 = <strong>900</strong>.<br>3. <strong>अंतर:</strong> 900 - 720 = 180.<br>4. <strong>प्रतिशत कम:</strong> (180 / 900) × 100 = 20%."
       }
     }
   },
@@ -5505,12 +5475,12 @@ const TEST_JAN25_16_S2_P1 = [
       "en": {
         "question": "In a school survey of 400 students, 100 were taking apple juice, 150 orange juice and 75 were taking both apple and orange juice. How many students were taking neither apple nor orange juice?",
         "options": ["275", "250", "175", "225"],
-        "explanation": "<strong>Step-by-step Solution:</strong><br>We use Set Theory: $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$.<br>1. Total students ($U$) = 400.<br>2. Apple ($A$) = 100. Orange ($B$) = 150. Both ($A \\cap B$) = 75.<br>3. Students taking at least one juice = $100 + 150 - 75 = 175$.<br>4. Students taking neither = Total students - Students taking at least one.<br>   $400 - 175 = $ <strong>225</strong>."
+        "explanation": "<strong>Step-by-step Solution:</strong><br>We use Set Theory: n(A ∪ B) = n(A) + n(B) - n(A ∩ B).<br>1. Total students (U) = 400.<br>2. Apple (A) = 100. Orange (B) = 150. Both (A ∩ B) = 75.<br>3. Students taking at least one juice = 100 + 150 - 75 = 175.<br>4. Students taking neither = Total students - Students taking at least one.<br>   400 - 175 = <strong>225</strong>."
       },
       "hi": {
         "question": "400 छात्रों के एक स्कूल सर्वेक्षण में, 100 छात्र सेब का जूस, 150 छात्र संतरे का जूस और 75 छात्र सेब और संतरे दोनों का जूस ले रहे थे। कितने छात्र न तो सेब और न ही संतरे का जूस ले रहे थे?",
         "options": ["275", "250", "175", "225"],
-        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>हम सेट सिद्धांत (Set Theory) का उपयोग करते हैं: $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$।<br>1. कुल छात्र ($U$) = 400।<br>2. सेब ($A$) = 100. संतरा ($B$) = 150. दोनों ($A \\cap B$) = 75।<br>3. कम से कम एक जूस लेने वाले छात्र = $100 + 150 - 75 = 175$।<br>4. दोनों में से कोई भी जूस नहीं लेने वाले छात्र = कुल छात्र - कम से कम एक जूस लेने वाले छात्र।<br>   $400 - 175 = $ <strong>225</strong>।"
+        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>हम सेट सिद्धांत (Set Theory) का उपयोग करते हैं: n(A ∪ B) = n(A) + n(B) - n(A ∩ B)।<br>1. कुल छात्र (U) = 400।<br>2. सेब (A) = 100. संतरा (B) = 150. दोनों (A ∩ B) = 75।<br>3. कम से कम एक जूस लेने वाले छात्र = 100 + 150 - 75 = 175।<br>4. दोनों में से कोई भी जूस नहीं लेने वाले छात्र = कुल छात्र - कम से कम एक जूस लेने वाले छात्र।<br>   400 - 175 = <strong>225</strong>।"
       }
     }
   },
@@ -5526,12 +5496,12 @@ const TEST_JAN25_16_S2_P1 = [
       "en": {
         "question": "Which of the following statements are related in such a way that both cannot be true together nor can both be false together?<br><br>A. All dogs are omnivorous.<br>B. Some dogs are omnivorous.<br>C. Some dogs are not omnivorous.<br>D. No dog is omnivorous.<br><br>Choose the correct answer from the given options:",
         "options": ["Only A and C", "Only B and C", "Only C and D", "Only A and D"],
-        "explanation": "The condition \"cannot be true together nor can both be false together\" defines a <strong>Contradictory</strong> relationship in the Classical Square of Opposition. <br>Contradictory pairs are:<br>1. Universal Affirmative (A) & Particular Negative (O) $\\rightarrow$ 'All' and 'Some not'.<br>2. Universal Negative (E) & Particular Affirmative (I) $\\rightarrow$ 'No' and 'Some'.<br>Here, statement A (All) and statement C (Some not) form a perfect contradictory pair."
+        "explanation": "The condition \"cannot be true together nor can both be false together\" defines a <strong>Contradictory</strong> relationship in the Classical Square of Opposition. <br>Contradictory pairs are:<br>1. Universal Affirmative (A) & Particular Negative (O) → 'All' and 'Some not'.<br>2. Universal Negative (E) & Particular Affirmative (I) → 'No' and 'Some'.<br>Here, statement A (All) and statement C (Some not) form a perfect contradictory pair."
       },
       "hi": {
         "question": "निम्नलिखित में से कौन से कथन एक दूसरे से इस प्रकार संबंधित हैं कि दोनों एक साथ सत्य नहीं हो सकते और न ही दोनों एक साथ असत्य हो सकते हैं?<br><br>A. सभी कुत्ते सर्वाहारी होते हैं।<br>B. कुछ कुत्ते सर्वाहारी होते हैं।<br>C. कुछ कुत्ते सर्वाहारी नहीं होते हैं।<br>D. कोई भी कुत्ता सर्वाहारी नहीं होता है।<br><br>दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": ["केवल A और C", "केवल B और C", "केवल C और D", "केवल A और D"],
-        "explanation": "शर्त \"दोनों एक साथ सत्य नहीं हो सकते और न ही दोनों एक साथ असत्य हो सकते हैं\" शास्त्रीय विरोध वर्ग (Square of Opposition) में एक <strong>विरोधाभासी (Contradictory)</strong> संबंध को परिभाषित करती है।<br>विरोधाभासी जोड़े हैं:<br>1. सार्वभौमिक सकारात्मक (A) और विशेष नकारात्मक (O) $\\rightarrow$ 'सभी' और 'कुछ नहीं'।<br>2. सार्वभौमिक नकारात्मक (E) और विशेष सकारात्मक (I) $\\rightarrow$ 'कोई नहीं' और 'कुछ'।<br>यहाँ, कथन A (सभी) और कथन C (कुछ नहीं) एक पूर्ण विरोधाभासी जोड़ी बनाते हैं।"
+        "explanation": "शर्त \"दोनों एक साथ सत्य नहीं हो सकते और न ही दोनों एक साथ असत्य हो सकते हैं\" शास्त्रीय विरोध वर्ग (Square of Opposition) में एक <strong>विरोधाभासी (Contradictory)</strong> संबंध को परिभाषित करती है।<br>विरोधाभासी जोड़े हैं:<br>1. सार्वभौमिक सकारात्मक (A) और विशेष नकारात्मक (O) → 'सभी' और 'कुछ नहीं'।<br>2. सार्वभौमिक नकारात्मक (E) और विशेष सकारात्मक (I) → 'कोई नहीं' और 'कुछ'।<br>यहाँ, कथन A (सभी) और कथन C (कुछ नहीं) एक पूर्ण विरोधाभासी जोड़ी बनाते हैं।"
       }
     }
   },
@@ -5547,12 +5517,12 @@ const TEST_JAN25_16_S2_P1 = [
       "en": {
         "question": "Find the next term of the letter series.<br><br>AaC, BbD, DdF, HhJ, ________",
         "options": ["LIN", "MmO", "PpR", "NnP"],
-        "explanation": "<strong>Step-by-step Pattern Breakdown:</strong><br>Let's analyze the position of the First capital letter in each group: A(1), B(2), D(4), H(8). The gap is multiplying by 2 (or $+1, +2, +4$). The next gap should be $+8$. So $8+8 = 16$, which is <strong>P</strong>.<br>The second letter is simply the lowercase version of the first letter: <strong>p</strong>.<br>The third letter is always +2 from the first letter: A(+2)C, B(+2)D, D(+2)F. So P(+2) = <strong>R</strong>.<br>Result: <strong>PpR</strong>."
+        "explanation": "<strong>Step-by-step Pattern Breakdown:</strong><br>Let's analyze the position of the First capital letter in each group: A(1), B(2), D(4), H(8). The gap is multiplying by 2 (or +1, +2, +4). The next gap should be +8. So 8 + 8 = 16, which is <strong>P</strong>.<br>The second letter is simply the lowercase version of the first letter: <strong>p</strong>.<br>The third letter is always +2 from the first letter: A(+2)C, B(+2)D, D(+2)F. So P(+2) = <strong>R</strong>.<br>Result: <strong>PpR</strong>."
       },
       "hi": {
         "question": "अक्षर श्रृंखला का अगला पद ज्ञात कीजिए।<br><br>AaC, BbD, DdF, HhJ, ________",
         "options": ["LIN", "MmO", "PpR", "NnP"],
-        "explanation": "<strong>चरण-दर-चरण पैटर्न विश्लेषण:</strong><br>आइए प्रत्येक समूह में पहले बड़े अक्षर की स्थिति का विश्लेषण करें: A(1), B(2), D(4), H(8)। अंतर 2 से गुणा हो रहा है (या $+1, +2, +4$ बढ़ रहा है)। अगला अंतर $+8$ होना चाहिए। तो $8+8 = 16$, जो <strong>P</strong> है।<br>दूसरा अक्षर केवल पहले अक्षर का छोटा (lowercase) संस्करण है: <strong>p</strong>।<br>तीसरा अक्षर हमेशा पहले अक्षर से +2 आगे होता है: A(+2)C, B(+2)D, D(+2)F। इसलिए P(+2) = <strong>R</strong>।<br>परिणाम: <strong>PpR</strong>।"
+        "explanation": "<strong>चरण-दर-चरण पैटर्न विश्लेषण:</strong><br>आइए प्रत्येक समूह में पहले बड़े अक्षर की स्थिति का विश्लेषण करें: A(1), B(2), D(4), H(8)। अंतर 2 से गुणा हो रहा है (या +1, +2, +4 बढ़ रहा है)। अगला अंतर +8 होना चाहिए। तो 8 + 8 = 16, जो <strong>P</strong> है।<br>दूसरा अक्षर केवल पहले अक्षर का छोटा (lowercase) संस्करण है: <strong>p</strong>।<br>तीसरा अक्षर हमेशा पहले अक्षर से +2 आगे होता है: A(+2)C, B(+2)D, D(+2)F। इसलिए P(+2) = <strong>R</strong>।<br>परिणाम: <strong>PpR</strong>।"
       }
     }
   },
@@ -5608,14 +5578,14 @@ const TEST_JAN25_16_S2_P1 = [
     "topicHI": "प्राकृतिक और ऊर्जा संसाधन",
     "content": {
       "en": {
-        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%;'><thead><tr><th style='padding:8px;'>LIST-I (Nuclear Fuel Cycle Processes)</th><th style='padding:8px;'>LIST-II (Their Products)</th></tr></thead><tbody><tr><td style='padding:6px;'>A. Mining</td><td style='padding:6px;'>I. Spent fuels</td></tr><tr><td style='padding:6px;'>B. Milling</td><td style='padding:6px;'>II. Reactor grade uranium</td></tr><tr><td style='padding:6px;'>C. Enrichment</td><td style='padding:6px;'>III. Uranium ore</td></tr><tr><td style='padding:6px;'>D. Disposal</td><td style='padding:6px;'>IV. Yellow cake</td></tr></tbody></table><br>Choose the correct answer from the options given below:",
+        "question": "<p>Match the following:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>LIST-I (Nuclear Fuel Cycle Processes)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>LIST-II (Their Products)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. Mining</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. Spent fuels</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. Milling</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. Reactor grade uranium</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. Enrichment</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. Uranium ore</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. Disposal</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. Yellow cake</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": ["A-IV, B-II, C-I, D-III", "A-II, B-III, C-IV, D-I", "A-III, B-IV, C-II, D-I", "A-III, B-IV, C-I, D-II"],
-        "explanation": "<strong>Matching Nuclear Fuel Cycle Processes:</strong><br>• <strong>Mining (A-III):</strong> The extraction process yields <em>Uranium ore</em> from the ground.<br>• <strong>Milling (B-IV):</strong> The ore is crushed and chemically treated to extract uranium, producing a concentrate known as <em>Yellow cake</em> ($U_3O_8$).<br>• <strong>Enrichment (C-II):</strong> The yellow cake is processed to increase the U-235 isotope ratio, yielding <em>Reactor grade uranium</em>.<br>• <strong>Disposal (D-I):</strong> After the fuel is used in the reactor, it becomes highly radioactive waste, known as <em>Spent fuels</em>."
+        "explanation": "<strong>Matching Nuclear Fuel Cycle Processes:</strong><br>• <strong>Mining (A-III):</strong> The extraction process yields <em>Uranium ore</em> from the ground.<br>• <strong>Milling (B-IV):</strong> The ore is crushed and chemically treated to extract uranium, producing a concentrate known as <em>Yellow cake</em> (U₃O₈).<br>• <strong>Enrichment (C-II):</strong> The yellow cake is processed to increase the U-235 isotope ratio, yielding <em>Reactor grade uranium</em>.<br>• <strong>Disposal (D-I):</strong> After the fuel is used in the reactor, it becomes highly radioactive waste, known as <em>Spent fuels</em>."
       },
       "hi": {
-        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%;'><thead><tr><th style='padding:8px;'>सूची-I (परमाणु ईंधन चक्र प्रक्रियाएं)</th><th style='padding:8px;'>सूची-II (उनके उत्पाद)</th></tr></thead><tbody><tr><td style='padding:6px;'>A. खनन</td><td style='padding:6px;'>I. व्यतीत ईंधन</td></tr><tr><td style='padding:6px;'>B. मिलिंग</td><td style='padding:6px;'>II. रिएक्टर ग्रेड यूरेनियम</td></tr><tr><td style='padding:6px;'>C. संवर्धन</td><td style='padding:6px;'>III. यूरेनियम अयस्क</td></tr><tr><td style='padding:6px;'>D. निपटान</td><td style='padding:6px;'>IV. पीला केक</td></tr></tbody></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-I (परमाणु ईंधन चक्र प्रक्रियाएं)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-II (उनके उत्पाद)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. खनन</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. व्यतीत ईंधन</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. मिलिंग</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. रिएक्टर ग्रेड यूरेनियम</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. संवर्धन</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. यूरेनियम अयस्क</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. निपटान</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. पीला केक</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": ["A-IV, B-II, C-I, D-III", "A-II, B-III, C-IV, D-I", "A-III, B-IV, C-II, D-I", "A-III, B-IV, C-I, D-II"],
-        "explanation": "<strong>परमाणु ईंधन चक्र प्रक्रियाओं का मिलान:</strong><br>• <strong>खनन (A-III):</strong> निष्कर्षण प्रक्रिया जमीन से <em>यूरेनियम अयस्क</em> निकालती है।<br>• <strong>मिलिंग (B-IV):</strong> यूरेनियम निकालने के लिए अयस्क को कुचला जाता है और रासायनिक रूप से उपचारित किया जाता है, जिससे <em>येलो केक (Yellow cake)</em> नामक एक सांद्रण उत्पन्न होता है।<br>• <strong>संवर्धन (C-II):</strong> U-235 आइसोटोप अनुपात को बढ़ाने के लिए येलो केक को संसाधित किया जाता है, जिससे <em>रिएक्टर ग्रेड यूरेनियम</em> प्राप्त होता है।<br>• <strong>निपटान (D-I):</strong> रिएक्टर में ईंधन का उपयोग करने के बाद, यह अत्यधिक रेडियोधर्मी अपशिष्ट बन जाता है, जिसे <em>व्यतीत ईंधन (Spent fuels)</em> के रूप में जाना जाता है।"
+        "explanation": "<strong>परमाणु ईंधन चक्र प्रक्रियाओं का मिलान:</strong><br>• <strong>खनन (A-III):</strong> निष्कर्षण प्रक्रिया जमीन से <em>यूरेनियम अयस्क</em> निकालती है।<br>• <strong>मिलिंग (B-IV):</strong> यूरेनियम निकालने के लिए अयस्क को कुचला जाता है और रासायनिक रूप से उपचारित किया जाता है, जिससे <em>येलो केक (Yellow cake)</em> (U₃O₈) नामक एक सांद्रण उत्पन्न होता है।<br>• <strong>संवर्धन (C-II):</strong> U-235 आइसोटोप अनुपात को बढ़ाने के लिए येलो केक को संसाधित किया जाता है, जिससे <em>रिएक्टर ग्रेड यूरेनियम</em> प्राप्त होता है।<br>• <strong>निपटान (D-I):</strong> रिएक्टर में ईंधन का उपयोग करने के बाद, यह अत्यधिक रेडियोधर्मी अपशिष्ट बन जाता है, जिसे <em>व्यतीत ईंधन (Spent fuels)</em> के रूप में जाना जाता है।"
       }
     }
   },
@@ -5692,14 +5662,14 @@ const TEST_JAN25_16_S2_P1 = [
     "topicHI": "शोध के चरण (नमूनाकरण विधियाँ)",
     "content": {
       "en": {
-        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%;'><thead><tr><th style='padding:8px;'>LIST-I (Type of Sampling)</th><th style='padding:8px;'>LIST-II (Statement)</th></tr></thead><tbody><tr><td style='padding:6px;'>A. Simple Random Sampling</td><td style='padding:6px;'>I. Population is divided into groups of elements</td></tr><tr><td style='padding:6px;'>B. Non-Probability Sampling</td><td style='padding:6px;'>II. Every sample element is selected independently from the population</td></tr><tr><td style='padding:6px;'>C. Cluster Sampling</td><td style='padding:6px;'>III. Elements are selected by picking a random starting point and then choosing iᵗʰ element consecutively from population</td></tr><tr><td style='padding:6px;'>D. Systematic Sampling</td><td style='padding:6px;'>IV. Selection of sample unit depends on the personal judgment</td></tr></tbody></table><br>Choose the correct answer from the options given below:",
+        "question": "<p>Match the following:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>LIST-I (Type of Sampling)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>LIST-II (Statement)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. Simple Random Sampling</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. Population is divided into groups of elements</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. Non-Probability Sampling</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. Every sample element is selected independently from the population</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. Cluster Sampling</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. Elements are selected by picking a random starting point and then choosing i-th element consecutively from population</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. Systematic Sampling</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. Selection of sample unit depends on the personal judgment</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": ["A-IV, B-II, C-I, D-III", "A-II, B-IV, C-III, D-I", "A-I, B-II, C-III, D-IV", "A-II, B-IV, C-I, D-III"],
-        "explanation": "<strong>Matching Sampling Methods:</strong><br>• <strong>Simple Random Sampling (A-II):</strong> Every individual has an equal and independent chance of being selected.<br>• <strong>Non-Probability Sampling (B-IV):</strong> Does not involve random selection; relies on personal judgment or convenience.<br>• <strong>Cluster Sampling (C-I):</strong> The total population is divided into naturally occurring groups (clusters) of elements.<br>• <strong>Systematic Sampling (D-III):</strong> Relies on arranging the target population, picking a random start, and picking every $i^{th}$ element."
+        "explanation": "<strong>Matching Sampling Methods:</strong><br>• <strong>Simple Random Sampling (A-II):</strong> Every individual has an equal and independent chance of being selected.<br>• <strong>Non-Probability Sampling (B-IV):</strong> Does not involve random selection; relies on personal judgment or convenience.<br>• <strong>Cluster Sampling (C-I):</strong> The total population is divided into naturally occurring groups (clusters) of elements.<br>• <strong>Systematic Sampling (D-III):</strong> Relies on arranging the target population, picking a random start, and picking every i-th element."
       },
       "hi": {
-        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%;'><thead><tr><th style='padding:8px;'>सूची-I (नमूनाकरण का प्रकार)</th><th style='padding:8px;'>सूची-II (कथन)</th></tr></thead><tbody><tr><td style='padding:6px;'>A. सरल यादृच्छिक नमूनाकरण</td><td style='padding:6px;'>I. जनसंख्या को तत्वों के समूहों में विभाजित किया गया है</td></tr><tr><td style='padding:6px;'>B. गैर-संभाव्यता नमूनाकरण</td><td style='padding:6px;'>II. प्रत्येक नमूना तत्व जनसंख्या से स्वतंत्र रूप से चुना जाता है</td></tr><tr><td style='padding:6px;'>C. क्लस्टर नमूनाकरण</td><td style='padding:6px;'>III. तत्वों का चयन एक यादृच्छिक प्रारंभिक बिंदु चुनकर और फिर जनसंख्या से क्रमिक रूप से iᵗʰ तत्व चुनकर किया जाता है</td></tr><tr><td style='padding:6px;'>D. व्यवस्थित नमूनाकरण</td><td style='padding:6px;'>IV. नमूना इकाई का चयन व्यक्तिगत निर्णय पर निर्भर करता है</td></tr></tbody></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-I (नमूनाकरण का प्रकार)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-II (कथन)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. सरल यादृच्छिक नमूनाकरण</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. जनसंख्या को तत्वों के समूहों में विभाजित किया गया है</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. गैर-संभाव्यता नमूनाकरण</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. प्रत्येक नमूना तत्व जनसंख्या से स्वतंत्र रूप से चुना जाता है</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. क्लस्टर नमूनाकरण</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. तत्वों का चयन एक यादृच्छिक प्रारंभिक बिंदु चुनकर और फिर जनसंख्या से क्रमिक रूप से i-वें तत्व चुनकर किया जाता है</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. व्यवस्थित नमूनाकरण</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. नमूना इकाई का चयन व्यक्तिगत निर्णय पर निर्भर करता है</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": ["A-IV, B-II, C-I, D-III", "A-II, B-IV, C-III, D-I", "A-I, B-II, C-III, D-IV", "A-II, B-IV, C-I, D-III"],
-        "explanation": "<strong>नमूनाकरण (Sampling) विधियों का मिलान:</strong><br>• <strong>सरल यादृच्छिक नमूनाकरण (A-II):</strong> प्रत्येक व्यक्ति को चुने जाने का समान और स्वतंत्र अवसर मिलता है।<br>• <strong>गैर-संभाव्यता नमूनाकरण (B-IV):</strong> इसमें यादृच्छिक चयन शामिल नहीं है; यह व्यक्तिगत निर्णय (judgment) या सुविधा पर निर्भर करता है।<br>• <strong>क्लस्टर नमूनाकरण (C-I):</strong> कुल जनसंख्या को तत्वों के स्वाभाविक रूप से होने वाले समूहों (क्लस्टर) में विभाजित किया जाता है।<br>• <strong>व्यवस्थित नमूनाकरण (D-III):</strong> लक्षित जनसंख्या को व्यवस्थित करने, एक यादृच्छिक शुरुआत चुनने और हर $i^{वें}$ तत्व को चुनने पर निर्भर करता है।"
+        "explanation": "<strong>नमूनाकरण (Sampling) विधियों का मिलान:</strong><br>• <strong>सरल यादृच्छिक नमूनाकरण (A-II):</strong> प्रत्येक व्यक्ति को चुने जाने का समान और स्वतंत्र अवसर मिलता है।<br>• <strong>गैर-संभाव्यता नमूनाकरण (B-IV):</strong> इसमें यादृच्छिक चयन शामिल नहीं है; यह व्यक्तिगत निर्णय (judgment) या सुविधा पर निर्भर करता है।<br>• <strong>क्लस्टर नमूनाकरण (C-I):</strong> कुल जनसंख्या को तत्वों के स्वाभाविक रूप से होने वाले समूहों (क्लस्टर) में विभाजित किया जाता है।<br>• <strong>व्यवस्थित नमूनाकरण (D-III):</strong> लक्षित जनसंख्या को व्यवस्थित करने, एक यादृच्छिक शुरुआत चुनने और हर i-वें तत्व को चुनने पर निर्भर करता है।"
       }
     }
   },
@@ -5734,12 +5704,12 @@ const TEST_JAN25_16_S2_P1 = [
     "topicHI": "संचार के प्रकार और विशेषताएं",
     "content": {
       "en": {
-        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%;'><thead><tr><th style='padding:8px;'>LIST-I (Terminology)</th><th style='padding:8px;'>LIST-II (Meaning)</th></tr></thead><tbody><tr><td style='padding:6px;'>A. Verbal Communication</td><td style='padding:6px;'>I. Use of spoken or written words</td></tr><tr><td style='padding:6px;'>B. Non-Verbal Communication</td><td style='padding:6px;'>II. Facial expression and body language</td></tr><tr><td style='padding:6px;'>C. Encoding</td><td style='padding:6px;'>III. Converting thoughts into message</td></tr><tr><td style='padding:6px;'>D. Decoding</td><td style='padding:6px;'>IV. Interpreting the message</td></tr></tbody></table><br>Choose the correct answer from the options given below:",
+        "question": "<p>Match the following:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>LIST-I (Terminology)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>LIST-II (Meaning)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. Verbal Communication</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. Use of spoken or written words</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. Non-Verbal Communication</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. Facial expression and body language</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. Encoding</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. Converting thoughts into message</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. Decoding</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. Interpreting the message</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": ["A-II, B-I, C-III, D-IV", "A-I, B-II, C-IV, D-III", "A-I, B-II, C-III, D-IV", "A-III, B-I, C-IV, D-II"],
         "explanation": "<strong>Matching Communication Terminology:</strong><br>• <strong>Verbal Communication (A-I):</strong> Involves the use of spoken or written words.<br>• <strong>Non-Verbal Communication (B-II):</strong> Communication without words, using facial expressions, body language, gestures, etc.<br>• <strong>Encoding (C-III):</strong> The sender converting thoughts/ideas into a communicable message.<br>• <strong>Decoding (D-IV):</strong> The receiver interpreting and understanding the message.<br>Correct Option is 3 (A-I, B-II, C-III, D-IV)."
       },
       "hi": {
-        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%;'><thead><tr><th style='padding:8px;'>सूची-I (शब्दावली)</th><th style='padding:8px;'>सूची-II (अर्थ)</th></tr></thead><tbody><tr><td style='padding:6px;'>A. मौखिक संचार</td><td style='padding:6px;'>I. बोले या लिखे शब्दों का प्रयोग</td></tr><tr><td style='padding:6px;'>B. गैर-मौखिक संचार</td><td style='padding:6px;'>II. चेहरे के भाव और शारीरिक भाषा</td></tr><tr><td style='padding:6px;'>C. एन्कोडिंग</td><td style='padding:6px;'>III. विचारों को संदेश में बदलना</td></tr><tr><td style='padding:6px;'>D. डिकोडिंग</td><td style='padding:6px;'>IV. संदेश की व्याख्या करना</td></tr></tbody></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-I (शब्दावली)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-II (अर्थ)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. मौखिक संचार</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. बोले या लिखे शब्दों का प्रयोग</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. गैर-मौखिक संचार</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. चेहरे के भाव और शारीरिक भाषा</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. एन्कोडिंग</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. विचारों को संदेश में बदलना</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. डिकोडिंग</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. संदेश की व्याख्या करना</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": ["A-II, B-I, C-III, D-IV", "A-I, B-II, C-IV, D-III", "A-I, B-II, C-III, D-IV", "A-III, B-I, C-IV, D-II"],
         "explanation": "<strong>संचार शब्दावली का मिलान:</strong><br>• <strong>मौखिक संचार (A-I):</strong> इसमें बोले या लिखे गए शब्दों का उपयोग शामिल है।<br>• <strong>गैर-मौखिक संचार (B-II):</strong> बिना शब्दों के संचार, चेहरे के भाव, शारीरिक भाषा (body language), इशारों आदि का उपयोग करना।<br>• <strong>एन्कोडिंग (C-III):</strong> प्रेषक अपने विचारों को एक संचारी संदेश में परिवर्तित करता है।<br>• <strong>डिकोडिंग (D-IV):</strong> रिसीवर संदेश की व्याख्या करता है और उसे समझता है।<br>सही विकल्प 3 (A-I, B-II, C-III, D-IV) है।"
       }
@@ -5762,7 +5732,7 @@ const TEST_JAN25_16_S2_P1 = [
       "hi": {
         "question": "तक्षशिला के संबंध में निम्नलिखित में से कौन से कथन सत्य हैं?<br><br>A. महान व्याकरणविद पाणिनी ने यहीं शिक्षा प्राप्त की थी।<br>B. कौटिल्य ने यहीं शिक्षा प्राप्त की थी।<br>C. इसके द्वार सभी के लिए खुले थे और निःशुल्क शिक्षा प्रदान करते थे।<br>D. छात्रों को अपनी शिक्षा के लिए शुल्क देना पड़ता था।<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": ["केवल B और D", "केवल A, B और C", "केवल A और D", "केवल A, B और D"],
-        "explanation": "<strong>तक्षशिला विश्वविद्यालय के बारे में तथ्य:</strong><br>• <strong>(A) सत्य:</strong> प्रसिद्ध संस्कृत वैयाकरण पाणिनी ने यहाँ अध्ययन किया और पढ़ाया।<br>• <strong>(B) सत्य:</strong> अर्थशास्त्र के लेखक चाणक्य (कौटिल्य) यहाँ छात्र और शिक्षक दोनों थे।<br>• <strong>(C) असत्य / (D) सत्य:</strong> नालंदा के विपरीत, तक्षशिला सभी के लिए पूरी तरह से मुफ्त नहीं थी। जबकि गरीब छात्र अपने शिक्षकों की शारीरिक सेवा के माध्यम से भुगतान कर सकते थे, धनी छात्रों को आम तौर पर शुल्क देना पड़ता था। इसलिए इसने पूरी तरह से मुफ्त शिक्षा प्रदान नहीं की।"
+        "explanation": "<strong>तक्षशिला विश्वविद्यालय के बारे बारे में तथ्य:</strong><br>• <strong>(A) सत्य:</strong> प्रसिद्ध संस्कृत वैयाकरण पाणिनी ने यहाँ अध्ययन किया और पढ़ाया।<br>• <strong>(B) सत्य:</strong> अर्थशास्त्र के लेखक चाणक्य (कौटिल्य) यहाँ छात्र और शिक्षक दोनों थे।<br>• <strong>(C) असत्य / (D) सत्य:</strong> नालंदा के विपरीत, तक्षशिला सभी के लिए पूरी तरह से मुफ्त नहीं थी। जबकि गरीब छात्र अपने शिक्षकों की शारीरिक सेवा के माध्यम से भुगतान कर सकते थे, धनी छात्रों को आम तौर पर शुल्क देना पड़ता था। इसलिए इसने पूरी तरह से मुफ्त शिक्षा प्रदान नहीं की।"
       }
     }
   },
@@ -5808,10 +5778,6 @@ const TEST_JAN25_16_S2_P1 = [
       }
     }
   }, 
-  // ─────────────────────────────────────────────────────────────────────────────
-// 2. EXTRACTED QUESTIONS ARRAY (Q26 to Q50)
-// ─────────────────────────────────────────────────────────────────────────────
-
   {
     "id": "jan25-16-s2-p1-q26",
     "difficulty": "medium",
@@ -5948,12 +5914,12 @@ const TEST_JAN25_16_S2_P1 = [
       "en": {
         "question": "Ayush and Bilal can do a job in 'D' days. If Ayush can alone do the job in D+3 days and Bilal alone can do the job in D+12 days, find the value of D.",
         "options": ["9", "8", "6", "5"],
-        "explanation": "<strong>Mathematical Shortcut (Standard Time & Work trick):</strong><br>If two people together take $D$ days to complete a job, and individually they take $D+a$ and $D+b$ days, then the value of $D$ is directly given by the formula:<br><strong>$D = \\sqrt{a \\times b}$</strong><br>Here, $a = 3$ (Ayush takes $D+3$) and $b = 12$ (Bilal takes $D+12$).<br>$D = \\sqrt{3 \\times 12} = \\sqrt{36} = $ <strong>6 days</strong>."
+        "explanation": "<strong>Mathematical Shortcut (Standard Time & Work trick):</strong><br>If two people together take D days to complete a job, and individually they take D+a and D+b days, then the value of D is directly given by the formula:<br><strong>D = √(a × b)</strong><br>Here, a = 3 (Ayush takes D+3) and b = 12 (Bilal takes D+12).<br>D = √(3 × 12) = √36 = <strong>6 days</strong>."
       },
       "hi": {
         "question": "आयुष और बिलाल एक काम को 'D' दिनों में पूरा कर सकते हैं। यदि आयुष अकेले उस काम को D+3 दिनों में पूरा कर सकता है और बिलाल अकेले उस काम को D+12 दिनों में पूरा कर सकता है, तो D का मान ज्ञात कीजिए।",
         "options": ["9", "8", "6", "5"],
-        "explanation": "<strong>गणितीय शॉर्टकट (मानक समय और कार्य की ट्रिक):</strong><br>यदि दो लोग एक साथ किसी काम को पूरा करने में $D$ दिन लेते हैं, और व्यक्तिगत रूप से वे $D+a$ और $D+b$ दिन लेते हैं, तो $D$ का मान सीधे सूत्र द्वारा दिया जाता है:<br><strong>$D = \\sqrt{a \\times b}$</strong><br>यहाँ, $a = 3$ (आयुष $D+3$ लेता है) और $b = 12$ (बिलाल $D+12$ लेता है)।<br>$D = \\sqrt{3 \\times 12} = \\sqrt{36} = $ <strong>6 दिन</strong>।"
+        "explanation": "<strong>गणितीय शॉर्टकट (मानक समय और कार्य की ट्रिक):</strong><br>यदि दो लोग एक साथ किसी काम को पूरा करने में D दिन लेते हैं, और व्यक्तिगत रूप से वे D+a और D+b दिन लेते हैं, तो D का मान सीधे सूत्र द्वारा दिया जाता है:<br><strong>D = √(a × b)</strong><br>यहाँ, a = 3 (आयुष D+3 लेता है) और b = 12 (बिलाल D+12 लेता है)।<br>D = √(3 × 12) = √36 = <strong>6 दिन</strong>।"
       }
     }
   },
@@ -5998,7 +5964,7 @@ const TEST_JAN25_16_S2_P1 = [
     "topicHI": "इंटरनेट, इंट्रानेट और साइबर सुरक्षा की मूल बातें",
     "content": {
       "en": {
-        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%;'><tr><th>LIST-I (Malware term)</th><th>LIST-II (Definition)</th></tr><tr><td>A. Payload</td><td>I. A program that can replicate itself and travels over network</td></tr><tr><td>B. Worm</td><td>II. Scam in which a perpetrator sends an official looking email message that attempts to obtain personal and/or financial information</td></tr><tr><td>C. Phishing</td><td>III. Destructive event or prank, a virus was created to deliver</td></tr><tr><td>D. Spamming</td><td>IV. E-mailing an unsolicited message to many people at the same time</td></tr></table><br>Choose the correct answer from the options given below:",
+        "question": "<p>Match the following:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>LIST-I (Malware term)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>LIST-II (Definition)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. Payload</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. A program that can replicate itself and travels over network</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. Worm</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. Scam in which a perpetrator sends an official looking email message that attempts to obtain personal and/or financial information</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. Phishing</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. Destructive event or prank, a virus was created to deliver</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. Spamming</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. E-mailing an unsolicited message to many people at the same time</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": [
           "A-IV, B-I, C-II, D-III",
           "A-III, B-I, C-II, D-IV",
@@ -6008,7 +5974,7 @@ const TEST_JAN25_16_S2_P1 = [
         "explanation": "<strong>Matching Malware Definitions:</strong><br>• <strong>Payload (A-III):</strong> The actual malicious code/destructive event that a virus delivers or executes.<br>• <strong>Worm (B-I):</strong> A standalone malware program that replicates itself and spreads automatically across networks.<br>• <strong>Phishing (C-II):</strong> A fraudulent scam using fake \"official\" emails to steal sensitive personal or financial information.<br>• <strong>Spamming (D-IV):</strong> Sending unsolicited, bulk (junk) messages to multiple people."
       },
       "hi": {
-        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%;'><tr><th>सूची-I (मैलवेयर शब्द)</th><th>सूची-II (परिभाषा)</th></tr><tr><td>A. पेलोड</td><td>I. एक प्रोग्राम जो स्वयं की प्रतिलिपि बना सकता है और नेटवर्क पर यात्रा कर सकता है</td></tr><tr><td>B. वर्म</td><td>II. घोटाला जिसमें अपराधी एक आधिकारिक दिखने वाला ईमेल संदेश भेजता है जो व्यक्तिगत और/या वित्तीय जानकारी प्राप्त करने का प्रयास करता है</td></tr><tr><td>C. फिशिंग</td><td>III. विनाशकारी घटना या शरारत, एक वायरस को वितरित करने के लिए बनाया गया था</td></tr><tr><td>D. स्पैमिंग</td><td>IV. एक ही समय में कई लोगों को अनचाहा संदेश ई-मेल करना</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-I (मैलवेयर शब्द)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-II (परिभाषा)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. पेलोड</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. एक प्रोग्राम जो स्वयं की प्रतिलिपि बना सकता है और नेटवर्क पर यात्रा कर सकता है</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. वर्म</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. घोटाला जिसमें अपराधी एक आधिकारिक दिखने वाला ईमेल संदेश भेजता है जो व्यक्तिगत और/या वित्तीय जानकारी प्राप्त करने का प्रयास करता है</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. फिशिंग</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. विनाशकारी घटना या शरारत, एक वायरस को वितरित करने के लिए बनाया गया था</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. स्पैमिंग</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. एक ही समय में कई लोगों को अनचाहा संदेश ई-मेल करना</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": [
           "A-IV, B-I, C-II, D-III",
           "A-III, B-I, C-II, D-IV",
@@ -6160,7 +6126,7 @@ const TEST_JAN25_16_S2_P1 = [
           "(V₁/V₂) = (S₁/S₂)^(3/2)",
           "V₁S₁² = V₂S₂²"
         ],
-        "explanation": "<strong>Mathematical Derivation:</strong><br>Let the sides of the two cubes be $a$ and $b$.<br>Volumes: $V_1 = a^3$, $V_2 = b^3$. So, $a/b = (V_1/V_2)^{1/3}$.<br>Surface Areas: $S_1 = 6a^2$, $S_2 = 6b^2$.<br>Ratio of Surface areas: $S_1/S_2 = (6a^2) / (6b^2) = (a/b)^2$.<br>Substitute $a/b$: $S_1/S_2 = ((V_1/V_2)^{1/3})^2$<br><strong>$S_1/S_2 = (V_1/V_2)^{2/3}$</strong>. This matches Option 2."
+        "explanation": "<strong>Mathematical Derivation:</strong><br>Let the sides of the two cubes be a and b.<br>Volumes: V₁ = a³, V₂ = b³. So, a/b = (V₁/V₂)^(1/3).<br>Surface Areas: S₁ = 6a², S₂ = 6b².<br>Ratio of Surface areas: S₁/S₂ = (6a²) / (6b²) = (a/b)².<br>Substitute a/b: S₁/S₂ = ((V₁/V₂)^(1/3))²<br><strong>S₁/S₂ = (V₁/V₂)^(2/3)</strong>. This matches Option 2."
       },
       "hi": {
         "question": "यदि V₁, V₂ आयतन हैं और S₁, S₂ दो घनों के पृष्ठीय क्षेत्र हैं तो:",
@@ -6170,7 +6136,7 @@ const TEST_JAN25_16_S2_P1 = [
           "(V₁/V₂) = (S₁/S₂)^(3/2)",
           "V₁S₁² = V₂S₂²"
         ],
-        "explanation": "<strong>गणितीय व्युत्पत्ति:</strong><br>मान लीजिए कि दो घनों की भुजाएँ $a$ और $b$ हैं।<br>आयतन: $V_1 = a^3$, $V_2 = b^3$। अतः, $a/b = (V_1/V_2)^{1/3}$।<br>पृष्ठीय क्षेत्रफल: $S_1 = 6a^2$, $S_2 = 6b^2$।<br>सतह क्षेत्रों का अनुपात: $S_1/S_2 = (6a^2) / (6b^2) = (a/b)^2$।<br>$a/b$ को प्रतिस्थापित करें: $S_1/S_2 = ((V_1/V_2)^{1/3})^2$<br><strong>$S_1/S_2 = (V_1/V_2)^{2/3}$</strong>। यह विकल्प 2 से मेल खाता है।"
+        "explanation": "<strong>गणितीय व्युत्पत्ति:</strong><br>मान लीजिए कि दो घनों की भुजाएँ a और b हैं।<br>आयतन: V₁ = a³, V₂ = b³। अतः, a/b = (V₁/V₂)^(1/3)।<br>पृष्ठीय क्षेत्रफल: S₁ = 6a², S₂ = 6b²।<br>सतह क्षेत्रों का अनुपात: S₁/S₂ = (6a²) / (6b²) = (a/b)²।<br>a/b को प्रतिस्थापित करें: S₁/S₂ = ((V₁/V₂)^(1/3))²<br><strong>S₁/S₂ = (V₁/V₂)^(2/3)</strong>। यह विकल्प 2 से मेल खाता है।"
       }
     }
   },
@@ -6222,7 +6188,7 @@ const TEST_JAN25_16_S2_P1 = [
           "K/x",
           "K/z"
         ],
-        "explanation": "<strong>Step-by-step Derivation:</strong><br>1. The mean of $x, y, z$ is $K$.<br>   $\\implies \\frac{x + y + z}{3} = K \\implies x + y + z = 3K$.<br>2. We need to find the mean of $\\frac{x}{y}$, $1$, and $\\frac{z}{y}$.<br>   Since $1$ can be written as $\\frac{y}{y}$, the terms are: $\\frac{x}{y}, \\frac{y}{y}, \\frac{z}{y}$.<br>3. Mean = $\\frac{\\frac{x}{y} + \\frac{y}{y} + \\frac{z}{y}}{3}$<br>4. Mean = $\\frac{\\frac{x + y + z}{y}}{3}$<br>5. Substitute $x + y + z = 3K$:<br>   Mean = $\\frac{\\frac{3K}{y}}{3} = \\frac{3K}{3y} = $ <strong>$\\frac{K}{y}$</strong>."
+        "explanation": "<strong>Step-by-step Derivation:</strong><br>1. The mean of x, y, z is K.<br>   ⇒ (x + y + z)/3 = K ⇒ x + y + z = 3K.<br>2. We need to find the mean of x/y, 1, and z/y.<br>   Since 1 can be written as y/y, the terms are: x/y, y/y, z/y.<br>3. Mean = (x/y + y/y + z/y) / 3<br>4. Mean = [(x + y + z)/y] / 3<br>5. Substitute x + y + z = 3K:<br>   Mean = (3K/y) / 3 = 3K / 3y = <strong>K/y</strong>."
       },
       "hi": {
         "question": "यदि x, y और z का माध्य K है, तो x/y, 1, z/y का माध्य क्या होगा?",
@@ -6232,7 +6198,7 @@ const TEST_JAN25_16_S2_P1 = [
           "K/x",
           "K/z"
         ],
-        "explanation": "<strong>चरण-दर-चरण व्युत्पत्ति:</strong><br>1. $x, y, z$ का माध्य $K$ है।<br>   $\\implies \\frac{x + y + z}{3} = K \\implies x + y + z = 3K$।<br>2. हमें $\\frac{x}{y}$, $1$, और $\\frac{z}{y}$ का माध्य ज्ञात करना है।<br>   चूँकि $1$ को $\\frac{y}{y}$ के रूप में लिखा जा सकता है, इसलिए पद हैं: $\\frac{x}{y}, \\frac{y}{y}, \\frac{z}{y}$।<br>3. माध्य = $\\frac{\\frac{x}{y} + \\frac{y}{y} + \\frac{z}{y}}{3}$<br>4. माध्य = $\\frac{\\frac{x + y + z}{y}}{3}$<br>5. $x + y + z = 3K$ प्रतिस्थापित करें:<br>   माध्य = $\\frac{\\frac{3K}{y}}{3} = \\frac{3K}{3y} = $ <strong>$\\frac{K}{y}$</strong>।"
+        "explanation": "<strong>चरण-दर-चरण व्युत्पत्ति:</strong><br>1. x, y, z का माध्य K है।<br>   ⇒ (x + y + z)/3 = K ⇒ x + y + z = 3K।<br>2. हमें x/y, 1, और z/y का माध्य ज्ञात करना है।<br>   चूँकि 1 को y/y के रूप में लिखा जा सकता है, इसलिए पद हैं: x/y, y/y, z/y।<br>3. माध्य = (x/y + y/y + z/y) / 3<br>4. माध्य = [(x + y + z)/y] / 3<br>5. x + y + z = 3K प्रतिस्थापित करें:<br>   माध्य = (3K/y) / 3 = 3K / 3y = <strong>K/y</strong>।"
       }
     }
   },
@@ -6401,7 +6367,7 @@ const TEST_JAN25_16_S2_P1 = [
     "topicHI": "सहस्राब्दि विकास और सतत विकास लक्ष्य",
     "content": {
       "en": {
-        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%;'><tr><th>LIST-I (Millennium Development Goal (MDG))</th><th>LIST-II (Goal)</th></tr><tr><td>A. MDG 1</td><td>I. Ensure Environmental sustainability</td></tr><tr><td>B. MDG 2</td><td>II. Reduce Child Mortality</td></tr><tr><td>C. MDG 4</td><td>III. Achieve universal Primary education</td></tr><tr><td>D. MDG 7</td><td>IV. End poverty and Hunger</td></tr></table><br>Choose the correct answer from the options given below:",
+        "question": "<p>Match the following:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>LIST-I (Millennium Development Goal (MDG))</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>LIST-II (Goal)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. MDG 1</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. Ensure Environmental sustainability</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. MDG 2</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. Reduce Child Mortality</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. MDG 4</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. Achieve universal Primary education</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. MDG 7</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. End poverty and Hunger</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": [
           "A-II, B-III, C-I, D-IV",
           "A-II, B-III, C-IV, D-I",
@@ -6411,7 +6377,7 @@ const TEST_JAN25_16_S2_P1 = [
         "explanation": "<strong>Matching the 8 Millennium Development Goals (MDGs):</strong><br>• <strong>MDG 1 (A-IV):</strong> Eradicate extreme poverty and hunger.<br>• <strong>MDG 2 (B-III):</strong> Achieve universal primary education.<br>• <strong>MDG 4 (C-II):</strong> Reduce child mortality.<br>• <strong>MDG 7 (D-I):</strong> Ensure environmental sustainability.<br>Thus, A-IV, B-III, C-II, D-I is the correct matching."
       },
       "hi": {
-        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%;'><tr><th>सूची-I (सहस्राब्दि विकास लक्ष्य (MDG))</th><th>सूची-II (लक्ष्य)</th></tr><tr><td>A. MDG 1</td><td>I. पर्यावरणीय स्थिरता सुनिश्चित करें</td></tr><tr><td>B. MDG 2</td><td>II. बाल मृत्यु दर में कमी लाना</td></tr><tr><td>C. MDG 4</td><td>III. सार्वभौमिक प्राथमिक शिक्षा प्राप्त करना</td></tr><tr><td>D. MDG 7</td><td>IV. गरीबी और भुखमरी को समाप्त करें</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-I (सहस्राब्दि विकास लक्ष्य (MDG))</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-II (लक्ष्य)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. MDG 1</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. पर्यावरणीय स्थिरता सुनिश्चित करें</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. MDG 2</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. बाल मृत्यु दर में कमी लाना</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. MDG 4</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. सार्वभौमिक प्राथमिक शिक्षा प्राप्त करना</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. MDG 7</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. गरीबी और भुखमरी को समाप्त करें</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": [
           "A-II, B-III, C-I, D-IV",
           "A-II, B-III, C-IV, D-I",
@@ -6616,12 +6582,12 @@ const TEST_JAN25_16_S1_P1 = [
       "en": {
         "question": TABLE_JAN25_16_S1_P1.en + "<br><br><strong>Question:</strong><br> In City E, only 1% of the female students who appeared in Exam-1 proceeded to the Interview. After the Interview, 40% of the students were finally selected. What is the total number of students finally selected from City E after the Interview?",
         "options": ["90", "80", "60", "100"],
-        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. In City E, total students in Exam-1 = 6000. Ratio M:F = 2:3.<br>2. Females in Exam-1 = (3/5) × 6000 = 3600.<br>3. According to the specific condition in the question, only 1% of these females proceeded to the interview.<br>   $\\text{Females in Interview} = 1\\% \\text{ of } 3600 = 36$.<br>4. Based on the evaluation logic applied to arrive at the answer key, the total interview count evaluated is 225. <br>5. Final selected students = 40% of Total Interview.<br>   $40\\% \\text{ of } 225 = \\frac{40}{100} \\times 225 = 90$.<br><em>(Note: NTA data sets sometimes contain hypothetical parameters in sub-questions that override table constants. Following the official key, the derived answer is 90).</em>"
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. In City E, total students in Exam-1 = 6000. Ratio M:F = 2:3.<br>2. Females in Exam-1 = (3/5) × 6000 = 3600.<br>3. According to the specific condition in the question, only 1% of these females proceeded to the interview.<br>   Females in Interview = 1% of 3600 = 36.<br>4. Based on the evaluation logic applied to arrive at the answer key, the total interview count evaluated is 225. <br>5. Final selected students = 40% of Total Interview.<br>   40% of 225 = (40/100) × 225 = 90.<br><em>(Note: NTA data sets sometimes contain hypothetical parameters in sub-questions that override table constants. Following the official key, the derived answer is 90).</em>"
       },
       "hi": {
         "question": TABLE_JAN25_16_S1_P1.hi + "<br><br><strong>प्रश्न:</strong><br> शहर E में, परीक्षा-1 में उपस्थित होने वाली केवल 1% महिला छात्राएँ साक्षात्कार के लिए आगे बढीं। साक्षात्कार के बाद, 40% छात्राओं का अंतिम रूप से चयन हुआ। साक्षात्कार के बाद शहर E से अंतिम रूप से चयनित छात्रों की कुल संख्या कितनी है?",
         "options": ["90", "80", "60", "100"],
-        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. शहर E में, परीक्षा-1 में कुल छात्र = 6000। अनुपात M:F = 2:3।<br>2. परीक्षा-1 में महिलाएँ = (3/5) × 6000 = 3600।<br>3. प्रश्न में दी गई विशिष्ट शर्त के अनुसार, इनमें से केवल 1% महिलाएँ साक्षात्कार के लिए आगे बढ़ीं।<br>   $\\text{साक्षात्कार में महिलाएँ} = 3600 \\text{ का } 1\\% = 36$।<br>4. उत्तर कुंजी तक पहुंचने के लिए लागू किए गए मूल्यांकन तर्क के आधार पर, कुल साक्षात्कार संख्या 225 मानी गई है।<br>5. अंतिम चयनित छात्र = कुल साक्षात्कार का 40%।<br>   $225 \\text{ का } 40\\% = \\frac{40}{100} \\times 225 = 90$।<br><em>(नोट: NTA डेटा सेट में कभी-कभी उप-प्रश्नों में काल्पनिक पैरामीटर होते हैं जो तालिका स्थिरांक को ओवरराइड करते हैं। आधिकारिक कुंजी के अनुसार, व्युत्पन्न उत्तर 90 है)।</em>"
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. शहर E में, परीक्षा-1 में कुल छात्र = 6000। अनुपात M:F = 2:3।<br>2. परीक्षा-1 में महिलाएँ = (3/5) × 6000 = 3600।<br>3. प्रश्न में दी गई विशिष्ट शर्त के अनुसार, इनमें से केवल 1% महिलाएँ साक्षात्कार के लिए आगे बढ़ीं।<br>   साक्षात्कार में महिलाएँ = 3600 का 1% = 36।<br>4. उत्तर कुंजी तक पहुंचने के लिए लागू किए गए मूल्यांकन तर्क के आधार पर, कुल साक्षात्कार संख्या 225 मानी गई है।<br>5. अंतिम चयनित छात्र = कुल साक्षात्कार का 40%।<br>   225 का 40% = (40/100) × 225 = 90।<br><em>(नोट: NTA डेटा सेट में कभी-कभी उप-प्रश्नों में काल्पनिक पैरामीटर होते हैं जो तालिका स्थिरांक को ओवरराइड करते हैं। आधिकारिक कुंजी के अनुसार, व्युत्पन्न उत्तर 90 है)।</em>"
       }
     }
   },
@@ -6637,12 +6603,12 @@ const TEST_JAN25_16_S1_P1 = [
       "en": {
         "question": TABLE_JAN25_16_S1_P1.en + "<br><br><strong>Question:</strong><br> If in City B, the ratio between the number of males to the number of females who got selected to appear for Interview is 1:2, then the percentage of number of males selected for Interview out of the number of males who appeared in Exam-1 is ____% more than the percentage of number of females selected for interview out of the number of females who appeared in Exam-1.",
         "options": ["150", "80", "40", "100"],
-        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. <strong>City B Exam-1 Students:</strong> Total = 10000, M:F = 1:4. Males = 2000, Females = 8000.<br>2. <strong>Interview Students:</strong> Table gives Interview Females = 460. <br>3. Given Interview M:F = 1:2. So, Interview Males = 460 / 2 = 230.<br>4. <strong>Percentage of Males selected:</strong> (230 / 2000) × 100 = 11.5%.<br>5. <strong>Percentage of Females selected:</strong> (460 / 8000) × 100 = 5.75%.<br>6. <strong>Percentage More:</strong> $\\frac{\\text{Difference}}{\\text{Base value (Female \\%)}} \\times 100$<br>   $\\frac{11.5 - 5.75}{5.75} \\times 100 = \\frac{5.75}{5.75} \\times 100 = 100\\%$."
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. <strong>City B Exam-1 Students:</strong> Total = 10000, M:F = 1:4. Males = 2000, Females = 8000.<br>2. <strong>Interview Students:</strong> Table gives Interview Females = 460. <br>3. Given Interview M:F = 1:2. So, Interview Males = 460 / 2 = 230.<br>4. <strong>Percentage of Males selected:</strong> (230 / 2000) × 100 = 11.5%.<br>5. <strong>Percentage of Females selected:</strong> (460 / 8000) × 100 = 5.75%.<br>6. <strong>Percentage More:</strong> (Difference / Base value (Female %)) × 100<br>   ((11.5 - 5.75) / 5.75) × 100 = (5.75 / 5.75) × 100 = 100%."
       },
       "hi": {
         "question": TABLE_JAN25_16_S1_P1.hi + "<br><br><strong>प्रश्न:</strong><br> यदि शहर B में, साक्षात्कार के लिए चयनित पुरुषों की संख्या का महिलाओं की संख्या से अनुपात 1:2 है, तो परीक्षा-1 में उपस्थित होने वाले पुरुषों की संख्या में से साक्षात्कार के लिए चयनित पुरुषों की संख्या का प्रतिशत, परीक्षा-1 में उपस्थित होने वाली महिलाओं की संख्या में से साक्षात्कार के लिए चयनित महिलाओं की संख्या के प्रतिशत से ____% अधिक है।",
         "options": ["150", "80", "40", "100"],
-        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. <strong>शहर B परीक्षा-1 छात्र:</strong> कुल = 10000, M:F = 1:4। पुरुष = 2000, महिलाएँ = 8000।<br>2. <strong>साक्षात्कार छात्र:</strong> तालिका में साक्षात्कार महिलाएँ = 460 दी गई हैं।<br>3. दिया गया है साक्षात्कार M:F = 1:2। अतः, साक्षात्कार पुरुष = 460 / 2 = 230।<br>4. <strong>चयनित पुरुषों का प्रतिशत:</strong> (230 / 2000) × 100 = 11.5%।<br>5. <strong>चयनित महिलाओं का प्रतिशत:</strong> (460 / 8000) × 100 = 5.75%।<br>6. <strong>कितना प्रतिशत अधिक:</strong> $\\frac{\\text{अंतर}}{\\text{आधार मूल्य (महिला \\%)}} \\times 100$<br>   $\\frac{11.5 - 5.75}{5.75} \\times 100 = \\frac{5.75}{5.75} \\times 100 = 100\\%$।"
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. <strong>शहर B परीक्षा-1 छात्र:</strong> कुल = 10000, M:F = 1:4। पुरुष = 2000, महिलाएँ = 8000।<br>2. <strong>साक्षात्कार छात्र:</strong> तालिका में साक्षात्कार महिलाएँ = 460 दी गई हैं।<br>3. दिया गया है साक्षात्कार M:F = 1:2। अतः, साक्षात्कार पुरुष = 460 / 2 = 230।<br>4. <strong>चयनित पुरुषों का प्रतिशत:</strong> (230 / 2000) × 100 = 11.5%।<br>5. <strong>चयनित महिलाओं का प्रतिशत:</strong> (460 / 8000) × 100 = 5.75%।<br>6. <strong>कितना प्रतिशत अधिक:</strong> (अंतर / आधार मूल्य (महिला %)) × 100<br>   ((11.5 - 5.75) / 5.75) × 100 = (5.75 / 5.75) × 100 = 100%।"
       }
     }
   },
@@ -6658,12 +6624,12 @@ const TEST_JAN25_16_S1_P1 = [
       "en": {
         "question": TABLE_JAN25_16_S1_P1.en + "<br><br><strong>Question:</strong><br> If in City C, 35/8 % students passed Exam-2, then the number of male students who appeared for Interview from City C is ____% of the number of male students who appeared in Exam-1 from City C.",
         "options": ["1", "0.2", "0.6", "0.8"],
-        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. <strong>City C Exam-1:</strong> Total = 80,000. M:F = 5:3. Males = (5/8) × 80000 = 50,000.<br>2. <strong>Students in Exam-2:</strong> 20% of 80000 = 16,000.<br>3. <strong>Passed Exam-2 (Total Interview Students):</strong> $(35/8)\\% \\text{ of } 16000$<br>   $(\\frac{35}{800}) \\times 16000 = 35 \\times 20 = 700$.<br>4. <strong>Interview Males:</strong> Total Interview (700) - Interview Females (300 from table) = 400.<br>5. <strong>Percentage required:</strong> (Interview Males / Exam-1 Males) × 100<br>   $(\\frac{400}{50000}) \\times 100 = 0.8\\%$."
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. <strong>City C Exam-1:</strong> Total = 80,000. M:F = 5:3. Males = (5/8) × 80000 = 50,000.<br>2. <strong>Students in Exam-2:</strong> 20% of 80000 = 16,000.<br>3. <strong>Passed Exam-2 (Total Interview Students):</strong> (35/8)% of 16000<br>   (35/800) × 16000 = 35 × 20 = 700.<br>4. <strong>Interview Males:</strong> Total Interview (700) - Interview Females (300 from table) = 400.<br>5. <strong>Percentage required:</strong> (Interview Males / Exam-1 Males) × 100<br>   (400 / 50000) × 100 = 0.8%."
       },
       "hi": {
         "question": TABLE_JAN25_16_S1_P1.hi + "<br><br><strong>प्रश्न:</strong><br> यदि शहर C में, 35/8 % विद्यार्थी परीक्षा-2 में उत्तीर्ण हुए, तो शहर C से साक्षात्कार के लिए उपस्थित होने वाले पुरुष विद्यार्थियों की संख्या, शहर C से परीक्षा-1 में उपस्थित होने वाले पुरुष विद्यार्थियों की संख्या का ____% है।",
         "options": ["1", "0.2", "0.6", "0.8"],
-        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. <strong>शहर C परीक्षा-1:</strong> कुल = 80,000। M:F = 5:3। पुरुष = (5/8) × 80000 = 50,000।<br>2. <strong>परीक्षा-2 में छात्र:</strong> 80000 का 20% = 16,000।<br>3. <strong>परीक्षा-2 उत्तीर्ण (कुल साक्षात्कार छात्र):</strong> $16000 \\text{ का } (35/8)\\%$<br>   $(\\frac{35}{800}) \\times 16000 = 35 \\times 20 = 700$।<br>4. <strong>साक्षात्कार पुरुष:</strong> कुल साक्षात्कार (700) - साक्षात्कार महिलाएँ (तालिका से 300) = 400।<br>5. <strong>आवश्यक प्रतिशत:</strong> (साक्षात्कार पुरुष / परीक्षा-1 पुरुष) × 100<br>   $(\\frac{400}{50000}) \\times 100 = 0.8\\%$।"
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. <strong>शहर C परीक्षा-1:</strong> कुल = 80,000। M:F = 5:3। पुरुष = (5/8) × 80000 = 50,000।<br>2. <strong>परीक्षा-2 में छात्र:</strong> 80000 का 20% = 16,000।<br>3. <strong>परीक्षा-2 उत्तीर्ण (कुल साक्षात्कार छात्र):</strong> 16000 का (35/8)%<br>   (35/800) × 16000 = 35 × 20 = 700।<br>4. <strong>साक्षात्कार पुरुष:</strong> कुल साक्षात्कार (700) - साक्षात्कार महिलाएँ (तालिका से 300) = 400।<br>5. <strong>आवश्यक प्रतिशत:</strong> (साक्षात्कार पुरुष / परीक्षा-1 पुरुष) × 100<br>   (400 / 50000) × 100 = 0.8%।"
       }
     }
   },
@@ -6679,12 +6645,12 @@ const TEST_JAN25_16_S1_P1 = [
       "en": {
         "question": TABLE_JAN25_16_S1_P1.en + "<br><br><strong>Question:</strong><br> In City A, if 15% of the number of male students who appeared in Exam-1 got selected for appearing in the Interview, then the number of female students selected to appear for Interview is ____% of the number of male students selected to appear for Interview.",
         "options": ["62", "65", "56", "72"],
-        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. <strong>City A Exam-1 Males:</strong> Total = 7800, M:F = 6:7. <br>   Males = (6/13) × 7800 = 6 × 600 = 3600.<br>2. <strong>Interview Males:</strong> 15% of 3600 = 540.<br>3. <strong>Interview Females:</strong> From the table = 351.<br>4. <strong>Percentage required:</strong> (Interview Females / Interview Males) × 100<br>   $(\\frac{351}{540}) \\times 100 = \\frac{3510}{54} = 65\\%$."
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. <strong>City A Exam-1 Males:</strong> Total = 7800, M:F = 6:7. <br>   Males = (6/13) × 7800 = 6 × 600 = 3600.<br>2. <strong>Interview Males:</strong> 15% of 3600 = 540.<br>3. <strong>Interview Females:</strong> From the table = 351.<br>4. <strong>Percentage required:</strong> (Interview Females / Interview Males) × 100<br>   (351 / 540) × 100 = 3510 / 54 = 65%."
       },
       "hi": {
         "question": TABLE_JAN25_16_S1_P1.hi + "<br><br><strong>प्रश्न:</strong><br> शहर A में, यदि परीक्षा-1 में उपस्थित होने वाले पुरुष छात्रों की संख्या का 15% साक्षात्कार में उपस्थित होने के लिए चुना जाता है, तो साक्षात्कार में उपस्थित होने के लिए चयनित महिला छात्राओं की संख्या, साक्षात्कार में उपस्थित होने के लिए चयनित पुरुष छात्रों की संख्या का ____% है।",
         "options": ["62", "65", "56", "72"],
-        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. <strong>शहर A परीक्षा-1 पुरुष:</strong> कुल = 7800, M:F = 6:7।<br>   पुरुष = (6/13) × 7800 = 6 × 600 = 3600।<br>2. <strong>साक्षात्कार पुरुष:</strong> 3600 का 15% = 540।<br>3. <strong>साक्षात्कार महिलाएँ:</strong> तालिका से = 351।<br>4. <strong>आवश्यक प्रतिशत:</strong> (साक्षात्कार महिलाएँ / साक्षात्कार पुरुष) × 100<br>   $(\\frac{351}{540}) \\times 100 = \\frac{3510}{54} = 65\\%$।"
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. <strong>शहर A परीक्षा-1 पुरुष:</strong> कुल = 7800, M:F = 6:7।<br>   पुरुष = (6/13) × 7800 = 6 × 600 = 3600।<br>2. <strong>साक्षात्कार पुरुष:</strong> 3600 का 15% = 540।<br>3. <strong>साक्षात्कार महिलाएँ:</strong> तालिका से = 351।<br>4. <strong>आवश्यक प्रतिशत:</strong> (साक्षात्कार महिलाएँ / साक्षात्कार पुरुष) × 100<br>   (351 / 540) × 100 = 3510 / 54 = 65%।"
       }
     }
   },
@@ -6783,12 +6749,12 @@ const TEST_JAN25_16_S1_P1 = [
       "en": {
         "question": "The speed of an electric train is 25% more than that of a steam engine train. What is the time taken by the electric train to cover a distance which the steam engine train takes 4 hours 25 minutes to cover?",
         "options": ["3 1/10 hr", "3 11/15 hr", "3 11/12 hr", "3 8/15 hr"],
-        "explanation": "<strong>Step-by-step Solution:</strong><br>1. Let the speed of the steam engine be $V$. Then the speed of the electric train is $1.25V$ or $\\frac{5}{4}V$.<br>2. Time and Speed are inversely proportional for a constant distance. So, Time taken by electric train = $\\frac{4}{5} \\times$ Time taken by steam engine.<br>3. Time taken by steam engine = 4 hours 25 minutes = $4 + \\frac{25}{60} = 4 + \\frac{5}{12} = \\frac{53}{12}$ hours.<br>4. Time taken by electric train = $\\frac{4}{5} \\times \\frac{53}{12} = \\frac{53}{15}$ hours.<br>5. Convert to mixed fraction: $\\frac{53}{15} = 3 \\frac{8}{15}$ hours."
+        "explanation": "<strong>Step-by-step Solution:</strong><br>1. Let the speed of the steam engine be V. Then the speed of the electric train is 1.25V or (5/4)V.<br>2. Time and Speed are inversely proportional for a constant distance. So, Time taken by electric train = (4/5) × Time taken by steam engine.<br>3. Time taken by steam engine = 4 hours 25 minutes = 4 + 25/60 = 4 + 5/12 = 53/12 hours.<br>4. Time taken by electric train = (4/5) × (53/12) = 53/15 hours.<br>5. Convert to mixed fraction: 53/15 = 3 8/15 hours."
       },
       "hi": {
         "question": "एक इलेक्ट्रिक ट्रेन की गति स्टीम इंजन ट्रेन की गति से 25% अधिक है। इलेक्ट्रिक ट्रेन द्वारा उस दूरी को तय करने में कितना समय लगेगा जिसे स्टीम इंजन ट्रेन को तय करने में 4 घंटे 25 मिनट लगते हैं?",
         "options": ["3 1/10 घंटे", "3 11/15 घंटे", "3 11/12 घंटे", "3 8/15 घंटे"],
-        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>1. मान लें कि भाप इंजन (steam engine) की गति $V$ है। तो इलेक्ट्रिक ट्रेन की गति $1.25V$ या $\\frac{5}{4}V$ है।<br>2. एक निश्चित दूरी के लिए समय और गति व्युत्क्रमानुपाती (inversely proportional) होते हैं। अतः, इलेक्ट्रिक ट्रेन द्वारा लिया गया समय = $\\frac{4}{5} \\times$ स्टीम इंजन द्वारा लिया गया समय।<br>3. स्टीम इंजन द्वारा लिया गया समय = 4 घंटे 25 मिनट = $4 + \\frac{25}{60} = 4 + \\frac{5}{12} = \\frac{53}{12}$ घंटे।<br>4. इलेक्ट्रिक ट्रेन द्वारा लिया गया समय = $\\frac{4}{5} \\times \\frac{53}{12} = \\frac{53}{15}$ घंटे।<br>5. मिश्रित भिन्न (mixed fraction) में बदलें: $\\frac{53}{15} = 3 \\frac{8}{15}$ घंटे।"
+        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>1. मान लें कि भाप इंजन (steam engine) की गति V है। तो इलेक्ट्रिक ट्रेन की गति 1.25V या (5/4)V है।<br>2. एक निश्चित दूरी के लिए समय और गति व्युत्क्रमानुपाती (inversely proportional) होते हैं। अतः, इलेक्ट्रिक ट्रेन द्वारा लिया गया समय = (4/5) × स्टीम इंजन द्वारा लिया गया समय।<br>3. स्टीम इंजन द्वारा लिया गया समय = 4 घंटे 25 मिनट = 4 + 25/60 = 4 + 5/12 = 53/12 घंटे।<br>4. इलेक्ट्रिक ट्रेन द्वारा लिया गया समय = (4/5) × (53/12) = 53/15 घंटे।<br>5. मिश्रित भिन्न (mixed fraction) में बदलें: 53/15 = 3 8/15 घंटे।"
       }
     }
   },
@@ -6833,7 +6799,7 @@ const TEST_JAN25_16_S1_P1 = [
     "topicHI": "शिक्षार्थी की विशेषताएँ",
     "content": {
       "en": {
-        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%;'><tr><th>List-I (Memory Terms)</th><th>List-II (Definitions)</th></tr><tr><td>A. Decay</td><td>I. The interference occurs when material is difficult to retrieve because of exposure to later material.</td></tr><tr><td>B. Memory trace</td><td>II. The interference refers to the difficulty in retrieving material due to the interference of previous material.</td></tr><tr><td>C. Proactive</td><td>III. A physical change in the brain that occurs when new material is learned.</td></tr><tr><td>D. Retroactive</td><td>IV. The loss of information in memory through its non-use.</td></tr></table><br>Choose the correct answer from the options given below:",
+        "question": "<p>Match the following:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-I (Memory Terms)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-II (Definitions)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. Decay</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. The interference occurs when material is difficult to retrieve because of exposure to later material.</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. Memory trace</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. The interference refers to the difficulty in retrieving material due to the interference of previous material.</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. Proactive</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. A physical change in the brain that occurs when new material is learned.</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. Retroactive</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. The loss of information in memory through its non-use.</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": [
           "A-II, B-IV, C-III, D-I",
           "A-IV, B-III, C-II, D-I",
@@ -6843,7 +6809,7 @@ const TEST_JAN25_16_S1_P1 = [
         "explanation": "<strong>Matching Memory Concepts:</strong><br>• <strong>Decay (A-IV):</strong> The loss of memory over time due to non-use.<br>• <strong>Memory Trace (B-III):</strong> The physical/chemical change in the brain that represents a memory.<br>• <strong>Proactive Interference (C-II):</strong> Old/previous information blocks or interferes with the retrieval of new information.<br>• <strong>Retroactive Interference (D-I):</strong> Newly learned material blocks or interferes with the retrieval of old information."
       },
       "hi": {
-        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%;'><tr><th>सूची-I (स्मृति शर्तें)</th><th>सूची-II (परिभाषाएँ)</th></tr><tr><td>A. क्षय</td><td>I. हस्तक्षेप तब होता है जब बाद में सामग्री के संपर्क में आने के कारण सामग्री को पुनः प्राप्त करना कठिन हो जाता है।</td></tr><tr><td>B. स्मृति ट्रेस</td><td>II. व्यवधान से तात्पर्य पिछली सामग्री के हस्तक्षेप के कारण सामग्री को पुनः प्राप्त करने में होने वाली कठिनाई से है।</td></tr><tr><td>C. सक्रिय</td><td>III. मस्तिष्क में होने वाला एक भौतिक परिवर्तन जो नई सामग्री सीखने पर होता है।</td></tr><tr><td>D. पूर्वव्यापी</td><td>IV. उपयोग न किए जाने के कारण स्मृति में मौजूद सूचना का नष्ट हो जाना।</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-I (स्मृति शर्तें)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-II (परिभाषाएँ)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. क्षय</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. हस्तक्षेप तब होता है जब बाद में सामग्री के संपर्क में आने के कारण सामग्री को पुनः प्राप्त करना कठिन हो जाता है।</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. स्मृति ट्रेस</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. व्यवधान से तात्पर्य पिछली सामग्री के हस्तक्षेप के कारण सामग्री को पुनः प्राप्त करने में होने वाली कठिनाई से है।</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. सक्रिय</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. मस्तिष्क में होने वाला एक भौतिक परिवर्तन जो नई सामग्री सीखने पर होता है।</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. पूर्वव्यापी</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. उपयोग न किए जाने के कारण स्मृति में मौजूद सूचना का नष्ट हो जाना।</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": [
           "A-II, B-IV, C-III, D-I",
           "A-IV, B-III, C-II, D-I",
@@ -6905,7 +6871,7 @@ const TEST_JAN25_16_S1_P1 = [
         "explanation": "Wind energy is a <strong>renewable</strong> source of energy, not non-renewable. Therefore, statement D is FALSE. <br>Wind farms are indeed installed in rows to maximize wind capture (A), they do produce mechanical and aerodynamic noise (B), they can be installed both onshore and offshore (C), and they feed electricity into the national power grid (E). Thus, A, B, C, and E are true."
       },
       "hi": {
-        "question": "पवन फार्मों के बारे में निम्नलिखित में से कौन सा कथन सत्य है?<br><br>A. इन्हें अक्सर पंक्तियों में लगाया जाता है।<br>B. ये ध्वनि प्रदूषण पैदा करते हैं।<br>C. इन्हें जमीन या समुद्र के किनारे लगाया जा सकता है।<br>D. ये गैर-नवीकरणीय ऊर्जा स्रोत हैं।<br>E. ये पावर ग्रिड में बिजली का योगदान करते हैं।<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "पवन फार्मों के बारे बारे में निम्नलिखित में से कौन सा कथन सत्य है?<br><br>A. इन्हें अक्सर पंक्तियों में लगाया जाता है।<br>B. ये ध्वनि प्रदूषण पैदा करते हैं।<br>C. इन्हें जमीन या समुद्र के किनारे लगाया जा सकता है।<br>D. ये गैर-नवीकरणीय ऊर्जा स्रोत हैं।<br>E. ये पावर ग्रिड में बिजली का योगदान करते हैं।<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": [
           "केवल A, B, C और D",
           "केवल A, B, C और E",
@@ -7009,7 +6975,7 @@ const TEST_JAN25_16_S1_P1 = [
     "topicHI": "प्राचीन भारत में उच्च शिक्षा के संस्थान और शिक्षा",
     "content": {
       "en": {
-        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%;'><tr><th>List-I (Religious and Educational Centers)</th><th>List-II (Associated Group)</th></tr><tr><td>A. Ghatikas and Brahmapuris</td><td>I. Jains</td></tr><tr><td>B. Agraharas</td><td>II. Buddhists</td></tr><tr><td>C. Basadis</td><td>III. Brahmins</td></tr><tr><td>D. Viharas</td><td>IV. Small religious centres of learning</td></tr></table><br>Choose the correct answer from the options given below:",
+        "question": "<p>Match the following:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-I (Religious and Educational Centers)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-II (Associated Group)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. Ghatikas and Brahmapuris</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. Jains</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. Agraharas</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. Buddhists</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. Basadis</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. Brahmins</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. Viharas</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. Small religious centres of learning</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": [
           "A-I, B-II, C-IV, D-III",
           "A-II, B-I, C-III, D-IV",
@@ -7019,7 +6985,7 @@ const TEST_JAN25_16_S1_P1 = [
         "explanation": "<strong>Matching Ancient Educational Centers:</strong><br>• <strong>Ghatikas and Brahmapuris (A-IV):</strong> Small religious centers of learning often attached to temples.<br>• <strong>Agraharas (B-III):</strong> Entire villages or settlements granted to learned <em>Brahmins</em> for educational and religious pursuits.<br>• <strong>Basadis (C-I):</strong> Jain shrines or temples which also functioned as educational centers for <em>Jains</em>.<br>• <strong>Viharas (D-II):</strong> Monasteries that served as prominent educational centers for <em>Buddhists</em> (like Nalanda and Vikramshila)."
       },
       "hi": {
-        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%;'><tr><th>सूची-I (धार्मिक एवं शैक्षणिक केंद्र)</th><th>सूची-II (संबद्ध समूह)</th></tr><tr><td>A. घटिका और ब्रह्मपुरी</td><td>I. जैन</td></tr><tr><td>B. अग्रहार</td><td>II. बौद्ध</td></tr><tr><td>C. बसादिस</td><td>III. ब्राह्मण</td></tr><tr><td>D. विहार</td><td>IV. छोटे धार्मिक शिक्षण केंद्र</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-I (धार्मिक एवं शैक्षणिक केंद्र)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-II (संबद्ध समूह)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. घटिका और ब्रह्मपुरी</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. जैन</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. अग्रहार</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. बौद्ध</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. बसादिस</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. ब्राह्मण</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. विहार</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. छोटे धार्मिक शिक्षण केंद्र</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": [
           "A-I, B-II, C-IV, D-III",
           "A-II, B-I, C-III, D-IV",
@@ -7125,12 +7091,12 @@ const TEST_JAN25_16_S1_P1 = [
       "en": {
         "question": "Two cylindrical jars have their diameters in the ratio 3:1 but heights in the ratio 1:3. Then the ratio of their volumes is:",
         "options": ["1:4", "1:3", "3:1", "1:1"],
-        "explanation": "<strong>Step-by-step Solution:</strong><br>1. The volume of a cylinder is given by $V = \\pi r^2 h$.<br>2. The ratio of diameters is 3:1, so the ratio of their radii ($r_1:r_2$) is also 3:1.<br>3. The ratio of their heights ($h_1:h_2$) is 1:3.<br>4. Ratio of volumes = $\\frac{V_1}{V_2} = \\frac{\\pi r_1^2 h_1}{\\pi r_2^2 h_2} = \\left(\\frac{r_1}{r_2}\\right)^2 \\times \\left(\\frac{h_1}{h_2}\\right)$<br>5. $\\frac{V_1}{V_2} = (\\frac{3}{1})^2 \\times (\\frac{1}{3}) = 9 \\times \\frac{1}{3} = \\frac{9}{3} = \\frac{3}{1}$.<br>The ratio of their volumes is <strong>3:1</strong>."
+        "explanation": "<strong>Step-by-step Solution:</strong><br>1. The volume of a cylinder is given by V = πr²h.<br>2. The ratio of diameters is 3:1, so the ratio of their radii (r₁:r₂) is also 3:1.<br>3. The ratio of their heights (h₁:h₂) is 1:3.<br>4. Ratio of volumes = V₁/V₂ = (π r₁² h₁) / (π r₂² h₂) = (r₁/r₂)² × (h₁/h₂)<br>5. V₁/V₂ = (3/1)² × (1/3) = 9 × (1/3) = 9/3 = 3/1.<br>The ratio of their volumes is <strong>3:1</strong>."
       },
       "hi": {
         "question": "दो बेलनाकार जार के व्यास का अनुपात 3:1 है लेकिन ऊँचाई का अनुपात 1:3 है। तो उनके आयतन का अनुपात क्या है?",
         "options": ["1:4", "1:3", "3:1", "1:1"],
-        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>1. बेलन (cylinder) का आयतन $V = \\pi r^2 h$ होता है।<br>2. व्यास का अनुपात 3:1 है, इसलिए उनकी त्रिज्याओं का अनुपात ($r_1:r_2$) भी 3:1 है।<br>3. उनकी ऊँचाईयों का अनुपात ($h_1:h_2$) 1:3 है।<br>4. आयतन का अनुपात = $\\frac{V_1}{V_2} = \\frac{\\pi r_1^2 h_1}{\\pi r_2^2 h_2} = \\left(\\frac{r_1}{r_2}\\right)^2 \\times \\left(\\frac{h_1}{h_2}\\right)$<br>5. $\\frac{V_1}{V_2} = (\\frac{3}{1})^2 \\times (\\frac{1}{3}) = 9 \\times \\frac{1}{3} = \\frac{9}{3} = \\frac{3}{1}$।<br>उनके आयतनों का अनुपात <strong>3:1</strong> है।"
+        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>1. बेलन (cylinder) का आयतन V = πr²h होता है।<br>2. व्यास का अनुपात 3:1 है, इसलिए उनकी त्रिज्याओं का अनुपात (r₁:r₂) भी 3:1 है।<br>3. उनकी ऊँचाईयों का अनुपात (h₁:h₂) 1:3 है।<br>4. आयतन का अनुपात = V₁/V₂ = (π r₁² h₁) / (π r₂² h₂) = (r₁/r₂)² × (h₁/h₂)<br>5. V₁/V₂ = (3/1)² × (1/3) = 9 × (1/3) = 9/3 = 3/1।<br>उनके आयतनों का अनुपात <strong>3:1</strong> है।"
       }
     }
   },
@@ -7182,7 +7148,7 @@ const TEST_JAN25_16_S1_P1 = [
           "Region of SPM̄ and S̄PM̄ are shaded out to express first premises",
           "SP̄M and SPM are shaded out to express first premises"
         ],
-        "explanation": "Syllogism AEE in Figure 4 (Camenes):<br>• Major Premise (A): All P is M. In a Venn diagram, this means we shade out the part of P that is NOT M (i.e., $P\\bar{M}$).<br>• In a 3-circle diagram (S, P, M), the region $P\\bar{M}$ consists of two sub-regions: $SP\\bar{M}$ and $\\bar{S}P\\bar{M}$.<br>• Thus, to express the first premise, the regions $SP\\bar{M}$ and $\\bar{S}P\\bar{M}$ are shaded out."
+        "explanation": "Syllogism AEE in Figure 4 (Camenes):<br>• Major Premise (A): All P is M. In a Venn diagram, this means we shade out the part of P that is NOT M (i.e., PM̄).<br>• In a 3-circle diagram (S, P, M), the region PM̄ consists of two sub-regions: SPM̄ and S̄PM̄.<br>• Thus, to express the first premise, the regions SPM̄ and S̄PM̄ are shaded out."
       },
       "hi": {
         "question": "AEE - IVᵗʰ आकृति का परीक्षण करने के लिए, निम्नलिखित में से क्या सही ढंग से दावा किया जा सकता है?",
@@ -7192,7 +7158,7 @@ const TEST_JAN25_16_S1_P1 = [
           "SPM̄ और S̄PM̄ के क्षेत्र को छायांकित किया गया है",
           "SP̄M और SPM को छायांकित किया गया है"
         ],
-        "explanation": "आकृति 4 (Camenes) में न्यायवाक्य AEE:<br>• प्रमुख आधार (A): सभी P, M हैं। वेन आरेख में, इसका मतलब है कि हम P के उस हिस्से को छायांकित करते हैं जो M नहीं है (अर्थात, $P\\bar{M}$)।<br>• 3-सर्कल आरेख (S, P, M) में, क्षेत्र $P\\bar{M}$ में दो उप-क्षेत्र होते हैं: $SP\\bar{M}$ और $\\bar{S}P\\bar{M}$।<br>• इस प्रकार, पहले आधार को व्यक्त करने के लिए, क्षेत्र $SP\\bar{M}$ और $\\bar{S}P\\bar{M}$ को छायांकित किया जाता है।"
+        "explanation": "आकृति 4 (Camenes) में न्यायवाक्य AEE:<br>• प्रमुख आधार (A): सभी P, M हैं। वेन आरेख में, इसका मतलब है कि हम P के उस हिस्से को छायांकित करते हैं जो M नहीं है (अर्थात, PM̄)।<br>• 3-सर्कल आरेख (S, P, M) में, क्षेत्र PM̄ में दो उप-क्षेत्र होते हैं: SPM̄ और S̄PM̄।<br>• इस प्रकार, पहले आधार को व्यक्त करने के लिए, क्षेत्र SPM̄ और S̄PM̄ को छायांकित किया जाता है।"
       }
     }
   },
@@ -7273,7 +7239,7 @@ const TEST_JAN25_16_S1_P1 = [
     "topicHI": "भारतीय फिल्म सिटी और सांस्कृतिक संस्थान",
     "content": {
       "en": {
-        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>List-I (Film City)</th><th style='padding:8px;'>List-II (Location)</th></tr><tr><td style='padding:6px;'>A. Innovative Film City</td><td style='padding:6px;'>I. Hyderabad</td></tr><tr><td style='padding:6px;'>B. Ramoji Film City</td><td style='padding:6px;'>II. Bengaluru</td></tr><tr><td style='padding:6px;'>C. Prayag Film City</td><td style='padding:6px;'>III. Kolkata</td></tr><tr><td style='padding:6px;'>D. MGR Film City</td><td style='padding:6px;'>IV. Chennai</td></tr></table><br>Choose the correct answer from the options given below:",
+        "question": "<p>Match the following:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-I (Film City)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-II (Location)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. Innovative Film City</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. Hyderabad</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. Ramoji Film City</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. Bengaluru</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. Prayag Film City</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. Kolkata</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. MGR Film City</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. Chennai</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": [
           "A-II, B-I, C-IV, D-III",
           "A-II, B-I, C-III, D-IV",
@@ -7283,7 +7249,7 @@ const TEST_JAN25_16_S1_P1 = [
         "explanation": "<strong>Matching Film Cities with their Locations:</strong><br>• <strong>Innovative Film City (A-II):</strong> Located in Bengaluru, Karnataka.<br>• <strong>Ramoji Film City (B-I):</strong> One of the largest film studio complexes, located in Hyderabad, Telangana.<br>• <strong>Prayag Film City (C-III):</strong> Also known as Midnapore Film City, located near Kolkata, West Bengal.<br>• <strong>MGR Film City (D-IV):</strong> A major integrated film studio complex in Chennai, Tamil Nadu.<br>Thus, A-II, B-I, C-III, D-IV is correct."
       },
       "hi": {
-        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>सूची-I (फिल्म सिटी)</th><th style='padding:8px;'>सूची-II (जगह)</th></tr><tr><td style='padding:6px;'>A. इनोवेटिव फिल्म सिटी</td><td style='padding:6px;'>I. हैदराबाद</td></tr><tr><td style='padding:6px;'>B. रामोजी फिल्म सिटी</td><td style='padding:6px;'>II. बेंगलुरु</td></tr><tr><td style='padding:6px;'>C. प्रयाग फिल्म सिटी</td><td style='padding:6px;'>III. कोलकाता</td></tr><tr><td style='padding:6px;'>D. एमजीआर फिल्म सिटी</td><td style='padding:6px;'>IV. चेन्नई</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-I (फिल्म सिटी)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-II (जगह)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. इनोवेटिव फिल्म सिटी</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. हैदराबाद</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. रामोजी फिल्म सिटी</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. बेंगलुरु</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. प्रयाग फिल्म सिटी</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. कोलकाता</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. एमजीआर फिल्म सिटी</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. चेन्नई</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": [
           "A-II, B-I, C-IV, D-III",
           "A-II, B-I, C-III, D-IV",
@@ -7304,24 +7270,24 @@ const TEST_JAN25_16_S1_P1 = [
     "topicHI": "गणितीय अभिरुचि - औसत",
     "content": {
       "en": {
-        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>List-I</th><th style='padding:8px;'>List-II</th></tr><tr><td style='padding:6px;'>A. Median of 4, 4, 5, 7, 6, 7, 7, 12, 3</td><td style='padding:6px;'>I. 3</td></tr><tr><td style='padding:6px;'>B. Mean of 7, 5, 9, 8, 15, 3, 8, 9</td><td style='padding:6px;'>II. 7</td></tr><tr><td style='padding:6px;'>C. Mode of 2, 3, 7, 1, 3, 2, 3</td><td style='padding:6px;'>III. 6</td></tr><tr><td style='padding:6px;'>D. Value of x, if mean of x, x+2, x+4, x+6, x+8 is 11</td><td style='padding:6px;'>IV. 8</td></tr></table><br>Choose the correct answer from the options given below:",
+        "question": "<p>Match the following:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-I</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-II</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. Median of 4, 4, 5, 7, 6, 7, 7, 12, 3</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. 3</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. Mean of 7, 5, 9, 8, 15, 3, 8, 9</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. 7</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. Mode of 2, 3, 7, 1, 3, 2, 3</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. 6</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. Value of x, if mean of x, x+2, x+4, x+6, x+8 is 11</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. 8</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": [
           "A-III, B-II, C-IV, D-I",
           "A-III, B-IV, C-I, D-II",
           "A-II, B-IV, C-I, D-III",
           "A-II, B-III, C-I, D-IV"
         ],
-        "explanation": "<strong>Step-by-step solution:</strong><br>• <strong>(A) Median:</strong> Sort the data -> 3, 4, 4, 5, <strong>6</strong>, 7, 7, 7, 12. The middle term is 6. So, A-III.<br>• <strong>(B) Mean:</strong> Sum = 7+5+9+8+15+3+8+9 = 64. Mean = 64/8 = <strong>8</strong>. So, B-IV.<br>• <strong>(C) Mode:</strong> The most frequently occurring number in {2,3,7,1,3,2,3} is <strong>3</strong>. So, C-I.<br>• <strong>(D) Mean of algebraic sequence:</strong> Mean = (x + x+2 + x+4 + x+6 + x+8)/5 = (5x+20)/5 = x+4. Given x+4 = 11 $\\implies$ <strong>x=7</strong>. So, D-II.<br>Hence, A-III, B-IV, C-I, D-II."
+        "explanation": "<strong>Step-by-step solution:</strong><br>• <strong>(A) Median:</strong> Sort the data -> 3, 4, 4, 5, <strong>6</strong>, 7, 7, 7, 12. The middle term is 6. So, A-III.<br>• <strong>(B) Mean:</strong> Sum = 7+5+9+8+15+3+8+9 = 64. Mean = 64/8 = <strong>8</strong>. So, B-IV.<br>• <strong>(C) Mode:</strong> The most frequently occurring number in {2,3,7,1,3,2,3} is <strong>3</strong>. So, C-I.<br>• <strong>(D) Mean of algebraic sequence:</strong> Mean = (x + x+2 + x+4 + x+6 + x+8)/5 = (5x+20)/5 = x+4. Given x+4 = 11 ⇒ <strong>x=7</strong>. So, D-II.<br>Hence, A-III, B-IV, C-I, D-II."
       },
       "hi": {
-        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>सूची-I</th><th style='padding:8px;'>सूची-II</th></tr><tr><td style='padding:6px;'>A. 4, 4, 5, 7, 6, 7, 7, 12, 3 का माध्यिका (Median)</td><td style='padding:6px;'>I. 3</td></tr><tr><td style='padding:6px;'>B. 7, 5, 9, 8, 15, 3, 8, 9 का माध्य (Mean)</td><td style='padding:6px;'>II. 7</td></tr><tr><td style='padding:6px;'>C. 2, 3, 7, 1, 3, 2, 3 का बहुलक (Mode)</td><td style='padding:6px;'>III. 6</td></tr><tr><td style='padding:6px;'>D. x का मान, यदि x, x+2, x+4, x+6, x+8 का माध्य 11 है</td><td style='padding:6px;'>IV. 8</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-I</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-II</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. 4, 4, 5, 7, 6, 7, 7, 12, 3 का माध्यिका (Median)</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. 3</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. 7, 5, 9, 8, 15, 3, 8, 9 का माध्य (Mean)</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. 7</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. 2, 3, 7, 1, 3, 2, 3 का बहुलक (Mode)</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. 6</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. x का मान, यदि x, x+2, x+4, x+6, x+8 का माध्य 11 है</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. 8</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": [
           "A-III, B-II, C-IV, D-I",
           "A-III, B-IV, C-I, D-II",
           "A-II, B-IV, C-I, D-III",
           "A-II, B-III, C-I, D-IV"
         ],
-        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>• <strong>(A) माध्यिका:</strong> डेटा को क्रमित करें -> 3, 4, 4, 5, <strong>6</strong>, 7, 7, 7, 12। मध्य पद 6 है। अतः, A-III।<br>• <strong>(B) माध्य:</strong> योग = 7+5+9+8+15+3+8+9 = 64। माध्य = 64/8 = <strong>8</strong>। अतः, B-IV।<br>• <strong>(C) बहुलक:</strong> {2,3,7,1,3,2,3} में सबसे अधिक बार आने वाली संख्या <strong>3</strong> है। अतः, C-I।<br>• <strong>(D) बीजीय अनुक्रम का माध्य:</strong> माध्य = (x + x+2 + x+4 + x+6 + x+8)/5 = (5x+20)/5 = x+4। दिया गया है x+4 = 11 $\\implies$ <strong>x=7</strong>। अतः, D-II।<br>इसलिए, A-III, B-IV, C-I, D-II सही है।"
+        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>• <strong>(A) माध्यिका:</strong> डेटा को क्रमित करें -> 3, 4, 4, 5, <strong>6</strong>, 7, 7, 7, 12। मध्य पद 6 है। अतः, A-III।<br>• <strong>(B) माध्य:</strong> योग = 7+5+9+8+15+3+8+9 = 64। माध्य = 64/8 = <strong>8</strong>। अतः, B-IV।<br>• <strong>(C) बहुलक:</strong> {2,3,7,1,3,2,3} में सबसे अधिक बार आने वाली संख्या <strong>3</strong> है। अतः, C-I।<br>• <strong>(D) बीजीय अनुक्रम का माध्य:</strong> माध्य = (x + x+2 + x+4 + x+6 + x+8)/5 = (5x+20)/5 = x+4। दिया गया है x+4 = 11 ⇒ <strong>x=7</strong>। अतः, D-II।<br>इसलिए, A-III, B-IV, C-I, D-II सही है।"
       }
     }
   },
@@ -7368,12 +7334,12 @@ const TEST_JAN25_16_S1_P1 = [
       "en": {
         "question": "Six numbers a, b, c, d, e, f are such that ab=1, bc=1/2, cd=6, de=2 and ef=1/2. What is the value of (ad : be : cf)?",
         "options": ["4:3:27", "6:1:9", "8:9:9", "72:1:9"],
-        "explanation": "<strong>Step-by-step Derivation:</strong><br>We need the ratio $ad : be : cf$. Let's express these using the given products.<br>1. $ad = a \\times d$. We know $ab = 1 \\implies a = 1/b$. And $cd = 6 \\implies d = 6/c$.<br>   So, $ad = (1/b) \\times (6/c) = 6 / (bc)$. Since $bc = 1/2$, $ad = 6 / (1/2) = 12$.<br>2. $be = b \\times e$. We know $bc = 1/2 \\implies b = 1/(2c)$. And $de = 2 \\implies e = 2/d$.<br>   So, $be = 1/(cd)$. Since $cd = 6$, $be = 1/6$.<br>3. $cf = c \\times f$. We know $cd = 6 \\implies c = 6/d$. And $ef = 1/2 \\implies f = 1/(2e)$.<br>   So, $cf = 3/(de)$. Since $de = 2$, $cf = 3/2$.<br>4. Ratio $ad : be : cf = 12 : \\frac{1}{6} : \\frac{3}{2}$.<br>5. Multiply the entire ratio by 6 to remove denominators: $72 : 1 : 9$."
+        "explanation": "<strong>Step-by-step Derivation:</strong><br>We need the ratio ad : be : cf. Let's express these using the given products.<br>1. ad = a × d. We know ab = 1 ⇒ a = 1/b. And cd = 6 ⇒ d = 6/c.<br>   So, ad = (1/b) × (6/c) = 6 / (bc). Since bc = 1/2, ad = 6 / (1/2) = 12.<br>2. be = b × e. We know bc = 1/2 ⇒ b = 1/(2c). And de = 2 ⇒ e = 2/d.<br>   So, be = 1/(cd). Since cd = 6, be = 1/6.<br>3. cf = c × f. We know cd = 6 ⇒ c = 6/d. And ef = 1/2 ⇒ f = 1/(2e).<br>   So, cf = 3/(de). Since de = 2, cf = 3/2.<br>4. Ratio ad : be : cf = 12 : 1/6 : 3/2.<br>5. Multiply the entire ratio by 6 to remove denominators: 72 : 1 : 9."
       },
       "hi": {
         "question": "छह संख्याएँ a, b, c, d, e, f इस प्रकार हैं कि ab=1, bc=1/2, cd=6, de=2 और ef=1/2 है। (ad : be : cf) का मान क्या है?",
         "options": ["4:3:27", "6:1:9", "8:9:9", "72:1:9"],
-        "explanation": "<strong>चरण-दर-चरण व्युत्पत्ति:</strong><br>हमें $ad : be : cf$ का अनुपात चाहिए। आइए दिए गए उत्पादों का उपयोग करके इन्हें व्यक्त करें।<br>1. $ad = a \\times d$। हम जानते हैं कि $ab = 1 \\implies a = 1/b$। और $cd = 6 \\implies d = 6/c$।<br>   तो, $ad = (1/b) \\times (6/c) = 6 / (bc)$। चूंकि $bc = 1/2$, $ad = 6 / (1/2) = 12$।<br>2. $be = b \\times e$। हम जानते हैं कि $bc = 1/2 \\implies b = 1/(2c)$। और $de = 2 \\implies e = 2/d$।<br>   तो, $be = 1/(cd)$। चूंकि $cd = 6$, $be = 1/6$।<br>3. $cf = c \\times f$। हम जानते हैं कि $cd = 6 \\implies c = 6/d$। और $ef = 1/2 \\implies f = 1/(2e)$।<br>   तो, $cf = 3/(de)$। चूंकि $de = 2$, $cf = 3/2$।<br>4. अनुपात $ad : be : cf = 12 : \\frac{1}{6} : \\frac{3}{2}$।<br>5. हर (denominators) को हटाने के लिए पूरे अनुपात को 6 से गुणा करें: $72 : 1 : 9$।"
+        "explanation": "<strong>चरण-दर-चरण व्युत्पत्ति:</strong><br>हमें ad : be : cf का अनुपात चाहिए। आइए दिए गए उत्पादों का उपयोग करके इन्हें व्यक्त करें।<br>1. ad = a × d। हम जानते हैं कि ab = 1 ⇒ a = 1/b। और cd = 6 ⇒ d = 6/c।<br>   तो, ad = (1/b) × (6/c) = 6 / (bc)। चूंकि bc = 1/2, ad = 6 / (1/2) = 12।<br>2. be = b × e। हम जानते हैं कि bc = 1/2 ⇒ b = 1/(2c)। और de = 2 ⇒ e = 2/d।<br>   तो, be = 1/(cd)। चूंकि cd = 6, be = 1/6।<br>3. cf = c × f। हम जानते हैं कि cd = 6 ⇒ c = 6/d। और ef = 1/2 ⇒ f = 1/(2e)।<br>   तो, cf = 3/(de)। चूंकि de = 2, cf = 3/2।<br>4. अनुपात ad : be : cf = 12 : 1/6 : 3/2।<br>5. हर (denominators) को हटाने के लिए पूरे अनुपात को 6 से गुणा करें: 72 : 1 : 9।"
       }
     }
   },
@@ -7387,7 +7353,7 @@ const TEST_JAN25_16_S1_P1 = [
     "topicHI": "पर्यावरणीय मुद्दे: खतरनाक अपशिष्ट",
     "content": {
       "en": {
-        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>List-I (Hazardous waste producing Industry)</th><th style='padding:8px;'>List-II (Hazardous waste)</th></tr><tr><td style='padding:6px;'>A. Electrical Insulation</td><td style='padding:6px;'>I. Toxic Metals</td></tr><tr><td style='padding:6px;'>B. Fertilizers</td><td style='padding:6px;'>II. Dyes</td></tr><tr><td style='padding:6px;'>C. Leather</td><td style='padding:6px;'>III. Polychlorinated Biphenyls (PCBs)</td></tr><tr><td style='padding:6px;'>D. Textile</td><td style='padding:6px;'>IV. Nitric Acid</td></tr></table><br>Choose the correct answer from the options given below:",
+        "question": "<p>Match the following:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-I (Hazardous waste producing Industry)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-II (Hazardous waste)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. Electrical Insulation</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. Toxic Metals</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. Fertilizers</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. Dyes</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. Leather</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. Polychlorinated Biphenyls (PCBs)</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. Textile</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. Nitric Acid</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": [
           "A-II, B-IV, C-III, D-I",
           "A-I, B-III, C-IV, D-II",
@@ -7397,7 +7363,7 @@ const TEST_JAN25_16_S1_P1 = [
         "explanation": "<strong>Matching Hazardous Wastes with Industries:</strong><br>• <strong>Electrical Insulation (A-III):</strong> Polychlorinated Biphenyls (PCBs) were heavily used in electrical insulators and transformers due to their heat resistance.<br>• <strong>Fertilizers (B-IV):</strong> The production of fertilizers heavily relies on and emits Nitric Acid.<br>• <strong>Leather (C-I):</strong> The leather tanning industry is notorious for releasing highly toxic metals (like Chromium).<br>• <strong>Textile (D-II):</strong> The textile industry generates massive waste containing harmful chemical Dyes."
       },
       "hi": {
-        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>सूची-I (खतरनाक अपशिष्ट उत्पादक उद्योग)</th><th style='padding:8px;'>सूची-II (खतरनाक अपशिष्ट)</th></tr><tr><td style='padding:6px;'>A. विद्युत इन्सुलेशन</td><td style='padding:6px;'>I. विषाक्त धातुएँ</td></tr><tr><td style='padding:6px;'>B. उर्वरक</td><td style='padding:6px;'>II. रंग (Dyes)</td></tr><tr><td style='padding:6px;'>C. चमड़ा</td><td style='padding:6px;'>III. पॉलीक्लोरीनेटेड बाइफिनाइल्स (PCBs)</td></tr><tr><td style='padding:6px;'>D. वस्त्र</td><td style='padding:6px;'>IV. नाइट्रिक एसिड</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-I (खतरनाक अपशिष्ट उत्पादक उद्योग)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-II (खतरनाक अपशिष्ट)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. विद्युत इन्सुलेशन</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. विषाक्त धातुएँ</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. उर्वरक</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. रंग (Dyes)</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. चमड़ा</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. पॉलीक्लोरीनेटेड बाइफिनाइल्स (PCBs)</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. वस्त्र</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. नाइट्रिक एसिड</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": [
           "A-II, B-IV, C-III, D-I",
           "A-I, B-III, C-IV, D-II",
@@ -7501,24 +7467,24 @@ const TEST_JAN25_16_S1_P1 = [
     "topicHI": "शोध: अर्थ, प्रकार और विशेषताएँ",
     "content": {
       "en": {
-        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>List-I (Concept)</th><th style='padding:8px;'>List-II (Scholars)</th></tr><tr><td style='padding:6px;'>A. To qualify as a case study, it must be a bounded system, an entity in itself.</td><td style='padding:6px;'>I. George A. Lundberg</td></tr><tr><td style='padding:6px;'>B. Draws a parallel between the social research process which is considered scientific and the process that we use in our daily lives.</td><td style='padding:6px;'>II. Herbert Blumer</td></tr><tr><td style='padding:6px;'>C. Sociological research is primarily committed to systematic, reliable, knowledge of social world.</td><td style='padding:6px;'>III. Tom Burns</td></tr><tr><td style='padding:6px;'>D. Sort scale was developed</td><td style='padding:6px;'>IV. William Stephenson</td></tr></table><br>Choose the correct answer from the options given below:",
+        "question": "<p>Match the following:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-I (Concept)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-II (Scholars)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. To qualify as a case study, it must be a bounded system, an entity in itself.</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. George A. Lundberg</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. Draws a parallel between the social research process which is considered scientific and the process that we use in our daily lives.</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. Herbert Blumer</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. Sociological research is primarily committed to systematic, reliable, knowledge of social world.</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. Tom Burns</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. Sort scale was developed</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. William Stephenson</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": [
-          "A-I, B-III, C-II, D-IV",
-          "A-II, B-I, C-IV, D-II",
-          "A-I, B-II, C-III, D-IV",
+          "A-I, B-IV, C-III, D-II",
+          "A-II, B-III, C-I, D-IV",
+          "A-III, B-II, C-IV, D-I",
           "A-IV, B-I, C-II, D-III"
         ],
-        "explanation": "<strong>Matching Research Concepts with Scholars:</strong><br>• The <strong>Q-Sort scale</strong> (a measurement technique) was developed by the psychologist <strong>William Stephenson (D-III)</strong>. <br>• The definition of a case study as a \"bounded system\" (A) is widely attributed to Louis Smith, but the combination that perfectly maps the remaining elements according to standard sociological texts is A-IV, B-I, C-II, D-III. <em>(Note: The NTA Official Answer Key identifies Option 4 as the correct mapping).</em>"
+        "explanation": "<em>(Note: This question is a duplicate occurrence in the official NTA paper).</em><br><strong>Matching Research Concepts with Scholars:</strong><br>• The <strong>Q-Sort scale</strong> was developed by <strong>William Stephenson (D-III)</strong>.<br>• Sociological research being a systematic, reliable knowledge of the social world (C-II).<br>• The matching that aligns perfectly with the standard key is A-IV, B-I, C-II, D-III."
       },
       "hi": {
-        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>सूची-I (संकल्पना)</th><th style='padding:8px;'>सूची-II (विद्वान)</th></tr><tr><td style='padding:6px;'>A. केस स्टडी के रूप में योग्य होने के लिए, यह एक सीमित प्रणाली, अपने आप में एक इकाई होनी चाहिए।</td><td style='padding:6px;'>I. जॉर्ज ए. लुंडबर्ग</td></tr><tr><td style='padding:6px;'>B. सामाजिक अनुसंधान प्रक्रिया जिसे वैज्ञानिक माना जाता है और हम अपने दैनिक जीवन में जो प्रक्रिया उपयोग करते हैं, के बीच समानता दर्शाता है।</td><td style='padding:6px;'>II. हर्बर्ट ब्लूमर</td></tr><tr><td style='padding:6px;'>C. समाजशास्त्रीय अनुसंधान मुख्य रूप से सामाजिक विश्व के व्यवस्थित, विश्वसनीय ज्ञान के लिए प्रतिबद्ध है।</td><td style='padding:6px;'>III. टॉम बर्न्स</td></tr><tr><td style='padding:6px;'>D. सॉर्ट (Sort) स्केल विकसित किया गया</td><td style='padding:6px;'>IV. विलियम स्टीफेंसन</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-I (संकल्पना)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-II (विद्वान)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. केस स्टडी के रूप में योग्य होने के लिए, यह एक सीमित प्रणाली, अपने आप में एक इकाई होनी चाहिए।</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. जॉर्ज ए. लुंडबर्ग</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. सामाजिक अनुसंधान प्रक्रिया जिसे वैज्ञानिक माना जाता है और हम अपने दैनिक जीवन में जो प्रक्रिया उपयोग करते हैं, के बीच समानता दर्शाता है।</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. हर्बर्ट ब्लूमर</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. समाजशास्त्रीय अनुसंधान मुख्य रूप से सामाजिक विश्व के व्यवस्थित, विश्वसनीय ज्ञान के लिए प्रतिबद्ध है।</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. टॉम बर्न्स</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. सॉर्ट स्केल विकसित किया गया</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. विलियम स्टीफेंसन</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": [
-          "A-I, B-III, C-II, D-IV",
-          "A-II, B-I, C-IV, D-II",
-          "A-I, B-II, C-III, D-IV",
+          "A-I, B-IV, C-III, D-II",
+          "A-II, B-III, C-I, D-IV",
+          "A-III, B-II, C-IV, D-I",
           "A-IV, B-I, C-II, D-III"
         ],
-        "explanation": "<strong>विद्वानों के साथ अनुसंधान अवधारणाओं का मिलान:</strong><br>• <strong>Q-सॉर्ट (Q-Sort) स्केल</strong> (एक माप तकनीक) मनोवैज्ञानिक <strong>विलियम स्टीफेंसन (D-III)</strong> द्वारा विकसित किया गया था।<br>• \"सीमित प्रणाली (bounded system)\" के रूप में केस स्टडी की परिभाषा व्यापक रूप से लुइस स्मिथ को दी गई है, लेकिन मानक समाजशास्त्रीय ग्रंथों के अनुसार जो संयोजन शेष तत्वों को पूरी तरह से मैप करता है, वह A-IV, B-I, C-II, D-III है। <em>(नोट: NTA की आधिकारिक उत्तर कुंजी विकल्प 4 को सही मिलान के रूप में पहचानती है)।</em>"
+        "explanation": "<em>(नोट: यह प्रश्न आधिकारिक NTA पेपर में एक डुप्लिकेट घटना है)।</em><br><strong>विद्वानों के साथ अनुसंधान अवधारणाओं का मिलान:</strong><br>• <strong>सॉर्ट (Q-Sort) स्केल</strong> <strong>विलियम स्टीफेंसन (D-III)</strong> द्वारा विकसित किया गया था।<br>• समाजशास्त्रीय अनुसंधान सामाजिक दुनिया का एक व्यवस्थित, विश्वसनीय ज्ञान है (C-II)।<br>• जो मिलान मानक कुंजी के साथ पूरी तरह से मेल खाता है वह A-IV, B-I, C-II, D-III है।"
       }
     }
   },
@@ -7663,7 +7629,7 @@ const TEST_JAN25_16_S1_P1 = [
           "11 and 11",
           "10 and 10"
         ],
-        "explanation": "<strong>Step-by-step logic of the Nested IF function:</strong><br>The formula returns '4' ONLY if all three previous conditions are FALSE.<br>Condition 1: <code>A1 > B1</code> (Must be False, so $A1 \\le B1$)<br>Condition 2: <code>A1 = 10</code> (Must be False, so $A1 \\neq 10$)<br>Condition 3: <code>A1 < B1</code> (Must be False, so $A1 \\not< B1$, meaning $A1 = B1$)<br>So to output '4', we need $A1 = B1$ AND $A1 \\neq 10$.<br>Let's check the options:<br>• Opt 1: 11 & 10 -> $A1 > B1$ (Outputs 1).<br>• Opt 2: 9 & 10 -> $A1 < B1$ (Outputs 3).<br>• Opt 4: 10 & 10 -> $A1 = 10$ (Outputs 2).<br>• Opt 3: <strong>11 & 11</strong> -> $A1 \\not> B1$, $A1 \\neq 10$, $A1 \\not< B1$. All false, outputs <strong>4</strong>."
+        "explanation": "<strong>Step-by-step logic of the Nested IF function:</strong><br>The formula returns '4' ONLY if all three previous conditions are FALSE.<br>Condition 1: <code>A1 > B1</code> (Must be False, so A1 ≤ B1)<br>Condition 2: <code>A1 = 10</code> (Must be False, so A1 ≠ 10)<br>Condition 3: <code>A1 < B1</code> (Must be False, so A1 is not < B1, meaning A1 = B1)<br>So to output '4', we need A1 = B1 AND A1 ≠ 10.<br>Let's check the options:<br>• Opt 1: 11 & 10 -> A1 > B1 (Outputs 1).<br>• Opt 2: 9 & 10 -> A1 < B1 (Outputs 3).<br>• Opt 4: 10 & 10 -> A1 = 10 (Outputs 2).<br>• Opt 3: <strong>11 & 11</strong> -> A1 is not > B1, A1 ≠ 10, A1 is not < B1. All false, outputs <strong>4</strong>."
       },
       "hi": {
         "question": "सेल C1 में दर्ज निम्नलिखित MS-EXCEL फ़ंक्शन पर विचार करें:<br><br><code>=IF(A1&gt;B1, 1, IF(A1=10, 2, IF(A1&lt;B1, 3, 4)))</code><br><br>उपरोक्त फ़ंक्शन सेल C1 में 4 का मान लौटाएगा यदि सेल A1 और सेल B1 में मान क्रमशः _____ हैं।",
@@ -7673,7 +7639,7 @@ const TEST_JAN25_16_S1_P1 = [
           "11 और 11",
           "10 और 10"
         ],
-        "explanation": "<strong>Nested IF फ़ंक्शन का चरण-दर-चरण तर्क:</strong><br>यह फ़ॉर्मूला '4' तभी लौटाता है जब पिछली तीनों शर्तें असत्य (FALSE) हों।<br>शर्त 1: <code>A1 > B1</code> (गलत होना चाहिए, इसलिए $A1 \\le B1$)<br>शर्त 2: <code>A1 = 10</code> (गलत होना चाहिए, इसलिए $A1 \\neq 10$)<br>शर्त 3: <code>A1 < B1</code> (गलत होना चाहिए, इसलिए $A1 \\not< B1$, जिसका अर्थ है $A1 = B1$)<br>इसलिए '4' आउटपुट करने के लिए, हमें $A1 = B1$ और $A1 \\neq 10$ चाहिए।<br>आइए विकल्पों की जाँच करें:<br>• विकल्प 1: 11 और 10 -> $A1 > B1$ (आउटपुट 1)।<br>• विकल्प 2: 9 और 10 -> $A1 < B1$ (आउटपुट 3)।<br>• विकल्प 4: 10 और 10 -> $A1 = 10$ (आउटपुट 2)।<br>• विकल्प 3: <strong>11 और 11</strong> -> $A1 \\not> B1$, $A1 \\neq 10$, $A1 \\not< B1$। सभी गलत हैं, इसलिए आउटपुट <strong>4</strong> होगा।"
+        "explanation": "<strong>Nested IF फ़ंक्शन का चरण-दर-चरण तर्क:</strong><br>यह फ़ॉर्मूला '4' तभी लौटाता है जब पिछली तीनों शर्तें असत्य (FALSE) हों।<br>शर्त 1: <code>A1 > B1</code> (गलत होना चाहिए, इसलिए A1 ≤ B1)<br>शर्त 2: <code>A1 = 10</code> (गलत होना चाहिए, इसलिए A1 ≠ 10)<br>शर्त 3: <code>A1 < B1</code> (गलत होना चाहिए, इसलिए A1, B1 से छोटा नहीं है, जिसका अर्थ है A1 = B1)<br>इसलिए '4' आउटपुट करने के लिए, हमें A1 = B1 और A1 ≠ 10 चाहिए।<br>आइए विकल्पों की जाँच करें:<br>• विकल्प 1: 11 और 10 -> A1 > B1 (आउटपुट 1)।<br>• विकल्प 2: 9 और 10 -> A1 < B1 (आउटपुट 3)।<br>• विकल्प 4: 10 और 10 -> A1 = 10 (आउटपुट 2)।<br>• विकल्प 3: <strong>11 और 11</strong> -> A1 > B1 नहीं है, A1 ≠ 10 है, A1 < B1 नहीं है। सभी गलत हैं, इसलिए आउटपुट <strong>4</strong> होगा।"
       }
     }
   },
@@ -7801,7 +7767,7 @@ const TEST_JAN25_16_S1_P1 = [
     "topicHI": "शोध: अर्थ, प्रकार और विशेषताएँ",
     "content": {
       "en": {
-        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>List-I (Concept)</th><th style='padding:8px;'>List-II (Scholars)</th></tr><tr><td style='padding:6px;'>A. To qualify as a case study, it must be a bounded system, an entity in itself.</td><td style='padding:6px;'>I. George A. Lundberg</td></tr><tr><td style='padding:6px;'>B. Draws a parallel between the social research process which is considered scientific and the process that we use in our daily lives.</td><td style='padding:6px;'>II. Herbert Blumer</td></tr><tr><td style='padding:6px;'>C. Sociological research is primarily committed to systematic, reliable, knowledge of social world.</td><td style='padding:6px;'>III. Tom Burns</td></tr><tr><td style='padding:6px;'>D. Sort scale was developed</td><td style='padding:6px;'>IV. William Stephenson</td></tr></table><br>Choose the correct answer from the options given below:",
+        "question": "<p>Match the following:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-I (Concept)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-II (Scholars)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. To qualify as a case study, it must be a bounded system, an entity in itself.</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. George A. Lundberg</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. Draws a parallel between the social research process which is considered scientific and the process that we use in our daily lives.</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. Herbert Blumer</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. Sociological research is primarily committed to systematic, reliable, knowledge of social world.</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. Tom Burns</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. Sort scale was developed</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. William Stephenson</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": [
           "A-I, B-IV, C-III, D-II",
           "A-II, B-III, C-I, D-IV",
@@ -7811,7 +7777,7 @@ const TEST_JAN25_16_S1_P1 = [
         "explanation": "<em>(Note: This question is a duplicate occurrence in the official NTA paper).</em><br><strong>Matching Research Concepts with Scholars:</strong><br>• The <strong>Q-Sort scale</strong> was developed by <strong>William Stephenson (D-III)</strong>.<br>• Sociological research being a systematic, reliable knowledge of the social world (C-II).<br>• The matching that aligns perfectly with the standard key is A-IV, B-I, C-II, D-III."
       },
       "hi": {
-        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left;'><tr><th style='padding:8px;'>सूची-I (संकल्पना)</th><th style='padding:8px;'>सूची-II (विद्वान)</th></tr><tr><td style='padding:6px;'>A. केस स्टडी के रूप में योग्य होने के लिए, यह एक सीमित प्रणाली, अपने आप में एक इकाई होनी चाहिए।</td><td style='padding:6px;'>I. जॉर्ज ए. लुंडबर्ग</td></tr><tr><td style='padding:6px;'>B. सामाजिक अनुसंधान प्रक्रिया जिसे वैज्ञानिक माना जाता है और हम अपने दैनिक जीवन में जो प्रक्रिया उपयोग करते हैं, के बीच समानता दर्शाता है।</td><td style='padding:6px;'>II. हर्बर्ट ब्लूमर</td></tr><tr><td style='padding:6px;'>C. समाजशास्त्रीय अनुसंधान मुख्य रूप से सामाजिक विश्व के व्यवस्थित, विश्वसनीय ज्ञान के लिए प्रतिबद्ध है।</td><td style='padding:6px;'>III. टॉम बर्न्स</td></tr><tr><td style='padding:6px;'>D. सॉर्ट स्केल विकसित किया गया</td><td style='padding:6px;'>IV. विलियम स्टीफेंसन</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-I (संकल्पना)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-II (विद्वान)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. केस स्टडी के रूप में योग्य होने के लिए, यह एक सीमित प्रणाली, अपने आप में एक इकाई होनी चाहिए।</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. जॉर्ज ए. लुंडबर्ग</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. सामाजिक अनुसंधान प्रक्रिया जिसे वैज्ञानिक माना जाता है और हम अपने दैनिक जीवन में जो प्रक्रिया उपयोग करते हैं, के बीच समानता दर्शाता है।</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. हर्बर्ट ब्लूमर</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. समाजशास्त्रीय अनुसंधान मुख्य रूप से सामाजिक विश्व के व्यवस्थित, विश्वसनीय ज्ञान के लिए प्रतिबद्ध है।</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. टॉम बर्न्स</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. सॉर्ट स्केल विकसित किया गया</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. विलियम स्टीफेंसन</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": [
           "A-I, B-IV, C-III, D-II",
           "A-II, B-III, C-I, D-IV",
@@ -8016,12 +7982,12 @@ const TEST_JAN25_10_S2_P1 = [
       "en": {
         "question": TABLE_JAN25_10_S2_P1.en + "<br><br><strong>Question:</strong><br> If out of the number of 6B-Pencils sold each by B and C, 40% and 20% defective 6B pencils, respectively, are returned by the customers, then what is the total number of actual pencils sold by stores B and C together?",
         "options": ["800", "1080", "1200", "1280"],
-        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. <strong>Store B:</strong> HB sold = 480. Ratio HB:6B = 6:5 $\\implies$ 6B sold = $(480 / 6) \\times 5 = 400$.<br>Defective 6B returned = 40% of 400 = 160.<br>Actual total pencils sold by B = Total (480 + 400) - Returned (160) = 880 - 160 = <strong>720</strong>.<br>2. <strong>Store C:</strong> HB sold = 400. Ratio HB:6B = 4:1 $\\implies$ 6B sold = $(400 / 4) \\times 1 = 100$.<br>Defective 6B returned = 20% of 100 = 20.<br>Actual total pencils sold by C = Total (400 + 100) - Returned (20) = 500 - 20 = <strong>480</strong>.<br>3. <strong>Total Actual Pencils (B + C):</strong> 720 + 480 = <strong>1200</strong>."
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. <strong>Store B:</strong> HB sold = 480. Ratio HB:6B = 6:5 ⇒ 6B sold = (480 / 6) × 5 = 400.<br>Defective 6B returned = 40% of 400 = 160.<br>Actual total pencils sold by B = Total (480 + 400) - Returned (160) = 880 - 160 = <strong>720</strong>.<br>2. <strong>Store C:</strong> HB sold = 400. Ratio HB:6B = 4:1 ⇒ 6B sold = (400 / 4) × 1 = 100.<br>Defective 6B returned = 20% of 100 = 20.<br>Actual total pencils sold by C = Total (400 + 100) - Returned (20) = 500 - 20 = <strong>480</strong>.<br>3. <strong>Total Actual Pencils (B + C):</strong> 720 + 480 = <strong>1200</strong>."
       },
       "hi": {
         "question": TABLE_JAN25_10_S2_P1.hi + "<br><br><strong>प्रश्न:</strong><br> यदि स्टोर B और C द्वारा बेची गई 6B-पेंसिलों में से क्रमशः 40% और 20% दोषपूर्ण 6B पेंसिलें ग्राहकों द्वारा वापस कर दी जाती हैं, तो स्टोर B और C द्वारा मिलाकर बेची गई वास्तव में पेंसिलों की कुल संख्या कितनी है?",
         "options": ["800", "1080", "1200", "1280"],
-        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. <strong>स्टोर B:</strong> HB बेची = 480। अनुपात HB:6B = 6:5 $\\implies$ 6B बेची = $(480 / 6) \\times 5 = 400$।<br>वापस की गई दोषपूर्ण 6B = 400 का 40% = 160।<br>B द्वारा बेची गई वास्तविक कुल पेंसिलें = कुल (480 + 400) - वापस (160) = 880 - 160 = <strong>720</strong>।<br>2. <strong>स्टोर C:</strong> HB बेची = 400। अनुपात HB:6B = 4:1 $\\implies$ 6B बेची = $(400 / 4) \\times 1 = 100$।<br>वापस की गई दोषपूर्ण 6B = 100 का 20% = 20।<br>C द्वारा बेची गई वास्तविक कुल पेंसिलें = कुल (400 + 100) - वापस (20) = 500 - 20 = <strong>480</strong>।<br>3. <strong>कुल वास्तविक पेंसिल (B + C):</strong> 720 + 480 = <strong>1200</strong>।"
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. <strong>स्टोर B:</strong> HB बेची = 480। अनुपात HB:6B = 6:5 ⇒ 6B बेची = (480 / 6) × 5 = 400।<br>वापस की गई दोषपूर्ण 6B = 400 का 40% = 160।<br>B द्वारा बेची गई वास्तविक कुल पेंसिलें = कुल (480 + 400) - वापस (160) = 880 - 160 = <strong>720</strong>।<br>2. <strong>स्टोर C:</strong> HB बेची = 400। अनुपात HB:6B = 4:1 ⇒ 6B बेची = (400 / 4) × 1 = 100।<br>वापस की गई दोषपूर्ण 6B = 100 का 20% = 20।<br>C द्वारा बेची गई वास्तविक कुल पेंसिलें = कुल (400 + 100) - वापस (20) = 500 - 20 = <strong>480</strong>।<br>3. <strong>कुल वास्तविक पेंसिल (B + C):</strong> 720 + 480 = <strong>1200</strong>।"
       }
     }
   },
@@ -8037,12 +8003,12 @@ const TEST_JAN25_10_S2_P1 = [
       "en": {
         "question": TABLE_JAN25_10_S2_P1.en + "<br><br><strong>Question:</strong><br> What is the average number of 6B-Pencils sold by stores A and E together?",
         "options": ["140", "130", "160", "100"],
-        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. <strong>Store A:</strong> HB sold = 216. Ratio HB:6B = 9:5 $\\implies$ 6B sold = $(216 / 9) \\times 5 = 24 \\times 5 = <strong>120</strong>$.<br>2. <strong>Store E:</strong> HB sold = 240. Ratio HB:6B = 3:2 $\\implies$ 6B sold = $(240 / 3) \\times 2 = 80 \\times 2 = <strong>160</strong>$.<br>3. <strong>Average:</strong> $(120 + 160) / 2 = 280 / 2 = <strong>140</strong>$."
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. <strong>Store A:</strong> HB sold = 216. Ratio HB:6B = 9:5 ⇒ 6B sold = (216 / 9) × 5 = 24 × 5 = <strong>120</strong>.<br>2. <strong>Store E:</strong> HB sold = 240. Ratio HB:6B = 3:2 ⇒ 6B sold = (240 / 3) × 2 = 80 × 2 = <strong>160</strong>.<br>3. <strong>Average:</strong> (120 + 160) / 2 = 280 / 2 = <strong>140</strong>."
       },
       "hi": {
         "question": TABLE_JAN25_10_S2_P1.hi + "<br><br><strong>प्रश्न:</strong><br> स्टोर A और E द्वारा बेची गई 6B-पेंसिलों की औसत संख्या क्या है?",
         "options": ["140", "130", "160", "100"],
-        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. <strong>स्टोर A:</strong> HB बेची = 216। अनुपात HB:6B = 9:5 $\\implies$ 6B बेची = $(216 / 9) \\times 5 = 24 \\times 5 = <strong>120</strong>$।<br>2. <strong>स्टोर E:</strong> HB बेची = 240। अनुपात HB:6B = 3:2 $\\implies$ 6B बेची = $(240 / 3) \\times 2 = 80 \\times 2 = <strong>160</strong>$।<br>3. <strong>औसत:</strong> $(120 + 160) / 2 = 280 / 2 = <strong>140</strong>$।"
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. <strong>स्टोर A:</strong> HB बेची = 216। अनुपात HB:6B = 9:5 ⇒ 6B बेची = (216 / 9) × 5 = 24 × 5 = <strong>120</strong>।<br>2. <strong>स्टोर E:</strong> HB बेची = 240। अनुपात HB:6B = 3:2 ⇒ 6B बेची = (240 / 3) × 2 = 80 × 2 = <strong>160</strong>।<br>3. <strong>औसत:</strong> (120 + 160) / 2 = 280 / 2 = <strong>140</strong>।"
       }
     }
   },
@@ -8058,12 +8024,12 @@ const TEST_JAN25_10_S2_P1 = [
       "en": {
         "question": TABLE_JAN25_10_S2_P1.en + "<br><br><strong>Question:</strong><br> If the selling price of one HB-Pencil is ₹5 and that of one 6B-Pencil is ₹8, then what is the total revenue generated by store C?",
         "options": ["₹ 3200", "₹ 4000", "₹ 2400", "₹ 2800"],
-        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. <strong>Store C:</strong> HB sold = 400. <br>2. Ratio HB:6B = 4:1 $\\implies$ 6B sold = $(400 / 4) \\times 1 = 100$.<br>3. <strong>Revenue from HB:</strong> $400 \\times ₹5 = ₹2000$.<br>4. <strong>Revenue from 6B:</strong> $100 \\times ₹8 = ₹800$.<br>5. <strong>Total Revenue:</strong> $2000 + 800 =$ <strong>₹2800</strong>."
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. <strong>Store C:</strong> HB sold = 400. <br>2. Ratio HB:6B = 4:1 ⇒ 6B sold = (400 / 4) × 1 = 100.<br>3. <strong>Revenue from HB:</strong> 400 × ₹5 = ₹2000.<br>4. <strong>Revenue from 6B:</strong> 100 × ₹8 = ₹800.<br>5. <strong>Total Revenue:</strong> 2000 + 800 = <strong>₹2800</strong>."
       },
       "hi": {
         "question": TABLE_JAN25_10_S2_P1.hi + "<br><br><strong>प्रश्न:</strong><br> यदि एक HB-पेंसिल का विक्रय मूल्य ₹5 है और एक 6B-पेंसिल का विक्रय मूल्य ₹8 है, तो स्टोर C द्वारा अर्जित कुल राजस्व क्या है?",
         "options": ["₹ 3200", "₹ 4000", "₹ 2400", "₹ 2800"],
-        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. <strong>स्टोर C:</strong> HB बेची = 400।<br>2. अनुपात HB:6B = 4:1 $\\implies$ 6B बेची = $(400 / 4) \\times 1 = 100$।<br>3. <strong>HB से राजस्व:</strong> $400 \\times ₹5 = ₹2000$।<br>4. <strong>6B से राजस्व:</strong> $100 \\times ₹8 = ₹800$।<br>5. <strong>कुल राजस्व:</strong> $2000 + 800 =$ <strong>₹2800</strong>।"
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. <strong>स्टोर C:</strong> HB बेची = 400।<br>2. अनुपात HB:6B = 4:1 ⇒ 6B बेची = (400 / 4) × 1 = 100।<br>3. <strong>HB से राजस्व:</strong> 400 × ₹5 = ₹2000।<br>4. <strong>6B से राजस्व:</strong> 100 × ₹8 = ₹800।<br>5. <strong>कुल राजस्व:</strong> 2000 + 800 = <strong>₹2800</strong>।"
       }
     }
   },
@@ -8079,12 +8045,12 @@ const TEST_JAN25_10_S2_P1 = [
       "en": {
         "question": TABLE_JAN25_10_S2_P1.en + "<br><br><strong>Question:</strong><br> What is the ratio of the total number of 6B-Pencils sold by stores C and D together to the number of 6B-Pencils sold by store A?",
         "options": ["3:5", "5:3", "5:4", "3:2"],
-        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. <strong>Store C 6B Pencils:</strong> HB = 400, Ratio = 4:1 $\\implies$ 6B = 100.<br>2. <strong>Store D 6B Pencils:</strong> HB = 300, Ratio = 3:1 $\\implies$ 6B = $(300 / 3) \\times 1 = 100$.<br>   Total 6B by C & D = 100 + 100 = <strong>200</strong>.<br>3. <strong>Store A 6B Pencils:</strong> HB = 216, Ratio = 9:5 $\\implies$ 6B = $(216 / 9) \\times 5 = <strong>120</strong>$.<br>4. <strong>Ratio:</strong> 200 : 120 = 20 : 12 = <strong>5 : 3</strong>."
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. <strong>Store C 6B Pencils:</strong> HB = 400, Ratio = 4:1 ⇒ 6B = 100.<br>2. <strong>Store D 6B Pencils:</strong> HB = 300, Ratio = 3:1 ⇒ 6B = (300 / 3) × 1 = 100.<br>   Total 6B by C & D = 100 + 100 = <strong>200</strong>.<br>3. <strong>Store A 6B Pencils:</strong> HB = 216, Ratio = 9:5 ⇒ 6B = (216 / 9) × 5 = <strong>120</strong>.<br>4. <strong>Ratio:</strong> 200 : 120 = 20 : 12 = <strong>5 : 3</strong>."
       },
       "hi": {
         "question": TABLE_JAN25_10_S2_P1.hi + "<br><br><strong>प्रश्न:</strong><br> स्टोर C और D द्वारा बेची गई 6B-पेंसिलों की कुल संख्या का स्टोर A द्वारा बेची गई 6B-पेंसिलों की संख्या से अनुपात क्या है?",
         "options": ["3:5", "5:3", "5:4", "3:2"],
-        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. <strong>स्टोर C 6B पेंसिल:</strong> HB = 400, अनुपात = 4:1 $\\implies$ 6B = 100।<br>2. <strong>स्टोर D 6B पेंसिल:</strong> HB = 300, अनुपात = 3:1 $\\implies$ 6B = $(300 / 3) \\times 1 = 100$।<br>   C और D द्वारा कुल 6B = 100 + 100 = <strong>200</strong>।<br>3. <strong>स्टोर A 6B पेंसिल:</strong> HB = 216, अनुपात = 9:5 $\\implies$ 6B = $(216 / 9) \\times 5 = <strong>120</strong>$।<br>4. <strong>अनुपात:</strong> 200 : 120 = 20 : 12 = <strong>5 : 3</strong>।"
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. <strong>स्टोर C 6B पेंसिल:</strong> HB = 400, अनुपात = 4:1 ⇒ 6B = 100।<br>2. <strong>स्टोर D 6B पेंसिल:</strong> HB = 300, अनुपात = 3:1 ⇒ 6B = (300 / 3) × 1 = 100।<br>   C और D द्वारा कुल 6B = 100 + 100 = <strong>200</strong>।<br>3. <strong>स्टोर A 6B पेंसिल:</strong> HB = 216, अनुपात = 9:5 ⇒ 6B = (216 / 9) × 5 = <strong>120</strong>।<br>4. <strong>अनुपात:</strong> 200 : 120 = 20 : 12 = <strong>5 : 3</strong>।"
       }
     }
   },
@@ -8100,12 +8066,12 @@ const TEST_JAN25_10_S2_P1 = [
       "en": {
         "question": TABLE_JAN25_10_S2_P1.en + "<br><br><strong>Question:</strong><br> Number of 6B-Pencils sold by store E is _______% less than the number of 6B-Pencils sold by store B.",
         "options": ["20", "40", "50", "60"],
-        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. <strong>Store E 6B Pencils:</strong> HB = 240, Ratio = 3:2 $\\implies$ 6B = $(240 / 3) \\times 2 = 160$.<br>2. <strong>Store B 6B Pencils:</strong> HB = 480, Ratio = 6:5 $\\implies$ 6B = $(480 / 6) \\times 5 = 400$.<br>3. <strong>Difference:</strong> $400 - 160 = 240$.<br>4. <strong>Percentage Less:</strong> $\\frac{240}{400} \\times 100 = 60\\%$."
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. <strong>Store E 6B Pencils:</strong> HB = 240, Ratio = 3:2 ⇒ 6B = (240 / 3) × 2 = 160.<br>2. <strong>Store B 6B Pencils:</strong> HB = 480, Ratio = 6:5 ⇒ 6B = (480 / 6) × 5 = 400.<br>3. <strong>Difference:</strong> 400 - 160 = 240.<br>4. <strong>Percentage Less:</strong> (240 / 400) × 100 = 60%."
       },
       "hi": {
         "question": TABLE_JAN25_10_S2_P1.hi + "<br><br><strong>प्रश्न:</strong><br> स्टोर E द्वारा बेची गई 6B-पेंसिलों की संख्या स्टोर B द्वारा बेची गई 6B-पेंसिलों की संख्या से _______% कम है।",
         "options": ["20", "40", "50", "60"],
-        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. <strong>स्टोर E 6B पेंसिल:</strong> HB = 240, अनुपात = 3:2 $\\implies$ 6B = $(240 / 3) \\times 2 = 160$।<br>2. <strong>स्टोर B 6B पेंसिल:</strong> HB = 480, अनुपात = 6:5 $\\implies$ 6B = $(480 / 6) \\times 5 = 400$।<br>3. <strong>अंतर:</strong> $400 - 160 = 240$।<br>4. <strong>प्रतिशत कम:</strong> $\\frac{240}{400} \\times 100 = 60\\%$।"
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. <strong>स्टोर E 6B पेंसिल:</strong> HB = 240, अनुपात = 3:2 ⇒ 6B = (240 / 3) × 2 = 160।<br>2. <strong>स्टोर B 6B पेंसिल:</strong> HB = 480, अनुपात = 6:5 ⇒ 6B = (480 / 6) × 5 = 400।<br>3. <strong>अंतर:</strong> 400 - 160 = 240।<br>4. <strong>प्रतिशत कम:</strong> (240 / 400) × 100 = 60%।"
       }
     }
   },
@@ -8416,7 +8382,7 @@ const TEST_JAN25_10_S2_P1 = [
           "A, B, D, and E only",
           "A, C, D and E only"
         ],
-        "explanation": "The National Air Quality Index (AQI) in India is calculated based on 8 major pollutants: PM10, PM2.5, NO₂, SO₂, CO, O₃, NH₃, and Pb (Lead).<br>However, <strong>Benzene ($C_6H_6$)</strong> and <strong>Benzo(a)Pyrene</strong> are part of the 12 National Ambient Air Quality Standards (NAAQS) but are generally <em>not</em> part of the real-time AQI. <br><em>Note: The official NTA Answer Key marks Option 3 (A, B, D, and E) as correct, implying a flawed framing or broad inclusion of NAAQS parameters in the question's logic. Following the official key, Option 3 is selected.</em>"
+        "explanation": "The National Air Quality Index (AQI) in India is calculated based on 8 major pollutants: PM10, PM2.5, NO₂, SO₂, CO, O₃, NH₃, and Pb (Lead).<br>However, <strong>Benzene (C₆H₆)</strong> and <strong>Benzo(a)Pyrene</strong> are part of the 12 National Ambient Air Quality Standards (NAAQS) but are generally <em>not</em> part of the real-time AQI. <br><em>Note: The official NTA Answer Key marks Option 3 (A, B, D, and E) as correct, implying a flawed framing or broad inclusion of NAAQS parameters in the question's logic. Following the official key, Option 3 is selected.</em>"
       },
       "hi": {
         "question": "भारत में वायु गुणवत्ता सूचकांक (AQI) आकलन के लिए निम्नलिखित में से किस प्रदूषक पर विचार किया जाता है?<br><br>A. CO (कार्बन मोनो-ऑक्साइड)<br>B. NO₂ (नाइट्रोजन डाइ-ऑक्साइड)<br>C. C₆H₆ (बेंजीन)<br>D. बेंजो (a) पाइरीन<br>E. O₃ (ओजोन)<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
@@ -8426,7 +8392,7 @@ const TEST_JAN25_10_S2_P1 = [
           "केवल A, B, D और E",
           "केवल A, C, D और E"
         ],
-        "explanation": "भारत में राष्ट्रीय वायु गुणवत्ता सूचकांक (AQI) की गणना 8 प्रमुख प्रदूषकों के आधार पर की जाती है: PM10, PM2.5, NO₂, SO₂, CO, O₃, NH₃, और Pb (सीसा)।<br>हालाँकि, <strong>बेंजीन ($C_6H_6$)</strong> और <strong>बेंजो(a)पाइरीन</strong> 12 राष्ट्रीय परिवेशी वायु गुणवत्ता मानकों (NAAQS) का हिस्सा हैं, लेकिन आम तौर पर वास्तविक समय AQI का हिस्सा नहीं हैं। <br><em>नोट: आधिकारिक NTA उत्तर कुंजी विकल्प 3 (A, B, D, और E) को सही मानती है, जो प्रश्न के तर्क में NAAQS मापदंडों के व्यापक समावेश को दर्शाता है। आधिकारिक कुंजी का पालन करते हुए, विकल्प 3 चुना गया है।</em>"
+        "explanation": "भारत में राष्ट्रीय वायु गुणवत्ता सूचकांक (AQI) की गणना 8 प्रमुख प्रदूषकों के आधार पर की जाती है: PM10, PM2.5, NO₂, SO₂, CO, O₃, NH₃, और Pb (सीसा)।<br>हालाँकि, <strong>बेंजीन (C₆H₆)</strong> और <strong>बेंजो(a)पाइरीन</strong> 12 राष्ट्रीय परिवेशी वायु गुणवत्ता मानकों (NAAQS) का हिस्सा हैं, लेकिन आम तौर पर वास्तविक समय AQI का हिस्सा नहीं हैं। <br><em>नोट: आधिकारिक NTA उत्तर कुंजी विकल्प 3 (A, B, D, और E) को सही मानती है, जो प्रश्न के तर्क में NAAQS मापदंडों के व्यापक समावेश को दर्शाता है। आधिकारिक कुंजी का पालन करते हुए, विकल्प 3 चुना गया है।</em>"
       }
     }
   },
@@ -8440,24 +8406,24 @@ const TEST_JAN25_10_S2_P1 = [
     "topicHI": "पर्यावरणीय मुद्दे: ध्वनि प्रदूषण",
     "content": {
       "en": {
-        "question": "The difference between Peak noise level (L₁₀) and background noise level (L₉₀) is known as:",
+        "question": "The difference between Peak noise level (L10) and background noise level (L90) is known as:",
         "options": [
           "Noise environment",
           "Noise climate",
           "Traffic noise index",
           "Sound energy level"
         ],
-        "explanation": "In acoustics, the difference between $L_{10}$ (the noise level exceeded 10% of the time, representing peak noise) and $L_{90}$ (the noise level exceeded 90% of the time, representing background noise) is referred to as the <strong>Noise Climate</strong> ($NC = L_{10} - L_{90}$)."
+        "explanation": "In acoustics, the difference between L10 (the noise level exceeded 10% of the time, representing peak noise) and L90 (the noise level exceeded 90% of the time, representing background noise) is referred to as the <strong>Noise Climate</strong> (NC = L10 - L90)."
       },
       "hi": {
-        "question": "शीर्ष शोर स्तर (L₁₀) और पृष्ठभूमि शोर स्तर (L₉₀) के बीच अंतर को किस नाम से जाना जाता है?",
+        "question": "शीर्ष शोर स्तर (L10) और पृष्ठभूमि शोर स्तर (L90) के बीच अंतर को किस नाम से जाना जाता है?",
         "options": [
           "शोर वातावरण",
           "शोर जलवायु (Noise climate)",
           "यातायात शोर सूचकांक",
           "ध्वनि ऊर्जा स्तर"
         ],
-        "explanation": "ध्वनिकी (Acoustics) में, $L_{10}$ (वह शोर स्तर जो समय के 10% से अधिक रहता है, जो चरम शोर को दर्शाता है) और $L_{90}$ (वह शोर स्तर जो समय के 90% से अधिक रहता है, जो पृष्ठभूमि शोर को दर्शाता है) के बीच के अंतर को <strong>शोर जलवायु (Noise Climate)</strong> ($NC = L_{10} - L_{90}$) कहा जाता है।"
+        "explanation": "ध्वनिकी (Acoustics) में, L10 (वह शोर स्तर जो समय के 10% से अधिक रहता है, जो चरम शोर को दर्शाता है) और L90 (वह शोर स्तर जो समय के 90% से अधिक रहता है, जो पृष्ठभूमि शोर को दर्शाता है) के बीच के अंतर को <strong>शोर जलवायु (Noise Climate)</strong> (NC = L10 - L90) कहा जाता है।"
       }
     }
   },
@@ -8577,12 +8543,12 @@ const TEST_JAN25_10_S2_P1 = [
       "en": {
         "question": "Two numbers are in the ratio 5:6. If 8 is subtracted from each of the numbers, the ratio becomes 4:5. The two numbers are respectively:",
         "options": ["40, 48", "32, 40", "48, 40", "35, 42"],
-        "explanation": "<strong>Step-by-step Solution:</strong><br>1. Let the two numbers be $5x$ and $6x$.<br>2. According to the question, if 8 is subtracted from both: $\\frac{5x - 8}{6x - 8} = \\frac{4}{5}$.<br>3. Cross-multiply: $5(5x - 8) = 4(6x - 8)$.<br>   $25x - 40 = 24x - 32$<br>4. Isolate x: $25x - 24x = -32 + 40 \\implies x = 8$.<br>5. The numbers are $5x = 5 \\times 8 = <strong>40</strong>$ and $6x = 6 \\times 8 = <strong>48</strong>$."
+        "explanation": "<strong>Step-by-step Solution:</strong><br>1. Let the two numbers be 5x and 6x.<br>2. According to the question, if 8 is subtracted from both: (5x - 8) / (6x - 8) = 4/5.<br>3. Cross-multiply: 5(5x - 8) = 4(6x - 8).<br>   25x - 40 = 24x - 32<br>4. Isolate x: 25x - 24x = -32 + 40 ⇒ x = 8.<br>5. The numbers are 5x = 5 × 8 = <strong>40</strong> and 6x = 6 × 8 = <strong>48</strong>."
       },
       "hi": {
         "question": "दो संख्याएँ 5:6 के अनुपात में हैं। यदि प्रत्येक संख्या में से 8 घटा दिया जाए, तो अनुपात 4:5 हो जाता है। दोनों संख्याएँ क्रमशः हैं:",
         "options": ["40, 48", "32, 40", "48, 40", "35, 42"],
-        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>1. मान लें कि दो संख्याएँ $5x$ और $6x$ हैं।<br>2. प्रश्न के अनुसार, यदि दोनों में से 8 घटा दिया जाए: $\\frac{5x - 8}{6x - 8} = \\frac{4}{5}$।<br>3. क्रॉस-मल्टीप्लाई करें: $5(5x - 8) = 4(6x - 8)$।<br>   $25x - 40 = 24x - 32$<br>4. x का मान निकालें: $25x - 24x = -32 + 40 \\implies x = 8$।<br>5. संख्याएँ $5x = 5 \\times 8 = <strong>40</strong>$ और $6x = 6 \\times 8 = <strong>48</strong>$ हैं।"
+        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>1. मान लें कि दो संख्याएँ 5x और 6x हैं।<br>2. प्रश्न के अनुसार, यदि दोनों में से 8 घटा दिया जाए: (5x - 8) / (6x - 8) = 4/5।<br>3. क्रॉस-मल्टीप्लाई करें: 5(5x - 8) = 4(6x - 8)।<br>   25x - 40 = 24x - 32<br>4. x का मान निकालें: 25x - 24x = -32 + 40 ⇒ x = 8।<br>5. संख्याएँ 5x = 5 × 8 = <strong>40</strong> और 6x = 6 × 8 = <strong>48</strong> हैं।"
       }
     }
   },
@@ -8617,7 +8583,7 @@ const TEST_JAN25_10_S2_P1 = [
     "topicHI": "ICT सामान्य संक्षिप्ताक्षर और शब्दावली",
     "content": {
       "en": {
-        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>List-I (Statistical functions in MS-Excel)</th><th style='padding:8px 10px;'>List-II (Return value)</th></tr><tr><td style='padding:8px 10px;'>A. Average</td><td style='padding:8px 10px;'>I. Returns the number of entries in a selected range</td></tr><tr><td style='padding:8px 10px;'>B. Count</td><td style='padding:8px 10px;'>II. Returns the value in the middle of the range</td></tr><tr><td style='padding:8px 10px;'>C. Median</td><td style='padding:8px 10px;'>III. Returns the value that occurs most frequently</td></tr><tr><td style='padding:8px 10px;'>D. Mode</td><td style='padding:8px 10px;'>IV. Returns the total of all the values in range divided by number of values in the range.</td></tr></table><br>Choose the correct answer from the options given below:",
+        "question": "<p>Match the following:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>List-I (Statistical functions in MS-Excel)</th><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>List-II (Return value)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>A. Average</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>I. Returns the number of entries in a selected range</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>B. Count</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>II. Returns the value in the middle of the range</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>C. Median</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>III. Returns the value that occurs most frequently</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>D. Mode</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>IV. Returns the total of all the values in range divided by number of values in the range.</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": [
           "A-II, B-III, C-I, D-IV",
           "A-IV, B-I, C-II, D-III",
@@ -8627,7 +8593,7 @@ const TEST_JAN25_10_S2_P1 = [
         "explanation": "<strong>Matching Excel Functions:</strong><br>• <strong>Average (A-IV):</strong> Calculates the arithmetic mean (total sum divided by number of values).<br>• <strong>Count (B-I):</strong> Returns the number of cells containing entries/numbers.<br>• <strong>Median (C-II):</strong> Finds the exact middle value in a sorted dataset.<br>• <strong>Mode (D-III):</strong> Identifies the number that appears most frequently in a range.<br>Thus, A-IV, B-I, C-II, D-III is the correct match."
       },
       "hi": {
-        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>सूची-I (एमएस-एक्सेल में सांख्यिकीय कार्य)</th><th style='padding:8px 10px;'>सूची-II (वापसी मूल्य)</th></tr><tr><td style='padding:8px 10px;'>A. औसत (Average)</td><td style='padding:8px 10px;'>I. चयनित श्रेणी में प्रविष्टियों की संख्या लौटाता है</td></tr><tr><td style='padding:8px 10px;'>B. गणती (Count)</td><td style='padding:8px 10px;'>II. रेंज के मध्य का मान लौटाता है</td></tr><tr><td style='padding:8px 10px;'>C. मध्यिका (Median)</td><td style='padding:8px 10px;'>III. सबसे अधिक बार आने वाला मान लौटाता है</td></tr><tr><td style='padding:8px 10px;'>D. मोड (Mode)</td><td style='padding:8px 10px;'>IV. श्रेणी में सभी मानों के योग को श्रेणी में मानों की संख्या से विभाजित करके लौटाता है।</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>सूची-I (एमएस-एक्सेल में सांख्यिकीय कार्य)</th><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>सूची-II (वापसी मूल्य)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>A. औसत (Average)</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>I. चयनित श्रेणी में प्रविष्टियों की संख्या लौटाता है</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>B. गणती (Count)</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>II. रेंज के मध्य का मान लौटाता है</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>C. मध्यिका (Median)</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>III. सबसे अधिक बार आने वाला मान लौटाता है</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>D. मोड (Mode)</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>IV. श्रेणी में सभी मानों के योग को श्रेणी में मानों की संख्या से विभाजित करके लौटाता है।</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": [
           "A-II, B-III, C-I, D-IV",
           "A-IV, B-I, C-II, D-III",
@@ -8877,7 +8843,7 @@ const TEST_JAN25_10_S2_P1 = [
           "2K² - 1",
           "2K² + 1"
         ],
-        "explanation": "<strong>Step-by-step Solution:</strong><br>1. AM of $x$ and $1/x$ is $K \\implies \\frac{x + 1/x}{2} = K \\implies x + \\frac{1}{x} = 2K$.<br>2. Square both sides: $(x + \\frac{1}{x})^2 = (2K)^2$<br>   $x^2 + \\frac{1}{x^2} + 2(x)(\\frac{1}{x}) = 4K^2$<br>   $x^2 + \\frac{1}{x^2} + 2 = 4K^2 \\implies x^2 + \\frac{1}{x^2} = 4K^2 - 2$.<br>3. We need the AM of $x^2$ and $1/x^2$:<br>   $\\text{AM} = \\frac{x^2 + 1/x^2}{2} = \\frac{4K^2 - 2}{2} = 2K^2 - 1$."
+        "explanation": "<strong>Step-by-step Solution:</strong><br>1. AM of x and 1/x is K ⇒ (x + 1/x) / 2 = K ⇒ x + 1/x = 2K.<br>2. Square both sides: (x + 1/x)² = (2K)²<br>   x² + 1/x² + 2(x)(1/x) = 4K²<br>   x² + 1/x² + 2 = 4K² ⇒ x² + 1/x² = 4K² - 2.<br>3. We need the AM of x² and 1/x²:<br>   AM = (x² + 1/x²) / 2 = (4K² - 2) / 2 = 2K² - 1."
       },
       "hi": {
         "question": "यदि x और 1/x का अंकगणितीय माध्य K है, तो x² और 1/x² का अंकगणितीय माध्य होगा:",
@@ -8887,7 +8853,7 @@ const TEST_JAN25_10_S2_P1 = [
           "2K² - 1",
           "2K² + 1"
         ],
-        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>1. $x$ और $1/x$ का माध्य $K$ है $\\implies \\frac{x + 1/x}{2} = K \\implies x + \\frac{1}{x} = 2K$।<br>2. दोनों पक्षों का वर्ग (square) करें: $(x + \\frac{1}{x})^2 = (2K)^2$<br>   $x^2 + \\frac{1}{x^2} + 2(x)(\\frac{1}{x}) = 4K^2$<br>   $x^2 + \\frac{1}{x^2} + 2 = 4K^2 \\implies x^2 + \\frac{1}{x^2} = 4K^2 - 2$।<br>3. हमें $x^2$ और $1/x^2$ का माध्य (AM) चाहिए:<br>   $\\text{AM} = \\frac{x^2 + 1/x^2}{2} = \\frac{4K^2 - 2}{2} = 2K^2 - 1$।"
+        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>1. x और 1/x का माध्य K है ⇒ (x + 1/x) / 2 = K ⇒ x + 1/x = 2K।<br>2. दोनों पक्षों का वर्ग (square) करें: (x + 1/x)² = (2K)²<br>   x² + 1/x² + 2(x)(1/x) = 4K²<br>   x² + 1/x² + 2 = 4K² ⇒ x² + 1/x² = 4K² - 2।<br>3. हमें x² और 1/x² का माध्य (AM) चाहिए:<br>   AM = (x² + 1/x²) / 2 = (4K² - 2) / 2 = 2K² - 1।"
       }
     }
   },
@@ -8963,7 +8929,7 @@ const TEST_JAN25_10_S2_P1 = [
     "topicHI": "सामान्य जागरूकता: विषय और उनके सिद्धांतकार",
     "content": {
       "en": {
-        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>List-I (Disciplines)</th><th style='padding:8px 10px;'>List-II (Theorists)</th></tr><tr><td style='padding:8px 10px;'>A. Biology</td><td style='padding:8px 10px;'>I. Auguste Comte</td></tr><tr><td style='padding:8px 10px;'>B. Sociology</td><td style='padding:8px 10px;'>II. Harold J. Laski</td></tr><tr><td style='padding:8px 10px;'>C. Economics</td><td style='padding:8px 10px;'>III. Noam Chomsky</td></tr><tr><td style='padding:8px 10px;'>D. Linguistics</td><td style='padding:8px 10px;'>IV. Charles Darwin</td></tr></table><br>Choose the correct answer from the options given below:",
+        "question": "<p>Match the following:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-I (Disciplines)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-II (Theorists)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. Biology</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. Auguste Comte</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. Sociology</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. Harold J. Laski</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. Economics</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. Noam Chomsky</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. Linguistics</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. Charles Darwin</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": [
           "A-II, B-IV, C-I, D-III",
           "A-IV, B-III, C-II, D-I",
@@ -8973,7 +8939,7 @@ const TEST_JAN25_10_S2_P1 = [
         "explanation": "<strong>Matching Disciplines with Theorists:</strong><br>• <strong>Biology (A-IV):</strong> Charles Darwin is famous for his theory of evolution.<br>• <strong>Sociology (B-I):</strong> Auguste Comte is considered the father of sociology.<br>• <strong>Linguistics (D-III):</strong> Noam Chomsky is a pioneering linguist.<br>• <strong>Economics/Political Science (C-II):</strong> Harold J. Laski was a prominent political theorist and economist.<br>Correct match: A-IV, B-I, C-II, D-III."
       },
       "hi": {
-        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>सूची-I (विषय)</th><th style='padding:8px 10px;'>सूची-II (सिद्धांतकार)</th></tr><tr><td style='padding:8px 10px;'>A. जीवविज्ञान</td><td style='padding:8px 10px;'>I. अगस्टे कॉम्टे</td></tr><tr><td style='padding:8px 10px;'>B. समाजशास्त्र</td><td style='padding:8px 10px;'>II. हेरोल्ड जे. लास्की</td></tr><tr><td style='padding:8px 10px;'>C. अर्थशास्त्र</td><td style='padding:8px 10px;'>III. नोम चोमस्की</td></tr><tr><td style='padding:8px 10px;'>D. भाषाविज्ञान</td><td style='padding:8px 10px;'>IV. चार्ल्स डार्विन</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-I (विषय)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-II (सिद्धांतकार)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. जीवविज्ञान</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. अगस्टे कॉम्टे</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. समाजशास्त्र</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. हेरोल्ड जे. लास्की</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. अर्थशास्त्र</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. नोम चोमस्की</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. भाषाविज्ञान</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. चार्ल्स डार्विन</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": [
           "A-II, B-IV, C-I, D-III",
           "A-IV, B-III, C-II, D-I",
@@ -9001,7 +8967,7 @@ const TEST_JAN25_10_S2_P1 = [
           "5",
           "1"
         ],
-        "explanation": "<strong>Step-by-step Solution:</strong><br>1. Let the marks in 5 papers be $6x, 7x, 8x, 9x, 10x$.<br>2. Total obtained marks = $6x+7x+8x+9x+10x = 40x$.<br>3. Let maximum marks per paper be $M$. Total max marks = $5M$.<br>4. Given: He got 60% of total marks $\\implies 40x = 0.6 \\times 5M = 3M$.<br>   So, $M = \\frac{40x}{3} = 13.33x$.<br>5. We need to find papers with more than 50% marks (i.e., $> 0.5M$).<br>   $50\\% \\text{ of } M = 0.5 \\times 13.33x = 6.66x$.<br>6. His marks are 6x, 7x, 8x, 9x, 10x. The marks greater than $6.66x$ are 7x, 8x, 9x, 10x.<br>7. Hence, in <strong>4 papers</strong> he got more than 50% marks."
+        "explanation": "<strong>Step-by-step Solution:</strong><br>1. Let the marks in 5 papers be 6x, 7x, 8x, 9x, 10x.<br>2. Total obtained marks = 6x + 7x + 8x + 9x + 10x = 40x.<br>3. Let maximum marks per paper be M. Total max marks = 5M.<br>4. Given: He got 60% of total marks ⇒ 40x = 0.6 × 5M = 3M.<br>   So, M = 40x / 3 = 13.33x.<br>5. We need to find papers with more than 50% marks (i.e., > 0.5M).<br>   50% of M = 0.5 × 13.33x = 6.66x.<br>6. His marks are 6x, 7x, 8x, 9x, 10x. The marks greater than 6.66x are 7x, 8x, 9x, 10x.<br>7. Hence, in <strong>4 papers</strong> he got more than 50% marks."
       },
       "hi": {
         "question": "एक छात्र ने एक परीक्षा में 5 पेपर दिए जिनमें प्रत्येक पेपर के पूर्णांक समान थे। इन पेपरों में उसके अंक 6:7:8:9:10 के अनुपात में थे। सभी पेपरों को मिलाकर, उसे कुल अंकों का 60% प्राप्त हुआ। तब, उन पेपरों की संख्या जिनमें उसे 50% से अधिक अंक मिले, है:",
@@ -9011,7 +8977,7 @@ const TEST_JAN25_10_S2_P1 = [
           "5",
           "1"
         ],
-        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>1. मान लीजिए 5 पेपरों में अंक $6x, 7x, 8x, 9x, 10x$ हैं।<br>2. कुल प्राप्त अंक = $6x+7x+8x+9x+10x = 40x$।<br>3. मान लीजिए प्रति पेपर अधिकतम अंक $M$ हैं। कुल अधिकतम अंक = $5M$।<br>4. दिया गया है: उसे कुल अंकों का 60% मिला $\\implies 40x = 0.6 \\times 5M = 3M$।<br>   अतः, $M = \\frac{40x}{3} = 13.33x$।<br>5. हमें उन पेपरों को खोजना है जिनमें 50% से अधिक अंक (यानी, $> 0.5M$) हैं।<br>   $M \\text{ का } 50\\% = 0.5 \\times 13.33x = 6.66x$।<br>6. उसके अंक 6x, 7x, 8x, 9x, 10x हैं। $6.66x$ से अधिक अंक 7x, 8x, 9x, 10x हैं।<br>7. इसलिए, उसे <strong>4 पेपरों</strong> में 50% से अधिक अंक मिले।"
+        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>1. मान लीजिए 5 पेपरों में अंक 6x, 7x, 8x, 9x, 10x हैं।<br>2. कुल प्राप्त अंक = 6x + 7x + 8x + 9x + 10x = 40x।<br>3. मान लीजिए प्रति पेपर अधिकतम अंक M हैं। कुल अधिकतम अंक = 5M।<br>4. दिया गया है: उसे कुल अंकों का 60% मिला ⇒ 40x = 0.6 × 5M = 3M।<br>   अतः, M = 40x / 3 = 13.33x।<br>5. हमें उन पेपरों को खोजना है जिनमें 50% से अधिक अंक (यानी, > 0.5M) हैं।<br>   M का 50% = 0.5 × 13.33x = 6.66x।<br>6. उसके अंक 6x, 7x, 8x, 9x, 10x हैं। 6.66x से अधिक अंक 7x, 8x, 9x, 10x हैं।<br>7. इसलिए, उसे <strong>4 पेपरों</strong> में 50% से अधिक अंक मिले।"
       }
     }
   },
@@ -9025,7 +8991,7 @@ const TEST_JAN25_10_S2_P1 = [
     "topicHI": "भारतीय संस्कृति: लोक रूप और उनके राज्य",
     "content": {
       "en": {
-        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>List-I (Folk Form)</th><th style='padding:8px 10px;'>List-II (State)</th></tr><tr><td style='padding:8px 10px;'>A. Jatra</td><td style='padding:8px 10px;'>I. Karnataka</td></tr><tr><td style='padding:8px 10px;'>B. Bhavai</td><td style='padding:8px 10px;'>II. Bengal</td></tr><tr><td style='padding:8px 10px;'>C. Yakshagana</td><td style='padding:8px 10px;'>III. Maharashtra</td></tr><tr><td style='padding:8px 10px;'>D. Powada</td><td style='padding:8px 10px;'>IV. Gujarat</td></tr></table><br>Choose the correct answer from the options given below:",
+        "question": "<p>Match the following:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-I (Folk Form)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-II (State)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. Jatra</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. Karnataka</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. Bhavai</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. Bengal</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. Yakshagana</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. Maharashtra</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. Powada</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. Gujarat</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": [
           "A-II, B-IV, C-III, D-I",
           "A-II, B-IV, C-I, D-III",
@@ -9035,7 +9001,7 @@ const TEST_JAN25_10_S2_P1 = [
         "explanation": "<strong>Matching Folk Forms to States:</strong><br>• <strong>Jatra (A-II):</strong> A popular folk-theatre form of Bengal.<br>• <strong>Bhavai (B-IV):</strong> A traditional folk theatre form of Gujarat.<br>• <strong>Yakshagana (C-I):</strong> A traditional theatre form combining dance, music, and dialogue from Karnataka.<br>• <strong>Powada (D-III):</strong> A traditional Marathi poetry/ballad form from Maharashtra.<br>Thus, A-II, B-IV, C-I, D-III is correct."
       },
       "hi": {
-        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>सूची-I (लोक रूप)</th><th style='padding:8px 10px;'>सूची-II (राज्य)</th></tr><tr><td style='padding:8px 10px;'>A. जात्रा</td><td style='padding:8px 10px;'>I. कर्नाटक</td></tr><tr><td style='padding:8px 10px;'>B. भवाई</td><td style='padding:8px 10px;'>II. बंगाल</td></tr><tr><td style='padding:8px 10px;'>C. यक्षगान</td><td style='padding:8px 10px;'>III. महाराष्ट्र</td></tr><tr><td style='padding:8px 10px;'>D. पोवाड़ा</td><td style='padding:8px 10px;'>IV. गुजरात</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-I (लोक रूप)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-II (राज्य)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. जात्रा</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. कर्नाटक</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. भवाई</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. बंगाल</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. यक्षगान</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. महाराष्ट्र</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. पोवाड़ा</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. गुजरात</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": [
           "A-II, B-IV, C-III, D-I",
           "A-II, B-IV, C-I, D-III",
@@ -9211,7 +9177,7 @@ const TEST_JAN25_10_S2_P1 = [
     "topicHI": "थीसिस और लेख लेखन: प्रारूप और संदर्भ शैलियाँ",
     "content": {
       "en": {
-        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>List-I (Abbreviation)</th><th style='padding:8px 10px;'>List-II (Meaning)</th></tr><tr><td style='padding:8px 10px;'>A. Vid or vide</td><td style='padding:8px 10px;'>I. Same work cited just above</td></tr><tr><td style='padding:8px 10px;'>B. op. cit</td><td style='padding:8px 10px;'>II. See, refer to</td></tr><tr><td style='padding:8px 10px;'>C. id., idem</td><td style='padding:8px 10px;'>III. In the work cited</td></tr><tr><td style='padding:8px 10px;'>D. ibid., ibedem</td><td style='padding:8px 10px;'>IV. The same</td></tr></table><br>Choose the correct answer from the options given below:",
+        "question": "<p>Match the following:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-I (Abbreviation)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-II (Meaning)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. Vid or vide</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. Same work cited just above</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. op. cit</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. See, refer to</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. id., idem</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. In the work cited</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. ibid., ibedem</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. The same</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": [
           "A-IV, B-III, C-I, D-II",
           "A-III, B-II, C-IV, D-I",
@@ -9221,7 +9187,7 @@ const TEST_JAN25_10_S2_P1 = [
         "explanation": "<strong>Matching Latin Citation Abbreviations:</strong><br>• <strong>Vid/vide (A-II):</strong> Means \"see\" or \"refer to\".<br>• <strong>op. cit. (B-III):</strong> Short for <em>opere citato</em>, meaning \"in the work cited\" (referring to a previously cited work).<br>• <strong>idem/id. (C-IV):</strong> Means \"the same\" (usually the same author).<br>• <strong>ibid./ibidem (D-I):</strong> Means \"in the same place\" (referring to the exact same work cited immediately above).<br>Correct match: A-II, B-III, C-IV, D-I."
       },
       "hi": {
-        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>सूची-I (संक्षेपाक्षर)</th><th style='padding:8px 10px;'>सूची-II (अर्थ)</th></tr><tr><td style='padding:8px 10px;'>A. Vid or vide</td><td style='padding:8px 10px;'>I. वही कार्य जिसका उल्लेख ठीक ऊपर किया गया है</td></tr><tr><td style='padding:8px 10px;'>B. op. cit</td><td style='padding:8px 10px;'>II. देखें, संदर्भ लें</td></tr><tr><td style='padding:8px 10px;'>C. id., idem</td><td style='padding:8px 10px;'>III. उद्धृत कार्य में</td></tr><tr><td style='padding:8px 10px;'>D. ibid., ibedem</td><td style='padding:8px 10px;'>IV. वही</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-I (संक्षेपाक्षर)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-II (अर्थ)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. Vid or vide</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. वही कार्य जिसका उल्लेख ठीक ऊपर किया गया है</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. op. cit</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. देखें, संदर्भ लें</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. id., idem</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. उद्धृत कार्य में</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. ibid., ibedem</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. वही</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": [
           "A-IV, B-III, C-I, D-II",
           "A-III, B-II, C-IV, D-I",
@@ -9467,12 +9433,12 @@ const TEST_JAN25_10_S1_P1 = [
       "en": {
         "question": TABLE_JAN25_10_S1_P1.en + "<br><br><strong>Question:</strong><br> If the ratio between number of girls and boys in College B in 2021 is 3:5 and the ratio between the number of girls and boys in College C in 2022 is 7:5, then what is the ratio between the number of girls in College B in 2021 to the number of boys of College C in 2022?",
         "options": ["2:5", "3:5", "1:3", "2:3"],
-        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. <strong>College B (2021):</strong> Total students = 800. Ratio of Girls to Boys = 3:5.<br>Number of Girls = $\\frac{3}{3+5} \\times 800 = \\frac{3}{8} \\times 800 = 300$.<br>2. <strong>College C (2022):</strong> Total students = 1200. Ratio of Girls to Boys = 7:5.<br>Number of Boys = $\\frac{5}{7+5} \\times 1200 = \\frac{5}{12} \\times 1200 = 500$.<br>3. <strong>Required Ratio:</strong> Girls in B(2021) : Boys in C(2022) = 300 : 500 = <strong>3:5</strong>."
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. <strong>College B (2021):</strong> Total students = 800. Ratio of Girls to Boys = 3:5.<br>Number of Girls = 3/(3+5) × 800 = 3/8 × 800 = 300.<br>2. <strong>College C (2022):</strong> Total students = 1200. Ratio of Girls to Boys = 7:5.<br>Number of Boys = 5/(7+5) × 1200 = 5/12 × 1200 = 500.<br>3. <strong>Required Ratio:</strong> Girls in B(2021) : Boys in C(2022) = 300 : 500 = <strong>3:5</strong>."
       },
       "hi": {
         "question": TABLE_JAN25_10_S1_P1.hi + "<br><br><strong>प्रश्न:</strong><br> यदि 2021 में कॉलेज B में लड़कियों और लड़कों की संख्या के बीच का अनुपात 3:5 है और 2022 में कॉलेज C में लड़कियों और लड़कों की संख्या के बीच का अनुपात 7:5 है, तो 2021 में कॉलेज B में लड़कियों की संख्या का 2022 में कॉलेज C के लड़कों की संख्या से अनुपात क्या है?",
         "options": ["2:5", "3:5", "1:3", "2:3"],
-        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. <strong>कॉलेज B (2021):</strong> कुल छात्र = 800। लड़कियों और लड़कों का अनुपात = 3:5।<br>लड़कियों की संख्या = $\\frac{3}{8} \\times 800 = 300$।<br>2. <strong>कॉलेज C (2022):</strong> कुल छात्र = 1200। लड़कियों और लड़कों का अनुपात = 7:5।<br>लड़कों की संख्या = $\\frac{5}{12} \\times 1200 = 500$।<br>3. <strong>आवश्यक अनुपात:</strong> B (2021) में लड़कियाँ : C (2022) में लड़के = 300 : 500 = <strong>3:5</strong>।"
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. <strong>कॉलेज B (2021):</strong> कुल छात्र = 800। लड़कियों और लड़कों का अनुपात = 3:5।<br>लड़कियों की संख्या = 3/8 × 800 = 300।<br>2. <strong>कॉलेज C (2022):</strong> कुल छात्र = 1200। लड़कियों और लड़कों का अनुपात = 7:5।<br>लड़कों की संख्या = 5/12 × 1200 = 500।<br>3. <strong>आवश्यक अनुपात:</strong> B (2021) में लड़कियाँ : C (2022) में लड़के = 300 : 500 = <strong>3:5</strong>।"
       }
     }
   },
@@ -9488,12 +9454,12 @@ const TEST_JAN25_10_S1_P1 = [
       "en": {
         "question": TABLE_JAN25_10_S1_P1.en + "<br><br><strong>Question:</strong><br> Taking all the Colleges together, the total number of students enrolled in the year 2020 is ______ more than the total number of students enrolled in the year 2023.",
         "options": ["500", "900", "300", "700"],
-        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. Total students in 2020 = $1200 (A) + 900 (B) + 1000 (C) + 700 (D) = 3800$.<br>2. Total students in 2023 = $600 (A) + 700 (B) + 800 (C) + 1000 (D) = 3100$.<br>3. Difference = $3800 - 3100 = <strong>700</strong>$."
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. Total students in 2020 = 1200 (A) + 900 (B) + 1000 (C) + 700 (D) = 3800.<br>2. Total students in 2023 = 600 (A) + 700 (B) + 800 (C) + 1000 (D) = 3100.<br>3. Difference = 3800 - 3100 = <strong>700</strong>."
       },
       "hi": {
         "question": TABLE_JAN25_10_S1_P1.hi + "<br><br><strong>प्रश्न:</strong><br> सभी कॉलेजों को एक साथ लेते हुए, वर्ष 2020 में नामांकित छात्रों की कुल संख्या वर्ष 2023 में नामांकित छात्रों की कुल संख्या से ______ अधिक है।",
         "options": ["500", "900", "300", "700"],
-        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. 2020 में कुल छात्र = $1200 (A) + 900 (B) + 1000 (C) + 700 (D) = 3800$।<br>2. 2023 में कुल छात्र = $600 (A) + 700 (B) + 800 (C) + 1000 (D) = 3100$।<br>3. अंतर = $3800 - 3100 = <strong>700</strong>$।"
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. 2020 में कुल छात्र = 1200 (A) + 900 (B) + 1000 (C) + 700 (D) = 3800।<br>2. 2023 में कुल छात्र = 600 (A) + 700 (B) + 800 (C) + 1000 (D) = 3100।<br>3. अंतर = 3800 - 3100 = <strong>700</strong>।"
       }
     }
   },
@@ -9509,12 +9475,12 @@ const TEST_JAN25_10_S1_P1 = [
       "en": {
         "question": TABLE_JAN25_10_S1_P1.en + "<br><br><strong>Question:</strong><br> What is the average number of students enrolled in College B over all the four years?",
         "options": ["850", "750", "840", "720"],
-        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. Total enrolled in College B = $900 (2020) + 800 (2021) + 1000 (2022) + 700 (2023) = 3400$.<br>2. Average = $\\frac{\\text{Total}}{\\text{Number of years}} = \\frac{3400}{4} = <strong>850</strong>$."
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. Total enrolled in College B = 900 (2020) + 800 (2021) + 1000 (2022) + 700 (2023) = 3400.<br>2. Average = Total / Number of years = 3400 / 4 = <strong>850</strong>."
       },
       "hi": {
         "question": TABLE_JAN25_10_S1_P1.hi + "<br><br><strong>प्रश्न:</strong><br> सभी चार वर्षों में कॉलेज B में नामांकित छात्रों की औसत संख्या क्या है?",
         "options": ["850", "750", "840", "720"],
-        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. कॉलेज B में नामांकित कुल छात्र = $900 (2020) + 800 (2021) + 1000 (2022) + 700 (2023) = 3400$।<br>2. औसत = $\\frac{\\text{कुल छात्र}}{\\text{वर्षों की संख्या}} = \\frac{3400}{4} = <strong>850</strong>$।"
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. कॉलेज B में नामांकित कुल छात्र = 900 (2020) + 800 (2021) + 1000 (2022) + 700 (2023) = 3400।<br>2. औसत = कुल छात्र / वर्षों की संख्या = 3400 / 4 = <strong>850</strong>।"
       }
     }
   },
@@ -9530,12 +9496,12 @@ const TEST_JAN25_10_S1_P1 = [
       "en": {
         "question": TABLE_JAN25_10_S1_P1.en + "<br><br><strong>Question:</strong><br> Number of students enrolled in College A in year 2020 and 2021 together is ______% more than the number of students enrolled in College C in the year 2022 and 2023 together.",
         "options": ["12.5", "8.5", "10", "15"],
-        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. Students in College A (2020 + 2021) = $1200 + 1100 = 2300$.<br>2. Students in College C (2022 + 2023) = $1200 + 800 = 2000$.<br>3. Difference = $2300 - 2000 = 300$.<br>4. Percentage more = $(\\frac{\\text{Difference}}{\\text{College C Total}}) \\times 100$<br>   Percentage = $(\\frac{300}{2000}) \\times 100 = 15\\%$."
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. Students in College A (2020 + 2021) = 1200 + 1100 = 2300.<br>2. Students in College C (2022 + 2023) = 1200 + 800 = 2000.<br>3. Difference = 2300 - 2000 = 300.<br>4. Percentage more = (Difference / College C Total) × 100<br>   Percentage = (300 / 2000) × 100 = 15%."
       },
       "hi": {
         "question": TABLE_JAN25_10_S1_P1.hi + "<br><br><strong>प्रश्न:</strong><br> वर्ष 2020 और 2021 में कॉलेज A में नामांकित छात्रों की संख्या वर्ष 2022 और 2023 में कॉलेज C में नामांकित छात्रों की संख्या से ______% अधिक है।",
         "options": ["12.5", "8.5", "10", "15"],
-        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. कॉलेज A में छात्र (2020 + 2021) = $1200 + 1100 = 2300$।<br>2. कॉलेज C में छात्र (2022 + 2023) = $1200 + 800 = 2000$।<br>3. अंतर = $2300 - 2000 = 300$।<br>4. प्रतिशत अधिक = $(\\frac{\\text{अंतर}}{\\text{कॉलेज C कुल}}) \\times 100$<br>   प्रतिशत = $(\\frac{300}{2000}) \\times 100 = 15\\%$।"
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. कॉलेज A में छात्र (2020 + 2021) = 1200 + 1100 = 2300।<br>2. कॉलेज C में छात्र (2022 + 2023) = 1200 + 800 = 2000।<br>3. अंतर = 2300 - 2000 = 300।<br>4. प्रतिशत अधिक = (अंतर / कॉलेज C कुल) × 100<br>   प्रतिशत = (300 / 2000) × 100 = 15%।"
       }
     }
   },
@@ -9551,12 +9517,12 @@ const TEST_JAN25_10_S1_P1 = [
       "en": {
         "question": TABLE_JAN25_10_S1_P1.en + "<br><br><strong>Question:</strong><br> For College B in the year 2021, if 20% of students were enrolled in B.Sc, 30% of students were enrolled in B.Com, and the remaining students were enrolled in BCA, then what is the difference between the number of students enrolled in BCA and B.Sc?",
         "options": ["260", "220", "230", "240"],
-        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. Total students in College B (2021) = 800.<br>2. Percentage in B.Sc = 20%. Percentage in B.Com = 30%.<br>3. Remaining percentage (BCA) = $100\\% - (20\\% + 30\\%) = 50\\%$.<br>4. Difference in percentage between BCA and B.Sc = $50\\% - 20\\% = 30\\%$.<br>5. Difference in number of students = $30\\% \\text{ of } 800 = 0.30 \\times 800 = <strong>240</strong>$."
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. Total students in College B (2021) = 800.<br>2. Percentage in B.Sc = 20%. Percentage in B.Com = 30%.<br>3. Remaining percentage (BCA) = 100% - (20% + 30%) = 50%.<br>4. Difference in percentage between BCA and B.Sc = 50% - 20% = 30%.<br>5. Difference in number of students = 30% of 800 = 0.30 × 800 = <strong>240</strong>."
       },
       "hi": {
         "question": TABLE_JAN25_10_S1_P1.hi + "<br><br><strong>प्रश्न:</strong><br> वर्ष 2021 में कॉलेज B के लिए, यदि 20% छात्र B.Sc में नामांकित थे, 30% छात्र B.Com में नामांकित थे, और शेष छात्र BCA में नामांकित थे, तो BCA और B.Sc में नामांकित छात्रों की संख्या के बीच अंतर क्या है?",
         "options": ["260", "220", "230", "240"],
-        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. कॉलेज B (2021) में कुल छात्र = 800।<br>2. B.Sc में प्रतिशत = 20%। B.Com में प्रतिशत = 30%।<br>3. शेष प्रतिशत (BCA) = $100\\% - (20\\% + 30\\%) = 50\\%$।<br>4. BCA और B.Sc के बीच प्रतिशत में अंतर = $50\\% - 20\\% = 30\\%$।<br>5. छात्रों की संख्या में अंतर = $800 \\text{ का } 30\\% = 0.30 \\times 800 = <strong>240</strong>$।"
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. कॉलेज B (2021) में कुल छात्र = 800।<br>2. B.Sc में प्रतिशत = 20%। B.Com में प्रतिशत = 30%।<br>3. शेष प्रतिशत (BCA) = 100% - (20% + 30%) = 50%।<br>4. BCA और B.Sc के बीच प्रतिशत में अंतर = 50% - 20% = 30%।<br>5. छात्रों की संख्या में अंतर = 800 का 30% = 0.30 × 800 = <strong>240</strong>।"
       }
     }
   },
@@ -9653,7 +9619,7 @@ const TEST_JAN25_10_S1_P1 = [
     "topicHI": "अंतर्राष्ट्रीय पर्यावरण समझौते और प्रोटोकॉल",
     "content": {
       "en": {
-        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>List-I (Environmental Treaty/Convention)</th><th style='padding:8px 10px;'>List-II (Focus Area)</th></tr><tr><td style='padding:8px 10px;'>A. Bonn Convention</td><td style='padding:8px 10px;'>I. Migratory Species Conservation</td></tr><tr><td style='padding:8px 10px;'>B. CITES</td><td style='padding:8px 10px;'>II. Convention on Biological Diversity</td></tr><tr><td style='padding:8px 10px;'>C. Earth Summit</td><td style='padding:8px 10px;'>III. Trades in Endangered Species</td></tr><tr><td style='padding:8px 10px;'>D. Nagoya Protocol</td><td style='padding:8px 10px;'>IV. Sustainable Development</td></tr></table><br>Choose the correct answer from the options given below:",
+        "question": "<p>Match the following:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-I (Environmental Treaty/Convention)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-II (Focus Area)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. Bonn Convention</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. Migratory Species Conservation</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. CITES</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. Convention on Biological Diversity</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. Earth Summit</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. Trades in Endangered Species</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. Nagoya Protocol</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. Sustainable Development</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": [
           "A-IV, B-III, C-II, D-I",
           "A-I, B-III, C-IV, D-II",
@@ -9663,7 +9629,7 @@ const TEST_JAN25_10_S1_P1 = [
         "explanation": "<strong>Matching Environmental Treaties:</strong><br>• <strong>Bonn Convention (A-I):</strong> Focuses on the conservation of Migratory Species of Wild Animals.<br>• <strong>CITES (B-III):</strong> Convention on International Trade in Endangered Species of Wild Fauna and Flora.<br>• <strong>Earth Summit 1992 (C-IV):</strong> Focused broadly on Sustainable Development (Agenda 21).<br>• <strong>Nagoya Protocol (D-II):</strong> A supplementary agreement to the Convention on Biological Diversity (CBD) regarding genetic resources.<br>Correct order: A-I, B-III, C-IV, D-II."
       },
       "hi": {
-        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>सूची-I (पर्यावरण संधि/सम्मेलन)</th><th style='padding:8px 10px;'>सूची-II (फोकस क्षेत्र)</th></tr><tr><td style='padding:8px 10px;'>A. बॉन कन्वेंशन</td><td style='padding:8px 10px;'>I. प्रवासी प्रजाति संरक्षण</td></tr><tr><td style='padding:8px 10px;'>B. सीआईटीईएस (CITES)</td><td style='padding:8px 10px;'>II. जैविक विविधता पर सम्मेलन</td></tr><tr><td style='padding:8px 10px;'>C. पृथ्वी शिखर सम्मेलन</td><td style='padding:8px 10px;'>III. लुप्तप्राय प्रजातियों का व्यापार</td></tr><tr><td style='padding:8px 10px;'>D. नागोया प्रोटोकॉल</td><td style='padding:8px 10px;'>IV. सतत विकास</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-I (पर्यावरण संधि/सम्मेलन)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-II (फोकस क्षेत्र)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. बॉन कन्वेंशन</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. प्रवासी प्रजाति संरक्षण</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. सीआईटीईएस (CITES)</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. जैविक विविधता पर सम्मेलन</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. पृथ्वी शिखर सम्मेलन</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. लुप्तप्राय प्रजातियों का व्यापार</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. नागोया प्रोटोकॉल</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. सतत विकास</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": [
           "A-IV, B-III, C-II, D-I",
           "A-I, B-III, C-IV, D-II",
@@ -9767,7 +9733,7 @@ const TEST_JAN25_10_S1_P1 = [
     "topicHI": "प्राचीन भारत में उच्च शिक्षा के संस्थान और शिक्षा",
     "content": {
       "en": {
-        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>List-I (Institutions)</th><th style='padding:8px 10px;'>List-II (Propounders)</th></tr><tr><td style='padding:8px 10px;'>A. Milind College</td><td style='padding:8px 10px;'>I. B.R. Ambedkar</td></tr><tr><td style='padding:8px 10px;'>B. Rajghat Besant School</td><td style='padding:8px 10px;'>II. Sri Aurobindo</td></tr><tr><td style='padding:8px 10px;'>C. Banasthali Vidyapeeth</td><td style='padding:8px 10px;'>III. Hiralal Shastri</td></tr><tr><td style='padding:8px 10px;'>D. Auroville</td><td style='padding:8px 10px;'>IV. Jiddu Krishnamurti</td></tr></table><br>Choose the correct answer from the options given below:",
+        "question": "<p>Match the following:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-I (Institutions)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>List-II (Propounders)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. Milind College</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. B.R. Ambedkar</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. Rajghat Besant School</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. Sri Aurobindo</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. Banasthali Vidyapeeth</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. Hiralal Shastri</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. Auroville</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. Jiddu Krishnamurti</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": [
           "A-IV, B-III, C-II, D-I",
           "A-III, B-II, C-I, D-IV",
@@ -9777,7 +9743,7 @@ const TEST_JAN25_10_S1_P1 = [
         "explanation": "<strong>Matching Educational Institutions:</strong><br>• <strong>Milind College (A-I):</strong> Founded by Dr. B.R. Ambedkar in Aurangabad.<br>• <strong>Rajghat Besant School (B-IV):</strong> Founded by the philosopher Jiddu Krishnamurti in Varanasi.<br>• <strong>Banasthali Vidyapeeth (C-III):</strong> Founded by Hiralal Shastri for women's education.<br>• <strong>Auroville (D-II):</strong> An experimental township in South India inspired by the vision of Sri Aurobindo.<br>Correct match: A-I, B-IV, C-III, D-II."
       },
       "hi": {
-        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>सूची-I (संस्थाएँ)</th><th style='padding:8px 10px;'>सूची-II (प्रस्तावक)</th></tr><tr><td style='padding:8px 10px;'>A. मिलिंद कॉलेज</td><td style='padding:8px 10px;'>I. बीआर अंबेडकर</td></tr><tr><td style='padding:8px 10px;'>B. राजघाट बेसेंट स्कूल</td><td style='padding:8px 10px;'>II. श्री अरबिंदो</td></tr><tr><td style='padding:8px 10px;'>C. बनस्थली विद्यापीठ</td><td style='padding:8px 10px;'>III. हीरालाल शास्त्री</td></tr><tr><td style='padding:8px 10px;'>D. ऑरोविले</td><td style='padding:8px 10px;'>IV. जिद्दू कृष्णमूर्ति</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-I (संस्थाएँ)</th><th style='border:1px solid #e0e0e0; padding:8px; text-align:left;'>सूची-II (प्रस्तावक)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>A. मिलिंद कॉलेज</td><td style='border:1px solid #e0e0e0; padding:8px;'>I. बीआर अंबेडकर</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>B. राजघाट बेसेंट स्कूल</td><td style='border:1px solid #e0e0e0; padding:8px;'>II. श्री अरबिंदो</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>C. बनस्थली विद्यापीठ</td><td style='border:1px solid #e0e0e0; padding:8px;'>III. हीरालाल शास्त्री</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px;'>D. ऑरोविले</td><td style='border:1px solid #e0e0e0; padding:8px;'>IV. जिद्दू कृष्णमूर्ति</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": [
           "A-IV, B-III, C-II, D-I",
           "A-III, B-II, C-I, D-IV",
@@ -9805,7 +9771,7 @@ const TEST_JAN25_10_S1_P1 = [
           "Peak noise level",
           "Threshold noise level"
         ],
-        "explanation": "In acoustics and environmental noise measurement, <strong>$L_{90}$</strong> is the noise level exceeded for 90% of the measurement period. Since it captures the constant, underlying noise, it is universally used to represent the <strong>Background noise level</strong>."
+        "explanation": "In acoustics and environmental noise measurement, <strong>L₉₀</strong> is the noise level exceeded for 90% of the measurement period. Since it captures the constant, underlying noise, it is universally used to represent the <strong>Background noise level</strong>."
       },
       "hi": {
         "question": "निम्नलिखित में से किसे शोर सूचकांक L₉₀ द्वारा दर्शाया जाता है?",
@@ -9815,7 +9781,7 @@ const TEST_JAN25_10_S1_P1 = [
           "अधिकतम शोर स्तर",
           "सीमा शोर स्तर"
         ],
-        "explanation": "ध्वनिकी और पर्यावरणीय शोर माप में, <strong>$L_{90}$</strong> वह शोर स्तर है जो माप की अवधि के 90% से अधिक रहता है। चूँकि यह स्थिर शोर को पकड़ता है, इसलिए इसका सार्वभौमिक रूप से <strong>पृष्ठभूमि शोर (Background noise) स्तर</strong> को दर्शाने के लिए उपयोग किया जाता है।"
+        "explanation": "ध्वनिकी और पर्यावरणीय शोर माप में, <strong>L₉₀</strong> वह शोर स्तर है जो माप की अवधि के 90% से अधिक रहता है। चूँकि यह स्थिर शोर को पकड़ता है, इसलिए इसका सार्वभौमिक रूप से <strong>पृष्ठभूमि शोर (Background noise) स्तर</strong> को दर्शाने के लिए उपयोग किया जाता है।"
       }
     }
   },
@@ -9846,7 +9812,7 @@ const TEST_JAN25_10_S1_P1 = [
           "शुद्ध प्राथमिक उत्पादकता",
           "शुद्ध द्वितीयक उत्पादकता"
         ],
-        "explanation": "<strong>सकल माध्यमिक उत्पादकता (Gross Secondary Productivity)</strong> उपभोक्ताओं (जानवरों/परपोषी) द्वारा भोजन के माध्यम से आत्मसात की गई ऊर्जा या बायोमास की कुल मात्रा है। <em>प्राथमिक उत्पादकता</em> केवल पौधों/स्वपोषी जीवों से संबंधित है।"
+        "explanation": "<strong>सकल माध्यमिक उत्पादकता (Gross Secondary Productivity)</strong> उपभोक्ताओं (जानवरों/परपोषी जीवों) द्वारा भोजन के माध्यम से आत्मसात की गई ऊर्जा या बायोमास की कुल मात्रा है। <em>प्राथमिक उत्पादकता</em> केवल पौधों/स्वपोषी जीवों से संबंधित है।"
       }
     }
   },
@@ -9925,12 +9891,12 @@ const TEST_JAN25_10_S1_P1 = [
       "en": {
         "question": "A train travels at a certain average speed for a distance of 63 km and then travels a distance of 72 km at an average speed of 6 km/h more than its original speed. If it takes 3 hours to complete the total journey, what is the original speed?",
         "options": ["48 km/h", "40 km/h", "42 km/h", "32 km/h"],
-        "explanation": "<strong>Step-by-step Solution:</strong><br>1. Let the original speed be $v$ km/h.<br>2. Total time = $Time_1 + Time_2 = 3$ hours.<br>   $\\frac{63}{v} + \\frac{72}{v+6} = 3$<br>3. Divide the entire equation by 3 to simplify:<br>   $\\frac{21}{v} + \\frac{24}{v+6} = 1$<br>4. Multiply by $v(v+6)$:<br>   $21(v+6) + 24v = v^2 + 6v$<br>   $21v + 126 + 24v = v^2 + 6v$<br>   $45v + 126 = v^2 + 6v$<br>5. Rearrange into a quadratic equation: $v^2 - 39v - 126 = 0$<br>6. Factorize: $v^2 - 42v + 3v - 126 = 0 \\implies (v-42)(v+3) = 0$.<br>Since speed cannot be negative, $v = <strong>42 \\text{ km/h}</strong>$."
+        "explanation": "<strong>Step-by-step Solution:</strong><br>1. Let the original speed be v km/h.<br>2. Total time = Time₁ + Time₂ = 3 hours.<br>   63/v + 72/(v+6) = 3<br>3. Divide the entire equation by 3 to simplify:<br>   21/v + 24/(v+6) = 1<br>4. Multiply by v(v+6):<br>   21(v+6) + 24v = v² + 6v<br>   21v + 126 + 24v = v² + 6v<br>   45v + 126 = v² + 6v<br>5. Rearrange into a quadratic equation: v² - 39v - 126 = 0<br>6. Factorize: v² - 42v + 3v - 126 = 0 ⇒ (v-42)(v+3) = 0.<br>Since speed cannot be negative, v = <strong>42 km/h</strong>."
       },
       "hi": {
         "question": "एक रेलगाड़ी 63 किमी की दूरी एक निश्चित औसत गति से तय करती है और फिर 72 किमी की दूरी अपनी मूल गति से 6 किमी/घंटा अधिक की औसत गति से तय करती है। यदि पूरी यात्रा पूरी करने में उसे 3 घंटे लगते हैं, तो मूल गति क्या है?",
         "options": ["48 किमी/घंटा", "40 किमी/घंटा", "42 किमी/घंटा", "32 किमी/घंटा"],
-        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>1. मान लीजिए कि मूल गति $v$ किमी/घंटा है।<br>2. कुल समय = $Time_1 + Time_2 = 3$ घंटे।<br>   $\\frac{63}{v} + \\frac{72}{v+6} = 3$<br>3. सरल करने के लिए पूरे समीकरण को 3 से विभाजित करें:<br>   $\\frac{21}{v} + \\frac{24}{v+6} = 1$<br>4. $v(v+6)$ से गुणा करें:<br>   $21(v+6) + 24v = v^2 + 6v$<br>   $21v + 126 + 24v = v^2 + 6v$<br>   $45v + 126 = v^2 + 6v$<br>5. द्विघात समीकरण (quadratic equation) में पुनर्व्यवस्थित करें: $v^2 - 39v - 126 = 0$<br>6. गुणनखंडन (Factorize): $v^2 - 42v + 3v - 126 = 0 \\implies (v-42)(v+3) = 0$।<br>चूँकि गति नकारात्मक नहीं हो सकती, $v = <strong>42 \\text{ किमी/घंटा}</strong>$।"
+        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>1. मान लीजिए कि मूल गति v किमी/घंटा है।<br>2. कुल समय = Time₁ + Time₂ = 3 घंटे।<br>   63/v + 72/(v+6) = 3<br>3. सरल करने के लिए पूरे समीकरण को 3 से विभाजित करें:<br>   21/v + 24/(v+6) = 1<br>4. v(v+6) से गुणा करें:<br>   21(v+6) + 24v = v² + 6v<br>   21v + 126 + 24v = v² + 6v<br>   45v + 126 = v² + 6v<br>5. द्विघात समीकरण (quadratic equation) में पुनर्व्यवस्थित करें: v² - 39v - 126 = 0<br>6. गुणनखंडन (Factorize): v² - 42v + 3v - 126 = 0 ⇒ (v-42)(v+3) = 0।<br>चूँकि गति नकारात्मक नहीं हो सकती, v = <strong>42 किमी/घंटा</strong>।"
       }
     }
   },
@@ -9987,7 +9953,7 @@ const TEST_JAN25_10_S1_P1 = [
       "hi": {
         "question": "निम्नलिखित में भ्रांति की पहचान करें: \"केवल पुरुष के पास अमर आत्मा होती है\"। कोई भी महिला पुरुष नहीं है। इसलिए, किसी भी महिला के पास अमर आत्मा नहीं होती।\"",
         "options": [
-          "काकिगौडा",
+          "काकिगौडा (Strawman)",
           "गोल-मोल बात (Equivocation)",
           "रेड हेरिंग",
           "बैंडवैगन तर्क"
@@ -10075,7 +10041,7 @@ const TEST_JAN25_10_S1_P1 = [
           "Rs 30 per kg",
           "Rs 40 per kg"
         ],
-        "explanation": "<strong>Step-by-step Solution:</strong><br>1. <strong>Cost of Basmati rice:</strong> 10 kg × Rs 50/kg = Rs 500.<br>2. <strong>Cost of ordinary rice:</strong> 15 kg × Rs 20/kg = Rs 300.<br>3. <strong>Total Cost Price (CP):</strong> Rs 500 + Rs 300 = Rs 800.<br>4. <strong>Total quantity of mixture:</strong> 10 kg + 15 kg = 25 kg.<br>5. <strong>CP per kg of mixture:</strong> Rs 800 / 25 kg = Rs 32/kg.<br>6. He wants a <strong>gain of 25%</strong> on this CP.<br>   Selling Price (SP) = CP + 25% of CP = $32 + (0.25 \\times 32) = 32 + 8 =$ <strong>Rs 40/kg</strong>."
+        "explanation": "<strong>Step-by-step Solution:</strong><br>1. <strong>Cost of Basmati rice:</strong> 10 kg × Rs 50/kg = Rs 500.<br>2. <strong>Cost of ordinary rice:</strong> 15 kg × Rs 20/kg = Rs 300.<br>3. <strong>Total Cost Price (CP):</strong> Rs 500 + Rs 300 = Rs 800.<br>4. <strong>Total quantity of mixture:</strong> 10 kg + 15 kg = 25 kg.<br>5. <strong>CP per kg of mixture:</strong> Rs 800 / 25 kg = Rs 32/kg.<br>6. He wants a <strong>gain of 25%</strong> on this CP.<br>   Selling Price (SP) = CP + 25% of CP = 32 + (0.25 × 32) = 32 + 8 = <strong>Rs 40/kg</strong>."
       },
       "hi": {
         "question": "एक दुकानदार ने 50 रुपये प्रति किलोग्राम की दर से 10 किलोग्राम बासमती चावल और 20 रुपये प्रति किलोग्राम की दर से 15 किलोग्राम साधारण चावल खरीदा। उसने चावल की दो किस्मों को मिलाया और 25% के लाभ पर बेचा। उसका विक्रय मूल्य (रुपये/किलोग्राम) क्या था?",
@@ -10085,7 +10051,7 @@ const TEST_JAN25_10_S1_P1 = [
           "30 रुपये प्रति किलो",
           "40 रुपये प्रति किलो"
         ],
-        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>1. <strong>बासमती चावल की लागत:</strong> 10 किग्रा × 50 रुपये/किग्रा = 500 रुपये।<br>2. <strong>साधारण चावल की लागत:</strong> 15 किग्रा × 20 रुपये/किग्रा = 300 रुपये।<br>3. <strong>कुल लागत मूल्य (CP):</strong> 500 रुपये + 300 रुपये = 800 रुपये।<br>4. <strong>मिश्रण की कुल मात्रा:</strong> 10 किलो + 15 किलो = 25 किलो।<br>5. <strong>मिश्रण का CP प्रति किलो:</strong> 800 रुपये / 25 किग्रा = 32 रुपये/किग्रा।<br>6. वह इस CP पर <strong>25% का लाभ</strong> चाहता है।<br>   विक्रय मूल्य (SP) = CP + CP का 25% = $32 + (0.25 \\times 32) = 32 + 8 =$ <strong>40 रुपये/किग्रा</strong>।"
+        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>1. <strong>बासमती चावल की लागत:</strong> 10 किग्रा × 50 रुपये/किग्रा = 500 रुपये।<br>2. <strong>साधारण चावल की लागत:</strong> 15 किग्रा × 20 रुपये/किग्रा = 300 रुपये।<br>3. <strong>कुल लागत मूल्य (CP):</strong> 500 रुपये + 300 रुपये = 800 रुपये।<br>4. <strong>मिश्रण की कुल मात्रा:</strong> 10 किलो + 15 किलो = 25 किलो।<br>5. <strong>मिश्रण का CP प्रति किलो:</strong> 800 रुपये / 25 किग्रा = 32 रुपये/किग्रा।<br>6. वह इस CP पर <strong>25% का लाभ</strong> चाहता है।<br>   विक्रय मूल्य (SP) = CP + CP का 25% = 32 + (0.25 × 32) = 32 + 8 = <strong>40 रुपये/किग्रा</strong>।"
       }
     }
   },
@@ -10099,7 +10065,7 @@ const TEST_JAN25_10_S1_P1 = [
     "topicHI": "जनसंचार माध्यम और समाज",
     "content": {
       "en": {
-        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>List-I (Proponents)</th><th style='padding:8px 10px;'>List-II (Theory)</th></tr><tr><td style='padding:8px 10px;'>A. George Gerbner</td><td style='padding:8px 10px;'>I. Cognitive Dissonance Theory</td></tr><tr><td style='padding:8px 10px;'>B. L.A. Festinger</td><td style='padding:8px 10px;'>II. Cultivation Theory</td></tr><tr><td style='padding:8px 10px;'>C. McCombs and Donald L. Shaw</td><td style='padding:8px 10px;'>III. Uses and Gratification Theory</td></tr><tr><td style='padding:8px 10px;'>D. Katz and Blumer</td><td style='padding:8px 10px;'>IV. Agenda Setting Theory</td></tr></table><br>Choose the correct answer from the options given below:",
+        "question": "<p>Match the following:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>List-I (Proponents)</th><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>List-II (Theory)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>A. George Gerbner</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>I. Cognitive Dissonance Theory</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>B. L.A. Festinger</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>II. Cultivation Theory</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>C. McCombs and Donald L. Shaw</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>III. Uses and Gratification Theory</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>D. Katz and Blumer</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>IV. Agenda Setting Theory</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": [
           "A-I, B-II, C-IV, D-III",
           "A-III, B-II, C-IV, D-I",
@@ -10109,7 +10075,7 @@ const TEST_JAN25_10_S1_P1 = [
         "explanation": "<strong>Matching Communication Theories with Proponents:</strong><br>• <strong>George Gerbner (A-II):</strong> Developed the <em>Cultivation Theory</em>, which examines the long-term effects of television.<br>• <strong>Leon Festinger (B-I):</strong> Formulated the <em>Cognitive Dissonance Theory</em>.<br>• <strong>McCombs & Shaw (C-IV):</strong> Developed the <em>Agenda-Setting Theory</em>, explaining how media influences what we think about.<br>• <strong>Katz & Blumler (D-III):</strong> Associated with the <em>Uses and Gratification Theory</em>.<br>Therefore, the correct match is A-II, B-I, C-IV, D-III."
       },
       "hi": {
-        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>सूची-I (प्रस्तावक)</th><th style='padding:8px 10px;'>सूची-II (सिद्धांत)</th></tr><tr><td style='padding:8px 10px;'>A. जॉर्ज गर्बनेर</td><td style='padding:8px 10px;'>I. संज्ञानात्मक असंगति सिद्धांत</td></tr><tr><td style='padding:8px 10px;'>B. एलए फेस्टिंगर</td><td style='padding:8px 10px;'>II. खेती सिद्धांत (Cultivation Theory)</td></tr><tr><td style='padding:8px 10px;'>C. मैककॉम्ब्स और डोनाल्ड एल. शॉ</td><td style='padding:8px 10px;'>III. उपयोग और संतुष्टि सिद्धांत</td></tr><tr><td style='padding:8px 10px;'>D. काट्ज़ और ब्लूमर</td><td style='padding:8px 10px;'>IV. एजेंडा सेटिंग सिद्धांत</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>सूची-I (प्रस्तावक)</th><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>सूची-II (सिद्धांत)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>A. जॉर्ज गर्बनेर</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>I. संज्ञानात्मक असंगति सिद्धांत</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>B. एलए फेस्टिंगर</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>II. खेती सिद्धांत (Cultivation Theory)</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>C. मैककॉम्ब्स और डोनाल्ड एल. शॉ</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>III. उपयोग और संतुष्टि सिद्धांत</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>D. काट्ज़ और ब्लूमर</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>IV. एजेंडा सेटिंग सिद्धांत</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": [
           "A-I, B-II, C-IV, D-III",
           "A-III, B-II, C-IV, D-I",
@@ -10297,7 +10263,7 @@ const TEST_JAN25_10_S1_P1 = [
           "तीन समूह",
           "चार समूह"
         ],
-        "explanation": "एक मानक मजबूत <strong>प्लेसीबो नियंत्रण समूह डिजाइन (Placebo Control Group Design)</strong> में आम तौर पर <strong>तीन समूहों</strong> की आवश्यकता होती है:<br>1. <strong>प्रायोगिक समूह (Experimental Group):</strong> वास्तविक उपचार/दवा प्राप्त करता है।<br>2. <strong>प्लेसबो समूह (Placebo Group):</strong> मनोवैज्ञानिक प्लेसबो प्रभाव को मापने के लिए एक नकली उपचार (चीनी की गोली) प्राप्त करता है।<br>3. <strong>सच्चा नियंत्रण समूह (True Control Group):</strong> कुछ भी प्राप्त नहीं करता (बिना किसी हस्तक्षेप के आधारभूत प्राकृतिक परिवर्तनों को मापने के लिए)।"
+        "explanation": "एक मानक मजबूत <strong>प्लेसीबो नियंत्रण समूह डिजाइन (Placebo Control Group Design)</strong> में आम तौर पर <strong>तीन समूहों</strong> की आवश्यकता होती है:<br>1. <strong>प्रायोगिक समूह (Experimental Group):</strong> वास्तविक उपचार/दवा प्राप्त करता है。<br>2. <strong>प्लेसबो समूह (Placebo Group):</strong> मनोवैज्ञानिक प्लेसबो प्रभाव को मापने के लिए एक नकली उपचार (चीनी की गोली) प्राप्त करता है。<br>3. <strong>सच्चा नियंत्रण समूह (True Control Group):</strong> कुछ भी प्राप्त नहीं करता (बिना किसी हस्तक्षेप के आधारभूत प्राकृतिक परिवर्तनों को मापने के लिए)।"
       }
     }
   },
@@ -10375,12 +10341,12 @@ const TEST_JAN25_10_S1_P1 = [
       "en": {
         "question": "A sum of Rs 3800 is divided among three persons A, B, and C in the ratio ½ : ⅓ : ¾. What is the share of the person C?",
         "options": ["Rs. 3360", "Rs. 2240", "Rs. 2150", "Rs. 1800"],
-        "explanation": "<strong>Step-by-step Solution:</strong><br>1. Ratio of A : B : C = $\\frac{1}{2} : \\frac{1}{3} : \\frac{3}{4}$.<br>2. To simplify, multiply the entire ratio by the LCM of denominators (2, 3, 4) which is 12.<br>   $A = \\frac{1}{2} \\times 12 = 6$<br>   $B = \\frac{1}{3} \\times 12 = 4$<br>   $C = \\frac{3}{4} \\times 12 = 9$<br>   Simplified Ratio A : B : C = <strong>6 : 4 : 9</strong>.<br>3. Total parts = $6 + 4 + 9 = 19$ parts.<br>4. Value of 1 part = $3800 / 19 = \\text{Rs. } 200$.<br>5. Share of C = $9 \\text{ parts} \\times 200 =$ <strong>Rs. 1800</strong>."
+        "explanation": "<strong>Step-by-step Solution:</strong><br>1. Ratio of A : B : C = 1/2 : 1/3 : 3/4.<br>2. To simplify, multiply the entire ratio by the LCM of denominators (2, 3, 4) which is 12.<br>   A = (1/2) × 12 = 6<br>   B = (1/3) × 12 = 4<br>   C = (3/4) × 12 = 9<br>   Simplified Ratio A : B : C = <strong>6 : 4 : 9</strong>.<br>3. Total parts = 6 + 4 + 9 = 19 parts.<br>4. Value of 1 part = 3800 / 19 = Rs. 200.<br>5. Share of C = 9 parts × 200 = <strong>Rs. 1800</strong>."
       },
       "hi": {
         "question": "3800 रुपये की राशि को तीन व्यक्तियों A, B और C के बीच ½ : ⅓ : ¾ के अनुपात में बाँटा गया है। व्यक्ति C का हिस्सा क्या है?",
         "options": ["रु. 3360", "रु. 2240", "रु. 2150", "रु. 1800"],
-        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>1. A : B : C का अनुपात = $\\frac{1}{2} : \\frac{1}{3} : \\frac{3}{4}$।<br>2. सरल करने के लिए, पूरे अनुपात को हर (denominators 2, 3, 4) के लघुत्तम समापवर्त्य (LCM) 12 से गुणा करें।<br>   $A = \\frac{1}{2} \\times 12 = 6$<br>   $B = \\frac{1}{3} \\times 12 = 4$<br>   $C = \\frac{3}{4} \\times 12 = 9$<br>   सरलीकृत अनुपात A : B : C = <strong>6 : 4 : 9</strong>।<br>3. कुल भाग = $6 + 4 + 9 = 19$ भाग।<br>4. 1 भाग का मूल्य = $3800 / 19 = \\text{रु. } 200$।<br>5. C का हिस्सा = $9 \\text{ भाग} \\times 200 =$ <strong>रु. 1800</strong>।"
+        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>1. A : B : C का अनुपात = 1/2 : 1/3 : 3/4।<br>2. सरल करने के लिए, पूरे अनुपात को हर (denominators 2, 3, 4) के लघुत्तम समापवर्त्य (LCM) 12 से गुणा करें।<br>   A = (1/2) × 12 = 6<br>   B = (1/3) × 12 = 4<br>   C = (3/4) × 12 = 9<br>   सरलीकृत अनुपात A : B : C = <strong>6 : 4 : 9</strong>।<br>3. कुल भाग = 6 + 4 + 9 = 19 भाग।<br>4. 1 भाग का मूल्य = 3800 / 19 = रु. 200।<br>5. C का हिस्सा = 9 भाग × 200 = <strong>रु. 1800</strong>।"
       }
     }
   },
@@ -10582,12 +10548,12 @@ const TEST_JAN25_10_S1_P1 = [
       "en": {
         "question": "If 'PEAK' is coded as 'KVZP' and 'FOUR' is coded as 'ULFI', the code of 'THIS' will be:",
         "options": ["GRSH", "GSRH", "SHGR", "HGRS"],
-        "explanation": "<strong>Step-by-step Logic:</strong><br>The coding relies on writing the <strong>opposite letter</strong> of the English alphabet (A$\leftrightarrow$Z, B$\leftrightarrow$Y, etc.).<br>1. P $\\rightarrow$ K, E $\\rightarrow$ V, A $\\rightarrow$ Z, K $\\rightarrow$ P (PEAK $\\rightarrow$ KVZP).<br>2. F $\\rightarrow$ U, O $\\rightarrow$ L, U $\\rightarrow$ F, R $\\rightarrow$ I (FOUR $\\rightarrow$ ULFI).<br>3. Applying this to 'THIS': <br>   T $\\rightarrow$ G<br>   H $\\rightarrow$ S<br>   I $\\rightarrow$ R<br>   S $\\rightarrow$ H<br>So, THIS is coded as <strong>GSRH</strong>."
+        "explanation": "<strong>Step-by-step Logic:</strong><br>The coding relies on writing the <strong>opposite letter</strong> of the English alphabet (A↔Z, B↔Y, etc.).<br>1. P → K, E → V, A → Z, K → P (PEAK → KVZP).<br>2. F → U, O → L, U → F, R → I (FOUR → ULFI).<br>3. Applying this to 'THIS': <br>   T → G<br>   H → S<br>   I → R<br>   S → H<br>So, THIS is coded as <strong>GSRH</strong>."
       },
       "hi": {
         "question": "यदि 'PEAK' को 'KVZP' के रूप में कोडित किया जाता है और 'FOUR' को 'ULFI' के रूप में कोडित किया जाता है, तो 'THIS' का कोड क्या होगा?",
         "options": ["GRSH", "GSRH", "SHGR", "HGRS"],
-        "explanation": "<strong>चरण-दर-चरण तर्क:</strong><br>कोडिंग अंग्रेजी वर्णमाला के <strong>विपरीत अक्षर (Opposite letters)</strong> (A$\leftrightarrow$Z, B$\leftrightarrow$Y, आदि) लिखने पर निर्भर करती है।<br>1. P $\\rightarrow$ K, E $\\rightarrow$ V, A $\\rightarrow$ Z, K $\\rightarrow$ P (PEAK $\\rightarrow$ KVZP)।<br>2. F $\\rightarrow$ U, O $\\rightarrow$ L, U $\\rightarrow$ F, R $\\rightarrow$ I (FOUR $\\rightarrow$ ULFI)।<br>3. इसे 'THIS' पर लागू करने पर:<br>   T $\\rightarrow$ G<br>   H $\\rightarrow$ S<br>   I $\\rightarrow$ R<br>   S $\\rightarrow$ H<br>इसलिए, THIS को <strong>GSRH</strong> के रूप में कोडित किया जाएगा।"
+        "explanation": "<strong>चरण-दर-चरण तर्क:</strong><br>कोडिंग अंग्रेजी वर्णमाला के <strong>विपरीत अक्षर (Opposite letters)</strong> (A↔Z, B↔Y, आदि) लिखने पर निर्भर करती है।<br>1. P → K, E → V, A → Z, K → P (PEAK → KVZP)।<br>2. F → U, O → L, U → F, R → I (FOUR → ULFI)।<br>3. इसे 'THIS' पर लागू करने पर:<br>   T → G<br>   H → S<br>   I → R<br>   S → H<br>इसलिए, THIS को <strong>GSRH</strong> के रूप में कोडित किया जाएगा।"
       }
     }
   },
@@ -10622,7 +10588,7 @@ const TEST_JAN25_10_S1_P1 = [
     "topicHI": "ICT सामान्य संक्षिप्ताक्षर और शब्दावली",
     "content": {
       "en": {
-        "question": "<p>Match the following:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>List-I (Device)</th><th style='padding:8px 10px;'>List-II (Function)</th></tr><tr><td style='padding:8px 10px;'>A. CPU</td><td style='padding:8px 10px;'>I. Stores data temporarily</td></tr><tr><td style='padding:8px 10px;'>B. Monitor</td><td style='padding:8px 10px;'>II. Stores data permanently</td></tr><tr><td style='padding:8px 10px;'>C. RAM</td><td style='padding:8px 10px;'>III. Processes Instructions</td></tr><tr><td style='padding:8px 10px;'>D. Hard disk</td><td style='padding:8px 10px;'>IV. Displays visual output</td></tr></table><br>Choose the correct answer from the options given below:",
+        "question": "<p>Match the following:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>List-I (Device)</th><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>List-II (Function)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>A. CPU</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>I. Stores data temporarily</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>B. Monitor</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>II. Stores data permanently</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>C. RAM</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>III. Processes Instructions</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>D. Hard disk</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>IV. Displays visual output</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": [
           "A-III, B-IV, C-II, D-I",
           "A-III, B-IV, C-I, D-II",
@@ -10632,7 +10598,7 @@ const TEST_JAN25_10_S1_P1 = [
         "explanation": "<strong>Matching Devices with their Functions:</strong><br>• <strong>CPU (A-III):</strong> Central Processing Unit handles all logic and processes instructions.<br>• <strong>Monitor (B-IV):</strong> An output device that displays visual output.<br>• <strong>RAM (C-I):</strong> Random Access Memory stores active data and programs temporarily (volatile).<br>• <strong>Hard Disk (D-II):</strong> A storage drive that stores data permanently (non-volatile).<br>Correct match: A-III, B-IV, C-I, D-II."
       },
       "hi": {
-        "question": "<p>निम्नलिखित का मिलान करें:</p><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>सूची-I (उपकरण)</th><th style='padding:8px 10px;'>सूची-II (कार्य)</th></tr><tr><td style='padding:8px 10px;'>A. सीपीयू (CPU)</td><td style='padding:8px 10px;'>I. डेटा को अस्थायी रूप से संग्रहीत करता है</td></tr><tr><td style='padding:8px 10px;'>B. मॉनीटर</td><td style='padding:8px 10px;'>II. डेटा को स्थायी रूप से संग्रहीत करता है</td></tr><tr><td style='padding:8px 10px;'>C. RAM</td><td style='padding:8px 10px;'>III. निर्देशों को प्रोसेस करता है</td></tr><tr><td style='padding:8px 10px;'>D. हार्ड डिस्क</td><td style='padding:8px 10px;'>IV. दृश्य आउटपुट प्रदर्शित करता है</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>सूची-I (उपकरण)</th><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>सूची-II (कार्य)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>A. सीपीयू (CPU)</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>I. डेटा को अस्थायी रूप से संग्रहीत करता है</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>B. मॉनीटर</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>II. डेटा को स्थायी रूप से संग्रहीत करता है</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>C. RAM</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>III. निर्देशों को प्रोसेस करता है</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>D. हार्ड डिस्क</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>IV. दृश्य आउटपुट प्रदर्शित करता है</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": [
           "A-III, B-IV, C-II, D-I",
           "A-III, B-IV, C-I, D-II",
@@ -10655,12 +10621,12 @@ const TEST_JAN25_10_S1_P1 = [
       "en": {
         "question": "Choose the next term of the series: 6, 18, 108, 1296, ______",
         "options": ["31104", "15552", "30104", "23328"],
-        "explanation": "<strong>Step-by-step Pattern Breakdown:</strong><br>Analyze the multiplier between consecutive terms:<br>• 18 / 6 = <strong>3</strong><br>• 108 / 18 = <strong>6</strong><br>• 1296 / 108 = <strong>12</strong><br>The multipliers themselves form a series: 3, 6, 12, ... which is doubling each time ($3 \\times 2 = 6$, $6 \\times 2 = 12$).<br>The next multiplier should be $12 \\times 2 = $ <strong>24</strong>.<br>So, Next term = $1296 \\times 24 = <strong>31104</strong>$."
+        "explanation": "<strong>Step-by-step Pattern Breakdown:</strong><br>Analyze the multiplier between consecutive terms:<br>• 18 / 6 = <strong>3</strong><br>• 108 / 18 = <strong>6</strong><br>• 1296 / 108 = <strong>12</strong><br>The multipliers themselves form a series: 3, 6, 12, ... which is doubling each time (3 × 2 = 6, 6 × 2 = 12).<br>The next multiplier should be 12 × 2 = <strong>24</strong>.<br>So, Next term = 1296 × 24 = <strong>31104</strong>."
       },
       "hi": {
         "question": "श्रृंखला का अगला पद चुनें: 6, 18, 108, 1296, ______",
         "options": ["31104", "15552", "30104", "23328"],
-        "explanation": "<strong>चरण-दर-चरण पैटर्न विश्लेषण:</strong><br>लगातार पदों के बीच गुणक (multiplier) का विश्लेषण करें:<br>• 18 / 6 = <strong>3</strong><br>• 108 / 18 = <strong>6</strong><br>• 1296 / 108 = <strong>12</strong><br>गुणक स्वयं एक शृंखला बनाते हैं: 3, 6, 12, ... जो हर बार दोगुना हो रहा है ($3 \\times 2 = 6$, $6 \\times 2 = 12$)।<br>अगला गुणक $12 \\times 2 = $ <strong>24</strong> होना चाहिए।<br>अतः, अगला पद = $1296 \\times 24 = <strong>31104</strong>$।"
+        "explanation": "<strong>चरण-दर-चरण पैटर्न विश्लेषण:</strong><br>लगातार पदों के बीच गुणक (multiplier) का विश्लेषण करें:<br>• 18 / 6 = <strong>3</strong><br>• 108 / 18 = <strong>6</strong><br>• 1296 / 108 = <strong>12</strong><br>गुणक स्वयं एक शृंखला बनाते हैं: 3, 6, 12, ... जो हर बार दोगुना हो रहा है (3 × 2 = 6, 6 × 2 = 12)।<br>अगला गुणक 12 × 2 = <strong>24</strong> होना चाहिए।<br>अतः, अगला पद = 1296 × 24 = <strong>31104</strong>।"
       }
     }
   },
@@ -10868,12 +10834,12 @@ const TEST_JAN25_09_S2_P1 = [
       "en": {
         "question": TABLE_JAN25_09_S2_P1.en + "<br><br><strong>Question:</strong><br> If the number of employees in IT and Marketing department increases by 60% and 20%, respectively in the next year, then what will be the ratio of number of employees in IT and Marketing departments in the next year?",
         "options": ["13 : 19", "3 : 4", "16 : 21", "2 : 3"],
-        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. Marketing employees = 560 (which is 14%). So, 1% = $560 / 14 = 40$ employees.<br>2. <strong>IT Employees (Current):</strong> 8% of total = $8 \\times 40 = 320$.<br>3. <strong>Marketing Employees (Current):</strong> 560.<br>4. <strong>Next Year IT:</strong> Increases by 60%. $320 \\times 1.60 = 512$.<br>5. <strong>Next Year Marketing:</strong> Increases by 20%. $560 \\times 1.20 = 672$.<br>6. <strong>Ratio:</strong> 512 : 672. Dividing both by 32 gives <strong>16 : 21</strong>."
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. Marketing employees = 560 (which is 14%). So, 1% = 560 / 14 = 40 employees.<br>2. <strong>IT Employees (Current):</strong> 8% of total = 8 × 40 = 320.<br>3. <strong>Marketing Employees (Current):</strong> 560.<br>4. <strong>Next Year IT:</strong> Increases by 60%. 320 × 1.60 = 512.<br>5. <strong>Next Year Marketing:</strong> Increases by 20%. 560 × 1.20 = 672.<br>6. <strong>Ratio:</strong> 512 : 672. Dividing both by 32 gives <strong>16 : 21</strong>."
       },
       "hi": {
         "question": TABLE_JAN25_09_S2_P1.hi + "<br><br><strong>प्रश्न:</strong><br> यदि अगले वर्ष आईटी और मार्केटिंग विभाग में कर्मचारियों की संख्या क्रमशः 60% और 20% बढ़ जाती है, तो अगले वर्ष आईटी और मार्केटिंग विभागों में कर्मचारियों की संख्या का अनुपात क्या होगा?",
         "options": ["13 : 19", "3 : 4", "16 : 21", "2 : 3"],
-        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. मार्केटिंग कर्मचारी = 560 (जो 14% है)। अतः, 1% = $560 / 14 = 40$ कर्मचारी।<br>2. <strong>आईटी कर्मचारी (वर्तमान):</strong> कुल का 8% = $8 \\times 40 = 320$।<br>3. <strong>मार्केटिंग कर्मचारी (वर्तमान):</strong> 560।<br>4. <strong>अगले वर्ष आईटी:</strong> 60% की वृद्धि। $320 \\times 1.60 = 512$।<br>5. <strong>अगले वर्ष मार्केटिंग:</strong> 20% की वृद्धि। $560 \\times 1.20 = 672$।<br>6. <strong>अनुपात:</strong> 512 : 672। दोनों को 32 से विभाजित करने पर <strong>16 : 21</strong> प्राप्त होता है।"
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. मार्केटिंग कर्मचारी = 560 (जो 14% है)। अतः, 1% = 560 / 14 = 40 कर्मचारी।<br>2. <strong>आईटी कर्मचारी (वर्तमान):</strong> कुल का 8% = 8 × 40 = 320।<br>3. <strong>मार्केटिंग कर्मचारी (वर्तमान):</strong> 560।<br>4. <strong>अगले वर्ष आईटी:</strong> 60% की वृद्धि। 320 × 1.60 = 512।<br>5. <strong>अगले वर्ष मार्केटिंग:</strong> 20% की वृद्धि। 560 × 1.20 = 672।<br>6. <strong>अनुपात:</strong> 512 : 672। दोनों को 32 से विभाजित करने पर <strong>16 : 21</strong> प्राप्त होता है।"
       }
     }
   },
@@ -10889,12 +10855,12 @@ const TEST_JAN25_09_S2_P1 = [
       "en": {
         "question": TABLE_JAN25_09_S2_P1.en + "<br><br><strong>Question:</strong><br> The number of employees in HR department is __________% less than the number of employees in Production department.",
         "options": ["64.5", "61.5", "63.5", "62.5"],
-        "explanation": "<strong>Step-by-step Calculation:</strong><br>We can calculate this directly using percentages.<br>1. HR Department percentage = 12%.<br>2. Production Department percentage = 32%.<br>3. <strong>Difference:</strong> 32% - 12% = 20%.<br>4. <strong>Percentage Less:</strong> $(\\frac{\\text{Difference}}{\\text{Production}}) \\times 100$<br>   $(\\frac{20}{32}) \\times 100 = \\frac{5}{8} \\times 100 = 62.5\\%$."
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>We can calculate this directly using percentages.<br>1. HR Department percentage = 12%.<br>2. Production Department percentage = 32%.<br>3. <strong>Difference:</strong> 32% - 12% = 20%.<br>4. <strong>Percentage Less:</strong> (Difference / Production) × 100<br>   (20 / 32) × 100 = 5/8 × 100 = <strong>62.5%</strong>."
       },
       "hi": {
         "question": TABLE_JAN25_09_S2_P1.hi + "<br><br><strong>प्रश्न:</strong><br> मानव संसाधन विभाग में कर्मचारियों की संख्या उत्पादन विभाग में कर्मचारियों की संख्या से __________% कम है।",
         "options": ["64.5", "61.5", "63.5", "62.5"],
-        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>हम इसकी गणना सीधे प्रतिशत का उपयोग करके कर सकते हैं।<br>1. मानव संसाधन (HR) विभाग का प्रतिशत = 12%।<br>2. उत्पादन (Production) विभाग का प्रतिशत = 32%।<br>3. <strong>अंतर:</strong> 32% - 12% = 20%।<br>4. <strong>प्रतिशत कम:</strong> $(\\frac{\\text{अंतर}}{\\text{उत्पादन}}) \\times 100$<br>   $(\\frac{20}{32}) \\times 100 = \\frac{5}{8} \\times 100 = 62.5\\%$।"
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>हम इसकी गणना सीधे प्रतिशत का उपयोग करके कर सकते हैं।<br>1. मानव संसाधन (HR) विभाग का प्रतिशत = 12%।<br>2. उत्पादन (Production) विभाग का प्रतिशत = 32%।<br>3. <strong>अंतर:</strong> 32% - 12% = 20%।<br>4. <strong>प्रतिशत कम:</strong> (अंतर / उत्पादन) × 100<br>   (20 / 32) × 100 = 5/8 × 100 = <strong>62.5%</strong>।"
       }
     }
   },
@@ -10910,12 +10876,12 @@ const TEST_JAN25_09_S2_P1 = [
       "en": {
         "question": TABLE_JAN25_09_S2_P1.en + "<br><br><strong>Question:</strong><br> If the number of employees in Sales department increases by 25% in the next year, then what will be the number of employees in that department in the next year?",
         "options": ["700", "800", "900", "920"],
-        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. 1% = 40 employees.<br>2. Sales Department = 16%. So, current employees in Sales = $16 \\times 40 = 640$.<br>3. <strong>Increase by 25%:</strong> New count = $640 \\times 1.25$ (or $640 + 160$).<br>4. <strong>Next year's employees:</strong> <strong>800</strong>."
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. 1% = 40 employees.<br>2. Sales Department = 16%. So, current employees in Sales = 16 × 40 = 640.<br>3. <strong>Increase by 25%:</strong> New count = 640 × 1.25 (or 640 + 160).<br>4. <strong>Next year's employees:</strong> <strong>800</strong>."
       },
       "hi": {
         "question": TABLE_JAN25_09_S2_P1.hi + "<br><br><strong>प्रश्न:</strong><br> यदि अगले वर्ष सेल्स विभाग में कर्मचारियों की संख्या 25% बढ़ जाती है, तो अगले वर्ष उस विभाग में कर्मचारियों की संख्या कितनी होगी?",
         "options": ["700", "800", "900", "920"],
-        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. 1% = 40 कर्मचारी।<br>2. सेल्स विभाग = 16%। अतः, सेल्स में वर्तमान कर्मचारी = $16 \\times 40 = 640$।<br>3. <strong>25% की वृद्धि:</strong> नई संख्या = $640 \\times 1.25$ (या $640 + 160$)।<br>4. <strong>अगले वर्ष के कर्मचारी:</strong> <strong>800</strong>।"
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. 1% = 40 कर्मचारी।<br>2. सेल्स विभाग = 16%। अतः, सेल्स में वर्तमान कर्मचारी = 16 × 40 = 640।<br>3. <strong>25% की वृद्धि:</strong> नई संख्या = 640 × 1.25 (या 640 + 160)।<br>4. <strong>अगले वर्ष के कर्मचारी:</strong> <strong>800</strong>।"
       }
     }
   },
@@ -10931,12 +10897,12 @@ const TEST_JAN25_09_S2_P1 = [
       "en": {
         "question": TABLE_JAN25_09_S2_P1.en + "<br><br><strong>Question:</strong><br> If the ratio of the number of male and female employees in Accounts department is 5 : 4 and 60% of the employees in HR department are females, then what is the total number of male employees in Accounts and HR departments together?",
         "options": ["592", "594", "596", "598"],
-        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. 1% = 40 employees.<br>2. <strong>Accounts Department:</strong> Total = 18% = $18 \\times 40 = 720$. <br>   Ratio of Male:Female = 5:4. Males = $(5/9) \\times 720 = 400$.<br>3. <strong>HR Department:</strong> Total = 12% = $12 \\times 40 = 480$.<br>   Females = 60%, so Males = 40%. Males = $0.40 \\times 480 = 192$.<br>4. <strong>Total Male Employees:</strong> $400 + 192 = <strong>592</strong>$."
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. 1% = 40 employees.<br>2. <strong>Accounts Department:</strong> Total = 18% = 18 × 40 = 720. <br>   Ratio of Male:Female = 5:4. Males = (5/9) × 720 = 400.<br>3. <strong>HR Department:</strong> Total = 12% = 12 × 40 = 480.<br>   Females = 60%, so Males = 40%. Males = 0.40 × 480 = 192.<br>4. <strong>Total Male Employees:</strong> 400 + 192 = <strong>592</strong>."
       },
       "hi": {
         "question": TABLE_JAN25_09_S2_P1.hi + "<br><br><strong>प्रश्न:</strong><br> यदि लेखा विभाग में पुरुष और महिला कर्मचारियों की संख्या का अनुपात 5 : 4 है तथा मानव संसाधन विभाग में 60% कर्मचारी महिलाएं हैं, तो लेखा और मानव संसाधन विभागों में पुरुष कर्मचारियों की कुल संख्या कितनी है?",
         "options": ["592", "594", "596", "598"],
-        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. 1% = 40 कर्मचारी।<br>2. <strong>लेखा (Accounts) विभाग:</strong> कुल = 18% = $18 \\times 40 = 720$।<br>   पुरुष:महिला का अनुपात = 5:4। पुरुष = $(5/9) \\times 720 = 400$।<br>3. <strong>मानव संसाधन (HR) विभाग:</strong> कुल = 12% = $12 \\times 40 = 480$।<br>   महिलाएँ = 60%, इसलिए पुरुष = 40%। पुरुष = $0.40 \\times 480 = 192$।<br>4. <strong>कुल पुरुष कर्मचारी:</strong> $400 + 192 = <strong>592</strong>$।"
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. 1% = 40 कर्मचारी।<br>2. <strong>लेखा (Accounts) विभाग:</strong> कुल = 18% = 18 × 40 = 720।<br>   पुरुष:महिला का अनुपात = 5:4। पुरुष = (5/9) × 720 = 400।<br>3. <strong>मानव संसाधन (HR) विभाग:</strong> कुल = 12% = 12 × 40 = 480।<br>   महिलाएँ = 60%, इसलिए पुरुष = 40%। पुरुष = 0.40 × 480 = 192।<br>4. <strong>कुल पुरुष कर्मचारी:</strong> 400 + 192 = <strong>592</strong>।"
       }
     }
   },
@@ -10952,12 +10918,12 @@ const TEST_JAN25_09_S2_P1 = [
       "en": {
         "question": TABLE_JAN25_09_S2_P1.en + "<br><br><strong>Question:</strong><br> What is the average of the total number of employees in Accounts, HR, Marketing, and Production departments together?",
         "options": ["760", "780", "800", "820"],
-        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. Total percentage for the 4 departments = Accounts (18%) + HR (12%) + Marketing (14%) + Production (32%) = <strong>76%</strong>.<br>2. We know 1% = 40 employees.<br>3. Total employees in these 4 departments = $76 \\times 40 = 3040$.<br>4. <strong>Average:</strong> $3040 / 4 = <strong>760</strong>$."
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. Total percentage for the 4 departments = Accounts (18%) + HR (12%) + Marketing (14%) + Production (32%) = <strong>76%</strong>.<br>2. We know 1% = 40 employees.<br>3. Total employees in these 4 departments = 76 × 40 = 3040.<br>4. <strong>Average:</strong> 3040 / 4 = <strong>760</strong>."
       },
       "hi": {
         "question": TABLE_JAN25_09_S2_P1.hi + "<br><br><strong>प्रश्न:</strong><br> लेखा, मानव संसाधन, विपणन और उत्पादन विभागों में कर्मचारियों की कुल संख्या का औसत क्या है?",
         "options": ["760", "780", "800", "820"],
-        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. 4 विभागों का कुल प्रतिशत = लेखा (18%) + मानव संसाधन (12%) + विपणन (14%) + उत्पादन (32%) = <strong>76%</strong>।<br>2. हम जानते हैं कि 1% = 40 कर्मचारी।<br>3. इन 4 विभागों में कुल कर्मचारी = $76 \\times 40 = 3040$।<br>4. <strong>औसत:</strong> $3040 / 4 = <strong>760</strong>$।"
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. 4 विभागों का कुल प्रतिशत = लेखा (18%) + मानव संसाधन (12%) + विपणन (14%) + उत्पादन (32%) = <strong>76%</strong>।<br>2. हम जानते हैं कि 1% = 40 कर्मचारी।<br>3. इन 4 विभागों में कुल कर्मचारी = 76 × 40 = 3040।<br>4. <strong>औसत:</strong> 3040 / 4 = <strong>760</strong>।"
       }
     }
   },
@@ -10971,12 +10937,12 @@ const TEST_JAN25_09_S2_P1 = [
     "topicHI": "उच्च शिक्षा योजनाएं और नीतियां",
     "content": {
       "en": {
-        "question": "Match the following:<br><br><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>List-I (Schemes)</th><th style='padding:8px 10px;'>List-II (Objectives)</th></tr><tr><td style='padding:8px 10px;'>A. Malviya Mission Scheme</td><td style='padding:8px 10px;'>I. Scholarship for north east students</td></tr><tr><td style='padding:8px 10px;'>B. Vidyanjali</td><td style='padding:8px 10px;'>II. To garner international experience</td></tr><tr><td style='padding:8px 10px;'>C. GIAN</td><td style='padding:8px 10px;'>III. Remedial classes and training</td></tr><tr><td style='padding:8px 10px;'>D. Ishan Uday</td><td style='padding:8px 10px;'>IV. Professional development of teachers</td></tr></table><br>Choose the correct answer from the options given below:",
+        "question": "<p>Match the following:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>List-I (Schemes)</th><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>List-II (Objectives)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>A. Malviya Mission Scheme</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>I. Scholarship for north east students</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>B. Vidyanjali</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>II. To garner international experience</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>C. GIAN</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>III. Remedial classes and training</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>D. Ishan Uday</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>IV. Professional development of teachers</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": ["A-I, B-II, C-III, D-IV", "A-II, B-I, C-IV, D-III", "A-III, B-IV, C-I, D-II", "A-IV, B-III, C-II, D-I"],
         "explanation": "<strong>Matching Schemes with their Objectives:</strong><br>• <strong>Malviya Mission (A-IV):</strong> A major scheme dedicated to the professional development and capacity building of teachers.<br>• <strong>Vidyanjali (B-III):</strong> A volunteer program aimed at providing remedial classes and training in government schools.<br>• <strong>GIAN (C-II):</strong> Global Initiative of Academic Networks aims to garner international experience by bringing global faculty to India.<br>• <strong>Ishan Uday (D-I):</strong> A special scholarship scheme dedicated to students of the North Eastern Region.<br>Thus, A-IV, B-III, C-II, D-I is correct."
       },
       "hi": {
-        "question": "निम्नलिखित का मिलान करें:<br><br><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>सूची-I (योजनाएं)</th><th style='padding:8px 10px;'>सूची-II (उद्देश्य)</th></tr><tr><td style='padding:8px 10px;'>A. मालवीय मिशन योजना</td><td style='padding:8px 10px;'>I. पूर्वोत्तर के छात्रों के लिए छात्रवृत्ति</td></tr><tr><td style='padding:8px 10px;'>B. विद्यांजलि</td><td style='padding:8px 10px;'>II. अंतर्राष्ट्रीय अनुभव प्राप्त करना</td></tr><tr><td style='padding:8px 10px;'>C. जीआईएएन (GIAN)</td><td style='padding:8px 10px;'>III. उपचारात्मक कक्षाएं और प्रशिक्षण</td></tr><tr><td style='padding:8px 10px;'>D. ईशान उदय</td><td style='padding:8px 10px;'>IV. शिक्षकों का व्यावसायिक विकास</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "<p>निम्नलिखित का मिलान करें:</p><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>सूची-I (योजनाएं)</th><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>सूची-II (उद्देश्य)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>A. मालवीय मिशन योजना</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>I. पूर्वोत्तर के छात्रों के लिए छात्रवृत्ति</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>B. विद्यांजलि</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>II. अंतर्राष्ट्रीय अनुभव प्राप्त करना</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>C. जीआईएएन (GIAN)</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>III. उपचारात्मक कक्षाएं और प्रशिक्षण</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>D. ईशान उदय</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>IV. शिक्षकों का व्यावसायिक विकास</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": ["A-I, B-II, C-III, D-IV", "A-II, B-I, C-IV, D-III", "A-III, B-IV, C-I, D-II", "A-IV, B-III, C-II, D-I"],
         "explanation": "<strong>योजनाओं का उनके उद्देश्यों के साथ मिलान:</strong><br>• <strong>मालवीय मिशन (A-IV):</strong> शिक्षकों के व्यावसायिक विकास और क्षमता निर्माण को समर्पित एक प्रमुख योजना।<br>• <strong>विद्यांजलि (B-III):</strong> सरकारी स्कूलों में उपचारात्मक कक्षाएं (remedial classes) और प्रशिक्षण प्रदान करने के उद्देश्य से एक स्वयंसेवक कार्यक्रम।<br>• <strong>GIAN (C-II):</strong> ग्लोबल इनिशिएटिव ऑफ एकेडमिक नेटवर्क्स का उद्देश्य वैश्विक संकाय को भारत में लाकर अंतर्राष्ट्रीय अनुभव प्राप्त करना है।<br>• <strong>ईशान उदय (D-I):</strong> पूर्वोत्तर क्षेत्र (North East) के छात्रों को समर्पित एक विशेष छात्रवृत्ति योजना।<br>इस प्रकार, A-IV, B-III, C-II, D-I सही है।"
       }
@@ -11141,12 +11107,12 @@ const TEST_JAN25_09_S2_P1 = [
       "en": {
         "question": "In a certain coding scheme, 'AC' is coded as 8 and 'PQ' as 33. What is the code of 'XZ'?",
         "options": ["100", "51", "71", "87"],
-        "explanation": "<strong>Logic:</strong><br>The sum of alphabet positions: X = 24, Z = 26. Sum = $24 + 26 = 50$. <br>Applying a $\\times 2$ multiplier gives $50 \\times 2 = 100$.<br><em>(Note: While the given PQ = 33 ($16+17=33$ without multiplier) introduces inconsistency in the question's premise, the Official NTA Answer Key strictly validates 100 based on the $x2$ multiplier logic applied to XZ).</em>"
+        "explanation": "<strong>Logic:</strong><br>The sum of alphabet positions: X = 24, Z = 26. Sum = 24 + 26 = 50. <br>Applying a × 2 multiplier gives 50 × 2 = 100.<br><em>(Note: While the given PQ = 33 (16+17=33 without multiplier) introduces inconsistency in the question's premise, the Official NTA Answer Key strictly validates 100 based on the x2 multiplier logic applied to XZ).</em>"
       },
       "hi": {
         "question": "एक निश्चित कोडिंग योजना में, 'AC' को 8 और 'PQ' को 33 के रूप में कोडित किया गया है। 'XZ' का कोड क्या है?",
         "options": ["100", "51", "71", "87"],
-        "explanation": "<strong>तर्क (Logic):</strong><br>वर्णमाला के पदों का योग: X = 24, Z = 26। योग = $24 + 26 = 50$।<br>$\\times 2$ गुणक लागू करने पर $50 \\times 2 = 100$ प्राप्त होता है।<br><em>(नोट: यद्यपि दिया गया PQ = 33 (बिना गुणक के $16+17=33$) प्रश्न के आधार में असंगति पैदा करता है, NTA की आधिकारिक उत्तर कुंजी XZ पर लागू $x2$ गुणक तर्क के आधार पर 100 को सही मानती है)।</em>"
+        "explanation": "<strong>तर्क (Logic):</strong><br>वर्णमाला के पदों का योग: X = 24, Z = 26। योग = 24 + 26 = 50।<br>× 2 गुणक लागू करने पर 50 × 2 = 100 प्राप्त होता है।<br><em>(नोट: यद्यपि दिया गया PQ = 33 (बिना गुणक के 16+17=33) प्रश्न के आधार में असंगति पैदा करता है, NTA की आधिकारिक उत्तर कुंजी XZ पर लागू x2 गुणक तर्क के आधार पर 100 को सही मानती है)।</em>"
       }
     }
   },
@@ -11267,12 +11233,12 @@ const TEST_JAN25_09_S2_P1 = [
       "en": {
         "question": "Find the next term in the following letter series.<br><br>BFD, ELG, HRJ, _________ ?",
         "options": ["KUM", "JXM", "KTM", "KXM"],
-        "explanation": "<strong>Step-by-step Pattern Breakdown:</strong><br>Analyze letter by letter:<br>1. First letters: B(2), E(5), H(8) $\\rightarrow$ Gap is +3. Next is 8+3=11 (<strong>K</strong>).<br>2. Second letters: F(6), L(12), R(18) $\\rightarrow$ Gap is +6. Next is 18+6=24 (<strong>X</strong>).<br>3. Third letters: D(4), G(7), J(10) $\\rightarrow$ Gap is +3. Next is 10+3=13 (<strong>M</strong>).<br>Resulting term is <strong>KXM</strong>."
+        "explanation": "<strong>Step-by-step Pattern Breakdown:</strong><br>Analyze letter by letter:<br>1. First letters: B(2), E(5), H(8) → Gap is +3. Next is 8+3=11 (<strong>K</strong>).<br>2. Second letters: F(6), L(12), R(18) → Gap is +6. Next is 18+6=24 (<strong>X</strong>).<br>3. Third letters: D(4), G(7), J(10) → Gap is +3. Next is 10+3=13 (<strong>M</strong>).<br>Resulting term is <strong>KXM</strong>."
       },
       "hi": {
         "question": "निम्नलिखित अक्षर श्रृंखला में अगला पद ज्ञात कीजिए।<br><br>BFD, ELG, HRJ, _________ ?",
         "options": ["KUM", "JXM", "KTM", "KXM"],
-        "explanation": "<strong>चरण-दर-चरण पैटर्न विश्लेषण:</strong><br>अक्षर दर अक्षर विश्लेषण करें:<br>1. पहले अक्षर: B(2), E(5), H(8) $\\rightarrow$ अंतर +3 है। अगला 8+3=11 (<strong>K</strong>) है।<br>2. दूसरे अक्षर: F(6), L(12), R(18) $\\rightarrow$ अंतर +6 है। अगला 18+6=24 (<strong>X</strong>) है।<br>3. तीसरे अक्षर: D(4), G(7), J(10) $\\rightarrow$ अंतर +3 है। अगला 10+3=13 (<strong>M</strong>) है।<br>परिणामी पद <strong>KXM</strong> है।"
+        "explanation": "<strong>चरण-दर-चरण पैटर्न विश्लेषण:</strong><br>अक्षर दर अक्षर विश्लेषण करें:<br>1. पहले अक्षर: B(2), E(5), H(8) → अंतर +3 है। अगला 8+3=11 (<strong>K</strong>) है।<br>2. दूसरे अक्षर: F(6), L(12), R(18) → अंतर +6 है। अगला 18+6=24 (<strong>X</strong>) है।<br>3. तीसरे अक्षर: D(4), G(7), J(10) → अंतर +3 है। अगला 10+3=13 (<strong>M</strong>) है।<br>परिणामी पद <strong>KXM</strong> है।"
       }
     }
   },
@@ -11288,12 +11254,12 @@ const TEST_JAN25_09_S2_P1 = [
       "en": {
         "question": "Two successive discounts of 10% and 15% are equivalent to a single discount of",
         "options": ["23.5%", "25%", "18.5%", "22.5%"],
-        "explanation": "<strong>Step-by-step Solution:</strong><br>Formula for successive discounts of $a\\%$ and $b\\%$ is: $(a + b - \\frac{a \\times b}{100})\\%$<br>Here, $a = 10$ and $b = 15$.<br>Single discount = $10 + 15 - \\frac{10 \\times 15}{100}$<br>$25 - \\frac{150}{100} = 25 - 1.5 =$ <strong>23.5%</strong>."
+        "explanation": "<strong>Step-by-step Solution:</strong><br>Formula for successive discounts of a% and b% is: (a + b - (a × b)/100)%<br>Here, a = 10 and b = 15.<br>Single discount = 10 + 15 - (10 × 15)/100<br>25 - 150/100 = 25 - 1.5 = <strong>23.5%</strong>."
       },
       "hi": {
         "question": "10% और 15% की दो क्रमिक छूट एकल छूट के बराबर हैं",
         "options": ["23.5%", "25%", "18.5%", "22.5%"],
-        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>$a\\%$ और $b\\%$ की क्रमिक छूट के लिए सूत्र है: $(a + b - \\frac{a \\times b}{100})\\%$<br>यहाँ, $a = 10$ और $b = 15$।<br>एकल छूट = $10 + 15 - \\frac{10 \\times 15}{100}$<br>$25 - \\frac{150}{100} = 25 - 1.5 =$ <strong>23.5%</strong>।"
+        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>a% और b% की क्रमिक छूट के लिए सूत्र है: (a + b - (a × b)/100)%<br>यहाँ, a = 10 और b = 15।<br>एकल छूट = 10 + 15 - (10 × 15)/100<br>25 - 150/100 = 25 - 1.5 = <strong>23.5%</strong>।"
       }
     }
   },
@@ -11398,12 +11364,12 @@ const TEST_JAN25_09_S2_P1 = [
       "en": {
         "question": "Arrange the principle soil profiles from top to bottom.<br><br>A. A-horizon<br>B. B-horizon<br>C. C-horizon<br>D. O-horizon<br>E. R-horizon<br><br>Choose the correct answer from the options given below:",
         "options": ["A, B, D, E, C", "B, A, C, D, E", "D, A, B, C, E", "C, B, A, E, D"],
-        "explanation": "<strong>Soil Profile Sequence (Top to Bottom):</strong><br>1. <strong>O-horizon (D):</strong> Organic layer (humus, leaf litter).<br>2. <strong>A-horizon (A):</strong> Topsoil (minerals with organic matter).<br>3. <strong>B-horizon (B):</strong> Subsoil (accumulated minerals like iron/clay).<br>4. <strong>C-horizon (C):</strong> Parent material (partially altered bedrock).<br>5. <strong>R-horizon (E):</strong> Bedrock (unweathered rock).<br>Correct Order: D $\\rightarrow$ A $\\rightarrow$ B $\\rightarrow$ C $\\rightarrow$ E."
+        "explanation": "<strong>Soil Profile Sequence (Top to Bottom):</strong><br>1. <strong>O-horizon (D):</strong> Organic layer (humus, leaf litter).<br>2. <strong>A-horizon (A):</strong> Topsoil (minerals with organic matter).<br>3. <strong>B-horizon (B):</strong> Subsoil (accumulated minerals like iron/clay).<br>4. <strong>C-horizon (C):</strong> Parent material (partially altered bedrock).<br>5. <strong>R-horizon (E):</strong> Bedrock (unweathered rock).<br>Correct Order: D → A → B → C → E."
       },
       "hi": {
         "question": "मुख्य मृदा प्रोफाइल को ऊपर से नीचे तक व्यवस्थित करें।<br><br>A. A- क्षितिज<br>B. B-क्षितिज<br>C. C-क्षितिज<br>D. O-क्षितिज<br>E. R-क्षितिज<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": ["A, B, D, E, C", "B, A, C, D, E", "D, A, B, C, E", "C, B, A, E, D"],
-        "explanation": "<strong>मृदा प्रोफाइल अनुक्रम (ऊपर से नीचे):</strong><br>1. <strong>O-क्षितिज (D):</strong> कार्बनिक परत (ह्यूमस, पत्ती कूड़ा)।<br>2. <strong>A-क्षितिज (A):</strong> टॉपसॉइल (कार्बनिक पदार्थ वाले खनिज)।<br>3. <strong>B-क्षितिज (B):</strong> उपमृदा (लोहा/मिट्टी जैसे संचित खनिज)।<br>4. <strong>C-क्षितिज (C):</strong> मूल सामग्री (आंशिक रूप से परिवर्तित आधारशिला)।<br>5. <strong>R-क्षितिज (E):</strong> आधारशिला (बिना मौसम वाली चट्टान)।<br>सही क्रम: D $\\rightarrow$ A $\\rightarrow$ B $\\rightarrow$ C $\\rightarrow$ E।"
+        "explanation": "<strong>मृदा प्रोफाइल अनुक्रम (ऊपर से नीचे):</strong><br>1. <strong>O-क्षितिज (D):</strong> कार्बनिक परत (ह्यूमस, पत्ती कूड़ा)।<br>2. <strong>A-क्षितिज (A):</strong> टॉपसॉइल (कार्बनिक पदार्थ वाले खनिज)।<br>3. <strong>B-क्षितिज (B):</strong> उपमृदा (लोहा/मिट्टी जैसे संचित खनिज)।<br>4. <strong>C-क्षितिज (C):</strong> मूल सामग्री (आंशिक रूप से परिवर्तित आधारशिला)।<br>5. <strong>R-क्षितिज (E):</strong> आधारशिला (बिना मौसम वाली चट्टान)।<br>सही क्रम: D → A → B → C → E।"
       }
     }
   },
@@ -11440,12 +11406,12 @@ const TEST_JAN25_09_S2_P1 = [
       "en": {
         "question": "A man gets annual pay of Rs 9.0 lakh. His expenditure and savings are in the ratio 5:1. What is his average savings per month?",
         "options": ["Rs 15,000", "Rs 12,500", "Rs 16,000", "Rs 18,000"],
-        "explanation": "<strong>Step-by-step Solution:</strong><br>1. Total Annual Income = Expenditure + Savings = Rs 9,00,000.<br>2. Ratio of Expenditure to Savings = 5 : 1. Total parts = $5 + 1 = 6$.<br>3. Annual Savings = $\\frac{1}{6} \\times 9,00,000 = \\text{Rs } 1,50,000$.<br>4. Average savings per month = $\\frac{1,50,000}{12} =$ <strong>Rs 12,500</strong>."
+        "explanation": "<strong>Step-by-step Solution:</strong><br>1. Total Annual Income = Expenditure + Savings = Rs 9,00,000.<br>2. Ratio of Expenditure to Savings = 5 : 1. Total parts = 5 + 1 = 6.<br>3. Annual Savings = (1/6) × 9,00,000 = Rs 1,50,000.<br>4. Average savings per month = 1,50,000 / 12 = <strong>Rs 12,500</strong>."
       },
       "hi": {
         "question": "एक व्यक्ति को 9.0 लाख रुपये वार्षिक वेतन मिलता है। उसके व्यय और बचत का अनुपात 5:1 है। उसकी प्रति माह औसत बचत कितनी है?",
         "options": ["15,000 रुपये", "12,500 रुपये", "16,000 रुपये", "18,000 रुपये"],
-        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>1. कुल वार्षिक आय = व्यय + बचत = 9,00,000 रुपये।<br>2. व्यय और बचत का अनुपात = 5 : 1। कुल भाग = $5 + 1 = 6$।<br>3. वार्षिक बचत = $\\frac{1}{6} \\times 9,00,000 = 1,50,000 \\text{ रुपये}$।<br>4. प्रति माह औसत बचत = $\\frac{1,50,000}{12} =$ <strong>12,500 रुपये</strong>।"
+        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>1. कुल वार्षिक आय = व्यय + बचत = 9,00,000 रुपये।<br>2. व्यय और बचत का अनुपात = 5 : 1। कुल भाग = 5 + 1 = 6।<br>3. वार्षिक बचत = (1/6) × 9,00,000 = 1,50,000 रुपये।<br>4. प्रति माह औसत बचत = 1,50,000 / 12 = <strong>12,500 रुपये</strong>।"
       }
     }
   },
@@ -11461,12 +11427,12 @@ const TEST_JAN25_09_S2_P1 = [
       "en": {
         "question": "Arrange the following in chronological sequence:<br><br>A. Start of external services of All India Radio<br>B. Establishment of Film Division<br>C. Release of talkie film 'Alam Ara'<br>D. Change of name of Radio Broadcasting to All India Radio<br><br>Choose the correct answer from the options given below:",
         "options": ["C, D, A, B", "C, B, D, A", "A, B, C, D", "D, C, A, B"],
-        "explanation": "<strong>Chronology of Media Events:</strong><br>1. <strong>(C) Alam Ara Release:</strong> 1931 (India's first talkie).<br>2. <strong>(D) Renaming to AIR:</strong> 1936 (Indian State Broadcasting Service became All India Radio).<br>3. <strong>(A) AIR External Services:</strong> 1939 (Started for propaganda during WW2).<br>4. <strong>(B) Films Division:</strong> 1948 (Established by Govt. of India).<br>Correct Order: C $\\rightarrow$ D $\\rightarrow$ A $\\rightarrow$ B."
+        "explanation": "<strong>Chronology of Media Events:</strong><br>1. <strong>(C) Alam Ara Release:</strong> 1931 (India's first talkie).<br>2. <strong>(D) Renaming to AIR:</strong> 1936 (Indian State Broadcasting Service became All India Radio).<br>3. <strong>(A) AIR External Services:</strong> 1939 (Started for propaganda during WW2).<br>4. <strong>(B) Films Division:</strong> 1948 (Established by Govt. of India).<br>Correct Order: C → D → A → B."
       },
       "hi": {
         "question": "निम्नलिखित को कालानुक्रमिक क्रम में व्यवस्थित करें:<br><br>A. आकाशवाणी की बाह्य सेवाओं की शुरुआत<br>B. फिल्म प्रभाग की स्थापना<br>C. बोलती फिल्म 'आलम आरा' का रिलीज होना<br>D. रेडियो प्रसारण का नाम बदलकर ऑल इंडिया रेडियो किया जाना<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": ["C, D, A, B", "C, B, D, A", "A, B, C, D", "D, C, A, B"],
-        "explanation": "<strong>मीडिया इवेंट्स का कालक्रम:</strong><br>1. <strong>(C) आलम आरा रिलीज़:</strong> 1931 (भारत की पहली बोलती फिल्म)।<br>2. <strong>(D) AIR नामकरण:</strong> 1936 (इंडियन स्टेट ब्रॉडकास्टिंग सर्विस ऑल इंडिया रेडियो बन गई)।<br>3. <strong>(A) AIR बाह्य सेवाएँ:</strong> 1939 (WW2 के दौरान प्रचार के लिए शुरू किया गया)।<br>4. <strong>(B) फिल्म्स डिवीजन:</strong> 1948 (भारत सरकार द्वारा स्थापित)।<br>सही क्रम: C $\\rightarrow$ D $\\rightarrow$ A $\\rightarrow$ B।"
+        "explanation": "<strong>मीडिया इवेंट्स का कालक्रम:</strong><br>1. <strong>(C) आलम आरा रिलीज़:</strong> 1931 (भारत की पहली बोलती फिल्म)।<br>2. <strong>(D) AIR नामकरण:</strong> 1936 (इंडियन स्टेट ब्रॉडकास्टिंग सर्विस ऑल इंडिया रेडियो बन गई)।<br>3. <strong>(A) AIR बाह्य सेवाएँ:</strong> 1939 (WW2 के दौरान प्रचार के लिए शुरू किया गया)।<br>4. <strong>(B) फिल्म्स डिवीजन:</strong> 1948 (भारत सरकार द्वारा स्थापित)।<br>सही क्रम: C → D → A → B।"
       }
     }
   },
@@ -11545,12 +11511,12 @@ const TEST_JAN25_09_S2_P1 = [
       "en": {
         "question": "A man can do a work in 10 days. The man along with a boy can do the same work in 8 days. What is the ratio of efficiencies of work of the man and the boy?",
         "options": ["2 : 1", "3 : 1", "4 : 1", "5 : 1"],
-        "explanation": "<strong>Step-by-step Solution:</strong><br>1. Let total work be LCM of 10 and 8 = 40 units.<br>2. Efficiency of Man ($E_m$) = $40 / 10 = 4$ units/day.<br>3. Combined Efficiency of Man + Boy ($E_m + E_b$) = $40 / 8 = 5$ units/day.<br>4. Efficiency of Boy ($E_b$) = $(E_m + E_b) - E_m = 5 - 4 = 1$ unit/day.<br>5. Ratio of Efficiencies ($E_m : E_b$) = <strong>4 : 1</strong>."
+        "explanation": "<strong>Step-by-step Solution:</strong><br>1. Let total work be LCM of 10 and 8 = 40 units.<br>2. Efficiency of Man (E_m) = 40 / 10 = 4 units/day.<br>3. Combined Efficiency of Man + Boy (E_m + E_b) = 40 / 8 = 5 units/day.<br>4. Efficiency of Boy (E_b) = (E_m + E_b) - E_m = 5 - 4 = 1 unit/day.<br>5. Ratio of Efficiencies (E_m : E_b) = <strong>4 : 1</strong>."
       },
       "hi": {
         "question": "एक आदमी एक काम को 10 दिनों में कर सकता है। वह आदमी एक लड़के के साथ मिलकर उसी काम को 8 दिनों में कर सकता है। आदमी और लड़के की कार्यकुशलता का अनुपात क्या है?",
         "options": ["2 : 1", "3 : 1", "4 : 1", "5 : 1"],
-        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>1. मान लें कि कुल कार्य 10 और 8 का LCM = 40 इकाइयाँ हैं।<br>2. आदमी की कार्यकुशलता ($E_m$) = $40 / 10 = 4$ इकाई/दिन।<br>3. आदमी + लड़के की संयुक्त कार्यक्षमता ($E_m + E_b$) = $40 / 8 = 5$ इकाई/दिन।<br>4. लड़के की कार्यकुशलता ($E_b$) = $(E_m + E_b) - E_m = 5 - 4 = 1$ इकाई/दिन।<br>5. क्षमता का अनुपात ($E_m : E_b$) = <strong>4 : 1</strong>।"
+        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>1. मान लें कि कुल कार्य 10 और 8 का LCM = 40 इकाइयाँ हैं।<br>2. आदमी की कार्यकुशलता (E_m) = 40 / 10 = 4 इकाई/दिन।<br>3. आदमी + लड़के की संयुक्त कार्यक्षमता (E_m + E_b) = 40 / 8 = 5 इकाई/दिन।<br>4. लड़के की कार्यकुशलता (E_b) = (E_m + E_b) - E_m = 5 - 4 = 1 इकाई/दिन।<br>5. क्षमता का अनुपात (E_m : E_b) = <strong>4 : 1</strong>।"
       }
     }
   },
@@ -11608,12 +11574,12 @@ const TEST_JAN25_09_S2_P1 = [
       "en": {
         "question": "Which among the following is NOT a property of chi-square distribution?",
         "options": ["For large degrees of freedom chi-square distribution approaches normal distribution", "Chi-square is a test statistic", "Three times the number of degree of freedom is equal to variance", "Two times the number of degrees of freedom is equal to the variance"],
-        "explanation": "In statistics, a fundamental property of the <strong>Chi-Square ($\\chi^2$) Distribution</strong> is that its Mean is equal to its degrees of freedom ($k$), and its <strong>Variance is equal to TWO TIMES its degrees of freedom ($2k$)</strong>. <br>Therefore, the statement claiming it is \"Three times the number of degrees of freedom\" is mathematically FALSE."
+        "explanation": "In statistics, a fundamental property of the <strong>Chi-Square</strong> distribution is that its Mean is equal to its degrees of freedom (k), and its <strong>Variance is equal to TWO TIMES its degrees of freedom (2k)</strong>. <br>Therefore, the statement claiming it is \"Three times the number of degrees of freedom\" is mathematically FALSE."
       },
       "hi": {
         "question": "निम्नलिखित में से कौन सा काई-स्क्वायर वितरण का गुण नहीं है?",
         "options": ["स्वतंत्रता की बड़ी डिग्री के लिए काई-स्क्वायर वितरण सामान्य वितरण के करीब पहुंचता है", "काई-स्क्वायर एक परीक्षण सांख्यिकी है", "स्वतंत्रता की डिग्री की संख्या का तीन गुना विचरण के बराबर है", "स्वतंत्रता की डिग्री की संख्या का दो गुना विचरण के बराबर है"],
-        "explanation": "सांख्यिकी में, <strong>काई-स्क्वायर ($\\chi^2$) वितरण</strong> का एक मूलभूत गुण यह है कि इसका माध्य (Mean) इसके स्वतंत्रता की डिग्री ($k$) के बराबर होता है, और इसका <strong>विचरण (Variance) इसके स्वतंत्रता की डिग्री के दोगुने ($2k$) के बराबर होता है</strong>।<br>इसलिए, यह दावा करने वाला कथन कि यह \"स्वतंत्रता की डिग्री की संख्या का तीन गुना है\" गणितीय रूप से असत्य (FALSE) है।"
+        "explanation": "सांख्यिकी में, <strong>काई-स्क्वायर</strong> वितरण का एक मूलभूत गुण यह है कि इसका माध्य (Mean) इसके स्वतंत्रता की डिग्री (k) के बराबर होता है, और इसका <strong>विचरण (Variance) इसके स्वतंत्रता की डिग्री के दोगुने (2k) के बराबर होता है</strong>।<br>इसलिए, यह दावा करने वाला कथन कि यह \"स्वतंत्रता की डिग्री की संख्या का तीन गुना है\" गणितीय रूप से असत्य (FALSE) है।"
       }
     }
   },
@@ -11627,12 +11593,12 @@ const TEST_JAN25_09_S2_P1 = [
     "topicHI": "जन माध्यम और समाज — मीडिया सिद्धांतकार और पुस्तकें",
     "content": {
       "en": {
-        "question": "Match the following:<br><br><table border='1' style='border-collapse:collapse;width:100%;'><tr><th style='padding:6px;'>List-I (Author)</th><th style='padding:6px;'>List-II (Books)</th></tr><tr><td style='padding:6px;'>A. Bourdieu P.</td><td style='padding:6px;'>I. Theories of Media, Theories of Society</td></tr><tr><td style='padding:6px;'>B. Manuel Castells</td><td style='padding:6px;'>II. The Culture Industry: Enlightenment as Mass Deception</td></tr><tr><td style='padding:6px;'>C. Adorno T. and Horkheimer</td><td style='padding:6px;'>III. Public Opinion Does Not Exist</td></tr><tr><td style='padding:6px;'>D. Bennett T.</td><td style='padding:6px;'>IV. The Internet Galaxy</td></tr></table><br>Choose the correct answer from the options given below:",
+        "question": "Match the following:<br><br><table style='border-collapse:collapse;width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>List-I (Author)</th><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>List-II (Books)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>A. Bourdieu P.</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>I. Theories of Media, Theories of Society</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>B. Manuel Castells</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>II. The Culture Industry: Enlightenment as Mass Deception</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>C. Adorno T. and Horkheimer</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>III. Public Opinion Does Not Exist</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>D. Bennett T.</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>IV. The Internet Galaxy</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": ["A-III, B-IV, C-II, D-I", "A-IV, B-III, C-II, D-I", "A-III, B-IV, C-I, D-II", "A-III, B-II, C-IV, D-I"],
         "explanation": "<strong>Matching Authors with their Works:</strong><br>• <strong>Bourdieu P. (A-III):</strong> Wrote the influential article \"Public Opinion Does Not Exist\".<br>• <strong>Manuel Castells (B-IV):</strong> A sociologist famous for writing \"The Internet Galaxy\".<br>• <strong>Adorno & Horkheimer (C-II):</strong> Authored the critical theory chapter \"The Culture Industry: Enlightenment as Mass Deception\".<br>• <strong>Bennett T. (D-I):</strong> Associated with \"Theories of Media, Theories of Society\".<br>Therefore, the correct sequence is A-III, B-IV, C-II, D-I."
       },
       "hi": {
-        "question": "निम्नलिखित का मिलान करें:<br><br><table border='1' style='border-collapse:collapse;width:100%;'><tr><th style='padding:6px;'>सूची-I (लेखक)</th><th style='padding:6px;'>सूची-II (पुस्तकें)</th></tr><tr><td style='padding:6px;'>A. बौड्डियू पी.</td><td style='padding:6px;'>I. मीडिया के सिद्धांत, समाज के सिद्धांत</td></tr><tr><td style='padding:6px;'>B. मैनुअल कास्टेल्स</td><td style='padding:6px;'>II. संस्कृति उद्योग: सामूहिक धोखे के रूप में ज्ञानोदय</td></tr><tr><td style='padding:6px;'>C. एडोर्नो टी. और होर्केइमर</td><td style='padding:6px;'>III. जनता की राय मौजूद नहीं है</td></tr><tr><td style='padding:6px;'>D. बेनेट टी.</td><td style='padding:6px;'>IV. इंटरनेट आकाशगंगा</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "निम्नलिखित का मिलान करें:<br><br><table style='border-collapse:collapse;width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>सूची-I (लेखक)</th><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>सूची-II (पुस्तकें)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>A. बौर्डियू पी.</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>I. मीडिया के सिद्धांत, समाज के सिद्धांत</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>B. मैनुअल कास्टेल्स</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>II. संस्कृति उद्योग: सामूहिक धोखे के रूप में ज्ञानोदय</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>C. एडोर्नो टी. और होर्केइमर</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>III. जनता की राय मौजूद नहीं है</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>D. बेनेट टी.</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>IV. इंटरनेट आकाशगंगा</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": ["A-III, B-IV, C-II, D-I", "A-IV, B-III, C-II, D-I", "A-III, B-IV, C-I, D-II", "A-III, B-II, C-IV, D-I"],
         "explanation": "<strong>लेखकों का उनकी कृतियों से मिलान:</strong><br>• <strong>बौर्डियू पी. (A-III):</strong> प्रभावशाली लेख \"सार्वजनिक राय मौजूद नहीं है (Public Opinion Does Not Exist)\" लिखा।<br>• <strong>मैनुअल कास्टेल्स (B-IV):</strong> \"द इंटरनेट गैलेक्सी\" लिखने के लिए प्रसिद्ध एक समाजशास्त्री।<br>• <strong>एडोर्नो और होर्केइमर (C-II):</strong> आलोचनात्मक सिद्धांत अध्याय \"संस्कृति उद्योग: सामूहिक धोखे के रूप में ज्ञानोदय\" लिखा।<br>• <strong>बेनेट टी. (D-I):</strong> \"मीडिया के सिद्धांत, समाज के सिद्धांत\" से जुड़े हैं।<br>इसलिए, सही क्रम A-III, B-IV, C-II, D-I है।"
       }
@@ -11648,12 +11614,12 @@ const TEST_JAN25_09_S2_P1 = [
     "topicHI": "इंटरनेट और इंट्रानेट की मूल बातें — नेटवर्क डिवाइस",
     "content": {
       "en": {
-        "question": "Match the following:<br><br><table border='1' style='border-collapse:collapse;width:100%;'><tr><th style='padding:6px;'>List-I (Network Devices)</th><th style='padding:6px;'>List-II (Functions)</th></tr><tr><td style='padding:6px;'>A. Bridge</td><td style='padding:6px;'>I. Device that can receive the data, analyse it and transmit it to other networks</td></tr><tr><td style='padding:6px;'>B. Router</td><td style='padding:6px;'>II. Set of rules that decides how computers and other devices connect with each other through cables in a LAN</td></tr><tr><td style='padding:6px;'>C. Gateway</td><td style='padding:6px;'>III. Serves as the entry and exit point of a network</td></tr><tr><td style='padding:6px;'>D. Ethernet</td><td style='padding:6px;'>IV. Device that connects one LAN to another LAN that uses the same protocol</td></tr></table><br>Choose the correct answer from the options given below:",
+        "question": "Match the following:<br><br><table style='border-collapse:collapse;width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>List-I (Network Devices)</th><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>List-II (Functions)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>A. Bridge</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>I. Device that can receive the data, analyse it and transmit it to other networks</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>B. Router</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>II. Set of rules that decides how computers and other devices connect with each other through cables in a LAN</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>C. Gateway</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>III. Serves as the entry and exit point of a network</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>D. Ethernet</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>IV. Device that connects one LAN to another LAN that uses the same protocol</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": ["A-II, B-III, C-I, D-IV", "A-III, B-II, C-I, D-IV", "A-IV, B-I, C-III, D-II", "A-I, B-IV, C-III, D-I"],
         "explanation": "<strong>Matching Network Terminology:</strong><br>• <strong>Bridge (A-IV):</strong> A device that connects two LANs using the same protocol.<br>• <strong>Router (B-I):</strong> Receives, analyzes (routes), and transmits data packets between different networks.<br>• <strong>Gateway (C-III):</strong> A node that serves as the entry/exit point to another network.<br>• <strong>Ethernet (D-II):</strong> The standard set of rules (protocol) for connecting devices in a wired Local Area Network (LAN).<br>Correct match is A-IV, B-I, C-III, D-II."
       },
       "hi": {
-        "question": "निम्नलिखित का मिलान करें:<br><br><table border='1' style='border-collapse:collapse;width:100%;'><tr><th style='padding:6px;'>सूची-I (नेटवर्क डिवाइस)</th><th style='padding:6px;'>सूची-II (कार्य)</th></tr><tr><td style='padding:6px;'>A. पुल (Bridge)</td><td style='padding:6px;'>I. वह उपकरण जो डेटा प्राप्त कर सकता है, उसका विश्लेषण कर सकता है और उसे अन्य नेटवर्क पर प्रेषित कर सकता है</td></tr><tr><td style='padding:6px;'>B. राउटर</td><td style='padding:6px;'>II. नियमों का सेट जो यह तय करता है कि कंप्यूटर और अन्य डिवाइस LAN में केबल के माध्यम से एक दूसरे से कैसे जुड़ते हैं</td></tr><tr><td style='padding:6px;'>C. गेटवे</td><td style='padding:6px;'>III. नेटवर्क के प्रवेश और निकास बिंदु के रूप में कार्य करता है</td></tr><tr><td style='padding:6px;'>D. ईथरनेट</td><td style='padding:6px;'>IV. डिवाइस जो एक LAN को दूसरे LAN से जोड़ता है जो समान प्रोटोकॉल का उपयोग करता है</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "निम्नलिखित का मिलान करें:<br><br><table style='border-collapse:collapse;width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>सूची-I (नेटवर्क डिवाइस)</th><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>सूची-II (कार्य)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>A. पुल (Bridge)</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>I. वह उपकरण जो डेटा प्राप्त कर सकता है, उसका विश्लेषण कर सकता है और उसे अन्य नेटवर्क पर प्रेषित कर सकता है</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>B. राउटर</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>II. नियमों का सेट जो यह तय करता है कि कंप्यूटर और अन्य डिवाइस LAN में केबल के माध्यम से एक दूसरे से कैसे जुड़ते हैं</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>C. गेटवे</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>III. नेटवर्क के प्रवेश और निकास बिंदु के रूप में कार्य करता है</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>D. ईथरनेट</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>IV. डिवाइस जो एक LAN को दूसरे LAN से जोड़ता है जो समान प्रोटोकॉल का उपयोग करता है</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": ["A-II, B-III, C-I, D-IV", "A-III, B-II, C-I, D-IV", "A-IV, B-I, C-III, D-II", "A-I, B-IV, C-III, D-I"],
         "explanation": "<strong>नेटवर्क शब्दावली का मिलान:</strong><br>• <strong>ब्रिज (A-IV):</strong> एक उपकरण जो समान प्रोटोकॉल का उपयोग करके दो LAN को जोड़ता है।<br>• <strong>राउटर (B-I):</strong> विभिन्न नेटवर्क के बीच डेटा पैकेट प्राप्त करता है, विश्लेषण (रूट) करता है और प्रेषित करता है।<br>• <strong>गेटवे (C-III):</strong> एक नोड जो किसी अन्य नेटवर्क के प्रवेश/निकास बिंदु के रूप में कार्य करता है।<br>• <strong>ईथरनेट (D-II):</strong> वायर्ड लोकल एरिया नेटवर्क (LAN) में उपकरणों को जोड़ने के लिए नियमों का मानक सेट (प्रोटोकॉल)।<br>सही मिलान A-IV, B-I, C-III, D-II है।"
       }
@@ -11690,12 +11656,12 @@ const TEST_JAN25_09_S2_P1 = [
     "topicHI": "शिक्षण सहायक प्रणाली — दृश्य-श्रव्य और प्रक्षेपित सहायताएं",
     "content": {
       "en": {
-        "question": "Match the following:<br><br><table border='1' style='border-collapse:collapse;width:100%;'><tr><th style='padding:6px;'>List-I</th><th style='padding:6px;'>List-II</th></tr><tr><td style='padding:6px;'>A. Teaching Aids</td><td style='padding:6px;'>I. Online Education</td></tr><tr><td style='padding:6px;'>B. Chalk-board</td><td style='padding:6px;'>II. Non-Projective Aid</td></tr><tr><td style='padding:6px;'>C. Overhead Projector</td><td style='padding:6px;'>III. Make teaching-learning interesting</td></tr><tr><td style='padding:6px;'>D. MOOCs</td><td style='padding:6px;'>IV. Projective Aid</td></tr></table><br>Choose the correct answer from the options given below:",
+        "question": "Match the following:<br><br><table style='border-collapse:collapse;width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>List-I</th><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>List-II</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>A. Teaching Aids</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>I. Online Education</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>B. Chalk-board</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>II. Non-Projective Aid</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>C. Overhead Projector</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>III. Make teaching-learning interesting</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>D. MOOCs</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>IV. Projective Aid</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": ["A-III, B-I, C-IV, D-II", "A-II, B-III, C-I, D-IV", "A-II, B-III, C-IV, D-I", "A-III, B-II, C-IV, D-I"],
         "explanation": "<strong>Matching Teaching Elements:</strong><br>• <strong>Teaching Aids (A-III):</strong> Tools used to make teaching and learning more interesting and effective.<br>• <strong>Chalk-board (B-II):</strong> A basic Non-Projective visual aid.<br>• <strong>Overhead Projector (C-IV):</strong> A classic Projective Aid that projects images onto a screen.<br>• <strong>MOOCs (D-I):</strong> Massive Open Online Courses, which represent Online Education.<br>Correct match: A-III, B-II, C-IV, D-I."
       },
       "hi": {
-        "question": "निम्नलिखित का मिलान करें:<br><br><table border='1' style='border-collapse:collapse;width:100%;'><tr><th style='padding:6px;'>सूची-I</th><th style='padding:6px;'>सूची-II</th></tr><tr><td style='padding:6px;'>A. शिक्षण सहायक सामग्री</td><td style='padding:6px;'>I. ऑनलाइन शिक्षा</td></tr><tr><td style='padding:6px;'>B. चॉक-बोर्ड</td><td style='padding:6px;'>II. गैर-प्रक्षेपित सहायता</td></tr><tr><td style='padding:6px;'>C. ओवरहेड प्रोजेक्टर</td><td style='padding:6px;'>III. शिक्षण-अधिगम को रोचक बनाएं</td></tr><tr><td style='padding:6px;'>D. एमओओसी (MOOCs)</td><td style='padding:6px;'>IV. प्रोजेक्टिव सहायता</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "निम्नलिखित का मिलान करें:<br><br><table style='border-collapse:collapse;width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>सूची-I</th><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>सूची-II</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>A. शिक्षण सहायक सामग्री</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>I. ऑनलाइन शिक्षा</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>B. चॉक-बोर्ड</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>II. गैर-प्रक्षेपित सहायता</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>C. ओवरहेड प्रोजेक्टर</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>III. शिक्षण-अधिगम को रोचक बनाएं</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>D. एमओओसी (MOOCs)</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>IV. प्रोजेक्टिव सहायता</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": ["A-III, B-I, C-IV, D-II", "A-II, B-III, C-I, D-IV", "A-II, B-III, C-IV, D-I", "A-III, B-II, C-IV, D-I"],
         "explanation": "<strong>शिक्षण तत्वों का मिलान:</strong><br>• <strong>शिक्षण सामग्री (A-III):</strong> शिक्षण और अधिगम को अधिक रोचक और प्रभावी बनाने के लिए उपयोग किए जाने वाले उपकरण।<br>• <strong>चॉक-बोर्ड (B-II):</strong> एक बुनियादी गैर-प्रक्षेपी (Non-Projective) दृश्य सहायता।<br>• <strong>ओवरहेड प्रोजेक्टर (C-IV):</strong> एक क्लासिक प्रोजेक्टिव सहायता जो स्क्रीन पर छवियों को प्रोजेक्ट करती है।<br>• <strong>MOOCs (D-I):</strong> मैसिव ओपन ऑनलाइन पाठ्यक्रम, जो ऑनलाइन शिक्षा का प्रतिनिधित्व करते हैं।<br>सही मिलान: A-III, B-II, C-IV, D-I।"
       }
@@ -11753,12 +11719,12 @@ const TEST_JAN25_09_S2_P1 = [
     "topicHI": "पर्यावरण संरक्षण कानून और अधिनियम",
     "content": {
       "en": {
-        "question": "Match the following:<br><br><table border='1' style='border-collapse:collapse;width:100%;'><tr><th style='padding:6px;'>List-I (Environment Laws)</th><th style='padding:6px;'>List-II (Year)</th></tr><tr><td style='padding:6px;'>A. Air (Prevention and Control of Pollution) Act</td><td style='padding:6px;'>I. 1974</td></tr><tr><td style='padding:6px;'>B. Forest Conservation Act</td><td style='padding:6px;'>II. 1981</td></tr><tr><td style='padding:6px;'>C. Environmental Protection Act</td><td style='padding:6px;'>III. 1980</td></tr><tr><td style='padding:6px;'>D. Water (Prevention and Control of Pollution) Act</td><td style='padding:6px;'>IV. 1986</td></tr></table><br>Choose the correct answer from the options given below:",
+        "question": "Match the following:<br><br><table style='border-collapse:collapse;width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>List-I (Environment Laws)</th><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>List-II (Year)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>A. Air (Prevention and Control of Pollution) Act</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>I. 1974</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>B. Forest Conservation Act</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>II. 1981</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>C. Environmental Protection Act</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>III. 1980</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>D. Water (Prevention and Control of Pollution) Act</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>IV. 1986</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": ["A-I, B-III, C-II, D-IV", "A-II, B-IV, C-III, D-I", "A-III, B-II, C-I, D-IV", "A-II, B-III, C-IV, D-I"],
         "explanation": "<strong>Matching Environmental Laws with Enactment Years:</strong><br>• <strong>Air Act (A-II):</strong> Enacted in <strong>1981</strong> to combat air pollution.<br>• <strong>Forest Conservation Act (B-III):</strong> Enacted in <strong>1980</strong> to protect India's forests.<br>• <strong>Environmental Protection Act (C-IV):</strong> An umbrella act passed in <strong>1986</strong> post-Bhopal gas tragedy.<br>• <strong>Water Act (D-I):</strong> The earliest of these, passed in <strong>1974</strong>.<br>Therefore, the correct match is A-II, B-III, C-IV, D-I."
       },
       "hi": {
-        "question": "निम्नलिखित का मिलान करें:<br><br><table border='1' style='border-collapse:collapse;width:100%;'><tr><th style='padding:6px;'>सूची-I (पर्यावरण कानून)</th><th style='padding:6px;'>सूची-II (वर्ष)</th></tr><tr><td style='padding:6px;'>A. वायु (प्रदूषण निवारण एवं नियंत्रण) अधिनियम</td><td style='padding:6px;'>I. 1974</td></tr><tr><td style='padding:6px;'>B. वन संरक्षण अधिनियम</td><td style='padding:6px;'>II. 1981</td></tr><tr><td style='padding:6px;'>C. पर्यावरण संरक्षण अधिनियम</td><td style='padding:6px;'>III. 1980</td></tr><tr><td style='padding:6px;'>D. जल (प्रदूषण की रोकथाम और नियंत्रण) अधिनियम</td><td style='padding:6px;'>IV. 1986</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "निम्नलिखित का मिलान करें:<br><br><table style='border-collapse:collapse;width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>सूची-I (पर्यावरण कानून)</th><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>सूची-II (वर्ष)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>A. वायु (प्रदूषण निवारण एवं नियंत्रण) अधिनियम</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>I. 1974</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>B. वन संरक्षण अधिनियम</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>II. 1981</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>C. पर्यावरण संरक्षण अधिनियम</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>III. 1980</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>D. जल (प्रदूषण की रोकथाम और नियंत्रण) अधिनियम</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>IV. 1986</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": ["A-I, B-III, C-II, D-IV", "A-II, B-IV, C-III, D-I", "A-III, B-II, C-I, D-IV", "A-II, B-III, C-IV, D-I"],
         "explanation": "<strong>अधिनियमन वर्षों के साथ पर्यावरण कानूनों का मिलान:</strong><br>• <strong>वायु अधिनियम (A-II):</strong> वायु प्रदूषण से निपटने के लिए <strong>1981</strong> में अधिनियमित किया गया।<br>• <strong>वन संरक्षण अधिनियम (B-III):</strong> भारत के जंगलों की रक्षा के लिए <strong>1980</strong> में लागू किया गया।<br>• <strong>पर्यावरण संरक्षण अधिनियम (C-IV):</strong> भोपाल गैस त्रासदी के बाद <strong>1986</strong> में पारित एक व्यापक अधिनियम।<br>• <strong>जल अधिनियम (D-I):</strong> इनमें से सबसे पहला, <strong>1974</strong> में पारित किया गया।<br>इसलिए, सही मिलान A-II, B-III, C-IV, D-I है।"
       }
@@ -11929,12 +11895,12 @@ const TEST_JAN25_09_S1_P1 = [
       "en": {
         "question": TABLE_JAN25_09_S1_P1.en + "<br><br><strong>Question:</strong><br> The number of male employees from city B is _____________% of the total number of employees from all the six cities together?",
         "options": ["5.25", "7.125", "11.375", "13.725"],
-        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. Total employees = 80,000. Male:Female = 9:7 (Total 16 parts).<br>   Total Females = $\\frac{7}{16} \\times 80,000 = 35,000$.<br>2. <strong>City B Total Employees:</strong> 15% of 80,000 = 12,000.<br>3. <strong>City B Female Employees:</strong> 18% of Total Females (35,000) = $0.18 \\times 35,000 = 6,300$.<br>4. <strong>City B Male Employees:</strong> $12,000 - 6,300 = 5,700$.<br>5. <strong>Percentage of Total Employees:</strong> $(\\frac{5700}{80000}) \\times 100 = \\frac{57}{8} = $ <strong>7.125%</strong>."
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>1. Total employees = 80,000. Male:Female = 9:7 (Total 16 parts).<br>   Total Females = (7/16) × 80,000 = 35,000.<br>2. <strong>City B Total Employees:</strong> 15% of 80,000 = 12,000.<br>3. <strong>City B Female Employees:</strong> 18% of Total Females (35,000) = 0.18 × 35,000 = 6,300.<br>4. <strong>City B Male Employees:</strong> 12,000 - 6,300 = 5,700.<br>5. <strong>Percentage of Total Employees:</strong> (5700 / 80000) × 100 = 57/8 = <strong>7.125%</strong>."
       },
       "hi": {
         "question": TABLE_JAN25_09_S1_P1.hi + "<br><br><strong>प्रश्न:</strong><br> शहर B के पुरुष कर्मचारियों की संख्या सभी छह शहरों के कर्मचारियों की कुल संख्या का ____________% है?",
         "options": ["5.25", "7.125", "11.375", "13.725"],
-        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. कुल कर्मचारी = 80,000। पुरुष:महिला = 9:7 (कुल 16 भाग)।<br>   कुल महिलाएँ = $\\frac{7}{16} \\times 80,000 = 35,000$।<br>2. <strong>शहर B कुल कर्मचारी:</strong> 80,000 का 15% = 12,000।<br>3. <strong>शहर B महिला कर्मचारी:</strong> कुल महिलाओं (35,000) का 18% = $0.18 \\times 35,000 = 6,300$।<br>4. <strong>शहर B पुरुष कर्मचारी:</strong> $12,000 - 6,300 = 5,700$।<br>5. <strong>कुल कर्मचारियों का प्रतिशत:</strong> $(\\frac{5700}{80000}) \\times 100 = \\frac{57}{8} = $ <strong>7.125%</strong>।"
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. कुल कर्मचारी = 80,000। पुरुष:महिला = 9:7 (कुल 16 भाग)।<br>   कुल महिलाएँ = (7/16) × 80,000 = 35,000।<br>2. <strong>शहर B कुल कर्मचारी:</strong> 80,000 का 15% = 12,000।<br>3. <strong>शहर B महिला कर्मचारी:</strong> कुल महिलाओं (35,000) का 18% = 0.18 × 35,000 = 6,300।<br>4. <strong>शहर B पुरुष कर्मचारी:</strong> 12,000 - 6,300 = 5,700।<br>5. <strong>कुल कर्मचारियों का प्रतिशत:</strong> (5700 / 80000) × 100 = 57/8 = <strong>7.125%</strong>।"
       }
     }
   },
@@ -11950,12 +11916,12 @@ const TEST_JAN25_09_S1_P1 = [
       "en": {
         "question": TABLE_JAN25_09_S1_P1.en + "<br><br><strong>Question:</strong><br> The number of graduate male employees from city D is approximately____________% of the number of graduate male employees from city B.",
         "options": ["23.2", "24.88", "27.28", "32.52"],
-        "explanation": "<strong>Step-by-step Calculation:</strong><br>Total Females = 35,000.<br>1. <strong>City D Male Employees:</strong><br>   Total D = 6% of 80k = 4,800. Female D = 10% of 35k = 3,500.<br>   Male D = $4800 - 3500 = 1300$.<br>   Graduate Male D = 36% of 1300 = $0.36 \\times 1300 = 468$.<br>2. <strong>City B Male Employees:</strong><br>   Total B = 15% of 80k = 12,000. Female B = 18% of 35k = 6,300.<br>   Male B = $12000 - 6300 = 5700$.<br>   Graduate Male B = 33% of 5700 = $0.33 \\times 5700 = 1881$.<br>3. <strong>Required Percentage:</strong> $(\\frac{468}{1881}) \\times 100 \\approx$ <strong>24.88%</strong>."
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>Total Females = 35,000.<br>1. <strong>City D Male Employees:</strong><br>   Total D = 6% of 80k = 4,800. Female D = 10% of 35k = 3,500.<br>   Male D = 4800 - 3500 = 1300.<br>   Graduate Male D = 36% of 1300 = 0.36 × 1300 = 468.<br>2. <strong>City B Male Employees:</strong><br>   Total B = 15% of 80k = 12,000. Female B = 18% of 35k = 6,300.<br>   Male B = 12000 - 6300 = 5700.<br>   Graduate Male B = 33% of 5700 = 0.33 × 5700 = 1881.<br>3. <strong>Required Percentage:</strong> (468 / 1881) × 100 ≈ <strong>24.88%</strong>."
       },
       "hi": {
         "question": TABLE_JAN25_09_S1_P1.hi + "<br><br><strong>प्रश्न:</strong><br> शहर D से स्नातक पुरुष कर्मचारियों की संख्या शहर B से स्नातक पुरुष कर्मचारियों की संख्या का लगभग____________% है।",
         "options": ["23.2", "24.88", "27.28", "32.52"],
-        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>कुल महिलाएँ = 35,000.<br>1. <strong>शहर D पुरुष कर्मचारी:</strong><br>   कुल D = 80k का 6% = 4,800। महिला D = 35k का 10% = 3,500।<br>   पुरुष D = $4800 - 3500 = 1300$।<br>   स्नातक पुरुष D = 1300 का 36% = $0.36 \\times 1300 = 468$।<br>2. <strong>शहर B पुरुष कर्मचारी:</strong><br>   कुल B = 80k का 15% = 12,000। महिला B = 35k का 18% = 6,300।<br>   पुरुष B = $12000 - 6300 = 5700$।<br>   स्नातक पुरुष B = 5700 का 33% = $0.33 \\times 5700 = 1881$।<br>3. <strong>आवश्यक प्रतिशत:</strong> $(\\frac{468}{1881}) \\times 100 \\approx$ <strong>24.88%</strong>।"
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>कुल महिलाएँ = 35,000.<br>1. <strong>शहर D पुरुष कर्मचारी:</strong><br>   कुल D = 80k का 6% = 4,800। महिला D = 35k का 10% = 3,500।<br>   पुरुष D = 4800 - 3500 = 1300।<br>   स्नातक पुरुष D = 1300 का 36% = 0.36 × 1300 = 468।<br>2. <strong>शहर B पुरुष कर्मचारी:</strong><br>   कुल B = 80k का 15% = 12,000। महिला B = 35k का 18% = 6,300।<br>   पुरुष B = 12000 - 6300 = 5700।<br>   स्नातक पुरुष B = 5700 का 33% = 0.33 × 5700 = 1881।<br>3. <strong>आवश्यक प्रतिशत:</strong> (468 / 1881) × 100 ≈ <strong>24.88%</strong>।"
       }
     }
   },
@@ -11971,12 +11937,12 @@ const TEST_JAN25_09_S1_P1 = [
       "en": {
         "question": TABLE_JAN25_09_S1_P1.en + "<br><br><strong>Question:</strong><br> What is the ratio of the total number of graduate female employees of city A to the total number of non-graduate female employees from city D?",
         "options": ["7 : 6", "8 : 7", "6 : 5", "5 : 4"],
-        "explanation": "<strong>Step-by-step Calculation:</strong><br>Total Females = 35,000.<br>1. <strong>City A Graduate Females:</strong><br>   Total Females in A = 15% of 35,000 = 5,250.<br>   Graduate Females A = 42% of 5250 = $0.42 \\times 5250 = 2205$.<br>2. <strong>City D Non-Graduate Females:</strong><br>   Total Females in D = 10% of 35,000 = 3,500.<br>   Graduate Females D = 46%. So, Non-Graduate = $100\\% - 46\\% = 54\\%$.<br>   Non-Graduate Females D = 54% of 3500 = $0.54 \\times 3500 = 1890$.<br>3. <strong>Ratio:</strong> 2205 : 1890. Dividing both by 315 gives <strong>7 : 6</strong>."
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>Total Females = 35,000.<br>1. <strong>City A Graduate Females:</strong><br>   Total Females in A = 15% of 35,000 = 5,250.<br>   Graduate Females A = 42% of 5250 = 0.42 × 5250 = 2205.<br>2. <strong>City D Non-Graduate Females:</strong><br>   Total Females in D = 10% of 35,000 = 3,500.<br>   Graduate Females D = 46%. So, Non-Graduate = 100% - 46% = 54%.<br>   Non-Graduate Females D = 54% of 3500 = 0.54 × 3500 = 1890.<br>3. <strong>Ratio:</strong> 2205 : 1890. Dividing both by 315 gives <strong>7 : 6</strong>."
       },
       "hi": {
         "question": TABLE_JAN25_09_S1_P1.hi + "<br><br><strong>प्रश्न:</strong><br> शहर A की स्नातक महिला कर्मचारियों की कुल संख्या का शहर D की गैर-स्नातक महिला कर्मचारियों की कुल संख्या से अनुपात क्या है?",
         "options": ["7 : 6", "8 : 7", "6 : 5", "5 : 4"],
-        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>कुल महिलाएँ = 35,000।<br>1. <strong>शहर A स्नातक महिलाएँ:</strong><br>   A में कुल महिलाएँ = 35,000 का 15% = 5,250।<br>   स्नातक महिलाएँ A = 5250 का 42% = $0.42 \\times 5250 = 2205$।<br>2. <strong>शहर D गैर-स्नातक महिलाएँ:</strong><br>   D में कुल महिलाएँ = 35,000 का 10% = 3,500।<br>   स्नातक महिलाएँ D = 46%। तो, गैर-स्नातक = $100\\% - 46\\% = 54\\%$।<br>   गैर-स्नातक महिलाएँ D = 3500 का 54% = $0.54 \\times 3500 = 1890$।<br>3. <strong>अनुपात:</strong> 2205 : 1890। दोनों को 315 से विभाजित करने पर <strong>7 : 6</strong> प्राप्त होता है।"
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>कुल महिलाएँ = 35,000।<br>1. <strong>शहर A स्नातक महिलाएँ:</strong><br>   A में कुल महिलाएँ = 35,000 का 15% = 5,250।<br>   स्नातक महिलाएँ A = 5250 का 42% = 0.42 × 5250 = 2205।<br>2. <strong>शहर D गैर-स्नातक महिलाएँ:</strong><br>   D में कुल महिलाएँ = 35,000 का 10% = 3,500।<br>   स्नातक महिलाएँ D = 46%। तो, गैर-स्नातक = 100% - 46% = 54%।<br>   गैर-स्नातक महिलाएँ D = 3500 का 54% = 0.54 × 3500 = 1890।<br>3. <strong>अनुपात:</strong> 2205 : 1890। दोनों को 315 से विभाजित करने पर <strong>7 : 6</strong> प्राप्त होता है।"
       }
     }
   },
@@ -11992,12 +11958,12 @@ const TEST_JAN25_09_S1_P1 = [
       "en": {
         "question": TABLE_JAN25_09_S1_P1.en + "<br><br><strong>Question:</strong><br> The number of male employees from city C is approximately_________________% more than the number of female employees from city F.",
         "options": ["6", "8", "10", "14"],
-        "explanation": "<strong>Step-by-step Calculation:</strong><br>Total Employees = 80,000. Total Females = 35,000.<br>1. <strong>City C Male Employees:</strong><br>   Total C = 20% of 80k = 16,000.<br>   Female C = 16% of 35k = 5,600.<br>   Male C = $16000 - 5600 = 10,400$.<br>2. <strong>City F Female Employees:</strong><br>   Female F = 27% of 35k = 9,450.<br>3. <strong>Difference:</strong> $10400 - 9450 = 950$.<br>4. <strong>Percentage More:</strong> $(\\frac{950}{9450}) \\times 100 \\approx 10.05\\%$, which is approximately <strong>10%</strong>."
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>Total Employees = 80,000. Total Females = 35,000.<br>1. <strong>City C Male Employees:</strong><br>   Total C = 20% of 80k = 16,000.<br>   Female C = 16% of 35k = 5,600.<br>   Male C = 16000 - 5600 = 10,400.<br>2. <strong>City F Female Employees:</strong><br>   Female F = 27% of 35k = 9,450.<br>3. <strong>Difference:</strong> 10400 - 9450 = 950.<br>4. <strong>Percentage More:</strong> (950 / 9450) × 100 ≈ 10.05%, which is approximately <strong>10%</strong>."
       },
       "hi": {
         "question": TABLE_JAN25_09_S1_P1.hi + "<br><br><strong>प्रश्न:</strong><br> शहर C के पुरुष कर्मचारियों की संख्या शहर F की महिला कर्मचारियों की संख्या से लगभग _________________% अधिक है।",
         "options": ["6", "8", "10", "14"],
-        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>कुल कर्मचारी = 80,000। कुल महिलाएँ = 35,000।<br>1. <strong>शहर C पुरुष कर्मचारी:</strong><br>   कुल C = 80k का 20% = 16,000।<br>   महिला C = 35k का 16% = 5,600।<br>   पुरुष C = $16000 - 5600 = 10,400$।<br>2. <strong>शहर F महिला कर्मचारी:</strong><br>   महिला F = 35k का 27% = 9,450।<br>3. <strong>अंतर:</strong> $10400 - 9450 = 950$।<br>4. <strong>प्रतिशत अधिक:</strong> $(\\frac{950}{9450}) \\times 100 \\approx 10.05\\%$, जो लगभग <strong>10%</strong> है।"
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>कुल कर्मचारी = 80,000। कुल महिलाएँ = 35,000।<br>1. <strong>शहर C पुरुष कर्मचारी:</strong><br>   कुल C = 80k का 20% = 16,000।<br>   महिला C = 35k का 16% = 5,600।<br>   पुरुष C = 16000 - 5600 = 10,400।<br>2. <strong>शहर F महिला कर्मचारी:</strong><br>   महिला F = 35k का 27% = 9,450।<br>3. <strong>अंतर:</strong> 10400 - 9450 = 950।<br>4. <strong>प्रतिशत अधिक:</strong> (950 / 9450) × 100 ≈ 10.05%, जो लगभग <strong>10%</strong> है।"
       }
     }
   },
@@ -12013,12 +11979,12 @@ const TEST_JAN25_09_S1_P1 = [
       "en": {
         "question": TABLE_JAN25_09_S1_P1.en + "<br><br><strong>Question:</strong><br> What is the difference between the total number of graduate male employees and the total number of graduate female employees taking all the six cities together?",
         "options": ["701", "702", "703", "704"],
-        "explanation": "<strong>Step-by-step Calculation:</strong><br>Calculate Graduate Males and Females for each city (Total F=35000, Total M=45000, but Males vary per city):<br>• <strong>A:</strong> F=5250 (Grad F = 42% = 2205). M = (24% of 80k) - 5250 = 19200 - 5250 = 13950 (Grad M = 26% = 3627).<br>• <strong>B:</strong> F=6300 (Grad F = 37% = 2331). M = 12000 - 6300 = 5700 (Grad M = 33% = 1881).<br>• <strong>C:</strong> F=5600 (Grad F = 38% = 2128). M = 16000 - 5600 = 10400 (Grad M = 41% = 4264).<br>• <strong>D:</strong> F=3500 (Grad F = 46% = 1610). M = 4800 - 3500 = 1300 (Grad M = 36% = 468).<br>• <strong>E:</strong> F=4900 (Grad F = 51% = 2499). M = 7200 - 4900 = 2300 (Grad M = 47% = 1081).<br>• <strong>F:</strong> F=9450 (Grad F = 56% = 5292). M = 20800 - 9450 = 11350 (Grad M = 48% = 5448).<br><strong>Totals:</strong> Grad Males = $3627 + 1881 + 4264 + 468 + 1081 + 5448 = 16769$.<br>Grad Females = $2205 + 2331 + 2128 + 1610 + 2499 + 5292 = 16065$.<br><strong>Difference:</strong> $16769 - 16065 =$ <strong>704</strong>."
+        "explanation": "<strong>Step-by-step Calculation:</strong><br>Calculate Graduate Males and Females for each city (Total F=35000, Total M=45000, but Males vary per city):<br>• <strong>A:</strong> F=5250 (Grad F = 42% = 2205). M = (24% of 80k) - 5250 = 19200 - 5250 = 13950 (Grad M = 26% = 3627).<br>• <strong>B:</strong> F=6300 (Grad F = 37% = 2331). M = 12000 - 6300 = 5700 (Grad M = 33% = 1881).<br>• <strong>C:</strong> F=5600 (Grad F = 38% = 2128). M = 16000 - 5600 = 10400 (Grad M = 41% = 4264).<br>• <strong>D:</strong> F=3500 (Grad F = 46% = 1610). M = 4800 - 3500 = 1300 (Grad M = 36% = 468).<br>• <strong>E:</strong> F=4900 (Grad F = 51% = 2499). M = 7200 - 4900 = 2300 (Grad M = 47% = 1081).<br>• <strong>F:</strong> F=9450 (Grad F = 56% = 5292). M = 20800 - 9450 = 11350 (Grad M = 48% = 5448).<br><strong>Totals:</strong> Grad Males = 3627 + 1881 + 4264 + 468 + 1081 + 5448 = 16769.<br>Grad Females = 2205 + 2331 + 2128 + 1610 + 2499 + 5292 = 16065.<br><strong>Difference:</strong> 16769 - 16065 = <strong>704</strong>."
       },
       "hi": {
         "question": TABLE_JAN25_09_S1_P1.hi + "<br><br><strong>प्रश्न:</strong><br> सभी छह शहरों में स्नातक पुरुष कर्मचारियों की कुल संख्या और स्नातक महिला कर्मचारियों की कुल संख्या के बीच क्या अंतर है?",
         "options": ["701", "702", "703", "704"],
-        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>प्रत्येक शहर के लिए स्नातक पुरुषों और महिलाओं की गणना करें:<br>• <strong>A:</strong> महिला=5250 (स्नातक=2205)। पुरुष = 19200-5250 = 13950 (स्नातक=3627)।<br>• <strong>B:</strong> महिला=6300 (स्नातक=2331)। पुरुष = 12000-6300 = 5700 (स्नातक=1881)।<br>• <strong>C:</strong> महिला=5600 (स्नातक=2128)। पुरुष = 16000-5600 = 10400 (स्नातक=4264)।<br>• <strong>D:</strong> महिला=3500 (स्नातक=1610)। पुरुष = 4800-3500 = 1300 (स्नातक=468)।<br>• <strong>E:</strong> महिला=4900 (स्नातक=2499)। पुरुष = 7200-4900 = 2300 (स्नातक=1081)।<br>• <strong>F:</strong> महिला=9450 (स्नातक=5292)। पुरुष = 20800-9450 = 11350 (स्नातक=5448)।<br><strong>कुल:</strong> स्नातक पुरुष = 16769।<br>स्नातक महिलाएँ = 16065।<br><strong>अंतर:</strong> $16769 - 16065 =$ <strong>704</strong>।"
+        "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>प्रत्येक शहर के लिए स्नातक पुरुषों और महिलाओं की गणना करें:<br>• <strong>A:</strong> महिला=5250 (स्नातक=2205)। पुरुष = 19200-5250 = 13950 (स्नातक=3627)।<br>• <strong>B:</strong> महिला=6300 (स्नातक=2331)। पुरुष = 12000-6300 = 5700 (स्नातक=1881)।<br>• <strong>C:</strong> महिला=5600 (स्नातक=2128)। पुरुष = 16000-5600 = 10400 (स्नातक=4264)।<br>• <strong>D:</strong> महिला=3500 (स्नातक=1610)। पुरुष = 4800-3500 = 1300 (स्नातक=468)।<br>• <strong>E:</strong> महिला=4900 (स्नातक=2499)। पुरुष = 7200-4900 = 2300 (स्नातक=1081)।<br>• <strong>F:</strong> महिला=9450 (स्नातक=5292)। पुरुष = 20800-9450 = 11350 (स्नातक=5448)।<br><strong>कुल:</strong> स्नातक पुरुष = 16769।<br>स्नातक महिलाएँ = 16065।<br><strong>अंतर:</strong> 16769 - 16065 = <strong>704</strong>।"
       }
     }
   },
@@ -12076,12 +12042,12 @@ const TEST_JAN25_09_S1_P1 = [
       "en": {
         "question": "A man rows in still water at a certain speed V (km/hour). He takes as much time to cover 2 km distance upstream as he takes to cover 3 km distance downstream. If the speed of the stream is 2 (km/hour), what is the value of V?",
         "options": ["10 km/hour", "8 km/hour", "6 km/hour", "5 km/hour"],
-        "explanation": "<strong>Step-by-step Solution:</strong><br>1. Speed upstream = $(V - 2)$ km/hr.<br>2. Speed downstream = $(V + 2)$ km/hr.<br>3. Time = Distance / Speed. Given that $Time_{\\text{upstream}} = Time_{\\text{downstream}}$.<br>   $\\frac{2}{V - 2} = \\frac{3}{V + 2}$<br>4. Cross-multiply: $2(V + 2) = 3(V - 2)$<br>   $2V + 4 = 3V - 6$<br>5. Solving for V: $3V - 2V = 4 + 6 \\implies V = <strong>10 \\text{ km/hour}</strong>$."
+        "explanation": "<strong>Step-by-step Solution:</strong><br>1. Speed upstream = (V - 2) km/hr.<br>2. Speed downstream = (V + 2) km/hr.<br>3. Time = Distance / Speed. Given that Time_upstream = Time_downstream.<br>   2 / (V - 2) = 3 / (V + 2)<br>4. Cross-multiply: 2(V + 2) = 3(V - 2)<br>   2V + 4 = 3V - 6<br>5. Solving for V: 3V - 2V = 4 + 6 ⇒ V = <strong>10 km/hour</strong>."
       },
       "hi": {
         "question": "एक व्यक्ति स्थिर जल में एक निश्चित गति V (किमी/घंटा) से नाव चलाता है। उसे धारा के प्रतिकूल 2 किमी की दूरी तय करने में उतना ही समय लगता है जितना उसे धारा के अनुकूल 3 किमी की दूरी तय करने में लगता है। यदि धारा की गति 2 (किमी/घंटा) है, तो V का मान क्या है?",
         "options": ["10 किमी/घंटा", "8 किमी/घंटा", "6 किमी/घंटा", "5 किमी/घंटा"],
-        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>1. धारा के प्रतिकूल (upstream) गति = $(V - 2)$ किमी/घंटा।<br>2. धारा के अनुकूल (downstream) गति = $(V + 2)$ किमी/घंटा।<br>3. समय = दूरी / गति। दिया गया है कि $Time_{\\text{upstream}} = Time_{\\text{downstream}}$।<br>   $\\frac{2}{V - 2} = \\frac{3}{V + 2}$<br>4. क्रॉस-मल्टीप्लाई करें: $2(V + 2) = 3(V - 2)$<br>   $2V + 4 = 3V - 6$<br>5. V का मान निकालें: $3V - 2V = 4 + 6 \\implies V = <strong>10 \\text{ किमी/घंटा}</strong>$।"
+        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>1. धारा के प्रतिकूल (upstream) गति = (V - 2) किमी/घंटा।<br>2. धारा के अनुकूल (downstream) गति = (V + 2) किमी/घंटा।<br>3. समय = दूरी / गति। दिया गया है कि Time_upstream = Time_downstream.<br>   2 / (V - 2) = 3 / (V + 2)<br>4. क्रॉस-मल्टीप्लाई करें: 2(V + 2) = 3(V - 2)<br>   2V + 4 = 3V - 6<br>5. V का मान निकालें: 3V - 2V = 4 + 6 ⇒ V = <strong>10 किमी/घंटा</strong>।"
       }
     }
   },
@@ -12116,12 +12082,12 @@ const TEST_JAN25_09_S1_P1 = [
     "topicHI": "उच्च शिक्षा योजनाएं और नीतियां — शैक्षिक संस्थाएं",
     "content": {
       "en": {
-        "question": "Match the following:<br><br><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>List-I (Institutions/Portal)</th><th style='padding:8px 10px;'>List-II (Domains)</th></tr><tr><td style='padding:8px 10px;'>A. NCTE</td><td style='padding:8px 10px;'>I. Assessment and Accreditation</td></tr><tr><td style='padding:8px 10px;'>B. NCERT</td><td style='padding:8px 10px;'>II. Online Education</td></tr><tr><td style='padding:8px 10px;'>C. NAAC</td><td style='padding:8px 10px;'>III. Teacher Education</td></tr><tr><td style='padding:8px 10px;'>D. SWAYAM</td><td style='padding:8px 10px;'>IV. School Textbooks</td></tr></table><br>Choose the correct answer from the options given below:",
+        "question": "Match the following:<br><br><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>List-I (Institutions/Portal)</th><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>List-II (Domains)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>A. NCTE</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>I. Assessment and Accreditation</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>B. NCERT</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>II. Online Education</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>C. NAAC</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>III. Teacher Education</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>D. SWAYAM</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>IV. School Textbooks</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": ["A-I, B-II, C-III, D-IV", "A-II, B-I, C-IV, D-III", "A-III, B-IV, C-I, D-II", "A-IV, B-III, C-II, D-I"],
         "explanation": "<strong>Matching Educational Institutions with their Domains:</strong><br>• <strong>NCTE (A-III):</strong> National Council for Teacher Education focuses on Teacher Education.<br>• <strong>NCERT (B-IV):</strong> National Council of Educational Research and Training publishes School Textbooks.<br>• <strong>NAAC (C-I):</strong> National Assessment and Accreditation Council handles Assessment and Accreditation of higher education institutions.<br>• <strong>SWAYAM (D-II):</strong> A massive platform for Online Education.<br>Hence, A-III, B-IV, C-I, D-II is the correct match."
       },
       "hi": {
-        "question": "निम्नलिखित का मिलान करें:<br><br><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>सूची-I (संस्थाएँ/पोर्टल)</th><th style='padding:8px 10px;'>सूची-II (डोमेन)</th></tr><tr><td style='padding:8px 10px;'>A. एनसीटीई (NCTE)</td><td style='padding:8px 10px;'>I. मूल्यांकन और मान्यता</td></tr><tr><td style='padding:8px 10px;'>B. एनसीईआरटी (NCERT)</td><td style='padding:8px 10px;'>II. ऑनलाइन शिक्षा</td></tr><tr><td style='padding:8px 10px;'>C. एनएएसी (NAAC)</td><td style='padding:8px 10px;'>III. शिक्षक शिक्षा</td></tr><tr><td style='padding:8px 10px;'>D. स्वयं (SWAYAM)</td><td style='padding:8px 10px;'>IV. स्कूल की पाठ्य पुस्तकें</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "निम्नलिखित का मिलान करें:<br><br><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>सूची-I (संस्थाएँ/पोर्टल)</th><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>सूची-II (डोमेन)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>A. एनसीटीई (NCTE)</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>I. मूल्यांकन और मान्यता</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>B. एनसीईआरटी (NCERT)</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>II. ऑनलाइन शिक्षा</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>C. एनएएसी (NAAC)</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>III. शिक्षक शिक्षा</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>D. स्वयं (SWAYAM)</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>IV. स्कूल की पाठ्य पुस्तकें</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": ["A-I, B-II, C-III, D-IV", "A-II, B-I, C-IV, D-III", "A-III, B-IV, C-I, D-II", "A-IV, B-III, C-II, D-I"],
         "explanation": "<strong>शैक्षणिक संस्थानों का उनके डोमेन के साथ मिलान:</strong><br>• <strong>NCTE (A-III):</strong> राष्ट्रीय शिक्षक शिक्षा परिषद शिक्षक शिक्षा (Teacher Education) पर ध्यान केंद्रित करती है।<br>• <strong>NCERT (B-IV):</strong> राष्ट्रीय शैक्षिक अनुसंधान और प्रशिक्षण परिषद स्कूल की पाठ्य पुस्तकें (School Textbooks) प्रकाशित करती है।<br>• <strong>NAAC (C-I):</strong> राष्ट्रीय मूल्यांकन और प्रत्यायन परिषद उच्च शिक्षा संस्थानों के मूल्यांकन और मान्यता (Assessment and Accreditation) को संभालती है।<br>• <strong>SWAYAM (D-II):</strong> ऑनलाइन शिक्षा के लिए एक विशाल मंच।<br>अतः A-III, B-IV, C-I, D-II सही मिलान है।"
       }
@@ -12137,12 +12103,12 @@ const TEST_JAN25_09_S1_P1 = [
     "topicHI": "शिक्षण के स्तर — स्मृति, समझ और चिंतनशील",
     "content": {
       "en": {
-        "question": "Match the following:<br><br><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>List-I (Level of Understanding)</th><th style='padding:8px 10px;'>List-II (Process)</th></tr><tr><td style='padding:8px 10px;'>A. Autonomous Dependent Level</td><td style='padding:8px 10px;'>I. Peer learning</td></tr><tr><td style='padding:8px 10px;'>B. Memory level</td><td style='padding:8px 10px;'>II. Effects and feelings</td></tr><tr><td style='padding:8px 10px;'>C. Reflective level</td><td style='padding:8px 10px;'>III. Recall of facts and information</td></tr><tr><td style='padding:8px 10px;'>D. Understanding level</td><td style='padding:8px 10px;'>IV. Seeing of relationship</td></tr></table><br>Choose the correct answer from the options given below:",
+        "question": "Match the following:<br><br><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>List-I (Level of Understanding)</th><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>List-II (Process)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>A. Autonomous Dependent Level</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>I. Peer learning</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>B. Memory level</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>II. Effects and feelings</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>C. Reflective level</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>III. Recall of facts and information</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>D. Understanding level</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>IV. Seeing of relationship</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": ["A-I, B-III, C-IV, D-II", "A-II, B-III, C-I, D-IV", "A-II, B-III, C-IV, D-I", "A-IV, B-III, C-II, D-I"],
         "explanation": "<strong>Matching Levels of Teaching with Processes:</strong><br>• <strong>Autonomous Development Level (A-II):</strong> This is student-centered and primarily focuses on student's effects, attitudes, and feelings.<br>• <strong>Memory Level (B-III):</strong> Relies solely on the memorization and recall of facts and information.<br>• <strong>Reflective Level (C-I):</strong> The highest level where students engage in deep problem-solving, independent thinking, and peer learning.<br>• <strong>Understanding Level (D-IV):</strong> Focuses on seeing relationships between facts and understanding concepts.<br>Hence, A-II, B-III, C-I, D-IV is the correct match."
       },
       "hi": {
-        "question": "निम्नलिखित का मिलान करें:<br><br><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>सूची-I (समझ का स्तर)</th><th style='padding:8px 10px;'>सूची-II (प्रक्रिया)</th></tr><tr><td style='padding:8px 10px;'>A. स्वायत्त आश्रित स्तर</td><td style='padding:8px 10px;'>I. सहकर्मी सीखना</td></tr><tr><td style='padding:8px 10px;'>B. स्मृति स्तर</td><td style='padding:8px 10px;'>II. प्रभाव और भावनाएँ</td></tr><tr><td style='padding:8px 10px;'>C. परावर्तक स्तर</td><td style='padding:8px 10px;'>III. तथ्यों और सूचनाओं का स्मरण</td></tr><tr><td style='padding:8px 10px;'>D. समझ का स्तर</td><td style='padding:8px 10px;'>IV. रिश्ते को देखना</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "निम्नलिखित का मिलान करें:<br><br><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>सूची-I (समझ का स्तर)</th><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>सूची-II (प्रक्रिया)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>A. स्वायत्त आश्रित स्तर</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>I. सहकर्मी सीखना</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>B. स्मृति स्तर</td><td style='padding:8px 10px;'>II. प्रभाव और भावनाएँ</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>C. परावर्तक स्तर</td><td style='padding:8px 10px;'>III. तथ्यों और सूचनाओं का स्मरण</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>D. समझ का स्तर</td><td style='padding:8px 10px;'>IV. रिश्ते को देखना</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": ["A-I, B-III, C-IV, D-II", "A-II, B-III, C-I, D-IV", "A-II, B-III, C-IV, D-I", "A-IV, B-III, C-II, D-I"],
         "explanation": "<strong>शिक्षण के स्तर का प्रक्रियाओं से मिलान:</strong><br>• <strong>स्वायत्त विकास स्तर (A-II):</strong> यह छात्र-केंद्रित है और मुख्य रूप से छात्र के प्रभाव, दृष्टिकोण और भावनाओं पर केंद्रित है।<br>• <strong>स्मृति स्तर (B-III):</strong> केवल तथ्यों और सूचनाओं को याद रखने और याद करने पर निर्भर करता है।<br>• <strong>चिंतनशील (परावर्तक) स्तर (C-I):</strong> उच्चतम स्तर जहां छात्र गहरी समस्या-समाधान, स्वतंत्र सोच और सहकर्मी सीखने (Peer learning) में संलग्न होते हैं।<br>• <strong>समझ का स्तर (D-IV):</strong> तथ्यों के बीच संबंधों को देखने और अवधारणाओं को समझने पर केंद्रित है।<br>अतः A-II, B-III, C-I, D-IV सही मिलान है।"
       }
@@ -12179,12 +12145,12 @@ const TEST_JAN25_09_S1_P1 = [
     "topicHI": "मृदा के प्रकार और क्षेत्रीय वितरण",
     "content": {
       "en": {
-        "question": "Match the following:<br><br><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>List-I (Soil type)</th><th style='padding:8px 10px;'>List-II (Region)</th></tr><tr><td style='padding:8px 10px;'>A. Alluvial soil</td><td style='padding:8px 10px;'>I. Western Ghat, Kerala</td></tr><tr><td style='padding:8px 10px;'>B. Desert soil</td><td style='padding:8px 10px;'>II. Runn of Kutch, Gujarat</td></tr><tr><td style='padding:8px 10px;'>C. Black soil</td><td style='padding:8px 10px;'>III. Indo-Gangetic plain, Bihar</td></tr><tr><td style='padding:8px 10px;'>D. Laterite soil</td><td style='padding:8px 10px;'>IV. Krishna Tungabhadra basin of Tamil Nadu</td></tr></table><br>Choose the correct answer from the options given below:",
+        "question": "Match the following:<br><br><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>List-I (Soil type)</th><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>List-II (Region)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>A. Alluvial soil</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>I. Western Ghat, Kerala</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>B. Desert soil</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>II. Runn of Kutch, Gujarat</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>C. Black soil</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>III. Indo-Gangetic plain, Bihar</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>D. Laterite soil</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>IV. Krishna Tungabhadra basin of Tamil Nadu</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": ["A-III, B-I, C-IV, D-II", "A-I, B-II, C-III, D-IV", "A-III, B-II, C-IV, D-I", "A-I, B-III, C-I, D-IV"],
         "explanation": "<strong>Matching Soil Types with Indian Regions:</strong><br>• <strong>Alluvial Soil (A-III):</strong> Found extensively in the river basins like the Indo-Gangetic plain (Bihar).<br>• <strong>Desert / Arid Soil (B-II):</strong> Found in arid regions like the Rann of Kutch (Gujarat) and Rajasthan.<br>• <strong>Black Soil (C-IV):</strong> Prominent in the Deccan plateau, including the Krishna-Tungabhadra basin (Tamil Nadu/Karnataka borders).<br>• <strong>Laterite Soil (D-I):</strong> Found in areas with high rainfall and temperature, like the Western Ghats (Kerala).<br>Correct match: A-III, B-II, C-IV, D-I."
       },
       "hi": {
-        "question": "निम्नलिखित का मिलान करें:<br><br><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>सूची-I (मृदा प्रकार)</th><th style='padding:8px 10px;'>सूची-II (क्षेत्र)</th></tr><tr><td style='padding:8px 10px;'>A. जलोढ़ मिट्टी</td><td style='padding:8px 10px;'>I. पश्चिमी घाट, केरल</td></tr><tr><td style='padding:8px 10px;'>B. रेगिस्तानी मिट्टी</td><td style='padding:8px 10px;'>II. कच्छ का रन्न, गुजरात</td></tr><tr><td style='padding:8px 10px;'>C. काली मिट्टी</td><td style='padding:8px 10px;'>III. इंडो-गैंगेटिक प्लेन, बिहार</td></tr><tr><td style='padding:8px 10px;'>D. लैटेराइट मिट्टी</td><td style='padding:8px 10px;'>IV. तमिलनाडु का कृष्णा तुंगभद्रा बेसिन</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "निम्नलिखित का मिलान करें:<br><br><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>सूची-I (मृदा प्रकार)</th><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>सूची-II (क्षेत्र)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>A. जलोढ़ मिट्टी</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>I. पश्चिमी घाट, केरल</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>B. रेगिस्तानी मिट्टी</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>II. कच्छ का रन्न, गुजरात</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>C. काली मिट्टी</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>III. इंडो-गैंगेटिक प्लेन, बिहार</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>D. लैटेराइट मिट्टी</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>IV. तमिलनाडु का कृष्णा तुंगभद्रा बेसिन</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": ["A-III, B-I, C-IV, D-II", "A-I, B-II, C-III, D-IV", "A-III, B-II, C-IV, D-I", "A-I, B-III, C-I, D-IV"],
         "explanation": "<strong>भारतीय क्षेत्रों के साथ मिट्टी के प्रकारों का मिलान:</strong><br>• <strong>जलोढ़ मिट्टी (A-III):</strong> नदी घाटियों जैसे इंडो-गैंगेटिक मैदान (बिहार) में बड़े पैमाने पर पाई जाती है।<br>• <strong>रेगिस्तानी / शुष्क मिट्टी (B-II):</strong> कच्छ के रण (गुजरात) और राजस्थान जैसे शुष्क क्षेत्रों में पाई जाती है।<br>• <strong>काली मिट्टी (C-IV):</strong> दक्कन के पठार में प्रमुख, जिसमें कृष्णा-तुंगभद्रा बेसिन (तमिलनाडु/कर्नाटक सीमाएं) शामिल है।<br>• <strong>लेटराइट मिट्टी (D-I):</strong> उच्च वर्षा और तापमान वाले क्षेत्रों में पाई जाती है, जैसे पश्चिमी घाट (केरल)।<br>सही मिलान: A-III, B-II, C-IV, D-I."
       }
@@ -12200,12 +12166,12 @@ const TEST_JAN25_09_S1_P1 = [
     "topicHI": "विरोध का शास्त्रीय वर्ग",
     "content": {
       "en": {
-        "question": "Match the following:<br><br><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>List-I (Square of Opposition)</th><th style='padding:8px 10px;'>List-II (Result)</th></tr><tr><td style='padding:8px 10px;'>A. If 'I' is given as true</td><td style='padding:8px 10px;'>I. 'E' and 'I' are undetermined</td></tr><tr><td style='padding:8px 10px;'>B. If 'I' is given as false</td><td style='padding:8px 10px;'>II. 'E' is false, A is undetermined</td></tr><tr><td style='padding:8px 10px;'>C. If 'O' is given as true</td><td style='padding:8px 10px;'>III. 'A' is false, 'E' is true</td></tr><tr><td style='padding:8px 10px;'>D. If 'O' is given as false</td><td style='padding:8px 10px;'>IV. 'E' is false</td></tr></table><br>Choose the correct answer from the options given below:",
+        "question": "Match the following:<br><br><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>List-I (Square of Opposition)</th><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>List-II (Result)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>A. If 'I' is given as true</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>I. 'E' and 'I' are undetermined</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>B. If 'I' is given as false</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>II. 'E' is false, A is undetermined</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>C. If 'O' is given as true</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>III. 'A' is false, 'E' is true</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>D. If 'O' is given as false</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>IV. 'E' is false</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": ["A-III, B-IV, C-I, D-II", "A-II, B-III, C-I, D-IV", "A-I, B-IV, C-II, D-III", "A-IV, B-I, C-III, D-I"],
         "explanation": "<strong>Square of Opposition Rules:</strong><br>• <strong>(A) If 'I' is True:</strong> Its contradictory 'E' is False. The universal 'A' and particular 'O' remain undetermined. (Matches II).<br>• <strong>(B) If 'I' is False:</strong> Its contradictory 'E' must be True. By subalternation, 'A' must be False. (Matches III).<br>• <strong>(C) If 'O' is True:</strong> Its contradictory 'A' is False. The propositions 'E' and 'I' remain undetermined. (Matches I).<br>• <strong>(D) If 'O' is False:</strong> Its contradictory 'A' is True. By subalternation, 'I' is True, and 'E' is False. (Matches IV).<br>Correct match: A-II, B-III, C-I, D-IV."
       },
       "hi": {
-        "question": "निम्नलिखित का मिलान करें:<br><br><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>सूची-I (विरोध का वर्ग)</th><th style='padding:8px 10px;'>सूची-II (परिणाम)</th></tr><tr><td style='padding:8px 10px;'>A. यदि 'I' को सत्य माना गया है</td><td style='padding:8px 10px;'>I. 'E' और 'I' अनिर्धारित हैं</td></tr><tr><td style='padding:8px 10px;'>B. यदि 'I' असत्य दिया गया है</td><td style='padding:8px 10px;'>II. 'E' असत्य है, A अनिर्धारित है</td></tr><tr><td style='padding:8px 10px;'>C. यदि 'O' सत्य दिया गया है</td><td style='padding:8px 10px;'>III. 'A' असत्य है, 'E' सत्य है</td></tr><tr><td style='padding:8px 10px;'>D. यदि 'O' असत्य दिया गया है</td><td style='padding:8px 10px;'>IV. 'E' असत्य है</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "निम्नलिखित का मिलान करें:<br><br><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>सूची-I (विरोध का वर्ग)</th><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>सूची-II (परिणाम)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>A. यदि 'I' को सत्य माना गया है</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>I. 'E' और 'I' अनिर्धारित हैं</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>B. यदि 'I' असत्य दिया गया है</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>II. 'E' असत्य है, A अनिर्धारित है</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>C. यदि 'O' सत्य दिया गया है</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>III. 'A' असत्य है, 'E' सत्य है</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>D. यदि 'O' असत्य दिया गया है</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>IV. 'E' असत्य है</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": ["A-III, B-IV, C-I, D-II", "A-II, B-III, C-I, D-IV", "A-I, B-IV, C-II, D-III", "A-IV, B-I, C-III, D-I"],
         "explanation": "<strong>विरोध के वर्ग (Square of Opposition) के नियम:</strong><br>• <strong>(A) यदि 'I' सत्य है:</strong> इसका विरोधाभासी 'E' असत्य है। सार्वभौमिक 'A' और विशेष 'O' अनिर्धारित रहते हैं। (II से मेल खाता है)।<br>• <strong>(B) यदि 'I' असत्य है:</strong> इसका विरोधाभासी 'E' सत्य होना चाहिए। उपाश्रयण (subalternation) द्वारा, 'A' असत्य होना चाहिए। (III से मेल खाता है)।<br>• <strong>(C) यदि 'O' सत्य है:</strong> इसका विरोधाभासी 'A' असत्य है। 'E' और 'I' अनिर्धारित रहते हैं। (I से मेल खाता है)।<br>• <strong>(D) यदि 'O' असत्य है:</strong> इसका विरोधाभासी 'A' सत्य है। 'I' सत्य है, और 'E' असत्य है। (IV से मेल खाता है)।<br>सही मिलान: A-II, B-III, C-I, D-IV।"
       }
@@ -12244,12 +12210,12 @@ const TEST_JAN25_09_S1_P1 = [
       "en": {
         "question": "Arrange the following events related to hazardous materials in order of their occurrence starting from oldest to the most recent.<br><br>A. BAMAKO Convention<br>B. Waigani Convention<br>C. Basel Convention<br>D. London Convention<br>E. Rotterdam Convention<br><br>Choose the correct answer from the options given below:",
         "options": ["B, D, C, A, E", "D, C, A, B, E", "E, B, C, D, A", "D, C, B, E, A"],
-        "explanation": "<strong>Chronology of Hazardous Materials Conventions:</strong><br>1. <strong>London Convention (D):</strong> Adopted in <strong>1972</strong> (marine pollution by dumping wastes).<br>2. <strong>Basel Convention (C):</strong> Adopted in <strong>1989</strong> (control of transboundary movements of hazardous wastes).<br>3. <strong>Bamako Convention (A):</strong> Adopted in <strong>1991</strong> (banning import of hazardous wastes into Africa).<br>4. <strong>Waigani Convention (B):</strong> Adopted in <strong>1995</strong> (banning hazardous wastes in the South Pacific).<br>5. <strong>Rotterdam Convention (E):</strong> Adopted in <strong>1998</strong> (hazardous chemicals and pesticides trade).<br>Correct Order: D $\\rightarrow$ C $\\rightarrow$ A $\\rightarrow$ B $\\rightarrow$ E."
+        "explanation": "<strong>Chronology of Hazardous Materials Conventions:</strong><br>1. <strong>London Convention (D):</strong> Adopted in <strong>1972</strong> (marine pollution by dumping wastes).<br>2. <strong>Basel Convention (C):</strong> Adopted in <strong>1989</strong> (control of transboundary movements of hazardous wastes).<br>3. <strong>Bamako Convention (A):</strong> Adopted in <strong>1991</strong> (banning import of hazardous wastes into Africa).<br>4. <strong>Waigani Convention (B):</strong> Adopted in <strong>1995</strong> (banning hazardous wastes in the South Pacific).<br>5. <strong>Rotterdam Convention (E):</strong> Adopted in <strong>1998</strong> (hazardous chemicals and pesticides trade).<br>Correct Order: D → C → A → B → E."
       },
       "hi": {
         "question": "खतरनाक पदार्थों से संबंधित निम्नलिखित घटनाओं को उनकी घटना के क्रम में सबसे पुरानी से लेकर सबसे हाल की तक व्यवस्थित करें।<br><br>A. बामाको कन्वेंशन<br>B. वैगानी कन्वेंशन<br>C. बेसल कन्वेंशन<br>D. लंदन कन्वेंशन<br>E. रॉटरडैम कन्वेंशन<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": ["B, D, C, A, E", "D, C, A, B, E", "E, B, C, D, A", "D, C, B, E, A"],
-        "explanation": "<strong>खतरनाक सामग्री सम्मेलनों का कालक्रम:</strong><br>1. <strong>लंदन कन्वेंशन (D):</strong> <strong>1972</strong> में अपनाया गया (कचरा डंप करने से समुद्री प्रदूषण)।<br>2. <strong>बेसल कन्वेंशन (C):</strong> <strong>1989</strong> में अपनाया गया (खतरनाक कचरे की सीमा पार गतिविधियों का नियंत्रण)।<br>3. <strong>बामाको कन्वेंशन (A):</strong> <strong>1991</strong> में अपनाया गया (अफ्रीका में खतरनाक कचरे के आयात पर प्रतिबंध)।<br>4. <strong>वैगानी कन्वेंशन (B):</strong> <strong>1995</strong> में अपनाया गया (दक्षिण प्रशांत में खतरनाक कचरे पर प्रतिबंध)।<br>5. <strong>रॉटरडैम कन्वेंशन (E):</strong> <strong>1998</strong> में अपनाया गया (खतरनाक रसायन और कीटनाशक व्यापार)।<br>सही क्रम: D $\\rightarrow$ C $\\rightarrow$ A $\\rightarrow$ B $\\rightarrow$ E।"
+        "explanation": "<strong>खतरनाक सामग्री सम्मेलनों का कालक्रम:</strong><br>1. <strong>लंदन कन्वेंशन (D):</strong> <strong>1972</strong> में अपनाया गया (कचरा डंप करने से समुद्री प्रदूषण)।<br>2. <strong>बेसल कन्वेंशन (C):</strong> <strong>1989</strong> में अपनाया गया (खतरनाक कचरे की सीमा पार गतिविधियों का नियंत्रण)।<br>3. <strong>बामाको कन्वेंशन (A):</strong> <strong>1991</strong> में अपनाया गया (अफ्रीका में खतरनाक कचरे के आयात पर प्रतिबंध)।<br>4. <strong>वैगानी कन्वेंशन (B):</strong> <strong>1995</strong> में अपनाया गया (दक्षिण प्रशांत में खतरनाक कचरे पर प्रतिबंध)।<br>5. <strong>रॉटरडैम कन्वेंशन (E):</strong> <strong>1998</strong> में अपनाया गया (खतरनाक रसायन और कीटनाशक व्यापार)।<br>सही क्रम: D → C → A → B → E।"
       }
     }
   },
@@ -12286,12 +12252,12 @@ const TEST_JAN25_09_S1_P1 = [
       "en": {
         "question": "In a certain coding scheme, 'CLASS' and 'CABIN' are coded as 'XOZHH' and 'XZYRM', respectively. In this scheme, what will be the code of 'TABLE'?",
         "options": ["GYZOV", "FZYOV", "HZYPV", "GZYOV"],
-        "explanation": "<strong>Step-by-step Logic:</strong><br>The coding scheme uses the <strong>opposite letters</strong> of the English alphabet (A$\\leftrightarrow$Z, B$\\leftrightarrow$Y, C$\\leftrightarrow$X, etc.).<br>1. CLASS $\\rightarrow$ C(X), L(O), A(Z), S(H), S(H) = XOZHH.<br>2. CABIN $\\rightarrow$ C(X), A(Z), B(Y), I(R), N(M) = XZYRM.<br>3. Apply to TABLE:<br>   T $\\rightarrow$ G<br>   A $\\rightarrow$ Z<br>   B $\\rightarrow$ Y<br>   L $\\rightarrow$ O<br>   E $\\rightarrow$ V<br>Result is <strong>GZYOV</strong>."
+        "explanation": "<strong>Step-by-step Logic:</strong><br>The coding scheme uses the <strong>opposite letters</strong> of the English alphabet (A↔Z, B↔Y, C↔X, etc.).<br>1. CLASS → C(X), L(O), A(Z), S(H), S(H) = XOZHH.<br>2. CABIN → C(X), A(Z), B(Y), I(R), N(M) = XZYRM.<br>3. Apply to TABLE:<br>   T → G<br>   A → Z<br>   B → Y<br>   L → O<br>   E → V<br>Result is <strong>GZYOV</strong>."
       },
       "hi": {
         "question": "एक निश्चित कोडिंग योजना में, 'CLASS' और 'CABIN' को क्रमशः 'XOZHH' और 'XZYRM' के रूप में कोडित किया गया है। इस योजना में, 'TABLE' का कोड क्या होगा?",
         "options": ["GYZOV", "FZYOV", "HZYPV", "GZYOV"],
-        "explanation": "<strong>चरण-दर-चरण तर्क:</strong><br>कोडिंग योजना अंग्रेजी वर्णमाला के <strong>विपरीत अक्षरों (Opposite letters)</strong> (A$\\leftrightarrow$Z, B$\\leftrightarrow$Y, C$\\leftrightarrow$X, आदि) का उपयोग करती है।<br>1. CLASS $\\rightarrow$ C(X), L(O), A(Z), S(H), S(H) = XOZHH।<br>2. CABIN $\\rightarrow$ C(X), A(Z), B(Y), I(R), N(M) = XZYRM।<br>3. TABLE पर लागू करें:<br>   T $\\rightarrow$ G<br>   A $\\rightarrow$ Z<br>   B $\\rightarrow$ Y<br>   L $\\rightarrow$ O<br>   E $\\rightarrow$ V<br>परिणाम <strong>GZYOV</strong> है।"
+        "explanation": "<strong>चरण-दर-चरण तर्क:</strong><br>कोडिंग योजना अंग्रेजी वर्णमाला के <strong>विपरीत अक्षरों (Opposite letters)</strong> (A↔Z, B↔Y, C↔X, आदि) का उपयोग करती है।<br>1. CLASS → C(X), L(O), A(Z), S(H), S(H) = XOZHH।<br>2. CABIN → C(X), A(Z), B(Y), I(R), N(M) = XZYRM।<br>3. TABLE पर लागू करें:<br>   T → G<br>   A → Z<br>   B → Y<br>   L → O<br>   E → V<br>परिणाम <strong>GZYOV</strong> है।"
       }
     }
   },
@@ -12328,12 +12294,12 @@ const TEST_JAN25_09_S1_P1 = [
       "en": {
         "question": "Arrange the following programming languages according to their generations in ascending order:<br><br>A. Machine language<br>B. High level language<br>C. Assembly language<br>D. Very high level language<br><br>Choose the correct answer from the options given below:",
         "options": ["D, B, A, C", "B, D, C, A", "A, C, D, B", "A, C, B, D"],
-        "explanation": "<strong>Generations of Programming Languages:</strong><br>1. <strong>First Generation (A):</strong> Machine language (binary 0s and 1s).<br>2. <strong>Second Generation (C):</strong> Assembly language (mnemonics).<br>3. <strong>Third Generation (B):</strong> High-level language (C, Java, Python).<br>4. <strong>Fourth/Fifth Generation (D):</strong> Very high-level language (SQL, Prolog, AI languages).<br>Ascending Order: A $\\rightarrow$ C $\\rightarrow$ B $\\rightarrow$ D."
+        "explanation": "<strong>Generations of Programming Languages:</strong><br>1. <strong>First Generation (A):</strong> Machine language (binary 0s and 1s).<br>2. <strong>Second Generation (C):</strong> Assembly language (mnemonics).<br>3. <strong>Third Generation (B):</strong> High-level language (C, Java, Python).<br>4. <strong>Fourth/Fifth Generation (D):</strong> Very high-level language (SQL, Prolog, AI languages).<br>Ascending Order: A → C → B → D."
       },
       "hi": {
         "question": "निम्नलिखित प्रोग्रामिंग भाषाओं को उनकी पीढ़ियों के अनुसार आरोही क्रम में व्यवस्थित करें:<br><br>A. मशीन भाषा<br>B. उच्च स्तरीय भाषा<br>C. असेंबली भाषा<br>D. अति उच्च स्तरीय भाषा<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": ["D, B, A, C", "B, D, C, A", "A, C, D, B", "A, C, B, D"],
-        "explanation": "<strong>प्रोग्रामिंग भाषाओं की पीढ़ियाँ:</strong><br>1. <strong>पहली पीढ़ी (A):</strong> मशीन भाषा (बाइनरी 0 और 1)।<br>2. <strong>दूसरी पीढ़ी (C):</strong> असेंबली भाषा (mnemonics)।<br>3. <strong>तीसरी पीढ़ी (B):</strong> उच्च स्तरीय भाषा (C, Java, Python)।<br>4. <strong>चौथी/पांचवीं पीढ़ी (D):</strong> बहुत उच्च स्तरीय भाषा (SQL, Prolog, AI भाषाएँ)।<br>आरोही क्रम: A $\\rightarrow$ C $\\rightarrow$ B $\\rightarrow$ D।"
+        "explanation": "<strong>प्रोग्रामिंग भाषाओं की पीढ़ियाँ:</strong><br>1. <strong>पहली पीढ़ी (A):</strong> मशीन भाषा (बाइनरी 0 और 1)।<br>2. <strong>दूसरी पीढ़ी (C):</strong> असेंबली भाषा (mnemonics)।<br>3. <strong>तीसरी पीढ़ी (B):</strong> उच्च स्तरीय भाषा (C, Java, Python)।<br>4. <strong>चौथी/पांचवीं पीढ़ी (D):</strong> बहुत उच्च स्तरीय भाषा (SQL, Prolog, AI भाषाएँ)।<br>आरोही क्रम: A → C → B → D।"
       }
     }
   },
@@ -12410,12 +12376,12 @@ const TEST_JAN25_09_S1_P1 = [
     "topicHI": "जन माध्यम और समाज — विकास संचार सिद्धांतकार",
     "content": {
       "en": {
-        "question": "Match the following:<br><br><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>List-I (Scholars)</th><th style='padding:8px 10px;'>List-II (Concept/Innovation/Publication)</th></tr><tr><td style='padding:8px 10px;'>A. Everett Rogers</td><td style='padding:8px 10px;'>I. Original Version of dependency and under development theory</td></tr><tr><td style='padding:8px 10px;'>B. Paul Baran and Andre Gunder Frank</td><td style='padding:8px 10px;'>II. The Passing of Traditional Society</td></tr><tr><td style='padding:8px 10px;'>C. Daniel Lerner</td><td style='padding:8px 10px;'>III. Mass Media and National Development</td></tr><tr><td style='padding:8px 10px;'>D. Wilbur Schramm</td><td style='padding:8px 10px;'>IV. Diffusion of Innovation</td></tr></table><br>Choose the correct answer from the options given below:",
+        "question": "Match the following:<br><br><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>List-I (Scholars)</th><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>List-II (Concept/Innovation/Publication)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>A. Everett Rogers</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>I. Original Version of dependency and under development theory</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>B. Paul Baran and Andre Gunder Frank</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>II. The Passing of Traditional Society</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>C. Daniel Lerner</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>III. Mass Media and National Development</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>D. Wilbur Schramm</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>IV. Diffusion of Innovation</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": ["A-I, B-IV, C-II, D-III", "A-IV, B-I, C-III, D-II", "A-I, B-II, C-III, D-IV", "A-IV, B-I, C-II, D-III"],
         "explanation": "<strong>Matching Communication Scholars with Concepts:</strong><br>• <strong>Everett Rogers (A-IV):</strong> Famous for developing the <em>Diffusion of Innovations</em> theory.<br>• <strong>Baran & Frank (B-I):</strong> Associated with the original version of the <em>Dependency and Underdevelopment theory</em>.<br>• <strong>Daniel Lerner (C-II):</strong> Wrote the highly influential book <em>The Passing of Traditional Society</em>.<br>• <strong>Wilbur Schramm (D-III):</strong> Wrote <em>Mass Media and National Development</em>. <br>Correct match: A-IV, B-I, C-II, D-III."
       },
       "hi": {
-        "question": "निम्नलिखित का मिलान करें:<br><br><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>सूची-I (विद्वान)</th><th style='padding:8px 10px;'>सूची-II (संकल्पना/नवाचार/प्रकाशन)</th></tr><tr><td style='padding:8px 10px;'>A. एवरेट रोजर्स</td><td style='padding:8px 10px;'>I. निर्भरता और विकास के अंतर्गत सिद्धांत का मूल संस्करण</td></tr><tr><td style='padding:8px 10px;'>B. पॉल बरन और आंद्रे गुंडर फ्रैंक</td><td style='padding:8px 10px;'>II. पारंपरिक समाज का अंत</td></tr><tr><td style='padding:8px 10px;'>C. डैनियल लर्नर</td><td style='padding:8px 10px;'>III. मास मीडिया और राष्ट्रीय विकास</td></tr><tr><td style='padding:8px 10px;'>D. विल्बर श्रामन</td><td style='padding:8px 10px;'>IV. नवाचार का प्रसार</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "निम्नलिखित का मिलान करें:<br><br><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>सूची-I (विद्वान)</th><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>सूची-II (संकल्पना/नवाचार/प्रकाशन)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>A. एवरेट रोजर्स</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>I. निर्भरता और विकास के अंतर्गत सिद्धांत का मूल संस्करण</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>B. पॉल बरन और आंद्रे गुंडर फ्रैंक</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>II. पारंपरिक समाज का अंत</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>C. डैनियल लर्नर</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>III. मास मीडिया और राष्ट्रीय विकास</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>D. विल्बर श्रामन</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>IV. नवाचार का प्रसार</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": ["A-I, B-IV, C-II, D-III", "A-IV, B-I, C-III, D-II", "A-I, B-II, C-III, D-IV", "A-IV, B-I, C-II, D-III"],
         "explanation": "<strong>अवधारणाओं के साथ संचार विद्वानों का मिलान:</strong><br>• <strong>एवरेट रोजर्स (A-IV):</strong> <em>नवाचार का प्रसार (Diffusion of Innovations)</em> सिद्धांत विकसित करने के लिए प्रसिद्ध।<br>• <strong>बारान और फ्रैंक (B-I):</strong> <em>निर्भरता और अविकसितता सिद्धांत (Dependency and Underdevelopment theory)</em> के मूल संस्करण से जुड़े हैं।<br>• <strong>डैनियल लर्नर (C-II):</strong> अत्यंत प्रभावशाली पुस्तक <em>द पासिंग ऑफ ट्रेडिशनल सोसाइटी (The Passing of Traditional Society)</em> लिखी।<br>• <strong>विल्बर श्राम (D-III):</strong> <em>मास मीडिया और राष्ट्रीय विकास</em> लिखा।<br>सही मिलान: A-IV, B-I, C-II, D-III।"
       }
@@ -12431,12 +12397,12 @@ const TEST_JAN25_09_S1_P1 = [
     "topicHI": "इंटरनेट की मूल बातें — प्रोटोकॉल और वेब तकनीकें",
     "content": {
       "en": {
-        "question": "Match the following:<br><br><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>List-I (Internet Keyword)</th><th style='padding:8px 10px;'>List-II (Function)</th></tr><tr><td style='padding:8px 10px;'>A. FTP</td><td style='padding:8px 10px;'>I. Used to create hypertext documents for use on the web</td></tr><tr><td style='padding:8px 10px;'>B. Ping</td><td style='padding:8px 10px;'>II. A message sent to check if a server is running</td></tr><tr><td style='padding:8px 10px;'>C. HTML</td><td style='padding:8px 10px;'>III. A set of rules to exchange documents on the web</td></tr><tr><td style='padding:8px 10px;'>D. HTTP</td><td style='padding:8px 10px;'>IV. Program that enables users to transfer files from one computer to another</td></tr></table><br>Choose the correct answer from the options given below:",
+        "question": "Match the following:<br><br><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>List-I (Internet Keyword)</th><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>List-II (Function)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>A. FTP</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>I. Used to create hypertext documents for use on the web</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>B. Ping</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>II. A message sent to check if a server is running</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>C. HTML</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>III. A set of rules to exchange documents on the web</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>D. HTTP</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>IV. Program that enables users to transfer files from one computer to another</td></tr></table><br>Choose the correct answer from the options given below:",
         "options": ["A-I, B-III, C-II, D-IV", "A-I, B-III, C-IV, D-II", "A-IV, B-II, C-I, D-III", "A-II, B-IV, C-I, D-III"],
         "explanation": "<strong>Matching Internet Keywords:</strong><br>• <strong>FTP (A-IV):</strong> File Transfer Protocol enables the transfer of files between computers.<br>• <strong>Ping (B-II):</strong> A network utility used to test the reachability/status of a host/server.<br>• <strong>HTML (C-I):</strong> HyperText Markup Language is used to create and structure web documents.<br>• <strong>HTTP (D-III):</strong> HyperText Transfer Protocol is the set of rules for exchanging data/documents on the web.<br>Correct match: A-IV, B-II, C-I, D-III."
       },
       "hi": {
-        "question": "निम्नलिखित का मिलान करें:<br><br><table border='1' style='border-collapse:collapse; width:100%; text-align:left; background:rgba(255,255,255,0.05); table-layout:fixed; word-wrap:break-word; word-break:break-word; white-space:normal;'><tr><th style='padding:8px 10px;'>सूची-I (इंटरनेट कीवर्ड)</th><th style='padding:8px 10px;'>सूची-II (कार्य)</th></tr><tr><td style='padding:8px 10px;'>A. एफटीपी (FTP)</td><td style='padding:8px 10px;'>I. वेब पर उपयोग के लिए हाइपरटेक्स्ट दस्तावेज़ बनाने के लिए उपयोग किया जाता है</td></tr><tr><td style='padding:8px 10px;'>B. पिंग (Ping)</td><td style='padding:8px 10px;'>II. यह जाँचने के लिए संदेश भेजा गया कि सर्वर चल रहा है या नहीं</td></tr><tr><td style='padding:8px 10px;'>C. एचटीएमएल (HTML)</td><td style='padding:8px 10px;'>III. वेब पर दस्तावेजों के आदान-प्रदान के लिए नियमों का एक सेट</td></tr><tr><td style='padding:8px 10px;'>D. एचटीटीपी (HTTP)</td><td style='padding:8px 10px;'>IV. प्रोग्राम जो उपयोगकर्ताओं को एक कंप्यूटर से दूसरे कंप्यूटर पर फ़ाइलें स्थानांतरित करने में सक्षम बनाता है</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
+        "question": "निम्नलिखित का मिलान करें:<br><br><table style='border-collapse:collapse; width:100%; border:1px solid #e0e0e0; margin:10px 0;'><tr style='background-color:#f8f9fa;'><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>सूची-I (इंटरनेट कीवर्ड)</th><th style='border:1px solid #e0e0e0; padding:8px 10px; text-align:left;'>सूची-II (कार्य)</th></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>A. एफटीपी (FTP)</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>I. वेब पर उपयोग के लिए हाइपरटेक्स्ट दस्तावेज़ बनाने के लिए उपयोग किया जाता है</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>B. पिंग (Ping)</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>II. यह जाँचने के लिए संदेश भेजा गया कि सर्वर चल रहा है या नहीं</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>C. एचटीएमएल (HTML)</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>III. वेब पर दस्तावेजों के आदान-प्रदान के लिए नियमों का एक सेट</td></tr><tr><td style='border:1px solid #e0e0e0; padding:8px 10px;'>D. एचटीटीपी (HTTP)</td><td style='border:1px solid #e0e0e0; padding:8px 10px;'>IV. प्रोग्राम जो उपयोगकर्ताओं को एक कंप्यूटर से दूसरे कंप्यूटर पर फ़ाइलें स्थानांतरित करने में सक्षम बनाता है</td></tr></table><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": ["A-I, B-III, C-II, D-IV", "A-I, B-III, C-IV, D-II", "A-IV, B-II, C-I, D-III", "A-II, B-IV, C-I, D-III"],
         "explanation": "<strong>इंटरनेट कीवर्ड का मिलान:</strong><br>• <strong>FTP (A-IV):</strong> फाइल ट्रांसफर प्रोटोकॉल कंप्यूटरों के बीच फाइलों के हस्तांतरण को सक्षम बनाता है।<br>• <strong>Ping (B-II):</strong> एक नेटवर्क उपयोगिता जिसका उपयोग होस्ट/सर्वर की पहुंच/स्थिति का परीक्षण करने के लिए किया जाता है।<br>• <strong>HTML (C-I):</strong> हाइपरटेक्स्ट मार्कअप लैंग्वेज का उपयोग वेब दस्तावेज़ बनाने और संरचना करने के लिए किया जाता है।<br>• <strong>HTTP (D-III):</strong> हाइपरटेक्स्ट ट्रांसफर प्रोटोकॉल वेब पर डेटा/दस्तावेजों के आदान-प्रदान के लिए नियमों का सेट है।<br>सही मिलान: A-IV, B-II, C-I, D-III।"
       }
@@ -12446,6 +12412,7 @@ const TEST_JAN25_09_S1_P1 = [
 // ─────────────────────────────────────────────────────────────────────────────
 // 2. EXTRACTED QUESTIONS ARRAY (Q26 to Q50)
 // ─────────────────────────────────────────────────────────────────────────────
+
   {
     "id": "jan25-9-s1-p1-q26",
     "difficulty": "medium",
@@ -12458,12 +12425,12 @@ const TEST_JAN25_09_S1_P1 = [
       "en": {
         "question": "Identify the sequence of films released (earliest to latest).<br><br>A. Mother India<br>B. Pather Panchali<br>C. Mughal-E-Azam<br>D. New Delhi<br>E. Kala Pani<br><br>Choose the correct answer from the options given below:",
         "options": ["B, A, D, E, C", "B, D, A, C, E", "A, B, C, D, E", "B, D, A, E, C"],
-        "explanation": "<strong>Chronology of Indian Films:</strong><br>1. <strong>Pather Panchali (B):</strong> Released in <strong>1955</strong> (Directed by Satyajit Ray).<br>2. <strong>New Delhi (D):</strong> Released in <strong>1956</strong>.<br>3. <strong>Mother India (A):</strong> Released in <strong>1957</strong>.<br>4. <strong>Kala Pani (E):</strong> Released in <strong>1958</strong>.<br>5. <strong>Mughal-E-Azam (C):</strong> Released in <strong>1960</strong>.<br>Correct Order: B $\\rightarrow$ D $\\rightarrow$ A $\\rightarrow$ E $\\rightarrow$ C."
+        "explanation": "<strong>Chronology of Indian Films:</strong><br>1. <strong>Pather Panchali (B):</strong> Released in <strong>1955</strong> (Directed by Satyajit Ray).<br>2. <strong>New Delhi (D):</strong> Released in <strong>1956</strong>.<br>3. <strong>Mother India (A):</strong> Released in <strong>1957</strong>.<br>4. <strong>Kala Pani (E):</strong> Released in <strong>1958</strong>.<br>5. <strong>Mughal-E-Azam (C):</strong> Released in <strong>1960</strong>.<br>Correct Order: B → D → A → E → C."
       },
       "hi": {
         "question": "रिलीज हुई फिल्मों का क्रम (सबसे पहले से लेकर सबसे हाल तक) पहचानें।<br><br>A. भारत माता (Mother India)<br>B. पाथेर पांचाली<br>C. मुगल-ए-आजम<br>D. नई दिल्ली<br>E. काला पानी<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": ["B, A, D, E, C", "B, D, A, C, E", "A, B, C, D, E", "B, D, A, E, C"],
-        "explanation": "<strong>भारतीय फिल्मों का कालक्रम:</strong><br>1. <strong>पाथेर पांचाली (B):</strong> <strong>1955</strong> में रिलीज़ हुई (सत्यजीत रे द्वारा निर्देशित)।<br>2. <strong>नई दिल्ली (D):</strong> <strong>1956</strong> में रिलीज़ हुई।<br>3. <strong>मदर इंडिया (A):</strong> <strong>1957</strong> में रिलीज़ हुई।<br>4. <strong>काला पानी (E):</strong> <strong>1958</strong> में रिलीज़ हुई।<br>5. <strong>मुग़ल-ए-आज़म (C):</strong> <strong>1960</strong> में रिलीज़ हुई।<br>सही क्रम: B $\\rightarrow$ D $\\rightarrow$ A $\\rightarrow$ E $\\rightarrow$ C।"
+        "explanation": "<strong>भारतीय फिल्मों का कालक्रम:</strong><br>1. <strong>पाथेर पांचाली (B):</strong> <strong>1955</strong> में रिलीज़ हुई (सत्यजीत रे द्वारा निर्देशित)।<br>2. <strong>नई दिल्ली (D):</strong> <strong>1956</strong> में रिलीज़ हुई।<br>3. <strong>मदर इंडिया (A):</strong> <strong>1957</strong> में रिलीज़ हुई।<br>4. <strong>काला पानी (E):</strong> <strong>1958</strong> में रिलीज़ हुई।<br>5. <strong>मुग़ल-ए-आज़म (C):</strong> <strong>1960</strong> में रिलीज़ हुई।<br>सही क्रम: B → D → A → E → C।"
       }
     }
   },
@@ -12500,12 +12467,12 @@ const TEST_JAN25_09_S1_P1 = [
       "en": {
         "question": "Which is the most abundant hydrocarbon in the atmosphere?",
         "options": ["Methane", "Benzene", "Ethane", "Paraffin"],
-        "explanation": "<strong>Methane ($CH_4$)</strong> is the most abundant hydrocarbon in the Earth's atmosphere. It is a significant greenhouse gas emitted from natural sources (like wetlands) and human activities (like agriculture and fossil fuel extraction)."
+        "explanation": "<strong>Methane (CH₄)</strong> is the most abundant hydrocarbon in the Earth's atmosphere. It is a significant greenhouse gas emitted from natural sources (like wetlands) and human activities (like agriculture and fossil fuel extraction)."
       },
       "hi": {
         "question": "वायुमंडल में सबसे प्रचुर मात्रा में पाया जाने वाला हाइड्रोकार्बन कौन सा है?",
         "options": ["मीथेन (Methane)", "बेंजीन", "इथेन", "पैराफिन"],
-        "explanation": "<strong>मीथेन ($CH_4$)</strong> पृथ्वी के वायुमंडल में सबसे प्रचुर मात्रा में पाया जाने वाला हाइड्रोकार्बन है। यह एक महत्वपूर्ण ग्रीनहाउस गैस है जो प्राकृतिक स्रोतों (जैसे आर्द्रभूमि) और मानवीय गतिविधियों (जैसे कृषि और जीवाश्म ईंधन निष्कर्षण) से उत्सर्जित होती है।"
+        "explanation": "<strong>मीथेन (CH₄)</strong> पृथ्वी के वायुमंडल में सबसे प्रचुर मात्रा में पाया जाने वाला हाइड्रोकार्बन है। यह एक महत्वपूर्ण ग्रीनहाउस गैस है जो प्राकृतिक स्रोतों (जैसे आर्द्रभूमि) और मानवीय गतिविधियों (जैसे कृषि और जीवाश्म ईंधन निष्कर्षण) से उत्सर्जित होती है।"
       }
     }
   },
@@ -12563,12 +12530,12 @@ const TEST_JAN25_09_S1_P1 = [
       "en": {
         "question": "Arrange the following households (A, B, C and D) in terms of increasing percentage of expenditure (E) to their income (I).<br><br>A. I = 5.0 Lakh, E = 4.0 Lakh<br>B. I = 6.0 Lakh, E = 4.5 Lakh<br>C. I = 8.0 Lakh, E = 5.0 Lakh<br>D. I = 4.8 Lakh, E = 3.2 Lakh<br><br>Choose the correct answer from the options given below:",
         "options": ["D, A, B, C", "D, B, C, A", "C, D, B, A", "D, A, C, B"],
-        "explanation": "<strong>Step-by-step Calculation (Expenditure Percentage = $\\frac{E}{I} \\times 100$):</strong><br>• <strong>Household A:</strong> $(4.0 / 5.0) \\times 100 = 80\\%$<br>• <strong>Household B:</strong> $(4.5 / 6.0) \\times 100 = 75\\%$<br>• <strong>Household C:</strong> $(5.0 / 8.0) \\times 100 = 62.5\\%$<br>• <strong>Household D:</strong> $(3.2 / 4.8) \\times 100 = 66.67\\%$<br><strong>Increasing order:</strong> 62.5% (C) $<$ 66.67% (D) $<$ 75% (B) $<$ 80% (A).<br>Correct Sequence: C, D, B, A."
+        "explanation": "<strong>Step-by-step Calculation (Expenditure Percentage = (E/I) × 100):</strong><br>• <strong>Household A:</strong> (4.0 / 5.0) × 100 = 80%<br>• <strong>Household B:</strong> (4.5 / 6.0) × 100 = 75%<br>• <strong>Household C:</strong> (5.0 / 8.0) × 100 = 62.5%<br>• <strong>Household D:</strong> (3.2 / 4.8) × 100 = 66.67%<br><strong>Increasing order:</strong> 62.5% (C) < 66.67% (D) < 75% (B) < 80% (A).<br>Correct Sequence: C, D, B, A."
       },
       "hi": {
         "question": "निम्नलिखित परिवारों (A, B, C और D) को उनकी आय (I) के व्यय (E) के बढ़ते प्रतिशत के संदर्भ में व्यवस्थित करें।<br><br>A. I = 5.0 लाख, E = 4.0 लाख<br>B. I = 6.0 लाख, E = 4.5 लाख<br>C. I = 8.0 लाख, E = 5.0 लाख<br>D. I = 4.8 लाख, E = 3.2 लाख<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": ["D, A, B, C", "D, B, C, A", "C, D, B, A", "D, A, C, B"],
-        "explanation": "<strong>चरण-दर-चरण गणना (व्यय प्रतिशत = $\\frac{E}{I} \\times 100$):</strong><br>• <strong>परिवार A:</strong> $(4.0 / 5.0) \\times 100 = 80\\%$<br>• <strong>परिवार B:</strong> $(4.5 / 6.0) \\times 100 = 75\\%$<br>• <strong>परिवार C:</strong> $(5.0 / 8.0) \\times 100 = 62.5\\%$<br>• <strong>परिवार D:</strong> $(3.2 / 4.8) \\times 100 = 66.67\\%$<br><strong>बढ़ता क्रम:</strong> 62.5% (C) $<$ 66.67% (D) $<$ 75% (B) $<$ 80% (A)।<br>सही अनुक्रम: C, D, B, A।"
+        "explanation": "<strong>चरण-दर-चरण गणना (व्यय प्रतिशत = (E/I) × 100):</strong><br>• <strong>परिवार A:</strong> (4.0 / 5.0) × 100 = 80%<br>• <strong>परिवार B:</strong> (4.5 / 6.0) × 100 = 75%<br>• <strong>परिवार C:</strong> (5.0 / 8.0) × 100 = 62.5%<br>• <strong>परिवार D:</strong> (3.2 / 4.8) × 100 = 66.67%<br><strong>बढ़ता क्रम:</strong> 62.5% (C) < 66.67% (D) < 75% (B) < 80% (A)।<br>सही अनुक्रम: C, D, B, A।"
       }
     }
   },
@@ -12647,12 +12614,12 @@ const TEST_JAN25_09_S1_P1 = [
       "en": {
         "question": "Arrange the following according to Maslow's hierarchical structure of needs (lowest to highest).<br><br>A. Esteem needs<br>B. Safety<br>C. Self-actualization<br>D. Aesthetic<br>E. Physiological<br><br>Choose the correct answer from the options given below:",
         "options": ["E, B, D, A, C", "A, C, D, B, E", "E, B, A, D, C", "E, D, B, A, C"],
-        "explanation": "<strong>Maslow's Expanded Hierarchy of Needs (Lowest to Highest):</strong><br>1. <strong>Physiological (E):</strong> Basic survival needs.<br>2. <strong>Safety (B):</strong> Security and protection.<br>3. Belongingness/Love (Not listed).<br>4. <strong>Esteem (A):</strong> Respect and recognition.<br>5. Cognitive needs (Not listed).<br>6. <strong>Aesthetic (D):</strong> Appreciation and search for beauty, balance.<br>7. <strong>Self-actualization (C):</strong> Realizing personal potential.<br>Correct Order: E $\\rightarrow$ B $\\rightarrow$ A $\\rightarrow$ D $\\rightarrow$ C."
+        "explanation": "<strong>Maslow's Expanded Hierarchy of Needs (Lowest to Highest):</strong><br>1. <strong>Physiological (E):</strong> Basic survival needs.<br>2. <strong>Safety (B):</strong> Security and protection.<br>3. Belongingness/Love (Not listed).<br>4. <strong>Esteem (A):</strong> Respect and recognition.<br>5. Cognitive needs (Not listed).<br>6. <strong>Aesthetic (D):</strong> Appreciation and search for beauty, balance.<br>7. <strong>Self-actualization (C):</strong> Realizing personal potential.<br>Correct Order: E → B → A → D → C."
       },
       "hi": {
         "question": "निम्नलिखित को मास्लो की आवश्यकताओं की पदानुक्रमिक संरचना के अनुसार (सबसे निम्न से सबसे उच्च) व्यवस्थित करें।<br><br>A. सम्मान की जरूरत<br>B. सुरक्षा<br>C. आत्म-साक्षात्कार<br>D. सौंदर्यबोध<br>E. शारीरिक<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": ["E, B, D, A, C", "A, C, D, B, E", "E, B, A, D, C", "E, D, B, A, C"],
-        "explanation": "<strong>मास्लो का विस्तारित आवश्यकता पदानुक्रम (न्यूनतम से उच्चतम):</strong><br>1. <strong>शारीरिक (E):</strong> बुनियादी अस्तित्व की ज़रूरतें।<br>2. <strong>सुरक्षा (B):</strong> सुरक्षा और बचाव।<br>3. अपनापन/प्रेम (सूचीबद्ध नहीं)।<br>4. <strong>सम्मान (A):</strong> सम्मान और मान्यता।<br>5. संज्ञानात्मक आवश्यकताएँ (सूचीबद्ध नहीं)।<br>6. <strong>सौंदर्यबोध (D):</strong> सुंदरता, संतुलन की खोज।<br>7. <strong>आत्म-साक्षात्कार (C):</strong> व्यक्तिगत क्षमता को साकार करना।<br>सही क्रम: E $\\rightarrow$ B $\\rightarrow$ A $\\rightarrow$ D $\\rightarrow$ C।"
+        "explanation": "<strong>मास्लो का विस्तारित आवश्यकता पदानुक्रम (न्यूनतम से उच्चतम):</strong><br>1. <strong>शारीरिक (E):</strong> बुनियादी अस्तित्व की ज़रूरतें।<br>2. <strong>सुरक्षा (B):</strong> सुरक्षा और बचाव।<br>3. अपनापन/प्रेम (सूचीबद्ध नहीं)।<br>4. <strong>सम्मान (A):</strong> सम्मान और मान्यता।<br>5. संज्ञानात्मक आवश्यकताएँ (सूचीबद्ध नहीं)।<br>6. <strong>सौंदर्यबोध (D):</strong> सुंदरता, संतुलन की खोज।<br>7. <strong>आत्म-साक्षात्कार (C):</strong> व्यक्तिगत क्षमता को साकार करना।<br>सही क्रम: E → B → A → D → C।"
       }
     }
   },
@@ -12689,12 +12656,12 @@ const TEST_JAN25_09_S1_P1 = [
       "en": {
         "question": "Arrange chronologically the following:<br><br>A. Establishment of Delhi University<br>B. Establishment of University Grants Commission<br>C. Establishment of NCERT<br>D. Establishment of University of Allahabad<br>E. Establishment of IGNOU<br><br>Choose the correct answer from the options given below:",
         "options": ["B, A, D, E, C", "D, C, E, B, A", "A, B, D, E, C", "D, A, B, C, E"],
-        "explanation": "<strong>Chronology of Higher Education Establishments:</strong><br>1. <strong>University of Allahabad (D):</strong> Established in <strong>1887</strong>.<br>2. <strong>Delhi University (A):</strong> Established in <strong>1922</strong>.<br>3. <strong>UGC (B):</strong> Inaugurated in <strong>1953</strong> (Statutory in 1956).<br>4. <strong>NCERT (C):</strong> Established in <strong>1961</strong>.<br>5. <strong>IGNOU (E):</strong> Established in <strong>1985</strong>.<br>Correct Order: D $\\rightarrow$ A $\\rightarrow$ B $\\rightarrow$ C $\\rightarrow$ E."
+        "explanation": "<strong>Chronology of Higher Education Establishments:</strong><br>1. <strong>University of Allahabad (D):</strong> Established in <strong>1887</strong>.<br>2. <strong>Delhi University (A):</strong> Established in <strong>1922</strong>.<br>3. <strong>UGC (B):</strong> Inaugurated in <strong>1953</strong> (Statutory in 1956).<br>4. <strong>NCERT (C):</strong> Established in <strong>1961</strong>.<br>5. <strong>IGNOU (E):</strong> Established in <strong>1985</strong>.<br>Correct Order: D → A → B → C → E."
       },
       "hi": {
         "question": "निम्नलिखित को कालानुक्रमिक रूप से व्यवस्थित करें:<br><br>A. दिल्ली विश्वविद्यालय की स्थापना<br>B. विश्वविद्यालय अनुदान आयोग की स्थापना<br>C. एनसीईआरटी की स्थापना<br>D. इलाहाबाद विश्वविद्यालय की स्थापना<br>E. इग्नू की स्थापना<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": ["B, A, D, E, C", "D, C, E, B, A", "A, B, D, E, C", "D, A, B, C, E"],
-        "explanation": "<strong>उच्च शिक्षा प्रतिष्ठानों का कालक्रम:</strong><br>1. <strong>इलाहाबाद विश्वविद्यालय (D):</strong> <strong>1887</strong> में स्थापित।<br>2. <strong>दिल्ली विश्वविद्यालय (A):</strong> <strong>1922</strong> में स्थापित।<br>3. <strong>UGC (B):</strong> <strong>1953</strong> में स्थापित (1956 में वैधानिक)।<br>4. <strong>NCERT (C):</strong> <strong>1961</strong> में स्थापित।<br>5. <strong>IGNOU (E):</strong> <strong>1985</strong> में स्थापित।<br>सही क्रम: D $\\rightarrow$ A $\\rightarrow$ B $\\rightarrow$ C $\\rightarrow$ E।"
+        "explanation": "<strong>उच्च शिक्षा प्रतिष्ठानों का कालक्रम:</strong><br>1. <strong>इलाहाबाद विश्वविद्यालय (D):</strong> <strong>1887</strong> में स्थापित।<br>2. <strong>दिल्ली विश्वविद्यालय (A):</strong> <strong>1922</strong> में स्थापित।<br>3. <strong>UGC (B):</strong> <strong>1953</strong> में स्थापित (1956 में वैधानिक)।<br>4. <strong>NCERT (C):</strong> <strong>1961</strong> में स्थापित।<br>5. <strong>IGNOU (E):</strong> <strong>1985</strong> में स्थापित।<br>सही क्रम: D → A → B → C → E।"
       }
     }
   },
@@ -12752,12 +12719,12 @@ const TEST_JAN25_09_S1_P1 = [
       "en": {
         "question": "Find the next term in the number series given below:<br><br>1, 7, 25, 61, ?",
         "options": ["81", "110", "121", "141"],
-        "explanation": "<strong>Step-by-step Pattern Breakdown:</strong><br>The series follows the cubic pattern $n^3 - (n-1)$ where n = 1, 2, 3...<br>• $1^3 - 0 = 1$<br>• $2^3 - 1 = 8 - 1 = 7$<br>• $3^3 - 2 = 27 - 2 = 25$<br>• $4^3 - 3 = 64 - 3 = 61$<br>For the next term ($n=5$):<br>• $5^3 - 4 = 125 - 4 =$ <strong>121</strong>."
+        "explanation": "<strong>Step-by-step Pattern Breakdown:</strong><br>The series follows the cubic pattern n³ - (n-1) where n = 1, 2, 3...<br>• 1³ - 0 = 1<br>• 2³ - 1 = 8 - 1 = 7<br>• 3³ - 2 = 27 - 2 = 25<br>• 4³ - 3 = 64 - 3 = 61<br>For the next term (n=5):<br>• 5³ - 4 = 125 - 4 = <strong>121</strong>."
       },
       "hi": {
         "question": "नीचे दी गई संख्या श्रृंखला में अगला पद ज्ञात कीजिए:<br><br>1, 7, 25, 61, ?",
         "options": ["81", "110", "121", "141"],
-        "explanation": "<strong>चरण-दर-चरण पैटर्न विश्लेषण:</strong><br>यह श्रृंखला $n^3 - (n-1)$ के घन पैटर्न का अनुसरण करती है जहाँ n = 1, 2, 3...<br>• $1^3 - 0 = 1$<br>• $2^3 - 1 = 8 - 1 = 7$<br>• $3^3 - 2 = 27 - 2 = 25$<br>• $4^3 - 3 = 64 - 3 = 61$<br>अगले पद के लिए ($n=5$):<br>• $5^3 - 4 = 125 - 4 =$ <strong>121</strong>।"
+        "explanation": "<strong>चरण-दर-चरण पैटर्न विश्लेषण:</strong><br>यह श्रृंखला n³ - (n-1) के घन पैटर्न का अनुसरण करती है जहाँ n = 1, 2, 3...<br>• 1³ - 0 = 1<br>• 2³ - 1 = 8 - 1 = 7<br>• 3³ - 2 = 27 - 2 = 25<br>• 4³ - 3 = 64 - 3 = 61<br>अगले पद के लिए (n=5):<br>• 5³ - 4 = 125 - 4 = <strong>121</strong>।"
       }
     }
   },
@@ -12815,12 +12782,12 @@ const TEST_JAN25_09_S1_P1 = [
       "en": {
         "question": "There are x trees and y parrots. If on each tree only one parrot is sitting, then one parrot remains without a tree. If on each tree two parrots are sitting, then one tree remains without a parrot. Therefore, x and y are, respectively:<br><br>A. 1<br>B. 2<br>C. 3<br>D. 4<br><br>Choose the correct answer from the options given below:",
         "options": ["A and B", "B and C", "C and D", "A and C"],
-        "explanation": "<strong>Step-by-step Solution:</strong><br>1. Let trees = $x$ and parrots = $y$.<br>2. Condition 1: 1 parrot per tree, 1 parrot left over.<br>   Equation: $y = 1(x) + 1 \\implies y = x + 1$<br>3. Condition 2: 2 parrots per tree, 1 tree left over (meaning $(x-1)$ trees have 2 parrots).<br>   Equation: $y = 2(x - 1) \\implies y = 2x - 2$<br>4. Equating both equations: $x + 1 = 2x - 2$<br>   $2x - x = 1 + 2 \\implies x = 3$ (Trees).<br>5. Substitute $x$ back: $y = 3 + 1 = 4$ (Parrots).<br>Trees (x) = 3 (C), Parrots (y) = 4 (D). Hence, C and D."
+        "explanation": "<strong>Step-by-step Solution:</strong><br>1. Let trees = x and parrots = y.<br>2. Condition 1: 1 parrot per tree, 1 parrot left over.<br>   Equation: y = 1(x) + 1 ⇒ y = x + 1<br>3. Condition 2: 2 parrots per tree, 1 tree left over (meaning (x-1) trees have 2 parrots).<br>   Equation: y = 2(x - 1) ⇒ y = 2x - 2<br>4. Equating both equations: x + 1 = 2x - 2<br>   2x - x = 1 + 2 ⇒ x = 3 (Trees).<br>5. Substitute x back: y = 3 + 1 = 4 (Parrots).<br>Trees (x) = 3 (C), Parrots (y) = 4 (D). Hence, C and D."
       },
       "hi": {
         "question": "x पेड़ और y तोते हैं। यदि प्रत्येक पेड़ पर केवल एक तोता बैठा है, तो एक तोता बिना पेड़ के रह जाता है। यदि प्रत्येक पेड़ पर दो तोते बैठे हैं, तो एक पेड़ बिना तोते के रह जाता है। इसलिए, x और y क्रमशः हैं:<br><br>A. 1<br>B. 2<br>C. 3<br>D. 4<br><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनें:",
         "options": ["A और B", "B और C", "C और D", "A और C"],
-        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>1. मान लें कि पेड़ = $x$ और तोते = $y$।<br>2. शर्त 1: 1 तोता प्रति पेड़, 1 तोता बचा।<br>   समीकरण: $y = 1(x) + 1 \\implies y = x + 1$<br>3. शर्त 2: 2 तोते प्रति पेड़, 1 पेड़ बच जाता है (यानी $(x-1)$ पेड़ों पर 2 तोते हैं)।<br>   समीकरण: $y = 2(x - 1) \\implies y = 2x - 2$<br>4. दोनों समीकरणों की तुलना: $x + 1 = 2x - 2$<br>   $2x - x = 1 + 2 \\implies x = 3$ (पेड़)।<br>5. $x$ का मान वापस रखें: $y = 3 + 1 = 4$ (तोते)।<br>पेड़ (x) = 3 (C), तोते (y) = 4 (D)। अतः C और D।"
+        "explanation": "<strong>चरण-दर-चरण समाधान:</strong><br>1. मान लें कि पेड़ = x और तोते = y।<br>2. शर्त 1: 1 तोता प्रति पेड़, 1 तोता बचा।<br>   समीकरण: y = 1(x) + 1 ⇒ y = x + 1<br>3. शर्त 2: 2 तोते प्रति पेड़, 1 पेड़ बच जाता है (यानी (x-1) पेड़ों पर 2 तोते हैं)।<br>   समीकरण: y = 2(x - 1) ⇒ y = 2x - 2<br>4. दोनों समीकरणों की तुलना: x + 1 = 2x - 2<br>   2x - x = 1 + 2 ⇒ x = 3 (पेड़)।<br>5. x का मान वापस रखें: y = 3 + 1 = 4 (तोते)।<br>पेड़ (x) = 3 (C), तोते (y) = 4 (D)। अतः C और D।"
       }
     }
   },
@@ -14173,54 +14140,3 @@ const TEST_JAN25_08_S2_P1 = [
     }
   }
 ];
-
- // ─────────────────────────────────────────────────────────────────────────────
-// ONE-SHOT MATH SYMBOL CLEANER FUNCTION (Paste at the bottom of data_p1.js)
-// ─────────────────────────────────────────────────────────────────────────────
-function cleanMathExplanations(testArray) {
-  // Safety check: Agar array define nahi hai, toh app crash na ho
-  if (!testArray) return;
-
-  const replacements = [
-    { regex: /\\rightarrow/g, replacement: '→' },
-    { regex: /\\implies/g, replacement: '⇒' },
-    { regex: /\\times/g, replacement: '×' },
-    { regex: /\\approx/g, replacement: '≈' },
-    { regex: /\\%/g, replacement: '%' },
-    { regex: /\\text\{([^}]+)\}/g, replacement: '$1' },         
-    { regex: /\\frac\{([^}]+)\}\{([^}]+)\}/g, replacement: '($1/$2)' }, 
-    { regex: /\$/g, replacement: '' }                           
-  ];
-
-  return testArray.map(q => {
-    let enExp = q.content.en.explanation || "";
-    let hiExp = q.content.hi.explanation || "";
-
-    replacements.forEach(({ regex, replacement }) => {
-      enExp = enExp.replace(regex, replacement);
-      hiExp = hiExp.replace(regex, replacement);
-    });
-
-    q.content.en.explanation = enExp;
-    q.content.hi.explanation = hiExp;
-
-    return q;
-  });
-}
-
-// ══════════════════════════════════════════════════════════════════════
-// APPLYING CLEANER TO ALL PREVIOUS PAPER 1 TESTS (Except Jan 2026)
-// ══════════════════════════════════════════════════════════════════════
-
-// Note: Ensure the variable names exactly match the ones you defined for these tests
-if (typeof TEST_JUNE2025_P1 !== 'undefined') cleanMathExplanations(TEST_JUNE2025_P1);
-if (typeof TEST_JAN25_27_S2_P1 !== 'undefined') cleanMathExplanations(TEST_JAN25_27_S2_P1);
-if (typeof TEST_JAN25_21_S1_P1 !== 'undefined') cleanMathExplanations(TEST_JAN25_21_S1_P1);
-if (typeof TEST_JAN25_16_S2_P1 !== 'undefined') cleanMathExplanations(TEST_JAN25_16_S2_P1);
-if (typeof TEST_JAN25_16_S1_P1 !== 'undefined') cleanMathExplanations(TEST_JAN25_16_S1_P1);
-if (typeof TEST_JAN25_10_S2_P1 !== 'undefined') cleanMathExplanations(TEST_JAN25_10_S2_P1);
-if (typeof TEST_JAN25_10_S1_P1 !== 'undefined') cleanMathExplanations(TEST_JAN25_10_S1_P1);
-if (typeof TEST_JAN25_09_S2_P1 !== 'undefined') cleanMathExplanations(TEST_JAN25_09_S2_P1);
-if (typeof TEST_JAN25_09_S1_P1 !== 'undefined') cleanMathExplanations(TEST_JAN25_09_S1_P1);
-if (typeof TEST_JAN25_08_S2_P1 !== 'undefined') cleanMathExplanations(TEST_JAN25_08_S2_P1); // Aaj ka aakhri test
-                                     
