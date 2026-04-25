@@ -14174,4 +14174,53 @@ const TEST_JAN25_08_S2_P1 = [
   }
 ];
 
-                                      
+ // ─────────────────────────────────────────────────────────────────────────────
+// ONE-SHOT MATH SYMBOL CLEANER FUNCTION (Paste at the bottom of data_p1.js)
+// ─────────────────────────────────────────────────────────────────────────────
+function cleanMathExplanations(testArray) {
+  // Safety check: Agar array define nahi hai, toh app crash na ho
+  if (!testArray) return;
+
+  const replacements = [
+    { regex: /\\rightarrow/g, replacement: '→' },
+    { regex: /\\implies/g, replacement: '⇒' },
+    { regex: /\\times/g, replacement: '×' },
+    { regex: /\\approx/g, replacement: '≈' },
+    { regex: /\\%/g, replacement: '%' },
+    { regex: /\\text\{([^}]+)\}/g, replacement: '$1' },         
+    { regex: /\\frac\{([^}]+)\}\{([^}]+)\}/g, replacement: '($1/$2)' }, 
+    { regex: /\$/g, replacement: '' }                           
+  ];
+
+  return testArray.map(q => {
+    let enExp = q.content.en.explanation || "";
+    let hiExp = q.content.hi.explanation || "";
+
+    replacements.forEach(({ regex, replacement }) => {
+      enExp = enExp.replace(regex, replacement);
+      hiExp = hiExp.replace(regex, replacement);
+    });
+
+    q.content.en.explanation = enExp;
+    q.content.hi.explanation = hiExp;
+
+    return q;
+  });
+}
+
+// ══════════════════════════════════════════════════════════════════════
+// APPLYING CLEANER TO ALL PREVIOUS PAPER 1 TESTS (Except Jan 2026)
+// ══════════════════════════════════════════════════════════════════════
+
+// Note: Ensure the variable names exactly match the ones you defined for these tests
+if (typeof TEST_JUNE2025_P1 !== 'undefined') cleanMathExplanations(TEST_JUNE2025_P1);
+if (typeof TEST_JAN25_27_S2_P1 !== 'undefined') cleanMathExplanations(TEST_JAN25_27_S2_P1);
+if (typeof TEST_JAN25_21_S1_P1 !== 'undefined') cleanMathExplanations(TEST_JAN25_21_S1_P1);
+if (typeof TEST_JAN25_16_S2_P1 !== 'undefined') cleanMathExplanations(TEST_JAN25_16_S2_P1);
+if (typeof TEST_JAN25_16_S1_P1 !== 'undefined') cleanMathExplanations(TEST_JAN25_16_S1_P1);
+if (typeof TEST_JAN25_10_S2_P1 !== 'undefined') cleanMathExplanations(TEST_JAN25_10_S2_P1);
+if (typeof TEST_JAN25_10_S1_P1 !== 'undefined') cleanMathExplanations(TEST_JAN25_10_S1_P1);
+if (typeof TEST_JAN25_09_S2_P1 !== 'undefined') cleanMathExplanations(TEST_JAN25_09_S2_P1);
+if (typeof TEST_JAN25_09_S1_P1 !== 'undefined') cleanMathExplanations(TEST_JAN25_09_S1_P1);
+if (typeof TEST_JAN25_08_S2_P1 !== 'undefined') cleanMathExplanations(TEST_JAN25_08_S2_P1); // Aaj ka aakhri test
+                                     
