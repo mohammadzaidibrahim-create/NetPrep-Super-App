@@ -11911,12 +11911,12 @@ const TEST_JAN25_09_S1_P1 = [
     "topicHI": "तालिका चार्ट",
     "content": {
       "en": {
-        "question": TABLE_JAN25_9_S1_P1.en + "<br><br><strong>Question:</strong><br> The number of male employees from city B is _____________% of the total number of employees from all the six cities together?",
+        "question": TABLE_JAN25_09_S1_P1.en + "<br><br><strong>Question:</strong><br> The number of male employees from city B is _____________% of the total number of employees from all the six cities together?",
         "options": ["5.25", "7.125", "11.375", "13.725"],
         "explanation": "<strong>Step-by-step Calculation:</strong><br>1. Total employees = 80,000. Male:Female = 9:7 (Total 16 parts).<br>   Total Females = $\\frac{7}{16} \\times 80,000 = 35,000$.<br>2. <strong>City B Total Employees:</strong> 15% of 80,000 = 12,000.<br>3. <strong>City B Female Employees:</strong> 18% of Total Females (35,000) = $0.18 \\times 35,000 = 6,300$.<br>4. <strong>City B Male Employees:</strong> $12,000 - 6,300 = 5,700$.<br>5. <strong>Percentage of Total Employees:</strong> $(\\frac{5700}{80000}) \\times 100 = \\frac{57}{8} = $ <strong>7.125%</strong>."
       },
       "hi": {
-        "question": TABLE_JAN25_9_S1_P1.hi + "<br><br><strong>प्रश्न:</strong><br> शहर B के पुरुष कर्मचारियों की संख्या सभी छह शहरों के कर्मचारियों की कुल संख्या का ____________% है?",
+        "question": TABLE_JAN25_09_S1_P1.hi + "<br><br><strong>प्रश्न:</strong><br> शहर B के पुरुष कर्मचारियों की संख्या सभी छह शहरों के कर्मचारियों की कुल संख्या का ____________% है?",
         "options": ["5.25", "7.125", "11.375", "13.725"],
         "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>1. कुल कर्मचारी = 80,000। पुरुष:महिला = 9:7 (कुल 16 भाग)।<br>   कुल महिलाएँ = $\\frac{7}{16} \\times 80,000 = 35,000$।<br>2. <strong>शहर B कुल कर्मचारी:</strong> 80,000 का 15% = 12,000।<br>3. <strong>शहर B महिला कर्मचारी:</strong> कुल महिलाओं (35,000) का 18% = $0.18 \\times 35,000 = 6,300$।<br>4. <strong>शहर B पुरुष कर्मचारी:</strong> $12,000 - 6,300 = 5,700$।<br>5. <strong>कुल कर्मचारियों का प्रतिशत:</strong> $(\\frac{5700}{80000}) \\times 100 = \\frac{57}{8} = $ <strong>7.125%</strong>।"
       }
@@ -11932,12 +11932,12 @@ const TEST_JAN25_09_S1_P1 = [
     "topicHI": "तालिका चार्ट",
     "content": {
       "en": {
-        "question": TABLE_JAN25_9_S1_P1.en + "<br><br><strong>Question:</strong><br> The number of graduate male employees from city D is approximately____________% of the number of graduate male employees from city B.",
+        "question": TABLE_JAN25_09_S1_P1.en + "<br><br><strong>Question:</strong><br> The number of graduate male employees from city D is approximately____________% of the number of graduate male employees from city B.",
         "options": ["23.2", "24.88", "27.28", "32.52"],
         "explanation": "<strong>Step-by-step Calculation:</strong><br>Total Females = 35,000.<br>1. <strong>City D Male Employees:</strong><br>   Total D = 6% of 80k = 4,800. Female D = 10% of 35k = 3,500.<br>   Male D = $4800 - 3500 = 1300$.<br>   Graduate Male D = 36% of 1300 = $0.36 \\times 1300 = 468$.<br>2. <strong>City B Male Employees:</strong><br>   Total B = 15% of 80k = 12,000. Female B = 18% of 35k = 6,300.<br>   Male B = $12000 - 6300 = 5700$.<br>   Graduate Male B = 33% of 5700 = $0.33 \\times 5700 = 1881$.<br>3. <strong>Required Percentage:</strong> $(\\frac{468}{1881}) \\times 100 \\approx$ <strong>24.88%</strong>."
       },
       "hi": {
-        "question": TABLE_JAN25_9_S1_P1.hi + "<br><br><strong>प्रश्न:</strong><br> शहर D से स्नातक पुरुष कर्मचारियों की संख्या शहर B से स्नातक पुरुष कर्मचारियों की संख्या का लगभग____________% है।",
+        "question": TABLE_JAN25_09_S1_P1.hi + "<br><br><strong>प्रश्न:</strong><br> शहर D से स्नातक पुरुष कर्मचारियों की संख्या शहर B से स्नातक पुरुष कर्मचारियों की संख्या का लगभग____________% है।",
         "options": ["23.2", "24.88", "27.28", "32.52"],
         "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>कुल महिलाएँ = 35,000.<br>1. <strong>शहर D पुरुष कर्मचारी:</strong><br>   कुल D = 80k का 6% = 4,800। महिला D = 35k का 10% = 3,500।<br>   पुरुष D = $4800 - 3500 = 1300$।<br>   स्नातक पुरुष D = 1300 का 36% = $0.36 \\times 1300 = 468$।<br>2. <strong>शहर B पुरुष कर्मचारी:</strong><br>   कुल B = 80k का 15% = 12,000। महिला B = 35k का 18% = 6,300।<br>   पुरुष B = $12000 - 6300 = 5700$।<br>   स्नातक पुरुष B = 5700 का 33% = $0.33 \\times 5700 = 1881$।<br>3. <strong>आवश्यक प्रतिशत:</strong> $(\\frac{468}{1881}) \\times 100 \\approx$ <strong>24.88%</strong>।"
       }
@@ -11953,12 +11953,12 @@ const TEST_JAN25_09_S1_P1 = [
     "topicHI": "तालिका चार्ट",
     "content": {
       "en": {
-        "question": TABLE_JAN25_9_S1_P1.en + "<br><br><strong>Question:</strong><br> What is the ratio of the total number of graduate female employees of city A to the total number of non-graduate female employees from city D?",
+        "question": TABLE_JAN25_09_S1_P1.en + "<br><br><strong>Question:</strong><br> What is the ratio of the total number of graduate female employees of city A to the total number of non-graduate female employees from city D?",
         "options": ["7 : 6", "8 : 7", "6 : 5", "5 : 4"],
         "explanation": "<strong>Step-by-step Calculation:</strong><br>Total Females = 35,000.<br>1. <strong>City A Graduate Females:</strong><br>   Total Females in A = 15% of 35,000 = 5,250.<br>   Graduate Females A = 42% of 5250 = $0.42 \\times 5250 = 2205$.<br>2. <strong>City D Non-Graduate Females:</strong><br>   Total Females in D = 10% of 35,000 = 3,500.<br>   Graduate Females D = 46%. So, Non-Graduate = $100\\% - 46\\% = 54\\%$.<br>   Non-Graduate Females D = 54% of 3500 = $0.54 \\times 3500 = 1890$.<br>3. <strong>Ratio:</strong> 2205 : 1890. Dividing both by 315 gives <strong>7 : 6</strong>."
       },
       "hi": {
-        "question": TABLE_JAN25_9_S1_P1.hi + "<br><br><strong>प्रश्न:</strong><br> शहर A की स्नातक महिला कर्मचारियों की कुल संख्या का शहर D की गैर-स्नातक महिला कर्मचारियों की कुल संख्या से अनुपात क्या है?",
+        "question": TABLE_JAN25_09_S1_P1.hi + "<br><br><strong>प्रश्न:</strong><br> शहर A की स्नातक महिला कर्मचारियों की कुल संख्या का शहर D की गैर-स्नातक महिला कर्मचारियों की कुल संख्या से अनुपात क्या है?",
         "options": ["7 : 6", "8 : 7", "6 : 5", "5 : 4"],
         "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>कुल महिलाएँ = 35,000।<br>1. <strong>शहर A स्नातक महिलाएँ:</strong><br>   A में कुल महिलाएँ = 35,000 का 15% = 5,250।<br>   स्नातक महिलाएँ A = 5250 का 42% = $0.42 \\times 5250 = 2205$।<br>2. <strong>शहर D गैर-स्नातक महिलाएँ:</strong><br>   D में कुल महिलाएँ = 35,000 का 10% = 3,500।<br>   स्नातक महिलाएँ D = 46%। तो, गैर-स्नातक = $100\\% - 46\\% = 54\\%$।<br>   गैर-स्नातक महिलाएँ D = 3500 का 54% = $0.54 \\times 3500 = 1890$।<br>3. <strong>अनुपात:</strong> 2205 : 1890। दोनों को 315 से विभाजित करने पर <strong>7 : 6</strong> प्राप्त होता है।"
       }
@@ -11974,12 +11974,12 @@ const TEST_JAN25_09_S1_P1 = [
     "topicHI": "तालिका चार्ट",
     "content": {
       "en": {
-        "question": TABLE_JAN25_9_S1_P1.en + "<br><br><strong>Question:</strong><br> The number of male employees from city C is approximately_________________% more than the number of female employees from city F.",
+        "question": TABLE_JAN25_09_S1_P1.en + "<br><br><strong>Question:</strong><br> The number of male employees from city C is approximately_________________% more than the number of female employees from city F.",
         "options": ["6", "8", "10", "14"],
         "explanation": "<strong>Step-by-step Calculation:</strong><br>Total Employees = 80,000. Total Females = 35,000.<br>1. <strong>City C Male Employees:</strong><br>   Total C = 20% of 80k = 16,000.<br>   Female C = 16% of 35k = 5,600.<br>   Male C = $16000 - 5600 = 10,400$.<br>2. <strong>City F Female Employees:</strong><br>   Female F = 27% of 35k = 9,450.<br>3. <strong>Difference:</strong> $10400 - 9450 = 950$.<br>4. <strong>Percentage More:</strong> $(\\frac{950}{9450}) \\times 100 \\approx 10.05\\%$, which is approximately <strong>10%</strong>."
       },
       "hi": {
-        "question": TABLE_JAN25_9_S1_P1.hi + "<br><br><strong>प्रश्न:</strong><br> शहर C के पुरुष कर्मचारियों की संख्या शहर F की महिला कर्मचारियों की संख्या से लगभग _________________% अधिक है।",
+        "question": TABLE_JAN25_09_S1_P1.hi + "<br><br><strong>प्रश्न:</strong><br> शहर C के पुरुष कर्मचारियों की संख्या शहर F की महिला कर्मचारियों की संख्या से लगभग _________________% अधिक है।",
         "options": ["6", "8", "10", "14"],
         "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>कुल कर्मचारी = 80,000। कुल महिलाएँ = 35,000।<br>1. <strong>शहर C पुरुष कर्मचारी:</strong><br>   कुल C = 80k का 20% = 16,000।<br>   महिला C = 35k का 16% = 5,600।<br>   पुरुष C = $16000 - 5600 = 10,400$।<br>2. <strong>शहर F महिला कर्मचारी:</strong><br>   महिला F = 35k का 27% = 9,450।<br>3. <strong>अंतर:</strong> $10400 - 9450 = 950$।<br>4. <strong>प्रतिशत अधिक:</strong> $(\\frac{950}{9450}) \\times 100 \\approx 10.05\\%$, जो लगभग <strong>10%</strong> है।"
       }
@@ -11995,12 +11995,12 @@ const TEST_JAN25_09_S1_P1 = [
     "topicHI": "तालिका चार्ट",
     "content": {
       "en": {
-        "question": TABLE_JAN25_9_S1_P1.en + "<br><br><strong>Question:</strong><br> What is the difference between the total number of graduate male employees and the total number of graduate female employees taking all the six cities together?",
+        "question": TABLE_JAN25_09_S1_P1.en + "<br><br><strong>Question:</strong><br> What is the difference between the total number of graduate male employees and the total number of graduate female employees taking all the six cities together?",
         "options": ["701", "702", "703", "704"],
         "explanation": "<strong>Step-by-step Calculation:</strong><br>Calculate Graduate Males and Females for each city (Total F=35000, Total M=45000, but Males vary per city):<br>• <strong>A:</strong> F=5250 (Grad F = 42% = 2205). M = (24% of 80k) - 5250 = 19200 - 5250 = 13950 (Grad M = 26% = 3627).<br>• <strong>B:</strong> F=6300 (Grad F = 37% = 2331). M = 12000 - 6300 = 5700 (Grad M = 33% = 1881).<br>• <strong>C:</strong> F=5600 (Grad F = 38% = 2128). M = 16000 - 5600 = 10400 (Grad M = 41% = 4264).<br>• <strong>D:</strong> F=3500 (Grad F = 46% = 1610). M = 4800 - 3500 = 1300 (Grad M = 36% = 468).<br>• <strong>E:</strong> F=4900 (Grad F = 51% = 2499). M = 7200 - 4900 = 2300 (Grad M = 47% = 1081).<br>• <strong>F:</strong> F=9450 (Grad F = 56% = 5292). M = 20800 - 9450 = 11350 (Grad M = 48% = 5448).<br><strong>Totals:</strong> Grad Males = $3627 + 1881 + 4264 + 468 + 1081 + 5448 = 16769$.<br>Grad Females = $2205 + 2331 + 2128 + 1610 + 2499 + 5292 = 16065$.<br><strong>Difference:</strong> $16769 - 16065 =$ <strong>704</strong>."
       },
       "hi": {
-        "question": TABLE_JAN25_9_S1_P1.hi + "<br><br><strong>प्रश्न:</strong><br> सभी छह शहरों में स्नातक पुरुष कर्मचारियों की कुल संख्या और स्नातक महिला कर्मचारियों की कुल संख्या के बीच क्या अंतर है?",
+        "question": TABLE_JAN25_09_S1_P1.hi + "<br><br><strong>प्रश्न:</strong><br> सभी छह शहरों में स्नातक पुरुष कर्मचारियों की कुल संख्या और स्नातक महिला कर्मचारियों की कुल संख्या के बीच क्या अंतर है?",
         "options": ["701", "702", "703", "704"],
         "explanation": "<strong>चरण-दर-चरण गणना:</strong><br>प्रत्येक शहर के लिए स्नातक पुरुषों और महिलाओं की गणना करें:<br>• <strong>A:</strong> महिला=5250 (स्नातक=2205)। पुरुष = 19200-5250 = 13950 (स्नातक=3627)।<br>• <strong>B:</strong> महिला=6300 (स्नातक=2331)। पुरुष = 12000-6300 = 5700 (स्नातक=1881)।<br>• <strong>C:</strong> महिला=5600 (स्नातक=2128)। पुरुष = 16000-5600 = 10400 (स्नातक=4264)।<br>• <strong>D:</strong> महिला=3500 (स्नातक=1610)। पुरुष = 4800-3500 = 1300 (स्नातक=468)।<br>• <strong>E:</strong> महिला=4900 (स्नातक=2499)। पुरुष = 7200-4900 = 2300 (स्नातक=1081)।<br>• <strong>F:</strong> महिला=9450 (स्नातक=5292)। पुरुष = 20800-9450 = 11350 (स्नातक=5448)।<br><strong>कुल:</strong> स्नातक पुरुष = 16769।<br>स्नातक महिलाएँ = 16065।<br><strong>अंतर:</strong> $16769 - 16065 =$ <strong>704</strong>।"
       }
