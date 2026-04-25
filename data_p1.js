@@ -2740,6 +2740,28 @@ const TEST_JAN_2026_P1 = [
   }
 ];
 
+/* ══════════════════════════════════════════════════════════════════════
+   🚀 DI SPACING FIX PATCH: JUNE 2025 (Q1-Q5 ONLY)
+══════════════════════════════════════════════════════════════════════ */
+if (typeof TEST_JUNE25_S1_P1 !== 'undefined') {
+  TEST_JUNE25_S1_P1.forEach(q => {
+    
+    // DI SPACING FIX: Q1 se Q5 me chhuphe hue 'Enter' (\n) ko mitana
+    // (Taaki index.html unhe <br> banakar faaltu gap na de)
+    const qNum = parseInt(q.id.split('-q')[1]);
+    
+    if (qNum <= 5) {
+      if (q.content.en && q.content.en.question) {
+        q.content.en.question = q.content.en.question.replace(/\n/g, '');
+      }
+      if (q.content.hi && q.content.hi.question) {
+        q.content.hi.question = q.content.hi.question.replace(/\n/g, '');
+      }
+    }
+   
+  });
+}
+
 const TEST_JAN25_27_S2_P1 = [
   {
     "id": "jan25-27-s2-p1-q01",
